@@ -14,9 +14,13 @@ Log-based Anomaly Detection for Unseen Logs via Source Code Feature Extraction
 `sentilog`: this directory contains the code of paper HotStorage'21 *SentiLog: Anomaly Detecting on Parallel File Systems via Log-based Sentiment Analysis.*, which shows how we extract the sentiment features in Drill.
 
 ## Dependencies ##
+
 pytorch: `pip3 install torch`
+
 d2l: `pip3 install d2l`
+
 sklearn: `pip3 install scikit-learn`
+
 jupyter notebook: `pip3 install notebook`
 
 ## How to Run ##
