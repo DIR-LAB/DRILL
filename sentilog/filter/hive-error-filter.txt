@@ -1,0 +1,1068 @@
+error while process cooky from header
+get interrupted fail push segments
+fail push segments
+error clean base persist directory
+issue with lifecycle start
+exception while try create druid segment table
+unable fetch kafka supervisor status full response
+exception while fetch kafka ingestion spec from druid
+error while check url
+error while delete segment
+error while commit transaction druid metadata storage
+get exception while clean work directory
+exception while deserializing druid query explain plan may not have final druid query
+url malformed address
+can not serialize the query
+error remove datasource
+failure get result for query from host because
+expect range from but get
+expect range from but get
+could not add table
+could not add index table
+accumulo security violation create
+accumulo table do not exist cannot be created
+not authorize write table
+constraint violation
+could not instantiate accumuloserdeparameters
+could not add necessary dependency for
+fail scan index table
+can not construct file system instance
+can not fetch transaction state due
+can not fetch build produce due
+commit transaction fail
+partial data get commit some action be do
+transaction an orphen commit
+faild clean query work directory due
+can not generate full scan split
+have issue with trimmer will return full scan
+abort transaction cause by error
+close writer cause by error
+maybe try increase retry backoff ms avoid error
+abort transaction fail due
+abort transaction cause by error
+close writer cause by error
+send exception abort write from writerid
+error while look offset for time
+error in postexechook
+error in preexechook
+error in semantic analysis hook preanalyze
+error in semantic analysis hook postanalyze
+encounter insert event when be not expect
+fail list file in
+task interrupted
+task interrupted
+creation new catalog failed abort test
+creation new catalog failed abort test
+task interrupted
+fail getquerylog error message
+get log thread interrupted error message
+fail due exception
+confirmation error
+fail clean the key create in test due the error
+fail during cleanup processline with code ignore
+error close spark session
+fail create path continuing exception message
+fail create path continuing exception message
+fail create path continuing exception message
+can not remove schedule query
+fail run rpc server on port
+fail check for tokenrenewinterval bug hop for the best
+error close the signer
+fail start sparkcontext
+shut down spark remote driver due error
+fail run client job
+error in rpc handler
+receive error message
+close channel due exception in pipeline
+fail send test message hiveserver
+fail get application status for
+fail stop yarn client
+fail get application status for
+fail stop yarn client
+bad url ignore path
+driver thread fail
+exception while wait for driver future complete
+fail while write row
+fail get vertex complete task count for sourcename
+fail get total task count for sourcename
+fail update guarantee count in registry ignore
+could not determine containerid for task
+task appear have be deallocated twice
+task
+the task have guarantee flag set before scheduling
+exception when report service unavailable error for dag
+scheduler thread be interrupte without shutdown will now exit
+fatal error scheduler thread have fail will now exit
+report fatal error llap token appear be invalid
+fail send state update node kill all attempt run on
+could not read the plugin token from
+unable create znode for server instance
+unable update znode with new service record
+unable create parent znode for the registry
+unable decode data for zkpath
+unable decode data for zknode
+unable start curator pathchildrencache
+interrupt while retry the pathchildrencache startup
+unable start curator pathchildrencache
+cannot parse from
+error close the coordinator ignore
+cannot get token try different instance
+error close input stream
+error close client
+close recordreader due error hit another error during close
+cannot close the socket on error
+error during responder execution
+task kill
+error during responder execution
+unable create znode for server instance
+unable decode data for zkpath
+cannot list nod get slots fail
+delete node
+create node path
+watch node
+error get data for the node will retry create
+fail fetch arrow batch
+close connection due error
+error while close connection for
+error during heartbeat responder
+error during heartbeat responder
+error during heartbeat responder
+error during heartbeat responder
+testcustomperms failed
+error in drop table
+exiting get exception from metastore
+error in set schema field for the table
+exception encounter while set testcase
+unable open the metastore
+unable close metastore
+out
+dohttpcall fail
+open token null
+fail delete token crc file
+command failed res
+bug configuration not yet load
+unable parse options
+server fail start
+exception encounter in tryreconnecttorunningjob
+templeton state error
+templeton execute error
+cleanup cycle failed
+close file system failed
+cleanup failed
+cleanup cycle failed
+cleanup failed
+error track jobid
+could not find
+could not create storage
+templeton bug
+serialization error
+serialization error
+unexpected exception
+unexpected exception
+unexpected exception
+unexpected exception
+unexpected exception
+unexpected exception
+unexpected exception
+unexpected exception
+unexpected exception
+unsupported hcataddpartitiondesc require hcattable be specify explicitly
+error when read record
+fail build option list
+could not create jms session
+unable close bad jms session ignore error
+seem like connection lost will retry retry leave error was
+fail send message on topic
+unable close bad jms connection ignore error
+could not create jms session ignore the error
+jms exception listener receive exception ignore the error
+jndi error while set message bus connection
+fail initialize connection message bus
+unable connect jms provider
+could not close jms connection ignore the error
+encode file uri fail with error
+driver load or connection issue
+underlie sql exception
+underlie sql exception during close
+statement failed
+thread died
+txnbatch close failed
+statement failed
+hiveendpoint must use an acid table
+heartbeat failure
+fatal error on cause
+fatal error on cause
+unable close due to
+fatal error on cause
+fail execute initial sql
+fail read initial sql file
+error send client info
+fail copy file reload folder
+vendor do not support iscollectionusagethresholdsupported isusagethresholdsupported
+fail delete
+error create file in
+the jar file path do not exist
+invalid file path
+unable resolve my host name
+performance logger class not found
+could not find compatlevel for
+fail execute the command due the exception
+catch an exception while process jmx request
+catch an exception while process jmx request
+get attribute
+get attribute
+get attribute
+get attribute
+problem while try process jmx query
+problem while try process jmx query
+get attribute throw an exception
+get attribute throw an exception
+get attribute throw an exception
+get attribute throw an exception
+error configure log via conflog endpoint
+catch an exception while process log configuration request
+cannot create ugi reflection method
+error load shim
+preupgradetool fail
+init
+unexpected state for
+thread exit with error
+fail execute command due the error
+fail due the error
+fail write tmp file due the exception
+not get uris from conf
+error while set delegation token for
+exception load uri resolver hook
+could not create client transport
+unable connect metastore with uri
+create rollback fail with
+unable resolve my host name
+unable resolve current user name
+unable resolve my host name
+request event be find miss in notification log table expected actual
+metastore thrift server throw an exception
+unable connect metastore server
+unable get metastore uri from the zookeeper
+error roll back
+error initialize sequence value
+unable determine database product
+unable truncate table
+unable determine database product
+error close resultset
+unexpected exception
+unexpected exception
+unexpected exception
+exception while retriveing partition
+different results
+different results
+unable convert json string
+fail create temp file for json metric
+fail create temp file for json metrics no permission
+fail create temp file for json metrics operartion not support
+unable write temp file
+unable rename temp file
+exception during rename
+fail delete temporary metric file
+exception while try delete
+exception while try delete
+alter table operation for failed
+alter table operation for
+fail alter table
+fail restore data from
+fail restore data from
+cannot rename partition directory from
+cannot rename partition directory from
+fail rename partition rollback transaction
+revert the data move in rename partition
+fail restore partition data from
+fail restore partition data from
+unable find driver class
+fail rollback everything will probably go bad from here
+fail rollback everything will probably go bad from here
+fail rollback everything will probably go bad from here
+statement fail
+catch ioexception try read modify create user script
+fail connect rdbms
+get sqlexception
+fail rollback everything will probably go bad from here
+fail rollback everything will probably go bad from here
+metatooltask fail on listexttbllocs test
+unable connect transaction database
+unable set cq state for compaction record
+unable select next element for compaction
+unable set cq state for compaction record updcnt
+unable update compaction queue
+unable select next element for cleaning
+unable delete compaction record update count
+unable delete from compaction queue
+unable delete from txns table
+unable delete from txns table
+unable change dead worker record back initiate state
+unable change dead worker record back initiate state
+unable check for fail compaction
+unable connect transaction database
+markfailed failed
+sethadoopjobid failed
+unable getminopentxnidforcleaner
+unable execute findmintxnidseenopen
+unable getcompactionbytxnid
+unexpected error in thread message
+unable instantiate raw store directly in fastpath mode
+unexpected error in thread message
+unexpected error in thread message
+opentxntimeout exceed commit duration delete transactionids
+exception during write id allocation for request will retry if possible
+enqueuelock fail for request exception msg
+failure get next lock id for update select query return empty resultset
+checklock fail for extlockid    txnid exception msg
+checklock fail for request exception msg
+unlock fail for request exception msg
+fatal error in retry limit reached last error
+too many repeat deadlock in give up
+failure update lock extlockid intlockid with the block lock id
+failure acquire all lock acquired total needed
+failure update last heartbeat for extlockid
+can neither heartbeat txn txnid nor confirm invalid
+fail purge timed out locks
+fail purge timed out locks
+transaction database not properly configured
+open transaction count above
+cache update should be do only after prewarm
+cache update fail for start event id with error
+event id not valid
+catalog event be not support for cache invalidation
+event not support for cache invalidation
+fail update cache use event
+periodical refresh fail
+prewarm failure
+update cachedstore error happen when refresh skip iteration
+fail update cache
+error while get object size
+not able estimate size
+should not reach here
+unexpected exception
+exception while try delete
+fail notify meta listener on shutdown
+unable load class
+unable create instance class
+fail retrieve just add admin role
+fail add in admin role
+no such catalog
+could not delete external directory after be create for database
+fail delete database directory
+fail delete database directory
+fail delete table directory
+fail delete partition directory
+fail delete directory
+unable get partition for
+unable instantiate class
+exception catch in mark partition event
+exception catch in mark partition event
+exception catch for ispartitionmarkedforevent
+exception catch for ispartitionmarkedforevent
+fail get checksum for the file with error
+not authorize make the get next notification call you can try disable
+not authorize make the get current notificationeventid call you can try disable
+not authorize make the get notification events count call you can try disable
+cannot obtain username
+exception throw while query metastore db uuid
+exception while try persist resource plan
+exception while try retrieve resource plan
+exception while try retrieve resource plan
+exception while try alter resource plan
+exception while try get active resource plan
+exception while try validate resource plan
+exception while try drop resource plan
+exception while try create trigger
+exception while try alter trigger
+exception while try drop trigger
+exception while try retrieve trigger plan
+exception while try alter wmpool
+exception while try create wmpool
+exception while try drop wmpool
+exception while try create or update wmmapping
+exception while try drop wmmapping
+exception while try create or drop pool mapping
+catch exception create schema
+catch exception alter schema
+catch exception get schema
+catch exception drop schema
+catch exception add schema version
+catch exception get schema version
+catch exception get latest schema version
+catch exception get all schema version
+catch exception drop schema version
+catch exception do schema version query
+catch exception map schema version serde
+catch exception change schema version state
+catch exception create serde
+catch exception get serde
+catch exception
+catch exception
+catch exception
+catch exception
+catch exception
+catch exception
+catch exception
+catch exception
+catch exception
+catch exception
+catch exception
+catch exception
+error in metric deinit
+error remove znode for metastore instance from zookeeper
+error in metric init
+error add metastore instance zookeeper
+failure when start the compactor compaction may not happen
+fail cache file metadata in background for
+cannot cache file metadata for
+hmshandler fatal error
+error happen in method
+hmshandler fatal error
+could not clean file system handle for ugi
+unable load class
+unable create instance class
+error load partitionexpressionproxy
+unbalance call open commit transaction
+unbalance call open commit transaction
+directsql fail
+could not convert mtable
+exception in orm
+alterpartition fail
+alter fail
+error retrieve statistic via jdo
+error retrieve statistic via jdo
+error update part
+could not clear stats for table
+version information find in metastore differ
+database do not exist
+could not get lock for update
+unable delete batch notification event
+schedule query stick with an activeexecution clear
+exception receive while get partition use project field
+get invocationtargetexception
+get exception
+metastore thrift server throw an exception
+unable connect metastore server
+fail close query
+exception while get connection url from the hook
+error while commit txnid for table
+error while abort txnid for table
+fail save metacheck output
+unexpected error in thread message
+exception while run partition discovery task for table
+exception while run partition discovery task for table
+exception receive while list partition directory
+error load partitionexpressionproxy
+exception while try delete event
+receive incorrect messageformat
+regex pattern compilation failed verify
+cannot decode the stream
+could not use gzip output stream
+something go wrong with the cleanup txns
+something go wrong with the cleanup txns
+should be directory
+fail write
+unable resolve my host name
+unable create znode with path prefix data
+unable create namespace on zookeeper
+fail close the persistent ephemeral znode
+could not clean file system handle for ugi
+fail delete
+unable resolve my host name
+convert exception metaexception
+bad url ignore path
+not get uris from conf
+error while set delegation token for
+exception load uri resolver hook
+could not create client transport
+fail create client transport
+fail connect metastore with uri
+create rollback fail with
+create rollback fail with
+unable resolve my host name
+unable resolve current user name
+unable resolve my host name
+notification log table have multiple event with the same event id
+request event be find miss in notification log table expected actual
+exception when clear cmroot
+unable set permission correspond hive warehouse on cmroot
+fail on start the thread race
+fail on task
+fail on downtask
+fail on sametask
+fail allocate
+fail
+fail
+test callable fail
+defragmentation thread fail
+fail allocate
+watcher interrupt before be shutdown
+watchexpirer interrupt before be shutdown
+shuffle error in populate header fatal diskerrorexception
+shuffle error in populate header
+shuffle error
+shuffle error
+shuffle error
+error dump the list on error
+cleanup have failed the thread will now exit
+fail
+decodebatch throw
+unhandled error from reader thread threadname threadid
+orc encoder time out wait for input
+orc encoder interrupt wait for input
+orc encoder fail
+fail close an async cache writer
+get
+ignore codec cleanup error
+cannot check the reader for compression offset not support
+encode allocation size be cap the maximum
+exception while process
+fail close source reader
+fail close source reader
+fail close source reader
+fail cache async data
+fail close orc writer
+fail close cache writer
+fail close current file reader
+invalid app name must be setup via config or pas in parameter
+llap do not start check the application log for more info
+failed
+parse the command line argument fail
+cannot verify jwt provide with the request fragmentid
+amreporter queuedrainer exit with error
+unregistering task from amreporter fail
+teztaskrunner execution fail for
+fail run
+cannot download for
+ignore this log line interact with logger
+fail process query complete for external submission
+cannot find
+fail start llap daemon with exception
+thread throw an error shut down now
+thread throw an exception shut down now
+wait queue scheduler worker exit with success
+wait queue scheduler worker exit with failure
+fail notification received stacktrace
+exception while process lock stats request
+catch an exception while process status request
+catch an exception while process status request
+catch exception while process llap status request
+catch exception while process llap system web service request
+exception during download standalone jdbc jar
+no jdbc standalone jar find in the directory
+multiple jdbc standalone jar exist in the directory
+catch exception while process llap status request
+catch an exception while write an http error status
+catch an exception while write an http response
+invalid token with miss attribute
+invalid token string
+login attempt fail for user error messsage
+unable create namespace on zookeeper
+unable kill local query
+unable the get available server host
+unable determine the server host
+unable create barrier on zookeeper for killquery
+error add hiveserver instance zookeeper
+error start priviledge synchronizer
+error start web ui
+error start tez sessions
+unable close all open sessions
+error while stop tez session pool manager
+error while stop workload manager
+error stop schq
+error stop web ui
+error in metric deinit
+error remove znode for hiveserver instance from zookeeper
+spark session pool manager fail stop during hiveserver shutdown
+error initialize log
+error start hiveserver
+error deregistering hiveserver instance for version
+no hiveserver instance be run in ha mode
+cannot find any hiveserver instance with workeridentity
+only one hiveserver instance run in thefail cluster cannot failover
+hiveserver instance workeridentity not leader cannot failover
+unable determine web port for instance
+unable failover hiveserver instance
+error list hiveserver ha instance from zookeeper
+error list hiveserver ha instance from zookeeper
+kill query fail for queryid
+kill query fail for query
+exception catch by
+stop hiveserver due oom
+error
+login attempt fail for user
+fail authenticate with hive  host kerberos principal
+login attempt fail for user
+error obtain delegation token
+error cancel delegation token
+error obtain renew token
+login attempt fail for user error messsage
+exception catch by
+error stop http server
+error set keep alive
+error create plain sasl transport
+fail after retries
+fail on initialize global hiverc file
+fail cleanup session log dir
+error start service
+unreadable due to
+do not match
+execution fail with exit status
+initialization error
+udfhellotest expect exactly argument
+reload auxiliary jar test fail with message
+fail close the create session
+refresh exist jar file case fail with message
+fail close the create session
+uncaught exception from
+write cancel on id
+write error on id
+close cancel on id
+close fail on id
+error flush stream before close on
+arrow memory leak bytes
+write cancel on id
+write error on id
+close cancel on id
+close fail on id
+unable instantiate class
+unable instantiate class
+unable instantiate class
+catch an exception in the main loop compactor cleaner
+compactor cleaner thread interrupted exit
+could not clean file system handle for ugi for
+catch exception when cleaning unable complete clean
+error do query base compaction major minor
+unable drop temp table which be create for run compaction
+unable find partition
+do not refer single partition
+could not clean file system handle for ugi
+unable stat file either current user
+unable resolve my host name
+gatherstats
+error while heartbeating txn in error
+fail connect hm
+attempt compact sort table which not yet supported
+catch exception while try compact
+catch an exception in the main loop compactor worker
+catch an exception in the main loop compactor worker
+could not clean file system handle for ugi for
+catch an exception while try mark compaction failed
+metastore client be null could not open new transaction
+metastore client be null could not commit txn
+catch an exception while commit compaction txn in worker
+metastore client be null could not abort txn
+catch an exception while abort compaction txn in worker
+unable find table
+unable get partition by name for compactioninfo
+catch exception while try determine if should compact
+initiator loop catch unexpected exception time through the loop
+catch an exception in the main loop compactor initiator exit
+catch exception while try determine if should compact
+could not clean file system handle for ugi for
+be assume base directory but it file
+be assume delta directory
+catch exception while check compaction eligibility
+catch exception while mark compaction failed
+unable find table
+unable get partition by name for compactioninfo
+unable get partition by name for compactioninfo
+fail create cache entry for query result for query
+error remove cache entry
+error while try delete
+fail with error
+thread exit with error
+not update database location for since an error be encountered
+error process database
+error process table
+error encounter
+upgradetool fail
+init
+could not determine if
+operator translation not support yet in return path
+fail instantiate udf
+column for primary key definition not find
+column for unique constraint definition not find
+table for primary key not found
+column for foreign key definition not find
+exception in hivepointlookupoptimizerrule
+statspublishing error statspublisher not initialized
+nullscanoptimizer could not complete may miss eliminate some null scan
+unable instantiate input format class cannot determine vectorization support
+reducesinkoperator do not have columnexprmap
+error create min max aggregation on key
+error create min max aggregation on key
+fail replace expression with default partition
+fail replace default partition
+fail apply the expression
+fail deserialize the expression
+serde init fail for serde class
+the udf implementation class
+reverse look column error
+can not resolve
+unable evaluate return value unrecoginizable
+evaluation function fail in constant propagation optimizer
+invalid column stats no null cardinality
+fail return the session sessionmanager
+hivemetastoreauthorizer onevent fail
+authorization error
+accesscontrolexception
+error initialize privilegesynchronizer
+could not construct partition object for
+unable create msck instance
+msck failed
+ddltask failed ddl operation
+fail
+fail reload function
+fail drop function
+exception catch in checklocalfunctionresources
+fail add function the metastore
+fail create function
+fail get database
+ddltask rename table not allow bootstrap dump in progress
+alter table update columns
+alter table
+get hiveexception during obtain list partition
+ddltask rename partition not allow bootstrap dump in progress
+error list file
+fail get type info
+fail activate resource plan
+fail disable workload management
+cbo failed skip cbo
+cbo fail due miss column stats see previous errors skip cbo
+cannot find destination after cbo new ast
+analyzecreatetable fail initialize ctas after cbo new ast
+analyzecreatetable fail initialize materialize view after cbo new ast
+column for not null constraint definition not find
+column for not null constraint definition not find
+db name cannot be replace in the replication policy
+cannot dump database
+cannot dump database target replication repl target for
+fail copy
+fail create destination directory
+file copy fail even after several attempts file list
+file copy fail likely source file delete or modified
+file copy failed both source cm file be miss from source
+distcp fail copy files destination
+fail
+could not serialize repl log
+fail load insert event
+fail determine if the table associate with the event external or not
+metric be not get persist
+fail find table get exception
+fail find table get exception
+table view or materialize view
+error process hiveparser tok destination
+cannot find colinfo for derive from in
+fail group clause by common spray keys
+unexpected error while reparsing the query string
+error remove fail cache entry
+can not make path
+the current position in the file
+the current consume bytes
+the byte for the current record is
+expect byte for the record content but read byte reach the end file
+the current position in the file
+the current consume bytes
+the byte for the current record is
+expect byte for the record end symbol but read byte reach the end file
+the current position in the file
+the current consume bytes
+the byte for the current record is
+error at row column
+error check non combinable path
+setvalidwriteidlist on table
+fail create due to
+thread clear context for
+cannot check the reader for compression offset not support
+io thread interrupt while queue data
+error get stream for
+io thread interrupt while queue data
+error during the cleanup after another error ignore
+error during the cleanup an error ignore
+ignore error from codec
+fail un compress read coffset
+ignore the cleanup error after another error
+bug release initial refcount stream start
+bug release initial refcount stream start
+error get stream for column
+error during the cleanup after another error ignore
+error during the cleanup after another error ignore
+fail build predicate filter leaf with error
+fail create the vectorized reader due exception
+metastore could not find
+metastore could not find
+metastore could not find
+metastore could not find
+unable find lock
+unable find transaction
+catch exception with message
+fail try heartbeat queryid currentuser
+fail try acquire lock
+unable acquire lock for lockid after retry retries take ms queryid
+metastore could not find
+dump lock info for failed
+metastore could find no record lock
+fail create curatorframework object
+error in acquirelocks
+serious zookeeper exception
+other unexpected exception
+exceed maximum retry with errors
+fail release zookeeper lock
+fail release all locks
+error in get data for
+fail close zookeeper client
+fail create zookeeper object
+fail run
+exception while acquire valid txn list
+fail reload auxiliary jar file
+unable list llap instances err
+error while purge llap io cache err
+unexpected exception while serialize json
+unexpected exception while serialize json
+not set log disabled
+unable intialize logger log disabled
+get ioexception while try rollover
+error write proto message for query eventtype
+error tyring get localhost address
+error try get llap instance
+get exceptoin while process event
+recompilation the query failed unexpected
+error parse hive history log file
+skewjoin will be disable due
+fail delete path
+copytask fail
+unable add settable data udf
+exception
+sample error
+hit error while close operator fail tree
+execution fail with exit status
+get exception
+exception
+execution fail with exit status
+exception
+error close
+error close
+try close the writer an ioexception occurred
+error close rowoutwriter
+statspublishing error statspublisher not initialized
+statspublishing error cannot connect database
+fail publish stats
+fail close stats
+error in executetask
+attempt use the fact data sort when the conditionevaluator not
+initialization fail for serializer
+fail cache plan
+error in move file destination
+exception in get dir status
+bad url ignore path
+error during jdbc connection
+error prepare jdbc statement
+fail delete
+statspublishing error cannot connect database
+fail
+fail run stats task
+runtimeexception while load atlas metadata
+fail collect replication metrics
+exception while load atlas metadata
+fail collect replication metrics
+exception occur while close resources
+runtimeexception during ranger dump
+fail collect replication metrics
+ranger dump failed
+fail collect replication metrics
+could not traverse the file via remote iterator
+fail collect replication metrics
+unable read list from back file
+exception while save the list file
+exception while close the file list back file
+fail collect metric
+runtimeexception while dump atlas metadata
+fail collect replication metrics
+exception while dump atlas metadata
+fail collect replication metrics
+runtime excepton during rangerload
+fail collect replication metrics
+rangerload fail
+fail collect replication metrics
+replication fail
+previous dump fail with non recoverable error need manual intervention
+replication fail with run time exception
+fail collect replication metrics
+fail collect replication metrics
+fail reset the db state for
+replication fail with run time exception
+fail collect replication metrics
+fail collect replication metrics
+pause wait interrupted
+exception while log metric
+fail get dest
+fail get src
+movetask fail
+initialize fail
+close operator  exception
+hash table memory usage not set in map join operator non staged load may fail
+fail return session pool
+fail execute tez graph
+could not parse
+no cluster information available allocate no guarantee task will be use
+there be nod with unknown executor count only
+fail update guarantee task count for the session
+fail kill the session
+fail close
+fail close an unneeded session
+fail close an unneeded session
+exception while move session
+exception while kill session
+hit error while close operator fail tree
+error get tez method
+could not stop tez dags
+hit error while close operator fail tree
+cannot recover from fatal error
+hit error while close operator fail tree
+could not find the jar be be upload
+workload management fatal error
+wm thread encounter an error but will attempt continue
+fail kill will try restart be instead
+fail restart an old session ignore
+fail close an old session ignore
+fail delete an old path ignore
+internal error cannot find the context for kill
+one query kill several time internal error
+fail move session session not add destination
+fail move session session not remove from it pool
+validation fail for move session invalid move or session pool get removed
+cannot remove initialize session from the pool
+cannot add new session the pool
+session be not in the pool internal error
+unexpected during add session another pool if remove fail should not have be called
+session be not add pool
+error get description
+unknown schedule policy use fair
+fail retry propagate original error the new error
+fail restart fail session
+expecting received
+expect single field in input
+fail close the reader ignore
+fail close or restart session ignore
+fail expire session ignore
+fail start tez session
+fail delete the old resource directory
+generate output obj inspector from dummy object error
+get database fail with exception
+get table fail with exception
+operation type not support
+repltxntask fail
+process the spill data fail due kryo error
+clean all spill data
+tag find in key will be removed should not happen
+there not enough memory allocate
+error delete tmp file
+error delete tmp file
+error in serialize the row
+error in write script
+script fail with code
+get exception
+script exit with code
+script have not exit yet will be killed
+bad task log url
+error while read from task log url
+unable move
+unable load resource for
+not valid udf class be not registered
+unable load udf class
+error in close loader
+not valid udf class be not register
+unable initialize vectorfilesinkarrowoperator
+fail convert vectorizedrowbatch arrow batch
+fail write arrow stream schema
+fail close arrow stream
+fail
+run explain user level have problem
+throw exception
+fail run job
+fail run job
+fail run job
+spark job fail
+error serialize job configuration
+error close output stream
+hit error while close operator fail tree
+fail execute spark task getid
+fail return the session sessionmanager
+fail get spark job information
+error while generate explain plan for
+fail close hive on spark session
+get instead string
+json parsing evaluation exception
+the input not valid json string
+the input not valid url string skip such error message in the future
+get instead string
+get instead int
+error close driver resource
+rollback failed
+exception while poll schedule query
+exception while update schedule execution status of
+unexpected exception during schedule query submission
+progressreporter encounter exception
+javascript script engine not found therefore partition filter
+unable get field from serde
+could not delete partition directory content after fail partition creation
+could not delete partition directory content after fail partition creation
+error list file
+exception when load partition with parameter
+copy fail for source destination
+fail get source file status
+fail get dest
+fail get src
+fail move
+fail move
+fail move
+fail delete
+cannot initialize metastore due autocreate error
+problem connect the metastore when initialize the view registry
+problem connect the metastore when refresh the view registry
+problem connect the metastore when initialize the view registry
+unable get col from serde
+error process notification event
+error poll for notification event
+fail delete temp table directory
+error get query id query level hm cache will be disable
+fail retrieve table statistics
+stats updater thread cannot retrieve table will now exit
+fail process skip for now
+cannot get writeids for transactional table skip
+fail get partition for skip some partition
+cannot retrieve exist stats skip
+error from gettableswithstats get all the table
+analyze command failed
+fail close the session
+publisher aggregator class cannot be loaded
+fail create dir
+fail check if dir exist
+fail delete stats dir
+com sun management hotspotdiagnosticmxbean not supported
+fail inject operation dumpheap
+cannot find method dumpheap in com sun management hotspotdiagnosticmxbean
+fail remove correspond log file operation
+fail while close remotefssessionlockfile
+fail delete path at on with scheme
+error set authorization
+error process sessionstate cleanup item
+error close spark session
+delimitedjsonserde cannot deserialize
+unexpected error in background worker
+node bad on startup
+verify command still execute on host after minute
+error attempt terminate host
+request termination but find only
+unexpected error clean
+unxpected error
+error shut down testexecutor
+error shut down executioncontextprovider
+error in initserde
+error in initserde
+error delete expire proto event dir
+error while try delete expire proto event from
+could not delete for ugi
+fail apply sarg metadata

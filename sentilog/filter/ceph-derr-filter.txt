@@ -1,0 +1,2726 @@
+error cct  get crypto handler type return null
+warning empty auth protocol list
+warning unknown auth protocol defined
+warning no auth protocol defined use cephx by default
+warning empty auth protocol list
+warning unknown auth protocol defined
+warning no auth protocol define
+warning empty auth protocol list
+warning unknown connection mode
+warning no connection mode define
+fail decode key
+fail decode key
+error read file
+error parse file
+could not verify extra service tickets
+fail encrypt signature block
+fail encrypt signature block
+failure during qat init sequence quit
+unable load memory driver
+unable start qat device
+unable alloc mem for instance struct
+unable find available instance
+unable allocate instance array memory
+unable get instance
+unable start instance
+unable allocate memory for session struct
+unable allocate memory for opmem struct
+unable allocate memory for pthreads
+unable find address translation instance
+qat init fail
+unable get an qat instance fail request
+unable get buff meta size
+unable allocate private metadata memory
+unable allocate bufferlist memory
+unable allocate bufferlist memory
+unable allocate opdata memory
+unable find session size
+unable allocate contig memory
+unable init session
+unable allocate contig memory
+unable create thread for crypt operation
+unable perform crypt operation
+fail create evp cipher context
+evp cipherinit ex fail
+fail disable pkcs pad
+evp cipherupdate fail
+evp cipherfinal ex fail
+remove oid return
+remove oid return
+remove oid fail with
+decode snap failure on
+set collection opts return error
+no pool
+tier of
+osd in config have id mon max osd
+abort due osd weight total
+abort due max
+not still connect
+sleep for
+no head for have
+no clone snaps for in
+get snaps return
+remove oid return
+queue transaction get
+sleep for
+have no clone snaps
+bad op order already apply
+remove snap head
+invalid length data length actual len
+do writesame do osd ops fail
+do osd ops failed
+fail
+method try read object but not mark rd
+method try update object but not mark wr
+inject copyfrom failure
+unexpected promote error
+unexpected promote error
+obc  ssc not available not return context
+object obc still alive
+on non replicated pool
+could not load hitset
+log log size log keys debug size
+actual log
+log keys debug
+list collection got
+got
+live pgids
+agent queue not empty for example
+full ratio backfillfull ratio or nearfull ratio
+miss full map
+also miss full map
+unable load latest map
+fail load osd map for epoch get byte
+osd  mkfs have meta collection but no superblock
+get signal
+unable start fuse
+osd init unable mount object store
+osd  init couldn read loadavgs
+osd  init unable read osd superblock
+the disk use feature unsupported by the executable
+ondisk feature
+daemon feature
+still writeable though miss features
+cannot write disk miss features
+osd  init unable read current osdmap
+unable obtain rotate service keys retry
+wait auth rotating time out
+immediate shutdown osd fast shutdown true
+fail
+statfs
+fail list pgs
+wait for initial osdmap
+osdmap say be destroy
+osdmap noup flag set wait for clear
+osdmap fullness state need update
+transaction size overflow
+error bad fsid have inc have
+inject map crc failure
+map say do not exist shut down
+map say be stop by admin shut down
+sortbitwise flag not set
+unrecognized pg less event
+log to monitors
+fail open image
+fail set snapshot
+fail stat rbd directory
+unrecognized header format
+attempt add image namespace
+create do not support flatten image option
+rbd image already exist
+format image creation unsupported
+force image creation
+image be clone must be snapshot
+clone do not support flatten image option
+error open source image
+exclusive lock feature not enable
+fail acquire exclusive lock
+not exclusive lock owner
+exclusive lock feature not enable
+exclusive lock feature not enable
+exclusive lock feature not enable
+fail break lock
+copy do not support flatten image option
+librbd do not support request feature
+header creation fail
+fail read newly create header
+fail copy metadata
+unable get crypt context
+unable init cipher iv
+crypt update fail
+unsupported cipher
+libcryptsetup
+crypt init failed
+error write header
+error read header
+crypt format failed
+crypt load failed
+encryption already load
+miss cipher name
+miss key
+invalid ciphermode
+evp cipher ctx new fail
+evp cipherinit ex fail
+evp cipherinit ex fail
+evp cipherupdate failed len
+cannot use encryption with journal
+unsupported key length
+miss data pool for source image
+miss data pool for destination image
+fail copy image
+lose exclusive lock
+lose exclusive lock
+fail copy metadata
+invalid start snap id
+invalid end snap id
+invalid pool name
+invalid pool name
+cannot specify both pool name pool id
+miss or invalid pool id
+invalid pool namespace
+miss or invalid image name
+invalid image id
+invalid snap name
+cannot specify both snap name snap id
+invalid snap id
+snapshot require for import
+fail open image
+fail locate snapshot
+client shutdown during in flight request
+timed out while issue request
+fail issue request
+fail shutdown socket
+client shutdown with in flight request
+timed out while issue request
+fail issue request
+request resource do not exist
+permission deny attempt access resource
+fail retrieve size http
+fail retrieve size
+fail retrieve size miss content length
+invalid content length in response
+fail locate key
+fail locate key
+fail locate key
+fail locate key
+fail seek file stream
+fail locate key
+index out of bounds
+invalid qcow header magic
+qcow not support
+fail read qcow header
+header not qcow
+invalid cluster bits
+invalid bits
+invalid or unsupported encryption method
+image size not multiple block size
+image size too big
+fail read qcow header
+header not qcow
+invalid cluster bits
+invalid or unsupported encryption method
+image size not multiple block size
+invalid or unsupported compression type
+external data file feature not support
+extend table feature not support
+unknown incompatible feature enable
+image size too big
+fail read table
+invalid snapshot array
+invalid source spec json
+fail locate format type value
+fail locate snapshot type value
+fail locate stream object
+fail locate stream type value
+fail open stream
+fail open stream
+invalid snapshot name
+invalid url
+invalid url scheme
+invalid url port
+update notification timed out
+fail refresh image
+image have no parent
+image have no parent
+snapshot cannot be flatten
+image must support object map feature
+rbd image already exist
+new size not compatible with object map
+no such snapshot found
+no such snapshot found
+no such snapshot found
+snapshot protect
+image must support layer
+old format image do not support feature
+cannot update immutable feature
+update require at least one feature
+image have no migrate parent
+image have no migrate parent
+snapshot cannot be migrate
+fail stat image
+snap context invalid
+fail open image
+fail open image
+fail list watchers
+image have watcher not migrate
+unsupported destination image format
+librbd do not support request feature
+fail open source image
+fail clean source spec
+migration failed
+fail list watchers
+image have watcher cannot abort migration
+fail list snapshots
+header creation failed
+cannot obtain exclusive lock
+fail copy snapshots
+fail copy metadata
+fail get image group
+fail open child image
+fail re attach parent
+fail re attach child
+invalid auth keyring json receive
+fail list mirror peers
+multiple peer be not currently support
+fail update peer site name
+snapshot base mirror not enable
+mirror not enable for the parent
+cannot enable journaling
+cannot enable mirroring
+cannot disable mirroring
+cannot disable mirroring
+cannot disable journaling
+fail promote image
+refresh failed
+fail demote image
+refresh failed
+image primary cannot resync itself
+fail request resync
+fail request resync
+unknown mirror mode
+refresh failed
+mirror not currently enable
+fail list peers
+mirror peer still register
+fail list images
+fail list images
+fail set mirror mode
+invalid mirror peer direction
+fail decode base
+invalid bootstrap token json receive
+cannot import token for local cluster
+unexpected remote cluster fsid
+cannot import token for duplicate site name
+cannot add self remote peer
+fail list peers
+cannot set self remote peer
+invalid peer attribute json receive
+fail list mirror peers
+refresh failed
+fail delete image snapshot ret code
+fail roll back group snapshot ret code
+error create group header
+error get id group
+error list group snapshot
+error list group image
+error remove image from group
+error remove header
+error remove group from directory
+group image cannot be in different namespaces
+group image cannot be in different namespaces
+error get id group
+error rename group from directory
+fail clean image snapshot ret code
+error while clean group snapshot
+error read group id object
+error get data pool id
+error list images
+error list images
+error list trash images
+error list pools
+error retrieve children
+error list images
+cannot deep copy migrate image
+old format not support for destination image
+librbd do not support request feature
+header creation fail
+fail read newly create header
+fail retrieve image id
+image have snapshot not remove
+error open image
+fail close image
+cannot format clone image
+fail add namespace
+fail remove namespace
+fail remove namespace
+error list namespaces
+error assert namespace
+miss data pool
+invalid io request
+invalid io request
+invalid io request
+invalid io request
+invalid io request
+fail retrieve features
+fail open image
+cannot obtain exclusive lock not remove
+cannot move migrate image trash
+fail retrieve image id
+invalid image name id
+fail query data pool
+error access data pool
+remove error
+error deferment time have not expired
+error image pending restoration
+fail unprotect snapshot
+snapshot still protect after unprotection
+unsupported encryption format
+expect opts size
+client blocklisted
+fail unwatch
+fail load plugin
+duplicate lock owner detect
+parent cache register fails
+parent cache fail register client
+parent cache fail connect ro daeomn
+blocklisted during flush purging
+fail invalidate cache
+num small writes need
+fail initialize pool
+fail commit update flush sync point
+sync point miss for entry
+watcher not register delay request
+order must be in the range
+fail create journal
+fail allocate tag
+fail register client
+fail shut down journaler
+local image not promote
+fail locate master image client
+fail open journal
+image not currently the primary
+fail retrieve client
+fail allocate tag
+fail stop journal append
+fail shut down journal
+fail init journaler
+fail remove journal
+fail create journal
+fail open journal
+fail allocate tag
+fail stop journal append
+fail shut down journal
+fail stat journal header
+fail init journaler
+fail remove journal
+fail shut down journaler
+executeop
+refreshifrequired
+aio modify op failed
+aio flush failed
+duplicate op tid detected
+fail block writes
+fail trim image
+fail flush cache
+miss data pool
+fail sparsify
+object map not initialize
+lose exclusive lock
+stat failed
+fail read object
+fail trim
+encounter error
+sparsify encounter an error
+encounter error
+could not read directory
+encounter error
+image must support layer
+miss data pool
+fail block writes
+encounter error
+fail start async op
+encounter error
+fail migrate objects
+encounter error
+encounter error
+fail lock image
+fail block writes
+fail block writes
+warning object map invalid for snapshot
+encounter error
+encounter error
+encounter error
+fail lock image
+fail block writes
+fail lock image
+fail acquire exclusive lock
+fail remove object map
+encounter error
+flatten encounter an error
+detach encounter an error
+encounter error
+image must support layer
+snapshot already unprotected
+miss data pool
+snapshot doesn exist
+encounter error
+fail retrieve parent spec
+fail release snap id
+fail remove snapshot
+trim encounter an error
+invalid state
+miss data pool
+fail set lock
+fail flush io
+fail close journal
+fail close object map
+op require exclusive lock
+fail refresh image
+fail open journal
+fail close journal
+fail open object map
+fail close object map
+fail retrieve lockers
+attempt self blocklist
+fail break lock
+fail retrieve lockers
+fail unlock
+fail update lock
+fail retrieve lockers
+fail lock
+fail break lock
+invalid snap ids
+merge extent length le than expect
+merge extent length greater than expect
+error read from parent
+complete invalid aio type
+fail decode image state object header
+fail refresh image
+not mirror snapshot snap id
+fail unlink peer
+fail notify update
+fail notify update
+fail remove snapshot
+fail refresh image
+snapshot base mirror not enable
+cannot promote
+fail acquire exclusive lock
+fail rollback
+no mirror tx peer configure for the pool
+fail refresh image
+fail unlink peer
+invalid image meta json receive
+fail decode image state object header
+fail decode image state
+cannot rollback
+mirror not currently enable
+image not primary
+exclusive lock not active
+fail lock image
+fail acquire exclusive lock
+unknown image mirror mode
+fail demote image
+unknown image mirror mode
+fail promote image
+fail refresh image
+fail decode client data
+mirror not currently enable
+image already primary
+image still primary within remote cluster
+unknown image mirror mode
+invalid current image mirror mode
+currently disable
+last journal tag not own by local cluster
+fail open image
+fail close image
+image size not compatible with object map
+invalid state
+fail load object map
+invalidate object map in memory
+invalidate object map on disk
+object map corrupt on disk
+fail load object map
+object map too large
+librbd do not support request features
+cannot use internally control feature
+cannot use fast diff without object map
+cannot use object map without exclusive lock
+cannot use journaling without exclusive lock
+stripe unit not factor the object size
+stripe unit must be at least byte
+image size not compatible with object map
+order must be in the range
+data pool do not exist
+pool do not support rbd image
+fail validate pool
+object prefix too large
+error write header
+fail retrieve mirror mode
+fail find snapshot
+fail close image
+cannot obtain exclusive lock not remove
+image in migration state not remove
+error list image watchers
+image have watcher not remove
+image in group not remove
+fail retrieve snapshot parent info
+format or later require for clone
+librbd do not support request feature
+fail open parent image
+image be clone must be snapshot
+parent image must be in new format
+parent image must support layer
+unable locate parent snapshot
+parent snapshot must be protect
+clone image must support layer
+rbd image already exist
+error create child
+error open new image
+fail attach parent
+fail attach parent
+fail copy metadata
+couldn close image
+error open image
+error remove header
+error remove header
+fail flush io
+error close parent image
+error flush image watcher
+fail read rbd info
+pool miss require overwrite support
+fail write rbd info
+pool miss require overwrite support
+image be migrate
+header too small
+unrecognized header
+image snap context invalid
+image use unsupported features
+image snap context invalid
+couldn add child
+validate protect fail
+couldn remove child
+fail enable clone
+error remove trash entry
+re registering watch after error
+handle
+client blocklisted
+fail rewatch
+re registering watch after error
+fail map snapshot within boundary
+object copy failed
+fail set head
+lose exclusive lock
+fail locate snap
+lose exclusive lock
+source image parent spec mismatch
+destination image parent spec mismatch
+lose exclusive lock
+lose exclusive lock
+lose exclusive lock
+lose exclusive lock
+fail set head
+lose exclusive lock
+fail list snaps
+object map not initialize
+lose exclusive lock
+fail update object map
+lose exclusive lock
+fail retrieve metadata
+fail set metadata
+lose exclusive lock
+fail update image size
+lose exclusive lock
+fail remove parent
+lose exclusive lock
+fail attach parent
+put cap ref go negative on
+invalid metadata keyval pair
+mds reject
+be blocklisted at osd epoch
+remove unsafe request
+fail invalidate cache for
+still have dirty flushing cap on
+still have dirty data on
+fail remount for kernel dentry trimming quitting
+fsmap
+no md daemon find
+fsmap
+no md daemon find by name
+fsmap
+fail learn fsmap version
+authentication failed
+mdsmap subscription failed
+mdsmap subscription failed
+pthread key create failed
+init newargv newargc
+fuse parse cmdline failed
+init args argv args argc
+fuse parse conn info opts fail
+fuse session new fail
+fuse mount mountpoint failed
+fuse lowlevel new fail
+fuse set signal handlers fail
+fuse session mount fail
+cannot initialize rados
+cannot connect
+api violation must have sqlite init libcephsqlite
+api violation must have sqlite init libcephsqlite
+cannot get random bytes
+ceph armor fail
+mkdir failed
+compact leveldb store
+finish compact leveldb store
+unrecognized rocksdb cache type
+create shards fail error
+cannot write
+cannot read from
+error
+error
+invalid size
+invalid high pri float
+error
+miss column families
+compact rocksdb store
+finish compact rocksdb store
+cannot write
+cannot write
+cannot finalize repair
+cannot write
+unable list column families
+failure parse column options
+failure parse column options
+miss handle for column shard
+fail drop column
+error process column
+cannot write
+fail decode period
+master zone fail commit period
+fail store period
+fail set latest epoch
+fail update realm current period
+fail list realm
+error could not decode buffer
+error could not decode buffer
+error return ret
+error fail read state ret
+error fail write state ret
+error job not find
+rgw init ioctx return ret
+error can get key
+error lists keys next
+error log oids return ret
+error log oids return ret
+error stat async return error
+error handle stat response return error
+error stat async return error
+error stat async return error
+error stat async return error
+error read entries oid return ret
+rgw init ioctx return ret
+error ioctx stat return ret
+error fail save state ret
+error build all objs index return ret
+error fail save state ret
+error build all objs index return ret
+error fail save state ret
+error build all objs index return ret
+error fail save state ret
+error build all objs index return ret
+error can get key
+error lists keys next
+error log oids return ret
+error log oids return ret
+warning libcurl doesn support curl multi wait
+warning cross zone region transfer performance may be affect
+old format
+error fail get object
+error lifecycle object not initialized
+error fail set lifecycle on bucke
+error fail stat object return error
+error could not find remote sync shard status for shard id
+error fail fetch master next position
+error could not find remote sync shard status for shard id
+error fail fetch next position
+miss source bucket
+fail read source bucket info
+fail read bucket sync status
+fail read remote log
+error fail get policy handler for bucket
+error fail get policy handler for bucket
+no connection zone
+error fail init sync module instance ret
+bucket sync checkpoint failed
+error read iam user policy
+error fail initialize watch
+error cls rgw get bucket resharding return ret
+error fail write bilog bucket ret
+fail read zone info ret
+cannot find zone id name
+cannot find zone id name
+error could not initialize zone policy handler for zone
+error tier type not found
+error fail start sync module instance ret
+warning
+initialization timeout fail initialize
+couldn init storage provider rados
+error fail initialize frontend
+error fail register service map
+shut down
+get invalid scheduler type for beast default throttler
+fail parse port
+fail parse endpoint
+fail open socket
+unable listen at any endpoint
+bad config value
+be not found
+no ssl certificate configure for ssl private key
+no ssl certificate configure for ssl port
+fail parse ssl port
+no ssl certificate configure for ssl endpoint
+fail parse ssl endpoint
+error can get nfc instance error
+error can add default value context
+cannot load crypto accelerator type
+client supply malformatted header
+init env bug invalid port number
+fail decode realm notifications
+rgwrealmwatcher  handle error oid err
+error rgw bucket sync status on pipe return ret
+could not get bucket sync policy handler
+error rgw bucket sync status on pipe return ret
+error different number shard for sync status bucket sync from the same source status size current status size
+error could not drain handle aio completion return with
+error delete obj aio fail with
+error delete obj aio fail with
+error could not drain handle aio completion return with
+error could not drain handle aio completion return with
+error could not remove bucket
+error fail list object in the bucket
+fail initialize bucket
+could not unlink bucket owner
+could not delete bucket
+could not unlink bucket owner
+could not delete bucket
+error reshard rados operation failed
+error fail store entry in target bucket shard bs error
+error target shards flush return error
+error target shards wait all aio return error
+error bi list
+error get target shard id return ret
+error renew bucket lock
+error fail reshard
+error fail add entry reshard log oid tenant bucket
+error fail remove entry from reshard log oid tenant bucket
+error fail clear bucket resharding bucket instance oid
+request failed
+fail pull period
+fail store period
+kmip process failed
+kmip send failed
+reach period with an empty predecessor id
+error unable remove notification from bucket ret
+error manifest  get rule could not find rule
+bio new ssl connect fail
+kmip worker already start
+miss operation logic op
+problem send request context error message
+fail decode context error message
+failed weird response count do
+failed result status not success
+failed response operation mismatch get expect
+get expect symmetric key get
+get expect raw key fromat get
+miss response logic op
+fail decode log entry ts
+fail load period for realm
+fail decode the period
+the new period do not contain my zonegroup
+no handler for notify type
+fail decode notification
+cannot load compressor type
+cannot load compressor type
+decompression fail with exit code
+handle data fail with exit code
+handle data fail with exit code
+error fail operation
+error fail register admin socket command
+error manifest  get rule could not find rule
+error fail register service map
+error read iam user policy
+error fail get ref for ret
+error fail get ref for ret
+error fail get ref for ret
+error fail get ref for ret
+error fail get ref for ret
+error fail get ref for ret
+error fail open pool ret
+error fail get ref for ret
+error svc cls  timelog add return
+no rest connection master zone
+error fail open log pool ret
+error fail init remote log
+error fail read sync status
+error fail fetch master log info
+error fail fetch master log info
+error can sync mismatch between num shards master num shards local num shards
+error rgwrunbucketsourcessynccr  handle complete stack stack id not found likely bug
+fail fetch remote log markers
+fail decode remote log marker
+error bucket creation fail
+error bucket creation fail
+error fail write data log
+error rgw rados operate oid return ret
+error return object size head size
+error return object size data length
+error fail remove original bad object
+error fail copy
+error copy rados obj on oid return
+error fail write data log
+error fail write data log
+error fail write data log
+error fail write data log
+error fail get obj ref with ret
+error aiooperate fail with ret
+error fail get obj ref with ret
+error fail prepare index op with ret
+error aiooperate fail with ret
+error fail delete obj index with ret
+error vault kv secret engine take no parameter ignoring them
+error fail register admin socket command
+safe read exact return with error
+initialization timeout fail initialize
+error unable initialize rgw tool
+couldn init storage provider rados
+error fail start rgw perf
+error unable initialize signal fds
+error fail initialize frontend
+error fail run
+error fail register service map
+shut down
+error can understand argument
+must specify name with the ceph mds instance name
+cannot load compressor type
+factory return error
+invalid algorithm value
+unable find monmap
+stat
+opendir
+readdir
+error read
+error decode monmap
+warning no initial monitors must use admin socket fee hint
+generate monmap have no fsid use fsid
+error create monfs
+unable read magic from mon data
+mon magic current
+error check features
+can decode monmap
+unable obtain monmap
+error write monmap
+write monmap
+unable create mgr msgr
+flag force sync
+fail initialize
+compact monitor store
+do compact
+unable bind monitor
+dump open fds unable open
+dump open fds unable readlink
+dump open fds
+dump open fds dump open file
+interface name specify but not network name
+no interface match
+unable parse network
+unable convert choose address string
+unable fetch interface addresses
+public network be set but cluster network be not set
+use public network also for cluster network
+unable convert choose address string
+fall back public interface
+unable fetch interface addresses
+unable fetch interface addresses
+outputdatasocketconfigobs  init error
+outputdatasocketconfigobs  init failed
+ceph armor fail
+error while parse config file
+invalid octal string
+code version null
+os release parse fail open etc os release
+distro detect etc os release require
+distro detect can detect
+shutdown service hook failed error code
+revert original service state
+service stop hook failed error code
+adminsocket error read request too long
+adminsocketconfigobs  init error
+adminsocketconfigobs  init failed
+adminsocket  shutdown error
+error fail call res ninit
+res query fail
+error dn expand fail
+error bad reply
+error bad reply
+res query fail
+error while parse dns record
+fail for service
+error while parse dns record
+warning all dangerous experimental feature be enabled
+error parse clog to monitors
+error parse clog to syslog
+error parse clog to syslog facility
+error parse clog to syslog level
+error parse clog to graylog
+error parse clog to graylog host
+error parse clog to graylog port
+dokanopenrequestortoken failed error
+gettokeninformation failed error
+lookupaccountsid failed error
+unknown error while opening
+miss context
+miss context
+miss context
+miss context
+ceph statfs failed error
+couldn perform clean unmount error
+not enough memory
+ceph mount failed error
+receive generic dokan error
+invalid drive letter or mountpoint
+can initialize dokan driver
+dokan fail start
+dokan mount error
+invalid mountpoint
+unknown dokan error
+arg not dict
+invalid args
+invalid args
+invalid args
+invalid args
+invalid args
+invalid args
+no module
+invalid args
+arg not dict
+dict item not size tuple
+not list
+not list
+unknown query param
+invalid query
+invalid args
+invalid args
+invalid args
+arg not dict
+dict item not size tuple
+not list
+not list
+unknown query param
+invalid query
+invalid args
+invalid args
+arg not dict
+dict item not size tuple
+request miss service
+request miss service
+python module request unknown data
+module not available
+invalid mask for key
+fail import python module
+fail get python type
+fail construct python osdmap
+fail construct class in
+notify
+notify clog
+get signal
+initialize server fail
+could not open sqlite
+could not set libcephsqlite cct
+invalid args
+invalid args
+invalid args
+wrong type in osdmap apply incremental
+pool list not list
+not string
+destroy improperly initialize basepyosdmap
+destroy improperly initialize basepyosdmap
+item not tuple
+item not size tuple
+authentication failed do you specify mgr id with valid keyring
+be active but no longer be
+drop unexpected configure message
+serve
+fail invoke shutdown on
+fail construct class in
+unable bind mgr
+get status from non daemon
+miss key
+fail create python sub interpreter for dendl
+class not find in module
+exception call can run on
+module not found mgr module
+unable import mgrmodule from mgr module
+module not found
+open got
+posix fadvise got
+fstat get
+inject crash first sleep
+now die
+fdatasync got
+io setup failed
+get
+retry
+aio submit get
+pwritev error
+sync file range error
+flock fail on
+open got
+fail set hm smr parameter
+posix fadvise got
+fstat get
+inject crash first sleep
+now die
+fdatasync got
+io setup failed
+get
+retry
+aio submit get
+pwritev error
+sync file range error
+open got
+fstat get
+pmem map file failed
+fail create memory pool for nvme data buffer
+fail do write command
+fail read
+fail flush
+fail get namespace at
+invalid transport address
+device probe nvme fail
+unable open
+fail get nvme device with transport address
+order must be in the range
+fail locate client
+journal watch error client blocklisted
+journal watch error
+miss prior journal entry
+unexpected state
+fail decode logentry at offset
+unable open
+must specify where the osd number
+must specify osd data foo data path
+miss type file unable infer osd type
+unable create object store
+already have key in keyring
+create new key in keyring
+must specify cluster fsid
+osd id my id
+fail pick public address
+fail pick cluster address
+deliberately leak some memory
+fail poll nbd
+invalid nbd request header
+invalid request command
+flush failed
+resize failed
+invalidate rbd cache fail
+get signal
+invalid inode
+error initialize libcephfs
+error mounting
+error mounting
+fail open domain socket
+async accept fail
+init error
+init error
+stop error
+stop error
+immutable object cache sock path not set
+exception
+invalid water mark provided set default
+fail init ceph context
+fail connect cluster
+fail create ioctx
+fail read from rados
+fail write cache file
+fail write cache file
+fail start promote
+unrecognized object cache status
+fail read from rados
+unknow throttle type
+mirror object delete
+rewatch error
+invalid config key json
+unexpected json receive
+error mount remote filesystem
+fail allocate memory
+fail read remote directory
+fail close remote directory
+fail close remote directory
+fail local read directory
+fail close local directory
+fail close local directory
+fail cleanup remote directory
+fail build local snap map
+fail build remote snap map
+fail propgate delete snapshot
+fail propgate rename snapshot
+fail sync snapshot for dir path
+client blocklisted
+fail unwatch
+fail watch object
+fail init mon client
+fail authenticate monitor
+could not initialize rados handler
+error connect local cluster
+error register service daemon
+fail decode notify json
+unknown mode
+mirror object delete
+rewatch error
+fail subscribe fsmap
+fail register watch
+re registering after watch error
+handle
+client blocklisted
+fail rewatch
+re registering watch after error
+error initialize cluster handle for
+could not read ceph conf
+could not parse environment
+fail set mon host config
+fail set key config
+mount error
+mount error
+mount error
+mount error
+mount error
+mount error
+get signal
+recv
+send
+resize failed
+invalidate rbd cache failed
+fail retrieve wnbd userspace stats error
+could not create event error
+could not reset event error
+could not start wnbd dispatcher error
+could not allocate bytes
+could not query registry key
+could not enumerate registry error
+createnamedpipe failed
+createevent failed
+connectnamedpipe failed
+createprocess failed
+time out wait for child process connection
+fail wait for child process status
+time out wait for child process message
+fail wait for child process status
+daemon fail with
+could not start rbd daemon
+could not fetch all mappings error
+could not fetch all mappings error
+createpipe failed
+pipe connection failed
+could not start pipe server
+couldn remap all images clean up
+miss image name
+could not open parent pipe
+rbd wnbd invalid spec
+rbd wnbd invalid output format
+could not get disk list
+rbd wnbd invalid output format
+could not find the specify disk
+authentication failed do you specify an md id with valid keyring
+error write journal pointer
+error write journal header
+error write eresetjournal
+fail open path
+error close path
+fail mount
+fail unmount
+miss mandatory argument
+journal type not correct
+couldn determine md rank
+miss mode journal header event
+rados unavailable cannot scan filesystem journal
+couldn connect cluster
+pool name in md map not find in rados
+operation not allow for all rank
+miss journal command please see help
+miss path
+bad journal command
+header could not be read
+miss header command must be get set
+set require two argument
+invalid value
+invalid field
+bad header command
+miss event command please see help
+unknown argument
+journaler for can do
+incomplete command line
+fail scan journal
+fail scan journal
+fail scan journal
+unable scan journal assume badly damage
+journal not readable attempt object by object dump with rados
+dumper  init failed
+resetter  init failed
+erase region too short
+unexpected output dir output already selected
+rados unavailable
+error write
+unexpected error list objects
+unexpected output dir option for scan links
+error get omap from
+error remove duplicate dentries from
+unexpected error read backtrace
+corrupt fnode on
+lost found exist but not directory
+error on recovery
+error write journal file header
+error seek
+error write journal file
+error close journal file
+unable open
+recover journal failed try get header from dump file
+couldn open
+invalid fsid
+import journal fsid do not match online cluster fsid
+use force skip fsid check
+invalid header no fsid embed
+fail write header
+fail write header
+invalid range
+invalid lower bind
+invalid upper bind
+invalid filter arguments purge queue doesn take
+invalid inode
+invalid event type
+invalid filter arguments purge queue doesn take
+invalid inode
+invalid frag
+invalid filter arguments purge queue doesn take
+invalid filter arguments purge queue doesn take
+invalid client number
+erro
+pointer absent
+pointer unreadable
+pointer corrupt
+header unreadable
+header corrupt
+header corrupt bad magic
+header invalid inconsistent offsets
+miss object
+table corrupt
+table corrupt
+error read values
+table corrupt
+rados unavailable cannot scan filesystem journal
+couldn connect cluster
+bad rank selection
+bad ino
+error stop instance replayer
+fail init image map
+fail retrieve local images
+fail retrieve remote images
+fail init image deleter
+fail shut down image map
+fail get image map
+fail update image map
+blocklisted while delete local image
+error shut down leader lock
+error acquire leader lock
+error break leader lock
+error retrieve leader locker
+error acquire lock
+error release lock
+error initialize instances
+error notify listener
+error decode image notification
+error remove down statuses
+error retrieve instances
+fail remove global image id
+could not initialize rados handle
+error connect local cluster
+error register service daemon
+restart blocklisted pool replayer for
+restart fail pool replayer for
+already run
+error start replay
+start failed
+error register admin socket command
+fail retrieve image id
+fail retrieve mirror peer uuid from remote pool
+replay not run
+remote image do not contain mirror snapshot
+fail load local image meta
+fail refresh local image
+fail refresh remote image
+incomplete local non primary snapshot
+incomplete local primary snapshot
+unknown local mirror snapshot state
+unknown remote mirror snapshot state
+fail request image sync
+fail notify local image update
+fail create local image
+fail load local image meta
+fail update image features
+fail update image metadata
+fail retrieve client
+fail create local image
+remote image parent spec mismatch
+fail retrieve image name
+replay not run
+fail initialize remote journal
+local image journal close
+error shut down journal replay
+error close local iamge
+fail retrieve client
+error flush local replay
+replay encounter an error
+local image journal close
+replay flush encounter an error
+fail allocate journal tag
+fail decode journal event
+fail preprocess journal event
+fail commit journal event
+fail create local image
+local image do not support journaling
+fail check if resync be request
+fail update client
+fail retrieve remote client
+unknown remote client registration
+fail retrieve remote tags
+split brain detect skip image replay
+error retrieve remote image id
+fail open remote image
+fail open local image
+fail prepare local replay
+fail create local image
+fail sync remote image
+image do not support exclusive lock
+image not lock
+fail decode client meta data
+unknown peer registration
+fail ping remote mirror peer
+fail retrieve mirror peers
+remote image refresh failed
+fail create snapshot
+remote image refresh failed
+error register instance
+error acquire instance lock
+error release instance lock
+error unregistering instance
+error retrieve instance locker
+error break instance lock
+error decode image notification
+fail locate snapshot
+fail copy image
+error wait for osd map
+error list pools
+error retrieve base tier for pool
+error access pool
+fail list mirror images
+error initialize leader watcher
+error initialize cluster handle for
+fail list namespaces
+remote pool metadata update unexpectedly
+fail acquire exclusive lock
+fail get snap namespace
+fail get snap name
+lose exclusive lock
+fail unprotect snapshot
+lose exclusive lock
+fail remove snapshot
+fail close
+fail open image
+cannot move image trash
+fail reset journal
+exclusive lock feature not enable
+fail acquire exclusive lock
+fail move image trash
+fail close image
+fail notify trash watchers
+fail purge image snapshots
+fail notify trash watchers
+fail create trash object
+fail retrieve trash directory
+not use pcm rocksdb
+mon debug no require quincy pacific true
+mon debug no require quincy true
+not use rocksdb
+invalid purged snaps key
+unable read osdmap version manifest
+pool for dne
+osd try merge wrong pgid
+inject pg merge pg num bounce
+unable parse key
+no session
+invalid
+no session
+definitely dead
+unhandled message type
+unhandled message type
+fail load mgr commands
+unhandled message type
+unhandled message type
+get propose from my own rank hopefully startup weirdness dropping
+full
+error parse mon cluster log to syslog
+error parse mon cluster log file
+unhandled message type
+cannot identify monitor contact
+fail get config
+keyring not find
+note no keyring found disable cephx authentication
+but no auth handler set
+no authorizer
+handle response return
+miss health data for md
+lease expire from second in the past mon be probably laggy or possibly clock be too skewed
+invalid mask for key
+failure decode changeset
+get device id fail on
+get signal
+error on disk data include unsupported features
+option sanitization failed
+commit suicide
+unable load initial keyring
+current monmap have stopping
+invalid map type
+error unable parse uuid
+error decode provide osdmap
+unable load initial keyring
+no authorizer
+fail parse args
+fuse new fail
+fuse mount fail
+fuse mount fail
+fuse new fail
+get
+fail open base dir
+fail open
+on disk fsid provide
+deprecate btrfs support not enable
+fail create current
+fail create snap
+fail create
+fail open
+open error
+read error
+deprecate btrfs support not enable
+detect features error
+unable create
+fail open
+fail write
+the store version file doesn exist
+objectstore old at version please upgrade firefly convert your store then upgrade
+error read
+lock fsid fail
+error in list snaps
+rollback cluster snapshot not find
+error exists not roll back avoid lose new data
+force rollback old snapshotted version with osd use stale snap true
+config option for osd use stale snap startup argument
+error opening
+read op seq fail
+mount initial op seq something wrong
+fail create current nosnap
+error create
+error initialize omap store
+error initialize dbobjectmap
+error while list collection
+fail open journal
+error convert store
+omap sync error
+sync filesystem error
+error
+fsync failed
+error
+fsync failed
+fsetxattr get
+fsync failed
+error
+fsetxattr get
+fsync failed
+bad op
+fstat error at
+ftruncate error at
+pipe get
+lseek get
+lseek get
+short source tolerate because be replay
+error during write op seq
+snap create get error
+ioctl wait sync get
+object map sync get
+syncfs get
+error during write op seq
+error during fsync op seq
+unable destroy snap get
+failed
+chain setxattr return
+try open directory
+path length overrun
+stat on
+ignore invalid collection
+try readdir
+kill
+btrfs snap destroy ioctl not supported you kernel newer than
+filejournal   open unable fstat journal
+filejournal   open unable setup io context
+filejournal   open file zero journal
+read header error decode journal header
+read header appear have gibberish flags assume
+filejournal  write bl lseek fail
+filejournal  write bl write fd failed
+fsync fdatasync failed
+filejournal  do aio write write aio bl header fail
+io getevents get
+do read entry
+fsync failed
+wbthrottle fsync failed
+detect features unable create
+detect features fail lseek
+detect features fail write
+detect features fail lseek
+get
+get
+error read settings
+unexpected null at
+unexpected null at
+hash value not char
+miss final shard id at
+bad key
+bad op
+key
+oid
+encode some need reshard
+freelist init failed
+failed
+unparsable uuid
+fsid truncate failed
+fsid write failed
+fsid fsync failed
+fail bluefs mount
+unable read bluefs meta
+expect bluestore but type
+unable read kv backend meta
+backend must be rocksdb use bluefs
+error create db
+fail prepare db environment
+erroring open db
+unrecognized collection
+unrecognized collection
+fsck find error
+expect bluestore but type
+error write fsid
+fsck find error
+failed
+bluefs isn configured can add new device
+failed
+bluefs isn configured can add new device
+fail during bluefs migration
+bluefs isn configured can add new device
+fail during bluefs migration
+fsck find error
+fsck find error
+more error line skipped
+get
+fsck error miss
+inject eio
+inject eio
+bdev read failed
+inject bluestore checksum verifcation error
+fail with exit code
+can load decompressor
+decompression fail with exit code
+inject eio
+inject eio
+inject eio
+unable read nid max
+unable read blobid max
+unable read ondisk format
+unable read compat ondisk format
+unable read min alloc size
+fail read min min alloc size
+bad op
+stray share blob on
+fail open super
+fail replay log
+memorize layout doesn fit current one
+fail open super
+fail replay log
+miss size meta in db
+unrecognized meta
+key
+oid
+failed
+unparsable uuid
+fsid truncate failed
+fsid write failed
+fsid fsync failed
+uanble read kv backend meta
+error create db
+erroring open db
+unrecognized collection
+error write fsid
+bad op
+unable listen on
+fail decrypt frame payload
+decode banner payload len fail
+decode banner payload fail
+not in hello exchange state
+not in ready state
+not in ready state
+not in ready state
+not in ready state
+not in auth connect state
+not in auth connect state
+not in auth connect state
+not in session connect state
+not in session reconnect state
+not in session reconnect state
+not in session reconnect state
+not in session re connect state
+not in session reconnect state
+not in session connect state
+not in auth accept state
+not in auth accept more state
+not in session accept state
+not in session accept state
+couldn create socket
+fcntl   getfl failed
+fcntl   setfl   nonblock
+decode peer addr fail
+decode peer addr fail
+can start port
+port link fail
+fail create mempool for rx
+cannot initialize rx queue
+do port link down
+cannot initialize mbuf pool
+fail create mempool for tx
+cannot initialize tx queue
+init port fini fail
+no match address for
+init dpdk rte failed
+remote launch failed
+queue pair create fail
+unable listen on
+server  qp null
+query port fail
+query gid port index fail
+query gid attribute port index fail
+request local gid be not find in gid table
+query gid fail
+fail query rdma device
+fail query rdma device
+port not find
+invalid queue pair type
+fail transition error state
+fail transition rts state
+fail transition rtr state
+fail create queue pair
+send get bad length
+fail send beacon
+fail destroy cc
+fail destroy cq
+ibv req notify cq failed
+fail notify cq
+fail allocate infiniband protection domain
+fail export rdma hugepages safe on rdma must be export before use huge pages application aborts
+fail call ibv for init on rdma must be call before fork application aborts
+out max memory region size
+fail switch event channel non block close event channel
+fail resolve addr
+fail resolve rdma addr
+fail alloc resource while resolve the route
+fail connect remote rdma port
+rdma connection reject
+poll fail
+qp not registered
+qp not registered
+unable malloc memory
+proccessor accept have encounter enough error numbers just do ceph abort
+proccessor accept have encounter enough error numbers just do ceph abort
+postpone bind fail
+fail create event driver
+fail init event driver
+can create notify pipe
+event count exceed
+unrecognized ms type
+fail galois init default field
+could not convert int
+could not convert int
+could not convert int
+could not convert int
+error fail init monc
+error fail authenticate
+unable obtain rotate service keys retry
+get signal
+have be blocklisted fenced respawning
+unhandled write error suicide
+unhandled write error force readonly
+unhandled write error ignore
+unrecognized message
+bad md target
+bath path
+bad export dir path dirfrag frag or dir not auth
+fail update service daemon status
+error write pointer object
+locker unknown message
+rank be never send ping request
+server unknown message
+unhandled validation for
+mirror info parse error
+inconsistent mirror info state
+have be blocklisted fenced respawning
+unhandled error shut down
+blocklisted during journalpointer read respawning
+blocklisted during journal recovery respawning
+fail erase journal
+blocklisted during journal recovery respawning
+error load journaler
+error recover write pos
+error recover write pos
+invalid purge op
+corrupt entity name in sessionmap
+load finish get
+header error
+load finish get
+get
+get
+corrupt header values
+corrupt journal
+load could not read table
+rogue reference after purge
+migrator unknown message
+invalid type
+client id without session
+no data while read inode
+corrupt inode
+mdsiocontextbase blocklisted restarting
+cache unknown message
+cache usage exceed dump threshold
+fail open
+update last snap
+update snap
+fuse parse cmdline failed
+fuse parse cmdline failed
+unable parse address
+osd not in bucket
+error fail join
+to read
+will write
+to read
+will write
+to read
+will write
+shut down replay start
+flush start
+flush finish
+shut down replay finish
+error parse size
+error parse block size
+error can understand argument
+fail create data directory ret
+data directory isn empty please clean first
+fail create journal directory ret
+bad objectstore type
+mkfs fail
+mount fail
+start set
+conn session count
+conn session count
+conn
+conn
+conn reply
+conn send
+wait
+seed connection
+op
+seed connection
+op
+seed connection
+op
+seed connection
+op
+seed connection
+op
+seed connection
+op
+conn
+last
+sqlite config failed
+could not open sqlite
+could not set cct
+engine cleanup fail with
+failure write osd superblock
+engine init fail with
+job cleanup fail with
+warning only ddir read ddir write be supported
+fail monc
+couldn encode
+couldn decode
+could not initialize rados handle
+error connect local cluster
+cmdsrv unexpected policy type
+fail create collection with
+may get older pool id from header layout
+finish write head get
+finish flush get
+prezeroed get
+decode error from assimilate prefetch
+decode error from journal stream
+decode error from is readable
+finish trim get
+handle write error
+start end
+result size may not be zero
+sortbitwise cluster flag not set
+already have backoff for begin
+queue transaction return
+removed snaps already contain
+purged snaps do not contain only
+queue trans clean obsolete rollback objs
+queue transaction get
+require past interval bound be empty but past intervals not
+require past interval bound be not empty but past intervals empty
+past intervals start interval do not contain the require bind start
+past interal bind end do not match require end
+receive unsolicited reservation grant from osd
+get hash info return null pointer there no way recover from such an error in context
+log entry require kraken but overwrite be not enabled
+error open class
+error find filter in class
+buggy class fail construct filter
+error initialize filter
+do not contain pg num hash
+do op msg data len osd max write size on
+byte read
+data digest source
+omap digest source
+op wait on
+object last backfill
+object add miss set for backfill but not in recovering error
+exists but should have be delete
+mask bits match false
+find exist snap map on remove
+unable load latest full map
+osd  mkfs objectstore  mkfs fail with error
+osd  mkfs couldn mount objectstore error
+provide osd id superblock
+provide cluster fsid superblock
+osd  mkfs error while write osd superblock gobject queue transaction return
+osd  mkfs fail write fsid file error
+fail read keyfile
+osd  pre init object store currently in use is ceph osd already running
+unable identify cluster interface numa node
+unable identify public interface numa node
+fail set numa affinity
+fail rmdir
+unable create
+backend unable support max object name space len
+osd max object name len
+osd max object namespace len
+osd check max object name len on startup false start anyway
+osd  init superblock say osd but be osd
+miss pg pool for delete pool for pg
+derr func cpp strerror dendl
+unable update crush device class
+unable update crush location
+osd  shutdown error write superblock
+pgid have ref count
+fail osd do not exist create failed
+miss pool tombstone
+miss ec profile from pool tombstone
+unable peek at metadata skip
+could not find map for epoch on pg but the pool not present in the current map so probably result bug skip the pg for now you can use ceph objectstore tool clean later
+have pgid at epoch but miss map crashing
+heartbeat check no reply from osd ever on either front or back first ping send oldest deadline
+heartbeat check no reply from osd since back front oldest deadline
+report slow ops oldest
+mark down osd max markdown count in last seconds shut down
+mark down rebind cluster messenger fail
+getgroups failed
+fuse ll do init safe write fail with error
+fail create
+rocksdb cache type chosen but rocksdb not compile with libtbb
+invalid db path item in db paths
+invalid db path item in db paths
+fail create rocksdb column family
+invalid db column family option for cf
+extra column in rocksdb rocksdb column target column
+fail create rocksdb column family
+error code rocksdb transaction
+fail create rocksdb column family
+error fail read user info uid ret
+error target shards add entry return error
+error write return
+warning radosgw frontend config find unexpected space around port ensure frontend port parameter have the form port with no space before or after
+fail set numa affinity
+cannot have the or website enable together with swift api place in the root hierarchy
+place swift api in the root url hierarchy while run multi site configuration require another instance radosgw with api enabled
+dmclock scheduler type experimental need be set in the option enable experimental data corrupt feature
+fail set numa affinity
+md id invalid md name may not start with numeric digit
+mkdir
+error open
+already exist not empty monitor may already exist
+error check if empty
+error read
+error open mon data directory at
+monitor data directory at do not exist have you run mkfs
+error access monitor data directory at
+monitor data directory at empty have you run mkfs
+error access
+error check monitor data stats
+error monitor data filesystem reach concern level available storage space available nyou may adjust mon data avail crit lower value make go away default
+error open mon data directory at
+unable read monmap from
+warning mon addr config option do not match monmap file continue with monmap configuration
+warning invalid mon addr config option continue with monmap configuration
+error generate initial monmap
+no public addr or public network specified not present in monmap or ceph conf
+intend openssl engine acceleration failed set by openssl engine opts ndetail error information
+error could not close registry key
+error could not flush registry key
+error could not set registry value
+error could not set registry value
+error could not get registry value
+error could not get registry value
+ignore shutdown hook failure mark the service stopped
+service control handler not initialized cannot update service status exit code
+unsupported st mode
+unsupported create disposition
+ceph rmdir failed error
+ceph unlink failed error
+dict item not size tuple
+item value not dict
+item pair not tuple
+item pair not size tuple
+check severity value not string
+check summary value not unicode string
+check count value not int
+check detail value not list
+check detail item not unicode string
+check unexpected key
+query item not dict
+query item pair not tuple
+query item pair not size tuple
+query item contain invalid param
+query item contain invalid type
+query item contain invalid param
+query item contain invalid regex
+query item regex no capture group
+query item contain invalid param
+query item invalid
+query item not string
+query item not valid type
+query not dict
+limit item not size tuple
+not string
+limit not valid counter type
+not an int
+unknown limit param
+limit order by not in performance counter descriptors
+query item not dict
+query item pair not tuple
+query item pair not size tuple
+query item contain invalid param
+query item contain invalid type
+query item contain invalid param
+query item contain invalid regex
+query item regex no capture group
+query item contain invalid param
+query item invalid
+query item not string
+query item not valid type
+query not dict
+limit item not size tuple
+not string
+limit not valid counter type
+not an int
+unknown limit param
+limit order by not in performance counter descriptors
+fail run module in active mode
+module command handler return wrong type
+module command handler throw exception
+fail parse
+mgrmap module list change respawn
+error load module
+pool do not exist
+respawn execv fail with
+fail run module in standby mode
+error fetch store key
+send me an unknown health metric
+miss or invalid command attribute in module
+miss or invalid module options attribute in module
+module return wrong type in can run
+module return wrong type in can run
+module have miss member
+module have member wrong type should be list
+module have non dict entry in list
+exception call register options on
+exception call register commands on
+ignore only one class load from each plugin
+block size size
+warning io uring api not supported fallback libaio
+fail lock
+unable get device name for
+get
+translate the error eio for upper layer
+aio but returned
+stall aio since timeout suicide
+bdev inject crash trigger from aio thread
+inflight overlap with
+stall aio since timeout
+bdev inject crash drop io
+bdev inject crash drop io
+stall read buffered direct since timeout
+stall read since timeout
+error
+error
+stall read buffered since timeout
+stall read direct since timeout
+direct aligned read error
+error
+warning io uring api not supported fallback libaio
+fail lock
+unable get device name for
+get
+translate the error eio for upper layer
+aio but returned
+stall aio since timeout suicide
+bdev inject crash trigger from aio thread
+inflight overlap with
+stall aio since timeout
+bdev inject crash drop io
+bdev inject crash drop io
+stall read buffered direct since timeout
+stall read since timeout
+error
+error
+stall read buffered since timeout
+stall read direct since timeout
+direct aligned read error
+error
+fail lock
+bdev inject crash drop io
+invalid bluestore spdk coremask at least one core need
+unable read
+miss type file infer filestore from current dir
+miss type file infer bluestore from block symlink
+error write new keyring
+error error create empty object store in
+error error create fresh journal for object store
+create new journal for object store
+error error flush journal for object store
+flush journal for object store
+error error dump journal for object store
+dump journal for object store
+error error mount store
+error error convert store
+error unable open osd superblock on
+please verify underlie storage support xattrs
+osd magic my
+error osd pre init failed
+error osd init failed
+fail proc pidpath error
+fail open error
+fail read error
+fail open pid file
+fail fstat pid file
+fail lock pidfile because another process lock
+fail lock pidfile
+fail ftruncate the pid file
+fail write pid file
+fail set pidfile remove function run at exit
+global init daemonize bug daemon error
+global init daemonize global init shutdown stderr fail with error code
+global init chdir fail chdir directory
+fail read nbd request header
+fail read nbd request data
+fail write reply header
+fail write replay data
+invalidate page cache failed
+rescan partition table failed
+failed
+error look inode
+error access local pool id
+error connect remote cluster
+fail open remote dir path
+fail create remote directory
+fail open remote dir path
+fail lock dir path
+fail close cleanup remote dir path
+fail unlock remote dir path
+fail close remote dir path
+fail open snap directory
+fail fetch snap info for snap path
+snap path have invalid metadata in remote snapshot
+snap path have miss primary snap id key in metadata
+fail close snap directory
+fail delete remote snap dir path snapshot
+fail rename remote snap dir path snapshot from to
+fail create remote directory
+fail chown remote directory
+fail change am time on remote directory
+fail open local file path
+fail create remote file path
+fail read local file path
+fail write remote file path
+fail sync data for dir path
+fail close remote fd path
+fail close local fd path
+fail copy path
+fail readlink local path
+fail symlink remote path target
+fail chown remote directory
+fail change am time on remote directory
+fail open remote directory
+fail stat remote directory
+fail remove remote directory
+fail open remote directory
+fail remove remote directory
+fail open local directory
+fail stat local directory
+fail open local directory
+fail synchronize dir path snapshot
+fail snap remote directory dir path
+fail synchronize dir path snapshot
+fail initialize fsmirror for filesystem
+fail initialize fsmirror for filesystem
+fail update service daemon status
+error connect
+filesystem id mismatch
+invalid request command
+fail wait for dispatcher stop
+could not send response request id error
+could not load registry disk info for error
+could not retrieve executable path error
+could not send device map request make sure the ceph service running error
+the ceph service fail map the image error
+couln establish connection with the child process error
+receive child process reply fail with
+receive child process reply fail with
+could not recreate mapping miss command line
+could not clean non persistent mapping
+could not create mapping error
+could not remove mapping error
+could not read service command
+could not send service command result
+could not start pipe connection handler thread
+rbd wnbd couldn initialize rados
+rbd wnbd couldn connect rados
+rbd wnbd couldn create io context
+rbd wnbd couldn open rbd image
+rbd wnbd fail acquire exclusive lock
+rbd wnbd couldn use snapshot
+rbd wnbd image too large max
+fail communicate with the parent
+could not clean non persistent mapping
+rbd wnbd fail unregister device error
+could not load registry disk info for error
+error read path
+fail stat path
+error read layout on
+fail erase region
+fail erase event
+fail write fnode for frag object
+unexpected error read fragment object
+error write dentries
+error remove dentries from
+error read root inode object
+error write inode object
+unable read inotable
+error write modify inotable
+fail accumulate metadata data from
+unexpected error check roots
+unexpected error check size ino
+bad nlink on expect have
+bad remote link dentry ino not find
+invalid tag char dentry
+error decode dentry
+remove duplicate ino from
+bad nlink on expect have
+unexpected error read dentry
+unexpected error read dentry
+unexpected error check roots
+unable read md table
+unable decode md table
+error update md table
+unexpected error read dentry
+dentry already exist but point
+fail create dirfrag
+unexpected error read dirfrag
+error write dentry
+pool identify in md map not find in rados
+error read data object
+error create directory
+error create directory
+error read journal at offset
+invalid header trimmed expire
+invalid header expire write
+corrupt dentry
+corrupt dentry
+bad entry start ptr at
+error read table object
+error write table object
+error read header on
+pool identify in md map not find in rados
+error initialize local mirror status updater
+error initialize remote mirror status updater
+error initialize instance replayer
+error initialize instance watcher
+error shut instance watcher down
+error shut instance replayer down
+error shut remote mirror status updater down
+error shut local mirror status updater down
+error create object
+error register leader watcher for object
+error unregistering leader watcher for object
+error notify leader lock acquired
+error notify leader lock released
+error notify heartbeat release leader
+fail init mirror status watcher
+fail shut down mirror status watcher
+fail update mirror image statuses
+local image link unknown peer
+fail locate remote start snapshot snap id
+split brain detected fail find match non primary snapshot in remote image local snap id start local snap ns
+fail prune non primary snapshot
+fail copy snapshot from remote local image
+fail retrieve remote snapshot image state
+fail retrieve local snapshot image state
+fail locate local snapshot
+fail create local mirror snapshot
+fail update local mirror image state
+fail copy remote image local image
+fail apply remote image state local image
+fail update local snapshot progress
+fail unlink local peer from remote image
+fail register local update watcher
+fail register remote update watcher
+fail unregister remote update watcher
+fail unregister local update watcher
+fail disable mirror image
+fail remove mirror image
+fail register mirror image
+fail rename image
+fail fetch local image metadata
+fail unprotect snapshot
+fail remove snapshot
+fail protect snapshot
+fail protect snapshot
+fail update snapshot limit
+fail retrieve mirror image detail for image
+local remote mirror image use different mirror mode for image split brain
+unsupported mirror image mode for image
+fail register with remote journal
+fail retrieve global image id for parent image
+fail retrieve local image id for parent image
+fail open remote parent image
+fail retrieve local parent mirror uuid for pool
+fail clone image
+error encounter close remote parent image
+fail open remote parent pool
+fail open local parent pool
+fail retrieve local mirror image info
+unsupported mirror image mode for image
+error retrieve remote journal client
+error start external replay on local image
+fail stop remote journaler replay
+error flush remote journal commit position
+fail retrieve remote tag
+fail unregister with remote journal
+fail register with remote journal
+fail update remote journal client meta for image
+error encounter during image refresh
+fail update mirror peer journal client
+split brain detected local image id register local image id
+fail decode remote client meta data
+fail decode remote tag
+fail shut down remote journaler
+error retrieve register master client
+error retrieve register mirror client
+error retrieve tag
+error decode tag
+fail open image
+fail close local image for image
+fail close remote image for image
+error prepare local image for replay
+error encounter close remote image
+error encounter while close image
+fail open image
+error query local image primary status
+fail lock image
+fail retrieve remote mirror uuid
+fail update client data
+fail refresh image for snapshot
+fail locate sync point snapshot
+unexpected from snap name in primary sync point
+fail remove snapshot
+fail update client data
+notifyinstancerequest ack instance id do not match ignore
+notifyinstancerequest ack request id do not match ignore
+notifyinstancerequest fail decode ack
+notifyinstancerequest resending after timeout
+notifyinstancerequest resending due leader change
+error create object
+error register instance watcher for object
+error unregistering instance watcher for object
+error remove object
+global image id blocklisted detect during image replay
+fail prune catch up sync point
+fail create sync point
+fail locate from snapshot
+fail update client data
+fail prune sync point
+could not tell whether mirror be enable for
+error read mirror config for pool
+error read mirror peer config for pool
+error parse mirror peer config for pool peer
+unexpected error register mirror directory watch
+error unregistering watcher for object
+fail retrieve mirror directory
+unexpected error re registering mirror directory watch
+error access local pool
+fail retrieve local mirror uuid from pool
+error access remote pool
+fail initialize remote pool poller
+error initialize default namespace replayer
+could not read ceph conf for
+could not parse environment for
+could not parse command line args for
+fail set mon host config for
+fail set key config for
+error connect
+fail initialize namespace replayer for namespace
+fail get namespace mirror mode
+fail handle acquire leader for namespace
+fail update service daemon status
+fail open image
+fail get snap protection status
+error retrieve local id for image
+error retrieve image primary info for image
+cannot disable mirror for image global image id have changed reused
+cannot disable mirror for image
+fail remove mirror image state for
+error get image id info from trash
+error set trash image state for image id
+error retrieve snapshot context for image
+error remove image from local pool
+unexpected error re registering trash directory watch
+unexpected error register trash directory watch
+error unregistering watcher for trash directory
+corrupt osd cap data for in auth db
+use default osd cache size mon osd cache size without priority cache management
+mon memory target rocksdb cache size unable update cache size
+cache ratio for pcm could not be set review the kv rocksdb mon memory target sizes
+mon memory target mon memory min invalid size option provided
+full map crc mismatch reset canonical
+invalid memory size specify for mon caches cache will not be auto tuned
+cache ratio for pcm could not be set review the kv rocksdb mon memory target sizes
+cache kv ratio must be in range
+prune enable but prune interval zero
+derr func
+derr func
+derr func prune min prune interval dendl
+mon osdmap full prune txsize mon osdmap full prune interval
+dendl
+receive from entity with insufficient privilege
+receive from entity with insufficient privilege
+unable parse value for key
+receive from entity with insufficient privilege
+closest pin map ver not available error
+osdmap crc mismatch osdmap crc expect
+no beacon from osd since second ago mark down
+fail set device class
+mon debug no initial persistent features true
+unable log syslog level or facility not define level facility
+error parse mon cluster log to syslog level
+error parse mon cluster log to syslog facility
+error parse mon cluster log file level
+error parse mon cluster log to graylog
+error parse mon cluster log to graylog host
+error parse mon cluster log to graylog port
+shut down because be release min mon release
+shut down because lack require monitor features
+drop ping reply stamp newer than newest send
+standby attempt change state reject
+daemon rank report invalid state transition
+unexpected error read metadata
+repair adjust config key
+add global prefix key
+stash newest monmap for next startup
+something wrong happen while read the store
+something wrong happen while read the store
+require release or miss feature have require miss
+exist cluster have not complete upgrade luminous
+derr func
+derr cpp strerror dendl
+report slow ops oldest
+error cluster uuid file exist with value our uuid
+unable find keyring file on
+error decode keyring
+hmm they didn like result
+fail build mgr service session auth info
+unrecognized auth mode
+corrupt cap data for in auth db
+unparseable cap for
+could not find in index
+error create in index
+error set spillout xattr for oid
+fail truncate fsid
+fail write fsid
+close failed can write fsid
+write version stamp failed
+write superblock failed
+cannot fstatfs basedir
+fail create
+fail write
+fail truncate fsid
+fail write fsid
+close failed can write fsid
+have exist omap fsid expect osd fsid
+error create journal on
+unable access basedir
+error open
+error read fsid fd
+error in version stamp is valid
+stale version stamp detected proceeding do update set perform disk format upgrade
+stale version stamp please run the filestore update script before start the osd or set filestore update to currently
+incompatible feature set
+fail open
+error in detect fs
+note roll back cluster snapshot
+warning user force start with data sequence mismatch current be newest snap
+error roll back
+error open
+error read omap fsid fd omap fsid
+have exist omap fsid expect osd fsid
+error initialize
+sanity check fs fail with error
+unable mount index with error
+maybe journal not point block device it size wasn configured
+fsetxattr get
+write fd on error
+copy error at
+safe splice read error at
+get short read result at fd len
+write error at
+read error at
+get short read result at fd len
+write error at
+get index returned
+collection list partial returned
+try set invalid params
+warning max attr value size smaller than osd max object name len your backend filesystem appear not support attrs large enough handle the configure max rados name size you may get unexpected enametoolong error on rados operation or buggy behavior
+filejournal   open error close old fd
+filejournal   open disable aio for non block journal use journal force aio force use aio anyway
+filejournal   open wrong journal file type
+filejournal   open user limit aio event exceeded try increase proc sys fs aio max nr
+sorry don know how large journal create please specify block device use the journal or set osd journal size in your ceph conf
+filejournal   open file unable extend journal bytes
+filejournal   open file unable preallocation journal bytes
+check ondisk fsid doesn match expect invalid someone else journal
+filejournal  create create write header error
+filejournal  create fail allocate byte memory
+filejournal  create error zero first byte
+filejournal  create osd journal not large enough hold osd max write size bytes
+filejournal  create error close fd
+filejournal  open ondisk fsid doesn match expect invalid someone else journal
+filejournal  do write write bl pos fail
+filejournal  do write write bl pos fail
+filejournal  do write pwrite fd hbp length fail
+filejournal  do write write bl pos fail
+filejournal  do aio write write aio bl pos fail
+filejournal  do aio write write aio bl pos fail
+filejournal  do aio write write aio bl pos fail
+io submit get
+aio returned
+try set invalid params
+filejournal  wrap read bl safe read exact return
+unable read past sequence but header indicate the journal have commit through journal corrupt
+buffer size actual
+hot list bytes actual
+warm in list bytes actual
+buffer bytes actual
+miss shard for
+on write shard not loaded can mark dirty
+unrecognized value for bluestore compression mode revert none
+unable initialize compressor
+bluestore cache meta ratio must be in range
+bluestore cache kv ratio must be in range
+bluestore cache kv onode ratio must be in range
+bluestore cache meta ratio bluestore cache kv ratio
+derr func path cpp strerror dendl
+fail open
+fail write
+fail fsync
+fail open
+fail read from
+bad crc on label expect actual
+bdev fsid do not match our fsid
+fail lock fsid is another ceph osd still running
+add block device returned
+check block device label returned
+symlink exist but target unusable
+add block device returned
+add block device returned
+check block device label returned
+symlink exist but target unusable
+bluefs not or abort
+fail load os type
+fail create
+fail create
+fail decode cnode key
+fail decode pool stats key
+fail create symlink
+fail open file
+fail resize file
+fail prefallocate file
+fail open file
+osd max object size bluestore max
+fsck find fatal error
+on disk fsid provide
+min alloc size not power aligned
+can migrate free space at target le than require space
+unable read label for
+unable write label for
+can find device path
+osd max object size bluestore max
+fsck error extent or subset already allocate misreferenced
+fsck error extent past end block device
+fsck error legacy statfs record found remove
+fsck error bad key in statfs namespece
+fsck error fail decode pool statfs record
+fsck error find stray pool statfs record for pool id
+fsck error actual expect for pool
+fsck error miss pool statfs record for pool
+fsck error shard past eof at
+fsck error lextent at overlap with the previous which end at
+fsck error lextent at span shard boundary
+fsck error blob doesn match expect ref map
+fsck error blob sbid blobid max
+fsck error blob mark share but have uninitialized sbid
+fsck error zombie span blob found the first one
+fsck error miss shard key
+fsck error stray shard
+fsck error unexpected
+fsck error saw
+fsck error exp
+fsck error bad object key
+fsck error stray object not own by any collection
+fsck error miss shard key
+fsck error nid nid max
+fsck error nid already in use
+fsck error blob claim unused but extent reference on blob
+fsck error blob claim csum chunk unused mask unused but csum non zero on blob
+fsck error omap head already in use
+fsck error error during read
+fsck store not yet convert per pool stats
+fsck store not yet convert per pg omap
+fsck error bad key in share blob namespace
+fsck error find stray share blob data for sbid
+fsck error fail decode share blob
+fsck error share blob ref map expect
+fail allocate allocate min alloc size available
+fail read from
+fsck error actual expect
+fsck error fail decode defer txn
+fsck error free extent intersect allocate block
+fsck error leak extent
+bdev read failed
+bad checksum at blob offset get expect device location logical extent object
+collection list returned
+compat ondisk format but only understand version
+unexpected txc state
+fail decode defer txn
+error not handle on operation op count from
+error not handle on operation op count from
+unable initialize compressor
+fail allocate allocate min alloc size available
+do alloc write fail with
+do alloc write fail with
+do gc fail with
+mismatch hash on
+fail parse error
+inject error zero at
+initial read different then re read
+inject error zero at
+initial read different then re read
+bad crc on superblock expect actual
+invalid extent duplicate reference ino
+do not align alloc size
+work around by set for osd
+stop uuid super uuid block dump
+stop seq expect
+stop fail decode
+invalid extent not in use but allocate for remove ino
+stop unrecognized op
+file with link count
+fail read from
+unable allocate len from
+fail read from
+unable allocate len from
+allocated offset length
+unable allocate on bdev allocator name allocator type capacity block size free fragmentation allocate
+allocation failed need
+fail parse error
+unable open
+fail lock fsid is another ceph osd still running
+fail create
+fail create
+fail decode cnode key
+on disk fsid provide
+collection list returned
+unexpected txc state
+error not handle on operation op count from
+mismatch hash on
+not enough chunk in read
+layer fail with try encode
+layer fail with try decode with
+want read with available chunks end be unable read
+must be positive number
+must be positive number
+must be positive number
+must be le than or equal
+must be le than or equal
+must be le than or equal
+must be le than or equal
+not valid parameter
+must be one
+the ceph md do not support run on window at the moment
+error fail refresh rotate keys maximum retry time reached
+invalid rank transition
+invalid state transition
+reply client request fail replay error
+decode error at read pos
+invalid item action in purge queue drop
+error read values
+corrupt fnode in dirfrag
+damage dentries in fragment ino fatal because system directory for rank
+damage fragment ino fatal because system directory for rank
+corrupt backtrace on ino
+scrub error on inode
+update snaprealm    since
+problem check st st size file size nr files
+fio ceph objectstore check file
+fio ceph objectstore preallocated file
+clientstub error build initial monmap
+clientstub monc init error
+clientstub monc authenticate error
+monc init error
+monc authenticate error
+pgid not on our map
+osd error apply incremental
+error build monmap
+monc init failed
+monc auth failed
+error find local pool
+error open image
+buffer length mismatch expect actual
+buffer mismatch between offset total

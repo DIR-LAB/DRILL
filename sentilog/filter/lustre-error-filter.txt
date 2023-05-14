@@ -1,0 +1,2776 @@
+number value exceed max allow
+libcfs ioctl parameter not correctly formatted
+libcfs ioctl version mismatch expect get
+libcfs ioctl user buffer too small for ioctl
+libcfs ioctl user buffer too large
+misc register error
+initialize workitem error
+libcfs fail start rehash workqueue rc
+cfs crypto regster error
+portal memory leaked bytes
+error invoke lnet debug log upcall
+cfs fail timeout id sleep for dms
+cfs fail timeout interrupted
+cfs fail timeout id awake
+libcfs cpu partition count core rc
+fail allocate cpu map
+fail allocate scratch cpumask
+fail rc setup cpu partition table with partitions online hw numa nodes hw cpu cores
+fail duplicate pattern
+invalid pattern or too many partition
+fail allocate cpu partition table
+invalid pattern
+expect partition but find
+invalid cpu pattern
+invalid partition id total partition
+partition have already be set
+invalid pattern
+miss right bracket for partition in
+can parse number range in
+no online cpu find on partition
+fail create cptab from pattern
+fail create cptab with npartitions
+can support cpu partition number
+fail create thread for
+page for lockless lock be not purged
+impossible state
+not changelog rec in llog rc
+fail open changelog catalog rc
+fail init llog handle rc
+fail process llog rc
+cannot start changelog thread rc
+convert xattr acl
+validate acl
+allocate fid rc
+too many resend retries rc
+unexpected byte transferred ld expected
+lock enqueue fails rc
+dir page locate at llu rc ld
+page not updated at llu rc
+page error at llu rc
+ptlrpc queue wait failed rc
+can unpack obd quotactl
+cannot get module
+unrecognised ioctl cmd
+bad copytool group
+short hsm message zu zu
+bad magic
+unknown import event
+fail setup llogging subsystems rc
+fail setup changelog char device rc
+disp status
+can enlarge ea size rc
+can swab mdt body
+can alloc new fid rc
+ldlm cli enqueue fini
+can locate next device
+cannot connect next dev
+cancel idx catalog rc
+changelogs cannot be enable due error
+changelog llog setup failed rc
+changelog init failed rc
+changelog user llog setup failed rc
+changelog user init failed rc
+changelog detect orphan failed rc
+changelog user detect orphan failed rc
+purge changelog orphan record failed
+changelog setup during init failed rc
+error initialize object rc
+error initialize rc
+hsm action llog setup failed rc
+hsm action llog open create failed rc
+create root fid failed rc
+initialize lustre failed rc
+fail initialize changelog rc
+fail initialize lfsck rc
+fail register barrier rc
+maximum number changelog user exceeded
+bad ioctl size
+bad magic
+cannot start changelog garbage collection
+changelog have wrong flags rc
+error set debugfs for
+object not found rc
+object not found rc
+fail rollback layout of
+fail rollback layout of
+don extend directory lovea just set it
+can truncate dom inode data rc
+restore hsm error
+unable roll back layout swap fids
+fail get lu attr rc
+unable delete from orphan list
+unable delete from orphan list
+object not found rc
+object not found rc
+could not delete orphan object rc
+cannot get orphan thandle rc
+could not delete orphan rc
+error unlinking orphan rc
+cannot clean rc
+error load iterator clean
+fail get fid for orphan it rc
+bad fid clean
+orphan dir not an index rc
+start orphan cleanup thread failed rc
+cannot store changelog record type
+link ea add fail
+link ea add fail
+link ea del fail
+link ea rename fail
+object fail be an orphan
+invalid lmv user md magic
+tobj dead something wrong
+fail get nlink for tobj
+fail set ctime for tobj
+fail unlink tobj
+fail get nlink for tobj
+migration be
+readlink failed rc
+name too long
+miss name
+fail process log type rc
+logname too long
+can create sptlrpc log rc ld
+cannot create nodemap log rc
+can create params log rc
+can create barrier log rc
+can create log rc
+sptlrpc log name not correct
+can create recover log rc
+fail process log
+fail cleanup llogging subsystems
+fail setup llogging subsystems
+cannot start requeue thread rc
+invalid sptlrpc flavor mgs
+unknown import event
+mne too large
+entry index  lld over max index  lld
+index unsorted prev lld now lld
+mgc invalid logname
+mgc cannot find uuid by nid
+fail copy remote log rc
+can drop cfg lock
+lov del obd unimplemented
+cannot process recover llog
+can process params llog rc
+unknown command
+lookup range error rc
+declare record failed rc
+insert range failed rc
+can find obj
+file not an index rc
+insert special entry failed rc
+can find target by hash seq llx target
+exp srv idx llu
+target exist in fld know llu
+ldebugfs fail in fld init
+wrong hash function
+new range curr
+fld cache range do not match request flag rc
+cannot find sequence llx rc
+lookup llx but not connect mdt yet rc
+read record error rc
+fail setup dt tunables
+error set debugfs
+fail create osc debugfs symlink
+can be initialized rc
+can initialize lov objid rc
+can initialize lov seq rc
+can not get id from old objid
+can not get sequence from old objseq
+can not write seq file rc
+get invalid fid
+can disconnect rc
+can start precreate thread rc
+unknown param
+unknown command
+can locate next device
+cannot connect next dev rc
+cannot find obd with name
+invalid target name rc
+invalid target name rc
+invalid target name rc
+invalid ost index in rc
+invalid target name rc
+invalid ost index in rc
+invalid mdt index from rc
+invalid ost index in rc
+fsname too long in rc
+can setup obd rc
+fid init error rc
+can connect obd rc
+class disconnect error rc
+unsupported import event
+cannot get module
+unrecognized ioctl by
+fail get server uuid from lwp name rc
+client obd setup error rc
+unknown command
+cannot find obd with name
+ptlrpcd addref error rc
+lprocfs obd setup failed
+setup lwp failed
+sptlrpc lprocfs cliobd attached failed
+lwp notify thread wasn stopped
+fail start lwp notify thread lu
+can connect obd rc
+class disconnect error rc
+unsupported import event
+unknown key
+insert update error rc
+osp attr get update error rc
+update error rc
+insert update error rc
+wrong version expect
+wrong version expect rc
+return more page than expected
+invalid magic for page
+bad llu set
+log isn available run lfsck
+invalid setattr record lsr valid  llu
+unknown record type
+can delete invalid record
+can cancel record
+can cancel record rc
+can initialize env rc
+can get appropriate context
+can get llh
+llog process with osp sync process queues
+can cleanup llog
+can get id from catalogs rc
+the catid for init llog bad
+can initialize llog rc
+cannot start sync thread rc
+can sync
+init env error rc
+init env error rc
+insert update error rc
+wrong version expect rc
+lookup wrong size
+lookup invalid fid
+insert update error rc
+cannot insert update rc
+invalid update reply magic expect
+can sync
+can not write last seq file rc
+can not write last seq file rc
+alloc fid error rc
+can not update oid seq file rc
+can precreate rc
+precreate fid local use fid
+server do not support fid rc
+get last fid failed
+get insane last fid
+cannot cleanup orphans rc
+init env error rc
+alloc fid error rc
+write fid error rc
+init env error rc
+init pre fid error rc
+cannot precreate objects
+precreate fail opd pre status
+can punch object
+can start precreate thread ld
+fail create tx set blksize for
+fail assign tx set blksize for
+fail set blksize for rc
+fid in lma do not match the
+lookup llx failed rc
+cannot destroy xattrs for rc
+fail free llu rc
+fail free llu rc
+zap add int fail llu rc
+zap remove failed rc
+can change blocksize
+can change blocksize
+can allocate buffer for xattr update
+can allocate buffer for xattr update
+fail remove agent entry for
+xattr lookup failed rc
+lookup xattr failed rc
+free xattr failed rc
+free xattr llu failed rc
+can get bonus rc
+wrong parent
+fail init for check lmv llu rc
+fail locate next for check lmv
+fail lookup for check lmv
+fail remove entry under remote
+fail load lma for remove
+fail update lma for remove
+can not lookup fld for llx
+wasn declare for insert
+oic for isn filled
+fail locate entry rc
+fail destroy agent object llu
+zap remove failed rc
+unsupported direntry format
+unsupported direntry format
+not implemeted yet move llx
+couldn parse name
+cannot setup sysfs debugfs entry
+error set lprocfs for
+can initialize shrinker env rc
+transaction commit error rc
+dt txn hook start failed rc
+fail start transaction due enospc
+can assign tx rc
+someone try start transaction under
+set device read only
+can open
+error look zpl version
+lookup for root failed rc
+lookup for failed rc
+space account not support by target
+can get dnode for unlinked rc
+someone try free object under
+lose allocate page
+lose loan abuf
+lose pin dbuf
+proc fini error
+not enough ram for rebuild index
+lookup failed rc
+can not create rc
+can not find seq group
+can not find seq group
+fid add id map cache failed ld
+can lookup rc
+fid add id map cache failed ld
+fail disconnect rc
+request add obd with invalid generation
+can find device
+cannot connect next dev
+can set pool fail with
+cannot start llog on rc
+fail add lfsck target name type
+can find device
+request remove obd with invalid generation
+device not set up
+lod target uuid at index do not match
+can not locate rc
+bad idx
+bad lod tgt desc for idx
+invalid lod device for idx
+lod setup require descriptor
+descriptor size wrong
+bad lov desc magic
+statfs rc
+can find slice
+can allocate memory for ost in use array
+start index not find in pool
+can lstripe objid have want
+unrecognized magic
+can declare create
+can get id from catalogs rc
+the shard for the strip
+both the shard
+invalid lmv user md magic
+invalid magic
+first component cannot be extension space
+invalid extension space components
+the replay buffer layout extend
+can locate rc
+doesn have primary mirror
+invalid fid
+error clean lod index cmd rc
+break update record index rc
+can initialize env rc
+get update log failed rc
+invalid mdt index in rc
+invalid mdt index in rc
+invalid mdt index in rc
+invalid mdt index in rc
+invalid mdt index in rc
+cannot setup updatelog llog rc
+cannot start recovery thread rc
+cannot init distribute txn rc
+can not find rc
+can not find rc
+can process rc
+error in disconnect from storage rc
+unknown command
+can complete recovery on rc
+prepare bottom error rc
+can sync ost rc
+can sync mdt rc
+unable parse device name rc
+unable parse device name rc
+can not locate next device rc
+cannot connect next dev rc
+cannot find obd with name rc
+can not fini ost descriptors rc
+can not fini mdt descriptors rc
+disconnect
+can set maxage on
+fail setup dt tunables
+error set lprocfs
+lov subsystem not found
+fail create lov sysfs symlink
+fail create lov debugfs symlink
+cannot create lov symlink for proc fs lustre lod
+ost not initialized
+error while look for md number seq llx
+cannot find correspond mdc device for md
+dom entry must be the first stripe in mirror
+dom entry with different sizes
+unknown composite layout entry type
+cannot apply new layout on rc
+target not set up
+target register observer error
+target connect error
+can register lov target sys fs lustre       target obds rc
+lov connect tgt failed
+error send notify
+target disconnect error
+unknown event for uuid
+unexpected notification
+event failed rc
+request add with invalid generation
+uuid already assign at index rc
+add failed delete rc
+lov target index number lov obds
+lov target at index not setup
+lov target uuid at index doesn match
+lov setup require descriptor
+descriptor size wrong
+bad lov desc magic
+lov tgt not cleaned
+unknown command
+bad quota opc for lov obd
+ost inactive
+fail add mdc target rc
+target not set up
+add fail delete
+cannot serve more than mdc devices
+cannot find lmv obd by uuid
+fail add mdc target rc
+cannot find any valid component cover
+fail find component cover
+try instantiate component for designate
+invalid component mirror
+page fault on file without stripes
+lov bad stripe count rc
+lov zero object id rc
+lov unrecognized strip pattern rc
+lov bad stripe size rc
+lov ea too small zu
+ost index more than ost count
+ost index missing
+bad lcm buffer size zu expect zu
+lcm entry have invalid blob
+error set debugfs for pool rc
+bad lsm magic nor
+fail set rc
+should be greater than mb
+lock reclaim threshold mb must be smaller than
+lock limit mb must be greater than
+ldebugfs fail in ldlm init
+lprocfs fail in ldlm init
+lprocfs fail in ldlm init
+lprocfs fail in ldlm init
+lru size invalid value written
+dlm namespace have no procfs dir
+ldlm get ref failed
+unknown type for
+can initialize sysfs rc
+can initialize proc rc
+can initialize lock pool rc
+ldlm cli cancel
+namespace resource refcount nonzero
+debugfs entry not initialized
+cannot create pool debugfs entry rc
+unknown intent
+fl cbpending set on non local lock  just
+client side only module cannot handle
+client side only module cannot handle
+deadlock found but client doesn support flock canceliation
+illegal parameter for client side only module
+can remove current connection
+connection not found
+unknown client obd type can setup
+require target uuid
+client uuid must be le than characters
+setup require server uuid
+target uuid must be le than characters
+ldlm get ref failed
+bad mount option network rc
+can add initial connection
+unable create client namespace
+invalid export for disconnect exp cookie llx
+disconnect disconnect device
+cannot get reverse import security rc
+invalid flag resent replay
+recovery queue be not empty
+abort recovery
+invalid dlm result code
+dump lock for export ignore if the unmount doesn hang
+ldlm cli cancel
+try enqueue local lock in shadow namespace
+cancel unused lock rc
+receive replay ack for unknown local cookie llx remote cookie llx from server id
+free lock on elt list
+lock with free export on elt list
+dump the log upon eviction
+unknown opcode
+ldlm cli cancel
+from arrive at llu with bad export cookie llu
+invalid opcode
+cannot start ldlm thread ldlm bl rc ld
+ldlm cleanup failed
+fail start service
+fail start service
+cannot start ldlm expired lock thread
+fail initialize ldlm pools
+fail setup reclaim thread rc
+ldlm still have namespaces clean these first
+ldlm refcount in ldlm exit
+ptlrpc queue wait failed rc
+can unpack obd quotactl
+max pages chunkbits chunk mask lx
+completion on oap obj return
+write request fail with
+read request fail with
+bad llu set rc
+impossible state
+server do not support lockahead locknoexpand
+page for lockless lock be not purged
+can unpack ost body
+dirty lu dirty max lu
+dirty ld system dirty max ld
+dirty lu dirty max lu too big
+unexpected byte transferred requested
+unable initialize checksum hash rc
+unable initialize checksum hash
+can open dump page with checksum
+want write but get
+sync return
+unexpected positive size
+unexpected size request
+unexpected size transfer
+checksum request from but not sent
+too many resent retry for object
+prep req failed
+cannot get module
+unknown import event
+cannot init lu site rc
+cannot cleanup cl stack due memory shortage
+invalid lov magic
+no mdt body in the refill xattr reply
+wrong setxattr reply
+xattr protocol violation names be broken
+xattr protocol violation vals be broken
+hole in xattr data
+wrong io type
+unknown error in page fault
+refresh file layout error
+failure inode get parent rc
+md not setup or attached
+cannot connect rc
+can init metadata layer fid infrastructure
+get connect data failed rc
+dt not setup or attached
+cannot connect rc
+can init data layer fid infrastructure
+cannot mds connect rc
+invalid root fid during mount
+md getattr fail for root rc
+fail understand root inode md rc
+bad ll iget for root rc
+set checksum failed rc
+can make root dentry rc
+could not register in llite rc
+could not register in llite rc
+cannot get max lov ea size rc
+get max mdsize error rc
+get default mdsize error rc
+fsname longer than characters rc
+could not register mountpoint in llite rc
+fail get simple inode rc enoent
+dir layout mismatch
+md setattr fails rc
+pcc inode setattr failed
+failure inode rc
+invalid mdc connection handle llx
+invalid lov connection handle llx
+fid insane
+new inode fatal rc
+fail set parameter
+unknown magic lx
+archive id request but only
+unsupported quotactl op
+lookup failed rc
+wrong lum magic rc
+wrong lum size for magic rc
+wrong lum magic or size rc
+invalid foreign size returned
+get target count failed
+wrong lum magic rc
+can set max readahead mb  llu lumb
+can set max readahead per file mb  llu max read ahead mb  lu
+can set max read ahead whole mb  llu max read ahead per file mb  lu
+can set max cache more than lu mb
+bad statahead running max value lu valid value
+bad statahead max value lu valid value be in the range
+revise array ll sbi flags match sbi
+cannot set max read ahead async active than
+can set read ahead async file threshold mb  lu
+md body miss fid
+md body miss fid
+can not initialize inode without object type
+invalid inode type
+tell peter lookup on mtpt
+can start ll agl thread rc ld
+read dir at llu
+can start ll sa thread rc
+inode rc
+obd md linkname not set on reply
+inode symlink length not expect
+inode symlink not null terminate string
+invalid mdc connection handle close
+inode mdc close failed rc
+server return off len llu but size llu
+lease grant but no open lock llu
+error close file
+unknown io subtype
+unable disable lock on
+unknown fcntl lock command
+mdt doesn support stripe directory
+migrate but fid insane
+unexpected notification from
+unexpected not new inode rc
+fail initialize cl object rc
+cli ted grant  ld ted pending  ld
+cli ted dirty  ld maxsize  llu
+tot granted llu fo tot granted llu
+tot pending llu fo tot pending llu
+tot dirty llu fo tot dirty llu
+tot pending llu tot granted llu
+tot granted llu maxsize llu
+tot dirty llu maxsize llu
+cli report llu drop tot grant llu
+cli dirty ld pend ld grant ld
+cli claim lu grant real grant lu
+cli replay ost write while one rnb
+cli dirty ld pend ld grant ld
+client request max lu llu
+cli grant ld want llu current llu
+cli ted pending  lu grant used  lu
+cli tot granted  llu grant used  lu
+cli tot pending  llu grant used  lu
+unknown update type
+failure initialize session rc
+undo for rc
+cannot prepare updates rc
+write update failed rc
+stop trans failed rc
+prepare update failed rc
+write update failed rc
+stop trans failed rc
+can read last commit batchid rc
+undo failure be doomed rc
+attr set undo unimplemented yet rc
+oops can not rollback index delete yet rc
+not support destroy undo yet rc
+invalid fid
+client send bad object rc
+client send bad ioobj max for
+short ioobj
+too many ioobjs
+ioo have zero bufcnt
+obd md flid flag not set in ost body but oid fid mandatory with has body
+no handler for opcode
+unsupported opcode
+unauthorized rpc flavor from
+rpc source doesn match
+no target pas
+fail get sptlrpc rules rc
+sync llu  llu on lock
+unable initialize checksum hash
+can alloc page for corruption
+can alloc page for corruption
+can open dump page with checksum
+want write but get
+sync return
+unable initialize checksum hash
+can alloc page for corruption
+can alloc page for corruption
+deny read request from portal
+drop timed out read from because lock object take lld second limit be lld
+deny write request from portal
+drop timed out write from because lock object take lld second limit be lld
+slot already set in bitmap
+slot not allocated
+slot already clear in bitmap
+client bite already clear in bitmap
+can initialize environment rc
+no room for client fix lr max clients
+unable set multi rpcs
+fail write client lcd at idx rc
+client bite already set in bitmap
+client bite already clear in bitmap
+fail update server data skip client
+couldn find slot for reply data
+can update file rc
+replay transno llu failed rc
+client idx have offset lld
+try overwrite bigger transno
+error read last rcvd idx off
+duplicate export
+duplicate export for client
+can not get index from name rc
+unknown target type
+error read last rcvd rc
+unsupported incompat filesystem feature
+unsupported read only filesystem feature
+bad last rcvd contents
+error write rc
+error read rc
+invalid header in
+error read rc
+busy tag req xid  llu trd xid  llu transno  llu client gen slot idx rc
+can get statfs data rc
+blocksize not power
+cannot open last rcvd rc
+cannot open reply data rc
+unable clear multi rpcs
+obdo null invalid rpc rc ld
+invalid fid rc ld
+invalid fid rc
+empty obdo in the update rc ld
+empty name for xattr get rc ld
+empty name for xattr get rc
+empty buf for xattr list rc
+empty name for lookup rc ld
+empty name for xattr set rc ld
+emptry or wrong size zu flag rc ld
+empty name for xattr set rc ld
+empty name for index insert rc ld
+invalid fid rc ld
+invalid fid rc
+invalid type for index insert rc ld
+empty name for index delete rc ld
+invalid fid rc
+empty buf for xattr set rc ld
+empty or wrong size zu pos rc ld
+empty size for read rc ld
+empty po for read rc ld
+start handle error rc
+undo for rc
+invalid update buffer magic expect
+invalid update buffer magic
+invalid fid rc
+too small reply buf for at least
+can pack response rc
+unsupported opc
+fail find backend lost found rc ld
+unknown lfsck namespace status
+fail init namespace lfsck component rc
+unknown lfsck layout status
+fail init layout lfsck component rc
+the device register already
+cannot start lfsck assistant thread for
+cannot notify mdt for lfsck stop
+fail stop lfsck on some mdts rc
+cannot notify mdt for lfsck
+cannot start lfsck on some mdts
+only allow specify via mds
+cannot start lfsck thread rc
+only allow specify via mds
+lprocfs obd setup failed
+tgt tunables init failed rc
+lprocfs alloc obd stats failed
+error set lprocfs for
+add proc entry clear failed
+bad llu set
+fid fini error rc
+can read last id rc
+corrupt size llu last id seq llx
+cannot update controller rc
+fid init error rc
+can init fld rc
+can init seq exp rc
+no lvb data for
+can locate next device
+cannot connect next dev rc
+cannot get mount info for
+fail trigger lcfg pre cleanup
+param empty
+unknown lfsck event rc
+fail initialize lfsck rc
+seq server init error rc
+seq client init error rc
+unsupported key
+error find object
+not support key
+setattr from try truncate object
+can not find seq for
+can find fid sequence llx rc ld
+recreate objid last id llu
+drop old orphan cleanup request
+drop old precreate request
+invalid seq
+invalid precreate request for
+unable precreate rc
+error destroy object
+statfs failed rc
+cannot find obd with name
+can init device stack rc
+cli ocd connect flags llx ocd version ocd grant ocd index ocd brw size unexpectedly zero network data corruption refuse connection client
+connect with checksum support but no ocd cksum types set
+can initialize export rc
+cli have lu pending on destroy export
+unsupported key
+not support key
+setattr from try truncate object
+can find object
+error destroy object
+can find fid sequence llx rc ld
+unable precreate rc
+bad llu set rc
+abort recovery
+not support cmd
+cannot start self repair thread rc
+can find fid sequence llx rc
+invalid seq
+brw miss obj
+bulk have too many page which exceed the
+can not find seq for
+wrong cmd received
+hit the idif max oid
+hit the obif max oid
+fail reset the last id for seq llx
+fail stop transaction rc
+update layout version from client
+fail stop transaction rc
+fail stop transaction rc
+fail stop transaction
+read version file error
+write nid table version for file system error
+ir fail read current version rc
+start notify thread error ld
+unable process command
+key fail when list rc
+key fail when list rc
+unhandled lrh type
+insane cfg
+old config format not supported
+fsname too long
+no memory for mdt index maps
+no memory for ost index maps
+can get db from client log
+can get db from params log
+can get db for
+max index exceeded
+unknown server type
+can get db for
+unknown server type
+unhandled lrh type
+insane cfg
+modify failed rc
+can create uuid for
+no new nids be added nid with uuid
+unhandled lrh type cmd
+can make backup for rc
+llog should be restored rc
+can restore backup rc
+fail replace log rc
+node still connect during replace nids
+only mg allow be started
+can find fsdb rc
+error while replace nids for rc
+only mg allow be started
+cannot read config directory rc
+list empty read config dir rc
+can start log rc
+can modify llog rc
+write log rc
+params be too long
+unhandled lrh type
+insane cfg
+log empty logical error
+log empty logical error
+log empty logical error
+parameter quota isn support only quota mdt
+enable option isn supported
+error write log rc
+invalid param
+invalid sptlrpc parameter
+invalid sptlrpc flavor parameter
+unhandled lrh type
+insane cfg
+invalid command
+svname empty
+param empty
+read sptlrpc record error
+fail read sptlrpc config database
+err on param
+unknown target type can create log for
+can write log for
+mg config context doesn exist
+fail clear log
+no filesystem target for cfg device from lctl
+can get db for
+not defined
+error load nodemap config file file must be
+fail trigger lcfg pre cleanup
+can take cfg lock for llx   llx rc
+update ir return failure rc
+can get db for rc
+can get db for
+can get db for
+fail write log
+fail get db for
+no logname in request
+unknown cfg record type
+obd ioc nodemap command for rc
+unknown cfg record type
+obd ioc pool err cmd for pool
+unknown cfg record type
+setparam err rc
+no device or fsname specified rc
+device or fsname too long rc
+device or fsname not nul terminated
+no nids specified rc
+nid list not nul terminated
+error replace nids rc
+no device or fsname specified rc
+device or fsname too long rc
+device or fsname not nul terminated
+error clear config log rc
+unknown command
+can locate next device
+cannot connect next dev
+mg filesystem method init failed rc
+cannot initialize proc entry rc
+fsdb log setup failed rc
+fail start mg service
+no version in request buffer
+file attribute read error for
+file attribute change error for
+unsupported mode
+can lock for rename rc
+can lock for rename rc
+fail alloc groups
+no in lov ea upon unlink
+unable fetch miss attribute
+unable add hsm remove request for
+unexpected opcode
+unknown hsm action on
+release action not work in hsm  coord
+unknown hsm action
+resent req xid llu have mismatch opc
+attr get rc
+attr get rc
+identity upcall too long
+invalid data count lu size
+bad identity data
+md identity downcall bad params
+perm count more than maximum
+group count more than maximum
+fail evict nid from osts rc
+cannot create proc entries rc
+fail init target tunables rc
+cannot create hsm proc entries rc
+mdt can not create rename stats rc
+not expect lock type
+unable grow
+unable read acl rc
+nodemap map acl unable parse
+short linkea on rc
+readlink fail for rc
+parent on remote target
+bad changelog clear setinfo size
+invalid hash llx llx
+can unpack reint rc
+can pack response rc
+unsupported opcode ld from client
+unsupported quotactl command
+unsupported quotactl command
+can set mdt ctxt
+invalid fid
+unsupported intent
+unsupported layout intent opc
+unknown layout intent opc
+unknown intent code
+cannot init env rc
+cannot update controller rc
+can locate next device
+cannot connect next dev
+can find the profile
+can not find obd in config
+failure refill session
+can find profile for
+can not find obd in config
+cannot connect quota master device
+cannot get mount info for
+can init device stack rc
+error initialize coordinator rc
+can init mdt lprocfs rc
+param empty
+cli ocd connect flags llx
+connect with checksum support but no
+fail initialize export rc
+nonlocal object
+abort recovery for device
+not support cmd rc
+no upcall set
+error invoke upcall rc check proc fs lustre mdt    identity upcall time ldus
+fail alloc groups
+fail alloc permissions
+replay trans llu nid rc
+request lease for file but open lock
+isn on server rc
+doesn exist rc
+file join not support anymore
+name present but fid
+cannot open volatile file orphan
+cleanup open rc
+cannot create volatile file rc
+cannot open volatile file orphan
+cannot open orphan file rc ld
+error close volatile file rc
+set blocks error
+cannot update agent log rc
+fail resize request buffer
+cannot allocate memory bytes
+mdt agent record update failed
+coordinator thread exiting process rc
+coordinator already start or stopping
+cannot take the layout lock need
+error start coordinator thread
+mdt agent record update failed
+copytool have close volatile file
+request llx on
+fail request llx on
+fail request llx on
+successful request llx on cannot be cancel
+successful request llx on an unknown action
+cannot find run request for cookie llx
+progress on for cookie llx
+progress on for cookie llx action
+mdt agent record update failed
+coordinator already stopped
+coordinator stopped
+valid coordinator control command are
+cannot create hsm directory in mdt proc dir rc
+unable add hsm remove request
+mdt agent record update
+cannot find agent for archive rc
+mdt agent record update failed
+mdt agent record update failed
+agent uuid not found unregistering
+cannot send request agent rc
+bad parameter
+wrong cmd received
+truncate on dir rc
+client page bit be not save on server
+fail start regular mdt service
+fail start readpage service
+fail start setattr service
+fail start out service
+fail start seq controller service
+fail start metadata seq server service
+fail start fld service
+fail start mdt service
+error get ea size for rc
+migrate mdt count mismatch
+migrate mdt index mismatch
+migrate mdt hash mismatch
+invalid xattr name
+fail process hsm actions llog rc
+mdt agent llog update rec failed rc
+cdt llog process failed rc cannot update
+llog get context failed
+can write space data rc
+can update fld database rc
+read only byte
+can find obj
+invalid range receive from server
+range receive from server exhausted
+can allocate new meta sequence
+can allocate new sequence rc
+can allocate new sequence
+ldebugfs fail in seq init
+can init sequence manager debugfs rc
+sequence space exhausted
+no sequence controller attached
+allocate super sequence failed rc
+allocate meta sequence failed rc
+sequence server not
+sequence controller not
+can init sequence manager debugfs rc
+can create fldb for sequence manager debugfs rc
+can write space data
+can read space data rc
+invalid fid sequence width rc
+read record error rc
+fail start service
+fail start ost create service
+fail start ost service
+fail start ost seq service
+fail start out service
+invalid data count lu size
+bad sepol data
+sepol downcall bad params
+invalid sepol data returned
+bad sepol data
+can register lproc for obd type
+create proc entry srpc info for
+create proc entry srpc contexts for
+create proc entry srpc sepol for
+invalid rpc flavor
+fail register
+fail unregister
+array field size mismatch
+array field size mismatch
+field size mismatch
+cannot create nodemap hash table
+cannot insert nodemap range into rc
+config nodemap hash null unable add
+cannot allocate memory zu bytes
+cannot add nodemap rc
+unsupported enctype
+invalid number keys
+fail read version
+invalid version
+fail alloc hash rc
+hash function for undefined
+bad token id
+bad direction flag
+miss confidential flag
+bad filler
+bad ec or rrc
+short signature
+bad krb header
+short signature require
+checksum mismatch
+error encrypt confounder
+error encrypt page
+error encrypt krb header
+odd transfer nob
+error decrypt confounder
+page odd offset len blocksize
+error decrypt page
+cipher text transfer but only decrypted
+plain text expect but only received
+error decrypt tail
+krb header doesn match
+fail obtain arc enc key
+fail alloc tfm arc in ecb mode
+fail set arc key len
+odd offset in page
+short signature
+bad krb header
+odd bodysize
+incomplete token bodysize
+buffer too small require
+fail obtain arc enc key
+fail alloc tfm arc in ecb mode
+fail set arc key len
+error decrypt
+decrypt krb header mismatch
+checksum mismatch
+short signature
+bad krb header
+short token size
+checksum mismatch
+fail register kerberos mechanism
+can copy token
+unexpected bufcount
+unable extract reply header
+invalid version
+output buffer size ld too small
+ioctl size lu expect lu please check lgss keyring
+fail copy data from lgssd
+gssd interface version expect
+invalid obdname pointer
+no such obd
+obd not setup
+obd have stopped
+obd not client device
+obd import have gone
+import have be deactivated
+bulk write fail allocate
+bulk security descriptor mismatch
+server report bulk failure
+fail verify bulk read
+fail decrypt bulk read
+bulk read fail prepare encryption
+bulk write fail prepare encryption
+fail verify bulk signature
+prepare nob doesn match the actual
+fail decrypt bulk data
+fail sign bulk data
+bulk read fail allocate encryption
+fail encrypt bulk data
+header have length now received
+fail generate mic
+mic verify error
+invalid bufcount
+unwrap message error
+ctx unable inquire expire now
+seq window replay max winsize
+unexpected bufcount
+can decode header
+version mismatch expect
+bulk flag in reply
+seqnum mismatch expect
+svc mismatch expect
+fail verify reply
+invalid reply bufcount
+unpack bulk desc
+server return error with early reply
+unknown proc
+priv wrap message error
+can decode header
+version mismatch expect
+bulk flag in reply
+fail unwrap reply
+fail unpack after decryption
+invalid reply buffer empty
+bufcount miss bulk sec desc
+server return error with early reply
+unexpected proc
+backend not found
+could not pack reply err
+unexpected bulk flag
+proc invalid handle length
+invalid bufcount
+sec size too small
+fail extract target uuid
+target not available for context init
+fail extract reverse handle
+can extract token
+miss user descriptor
+mal formed user descriptor
+too few segment in request
+phase discard replay req seq
+fail verify request
+phase discard replay req seq
+no user desc included
+mal formed user descriptor
+miss bulk sec descriptor
+phase discard replay req seq
+fail unwrap request
+phase discard replay req seq
+fail unpack after decryption
+invalid buffer empty
+no user descriptor included
+mal formed user descriptor
+no bulk checksum included
+unsupported service
+svc failed major req xid llu ctx idx
+svc not support in destroy
+miss user descriptor ignore it
+mal formed user descriptor ignore it
+buf count only
+can decode header
+version expect
+unknown proc
+client request bulk sec on non bulk rpc
+wrap message error
+proc not support
+unknown service
+fail dup svc handle
+fail copy mech context
+fail dup reverse handle
+fail alloc tfm mode rc
+fail set key len rc
+output length zu mismatch blocksize
+iv size too large
+bufsize too small datalen pad
+encrypt error
+buflen
+fail copy user space data
+fail get seq
+upcall have abort earlier
+refresh ctx uid failed
+fail msg seq uid svc nid llx obd
+fail remain msg seq uid svc
+import have no connection set
+rpc queue upcall failed
+fail create pipe dir ld
+fail make rpc pipe ld
+rsi parse error
+fail get remote flag
+fail get root user flag
+fail get md user flag
+fail get os user flag
+fail get map uid
+noent set rsc entry negative
+unable get expire time drop it
+parse rsc error
+unable get expire time drop it
+create reverse svc ctx idx llx rc
+fail dup context handle
+can duplicate token
+error in rsi lookup
+authentication failed
+fail duplicate reverse handle
+handle size too large
+fail pack reply
+fail initialize lproc entries
+buflen
+buflen
+buflen
+fail alloc bytes
+buflen
+fail register null mechanism
+obd not support device
+fail request key ld
+fail copy reverse cli ctx
+fail alloc key ld
+fail instantiate key
+fail copy reverse cli ctx
+invalid data len lu
+key already have payload
+fail link key keyring
+fail extract seq win
+cannot extract rpc rc
+fail extract rc
+negotiation rpc err err
+fail extract handle
+fail extract mech
+fail import context
+fail register keyring type
+counter looped connection must be reset avoid
+fail read share key interface version
+invalid share key interface version
+fail read hmac algorithm type
+invalid hmac type
+fail read crypt algorithm type
+invalid crypt type
+fail read context expiration time
+fail read host random
+fail read peer random
+fail read hmac key
+hmac key must key must be larger than bytes
+fail read session key
+checksum mismatch
+offset not blocksize aligned
+fail encrypt page
+transfer not multiple block size
+invalid bulk descriptor vector
+invalid decrypt length
+decryption fail for page
+cipher text transfer but only decrypted
+plain text expect but only received
+fail register sk mechanism
+fail allocate enc pages
+invalid bulk sec desc size
+unexpected version
+invalid type
+invalid svc
+unable initialize checksum hash
+cannot allocate lu nid range size zu bytes
+cannot allocate lu idmap size zu bytes
+rc wait for callback
+unregistering rpcs find
+interrupted inval
+no connection available
+can connect close import
+already connected
+already connecting
+no connect data from server
+miss export after connect
+server didn grant request subset flags
+server didn grant request subset flags
+imp replayable flag do not match server after reconnect should lbug right here
+go back in time transno lld be previously committed server now claim lld
+for further information see http   doc lustre org lustre manual xhtml went back in time
+dump the log upon eviction
+error start invalidate thread
+don know how disconnect from
+bulk sec desc have short size
+invalid bulk svc
+unexpected reply buf count
+miss plain header
+invalid header version
+unexpected udesc flag in reply
+reply bulk flavor
+bulk checksum in reply
+bulk write fail compute checksum
+bulk read client verify failed
+invalid rpc flavor
+unexpected request buf count
+miss plain header
+invalid header version
+invalid hash algorithm
+mal formed user descriptor
+bulk write server verify failed
+bulk read server fail compute checksum
+fail register
+cannot unregister
+cannot find nodemap rc
+cannot find nodemap rc
+cannot find nodemap rc
+cannot find nodemap rc
+cannot find nodemap rc
+cannot find nodemap rc
+cannot find nodemap rc
+cannot find nodemap rc
+cannot find nodemap rc
+cannot find nodemap rc
+cannot find nodemap rc
+cannot find nodemap rc
+cannot find nodemap rc
+cannot create nodemap directory rc
+cannot create nodemap rc
+cannot destroy nodemap index rc
+cannot load nodemap index from disk create
+cannot add nodemap config non existing mgs
+cannot add nodemap config non existing mgs
+cannot add nodemap config non existing mgs
+cannot add nodemap config non existing mgs
+cannot add nodemap config non existing mgs
+cannot add nodemap config non existing mgs
+cannot add nodemap config non existing mgs
+cannot add nodemap config non existing mgs
+get keyrec pair for unknown type
+unknown target
+invalid flavor string
+invalid param no
+invalid network name
+invalid rule dir segment
+can merge
+out memory can merge rule
+can find conf
+miss target name
+miss parameter
+invalid sptlrpc parameter
+not sptlrpc config log
+unexpected obd type
+miss sptlrpc config log
+jobids illegal
+nids illegal
+ss illegal
+request allocation out memory
+cannot allocate ptlrpc set rc
+transno during replay
+ptlrpc run out memory
+ctxt  loc imp null for context idx
+bad log header magic expecting
+incorrectly size log header expect power two
+you may re run lconf write conf
+nrs cannot get module for policy alive
+nrs arg too long
+can find nrs policy
+policy busy with references
+nrs policy have be registered can register
+fail register nrs policy for
+fail unregister nrs policy for
+nrs fail register policy please check
+nrs fail register policy which have already
+fail register nrs policy for
+unable unregister fallback policy unless the
+fail unregister nrs policy which have
+please first stop policy on all service
+already unregistered
+unable load module ptlrpc gss
+invalid wire flavor
+import with no sec
+attempt use die sec
+req fail get context
+req fail replace dead ctx
+fail unpack reply llu
+reply data length too small
+reply policy doesn match request policy
+real reply with offset
+reply at odd offset
+early reply with offset
+data size have change from
+early reply length too small
+invalid flavor
+import fail create new sec
+error unpack request from llu
+unsupported rpc flavor
+size message too big zd allowed
+nob doesn match transfer nob
+error unwrap bulk
+group too large
+group be claim but bufsize only
+can allocate request buffer
+invalid cpu bind value only or allowed
+invalid cpt pattern string
+fail parse cpt array
+fail start thread for service
+error unpack request ptl from llu
+error unpack ptlrpc body ptl from llu
+drop incoming rpc opc llu
+wrong packet type receive type from
+failure initialize session rc
+fail post rqbd for on cpt
+cannot start reply handler thread rc
+cannot start thread rc
+cannot start thread rc
+unhealthy request have be wait llds
+recovery replay error for req
+oom try ping
+cannot start pinger workqueue
+cannot start ping evictor thread ld
+config wrong instance
+can allocate incoming request descriptor
+fail allocate event queue
+network initialisation failed
+rpcd initialisation failed
+lnetmdbind failed
+lnetput lld failed
+lnetmdbind fail for md rc
+fail bulk transfer with llu
+lnetmeattach fail llu rc
+lnetmdattach fail llu rc
+not reply on null connection
+lnetmeattach failed
+lnetmdattach failed
+lnetmeattach failed ld
+lnetmdattach failed
+failure refill session
+invalid cpt pattern string
+fail parse cpt array
+msg not support please upgrade you system
+incorrect message magic
+incorrect message magic
+lustre pack reply failed rc size
+msg buffer size too small
+message length too small for lustre msg
+message bufcount not valid
+message length too small for buflens
+buffer length not valid
+len required len bufcount
+buffer length
+message length too small for magic version check
+error unpack ptlrpc body
+wrong lustre msg version
+bad lustre msg magic
+bad lustre msg magic
+incorrect message magic
+incorrect message magic
+can unpack string in msg buffer
+can unpack non null terminate string in msg buffer len
+buffer length msg buffer invalid
+can unpack short string in msg buffer len strlen
+can unpack oversized string in msg buffer len strlen max expected
+incorrect message magic
+incorrect message magic
+invalid msg no ptlrpc body
+invalid msg no ptlrpc body
+invalid msg no ptlrpc body
+incorrect message magic
+invalid msg no ptlrpc body
+incorrect message magic
+invalid msg no ptlrpc body
+incorrect message magic
+invalid msg no ptlrpc body
+incorrect message magic msg
+invalid msg no ptlrpc body
+incorrect message magic
+invalid msg no ptlrpc body
+incorrect message magic
+invalid msg no ptlrpc body
+incorrect message magic
+invalid msg no ptlrpc body
+incorrect message magic
+invalid msg no ptlrpc body
+incorrect message magic
+invalid msg no ptlrpc body
+invalid msg no ptlrpc body
+invalid msg magic
+invalid msg no ptlrpc body
+invalid msg magic
+invalid msg no ptlrpc body
+invalid msg magic
+invalid msg no ptlrpc body
+invalid msg magic
+invalid msg no ptlrpc body
+incorrect message magic
+incorrect message magic
+invalid msg no ptlrpc body
+incorrect message magic
+invalid msg no ptlrpc body
+incorrect message magic
+incorrect message magic
+incorrect message magic
+invalid msg no ptlrpc body
+incorrect message magic
+incorrect message magic
+invalid magic
+bad lustre msg magic
+can locate backend osd device
+cannot connect osd dev
+fail start rebalance thread
+fail create qmt proc entry
+fail create master quota directory
+can pack response rc
+invalid global index version llu
+can open global index copy ld
+can open slave index copy ld
+can allocate site ld
+can add procfs entry for account file
+can add procfs entry for global index copy
+fail extract filesystem name
+fail locate filesystem information
+fail create quota slave proc entry
+qsd instance already prepared
+fail create quota slave root dir
+fail start reint thread for type rc
+fail start writeback thread
+fail generate ospname
+fail get connection master
+can start qsd instance since wasn properly
+qsd instance already started
+can pack response rc
+invalid intent opcode llu
+can extract glb index information from fid
+fail extract lvb from request
+fail get lock from request
+fail get export from lock
+fail allocate glimpse lock array
+fail notify lock
+fail notify new quota settings
+fail init env
+fail start rebalance thread ld
+fail set index operation for
+fail set index operation for
+unsupported quotactl command
+discard slv update ver  llu local ver
+cannot init env rc
+fail start quota update thread rc ld
+fail create proc entry for pool
+fail create glb index copy for type rc
+fail set default grace time for type rc
+fail set initial version for type rc
+fail create site for type rc
+fail scan count slave index for type rc
+fail create quota slave index file for
+more than qids enforce for
+fail locate lqe for id  llu type
+seq next failed rc
+fail get key rc ld
+fail get rec rc
+error initialize procfs quota env rc
+fail initialize iterator rc ld
+unsupported quotactl command
+malformed quota request with conflict flag set
+fail find quota filesystem information for
+fail extract extract filesystem
+fail look up create idx file rc  ld
+fail setup index operation for
+fail setup slave index operation for
+fail setup index operation for
+fail update index copy for id llu rc
+invalid record size for index
+invalid magic for page
+invalid magic in index transfer
+invalid key size report on index transfer for
+master return more page than expected
+write version llu fail rc
+delay reintegration for qtype until pending
+should not have any item left
+fail allocate lqe for id  llu
+cannot initialize site for echo client
+create md echo root fid failed rc
+can not find tgt device
+not lu device type
+no type name for echo setup
+not lu device type
+echo fid init error
+get root error rc
+cleanup obd device error
+can not find the child rc ld
+can not locate the child
+can not create child rc
+can not getattr child rc
+invalid md md magic rc
+can not find the parent rc
+can not create child rc
+lookup rc
+can find child rc
+can not locate the child
+can not setattr child rc
+can find child rc ld
+can not locate the child
+can not getattr child rc
+can not lookup child rc
+can find child rc ld
+can not locate the child
+can not destroy remote object rc
+can not unlink child rc
+can not unlink child rc
+can not find the parent rc ld
+lookup under parent rc
+md echo client not be initialize properly
+only support mdd layer right now
+can not resolve the path rc ld
+unknown command
+invalid oid
+cannot create objects rc
+create object fail with rc
+invalid oid
+echo client drop an object failed rc
+error in echo object llx
+can not alloc seq rc
+echo ioctl unrecognised ioctl
+require target obd name
+device not attach or not set
+can alloc ocd connect
+fail connect device
+still have clients
+fail disconnect device
+can connect
+unexpected block size
+unexpected block size
+can get page for id
+null page objid llu buf
+clean page obdos
+null re niobuf with niocount
+clean page obdos
+no type set in obdo
+invalid valid in obdo llx
+invalid seq llx
+obdo miss flid valid flag llx
+bad objid destroy
+obdo miss flid valid flag llx
+obdo miss flid valid flag llx
+cannot find obd with name
+prep commitrw page leaked
+unexpected notification
+sactivation failed
+class connection return
+cannot create sys fs lustre       target obds
+obd init ea size fail on mdt target
+target not attached
+target not set up
+target connect error
+target register observer error
+target not attached rc
+no target configured rc einval
+no target configure for index rc einval
+can finanize fids factory
+target disconnect error
+invalid fid rc
+iocontrol mdc on mdt
+error iocontrol mdc on mdt
+lmv setup require descriptor
+lmv descriptor size wrong
+can init fld err
+unknown command
+can stat md rc
+invalid lmv magic rc
+unrecognized magic
+master lmv inactive
+getquota on mdt failed
+invalid fid rc
+error while look for md number seq llx rc
+fld lookup get invalid md max for fid rc
+fail create lu site hash with bits lu
+fail alloc entry
+acquire for key llu error
+find stale entry key llu in ioctl
+error while clean ctxt
+ctxt lop setup failed rc
+unbalance quota in parameters
+no type passed
+no name passed
+no uuid passed
+uuid must be byte long
+cannot create device type
+device not attached
+device already setup type
+device setup in progress type
+setup fail
+obd device still set up
+obd device not attached
+device not setup
+obd already stopping
+unrecognised flag
+precleanup return
+invalid conn uuid
+can add connection on non client dev
+try add conn on immature client dev
+invalid conn uuid
+can del connection on non client dev
+try del conn on immature client dev
+unsupported upcall
+lctl error invoke upcall rc
+lcfg command require device name
+no device for
+cannot find lov by name rc
+unknown command
+can parse param missing
+fail send uevent
+unknown llog record type encountered
+cfg command failed rc
+empty cleanup
+cleanup fail
+detach fail
+no name passed
+name not nul terminated
+obd ioctl ioc len larger than
+obd ioctl ioc inllen larger than
+obd ioctl ioc inllen larger than
+obd ioctl ioc inllen larger than
+obd ioctl ioc inllen larger than
+obd ioctl inlbuf pointer but length
+obd ioctl inlbuf pointer but length
+obd ioctl inlbuf pointer but length
+obd ioctl inlbuf pointer but length
+obd ioctl pbuf pointer but length
+obd ioctl pbuf pointer but length
+obd ioctl plen set but null pointer
+obd ioctl plen set but null pointer
+obd ioctl packlen exceed ioc len
+version mismatch kernel application
+user buffer len exceed max buffer
+user buffer too small for ioctl
+cannot allocate control buffer len
+ioctl not correctly formatted
+obd ioctl data error
+no config buffer passed
+no buffer pas in ioctl
+ioctl buffer too small hold version
+no uuid passed
+uuid not nul terminated
+no buffer pas in ioctl
+ioctl buffer too small hold version
+obd ioctl no device
+obd ioctl no device
+obd ioctl device not setup
+device not attached
+string helper size llu result llu
+llx xffffffffffffffff
+llx xffffffffffffffff
+llx xffffffffffffffff
+do div   llx llu
+do div   llx llu llu
+string helpers format should be number then units
+string helpers invalid unit should be rejected
+string helpers number string with should be invalid
+string helpers fail detect overflow
+string helpers fail detect overflow
+kmalloc obd memory failed
+cannot register obd miscdevice err
+obd namespace be not properly clean obd force
+can create compat proc entry
+unknown obd type
+type have refcount
+name uuid must be byte long
+obd unknown type
+cleanup return
+already exists won add
+all device used increase
+disconnect export failed
+can evict myself
+can disconnect no export found
+cannot set max rpcs in flight
+can set max mod rpcs in flight value hu
+can set max mod rpcs in flight value hu
+cancel ongoing page trasmission
+io failed still wait for remain entries
+unexpected use guard number dif
+unable initialize checksum hash rc
+remove an already removed handle llx
+force clean handle llx addr owner
+handle count at cleanup
+lu ref
+link
+kernelcomm bad magic
+error write pad record rc
+error read log header size rc
+bad log header magic
+incorrectly size log header
+incorrectly size log tailer
+modify unset record
+modify index mismatch
+modify index mismatch
+can get record offset idx
+index already set in log bitmap
+can read llog block from log
+invalid llog block at log id
+invalid llog tail at log id
+invalid llog tail at log id
+miss desire record
+can read llog block from log
+invalid llog block at log id
+invalid llog tail at log id
+miss desire record
+can declare name llog rc
+can create name llog rc
+can remove llog rc
+catalog not regular file mode
+error read catalogs rc
+catalog not regular file mode
+ldebugfs could not create symbolic link from
+cannot create proc entry for export rc
+should not have any items
+invalid jobid size lu expect
+invalid device type for job stats rc
+can create new plain llog in catalog rc
+error open log id rc
+failure destroy log during
+next log do not exist
+error on nd llog rc
+fail cancel catalog record rc
+fail cancel llog records rc
+fail cancel llog records rc
+wrong content seq   llx lastid file magic
+fail read seq   llx lastid rc
+bad oid llu read from last id
+already register
+not registered
+can find mount for
+can find mount for
+can set fs
+fail get fsname from tgt name rc
+invalid tgt name name
+not an ost or mdt target
+fail get fsname rc
+too long lwp name max size
+connect failed rc
+can add uuid rc
+fail generate lwp name rc
+setup failed rc
+connect failed rc
+fail generate lwp name rc
+can find lwp device
+can add conn rc
+unknown llog record type encountered
+fail add uuid rc
+fail get fsname from svname
+fail disconnect lwp rc
+fail stop lwp rc
+fail get fsname from svname rc
+fail get nid for server please check whether
+fail start
+fail start server
+no server name be started
+fail start lwp
+no obd
+fail stop lwp
+can make root inode
+can make root dentry
+unable start osd on
+unable start targets
+attach error
+setup error
+no valid mg nids found
+no mg nids given
+no valid mg nids found
+can find mgcobd
+connect fail
+del mdc uuid failed rc
+can stop mgc
+can parse server name rc
+lnet dynamic peer discovery enable
+bad mount option
+client side only module cannot handle server mount
+unable mount
+obdclass register fstype failed rc
+can init device
+cannot allocate device
+cannot create proc fs lustre rc
+unknown llog rec type swab rec
+not swab lustre cfg version expecting
+lprocfs no memory create entry
+lprocfs no memory create proc entry
+lprocfs could not create symbolic link from
+error set debugfs for
+error set lprocfs for
+miss md stat initializer md op operation at offset aborting
+can cancel index which header
+can destroy empty llog rc
+llog type but initialize
+llog type not specified
+llog uuid mismatch
+unknown flags expected or
+invalid record index
+retry remote llog process
+local llog find corrupt
+cannot alloc pointer
+cannot start thread rc
+loghandle missed
+loghandle with null object
+miss transaction handle
+loghandle with no header
+fail open log rc
+fail open backup logfile rc
+backup llog itself object
+fail backup log rc
+attr get fail for rc
+fail load scrub file rc
+store scrub file rc
+cannot start iteration thread rc
+fail locate backup dir rc ld
+fail init local storage rc
+no space print log records
+invalid record in catalog
+not enough space for print log records
+not enough space for log header info
+unknown ioctl cmd
+handle  count but there be recs found
+lgh last idx in the header last find
+expect active recs after write find
+llog create with name failed
+can init llog handle
+close log failed
+re open log with name failed
+can init llog handle
+create log failed
+can init llog handle
+re open log by logid failed
+can init llog handle
+re open log by logid failed
+can init llog handle
+destroy log failed
+wrong record offset in cur off llu should be
+wrong record offset in cur off llu
+record with wrong index be read expect
+cb test cannot modify record while processing
+cb test cannot add new record while
+cb test record not modified
+write record fail at
+process total record but expect
+process total record but expect
+write record fail at
+process total record but expect
+process total record but expect
+write recs fail at
+llog create with name failed
+can init llog handle
+write catalog record fail at
+cancel catalog base record failed
+write record fail at
+write record fail at
+close log failed
+invalid record in catalog
+log not plain
+log not plain
+llog create with logid failed
+can init llog handle
+process with cat print cb failed
+entry in catalog
+process with llog cancel rec cb failed
+process with cat print cb failed
+entry in catalog
+add record the log with many cancel empty
+process with plain print cb failed
+find records
+reversely process with plain print cb failed
+find records
+close log failed
+no mgc device connect found
+connect on connect mgc fail return
+llog open fail
+llog init handle fail
+llog process fail
+llog reverse process fail
+llog close failed rc
+sub create log failed
+sub can init llog handle
+sub write recs fail at
+sub verify handle failed
+sub llog process failed
+sub process record from total
+sub reverse llog process failed
+sub reverse direct process find different
+sub llog exist but should be zapped
+llog logid rec test failed
+llog unlink rec test failed
+llog setattr   rec test failed
+llog size change rec test failed
+llog changelog rec test failed
+llog changelog user rec test failed
+llog size change rec test failed
+llog setattr   rec test failed
+llog create with logid failed
+can init llog handle
+process with test   cb failed
+add record failed
+close log failed
+llog create with logid failed
+can init llog handle
+add record failed
+close log failed
+llog create with logid failed
+can init llog handle
+process with test   cb failed
+find record expected
+close log failed
+sub create log failed
+sub can init llog handle
+sub write recs fail at
+llog logid rec test failed
+llog obd cfg rec test failed
+llog changelog rec test failed
+llog changelog user rec test failed
+invalid record in catalog
+llog create with name failed
+can init llog handle
+sync failed
+write record fail at
+sync failed
+write record fail at
+sync failed
+write record fail at
+all last record add should have fail with
+fail get catalog attrs
+process with llog cancel rec cb failed
+process with cat print cb failed
+entry in catalog
+sync failed
+write record fail at
+all last record add should have fail with
+process with cat print cb failed
+entry in catalog
+catalog fail wrap around
+fail get catalog attrs
+catalog size have change after have wrap around
+sync failed
+process with llog cancel rec cb failed
+process with cat print cb failed
+entry in catalog
+sync failed
+write record fail at
+all last record add should have fail with
+lgh last idx llh cat idx
+fail get catalog attrs
+catalog size have change after have wrap around
+sync failed
+process with llog cancel rec cb failed
+process with cat print cb failed
+entry in catalog
+sync failed
+process with llog cancel rec cb failed
+process with cat print cb failed
+entry in catalog
+lgh last idx llh cat idx
+sync failed
+process with llog cancel rec cb failed
+process with cat print cb failed
+entry in catalog
+lgh last idx llh cat idx
+write record fail at
+all last record add should have fail with
+race happened old record be processed
+close log failed
+cleanup llog destroy failed
+fail llog test llog finish
+require target obd name
+require target obd name
+target device not attach or not set
+keysize mismatch hu hu
+error set debugfs
+bad inode return lu rc enoent
+find lu mode
+can read last rcvd file rc
+the fid use by two objects
+the fid use by
+the fid use by
+used
+cannot load idle blocks blk err ld
+invalid idle block head blk magic
+cannot find cursor
+can read quota tree block
+can read quota tree block
+can read quota tree block
+can read quota tree block
+error while try read quota information
+too many trans qids
+ref tag error on sector lu rcvd
+guard tag error on sector lu
+guard tag error on sector lu
+bio  bi private null should never
+bi next bi flags lx
+unexpected guard tag on sector
+can allocate bio pages
+can read llu on ino lu
+error read offset llu block lu
+journal get write access return error
+cannot setup sysfs debugfs entry
+error set lprocfs for
+fid add id map cache failed ld
+can lookup rc
+fid add id map cache failed ld
+transaction commit error
+someone try start transaction under
+can lookup fld sequence llx rc
+fail in transaction hook rc
+fail stop transaction rc
+unsupported pi sector size
+unsupported pi type
+unsupported checksum type
+unsupported pi type
+set read only
+lx cannot be set readonly rc
+quota transfer failed rc quota
+quota transfer failed rc project
+remove agent entry rc
+create local error
+quota transfer failed rc project
+set lma for remote inode failed rc
+add dot dotdot error rc
+fail remove agent entry for
+fail create agent entry for
+can get fid rc
+wasn declare for insert
+oic for isn filled
+ldiskfs return invalid namelen
+device extent feature not guarantee
+cannot find ldiskfs module
+can mount
+device ldiskfs do not support filesystems
+underlie device mark
+device mount journal
+fail set lma on root inode
+can initialize procfs rc
+scan the same object multiple time at the pos
+fail read bitmap for
+not enough ram for rebuild index
+can open rc
+expect open total oi files
+fail remove the stale oi file
+fail remove the stale oi file rc
+can open rc
+lookup fld rc
+the fid use by two objects
+can allocate noop tx desc
+refuse create connection
+can find peer ni
+can add peer ni
+can allocate tx desc type size
+error on read from
+unknown message type
+checksum error wire data
+unknown zc ack cookie llu llu
+checksum error wire data
+unable allocate scratch pages
+unable allocate scratch iov
+error read hello from pi
+bad magic expected from
+error read hello from pi
+unknown protocol version expected from pi
+error read or check hello from from pi
+expect hello hdr with nid but get lnet nid any
+unexpected type from ip pi
+mismatch types me ip pi
+total stale zc reqs for peer ni detected the
+error get sock peer ni ip
+error get sock local ip
+can set so linger
+can set so linger
+can disable nagle
+can set buffer tx rx buffers
+can set initial tcp backoff
+can set maximum tcp backoff
+can set so keepalive
+can set tcp keepidle
+can set tcp keepintvl
+can set tcp keepcnt
+ksnc type bad
+ksnc type bad
+can allocate struct lnet hdr
+can allocate struct lnet hdr
+error read rest hello hdr from pi
+expect hello hdr
+bad nip from ip pi
+error read ip from ip pi
+zero ip from ip pi
+error read hello from pi
+bad nip from ip pi
+error read ip from ip pi
+zero ip from ip pi
+can create peer ni network shutdown
+duplicate route pi
+route pi connect pi
+no scheduler available node unhealthy
+not create conn type
+complete partial receive from
+incomplete receive lnet header from
+incomplete receive ksock message from
+incomplete receive slop from
+obsolete ioc libcfs register mynid
+can spawn socknal connd
+can spawn socknal reaper
+can spawn thread for scheduler
+ksocklnd find duplicate at rc
+ksocklnd request but only interface found
+bad nfrags should be
+short
+short message
+bad magic
+bad version
+short message
+short message get want
+bad checksum
+bad src nid
+short
+unknown message type
+cannot allocate peer ni
+no scheduler available node unhealthy
+can allocate qp attr for
+can allocate connection for
+can allocate in progress connection state
+failover in progress
+cmid hca kib dev failover
+fail create cq with cqes ld
+can request completion notification
+can create qp send wr recv wr
+cannot allocate rx buffers
+can post rxmsg
+can allocate descriptor for pages
+can allocate page
+fastreg pool still have region registered
+fail create fmr pool
+fmrs be not supported
+fail allocate new fast reg descriptor
+fail allocate ib fast reg page list
+fail allocate ib fast reg mr
+fail map mr
+fail create the first pool for
+can allocate new pool because out memory
+fail allocate tx pool
+can allocate tx pages
+can allocate tx descriptors
+can set fmr pool size ntx
+fail allocate fmr pool array
+can initialize fmr pool for cpt
+fail allocate tx pool array
+can initialize tx pool for cpt
+out memory
+fail query ib device
+ib device do not support fmrs nor fastregs can
+invalid mr size llx
+fail ib get dma mr ld
+fail create cmid for failover
+fail bind pi device
+fail create cmid for failover
+fail bind pi device
+fail allocate kib hca dev
+can allocate pd
+can start new listener
+can get device attributes
+can setup device
+can spawn iblnd connd
+can spawn iblnd failover thread
+can spawn thread for scheduler
+fail start scheduler thread for
+ko iblnd multiple interface not supported
+ipoib interface name too long
+ko iblnd no match interfaces
+ko iblnd can initialize device rc
+fail initialize ni pools
+can post rx for bad wrq
+can get tx for completion for
+bad credit from
+bad iblnd message type from
+unmatched put ack from
+can setup rdma for put
+error unpack rx from
+stale rx from
+use fastreg with no gap support but tx have gaps
+tx number frags than connection
+can map pages
+can find page
+lack enough sg entry map tx
+lack enough sg entry map tx
+error post transmit
+src buffer exhausted frags
+dst buffer exhausted frags
+rdma have too many fragment for peer ni
+unable set reuse on cmid
+fail bind free privilege port
+can create cmid for ld
+can resolve addr for
+can create peer ni
+can allocate txd for get
+can setup get sink for
+can create reply for get
+can allocate txd for
+can setup put src for
+can send tx descs exhausted
+can get tx for reply
+can setup get src for
+can setup rdma for get from
+immediate message from too big
+can allocate tx for
+can setup put sink for
+peer ni port pi    hu not privileged
+short connection request
+can parse connection request
+can accept conn from on pi
+unexpected connreq msg type from
+can accept conn from queue depth too large
+can accept message size too big max
+can create peer ni for
+can accept
+rejected consumer define fatal error
+rejected iblnd version error
+rejected iblnd no resources
+rejected iblnd fatal error
+rejected iblnd reason
+can unpack connack from
+unexpected message from
+reply version different with
+have incompatible queue depth wanted
+have incompatible max frags wanted
+max message size too big max
+bad connection reply from rc
+can connect
+unexpected event status
+can resolve route for
+reject
+disconnected
+time out tx lld seconds
+time out rdma with lld
+fatal device error for ni
+port reactivate for ni
+async qp event type
+async cq event type
+invalid ib mtu expect
+fatal fmablk registration have fail
+lbugs in your future forcibly mark fma blk
+fail phys mbox allocation stop at rc
+fail setup fma mailbox
+unexpected magic
+match datagram with srcnid
+look network device in shutdown
+connection data from she send
+bad connection data from she send
+unexpected version
+unknown connreq packet type
+recived bad timestamps peer llu conn llu
+receive timeout min
+dgram with bad post state
+unknown connreq type
+error could not post wildcard datagram
+can create peer for
+unexpected connreq type from
+unknown datagram type
+invalid checksum module parameter
+fail allocate tx
+couldn allocate new tx type
+invalid msg type
+can handle multiple vaddr fragments
+can handle multiple vaddr fragments
+fail allocate tx phys
+can make payload contiguous in vm
+payload too big
+invalid msg type
+fail allocate rx
+lntmsg with unexpected type
+unable setup buffer
+can create reply for get
+invalid msg type
+couldnt find match peer or conn
+unexpected connstamp llx   llx expected
+out eager credit
+couldn allocate eager rx message for conn
+can spawn gnilnd scheduler ld
+too many conn be live
+can allocate conn tx ref table
+could not allocate unique cq id for conn
+fail allocate nets
+error set connection params from
+bad command
+obsolete ioc libcfs register mynid
+can create cdm
+can attach cdm device
+can subscribe for error on device rc
+can subscribe for quiesce callback on device rc
+couldn translate host id nid rc
+can create rdma send cq size for device
+can create fma send cq size for device
+can create fma cq size for device
+can create slab for physical mbox blocks
+can create slab for kgn rx descriptors
+can create slab for kgn tx
+can create slab for kgn tx phys
+can create slab for outgo datagrams
+can allocate vmap cksum pages
+can allocate vmap cksum page for cpu
+can initialise any gni devices
+can spawn gnilnd reaper
+can spawn gnilnd rca
+can spawn gnilnd ruhroh thread
+can spawn gnilnd scheduler
+can spawn gnilnd dgram mover
+can spawn gnilnd dgram waitq
+can create wildcard dgrams
+could not allocate net for new interface instance
+get null net for ni
+couldn allocate iovs
+couldn allocate page
+couldn allocate page
+byte too large require niov
+case loop different checksum expect
+can run cksum test kgnilnd not initialize yet
+kgnilnd not initialize for stats write
+could not allocate mdd sequence iterator
+could not allocate smsg sequence iterator
+could not allocate conn sequence iterator
+could not allocate peer sequence iterator
+couldn create proc dir
+couldn create proc entry
+couldn create proc entry
+couldn create proc entry
+couldn create proc entry
+couldn create proc entry
+couldn create proc entry
+couldn create proc entry
+can reset the stack gnilnd not initialized
+can spawn timer thread
+can allocate descriptor for pages
+can allocate page
+lnetmeattach failed
+lnetmdattach failed
+lnetmdbind failed
+lnet lld failed
+fail add new buf service
+rpc bulk service
+event status type lnet
+unknown event status type lnet
+rpcev crpc reqstev replyev bulkev
+bad event status type lnet
+drop rpc from status mlength type magic
+lnetniinit have failed
+lneteqalloc have failed
+fail create serial wi scheduler for lst
+fail create cpu partition affinity wi scheduler for lst
+lst can startup rpc
+lst can startup framework
+lst can startup console
+fail register test
+drop rpc mksn under memory pressure
+can allocate test instance for batch llu
+can allocate tsu for
+can create rpc for test
+drop rpc from under memory pressure
+drop rpc from race with expiry timer
+bulk transfer fail for rpc
+drop rpc from race with expiry timer
+session timeout must be non negative
+rpc timeout must be non negative
+bad data in page llx llx expected
+bulk page corrupted
+brw rpc fail with
+bulk data from corrupted
+bulk transfer have failed
+brw bulk fail for rpc from
+bulk data from corrupted
+out memory
+can create ndlink out memory
+can create transaction
+out memory
+can create transaction
+can allocate descriptor for group
+can create transaction
+can allocate ndlist ent
+can allocate descriptor for batch
+can allocate hash for batch
+can allocate hash for batch
+can create transaction
+can create transaction
+can allocate test descriptor
+can create transaction
+can create transaction
+out memory
+can create transaction
+can create node link
+can create transaction
+can support these features
+remote feature do not match with
+out memory
+out memory
+can create transaction
+fail create rpc for transaction
+out memory
+out memory
+fail create console pinger
+unable ping
+bad magic from expected
+bad seq from expected
+unexpect magic from
+ni add recovery queue health
+active msg on exit
+fail allocate message finalizers
+fail allocate message resenders
+fail allocate cpu partition data for network
+invalid module parameter value for router sensitivity percentage
+invalid value lu for router sensitivity percentage
+peer be use gateway but rout feature not turn on
+route through have go from
+cannot add route with gateway there no local interface configure on lnet
+out memory create route
+error create route
+gateway have no networks
+no local network find for gateway
+fail discover router
+fail allocate route bufs pages
+lnet lib init error
+unknown stats type
+there bug in the code unknown message type
+recv from send aborted
+gateway peer have no ni on net
+gateway do not have peer ni on net
+gateway do not have peer ni on net
+can send src not
+can send src not
+can send no ni on
+no peer ni for gateway
+peer have no available nets
+peer down
+no route from
+internal error route expect from
+internal error expect local ni on but non find
+can send src not
+no path from net
+internal fault unable send msg
+can send response
+internal error expect have best lpni
+can send response
+unknown send case
+expect peer already create for
+error send
+out memory can recover
+out memory can recover
+can bind md
+local ni recovery fail with
+peer ni recovery fail with
+unexpected event
+can start monitor thread
+unable send reply for get from
+reply md also attach portal
+source md also attach portal
+src bad payload expected
+src bad payload
+src bad message type
+src bad dest nid
+src bad dest nid
+src bad optimize get for
+src drop message for
+src drop simulate failure
+net not found
+src drop asymmetrical route
+src drop out memory
+src drop
+drop put simulate failure
+drop put enomem on struct lnet msg
+drop put enomem on response tracker
+drop put llu md invalid
+source md also attach portal
+drop reply from can allocate msg
+drop reply from for inactive md
+drop get simulate failure
+drop get enomem on struct lnet msg
+drop get enomem on response tracker
+drop get llu md invalid
+reply md also attach portal
+error send magic version in response
+error read connection request version from
+error send magic version in response
+error read connection request from
+can determine new connection address
+refuse connection from pi
+error read connection request from
+can start acceptor thread ld
+fail allocate cpu partition peer tables
+fail create peer hash table
+peer ni gateway can not delete it
+router can not be deleted
+push from non multi rail peer dropped
+push say multi rail dlc say not
+multi rail state vanish from
+error add nid peer
+error delete nid from peer
+primary nid error versus
+can bind push source md
+can allocate discovery eq
+can start peer discovery thread
+lpni add recovery queue health
+match packet from match llu
+invalid portal not in
+active me on exit
+fail create match table for portal
+fail create match hash for portal
+fail allocate portal table
+out memory
+duplicate net ignore
+out memory create network
+can allocate net interface name
+out memory create network interface
+fail set cpts for ni
+network string undefined
+can allocate net tokens
+text buffer too big
+too many text buffers
+can create route
+error parse routes
+error parse ip nets
+too many match networks
+lnet can find any usable interfaces rc enoent
+lnet can allocate ipaddrs rc
+find page for address in highmem
+offset go beyond kiov
+offset go beyond iov
+couldn resolve vaddr lx page
+md start pointer can not be null with length
+invalid option too many fragment max
+invalid length too big fragment size max
+invalid option no md op set
+invalid option get put illegal on active mds
+can set socket send timeout
+unexpected zero rc
+can set socket recv timeout ld
+can create socket
+can set so reuseaddr for socket
+error try bind port
+can set send buffer
+can set receive buffer
+error get sock ip port
+can create socket port already in use
+can set listen backlog
+can allocate socket
+invalid module parameter value for lnet health sensitivity
+invalid health value maximum value lu
+invalid module parameter value for lnet recovery interval
+lnet recovery interval must be at least second
+invalid module parameter value for lnet peer discovery disabled
+invalid module parameter value for
+invalid module parameter value for lnet transaction timeout
+invalid value for lnet transaction timeout lu
+invalid module parameter value for lnet retry count
+can not set retry count when health feature turn off
+invalid value for lnet retry count lu
+invalid module parameter value for lnet interfaces max
+fail create remote net hash table
+active element on exit container
+fail setup resource container
+fail allocate resource containers
+fail allocate queues
+fail allocate counter for lnet
+fail create portal for lnet
+can allocate ping source
+can allocate ping buffer eq
+can create ping target me
+can attach ping target md
+can create push target me
+can attach push md
+can allocate push target eq
+can load lnd module rc
+can have cpts for lnet max allow
+can create lnet global locks
+can allocate monitor thread eq
+add net will invalidate rout configuration
+fail start acceptor thread
+no valid net lnd information provided
+net not found
+nid not found
+manually add local ni recovery
+can allocate eq
+can bind md
+ping info too short
+unexpected magic
+ping ni status
+short reply min
+short reply expected
+rc

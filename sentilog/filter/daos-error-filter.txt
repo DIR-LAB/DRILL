@@ -1,0 +1,3444 @@
+fail find extent
+mismatch extent
+unexpected persistent hint
+unexpected transient hint
+unexpected persistent hint
+fail insert heap
+unexpected adjacent extents
+fail delete
+fail add ptr into tx
+remove from aggregate
+compound free error
+unmap error
+compound free error
+add transaction end callback error
+destroy free extent tree error
+destroy vector tree error
+capacity too large
+ambiguous query please select either vos get max
+no query type please select either vos get max
+no tree queried please select one or more
+dkey can be null with vos get dkey
+akey can be null with vos get akey
+recx can be null with vos get recx
+fail allocate timestamp set
+only integer dkey support for query
+only integer akey support for query
+fail setup mem class
+mix pool in same evtree not allowed
+bad sort policy specified
+fail release entry
+destroy failed
+fail insert entry level
+variable record size not support in evtree
+extent too large
+unknown feature bit
+invalid tree order
+ent array fill failed
+remove partial extent not allowed
+fail delete
+issue copy checksum source
+invalid ovhd argument
+pool too large reserve size scm tot
+query pool scm space failed
+query pool nvme space failed
+query pool space failed
+pool full scm free sys
+generate sysdb path failed
+generate sysdb filename failed
+fail open create sys db
+fail drain btree
+fail drain evtree
+drain failed
+fail start transacton for
+gc error
+invalid credits
+gc pool error
+gc pool failed
+check failed
+could not open incarnation log
+could not update ilog at
+check failed
+could not open incarnation log
+fail initialize incarnation log globals
+remove failed
+fail create array
+error on block free
+error in create object cache
+error in create pool ref hash
+error in create cont ref hash
+error in create txd
+error in create timestamp table
+vos ci btree initialization error
+dtx btree initialization error
+vos oi btree initialization error
+fail register vos trees
+fail initialize incarnation log capability
+nest iterator prepare isn support for
+please call vos iter probe initialize cursor
+fail prepare iterator
+argument ih invalid vos iter param
+no valid handle specify in vos iter param
+can find iterator type
+please call vos iter probe initialize cursor
+hit uncommitted dtx at lid
+fail register dtx active dbtree
+fail register dtx commit dbtree
+unknown dtx type
+not allow commit an abort dtx
+not allow abort commit dtx
+no space when create actvie dtx table
+unexpected dtx type
+no space store dtx mb
+no space store active dtx
+not enough dram commit
+no space store commit dtx
+not enough dram commit
+fail mark sync rc
+corruption in dtx table found lid
+not enough memory for dtx
+corruption in dtx table found
+fail remove dtx entry
+fail pin dtx entry for
+fail re create dtx active array
+fail re create dtx active btree
+fail re create dtx commit btree
+fail reindex active dtx table
+fail reindex commit dtx table
+fail register incarnation log entry
+fail deregister incarnation log entry
+fail register incarnation log btree class
+fail add undo log
+could not allocate memory for open incarnation log
+fail start pmdk transaction rc
+fail add undo log
+fail start pmdk transaction rc
+could not open incarnation log tree
+could not destroy incarnation log tree
+fail start pmdk transaction rc
+fail create an incarnation log tree rc
+fail add entry incarnation log
+fail add entry incarnation log
+match punch update minor epoch not allowed
+dbtree fetch failed rc
+could not destroy table rc
+fail open incarnation log tree rc
+fetch ilog entry failed rc
+fail update incarnation log rc
+invalid log handle
+fail open ilog tree rc
+fail open ilog iterator rc
+no memory available for iterate ilog
+error probe ilog
+error fetch ilog entry from tree
+could not remove entry from tree
+fail open incarnation log tree
+invalid log handle
+init dedup hash failed
+fail allocate dedup entry
+fail allocate csum buf
+insert dedup entry failed
+invalid iod nr
+invalid iod nr iod type
+checksum find in some entries
+cannot support mix record size
+fail update subtree
+error prepare dkey tree rc
+reserve from scm failed
+reserve from nvme failed
+reserve scm for sv failed
+reserve nvme for sv failed
+reserve recx failed
+invalid sv iod nr
+error on nvme reservations
+detect duplicate akeys operation not allowed
+hold space failed
+dkey update begin failed
+invalid sgl index
+fail alloc byte scm
+update fail
+copy fail
+update fail
+copy fail
+close vos context pool
+uuid hash table insert failed
+fail create an context for write blob
+fail write header for blob
+fail free context
+fail unmap blob
+file not accessible when size
+fail create pool size errno
+enable scm usage statistic failed
+initialize pool root error
+error create blob for xs pool
+format blob error for xs pool
+open reference exists force kill
+open reference exists cannot kill pool
+destroy blob for pool rc
+fail open
+fail mmap len
+fail munmap
+failure delete file from pmem
+invalid slab id
+fail get unit size rc
+fail register vos slab rc
+invalid parameters
+error allocate pool handle
+error in open the pool
+register slab failed rc
+fail instantiate umem
+enable scm usage statistic failed rc
+unsupported df version
+mismatch uuid user pool
+container tree open failed
+fail open vos context for xs
+fail load block space info
+error insert into vos dram hash
+cannot close null handle
+query pool failed
+oid iter fini failed rc
+expect type get
+fail prepare dtx iteration rc
+error while fetch dtx info rc
+fail delete dtx entry rc
+error in create lru cache
+error prepare dkey rc
+fail hold object
+fail delete object
+object hold error
+memory tx start error
+init dkey tree error
+open akey tree error
+delete key error
+cannot load the prepare key tree
+could not fetch key
+cannot support epoch range for conditional iteration
+unknown iterator type
+iterator type have no subtree
+invalid nest iterator type for
+invalid nest iterator type for
+could not hold object
+unknown iterator type
+dbtree create failed
+uhash table container handle insert failed
+empty pool handle
+container already exists
+empty pool handle
+error in allocate container handle
+no object handle tree open failed
+fail create dtx active array rc
+fail create dtx active btree rc
+fail create dtx commit btree rc
+error load allocator hint
+fail reindex active dtx entries
+error insert vos container handle uuid hash
+cannot close null handle
+empty container handle for querying
+empty container handle for ctl
+empty pool handle for destroy container
+open reference exist for cont
+fail start pmdk transaction
+fail end pmdk transaction
+dbtree create failed
+co iter fini failed
+expect type get
+error while fetch co info
+failure create incarnation log
+mix single value array not allowed
+fail open tree
+fail add key record transaction
+fail create evtree
+fail create btree
+fetch failed
+fail upsert
+fail register
+evt iter skip holes only valid with evt iter visible
+cannot share embed iterator
+unknown op code for evt iterator
+fail delete entry
+fail delete sv entry
+reserve from scm failed
+reserve from nvme failed
+init bsgl error
+extend bsgl error
+readv for error
+csum verify error
+reserve segment error
+write error
+fill seg error
+publish scm extent error
+delete pe off
+insert segment error
+publish nvme extent error
+prepare segment error
+fill segment error
+insert segment error
+delete ev entry error
+flush window error
+enqueue phy ent win ent
+enqueue lgc ent win ent
+flush window error
+vos aggregation failed
+vos aggregation failed
+already in discard
+aggregate epr
+already in aggregation
+discard epr
+failure create incarnation log
+fail destroy incarnation log
+fail update key for object index
+fail delete object
+oid iter fini failed
+error while fetch oid info
+expect type get
+error while fetch oid info
+fail delete oid entry
+remove orphan dkey tree
+could not evict object
+dbtree create failed
+can destroy spinlock for fault id
+fault id not set
+yaml parser parse failed rc
+unknown element
+yaml parser parse failed rc
+unknown element
+unknown key
+fault config file item miss id field
+set fault attr failed rc
+yaml parser parse failed rc
+yaml parser parse failed
+yaml parser parse failed rc
+hash table create inplace failed rc
+fail destroy fault attr data force
+fail open file
+fail initialize yaml parser rc
+yaml parser parse failed rc
+fault attr parse failed rc
+seed parse failed rc
+unknown key
+fail parse fault config file
+no fault config file
+fault injection not initialized
+invalid parameter should pas in valid ops table
+invalid parameter null heap pointer
+binheap grow failed
+dbg lock init failed
+invalid parameter should pas in valid ops table
+invalid parameter null heap nd level pointer
+binheap create failed
+ignore invalid parameter null heap
+ignore invalid parameter null heap
+ignore null heap
+invalid parameter null or
+binheap grow failed
+bh ops  hop enter failed
+invalid parameter null or
+ignore null heap
+no memory register error code range
+attempt deregister non existent error range from
+unable get debug bite mask for trace
+unable get debug bite mask for test
+fail add metric
+mutex init failure
+fail initialize telemetry metric for id
+unable detach from share memory segment
+unable remove share memory segment
+fail destroy mutex for node
+fail add incremement counter
+fail increment counter on item not
+fail add record timestamp
+fail record timestamp on item not
+invalid clk id for
+fail add record high resolution timer
+fail record high resolution timer on item
+invalid clk id for
+fail add mark duration start
+fail mark duration start on item
+fail mark duration end
+fail mark duration end on item
+fail add set gauge
+fail set gauge on item
+fail add incremement gauge
+fail increment gauge on item
+fail add decrement gauge
+fail decrement gauge on item
+fail get mutex
+pthread mutexattr init failed
+pthread mutexattr setpshared failed
+mutex init failed
+fail add metric
+fail get mutex
+fail histogram for
+unable allocate share memory shmget failed
+unable allocate share memory shmat failed
+unable access share memory shmget failed
+unable access share memory shmat failed
+hash table not initialize null buckets
+invalid parameter null cb
+hash table not initialize null buckets
+hash table not empty with non ptr objects
+invalid ptr type key be lookup in
+invalid ptr type key
+invalid ptr type key be lookup in
+error insert handle in uuid in memory hash
+invalid parameter dst src
+rank list dup failed
+nothing do dst src
+rank list realloc failed
+rank list cannot be null
+rank list realloc failed
+rank list realloc failed
+name parameter too long
+env not integer
+old dev hot removed
+set device state failed
+error manage lead on device
+create blob failed
+delete blob failed
+invalid blob size cluster size
+wait eventual failed
+create blob failed
+wait eventual failed
+delete blob failed
+fail load blobstore for new dev
+no blob from on dev
+fail load blobstore for new dev
+new dev hot removed
+new dev in replacing
+fail list pool in smd
+fail create old blobs
+fail replace dev
+lookup old dev in smd failed
+old dev isn in faulty state
+fail find old dev
+old dev isn in state
+new dev already use by daos
+lookup new dev in smd failed
+fail find new dev
+fail alloc traddr
+fail get spdk bdev for
+fail alloc spdk json context
+fail dump config from spdk bdev
+fail get traddr for
+fail get smd dev list
+fail allocate device info
+find unexpected device in smd
+fail allocate device info
+fail find dev
+lead state not valid or supported
+unable get traddr for device
+unable parse pci address
+not vmd device
+unable set lead state vmd device not found
+fail get the vmd lead state
+fail set lead state
+fail get the vmd lead state
+lead device in an unexpected state
+invalid address
+invalid address
+snprintf failed
+transport id not valid
+snprintf failed
+snprintf failed
+unexpected empty config
+unable parse transportid
+unexpected non pcie transport
+invalid traddr
+invalid traddr
+invalid nvme conf format
+fail initialize spdk env
+fail init spdk thread lib
+initialize smd store failed
+fail alloc spdk config
+fail read
+fail open bdev
+fail create bs dev
+fail unload blobstore
+invalid state
+device already created
+fail allocate bio bdev
+fail allocate bdev name for
+fail hold bdev
+fail create blobstore on dev
+unable unload blobstore
+the bdev have old blobstore not create by daos
+dup device detected
+bio bdev for wasn created
+unable get dev info for
+no spdk bdevs found
+dup xstream context
+too many xstreams per device
+fail map dev tgt
+no available spdk bdevs please check whether
+fail get dev for tgt
+device for target isn plug or the
+invalid smd state
+bio health monitor init failed
+fail create io channel
+fail open bdev
+fail alloc spdk thread
+fail init bdevs rc
+fail init bio bdevs
+fail initialize dma buffer
+invalid ctl cmd
+original dev not in smd
+invalid dev state
+fail init hot plug device
+fail reset lead state
+abt eventual wait failed
+blobstore closed fail request
+blobstore in state reject request
+delete blobid fail for pool
+fail unassign blob from pool
+blobstore already closed
+blob size le than the size cluster
+duplicate blob for xs pool
+create blob fail for xs pool rc
+fail assign pool blob pool
+unable delete newly create blobid
+blob already opened
+blob in opening
+fail find blobid for xs pool
+open blobid fail for xs pool
+blob already closed
+the blob in closing
+there be inflight blob ios
+close blob fail for xs rc
+blobstore invalid blob closing
+unmap blob fail for xs rc
+fail find blobid for xs pool
+not able find device id blobstore for tgt
+faulty reaction failed
+fail unload blobstore
+fail create io channel for
+fail open bdev for
+fail load blobstore
+fail open bdev for
+fail get health channel for
+blobstore state transition error tgt
+set device state failed
+reint reaction failed
+unmap error log from tgt id
+write error log from xs id
+read error log from xs id
+csum error log from xs id
+blobstore error notification error
+pool blob size mismatch
+pool assign too many
+dup target idx
+fetch pool failed
+update pool failed
+fetch pool failed
+pool target not found
+update pool failed
+delete pool failed
+fetch pool failed
+fetch pool failed
+invalid tgt for pool
+replace blob for pool failed
+target already bind dev
+get target failed
+dev assign too many
+fetch dev failed
+fetch dev failed
+update target failed
+fetch dev failed
+smd dev state set failed
+new dev inuse
+fetch new dev failed
+fetch dev failed
+dev isn in faulty
+invalid target for dev
+fail delete old dev
+fail insert new dev
+update target failed
+update pool failed
+bio faulty state set failed rc
+state transition failed rc
+nvme status code type
+nvme status code type
+device error log page size exceed buffer size
+nvme admin passthru error log rc
+nvme status code type
+nvme admin passthru identify ctrlr rc
+no bdev associate with device health descriptor
+bdev nvme admin passthru not supported
+nvme admin passthru health log rc
+auto faulty detect on target failed
+state transition on target failed
+fail open bdev
+fail allocate chunk
+fail allocate page dma buffer
+exceed per xstream dma buffer size
+blobstore invalid blob closing
+invalid iov
+invalid iov iov buf null
+per xstream dma buffer isn large enough
+copy biod failed
+readv blob fail for xs rc
+writev blob fail for xs rc
+blob fail for xs rc
+rpc error while query blobstore state
+mgmt get bs state reply failed rc
+cannot attach daos system
+crt req create mgmt get bs state failed rc
+fail update group op version
+fail create ms lock
+fail create system map update rpc
+fail start management service
+fail attach grp rc
+crt req create mgmt svc rip failed rc
+fail attach grp rc
+crt req create failed rc
+fail open for sync
+fail fync
+fail remove
+fail open
+fail read
+fail close
+fail open
+fail read
+fail close
+xstreams fail tgt kill pool
+tgt kill pool rc
+fail create newborn dir
+fail create zombie dir
+fail delete spdk blob for newborn pools
+fail allocate pooltgts struct
+fail create pooltgts mutex
+fail create pooltgts cv
+fail create hash table creates
+fail cleanup newborn dir will try again
+fail cleanup zombie dir will try again
+fail destroy table dpt creates ht
+fail init vos pool
+fail create vos file
+fail allocate vos file with
+fail sync vos pool
+fail create thread for vos file
+pthread cancel failed
+fail create pool directory
+ds pool create failed rc
+fail rename pool directory
+fail alloc ptrec
+already create or clean up
+fail insert dpt creates ht
+fail start pool
+set parameter fail key id rc
+fail unpack req prep shutdown
+fail unpack req ping rank
+fail unpack req set rank
+fail set self rank
+fail unpack req group update
+fail allocate drpc response body
+no prop entry provided aborting
+fail unpack req create pool
+unable parse pool uuid
+fail create pool
+fail allocate drpc response body
+fail unpack req destroy pool
+unable parse pool uuid
+fail destroy pool
+fail allocate drpc response body
+fail unpack req evict pool connections
+unable parse pool uuid
+unable parse handle uuid
+fail evict pool connection
+fail allocate drpc response body
+unable parse pool uuid
+fail set pool target
+fail unpack req exclude target
+fail allocate drpc response body
+fail unpack req drain target
+fail allocate drpc response body
+fail unpack req extend target
+unable parse pool uuid
+fail extend pool
+fail allocate drpc response body
+fail unpack req reintegrate target
+fail allocate drpc response body
+fail unpack req pool setprop
+couldn parse uuid
+fail allocate daos property
+pool property request must be numeric
+string value null
+pool property request with no value
+fail set pool property on
+null set pool property response
+do not receive property in result
+property req resp mismatch
+pool property response with no value
+fail allocate drpc response body
+couldn convert acl string list rc
+fail allocate buffer for pack aclresp
+fail unpack getaclreq
+couldn parse uuid
+couldn get pool acl rc
+fail unpack modifyaclreq
+couldn parse uuid
+couldn parse request acl string daos acl
+couldn overwrite pool acl rc
+couldn update pool acl rc
+fail unpack deleteaclreq
+couldn parse uuid
+couldn delete entry from pool acl rc
+fail unpack req list containers
+fail parse pool uuid
+fail list container in pool
+fail unpack pool query req
+fail parse pool uuid
+fail query the pool rc
+fail unpack req smd list devs
+fail allocate daos response ref
+fail list smd device
+fail allocate drpc response body
+fail unpack req smd list pools
+fail allocate daos response ref
+fail list smd pool
+fail allocate drpc response body
+fail unpack req bio health query
+fail allocate daos response ref
+unable parse device uuid
+fail allocate bio health struct
+fail query bio health data
+fail allocate buffer
+fail allocate drpc response body
+fail unpack req dev state query
+fail allocate daos response ref
+unable parse device uuid
+fail query device state
+fail allocate drpc response body
+fail unpack req dev state set faulty
+fail allocate daos response ref
+unable parse device uuid
+fail set faulty device state
+fail allocate drpc response body
+fail unpack req dev replace
+old device uuid for replacement command empty
+new device uuid for replacement command empty
+fail allocate daos response ref
+unable parse device uuid
+unable parse device uuid
+fail replace device
+fail allocate drpc response body
+fail unpack req dev identify
+device uuid for identify command empty
+fail allocate daos response ref
+unable parse device uuid
+fail set lead identify on device
+fail allocate drpc response body
+fail unpack req cont set owner
+container uuid invalid
+pool uuid invalid
+set owner failed
+fail allocate response body
+rpc error
+api deprecated
+fail attach grp rc
+crt req create failed rc
+getattachinfo failed
+getattachinfo failed
+getattachinfo failed
+getattachinfo failed
+getattachinfo failed
+getattachinfo failed
+getattachinfo return zero ranks
+fail connect
+getattachinfo call failed
+getattachinfo unsuccessful
+fail unpack getattachinfo response
+getattachinfo failed
+fail connect
+send monitor request failed
+monitor request unsuccessful
+fail connect
+process disconnect call failed
+process disconnect unsuccessful
+fail create group
+fail add rank uri group
+system name longer than zu bytes
+truncate sys buf zu zu
+crt req create failed
+fail get replica list from
+mgmt pool get svcranks rpc fail all
+rank list dup failed
+fail register mgmt rpcs
+unknown method
+set parameter fail key id rc
+get pool svc ranks upcall failed
+crt reply send failed
+bio nvme context not initialize for xs tgt
+blobstore uuid not found
+no target map device
+blobstore uuid not provide for state query
+unable create ult on tgt id
+crt reply send failed rc
+bio nvme context not initialize for xs tgt
+error get bio device state
+neither dev uuid or tgt id specify for bio query
+device uuid not found
+no target map device
+tgt id not found
+unable create ult on tgt id
+bio nvme context not initialize for xs tgt
+error get bio device list
+unable create ult
+fail allocate device for resp
+fail allocate device state
+fail allocate device tr addr
+fail get all vos pool from smd
+fail allocate pool for resp
+device uuid not found
+fail allocate device state
+fail allocate device uuid
+bio nvme context not initialize for xs tgt
+error manage lead on device
+bio nvme context not initialize for xs tgt
+error set faulty bio device state
+device uuid not found
+no target map device
+fail allocate device state
+fail allocate device uuid
+unable create ult on tgt id
+fault lead state not set on device
+bio nvme context not initialize for xs tgt
+error replace bio device
+fail allocate new device uuid
+fail allocate device state
+unable create ult
+bio nvme context not initialize for xs tgt
+error manage lead on device
+fail allocate device uuid
+fail allocate device lead state
+fail destroy pool target
+corpc req create failed rc
+dss rpc send mgmt tgt create rc
+fail update pool map on targets rc
+fail clean fail pool
+some rank not find in cart primary group
+create pool on rank failed rc
+create pool svc failed rc
+fail clean fail pool
+svc ranks be null
+fail check evict pool handle
+fail get pool storage ranks
+fail destroy pool service
+destroy pool failed
+create pool on rank failed rc
+fail evict pool handle rc
+create pool on rank failed rc
+pool info be null
+invalid property
+user group both null
+daos socket path uninitialized
+can connect agent socket
+couldn allocate drpc call
+response be null
+agent credential drpc request failed
+body be not getcredentialresp
+drpc call report failure status
+no cred included
+credential do not include token
+credential do not include verifier
+fail allocate default ace type
+fail allocate default acl for cont property
+fail allocate default acl for pool property
+response body be not validatecredresp
+response report fail status
+response miss valid auth token
+couldn copy the auth token
+couldn connect daos server socket
+response be null
+drpc response error
+credential iov invalid
+credential auth flavor not supported
+invalid auth sys payload
+null input
+invalid ownership
+invalid flags
+invalid acl
+fail validate credentials rc
+couldn unpack credential
+null input
+invalid ownership
+invalid flags
+invalid acl
+credential data null
+fail get container capabilities
+fail lookup group
+crt   grp cfg be not set
+fail load group file
+crt init failed rc
+fail lookup group
+crt rank self set failed rc
+crt context create failed rc
+crt rank uri get failed rc
+crt group primary rank add failed rc
+crt finalize fail with rc
+crt progress fail
+rpc opc failed rc
+crt progress fail rc
+handler call before pre forward callback
+handler call before pre forward callback
+pthread create failed rc
+crt rank self set failed rc
+fail lookup group
+tc load group from file failed rc
+crt group ranks get failed rc
+wait for ranks failed rc
+post reply callback be not called
+sem init failed rc
+crt copc req create failed rc
+crt req send failed rc
+expect get
+sem init failed rc
+set err code rpc failed rc
+crt req send failed rc
+crt init failed rc
+crt proto register failed rc
+fail lookup group
+crt context create failed rc
+register rpc task failed rc
+crt rank self set failed rc
+crt rank uri get failed rc
+tc load group from file failed rc
+crt group size failed rc
+test expect instance servers got
+crt group secondary create failed rc
+crt group size failed rc
+expect group size got
+rank addition failed rc
+crt group ranks get failed rc
+wait for ranks failed rc
+crt swim init failed rc
+sem init failed rc
+crt group ranks get failed rc
+crt group ranks get failed rc
+crt req create failed rc
+crt req send failed rc
+fail destroy secondary group
+crt finalize fail with rc
+crt init failed rc
+fail lookup group
+crt rank self set failed rc
+crt context create failed rc
+pthread create failed rc
+crt rank uri get failed rc
+tc load group from file failed rc
+crt swim init failed rc
+crt group size failed rc
+crt proto register failed rc
+crt context create failed rc
+pthread create failed rc
+crt finalize fail with rc
+crt progress fail rc
+progress thread create failed rc
+corpc be send wrong rank
+pthread create failed rc
+crt rank self set failed rc
+fail lookup group
+tc load group from file failed rc
+test assume ranks
+crt group ranks get failed rc
+wait for ranks failed rc
+crt swim init failed rc
+crt progress fail rc
+swim progress fail rc
+progress thread create failed rc
+rpc opc failed rc
+crt progress fail rc
+crt progress fail
+crt progress fail
+unknown group
+fail set version on group rc
+sem init failed rc
+crt copc req create failed rc
+crt req send failed rc
+expect get
+sem init failed rc
+set version rpc failed rc
+crt req send failed rc
+crt init failed rc
+crt proto register failed rc
+fail lookup group
+crt context create failed rc
+crt rank self set failed rc
+crt rank uri get failed rc
+tc load group from file failed rc
+crt group size failed rc
+test expect instance servers got
+crt group secondary create failed rc
+crt group size failed rc
+expect group size got
+rank addition failed rc
+crt group ranks get failed rc
+wait for ranks failed rc
+crt swim init failed rc
+sem init failed rc
+crt group ranks get failed rc
+crt group ranks get failed rc
+crt req create failed rc
+crt req send failed rc
+fail destroy secondary group
+crt finalize fail with rc
+query cb failed cb info  pq rc
+incorrect tag expect lu get hdr
+expect lu get
+sem init failed rc
+crt init failed rc
+fail lookup group
+crt rank self set failed rc
+crt context create ctx failed rc
+pthread create ctx failed rc
+crt rank uri get failed rc
+crt proto register failed rc
+fail write uri file
+fail read uri from file
+fail add rank uri
+crt req create failed rc
+fail send rpc rc
+crt req create failed rc
+fail send rpc rc
+crt finalize fail with rc
+fail create tmp file
+sem init failed rc
+crt init failed rc
+crt proto register failed rc
+fail create group view rc
+crt context create failed rc
+tc load group from file failed rc
+crt group size failed rc
+crt group ranks get failed rc
+rank list differ in size expect get
+crt group psr set failed rc
+wait for ranks failed rc
+crt req create failed rc
+crt req create failed rc
+crt group view destroy failed rc
+crt finalize fail with rc
+request be send wrong tag expect lu get
+crt group ranks get failed rc
+rank list dup sort uniq failed rc
+line crt group size failed rc
+line group size expected got
+line crt group ranks get failed rc
+line rank list size expected got
+line rank list dup sort uniq failed rc
+line rank list expected got
+crt init failed rc
+crt proto register failed rc
+fail lookup group
+crt group auto rank remove failed rc
+crt context create failed rc
+crt rank self set failed rc
+crt rank uri get failed rc
+tc load group from file failed rc
+crt swim init failed rc
+crt group size failed rc
+test expect instance servers got
+crt group secondary create failed rc
+crt group size failed rc
+expect group size got
+rank addition failed rc
+crt group rank failed rc
+expect rank got
+crt group rank failed rc
+expect rank get
+crt group rank remove failed rc
+rank addition failed rc
+crt group rank failed rc
+expect real rank got
+expect der exist get
+expect der exist get
+expect der oog get
+crt group ranks get failed rc
+wait for ranks failed rc
+crt group ranks get failed rc
+sem init failed rc
+crt req create failed rc
+crt req send failed rc
+crt corpc req create failed rc
+crt req send failed rc
+crt req create failed rc
+crt req send failed rc
+fail remove rank rc
+rank list allocation failed
+asprintf failed
+crt group primary modify failed rc
+crt group primary modify failed rc
+crt group primary modify failed rc
+crt group primary modify failed rc
+fail allocate lists
+crt group secondary modify failed rc
+crt group secondary modify failed rc
+crt group secondary modify failed rc
+fail destroy secondary group
+crt finalize fail with rc
+fail prepare key iterator
+truncate hdr zu zu
+truncate opc zu zu
+fail decode kvs
+fail decode key
+fail decode value
+truncate attr zu zu
+leader check
+fail query free space
+unknown kv class
+fail check kv existence
+fail look next object number
+invalid next object number
+fail update next object number
+fail update parent kvs
+fail check kv existence
+fail update parent kv
+fail punch kv
+fail update kv
+fail update kv
+unknown update operation
+could not query free space
+invalid header buf len
+invalid entry format buf len
+fail apply entry
+fail discard entry
+truncate iov len head zu zu
+invalid iov len head
+truncate iov buf zu zu
+truncate iov len tail zu zu
+inconsistent iov lens
+truncate iov len tail zu zu
+invalid iov len tail
+truncate iov buf zu zu
+truncate iov len head zu zu
+inconsistent iov lens
+prep io descriptor error
+fail query vos pool space
+fail open uuid file
+fail read
+fail create uuid file
+fail write uuid into
+fail fsync
+fail remove path
+fail create rv rpc node
+fail send rv rpc node
+fail create ae rpc node
+fail allocate entry array
+fail send ae rpc node
+fail add node
+fail read replicas
+fail load snapshot term
+fail create rpc rank
+fail create key descriptor bulk for rank
+fail create key bulk for rank
+fail send rpc rank
+might have lose chunks
+fail unpack chunk ld
+fail swap lc records
+fail update slc record
+fail persist vote
+fail update term ld vote
+fail add node at idx
+fail remove node at idx
+fail apply entry
+fail persist entry
+fail look entry
+fail update log tail
+fail discard entry
+fail update log base from
+fail update log tail
+fail delete entry start at
+fail poll entries
+fail update last aggregate index
+fail compact base
+fail append debut entry for term
+fail append entry
+fail get sched req
+raft periodic failed
+fail create record
+fail create
+fail destroy
+fail clear record
+fail create list replicas
+fail look entry header
+fail look entry
+fail load entry
+fail look slc
+fail open slc
+fail look lc
+fail open lc
+fail recover lc
+fail create apply cv
+fail create event cv
+fail create reply cv
+fail create compact cv
+fail create raft object
+fail process requestvote from rank
+fail send requestvote reply rank
+fail process appendentries from rank
+fail send appendentries reply rank
+fail receive installsnapshot chunk ld
+fail process installsnapshot from rank
+fail send installsnapshot reply rank
+fail process opc response
+fail destroy
+fail destroy
+fail allocate db object
+fail create mutex
+fail create raft mutex
+fail create ref cv
+fail open
+fail query vos pool space
+fail reserve more vos pool scm
+fail open metadata container
+not fully initialized
+fail look uuid
+fail look layout version
+db null
+rpc rank failed
+fail abort rank
+crt progress failed ret
+crt init failed ret
+crt context create failed ret
+crt group attach failed ret
+fail create progress thread
+crt rank self set failed ret
+create start rpc fail endpoint
+fail send start rpc endpoint
+fail launch self test many session on
+fail launch any many test sessions
+create status request rpc
+fail send status rpc endpoint
+detect test failure on
+self test init failed ret
+crt group rank failed ret
+crt group lookup fail for group
+fail allocate latency bulk handle
+test message size failed
+could not join progress thread
+crt group detach failed ret
+crt context destroy failed ret
+crt finalize failed ret
+too many endpoint current
+crt init failed rc
+crt context create failed rc
+crt self uri get failed rc
+ctx context destroy failed rc
+crt finalize failed rc
+mkstemp fail on error
+fail allocate hostbuf
+fail allocate recv buf
+fail retrieve self uri
+generate group file failed
+arg string too long
+too many target ranks
+invalid rank range
+too many target ranks
+arg string too long
+log msg message miss for add log msg
+log mask mask miss for set log
+fault attribute miss for set fi attr
+wait for ranks failed rc
+crt req create failed rc
+crt req send failed rpc req rank
+tc sem timedwait failed rc
+ctl init failed rc
+fail fetch update max oid
+iv update fail
+fail register cont rpcs
+rpc error while create container
+invalid uid
+invalid gid
+fail allocate prop
+cannot set daos prop co status prop for cont create
+cannot find container service
+fail create rpc
+rpc error while destroy container
+fail destroy container
+cannot find container service
+fail create rpc
+pmap refresh cannot get require
+pmap refresh version resched
+pmap refresh version fail
+pmap refresh task failed
+rpc error while open container
+pmap refresh fail
+pool connection be invalidated
+container prop fail initialize
+cannot find container service
+fail create rpc
+rpc error while close container
+fail close container
+cannot close container object not closed
+cannot find container service
+fail create rpc
+rpc error while query container
+ignore bad dpt type
+cannot find container service
+fail create rpc
+rpc error while set prop on container
+can set oid property if container created
+set daos prop co status property can only
+cannot find container service
+fail create rpc
+rpc error while update acl on container
+cannot find container service
+fail create rpc
+rpc error while delete acl on container
+cannot find container service
+fail create rpc
+fail allocate oids
+fail allocate oids
+fail create rpc
+daos cont failed rc
+invalid parameter null glob pointer
+invalid parameter glob iov buf iov buf len
+pool hdl mismatch in pool in cont glob
+pool connection be invalidated
+pool pamp refresh failed
+bad hgh magic
+invalid parameter pool hdl uuid cont hdl null
+dc cont failed rc
+rpc error while query container
+cannot find container service
+fail create rpc
+invalid arguments name value
+invalid arguments names
+invalid arguments values sizes lu
+invalid epoch
+unsupported api
+unsupported api
+specify snapshot not supported
+name snapshot not yet supported
+invalid epoch range
+unsupported epoch range
+fail find target
+fail find target
+vos aggregate failed
+fail create aggregation ult
+dtx reindex failed rc
+fail create dtx reindex ult rc
+fail lookup container
+container in stopping
+container still in open
+container still in use
+destroy vos container fail
+fail find pool child
+conflict container hdl
+fail register the container
+fail get index rc
+open
+fail
+fail
+snapshot notify failed
+aggregation failed
+open container failed rc
+prepare obj iterator fail
+set iterator cursor failed
+fetch obj failed
+fetch obj failed
+can not collect min epoch
+fail create thread local container cache
+fail create thread local container handle cache
+permission deny aggregate
+snapshot notify fail on targets
+fail create snapshot
+permission deny create snapshot
+permission deny delete snapshot
+fail delete snapshot lu
+permission deny list snapshots
+fail start rdb tx
+fail look container
+fail read snap list
+fail update snapshot iv
+calc phy
+fail create tree
+dbtree iterate fail
+bad iv class id
+create cont snap iv entry fail
+create cont prop iv entry fail
+iv invalidate fail
+iv invalidate fail
+cont iv prop fail
+daos prop copy fail
+domain contain fail
+fail create cs lock
+fail look layout version
+start ec agg leader failed
+fail initialize layout version
+fail create container kvs
+fail create container handle kvs
+bad dpe type
+permission deny create cont
+container lookup failed
+fail create container attribute kvs
+create ghce property failed
+create alloced oid prop failed
+daos prop dup failed
+cont create prop prepare failed
+cont prop write failed
+fail create container snapshot kvs
+fail create container user attr kvs
+fail create container handle index kvs
+fail destroy targets
+invalid key value size key value
+permission deny delete cont
+rank init failed
+fail create aggregation ult
+fail get req for ec eph query ult
+fail allocate container descriptor
+fail cont prop write
+find conflict container handle
+refuse attempt open with flag
+permission deny open with flag
+set unclean failed
+rf broken set daos coo force force
+cont iv prop update fail
+cont iv capability update fail
+bad label length zu
+bad owner length zu
+bad owner group length zu
+permission denied no access props
+permission deny get acl
+permission deny get props
+set unclean failed
+iv prop update failed
+cont prop read fail
+cont status verify fail
+cont iv prop fetch fail
+label mismatch
+type mismatch
+mismatch
+permission deny for set acl
+permission deny for set owner
+permission deny for set props
+fail read prop for cont rc
+fail update prop iv for cont
+fail read acl prop for cont rc
+cont prop read didn return acl property
+couldn copy container acl for
+fail add update aces
+unable remove ace from acl
+permission deny set container attr
+permission deny del container attr
+permission deny get container attr
+permission deny list container attr
+invalid key value size key value
+invalid key size key
+reject unauthorized
+fail look container
+rpc opc hdl rdb tx commit
+rpc hdl opc find leader
+fail lookup alloced oid
+fail update alloced oid
+cannot find pool service
+fail create cont set prop rpc
+fail set prop for container
+fail look cont svc
+unable commit rdb transaction
+error miss ops mandatory ops for lru cache
+fail setup mem class
+fail free rec rc
+fail free node
+fail free tree root
+fail add btr root transaction
+fail resize root node
+fail add node txn record
+fail probe rc
+fail commit the transaction
+fail prepare tree iterator
+fail initialize iterator
+fail fetch iterator
+fail move iterator
+unsupported feature
+invalid ovhd argument
+invalid class id
+no record meta size callback for tree class
+fail allocate string for name
+error from getpwuid
+error from getgrgid
+couldn extract id name from
+error from getpwnam
+error from getgrnam
+invalid domain array len
+pool buf parse failed
+pool map initialise failed
+could not update number fail targets
+uninitialized pool map
+uninitialized pool map
+uninitialized pool map
+rf broken find down node newly fail rf
+rf broken find fail down newly fail
+pmap fail stat check
+cannot decrease pool map version
+fail allocate txi array
+invalid stage
+too many transaction callback
+transaction abort for unknown reason
+pmdk return negative errno
+remove rank from replica list due
+empty or invalid hint from leader rank hint term
+truncate buffer zu zu
+bad buffer magic
+zero nranks
+truncate buffer zu zu
+cannot create daos prop with entries
+null input
+invalid null
+invalid len  lu max  lu
+null properties
+invalid ddp nr
+invalid properties non null dpp entries with
+invalid properties null dpp entries with non zero
+invalid type for pool
+invalid type for container
+invalid space rb
+invalid reclaim
+invalid layout type
+invalid checksum type
+invalid chunk size
+invalid csum server verify property
+invalid deduplication parameter
+invalid deduplication threshold
+invalid redundancy factor
+invalid redundancy level
+invalid compression parameter
+invalid encryption parameter
+invalid container status
+invalid dpe type
+fail dup label
+fail dup acl
+fail dup ownership info
+fail dup rank list
+fail dup roots
+no prop or empty prop in reply
+cannot find prop entry for type
+fail dup roots
+acl mismatch null ptr
+acl len mistmatch lu lu
+acl content mismatch
+error in allocate lru refs
+error in hold reference
+size bits
+preserve record mismatch while delete
+problem in tx begin
+problem in tx add
+problem in tx end
+get scm usage failed
+scm usage not increased
+get scm usage failed
+scm usage not decreased
+get scm usage failed
+scm not free in full
+preserve record mismatch while delete
+no function table
+daos sgl processor error
+daos sgl processor error
+daos csummer reset error
+daos csummer update error
+daos csummer finish error
+daos csummer alloc iods csums error
+calc for iov error
+calc csum error
+calc for iov error
+invalid params
+daos csummer calc iods error
+data corruption found
+checksum enabled but dcs csum info invalid
+daos csummer calc error
+key checksum don match key calculated
+error cast iod
+null compress fd tree
+compress len le than minimum
+null pointer for result
+fault domain tree truncated
+incoming ptr null
+fault domain tree not initialized
+fault domain tree truncated
+fault domain tree null
+fault domain tree not initialized
+len need minimum
+domain len not multiple
+qat fail initialize memory driver
+qat fail start user process ssl
+qat no dc instance
+fail allocate hash table entry
+fail insert new hash entry rc
+fail create hash table rc
+invalid dal len should with in zu
+invalid dal len not byte aligned
+can add callback for complete task
+two task should belong the same scheduler
+can add dependency for complete task
+scheduler canceling can re insert task
+task body function can be null
+can re init task not run or
+task dtp stack top reset from zero
+scheduler canceling can reset task
+can reset task in init or run state
+task scheduler process list should be empty
+task user list should be empty
+task dep list should be empty
+task completion cb list should be empty
+task prep cb list should be empty
+task dtp stack top reset from zero
+can build call from null context
+fail close socket fd errno
+fail open socket errno
+fail set flag on socket fd errno
+fail connect errno
+fail bind socket at fd errno
+fail start listen on socket fd errno
+fail accept connection on listener fd
+fail sendmsg on socket fd errno
+fail recvmsg on socket fd errno
+null drpc  call
+bad input sockaddr handler
+drpc context not listener
+couldn unpack message into drpc  call
+call pointer null
+drpc context isn valid listener
+response be null
+drpc context isn valid listener
+context already closed
+ref count already zero
+fail close drpc socket rc
+context null
+can increment current ref count count
+fail create arg
+realloc failed
+arg list too long
+fail invoke
+json input too large
+fail parse json at offset
+exit with
+dmg error
+unable extract pool uuid from json
+unable extract uuid string from json
+fail parse uuid str
+unable parse pool svcreps from json
+fail allocate rank list
+invalid acl
+fail create rank string
+unable resolve passwd entry
+unable resolve group name
+fail create tmpfile name
+fail open
+fail write acl tmpfile
+dmg fail
+fail parse pool info
+fail dup svc rank list
+dmg fail
+dmg fail
+hostname empty
+unable extract uuid from json
+unable extract tgtids from json
+unable extract state from json
+unable extract rank from json
+dmg fail
+unable extract host storage map from json
+unable extract host from json
+unable extract devices
+dmg command fail
+dmg command fail
+unable extract host storage map from json
+unable extract host from json
+unable extract host from json
+bad proc op
+invalid entry nr
+bad proc op
+dump failed
+start dump ult failed rc
+open
+couldn alloc ace structure
+couldn allocate temporary string
+empty or null buffer
+null ace string
+no ace string provided
+null acl pointer
+fail convert string ace
+fail allocate acl
+result acl be invalid
+couldn convert ace string
+null output params ace strs ace nr
+acl not valid
+fail verbose translation for ace string
+invalid stream
+ignore nr should within
+fail set fault attr
+fail create handle hash table
+invalid qat compression level
+no function table
+fail update
+fail look
+fail look
+fail delete
+fail create
+fail open
+fail destroy
+fail update
+fail look
+fail fetch opc in
+fail delete
+fail create
+fail open
+fail destroy
+fail update
+fail look
+fail fetch opc in
+fail delete
+invalid isa compression level
+fail locate pool cont
+send reply fail for dtx rpc rc
+fail create dtx batch commit ult
+fail flush co cache rc
+fail get sched request
+too many modification in single transaction
+initialize dtx with invalid epoch value
+fail sync commit dtx
+fail dtx co commit
+fail create dtx co btree
+not sure about whether the old rpc
+abt future create fail
+ult create fail
+fail fetch dtx
+fail commit dtx
+fail commit the dtxs rc
+fail open container for resync dtx
+dtx resync failed rc
+dtx resync collective
+abt future create fail for opc len
+fail find dtx leader for
+original extent corrupted
+invalid csum for biov
+fail add csum for
+fail obj ec codec init
+object module init error
+dkey empty
+akey empty
+akey
+akey
+akey
+akey empty
+akey
+akey
+akey
+invalid type
+dc tx local open failed
+fail verify object list
+fail verify cursor
+fail verify because
+fail verify cmp
+shard obj shards nr
+obj reasb req init fail
+obj ec req reasb fail
+obj shard open fail on shard
+obj shard open rc
+obj ec get degrade failed rc
+no valid shard rc
+unsupported api
+unsupported api
+unsupported api
+obj get oca failed
+dc cont hdl redunfac failed
+obj cont tolerate faiures
+unsupported api
+fail by obj hdl ptr
+fail re init task
+fail add dependency on pool
+fail retry task    err io retry rc
+task obj ec recov prep fail
+task dc tx local open fail
+task dc obj fetch task create
+task dc task depend fail
+task dc task resched fail
+task ec recovery fail
+fail
+fail create recx tree
+invalid req iod size sgl size
+invalid argument null akey
+invalid iod the bit rx idx
+unknown iod type
+iod none ignore value iod nr recx
+invalid update req with null sgl
+iod array should have valid recxs
+iod single iod nr
+invalid update req with null sgl
+key type or recx not specify in flags
+query type not specify in flags
+invalid query
+dkey can be null
+akey can be null with query type
+recx can be null with query type
+can query non uint type dkeys
+invalid dkey iov
+can query non uint type akeys
+invalid akey iov
+invalid fetch parameter
+invalid update parameter
+null dkeys
+invalid dkey null iov buf or iov len
+null or invalid dkey
+no dkey for opc
+invalid api parameter
+mutually exclusive th eprs
+bad opc
+fetch from invalid shard
+bad opc
+opc obj shards   fwtgts fail
+shard obj shard tgtid fail
+bad opc
+shard open
+recx convert failed
+task register comp cb
+daos csummer calc iods error
+daos csummer calc iods error
+obj req reassemb fail
+obj csum fetch error
+obj req reassemb fail
+update task register comp cb
+obj csum update error
+shard list prep
+shard list prep
+no shard on
+can not find grp
+can not find any shard
+can not find shard grp
+punch task register comp cb
+no valid shard rc
+no mem for verify group rep
+task dc obj layout refresh fail rc
+fail re init task
+invalid sharding hint
+invalid max max
+invalid min min
+invalid parity target number cannot
+object class id should be unique
+object class scale attribute should be unique
+object class resilience attribute should be unique
+bad sgl siod iov idx iov offset
+dc rw cb iod sgl copy fail object
+data verification fail object
+data verification fail object
+obj ec get degrade
+fail create csum report request task
+induce der timedout error on shard fetch
+induce der timedout error on shard update
+induce der nospace error on shard update
+drop rpc for shard update
+rpc failed
+fail end transaction operation rc
+rpc opc rank tag
+obj ec get degrade
+out in for with eph
+fail add recov list for
+invalid nrs
+daos csummer verify key error for
+rpc failed
+fail end transaction operation rc
+rpc rpc failed
+key enumerate get more kds
+rpc failed
+fail end transaction operation rc
+rpc rpc failed
+invalid dkey obtained
+obj sync rpc failed rc
+rpc obj sync rpc failed rc
+dbtree destroy cont failed rc
+dbtree iterate failed
+fail create rebuild tree
+lookup cont failed
+lookup cont failed rc
+tree create cont failed rc
+fail insert rc
+fail create migrate tls
+mrone obj fetch
+set iods csums failed
+migrate failed rc
+fail alloc iod csums rc
+migrate failed rc
+error initialize csummer
+error allocate iods
+migrate dkey fail rc
+migrate dkey fail rc
+unable allocate iod csums
+prepare update fails
+prepare eiod for error
+migrate dkey fail rc
+fail alloc iod csums
+post eiod for error
+punch dkey failed rc
+punch akey failed rc
+punch obj failed rc
+dst iod size
+migrate punch fail rc
+migrate failed
+start migrate failed
+migrate abort
+fail open cont clear obj before migrate pool
+migrate fail destroy object prior
+destroy existing obj failed
+obj migration failed
+dbtree iter delete failed
+dbtree iter probe failed
+ds cont fetch snaps failed
+dsc pool open failed
+dsc cont open failed
+dbtree iter delete failed
+dbtree iterate failed
+fail create tree
+fail create tree
+oids shard ephs
+wrong tgt idx
+insert
+create migrate ult failed rc
+crt req create failed
+dss rpc send failed
+fail find transaction handle
+can set epoch on non open non failed non committing
+invalid reply epoch daos epoch max
+tx not valid for modification
+tx read only
+not allow modification because
+tx not valid for fetch
+cannot find transaction handle
+cannot find transaction handle
+cannot register completion callback
+cannot depend on task
+fail refresh the pool map
+fail add dependency on pool query
+fail re init task
+two many shard in the
+all shard in the redundancy group for the opc
+fail register completion cb
+invalid tx handle
+can commit non open state tx
+invalid tx handle
+can commit non open state tx
+can close tx in committing
+can restart non failed state tx
+can close tx in committing
+fail add dep on check existence task
+fail add cb for check existence task
+unsupportted tx attach opc
+fail restart tx for convert task
+fail re attach tx for convert task
+fail re add cb for tx convert task
+unsupportted tx convert opc
+fail open tx for opc
+fail attach tx for opc
+fail create tx convert task for opc
+fail add dep on tx convert task
+fail add cb for tx convert task
+crt req create failed rc
+crt req send failed rc
+crt req create failed rc
+crt req send failed rc
+cpd crt req create failed idx
+crt req send failed rc
+invalid descriptor iod nr
+fail register daos obj rpcs
+fail obj ec codec init
+different size
+corruption find for recx
+error calculate checksum
+issue copy data
+find corruption
+issue calculate checksum
+issue fill csum data
+issue fill csum data
+issue copy csum
+copy recx data fail
+expect valid checksum info unpack
+no dkey for akey invalid buf
+punch epoch for empty akey rc
+invalid list buf
+invalid object id size
+unknown kds type
+complete io failed rc
+iterate dth failed rc
+oer recxs non null cannot init again
+fail get ec codec oid
+fail get ec codec
+stripe encode fail rc
+with failure not recoverable
+obj ec recx encode fail
+obj ec get degrade failed
+can not get codec
+can not get codec
+obj ec recx encode fail
+singv req reasb fail
+obj ec recx scan fail
+obj ec recx reasb fail
+obj ec encode fail
+obj ec tgt oiod init failed
+overlap recx with different shadow epoch
+fail add stripe
+fail add stripe
+obj ec recov prep failed
+send reply failed
+bulk transfer failed
+no remote bulk provided
+crt bulk create error
+crt bulk transfer error
+rpc contain invalid size count for
+fail add csum for iod
+daos csummer verify key error for dkey
+daos csummer verify key error for akey
+bio nvme context not initialize for xs tgt
+oca not find or not ec obj
+fetch begin failed
+csum verify keys error
+csum corrupt data network
+update begin failed
+iod recx dup failed
+fetch shadow failed
+obj singv ec rw filter failed
+bio iod prep failed
+fetch csum init failed
+fetch verify failed
+csum corrupt data disk
+cont hdl sec capas
+cont hdl sec capas
+stale container handle
+ioc begin failed
+update begin failed
+bio iod prep failed
+bulk transfer failed
+bio iod post failed
+vos update end failed
+ioc begin failed
+update begin failed
+bio iod prep failed
+bulk transfer failed
+bio iod post failed
+vos update end failed
+array remove failed
+array remove failed
+fail start dtx for update
+error
+obj ec rw req split failed rc
+fail start dtx for update
+send reply failed
+mutually exclusive transaction id epoch
+send reply failed
+opc not supported
+fail start dtx for punch
+fail start dtx for punch
+send reply failed
+send reply failed
+checksum enable but the csum info
+data verification fail object
+data verification fail object
+send cpd reply failed
+expect sub read but get opc
+fail set read for obj
+unmatched iod nr for obj
+bio iod prep fail for obj
+bulk transfer fail for obj
+non bulk transfer fail for obj
+abt eventual wait failed
+dedup verify fail for obj
+iod post fail for obj
+unknown sub request opc for obj
+obj ec rw req split fail for obj
+dtx id cannot be empty
+unexpected cpd rpc format for non leader
+unexpected cpd rpc format for leader
+recx overlap between
+fail register dbtree class recx
+fail initialize daos object utilities
+fail open object
+dsc obj fetch failed
+vos obj fetch failed
+array remov failed
+vos obj update failed
+array remove fails
+vos obj fetch failed
+obj req create failed
+crt bulk create failed
+dss rpc send failed
+remote update rpc failed
+pool map find failed tgts failed
+peer parity tgt failed
+fail open object
+dsc obj fetch failed
+pool map find failed tgts failed
+peer parity tgt failed
+obj req create failed
+crt bulk create returned
+dss rpc send failed
+remote update rpc failed
+fail open object
+vos update begin failed
+agg peer update fail
+agg update vos failed
+agg peer update failed
+remove holdovers failed
+process stripe return
+holdover return
+process stripe return
+holdover return
+peer update failed
+holdover failed
+ds pool check leader fail
+ec aggregation failed
+property allocation failed
+ds pool iv prop fetch failed
+dsc pool open failed
+dsc cont open failed
+fail start dtx for ec aggregation
+invalid csum buf len iu csum len hu
+rank list dup failed rc
+crt grp lookup grpid failed
+crt corpc info init failed rc opc
+crt corpc req hdlr failed rc opc
+crt corpc chained bulk cb bulk failed rc
+crt bulk access failed rc
+bad zero seg num
+crt bulk access failed rc
+crt bulk free failed rc
+cart not initialize yet
+corpc invalid on client side
+crt bulk get len failed rc opc
+crt bulk create failed rc opc
+crt bulk transfer failed rc opc
+crt corpc initiate failed rc opc
+crt corpc common hdlr failed rc opc
+invalid parameter null crt ctx or req
+cart not initialize yet
+corpc invalid on client side
+invalid parameter tree topo
+crt rpc priv alloc rc opc
+crt rpc priv init rc opc
+crt corpc info init failed rc opc
+crt hg reply send failed rc opc
+crt corpc free chainded bulk failed rc
+rpc opc error rc
+co ops  co aggregate failed rc
+co ops  co aggregate failed
+rank list dup failed rc
+filter rank inverted out group
+idx in rank list group rank
+idx in rank list group rank
+invalid parameter null nchildren
+crt get filtered grp rank list group root
+crt get filtered grp rank list group get empty
+to get children cnt group root self
+invalid parameter null children rank list
+crt get filtered grp rank list group root
+to get children cnt group root self
+to get children group root self
+invalid parameter null parent rank
+crt get filtered grp rank list group root
+to get parent group root self failed
+binheap create failed
+hash table create failed
+invalid parameter null crt ctx
+number active context reach limit
+crt context init failed
+crt hg ctx init failed
+ctx hg get addr failed rc
+crt swim init fail rc
+invalid parameter ctx cb
+cannot abort endpoint idx rank req wait num
+crt progress failed rc
+stop progress due time out
+invalid parameter null crt ctx
+crt not initialized
+crt grp ctx invalid failed rc
+destroy context idx force
+crt hg ctx fini fail rc
+crt progress failed rc
+context idx ep abort rank
+no member in the group
+hash rec insert failed rc
+invalid parameter crt ctx ctx idx
+uri can be null
+crt context lookup failed
+invalid parameter null ctx num
+crt context idx failed rc
+invalid parameter
+crt hg progress fail with
+crt hg progress fail with
+invalid parameter null crt ctx
+crt hg progress failed rc
+crt hg progress failed rc
+ctx idx
+ctx idx
+null context passed
+invalid value for timeout specified
+invalid argument rpc priv null
+swim shutdown
+swim parse message
+send reply failed
+crt context lookup failed
+crt req create
+swim shutdown
+swim progress
+swim already initialized
+swim init fail for self crt ctx idx
+mismatch in group size expect get
+crt swim rank add
+crt proto register
+crt register progress cb
+self rank be not set yet
+invalid context index
+crt unregister progress cb
+crt register progress cb
+crt unregister progress cb
+self rank be not set yet
+pas group null
+pas state pointer null
+rank invalid
+only available for primary groups
+no non evicted endpoint remaining
+gettime failed ret
+gettime failed ret
+gettime failed ret
+gettime failed ret
+invalid iov length must be multiple bytes
+invalid self test bulk type
+max inflight must be greater than zero
+rep count must be greater than zero
+buf alignment must be in the range
+fail start new test run one still exists
+fail allocate latency bulk handle ret
+crt bulk create failed ret
+crt reply send failed ret
+bulk put latency result failed bci rc
+crt reply send failed ret
+fail get bulk handle length ret
+bulk handle length mismatch zu zu
+bulk transfer latency failed ret
+crt reply send failed ret
+invalid parameter null sgl
+invalid parameter zero sgl sg nr
+invalid parameter null sgl  sg iovs
+invalid parameter sg iovs
+invalid parameter sg iovs
+invalid parameter null bulk desc
+invalid parameter null bulk desc  db rpc
+invalid parameter null bulk desc  db rpc  dr ctx
+invalid parameter bulk desc remote hdl
+invalid parameter crt ctx
+crt hg bulk create failed rc
+invalid parameter null crt ctx or bulk hdl
+crt hg bulk bind failed rc
+invalid parameter null bulk hdl
+crt hg bulk addref failed rc
+invalid parameter null bulk hdl
+crt hg bulk free failed rc
+invalid parameter bulk desc
+crt hg bulk transfer failed rc
+invalid parameter bulk desc not valid
+crt hg bulk transfer failed rc
+invalid parameter null bulk hdl
+invalid parameter null sgl pointer
+invalid parameter null input grp id
+srv grpid contain invalid character
+rpc request have wrong grp id
+rpc request have wrong rank
+grp cache index out range
+gethostname fail with errno
+crt reply send fail with rc
+crt reply send fail with rc
+context idx crt hg get addr fail rc
+context idx crt hg get addr fail rc
+crt opc map    create failed
+fail create mutex for cart opc map
+base opc out range
+base opc not registered
+version number out range
+version number have no entries
+rpc with opcode already registered
+input size or output size
+rpc opc register failed rc
+crt opc reg internal opc failed rc
+crt proto reg failed
+crt proto reg failed
+invalid version number max version number
+invalid member rpc count max count lu
+invalid member rpc count
+prf can be null
+crt proto reg failed
+cpf can be null
+invalid base opc
+cpf can be null
+invalid base opc
+rpc opc failed rc
+ver null
+crt context doesn exist
+crt req create failed rc
+crt req send failed rc
+crt reply send failed rc
+crt reply send failed rc
+empty log message
+crt reply send failed rc
+crt reply send failed rc
+fault attr set failed rc
+crt reply send failed rc
+crt proto register internal failed
+crt proto register failed
+crt proto register failed
+crt proto register failed
+crt proto register failed
+crt proto register failed
+crt proto register failed
+opc lookup failed
+opc input size or output size
+crt grp pub priv get null
+crt rpc priv alloc failed
+invalid parameter null crt ctx or req
+crt not initialized
+crt req create internal failed
+invalid parameter null req or tgt ep
+invalid parameter null req or zero timeout sec
+invalid parameter null req
+invalid parameter null req
+should never get here
+fail add group
+uri lookup exceed retries
+fail rank for uri lookups
+uri lookup rpc create failed rc
+crt self uri get tag failed
+crt grp lc uri insert failed
+crt req fill tgt uri failed
+hg addr lookup failed uri hg ret
+fail insert
+crt hg req create failed rc opc
+crt req hg addr lookup failed
+crt req uri lookup failed rc
+crt req hg addr lookup failed
+invalid parameter null req
+invalid parameter null req  cr ctx
+invalid parameter null req
+crt hg reply send failed rc opc
+invalid parameter null req
+mismatch rpc opc rank tag
+null rpc passed
+null rank passed
+null rpc passed
+null rank passed
+null rpc passed
+null tag passed
+fail disable malloc trim
+fail init cg rwlock
+fault inject init failed rc
+grpid contain invalid character
+invalid client grpid same
+data init fail
+get from env crt attach info path
+request provider not found
+no longer supported
+crt na ofi config init failed
+crt hg init failed
+crt grp init failed
+crt plugin init failed
+crt opc map create failed
+crt internal rpc register failed
+crt initialize client cannot set
+failed
+cannot finalize before initializing
+cannot finalize current ctx num
+crt hg fini fail rc
+fail destroy cg rwlock rc
+fault inject fini failed rc
+crt finalize failed rc
+fail open for reading
+fail read from file
+env ofi interface not set
+cannot getifaddrs errno
+inet ntop failed errno
+no ip addr found
+crt get port failed rc
+tag li tag addr not freed
+badly form uri
+fail parse uri correctly
+entry already present
+not create lookup cache for sub group
+hash table create failed
+hash table create failed
+hash table destroy failed
+failed
+hash table destroy failed
+hash table destroy failed
+record for rank not found
+fail set uri for uri
+tag out range
+insertion failed
+crt hg addr free failed ctx idx tag
+hash table traverse failed ctx idx rc
+crt grp lc ctx invalid failed group
+crt grp lc ctx invalid failed group
+crt hg addr free failed crt idx hg addr
+crt grp ctx invalid failed rc
+cart not initialize yet
+grp id contain invalid character or too long
+invalid parameter null rank pointer
+crt not initialized
+self rank be not set yet
+cart not initialize yet
+invalid argument subgrp null
+invalid argument rank out null
+rank not part the group
+cart not initialize yet
+invalid argument subgrp null
+invalid argument rank out null
+invalid parameter null size pointer
+crt not initialized
+invalid parameter version pointer null
+crt not initialized
+crt not initialized
+invalid group
+crt grp priv create failed
+grp priv init membs failed
+crt grp lc create failed
+failed
+crt hdlr uri lookup invalid on client
+could not find the group specified
+crt self uri get tag failed
+crt reply send failed rc opc
+invalid parameter null srv grpid
+srv grpid contain invalid character
+invalid parameter null attached grp
+crt group not initialized
+crt group view create failed rc
+crt grp config load failed rc
+crt group attach failed rc
+invalid parameter null attached grp
+crt group not initialized
+filename can be null
+mkstemp fail on error
+fdopen fail on error
+path can be null
+specify path must be fewer than character
+bad path specified
+not directory
+crt not initialized
+can only save config info for primary service grp
+cannot create temp file
+write file fail
+write file fail
+write file fail
+write file fail
+crt rank uri get fail
+write file fail
+file close fail
+fail rename
+crt not initialized
+can only remove config info for primary service
+crt grp attach info filename failed
+fail remove
+open file fail
+read from file fail
+grpname in file mismatch with grpid
+read from file fail
+read from file fail
+crt group node add internal failed
+crt grp config psr load grpid failed rc
+crt not initialized
+invalid null grp priv pointer
+crt grp config load failed rc
+group no more psr candidate
+crt grp config psr load grp psr rank
+crt swim rank add failed rc
+only available for primary groups
+crt grp lc uri insert failed
+self rank be already set
+grp add to membs list failed rc
+crt hg get addr failed rc
+crt grp lc uri insert failed rc
+pas uri str null
+only available for primary groups
+rank not part the group
+rank not part the group
+crt group rank remove failed rc
+api currently not supported
+api currently not supported
+grp ptr null
+crt grp priv create failed
+grp priv init membs failed
+crt grp lc create failed
+null grp handle passed
+pas grp null
+crt rank uri get failed
+grp ptr null
+invalid primary group
+pas group not primary
+crt grp priv create failed
+grp priv init membs failed
+hash table create failed
+hash table create failed
+fail add rank the group
+null grp handle passed
+entry for secondary rank already exists
+fail add entry
+fail add entry
+pas group primary group
+associate primary group not found
+pas group not primary group
+fail allocate lists
+should never get here
+fail get grp priv
+fail get grp priv
+pas group not primary
+invalid operation
+modification have no members
+uri array null
+grp add to memb list failed rc
+failure when add node rc
+fail get grp priv
+pas group primary
+invalid operation
+modification have no members
+primary rank list empty
+prim list size differ from sec
+failure when add rank rc
+fail lookup grp
+pas rank list null
+pas sized rank list
+fail copy rank list
+bulk transfer fail for key
+crt reply send
+fail process pending request
+fail lookup ivns for
+pas ivns null
+invalid group passed
+fail create internal ivns
+null ivns passed
+invalid ivns passed
+null ivns passed
+null priv passed
+invalid ivns passed
+null ivns passed
+null id passed
+invalid ivns passed
+invalid ivns passed
+ivns internal be null
+class id exceed num class
+ivo on put
+crt reply send
+crt bulk free
+output be null
+crt bulk create
+bulk transfer failed
+crt bulk free
+crt ivf key in progres set failed
+crt bulk create
+crt req create
+fail send rpc remote node
+fail lookup ivns internal
+return iv ops be null
+ivo on get
+bulk transfer failed
+forward request for root node
+ivo on put
+ivo on get
+fail issue fetch rpc
+error happened
+crt reply send opc
+fail look ivns id ivns id
+return iv ops be null class id
+crt reply send opc
+unknown shortcut specified
+iv key null
+invalid ivns
+fail get iv ops for class id
+ivo on get
+ivo on get
+ivns internal be null ivns id
+ivo on get
+fail allocate temporary iovs
+crt bulk access
+ivo on refresh
+ivo on put
+ivo on refresh
+unknown event type
+ivns internal be null ivns id
+ivo on get
+fail allocate temporary iovs
+crt bulk access
+ivo pre sync
+ivns internal be null ivns id
+unknown ivs mode
+unknown ivs event
+ctt bulk create
+crt corpc req create
+crt req send
+fail transfer data back
+ivo on put
+fail respond on rpc
+crt req create
+crt bulk create
+crt req send
+wrong opc cb info rpc opc
+crt ivu rpc issue
+bulk update transfer failed
+invalid internal ivns
+invalid class id passed
+ivo on get
+crt bulk create
+crt bulk transfer
+ivs mode must be set crt iv sync none
+ivs event must be set
+invalid sync specified
+invalid ivns specified
+invalid class id specified
+crt ivu rpc issue
+iv value null
+invalid parameter null key or nchildren
+invalid ivns specified
+invalid class id specified
+grp root self failed
+crt bulk create failed ret
+send bulk put and or reply with bulk get
+fail allocate buf entry ret
+self test no test session available reserve
+self test crt reply send failed ret
+self test session ld not found
+self test crt reply send failed ret
+self test crt reply send failed ret
+crt req decref failed ret
+bulk get failed bci rc
+bulk get failed bci rc
+self test service bulk get failed ret
+unable locate session id ld
+only bulk send get reply put be supported
+opcode self test session params mismatch
+fail allocate buf entry
+self test service bulk get failed ret
+self test service bulk get failed ret
+invalid parameter crt hg pool enable hg ctx
+hg create failed hg ret
+hg destroy failed hg hdl hg ret
+crt hg pool enable hg ctx failed
+hg addr free failed hg ret
+hg addr self failed hg ret
+hg addr to string failed hg ret
+crt hg reg rpcid fail rc
+crt hg reg rpcid fail rc
+hg registered disable response rpcid
+cart already initialized
+could not initialize hg class
+crt hg get addr failed rc
+crt hg reg rpcid for prov idx failed rc
+fail init hg class for prov idx
+could not create hg context
+hg context set data failed ret
+crt hg pool init failed context idx hg ctx
+could not destroy hg context hg ret
+hg get info failed
+hg context get data failed
+crt hg unpack header failed rc
+opc lookup failed
+crt rpc priv init rc opc
+unpack body failed rc opc
+null crp hg hdl opc
+hg progress failed hg ret
+hg trigger failed hg ret
+hg bulk create failed hg ret
+hg bulk bind failed hg ret
+crt bulk get sgnum failed rc
+crt bulk get len failed rc
+hg bulk access failed hg ret
+crt hg bulk transfer cb hg cbinfo  ret
+bulk cbinfo  bci cb failed rc
+hg bulk  bind transfer failed hg ret
+proc not initilalized
+invalid parameter null proc op
+bad hg proc op
+invalid parameter data
+invalid iov buf len iov len
+could not get extra input buff hg ret
+could not get input buf hg ret
+could not create proc hg ret
+crt proc common hdr fail rc
+crt proc corpc hdr fail rc
+crt hg unpack body failed rc opc
+error in proc flush hg ret opc
+crt proc common hdr fail rc
+crt proc corpc hdr fail rc
+unpack input fail for opc
+fail update attribute
+fail delete attribute
+fail lookup attribute
+fail create mutex
+fail create state cv
+fail create leader ref cv
+fail create map dist cv
+fail stat
+fail start map distd
+fail step leader
+fail create service stopper
+fail start service
+fail start replicate service
+fail stop all replicate services
+fail start replicas
+fail stop replicas
+metadata capacity too low use zu mb
+invalid pool
+rebuild obj send cb failed
+dbtree destroy failed
+dbtree iter probe failed
+dbtree iter delete failed
+dbtree iterate failed rc
+cannot find valid placement map
+fail find rebuild shard for object
+fail delete object
+open container failed rc
+fail create rebuild tree
+send rebuild object list failed
+fail create fail tgt list rc
+rebuild global pool tracker create failed rc
+rebuild target canceled
+pool map broad cast failed rc
+get pool service term failed rc
+rebuild prepare failed rc
+pool map broadcast failed rc
+pool map broadcast failed rc
+pool prop fetch failed rc
+ds pool iv prop update fail
+object scan failed rc
+fail look pool
+fail send ra event
+ver rebuild failed rc
+iv final update fail rc
+reschedule
+rebuild status completed update
+fail send ra event
+create ult failed
+schedule op ver failed rc
+fail create tgt list rc
+set parameter failed rc
+can not start rebuild status check
+rebuild failed rc
+can not find pool
+pool group not found
+status completed update
+iv fetch fail
+iv update fail
+can not find class
+dss ult periodic failed rc
+iv update retry failed
+drpc listener progress error
+fail create listener socket at
+fail create drpc progress context
+listener setup failed abort ult creation
+fail create drpc listener ult
+fail allocate socket path
+fail create mutex
+abt error re joining thread
+abt error free thread
+abt error free mutex
+send reply failed
+invalid throttle number
+invalid request type
+can throttle io request
+xs purge failed
+xs pool req cnt
+type req cnt
+xs alloc purge item failed
+alloc req failed
+xs create sched pool hash failed
+fail allocate spi
+fail insert pool hash
+xs get pool info failed
+xs query pool space failed
+xs traverse pool hash error
+xs get req failed
+fail get self thread
+fail read abt sched config
+xs fail pop network poll ult
+xs fail pop nvme poll ult
+xs fail pop ult for abt pool
+xs get abt pool total size error
+xs sleep error
+xs get abt pool size error
+xs get abt pool error
+invalid drpc listener
+null drpc progress context passed
+poll failed errno
+drpc progress context session ctx not
+fail count open drpc sessions
+fail accept new drpc connection
+fail send drpc response module method
+could not allocate drpc  response
+fail create drpc handler ult
+error process incoming session data
+invalid drpc progress context
+fail convert drpc progress context unixcomm
+fail register dbtree class kv
+fail register dbtree class iv
+fail register dbtree class nv
+fail register dbtree class uv
+fail register dbtree class ec
+fail load module
+invalid dss core offset
+invalid numa node selected
+numa node be not find in the topology
+unable allocate core allocation bitmap
+invalid dss core offset set by option
+fail init abt
+fail handle event
+fail initialize drpc
+daos init client failed rc
+daos hhash init failed rc
+daos cannot be initialize use the configure
+fail init server init state
+fail notify daos server
+invalid signo register
+sigaction failure register new read
+sigaction failure register new read old
+fail wait for signals
+failure gettimeofday
+fail open file dump abt info ults stacks
+modname too long
+cannot load
+fail load
+inconsistent module name
+fail init
+fail register rpc for
+fail register drpc for
+fail unregister rpc
+fail unregister drpc
+module finalization fail for
+fail set module
+fail clean module
+fail connect drpc server at
+fail create drpc
+fail invoke drpc
+fail get sched req
+fail create thread for drpc
+receive erroneous drpc response
+fail allocate pool uuid
+receive erroneous drpc response
+fail unpack resp get pool svc
+failure fetch svc ranks for
+fail set cpu affinity
+fail initialize tls
+fail create crt ctxt
+fail register process cb
+fail get xtream index rc
+fail init the scheduler
+fail init spdk context for xstream
+create abt thread attr failed
+set abt stack size failed
+create nvme poll ult failed
+fail progress cart context
+can not allocate execution stream
+fail allocate stopping future
+fail allocate shutdown future
+fail allocate cpuset
+create scheduler fails
+create xstream fail
+abt thread attr create fail
+abt thread attr set stacksize fail
+create progress ult failed
+no core available for xs
+null core return by hwloc for
+miss argument for acc offload
+unknown type offload
+invalid value
+invalid key id
+abt info print config error rc
+abt info print all xstreams error rc
+abt info print xstream error rc for
+abt info print thread error
+abt info print thread stack error
+abt xstream get main sched error rc
+abt info print sched error rc
+abt info print sched error rc for
+abt sched get num pools error rc for
+abt sched get pools error rc for
+abt info print pool error rc
+abt info print thread stacks in pool error rc
+fail allocate handler registry table
+table not initialized
+module id out range
+try register null handler
+try register module id more than once
+table not initialized
+table not initialized
+module id out range
+handler for module not found
+table not initialized
+module id out range
+table not initialized
+message for unregistered drpc module
+start dump ult failed rc
+profile init failed rc
+fail initialize tls
+fail get self rank
+unable generate timestamp
+fail retrieve xstream id
+miss hostname parameter
+miss msg parameter
+open memstream failed
+null ra event
+receive erroneous drpc response
+fail init ra event
+fail send ra event over drpc
+invalid pool
+invalid service replicas
+fail convert svc replica proto
+future set failure
+abt thread attr free failed
+no nod in pool map
+fail create rank list
+no nod in pool map
+fail create rank list
+can not get rank
+get fail tgts
+pool cache not found
+fail get rank idx
+pool iv isn initialized
+target failed
+fail start target update ult
+fail list pools
+check target status failed
+prop failed rc
+bad class id
+iv fetch fail
+iv update fail
+iv fetch fail
+iv invalidate fail
+iv invalidate fail
+iv invalidate fail
+pool iv update fail
+pool iv update fail
+iv fetch fail
+pool iv prop fail
+daos prop copy fail
+fail register pool rpcs
+dc mgmt get pool svc ranks
+fail refresh placement map
+fail create local pool map
+couldn get fail targets
+rpc error while connect pool
+fail connect pool
+fail create local pool map
+fail register pool connect with agent
+cannot find pool service
+fail create rpc
+fail obtain security credential
+rpc error while disconnect from pool
+fail disconnect from pool
+fail notify agent pool disconnect
+cannot find pool service
+fail create rpc
+larger glob buffer need byte provided
+failed rc
+fail create local pool map
+failed rc
+bad dpg magic
+failed rc
+rpc error while exclude targets
+fail exclude targets
+tgt update fail count zd
+null tgts or tgts  tl nr zero
+fail sys attach rc
+fail rsvc client init rc
+cannot find pool service
+fail create rpc
+pool target addr list alloc failed rc
+rpc error while query pool
+fail query pool
+cannot find pool service
+fail create pool query rpc
+rpc error while list containers
+fail list container
+cannot find pool service
+fail create pool list cont rpc
+rpc error while query pool target
+fail query pool
+cannot find pool service
+fail create pool tgt info rpc
+rpc error while query pool
+cannot find pool service
+fail create rpc
+invalid arguments name value
+invalid arguments names
+invalid arguments values sizes lu
+cannot find pool service
+fail create pool svc stop rpc
+ignore bad dpt type
+can drain new
+can drain reint
+can reint rebuild
+can add in non up
+can exclude out non down
+invalid pool target operation
+get request change nonexistent target
+get request change nonexistent rank
+gc pool run failed
+fail create gc ult
+fail create pool group
+fail create pool iv ns
+fail add pool caches
+fail destroy pool group
+fail delete pool caches
+fail destroy pool group
+iv conn fetch
+fail create ec eph equery ult
+fail get req for ec eph query ult
+fail look pool
+fail start pool
+fail create fetch ult
+fail start ec eph query ult
+fail query pool tgt id
+fail get index rc
+pool query on pool failed
+find conflict pool handle hdl
+fail update group
+fail create pool map
+can not update pool group
+fail update pl map
+fail fail cnt update pl map
+dtx resync ult failure
+fail find pool
+object scrub failed
+lookup container failed
+fail create scrub ult
+stop pool failed
+ref
+pool list not empty
+fail create uuid file
+fail write uuid into
+fail fsync
+fail open uuid file
+fail read
+ignore bad dpt type
+bad dpe type
+cannot find pool service
+fail create pool create rpc
+fail create pool
+fail destroy pool service
+fail remove
+fail create ps lock
+evict ult failed rc
+pool event failed rc
+fail get ds pool
+fail look layout version
+fail read pool map buffer
+cannot get access data for pool
+fail get swim for rank
+fail evict rank
+ds pool iv prop update fail
+ds pool iv srv hdl update fail
+fail read pool map buffer
+fail distribute pool map
+fail start pool
+fail allocate rdb path
+fail check rdb existence
+fail scan all pool services
+fail create pool start ult
+fail stop all pools
+fail stop all pool svcs
+fail create pool stop ult
+bad label length zu
+bad owner length zu
+bad owner group length zu
+get svc list failed rc
+fail look pool map
+daos prop dup failed
+daos prop default copy failed
+find different cache persistent pool
+remote pool map buffer require
+be destroyed not accept connections
+find conflict pool handle
+cannot get access data for pool
+refuse connect attempt for
+permission deny for connect attempt for
+fail read pool map
+fail connect targets
+fail disconnect from targets
+fail query from targets
+remote container buffer
+cannot find pool service
+fail create pool list cont rpc
+fail get container list for pool
+ds pool iv prop fetch fail
+mismatch
+mismatch
+type mismatch
+iv prop verify fail
+fail read pool map
+fail get rank idx rc
+fail create local pool map
+fail get num disable tgts rc
+cannot find pool service
+fail create pool query rpc
+fail query pool
+fail process pool query results rc
+cannot find pool service
+fail create pool get prop rpc
+fail get prop for pool
+fail create pool extend rpc
+fail set target state for
+fail create pool req
+pool target addr list alloc failed rc
+fail set target state
+fail write prop for pool
+fail read prop for pool rc
+fail update prop iv for pool
+fail init rsvc client
+cannot find pool service
+fail create pool set prop rpc
+fail set prop for pool
+no acl prop entry for pool
+unable update pool with new acl rc
+fail write update acl for pool
+cannot find pool service
+fail create pool update acl rpc
+fail update acl for pool
+no acl prop entry for pool
+fail remove request principal
+fail write update acl for pool
+cannot find pool service
+fail create pool delete acl rpc
+fail delete acl entry for pool
+fail update pool map cache
+fail schedule reclaim rc
+invalid key value size key value
+pool open handle in rdb but not the pool
+be destroyed not accept connections
+rebuild fail rc
+fail schedule extend rc
+fail schedule extend rc
+invalid key value size key value
+cannot find pool service
+fail create pool evict rpc
+pool destroy fail evict handles
+remote rank buffer
+cannot find pool service
+fail create pool ranks get rpc
+fail get ranks
+get rank failed
+fail read pool map
+fail get ds pool
+fetch srv hdl
+fail get ds pool
+fetch srv hdl
+fail open kv obj
+fail create task cleanup obj hdl
+kv object must be type flat kv oid feats
+fail open object open task
+fail register dependency
+fail register completion cb
+fail create object close task
+fail register dependency
+fail register completion cb
+fail create object punch task
+fail register dependency
+buffer size pointer null
+unable locate bind dlerror say
+unable resolve llapi dir create foreign symbol
+unable resolve llapi unlink foreign symbol
+liblustre notfound false liblustre notfound
+unable allocate xattr size max get lov lmv
+unable open errno
+file with foreign lov support presently not
+ioctl ll ioc lmv getstripe failed rc
+invalid daos lmv format
+invalid daos lmv format
+invalid daos lmv format
+invalid daos lmv format container layout cannot be
+invalid daos lmv format
+invalid daos lmv format pool uuid cannot be
+invalid daos lmv format
+invalid daos lmv format container uuid cannot be
+fail copy path
+invalid daos format
+invalid daos format
+invalid format pool uuid cannot be parsed
+invalid daos format
+invalid format cont uuid cannot be parsed
+invalid xattr length
+invalid daos unify namespace xattr
+invalid daos xattr format
+invalid daos xattr format
+invalid daos xattr format container layout cannot be
+invalid daos xattr format
+invalid daos xattr format pool uuid cannot be
+invalid daos xattr format
+invalid daos xattr format container uuid cannot be
+fail allocate container prop
+fail copy property
+fail create container
+fail create lmv value
+fail create lustre dir with foreign
+fail allocate container prop
+fail copy property
+invalid path
+invalid dun format
+fail create container
+fail create file
+fail copy path
+fail statfs dir
+fail create dir
+invalid container layout
+fail create xattr value
+fail set daos xattr
+fail set daos xattr
+fail create container
+duns resolve path fail on path
+fail destroy container
+fail unlink sfile
+fail remove sdir
+daos tx restart fail
+daos tx close fail
+daos cont alloc oids fail
+fail fetch entry
+fail fetch entry
+fail load value for symlink
+fail insert entry
+daos array open with attr fail
+invalid entry type not dir file symlink
+daos array open with attr fail
+insert file entry fail
+fetch entry fail
+daos array open with attr fail
+fail truncate file
+daos array get size fail
+daos obj open fail
+insert dir entry fail
+daos obj open fail
+insert entry fail rc
+daos obj open fail
+fail create dfs superblock
+fail fetch sb info
+sb do not exist
+sb magic verification failed
+incompatible sb version
+incompatible dfs layout version
+should pas valid container handle pointer
+fail allocate container prop
+fail copy property
+daos cont create fail
+daos cont open fail
+fail insert root entry
+dfs mount fail
+daos cont close fail
+fail allocate prop
+daos cont query failed
+container not type posix
+unable convert owner uid
+unable convert owner gid
+invalid superblock or root object id
+fail open root object
+daos cont alloc oids fail
+invalid parameter null glob pointer
+invalid parameter glob iov buf iov buf len
+invalid parameter glob iov buf
+bad magic value
+container uuid mismatch in coh
+invalid superblock or root object id
+daos obj open failed
+daos obj open failed
+daos tx open fail
+daos obj open fail
+daos tx commit fail
+daos obj close fail
+daos obj open fail
+daos obj close fail
+not directory
+daos array open fail
+invalid entry type in path
+daos obj open fail
+daos array open with attr fail
+daos array get size fail
+daos obj open fail
+invalid entry type not dir file symlink
+daos tx open fail
+invalid entry type not dir file symlink
+daos tx commit fail
+invalid object type not dir file symlink
+invalid parameter null glob pointer
+invalid parameter glob iov buf iov buf len
+invalid parameter glob iov buf
+bad magic value
+container uuid mismatch in coh
+daos array open with attr failed
+invalid entry type not dir file symlink
+daos obj close failed
+fail read from array object
+daos array read failed
+daos array read fail
+daos array write fail
+daos array write fail
+invalid path entry name null
+invalid path entry name null
+invalid path entry name null
+setuid setgid sticky bite be not supported
+fail lookup symlink
+fail update mode rc
+fail update attr rc
+daos array punch fail
+daos obj list akey fail
+daos obj fetch fail
+daos obj update fail
+daos tx open fail
+fail fetch entry
+fail fetch entry
+can rename non dir over dir
+daos obj open fail
+fail check dir
+daos obj close fail
+target dir not empty
+fail remove entry
+fail remove entry
+insert new entry fail
+insert entry fail
+fail copy extend attribute
+punch entry fail
+daos tx commit fail
+daos tx open fail
+fail fetch entry
+fail fetch entry
+punch entry fail
+punch entry fail
+insert entry fail
+insert entry fail
+daos tx commit fail
+fail add extend attribute
+fail fetch xattr
+invalid container uuid
+dfs mount fail
+dfs cont create fail
+fail create array obj
+fail create task cleanup obj hdl
+daos array failed rc
+invalid parameter null glob pointer
+invalid parameter glob iov buf iov buf len
+container uuid mismatch in coh
+fail local object open
+invalid parameter null coh
+invalid parameter glob iov buf
+bad magic value
+invalid parameter cell chunk size
+dc array fail
+fail open object
+array dkeys must be uint type oid feats
+array must be type flat kv oid feats
+array create must have daos of array oid feats
+fail create object open task
+fail create object update task
+fail register prep cb
+fail register dependency
+fail register completion cb
+fail create task cleanup obj hdl
+fail open object
+array dkeys must be uint type oid feats
+array must be type flat kv oid feats
+array open must have daos of array oid feats
+array open with attr must not have daos of array
+fail open object open task
+fail register dependency
+fail register completion cb
+fail open object fetch task
+fail register prep cb
+fail register dependency
+fail register completion cb
+fail register completion cb
+fail create object close task
+fail register dependency
+fail register completion cb
+fail create object punch task
+fail register dependency
+fail get array size
+array read fail
+null iod passed
+null scatter gather list passed
+unequal extent memory array descriptors
+fail compute dkey
+fail compute dkey
+fail create sgl
+fetch dkey fail
+update dkey fail
+array size query fail
+daos task create fail
+task create fail
+task create fail
+array dkey enumermation fail
+fail reinit task
+fail compute dkey
+blobstore uuid must be non null
+fail progress cart context
+unsupported api
+unsupported api
+unsupported api
+can punch multiple dkeys for now
+unsupported api
+for now num anchor should be the same what
+dc cont hdl redunfac failed
+fail initialize eq lib
+fail finalize eq
+fail disconnect some resource may leak
+crt progress fail with
+fail initialize crt
+fail create client context
+fail destroy client context
+fail shutdown crt
+event status should be init
+launch all child before launch the parent
+can find eq from handle
+event queue in progress finalizing
+can start parent event with no children
+can find eq from handle
+crt progress fail with
+crt progress fail with
+eqh nonexist
+eqx finalizing
+fail flush client context
+fail destroy cart context for eq
+parent event not initialize or already
+can nest event
+invalid eq handle
+the daos client library not initialized
+child event launched
+fail finalize child event
+event not link it parent
+parent event not init or launched
+invalid eq handle
+invalid pool prop parameter
+ncont must be non null
+invalid container properties
+invalid cont prop parameter
+invalid acl prop parameter
+invalid prop parameter
+invalid acl parameter
+invalid acl parameter
+user principal invalid
+group principal invalid
+user or group required
+uname get uname for create default jobid
+daos pool disconnect failed
+dfs umount failed
+daos cont close failed
+ioil fetch cont handles failed
+magic number do not match expect get
+can not find obj class invalid oid
+could not find root node in pool map
+special oid
+jump map obj layout fill failed rc
+pl obj layout alloc failed rc
+get object layout failed rc
+could not find root node in pool map
+cannot find active targets
+jm obj placement get failed rc
+get layout alloc failed rc
+could not generate placement layout rc
+pl map version rebuild version
+jm obj placement get failed rc
+pl map version rebuild version
+jm obj placement get failed rc
+pl map version rebuild version
+jm obj placement get failed rc
+can not find obj class invalid oid
+special oid failed rc
+ring obj layout fill failed rc
+ring obj placement get failed rc
+pl obj layout alloc failed rc
+ring obj layout fill failed rc
+pl map version rebuild version
+pl map version reintegration version
+obj grp size larger than

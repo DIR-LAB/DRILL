@@ -1,0 +1,119 @@
+beegfs helper daemon version
+client log message will prefix with an asterisk symbol
+listen for udp datagrams port
+beegfs client version
+usable nics enp    tcp
+wait for beegfs mgmtd
+connected beegfs helper protocol tcp
+new node beegfs mgmtd osboxes id
+management node found download node groups
+connected beegfs mgmtd protocol tcp
+node registration successful
+node deregistration successful
+still wait for component stop beegfs ackmgr
+component stopped beegfs ackmgr
+all component stopped
+receive sigterm shut down
+all component stopped exit now
+beegfs helper daemon version
+client log message will prefix with an asterisk symbol
+listen for udp datagrams port
+beegfs client version
+usable nics virbr  tcp docker  tcp tunl  tcp enp    tcp
+wait for beegfs mgmtd
+connected beegfs helper protocol tcp
+new node beegfs mgmtd osboxes id
+management node found download node groups
+connected beegfs mgmtd protocol tcp
+nod sync results type beegfs storage
+node registration successful
+node deregistration successful
+still wait for component stop beegfs ackmgr
+component stopped beegfs ackmgr
+all component stopped
+listen for udp datagrams port
+beegfs client version
+usable nics virbr  tcp docker  tcp tunl  tcp enp    tcp
+connected beegfs helper protocol tcp
+new node beegfs mgmtd osboxes id
+connected beegfs mgmtd protocol tcp
+nod sync results type beegfs storage
+node registration successful
+node deregistration successful
+still wait for component stop beegfs ackmgr
+component stopped beegfs ackmgr
+all component stopped
+localnode beegfs mgmtd osboxes id
+usable nics virbr  tcp docker  tcp tunl  tcp enp    tcp
+receive signal sigterm clean shutdown initiated send another one shutdown immediately
+still wait for component stop streamlis
+component stopped streamlis
+all component stopped exit now
+localnode beegfs mgmtd osboxes id
+usable nics virbr  tcp docker  tcp tunl  tcp enp    tcp
+new node beegfs client fd      osboxes id source
+node removed node beegfs client fd      osboxes id
+new root directory metadata node beegfs meta osboxes id
+new node beegfs meta osboxes id source
+metadata node come online id
+metadata node capacity pool assignment updated nodeid pool normal reason free capacity threshold
+no state report receive from metadata node for seconds set metadata node probably offline metadata node id
+metadata node capacity pool assignment updated nodeid pool emergency reason no capacity report received
+no state report receive from metadata node for seconds set metadata node offline metadata node id
+new node beegfs meta worker id source
+metadata node capacity pool assignment updated nodeid pool emergency reason no capacity report received
+metadata node come online id
+no state report receive from metadata node for seconds set metadata node probably offline metadata node id
+metadata node come online id
+metadata node capacity pool assignment updated nodeid pool normal reason free capacity threshold
+receive signal sigterm clean shutdown initiated send another one shutdown immediately
+all component stopped exit now
+localnode beegfs mgmtd osboxes id
+usable nics enp    tcp
+new node beegfs client fd      osboxes id source
+metadata node come online id
+storage target come online id
+metadata node capacity pool assignment updated nodeid pool normal reason free capacity threshold
+metadata node capacity pool assignment updated nodeid pool emergency reason free capacity threshold
+receive signal sigterm clean shutdown initiated send another one shutdown immediately
+all component stopped exit now
+localnode beegfs mgmtd osboxes id
+usable nics virbr  tcp docker  tcp tunl  tcp enp    tcp
+new root directory metadata node beegfs meta osboxes id
+new node beegfs meta osboxes id source
+metadata node come online id
+metadata node capacity pool assignment updated nodeid pool normal reason free capacity threshold
+new node beegfs storage worker id source
+storage target capacity pool assignment updated nodeid targetid pool emergency reason no capacity report received
+storage target come online id
+new node beegfs client fd      osboxes id source
+storage target capacity pool assignment updated nodeid targetid pool low reason free capacity threshold
+receive signal sigterm clean shutdown initiated send another one shutdown immediately
+all component stopped exit now
+localnode beegfs mgmtd osboxes id
+usable nics enp    tcp
+new node beegfs client fd      osboxes id source
+node removed node beegfs client fd      osboxes id
+no state report receive from storage target for seconds set storage target offline storage target id
+receive signal sigterm clean shutdown initiated send another one shutdown immediately
+all component stopped exit now
+localnode beegfs mgmtd osboxes id
+usable nics virbr  tcp docker  tcp tunl  tcp enp    tcp
+new node beegfs storage worker id source
+storage target capacity pool assignment updated nodeid targetid pool emergency reason no capacity report received
+new node beegfs client fd   bb osboxes id source
+node removed node beegfs client fd   bb osboxes id
+storage target come online id
+listen for udp datagrams port
+wait for beegfs mgmtd
+new node beegfs mgmtd mg id
+connected beegfs mgmtd protocol tcp fallback route
+localnode beegfs storage worker id
+usable nics virbr  tcp docker  tcp enp    tcp
+listen for udp datagrams port
+node registration successful
+storage target registration successful
+nod added type beegfs meta
+registration management info download complete
+listen for udp datagrams port
+listen for tcp connections port

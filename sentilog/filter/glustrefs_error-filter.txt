@@ -1,0 +1,5260 @@
+logchecks
+logchecks
+logchecks
+logchecks
+logchecks forty two
+fatal storage posix cannot have subvolumes
+export directory not specify in volume file
+extend attribute not supported exiting
+extend attribute not supported exiting
+translator not loaded you use for proper function your application
+already exist not directory please remove from all brick try again
+fail lookup root
+fail init root loc
+fail lookup root
+fail start up xlator
+fail allocate inode table
+fail init xlator
+fail allocate fop local pool
+fail init nfs export
+fail init mount state
+fail init nlm state
+fail allocate file struct
+fail allocate dict
+fail allocate export dir structure
+fail allocate export item
+fail allocate option structure
+mres null should never happen
+allocation error when copy authorize path
+allocation error when copy authorize host
+critical error
+fail allocate netgroup file dict
+fail duplicate filename
+allocation error while parse line
+server quorum regain for volume start local bricks
+server quorum lose for volume stop local bricks
+glusterd receive remove friend from unknown peer
+server quorum not met reject operation
+server quorum not met reject operation
+receive friend update request from unknown peer
+could not find peer
+server quorum not met reject operation
+fail get volname from operation context
+fail spawn post hook worker thread
+cluster lock response receive from unknown peer ignore response
+mgmt lock response receive from unknown peer ignore response
+mgmt unlock response receive from unknown peer ignore response
+unlock response receive from unknown peer
+stage response receive from unknown peer ignore response
+commit response for volume receive from unknown peer
+glusterd receive event with empty peer info
+unable stop brick
+unable stop brick
+unable add dst brick volume
+fail start one or more gluster services
+realpath fail for brick the underlie filesystem may be in bad state error
+realpath fail for brick the underlie filesystem may be in bad state error
+is prefix call fail for brick against brick
+couldn allocate port
+quota configuration store may be corrupt
+unable write gfid into quota conf for
+realpath fail for brick the underlie filesystem may be in bad state
+realpath fail for brick the underlie filesystem may be in bad state
+unable stop brick
+fail spawn brick other volume relate service
+store glusterd global info fail ret
+realpath fail for brick the underlie file system may be in bad state
+realpath fail for brick the underlie file system may be in bad state
+volname not present in operation ctx
+volname not present in operation ctx
+glusterd fail set write access for group
+glusterd directory path longer than path max
+glusterd unable create directory
+glusterd group log group do not exist
+glusterd directory path longer than path max
+glusterd unable create log directory
+glusterd directory path secondaries longer than path max
+glusterd unable create secondary log directory
+glusterd directory path secondaries mbr longer than path max
+glusterd unable create mountbroker secondary log directory
+provide snap path not directory exit
+unable create directory errno
+provide work area not directory exit
+unable create directory errno
+unable find the correct var run dir
+unable create snap backend folder
+snap mount dir too long
+unable create share storage brick
+unable create bitd run directory
+unable create scrub run directory
+unable create nfs run directory
+unable create quota run directory
+this  name unable create cmd log file
+unable create volume directory errno
+unable create volume directory errno
+unable create snap directory errno
+unable create peer directory errno
+unable create log directory errno
+unable create nfs directory errno
+unable create bitrot directory
+unable create scrub directory
+unable create glustershd directory errno
+unable create quotad directory errno
+unable create glustershd directory errno
+unable create hook directory
+unable add dst brick volume
+fail start one or more gluster services
+realpath fail for brick the underlie filesystem may be in bad state
+provide command not regular file exit
+provide command have no exec permissions exit
+stag response for volume receive from unknown peer
+commit response for volume receive from unknown peer
+server quorum not met reject operation
+volname not present in operation ctx
+volname not present in operation ctx
+volname not present in operation ctx
+server quorum not met reject operation
+operation context not present
+unable clear local lock ret
+fail start shd for
+server quorum not met reject operation
+inodes on subvolume be at consider add more brick
+distribute need more than one subvolume
+exit global initialization fail
+pthread once fail
+unknown lock type
+unlock call before lock
+health check failed go down
+still alive sigterm
+still alive sigkill
+no memory for value
+set state fail
+remotepath
+set state fail
+gf entry null
+ctx null
+gfid null
+could not get inode
+lock dup fail
+pl inode get fail
+pl ctx get fail
+pl ctx get fail
+invalid lock find
+empty lock list
+pl inode get fail
+insufficient memory
+null priv
+memory account init fail
+abort download
+iobuf copy fail
+copy frame fail
+curl failure
+curl download fail
+xlator init fail
+insufficient memory
+initialisation failed
+null config
+memory account init fail
+truncate fail
+local init fail
+insufficient memory
+ctx update fail
+ctx update fail
+fd creation fail
+dict set fail
+ftruncate fail
+fd creation fail
+local init fail
+insufficient memory
+stat check fail
+ctx update fail
+dict set fail
+inodelk fail
+insuffcient memory
+local init fail
+build loc fail
+ctx allocation fail
+error get xattr
+error get start time
+error get file stat
+nfs state wrong
+priv null
+glusterd
+glusterd
+glusterd
+glusterd
+error
+rpc error
+status empty
+dict null
+dict null
+glusterd
+glusterd
+key null
+dict null
+dict null
+dict null
+glusterd
+glusterd
+glusterd
+glusterd
+glusterd
+possible null deref
+possible null deref
+possible null deref
+dht defrag null
+abort rebalance
+no layout for fd
+readlink fail
+removexattr failed key path
+post operation lstat on parent fail
+buf  ia gfid null for
+pre operation lstat on parent fail
+create fail on
+lchown on fail
+set acls on fail
+set xattrs on fail
+set gfid on fail
+mknod on fail
+post operation lstat on parent fail
+pre operation lstat on parent fail
+mkdir gf malloc fail during preop mkdir
+mkdir getxattr fail during preop mkdir
+mkdir getxattr on key path fail
+mkdir gf malloc fail during preop mkdir
+mkdir getxattr on key path fail
+mkdir dict allocation fail
+mkdir fail
+chown on fail
+set acls on fail
+set xattrs on fail
+set gfid on fail
+lstat on fail
+post operation lstat on parent fail
+creation unlink entry fail
+creation unlink entry fail for gfid
+unlink gfid handle fail for path with gfid
+lstat on fail
+unlink fail
+pre operation lstat on parent fail
+open fail
+post operation fstat fail on fd
+fail set fdstat in dict
+post operation lstat on parent fail
+pre operation lstat on parent fail
+mkdir fail
+rmdir fail
+on fail rename rmdir
+post operation lstat on parent fail
+pre operation lstat on parent fail
+symlink fail
+lchown fail on
+set acls on fail
+set xattrs on fail
+set gfid on fail
+lstat fail on
+post operation lstat on parent fail
+pre operation lstat on parent fail
+pre operation lstat on parent fail
+lstat on fail
+rename fail
+lstat on fail
+post operation lstat on parent fail
+post operation lstat on parent fail
+lstat failed
+link fail
+lstat on fail
+lstat failed
+pre operation lstat on parent fail
+set key in dict fail
+open on fail
+chown on fail
+set acls on fail
+set xattrs on fail
+set gfid on fail
+fstat on fail
+post operation lstat on parent fail
+pre operation lstat on parent fail
+create fail
+post operation lstat on parent fail
+write on file fail
+setxattr on file fail
+setxattr on file fail
+post operation lstat on fail
+getxattr fail on gfid key null null
+getxattr fail on gfid key null null
+file gfid key null
+could not allocate mdata file gfid null null
+could not allocate mdata gfid
+gfid key
+could not allocate mdata file gfid null
+file gfid key null
+fail stat brick path
+fail set uid gid for brick path
+unknown mode string
+length separator exceed
+unknown xattr user namespace mode string
+posix delete unlink delete file from fail
+check for fail
+not directory
+create directory fail
+create directory fail
+error mkdir hash
+directory doesn exist exiting
+wrong option provide for key
+wrong volume id set in volume file
+mismatch volume id received already part volume
+extend attribute trusted glusterfs volume id absent
+fail fetch proper volume id from export
+fail set gfid
+chdir fail
+export statfs size take only boolean option
+background unlink take only boolean option
+wrong option provide for direct
+wrong value provide for update link count parent
+could not lock brick directory
+shared brick count take only integer value
+error open directory fail for dir
+error openat fail for file
+posix handle setup fail
+posix landfill setup fail
+creation unlink directory fail
+posix aio init fail
+fsyncer thread creation fail
+unknown mode string
+length separator exceed
+unknown xattr user namespace mode string
+fail delete janitor timer
+open file fail
+read on file fail
+close on file fail
+fail set dict value key path
+lstat on fail
+could not get acl for
+could not set acl for in dictionary
+fail create handle path for
+lstat fail on return value instead please see dmesg output check whether the failure due backend filesystem issue
+xattr req null
+lstat on fail
+gfid null for
+setxattr on fail
+key flags length
+fsetxattr on fd fail
+fd key
+fd key
+fail remove handle
+spawn janitor thread fail
+spawn janitor thread fail
+fresh file
+fresh file
+fail get fd context for non anonymous fd gfid
+fail create handle path
+fail get anonymous fd for real path
+fail get anonymous fd for real path
+fail send cancellation health check thread
+unable setup health check thread
+posix disk statvfs fail on
+spawn disk space check thread fail
+could not get fdctx for fd
+could not fstat fd
+could not read the link from the gfid handle
+setxattr fail key
+fgetxattr fail
+fgetxattr fail
+getxattr fail
+getxattr fail
+fail remove xattr repair fail
+truncate failed file in inconsistent state
+truncate failed file in inconsistent state
+fail remove xattr repair fail
+getxattr fail err
+getxattr fail err
+getxattr fail err
+getxattr fail err
+posix getxattr fail with
+fail create dict
+fail set dict
+getxattr fail for key
+getxattr fail for key
+getxattr fail for key
+getxattr fail for key
+fail set value
+posix cs set state fail
+repair check fail
+posix cs set state fail
+posix cs set state fail
+repair check fail
+posix cs set state fail
+receive on file block char
+getxattr on key failed path
+getxattr on key fail
+posix helpers removexattr failed key path
+fstat fail on fd
+readv async fail fd
+fstat fail on fd
+fail submit sqe
+writev async fail fd
+fstat fail on fd
+fail submit sqe
+writev async fail fd
+fstat fail on fd
+fail submit sqe
+submit sqe get zero
+fail get sqe
+io uring init failed
+lstat on gfid handle path fail
+setattr lstat on gfid handle path fail
+setattr chown on fail
+setattr chmod on gfid handle path fail
+setattr utimes on gfid handle path fail
+lchown gfid handle path fail
+setattr lstat on gfid handle path fail
+fsetattr fstat fail on fd
+fsetattr fchown fail on fd
+fsetattr fchmod fail on fd
+fsetattr futimes on fail fd
+fchown fail
+fsetattr fstat fail on fd
+fallocate fstat fail on fd
+file state check failed fd
+fallocate fail on offset jd len  zu flags
+fallocate fstat fail on fd
+pre operation fstat fail on fd
+file state check failed fd
+zerofill fail on fd length
+fsync in writev on fd fail
+post operation fstat fail on fd
+gf log ipc not handle
+don know what seek
+pre operation fstat fail on fd
+file state check failed fd
+opendir fail on gfid handle path
+dirfd fail path gfid handle
+lstat on fail
+readlink on gfid handle path fail
+pre operation lstat on path gfid handle fail
+file state check failed path
+truncate on gfid handle path fail
+lstat on gfid handle path fail
+open receive on block char file
+open on gfid handle path flags
+pre operation fstat fail on fd
+readv receive on block char file
+pre operation fstat fail on fd
+file state check failed fd
+read fail on gfid fd offset size buf
+fstat fail on fd
+writev receive on block char file
+possible overwrite from internal client fd
+pre operation fstat fail on fd
+file state check failed fd
+write failed offset
+post operation fstat fail on fd
+fsync in writev on fd fail
+possible overwrite from internal client fd
+fail hold write atomic lock on
+pre operation fstat fail on fd
+file state check failed fd
+copy file range failed fd in gfid fd out gfid
+post operation fstat fail on fd
+post operation fstat fail on fd
+statvfs fail on gfid handle path
+fail remove gfid
+fdatasync on fd failed
+fsync on fd fail
+mtime pas different from see by file now will skip truncate the file
+setxattr failed key err
+setxattr failed key err
+setxattr failed key err
+unable set list xattr in dict
+removexattr failed key path
+posix xattr get real filename lstat on gfid handle path fail
+getxattr fail on key
+getxattr fail on path
+getxattr fail on path key
+dict set operation on gfid handle for the key failed
+listxattr fail on path
+getxattr fail on path key
+getxattr fail on path key
+dict set operation on gfid handle for the key failed
+posix fdget objectsignature fail
+fgetxattr fail on key
+fgetxattr fail on fd for the key
+dict set operation on key fail
+listxattr fail on
+fgetxattr fail on fd for the key
+fgetxattr fail the fd for the key
+dict set operation fail on key
+fsetxattr fstat fail on fd
+fsetxattr fstat fail on fd
+removexattr fail on file dir with gfid for
+removexattr on with gfid for
+fgetxattr fail on gfid while do xattrop key
+unknown xattrop type on please send bug report gluster devel gluster org
+setxattr fail on while do xattrop key
+fsetxattr fail on gfid while do xattrop key
+access fail on
+pre operation fstat fail on fd
+file state check failed fd
+ftruncate fail on fd
+post operation fstat fail on fd
+fstat fail on fd
+file state check failed fd
+seekdir    llx fail on dir invalid argument offset reuse from another dir structure
+telldir fail on dir
+seekdir    llx fail on dir invalid argument offset reuse from another dir structure
+could not create gf dirent for entry
+pre operation fstat fail on fd
+file state check failed fd
+fail remove gfid
+listxattr fail on
+getxattr fail on key
+dict set operation on for the key failed
+readv async fail fd    size  lu offset  llu
+fstat fail on fd
+io submit return
+writev async fail fd    offset  llu
+fstat fail on fd
+fstat fail on fd
+io submit return gfid
+async fail fd fdatasync fsync
+fstat fail on fd
+fstat fail on fd
+io submit return gfid
+io getevents return
+unknown op find in piocb
+could not read the link from the gfid handle
+build ancestry fail due deep directory hierarchy depth
+posix resolve on the inode fail
+internal readlink fail on
+unable form handle path for maxlen
+not directory
+create directory fail
+check for fail
+not directory
+stat for fail
+symlink creation fail
+different dirs lld  lld lld  lld
+create directory fail
+check for fail
+not directory
+not able move
+error mkdir hash
+expect regular file
+fail allocate new fd context for gfid
+fail get inode context for
+fail open the directory
+fail open the file
+fail set fd context for gfid
+fail close the fd for
+fail close the fd for
+glfs instance for snap volume fail
+set the volfile server for snap volume fail
+fail set the log file path
+initing the for fail
+inode context not find for the inode
+error in refresh the snaplist infrastructure
+fail build the transport option
+fail initialize rpc
+fail register callback program
+fail start the rpc client
+null context
+rpc call not successful
+fail decode xdr response rsp op ret
+response dict not populate
+fail unserialize dictionary
+error retrieve snapcount
+unable allocate memory
+error retrieve snap volname
+error retrieve snap uuid
+error retrieve snap name
+error allocate frame
+error allocate dictionary
+error set volname in dict
+fail serialize dictionary
+error send snapshot name rpc request
+snapview server fail set uid in thread context
+snapview server fail set gid in thread context
+snapview server fail set group in thread context
+fail allocate inode context for entry point directory
+fail get the latest snapshot
+fail do lookup get the handle on the snapshot path gfid
+fail allocate inode context
+fail allocate inode context
+fail allocate inode context
+fail get the handle for gfid
+null parent context loc  name
+inode context not find for the inode
+opendir on fail gfid
+fail allocate fd context for gfid
+dict set operation for the key failed
+dict set operation for the key glusterfs skip cache failed
+inode context not find for the inode
+fail allocate dict
+getxattr on fail key with
+fail allocate memory for getxattr on key
+fail get the xattr for entry
+dict set operation for for the key failed
+fail add xattrs from the list dict for gfid
+inode context not find for the inode
+glfs instance which the inode belong do not exist the snapshot correspond the instance might have be delete or deactivate
+fail get the fd context for
+fail allocate dict gfid key
+getxattr on fail key
+fail allocate memory for getxattr on key
+fail get the xattr for inode
+dict set operation for gfid for the key failed
+listxattr on fail
+fail allocate buffer for xattr list
+listxattr on fail
+fail add xattrs from the list dict gfid
+inode context not find for the inode
+fail close the glfd for
+fail delete the inode context
+fail allocate dentry for
+telldir fail
+could not create gf dirent for entry
+fail allocate inode context for
+fail get the inode context for
+fail get the fd context for the inode
+inode context not find in the inode
+fail get the fd context for
+inode context not find for
+glfs   stat on gfid fail
+inode context not find for the inode
+glfs instance which the inode belong do not exist snapshot correspond the instance might have be delete or deactivated
+fail get the fd context for
+glfs fstat on gfid fail
+inode context not find for
+glfs   statvfs on gfid fail
+inode context for gfid not find
+glfs   open on fail gfid
+fail allocate fd context for gfid
+glfs instance which the inode receive read request belongs do not exist anymore
+fail get the fd context for
+fail allocate iobuf while read the file with gfid
+glfs read fail on
+fail get inode context for gfid
+glfs   stat on gfid fail
+readlink on fail gfid
+inode context not find for
+fail access gfid
+fail allocate memory for this  private
+error initialize snaplist infrastructure
+invalid ctx find
+fail serialize reply
+fail unserialize nameless lookup rsp
+this  name xdr decode error
+fail unserialize req buffer dictionary
+fail set quota limit objects key
+xdr decode fail
+quota fail register notify
+fail check quota object limit
+fail check quota size limit
+fail get common ancestor for
+fail get common ancestor for
+dict set failed deem statfs option may have no effect
+integer string conversion fail reason
+fatal quota not configure with exactly one child
+fail create local memory pool
+fail create
+fail create path exists not directory
+seekdir    llx fail on dir invalid argument offset reuse from another dir structure
+telldir fail on dir
+seekdir    llx fail on dir invalid argument offset reuse from another dir structure
+could not create gf dirent for entry
+not able create index
+not able add index
+fail delete from index
+not able get inode ctx for
+get invalid entry for pargfid path
+get invalid entry for pargfid path
+fail delete from index entry changes
+not able get inode context for
+xattrop index gfid set fail
+xattrop index count set fail
+dirty index count set fail
+unable get inode context for
+unable store virtual gfid in inode context for
+unable set link count
+unable set link count
+index not configure with exactly one child
+pthread cond init fail
+pthread mutex init fail
+pthread attr init fail
+fail find parent dir index basepath
+closedir error
+memory account initialization failed
+dict set key for set ctime mdata fail
+fail allocate private memory
+unlock entry lock fail for
+acquire entry lock fail for directory with parent gfid
+acquire entry lock fail for directory with parent gfid
+acquire entry lock fail for directory with parent gfid
+acquire entry lock fail for directory with parent gfid
+acquire entry lock fail for directory with parent gfid
+unlock entry lock fail
+acquire entry lock fail
+acquire entry lock fail for directory with parent gfid
+acquire entry lock fail
+acquire entry lock fail for directory with parent gfid
+acquire entry lock fail for directory with parent gfid
+could not tokenize domain string from key
+mem allocation fail for meta lock
+mem allocation fail for client uid
+pl inode mem allocation failedd
+frame root client null
+mem allocation fail for newlock
+mem allocation fail
+translator not enabled you enable for proper function your application
+inode ctx get fail
+memory allocation for lease entry fail
+memory allocation for client uid fail
+there no client entry find in the cleanup list
+there no inode entry find in the cleanup list
+unable get fd ctx
+invalid lease type specify
+recall notification client fail
+invalid lease id from client
+getxattr fail for
+getxattr fail for
+memory account init fail
+fail create local memory pool
+could not initiate probe rpc bail out
+fail spawn poller thread
+error register with changelog xlator
+xdr decode fail
+error write changelog filename tracker file
+could not read from htime file
+cannot read from history metadata file
+could not create consume thread
+pthread join error
+publish error cease publishing
+pthread init fail
+unable read htime file
+unable set the detach state attribute
+creation consume parent thread failed
+mmap error
+process binary changelog fail due error in write ascii change
+munmap error
+mmap error
+process ascii changelog fail due error in write change
+munmap error
+fail cleanup processor thread
+opendir error
+could not create entry in history scratch dir
+could not create entry in scratch dir
+error write changelog filename tracker file
+fail extract signature info gfid
+error set bad file marker for gfid brick
+error mark object gfid corrupt
+fail create fd for inode
+error calculate hash for object gfid
+bug zero schedule timeout
+bug zero schedule timeout
+bug zero schedule timeout
+unknown throttle
+fail allocate new inode for bad object directory
+fail lookup the bad object directory gfid
+fd creation for the bad object directory fail gfid
+fail open the bad object directory
+readdir the bad object directory fail
+fail allocate dict
+fail allocate dict
+scrub state machine fail
+scrub wait fail
+monitor thread creation fail
+initialize aws secret key fail
+initialize aws key id fail
+initialize aws bucketid fail
+initialize aws hostname fail
+initialize aws secret key fail
+initialize aws key id fail
+initialize aws bucketid fail
+initialize aws hostname fail
+memory allocation failure for date
+memory allocation failure for sign req
+write fail abort download
+null sign req abort download
+null signature abort download
+mem allocation fail for buf
+download failed err
+curl error
+fail open
+error extract get archstore methods
+fail extract method in get archstore methods
+should have exactly one child
+dangle volume check volfile
+fail allocate request for gfid
+fail extract store info for gfid
+fail extract file info for gfid
+fail extract destination store info for gfid
+fail extract file info for gfid
+fail restore file gfid from data management store
+restore fail for gfid
+report end of file for gfid
+zero size read attempt on gfid
+fail allocate request for gfid
+fail extract store info for gfid offset size buf
+fail extract file info for gfid offset size buf
+read fail on gfid offset size buf
+could not allocate memory for priv  stores
+null store methods
+fail get read fop
+fail get download fop
+fail get init fop
+fail get reconfigure fop
+fail create dict
+dict set fail key
+could not get file state unwind
+second truncate unwind
+file state could not be figured unwind
+dict set fail key
+dict set fail key
+dict set fail key
+dict set fail key
+stale lock would be find on server
+no remote store plugins find
+fail create dict
+fsetxattr fail key
+download fail remotepath
+removexattr failed remotexattr
+removexattr failed download xattr path
+remote path not available check posix log resolve
+remote path not available check posix log resolve
+no remote store plugins find
+read fail remotepath
+could not get file state unwind
+second readv unwind
+file state could not be figured unwind
+status gf cs error abort readv
+dict set fail key
+null inode return
+status gf cs error fail get file state
+status gf cs error abort write
+download failed unwind writev
+inode path fail on
+update file size xattr fail on
+fail set size attrs for
+fail set key into dict gfid
+fail set gfid into dict
+lookup on base file fail
+fail set inode write params into inode ctx for
+stat failed
+fail get block size from inode ctx
+fail get block size from inode ctx
+truncate on last shard fail
+inode path fail on
+lookup on shard failed base file gfid
+inode path fail on
+fail get block size from inode ctx
+fail get block size from inode ctx
+fail get block size from inode ctx
+fail delete shard
+inode path fail on
+inode path fail on
+fail get dict value key
+fail get dict value key
+inode path fail on
+fail delete from
+lookup on failed exit
+inode path fail on
+fail clean shard gfid
+unlock failed please check brick log for more detail
+inode path fail on pargfid bname
+xattrop on marker file fail while perform
+gf msg this  name gf log error op errno shard msg fop failed
+gf msg this  name gf log error op errno shard msg fop failed
+gf msg this  name gf log error shard msg inode path failed uuid utoa   priv  dot shard rm gfid uuid utoa   loc  inode  gfid
+unlock failed please check brick log for more detail
+fail get block size from inode ctx
+fail get block size from inode ctx
+fail get inode ctx for
+inode path fail on base file gfid
+fail get block size for from it inode ctx
+fail set into dict
+fail set gfid req for
+fail set fd ctx for shard inode gfid
+fail get block size for from it inode ctx
+fail get block size from inode ctx
+fail get block size from inode ctx
+fail get block size from inode ctx
+fail get block size from inode ctx
+fail get block size for from it inode ctx
+memory account init fail
+shard null init fail
+dangle volume check volfile
+shard not configure with exactly one sub volume check volfile
+error get worm retention state
+error set worm retention state
+strlen too long
+nfsv state miss from rpc request
+searchindex not find
+fail get export by id
+no read write access
+bad handle
+unable resolve fh
+volume disabled
+out memory
+fail init call state
+nfsv state not find in rpc request
+fail get iobuf
+fail encode message
+fail serialize reply
+fail on iobref new
+fail add iob iobref
+reply submission fail
+fail serialize reply
+fail on iobref new
+fail add iob iobref
+reply submission fail
+stat fop failed
+error decode args
+getattr procedure fail
+timestamps not in sync
+cs  setattr valid invalid
+error decode args
+setattr procedure fail
+invalid argument carg value null
+nfs inode loc fill error
+invalid argument carg value null
+fail start hard resolve
+error decode args
+lookup procedure fail
+invalid argument carg value null
+error decode args
+access procedure fail
+bad argument
+error decode args
+readlink procedure fail
+fail create anonymous fd
+bad argument
+error decode args
+read procedure fail
+fail create anonymous fd
+bad argument
+error decode args
+write procedure fail
+error decode args
+create procedure fail
+bad argument
+error decode args
+mkdir procedure fail
+bad argument
+error decode args
+symlink procedure fail
+bad argument
+error decode args
+mknod procedure fail
+bad argument
+error decode args
+remove procedure fail
+bad argument
+error decode args
+rmdir procedure fail
+bad argument
+error decode args
+rename procedure fail
+bad argument
+error decode args
+link procedure fail
+fail create anonymous fd
+auto opendir fail
+bad argument
+error decode args
+readdir procedure fail
+error decode args
+readdirp procedure fail
+bad argument
+error decode args
+fstat procedure fail
+bad argument
+error decode argument
+fsinfo procedure fail
+bad argument
+error decode args
+pathconf procedure fail
+fail create anonymous fd
+bad argument
+error decode args
+commit procedure fail
+fail read option nfs  read size
+fail format option nfs  read size
+fail read option nfs  write size
+fail format option nfs  write size
+fail read option nfs  readdir size
+fail format option nfs  readdir size
+snprintf fail
+fail read option
+dvm on but volume id not give for volume
+fail parse volume uuid
+snprintf fail
+fail read option
+snprintf fail
+fail read option
+snprintf fail
+fail read option
+fail convert str gf boolean
+snprintf fail
+fail read option
+fail convert str gf boolean
+fail init subvol
+fail init subvol
+memory allocation fail
+fail init option
+local mempool creation fail
+fail init per subvolume state
+unable create listener
+nfsv state init fail
+fail reconfigure option
+fail reconfigure subvol option
+fail add protocol initializer
+program not find
+program init fail
+program registration fail
+memory allocation fail
+program init fail
+program registration fail require optional
+program ipv registration fail
+fail add mount protocol initializer
+fail add mount protocol initializer
+fail add nfs protocol initializer
+fail add protocol initializer
+fail add acl protocol initializer
+fail allocate inited xl
+memory account init fail
+memory allocation fail
+fail parse dict
+fail parse uint string
+fail parse dict
+fail parse bool string
+fail parse dict
+fail parse bool string
+fail parse dict
+fail parse uint string
+fail mem allocation
+dict set dynstr error
+dict set str error
+fail parse dict
+fail parse bool string
+fail parse dict
+fail parse bool string
+fail parse dict
+fail parse uint string
+fail parse dict
+fail parse uint string
+fail parse dict
+fail parse dict
+fail parse bool string
+fail parse dict
+fail parse bool string
+dict set str error
+dict set str error
+fail initialize group cache
+rpc service init fail
+enable throttle fail
+fail configure outstanding rpc limit
+reconfiguring need nfs restart
+reconfiguring nfs port need nfs restart
+fail read reconfigured option nfs rpc statd
+fail read reconfigured option nfs mount rmtab
+fail read reconfigured option nfs enable ino
+nfs reconfigure state fail
+nfs reconfigure state fail
+mount reconfigure state fail
+rpcsvc reconfigure option fail
+fail reconfigure outstanding rpc limit
+rpcsvc drc reconfigure fail
+fail init nfs option
+fail add initiator
+fail initialize protocol
+fail initialize drc
+could not get volname
+error write hostname dict
+error write byte read dict
+error write byte write dict
+error write client count dict
+svc run return
+fail create new fd
+fail create fd
+fail create fd
+unable free argument
+pmap unset fail
+cannot create udp service
+unable register nlmcbk program nlmcbk udp
+cannot create tcp service
+unable register nlmcbk program nlmcbk tcp
+parse directory failed
+critical error
+critical error
+fail parse line lu
+unable allocate memory
+unable allocate memory
+unable get fh for
+unable allocate memory
+svc sendreply return error
+unable free argument
+svcudp create error
+svc register error
+strdup fail
+path resolution fail
+loc fill resolution fail
+fail allocate memory
+inode not find in itable no creation be requested
+inode loc fill failed
+path resolution fail
+path resolution fail
+loc fill fail
+could not allocate nfs inode ctx
+could not store nfs inode ctx
+inode loc fill fail
+lookup failed
+lookup failed
+fail fill loc use gfid
+root lookup failed
+fail lookup root from itable
+getpwuid fail
+getpwuid find nothing
+could not map group list
+frame creation fail
+fail create gfid dict
+nfsv state miss from rpc request
+fail init call state
+fail map fh vol client exportid gfid
+stale nfs client must be try connect delete volume please unmount it
+volume disabled
+unable resolve fh
+invalid args
+be not find in the nlmclnt list
+malloc error
+mount state not find
+fail get iobuf
+fail encode message
+fail get iobref
+fail add iob iobref
+reply submission fail
+clnt create
+clnt call
+clnt call
+nlm get uniq return null
+fd create uint return null
+unable create frame
+get null request
+unable open and resume
+error decode args
+unable resolve resume
+nlm not support on ipv in release
+unable get nlm port the client the firewall run on client or be rpc service run rpcinfo
+dict allocation fail
+dict set str error
+dict set str error
+dict set dynstr error
+dict set dynstr error
+rpc clnt null
+rpc clnt register connect error
+fail get iobuf
+fail get iobref
+fail add iob iobref
+rpc clnt submit error
+nlmclnt not find
+nlmclnt not find
+unable call lk
+unable open resume
+error decode args
+unable resolve resume
+nlm get uniq return null
+fd lookup uint retrned null
+error decode args
+unable resolve resume
+error decode args
+unable resolve resume
+could not allocate nfs inode ctx
+could not store share list
+inode not find
+client not find
+error decode share args
+share call fail
+client not found
+inode not found client
+no share find for inode gfid
+gf msg gf nlm gf log error errno nfs msg args decode error
+unshare call fail
+error decode free all args
+spurious notify
+re connect with an unexpected nlm procedure
+fail set rpc clnt
+re connect with an unexpected nlm procedure
+nlm init fail
+dict allocation fail
+dict set str error
+dict set str error
+dict set str error
+dict set str error
+unable create listener
+unable unlink
+unable unlink
+unable start
+fail load parse file see log for more information
+fail load file see log for more information
+mount state not find
+fail get iobuf
+fail encode message
+fail get iobref
+fail add iob iobref
+reply submission fail
+out memory
+fail open
+fail overwrite rwtab
+fail update
+out memory keep rmtab
+mount state not find
+error
+memory allocation failed
+loc fill fail for export inode gfid volume
+fail get root inode
+fail resolve create inode parent gfid entry
+path
+memory allocation failed
+memory allocation fail
+cannot resolve symlink path out boundary from current location with relative path point by symlink
+resolve into an unknown path from the current location symlink
+fail resolve create inode for volume root
+invalid argument
+only ipv support for subdir auth
+invalid structure
+auth verification fail
+memory allocation fail
+fail resolve export dir
+fail resolve export dir
+fail resolve export dir
+mount state not present
+bad peer
+peer too long
+fail decode args
+mount state not present
+get null request
+memory allocation fail
+memory allocation fail
+memory allocation fail
+fail decode args
+mount state not present
+fail get remote name
+mount state not present
+memory allocation fail
+memory allocation fail
+memory allocation fail
+memory allocation fail
+memory allocation fail
+mount state not find
+auth nfs export dir verification fail
+unknown mount type
+memory allocation fail
+invalid hostname or ipv address
+memory allocation fail
+export path null
+memory allocation fail
+memory allocation fail
+memory allocation fail
+fail parse auth param
+memory allocation fail
+fail set the export name
+fail init dir export
+snprintf fail
+fail read option
+dvm on but volume id not give for volume
+fail parse volume uuid
+snprintf fail
+fail read option
+dir export setup fail for volume
+fail read option nfs  export volumes
+fail convert string boolean
+fail read option nfs  export dirs
+fail convert string boolean
+volume init fail
+memory allocation fail
+option init fail
+fail allocate mount state
+client ip hostname not authorize for mount unmounting
+fail set export auth params
+fail set netgroup auth params
+fail init mount auth params
+fail set export auth params
+fail set netgroup auth params
+mount state init fail
+fail setup mount dict allocation error
+dict allocation fail
+dict set str error
+dict set str error
+dict set str error
+unable create listener
+mount state init fail
+dict allocation fail
+dict set str error
+dict set str error
+dict set str error
+unable create listener
+option reconfigure fail
+nfsv state miss from rpc request
+bad handle
+fail map fh vol client exportid gfid
+stale nfs client must be try connect delete volume please unmount it
+volume disabled
+unable resolve fh
+fail init call state
+mount state not find
+fail get iobuf
+fail encode message
+fail get iobref
+fail add iob iobref
+reply submission fail
+get null request
+invalid argument frame  local null
+fail get user acl
+invalid argument frame  local null
+fail get default acl
+invalid argument frame  local null
+unable open and resume
+error decode args
+unable resolve resume
+dict allocation fail
+unable open and resume
+error decode args
+fail set user acl
+fail set default acl
+unable resolve resume
+acl init fail
+dict allocation fail
+dict set str error
+dict set str error
+dict set str error
+dict set str error
+unable create listener
+fail get the quota status
+glusterd
+fail stop brick
+fail start
+fail write volinfo for volume
+fail connect
+glusterd fail get gfproxyd object from gfproxyd service
+glusterd fail get volinfo from from gfproxyd
+glusterd unable allocate memory
+glusterd event generation failed
+glusterd unable inject event ret
+glusterd event generation failed
+glusterd unable allocate memory
+glusterd unable inject event ret
+fail generate transaction id
+fail set originator uuid
+unable acquire lock on localhost ret
+unable acquire lock for
+unable set transaction opinfo
+fail acquire cluster lock
+unable release lock for
+fail decode lock request receive from peer
+unable set new dict
+unable set transaction opinfo
+fail inject event gd op event lock
+fail decode stage request receive from peer
+fail create req ctx
+unable set transaction opinfo
+fail inject event gd op event stage op
+fail decode commit request receive from peer
+xdr decode error
+fail unserialize req buffer dictionary
+fail get hostname
+fail get port
+fail decode request receive from cli
+fail unserialize req buffer dictionary
+fail get hostname
+fail get port
+fail get flag
+glusterd fail decode request receive from cli
+glusterd fail unserialize req buffer dictionary
+fail decode request receive from cli
+fail unserialize req buffer dictionary
+fail get flag
+fail decode request receive from cli
+fail unserialize req buffer dictionary
+fail decode request receive from cli
+glusterd fail unserialize req buffer dictionary
+fail set uuid in dictionary
+fail unserialize req buffer dictionary
+fail unserialize req buffer dictionary
+fail unserialize req buffer dictionary
+fail decode request receive from cli
+fail unserialize req buffer dictionary
+fail decode request receive from client
+fail decode unlock request receive from peer
+no memory
+glusterd fail decode request receive from friend
+glusterd fail decode request received
+glusterd unable get the remote hostname
+couldn add address the peer info
+fail decode request receive
+glusterd fail unserialize req buffer dictionary
+could not create peerinfo from dict for prefix
+fail update peer
+fail store peerinfo
+fail decode probe request
+peer uuid same local uuid please check the uuid both the peer from
+glusterd unable get the remote hostname
+glusterd fail add peer
+fail decode request receive from cli
+glusterd fail decode mount request receive
+glusterd fail unserialize req buffer dictionary
+fail decode umount request
+glusterd fail set frame timeout
+glusterd fail set ssl enabled in dict
+fail create rpc for peer
+fail store peerinfo
+fail store peerinfo
+glusterd unable get new event
+glusterd unable inject event ret
+fail get command string
+fail get command string
+glusterd out memory
+fail decode request receive from cli
+fail unserialize buffer
+fail decode request receive from cli
+fail unserialize req buffer dictionary
+empty cli request
+invalid brickid
+fail decode request receive from cli
+fail unserialize request dictionary
+volname not present in dict
+fail set in dictionary
+fail get in dictionary
+fail set in dictionary
+fail set warn message in dictionary
+fail set in dictionary
+fail set value for key in dictionary
+fail set in dictionary
+fail set value for key in dictionary
+fail set in dictionary
+fail set value for key in dictionary
+fail set in dictionary
+fail set in dictionary
+fail set count value in the dictionary
+fail unserialize req buffer dictionary
+fail get status for snapshot
+unable allocate memory
+fail retrieve rpc object
+unable allocate memory
+couldn get client count
+fail get client hostname
+fail get bytesread from client
+fail get byteswrite from client
+fail get client opversion
+unable get the output path
+unable set output path
+fail fetch the value all volume option for volume
+fail get type for volume
+fail get status for volume
+fail get transport type for volume
+fail get quorum status for volume
+fail get rebalance status for volume
+statfs error
+fail get client detail
+fail unserialize req buffer dictionary
+fail get volinfo from brickid
+unable stop
+fail get volinfo from brickid
+glusterd unable create event for remove peer
+glusterd handshake fail
+fail unserialize req buffer dictionary
+fail get force flag
+fail set username for volume
+fail set password for volume
+fail unserialize req buffer dictionary
+fail unserialize req buffer dictionary
+fail unserialize req buffer dictionary
+fail unserialize req buffer dictionary
+fail unserialize req buffer dictionary
+unable get volume name
+unable get brick count for volume
+unable get volume id volume
+unable parse volume id volume
+unable get brick for volume
+brick check could not retrieve replica count
+brick check could not retrieve disperse count
+not create the volume because bad brick order
+fail get brick mount dir
+fail set
+fail set local brick count
+fail get brick mount dir
+fail set
+fail set local brick count
+unable get volume name
+glusterd unable get volume name
+unable allocate memory for volinfo
+unable get volume name
+unable get type volume
+unable get brick count volume
+unable get port
+unable get brick for volume
+fail set performance client io threads off
+fail get replica count for volume
+unable get thin arbiter brick for volume
+fail get disperse count for volume
+fail get redundancy count for volume
+disperse volume need op version or higher
+unable get transport type volume
+unable get volume id volume
+unable parse uuid volume
+unable get internal username volume
+unable get internal password volume
+not present
+fail set default option on create for volume
+fail store volinfo volume
+not present
+fail set nfs disable for volume
+fail stop brick
+fail store volinfo volume
+fail notify graph change for volume
+fail stop volume
+unable get volume name
+unable create logdir
+fail create volfile
+fail init gfproxyd service
+fail read volume option
+couldn stop gfproxyd for volume
+couldn create gfroxyd volfile for volume
+couldn stop gfproxyd for volume
+couldn start gfproxyd for volume
+couldn stop gfproxyd for volume
+couldn create gfproxyd volfile for volume
+couldn resolve gfproxyd for vol on restart
+fail init nfs service
+unable kill service reason
+unable kill pid reason
+fail unserialize req buffer dictionary
+unable get volume name while handle quota command
+unable get type cmd while handle quota command
+glusterd fail get the quota status
+fail generate client volume file
+fail create dir
+fail create dir
+fail set default soft limit into dict
+dict set fail
+dict set fail
+dict set fail
+set quota deem statfs in volinfo fail
+dict set fail
+dict set fail
+quota conf corrupt
+write into quota conf failed
+fail rename quota conf file
+fail compute cksum for quota conf file
+fail store quota version cksum
+quota conf corrupt
+write into quota conf failed
+write into quota conf failed
+write into quota conf failed
+fail compute cksum for quota conf file
+fail store quota version cksum
+unable fetch path
+unable fetch hard limit
+unable fetch soft limit
+fail get gfid path
+unable fetch path
+fail get gfid path
+option value absent
+fail set option
+unable get volume name
+unable re create volfiles
+fail store volinfo for volume
+fail get path
+fail place gfid in dict
+fail set count
+unknown option
+value not find for key
+fail create auxiliary mount directory
+fail mount glusterfs client please check the log file for more detail
+unable get volume name
+fail get hard limit from dict
+fail convert hard limit string value
+fail open dir
+fail add command specific argument
+glusterd cannot parse mount pattern
+mountbroker spec mismatch set component review the mount args pas
+option mountbroker root miss in glusterd vol file
+label null
+miss mspec check the correspond option in glusterd vol file for mountbroker user
+dict get fail for the key volname
+either volume not start or volinfo not find
+mountbroker user directory creation fail
+stat on mountbroker user directory fail
+incorrect mountbroker user directory attribute
+mountbroker mount directory creation fail
+mountbroker cookie file creation fail
+symlink or rename fail
+fail get the service
+fail set count in dictionary
+invalid operation
+could not find peerd
+could not remove stale peerinfo with name
+couldn add hostname peer list
+glusterd unable get event
+glusterd error
+glusterd receive friend add response from unknown peer uuid
+glusterd unable get event
+unable get glusterd probe context
+glusterd error
+glusterd unable get event
+fail serialize friend update response
+lock response not receive from one the peer
+fail decode cluster lock response receive from peer
+receive lock rjt from uuid
+unable set transaction opinfo
+lock response not receive from one the peer
+fail decode mgmt lock response receive from peer
+receive mgmt lock rjt from uuid
+unable set transaction opinfo
+unlock response not receive from one the peer
+fail decode mgmt unlock response receive from peer
+receive mgmt unlock rjt from uuid
+unable set transaction opinfo
+unlock response not receive from one the peer
+fail decode unlock response receive from peer
+receive unlock rjt from uuid
+unable set transaction opinfo
+fail decode stage response receive from peer
+fail unserialize rsp buffer dictionary
+receive stage rjt from uuid
+unable set transaction opinfo
+fail decode commit response receive from peer
+fail unserialize rsp buffer dictionary
+receive commit rjt from uuid
+fail get txn op info for txn id
+unable set transaction opinfo
+could not find peer
+unable add hostname the peer
+unable add list miss snapshot in the peer data dict for handshake
+unable add list snapshot in the peer data dict for handshake
+unable add list volume in the peer data dict for handshake
+could not find peer
+fail get transaction id
+fail get transaction id
+fail get transaction id
+fail get transaction id
+fail decode brick op response receive
+fail unserialize rsp buffer dictionary
+error set index on brick status rsp dict
+fail select brick while perform brick op during volume
+fail build op payload during volume
+brick op fail due rpc failure
+unable set transaction opinfo
+unable create logdir
+fail initialize snapd service for volume
+fail read volume option
+couldn stop snapd for volume
+couldn create snapd volfile for volume
+couldn start snapd for volume
+couldn stop snapd for volume
+fail get snapd object from snapd service
+fail get volinfo from from snapd
+couldn create snapd volfile for volume
+all the port in the range be exhausted can start snapd for volume
+couldn resolve snapd for vol on restart
+fail get the service
+fail get the snapd object
+fail get the volinfo object
+fail create volfile
+fail init bitd service
+fail unserialize req buffer dictionary
+fail unserialize req buffer dictionary
+fail unserialize req buffer dictionary
+error in copy secondary
+error in parse secondary
+spawn child fail
+read data from child fail
+spawn child fail
+read data from child fail
+template config file missing
+unable allocate memory
+unable set dict
+spawn child fail
+unable spawn gsyncd
+error in copy secondary
+error in parse secondary
+unable fetch secondary details error
+unable fetch secondary details
+invalid secondary in dict
+secondary info become null
+error in copy secondary
+error in parse secondary
+unable fetch secondary details error
+unable fetch secondary details
+unable get remote volume uuid secondaryhost secondaryvol
+error in set dict value new value
+error in update volinfo
+error in store volinfo
+have already be invoke for the primary secondary from different machine
+get secondary idx secondary voluuid failed
+statefile
+not able create dict
+unable get configuration data for primary secondary
+unable get state file name for primary secondary please check gsync config file
+unable read the status file for primary secondary
+priv glusterd not present
+unable fetch secondary details error
+unable fetch secondary details
+unable assign conf path
+get secondary satus fail
+stop validation fail for
+priv glusterd not present
+unable fetch secondary or confpath details
+op version not supported
+unable get command from dict
+priv glusterd not present
+op version not supported
+unable fetch host uuid from dict
+unable fetch filename from dict
+unable create new dict
+template config file missing
+unable get configuration data for primary secondary try template config
+unable get configuration data for primary secondary from template config
+unable get state file name try template config
+unable get state file name from template
+priv glusterd not present
+create status file failed
+invalid secondary url
+not valid secondary
+unable read from
+secondary info format wrong
+invalid secondary host format
+invalid secondary user length in
+invalid secondary host
+unable fetch argument
+op version not supported
+unable fetch secondary or confpath details
+not valid secondary volume error
+unable store statefile path
+unable set secondary volume uuid in the dict
+session between already created cannot create with new secondary again
+unable allocate memory
+unable set old secondaryhost in the dict
+unable set existing session in the dict
+unable fetch secondary or confpath details
+state file entry miss in config file
+unable store statefile path
+statefile
+glusterd unable open dev fuse geo replication start fail
+gsyncd not run
+pause resume failed unable fetch statefile path
+pause resume failed unable read status file for primary primary
+fail pause gsyncd error
+unable update state file error
+resume back failed error
+resume failed unable update state file error
+resume failed unable send sigcont error
+update status back pause failed error
+gsyncd not run
+not able create dict
+unable get configuration data for primary secondary
+unable get op value for primary secondary please check gsync config file
+priv glusterd not present
+unable fetch conf file path
+unable fetch secondary host
+unable fetch secondary volume name
+unable create error
+unable read gsyncd status file
+status file gsyncd empty
+status file gsyncd corrupt
+unable get configuration data for primary secondary
+unable get state file name for primary secondary please check gsync config file
+unable get geo rep session work directory name for primary secondary please check gsync config file
+unable get socket file name for primary secondary please check gsync config file
+not able create dict
+template config file missing
+unable fetch config value for primary secondary try default config template
+unable fetch config value for primary secondary
+unable read the status file for primary secondary statefile
+out memory
+unable get status data for primary secondary brick
+unable set key value running in dict but the config succeeded
+unable create volfile for set marker while start
+fail get key from volinfo
+unable fetch conf file path
+priv glusterd not present
+unable fetch conf file path
+gsyncd fail delete session info for peer
+unable delete geo rep dir error
+priv glusterd not present
+unable get command from dict
+unable calloc errno
+unable get in dict
+gf strdup failed
+output set failed
+output count set failed
+priv glusterd not present
+unable fetch filename from dict
+unable fetch secondary url
+unable fetch secondary hostname
+unable fetch secondary volume name
+unable fetch conf file path
+unable store conf file path
+unable set key value running in the dict
+error in update secondary volume uuid for old secondary info
+pause fail
+unable set key value running in dict
+resume fail
+unable update state file error
+unable fetch secondary from dict
+unable fetch secondary details
+unable store secondary ip
+unable store secondary hostname
+unable store secondary volume name
+unable gf strdup error
+unable store conf path
+fail normalize url
+invalid secondary url
+fail gf strdup
+invalid secondary name
+fail gf strdup
+invalid secondary name
+glusterd module not work desire
+glusterd module not work desire
+glusterd module not work desire
+volinfo for primary not find
+invalid secondary url
+fail gf strdup
+fail set hooks args in dict
+glusterd fail set peerinfo
+glusterd receive event
+could not find peer
+glusterd unable get new new event
+glusterd unable inject new event ret
+could not find peer
+glusterd fail set peerinfo
+could not find peer
+glusterd unable get event
+could not find peer
+glusterd fail set peerinfo
+could not find peer
+fail set peerinfo
+fail stop snapd daemon service
+fail stop shd daemon service
+fail stop gfproxyd daemon service
+error delete snapshot for volume
+error delete stale volume
+fail reconfigure all daemon services
+could not find peer
+cleanup returned
+could not find peer
+fail import peer missed snaps list
+conflict in compare peer snapshot
+out memory
+glusterd handler returned
+glusterd unable transition state from for event
+glusterd cannot find peer
+fail store peerinfo
+key or uuid null
+unable get locked count
+fail release lock for
+unable get count
+fail acquire lock for on behalf reverse transaction
+fail release multiple lock
+unable fetch sname
+fail release lock for on behalf
+fail release all lock
+unable fetch sname
+fail acquire lock for on behalf
+fail acquire all lock
+unable unlock all
+unable lock all
+unable unlock all
+name or type null
+unable create key
+unable set lock owner in mgmt lock
+unable set timer in mgmt lock
+unable create backtrace key
+unable get lock owner in mgmt lock
+name null
+unable create key
+unable get mgmt lock key in mgmt lock
+unable create backtrace key
+fail create directory
+unix option build fail
+glusterd rpc creation fail
+glusterd receive rebalance on invalid volname
+glusterd volume not distribute type or contain only brick
+glusterd receive rebalance on stop volname
+fail unserialize req buffer dictionary
+incorrect brick for volume
+incorrect brick for volume
+fail set task id for volume
+fail generate task id
+fail get command string
+fail get op ctx
+fail generate task id
+fail get command string
+fail get op ctx
+fail set task id
+fail get volname
+volname receive not prefix with rebalance
+fail get volinfo for
+fail update status
+fail acquire mgmt lock for
+unable set transaction opinfo
+fail inject event gd op event lock
+fail decode lock request receive from peer
+fail acquire mgmt    locks
+fail acquire mgmt    locks
+fail decode pre validation request receive from peer
+pre validation fail on operation
+fail send pre validation response for operation
+fail decode brick op request receive from peer
+brick op fail on operation
+fail send brick op response for operation
+fail decode commit request receive from peer
+commit fail on operation
+fail send commit response for operation
+fail decode post commit request receive from peer
+post commit fail on operation
+fail send post commit response for operation
+fail decode post validation request receive from peer
+post validation fail on operation
+fail send post validation response for operation
+fail release mgmt lock for
+fail inject event gd op event unlock
+fail decode unlock request receive from peer
+fail release mgmt    locks
+fail release mgmt    locks
+couldn open the file
+parse fail at key
+could not nfs ganesha service manager for distro not recognized
+glusterd ganesha unable get volume name
+glusterd ganesha handle nfs ganesha op failed
+value not present
+could not start nfs ganesha
+couldn get key in global option set
+couldn get value in global option set
+initial nfs ganesha set fail
+fail store option
+unable get volume name
+invalid value
+fail create export file for nfs ganesha
+fail unserialize req buffer dictionary
+unable get volume name while handle bitrot command
+unable get type cmd while handle bitrot command
+fail get scrub value
+fail get scrub value
+unable fetch scrub throttle value
+fail set option
+fail reconfigure scrub service
+unable fetch scrub freq value
+fail set option
+fail reconfigure scrub service
+unable fetch scrub value
+fail set option
+fail reconfigure scrub service
+unable get bitrot expiry timer value
+fail set option
+fail reconfigure bitrot service
+unable get bitrot signer thread count
+fail set option
+fail reconfigure bitrot service
+dict set fail
+fail set option features scrub value
+dict set fail
+fail set features scrub value
+unable get volume name
+unable get type from dict
+unable re create volfiles
+unable get volume name
+unable get type for operation
+unable get scrub value
+unable create logdir
+fail create volfile
+glusterd fail get shd object from shd service
+glusterd fail get volinfo from from shd
+fail init shd service
+glusterd fail get shd object from shd service
+glusterd fail get volinfo from from shd
+glusterd fail attach shd svc volume pid
+couldn start shd for vol on restart
+glusterd fail get shd object from shd service
+glusterd fail get volinfo from from shd
+shd service fail detach volume from pid
+glusterd out memory cannot link xlators
+glusterd fail add graph entry
+glusterd fail set xlator opt
+glusterd out memory
+glusterd value for option not valid
+out memory
+some error occur during keyword hint
+not global option
+unknown transport type
+glusterd fail run filter
+file creation fail
+fclose on the file fail
+fail create volfile
+glusterd fail get auth path from server graph
+read only worm cannot be set together
+read only worm cannot be set together
+glusterd builing graph fail for server graph table entry
+glusterd could not get both translator name loglevel for log level request
+glusterd could not end an xmlelement
+glusterd could not end an xmldocument
+glusterd error create the xml buffer
+glusterd error create the xml writer
+glusterd error while start the xmldoc
+glusterd could not create an xmlelement
+glusterd could not create an xmlelemetnt
+glusterd could not create an xmlelemetnt
+glusterd could not create an xmlelemetnt
+glusterd could not create an xmlelemetnt
+glusterd could not end an xmlelemetnt
+glusterd wrong entry find in glusterd volopt map entry
+glusterd volume inconsistency brick count
+glusterd volume inconsistency total number brick not divisible with number brick per cluster in multi cluster setup
+glusterd volume inconsistency actual number brick differ from brick count
+fail link the snapview client distribute
+fail link the snapview client snapview server
+glusterd fail get remote host from client
+glusterd fail get remote host from client
+nufa switch cannot be set together
+glusterd volume inconsistency unrecognized cluster type
+fail add read only feature the graph snapshot with origin volume
+glusterd out memory
+glusterd out memory
+glusterd out memory
+glusterd out memory
+fail create
+unable set atime mtime
+fail unlink
+receive invalid transport type
+receive invalid transport type
+fail create rebalance volfile for
+glusterd could not get both translator name loglevel for log level request
+could not generate volfiles for brick
+could not generate trust client volfiles
+could not generate client volfiles
+glusterd fail delete file
+fail set volume name
+invalid path
+invalid path
+fail fetch snap
+invalid volname
+fail fetch snap volume from volname
+fail fetch snap volume from parent volname
+couldn find volinfo
+couldn find volinfo for volid
+couldn set pidfile in dict for volid
+fail get snap volinfo from path
+couldn find volinfo
+strdup fail
+couldn find volinfo
+fail get volinfo path
+fail unserialize request dictionary
+glusterd fail get client min op version
+glusterd fail get client max op version
+unable find the snap with snap uuid
+unable find the snap vol for snap
+the snap status the miss brick not pending
+get device name for the brick fail
+cannot copy the snapshot device name volname snapname
+cannot copy the device path device path
+fail update mount option for brick
+fail take snapshot
+fail update file system label for brick
+fail create mount the brick for the snap
+fail store snapshot volinfo for snap
+fail create miss snap for
+fail update missed snaps list
+fail decode the message
+volume name too long
+peerinfo  volname truncate or error occurred ret
+fail get args from dict
+fail get the peername
+fail set peer host in dict
+glusterd unable stat
+glusterd unable open
+fail take miss brick snapshot
+fail mount the volume
+glusterd fail unserialize req
+glusterd unknown op receive in event notify
+operate version more than the maximum support on the machine as per peer request from
+cannot reduce operate version from current version volume exist as per peer request from
+request from peer have an entry in peerinfo but uuid do not match
+reject management handshake request from unknown peer
+fail store op version
+glusterd fail decode management handshake response
+glusterd fail unserialize dictionary
+glusterd fail retrieve volname
+glusterd error get snapshot volume name uuids
+glusterd unable get new event
+glusterd memory not available
+could not find peer
+glusterd unable inject event connected ret
+fail get the versions from peer
+fail validate the operate version peer
+fail set operate version in dict
+fail set peer id in dict
+fail unserialize req buffer dictionary
+glusterd unable get volume name
+glusterd
+glusterd volname not find
+glusterd rotate key not find
+glusterd cannot get brickinfo from brick
+glusterd unable open pidfile
+glusterd unable read pidfile
+glusterd unable sighup
+fail get brick mount dir
+fail set brick mount dir
+fail set local brick count
+unable get volume name
+unable get src brick
+unable get dst brick
+unable get reset brick destination brickinfo
+unable stop gluster services ret
+couldn store reset brick operation state
+unable get lock for uuid lock hold by
+cluster lock not held
+cluster lock hold by unlock req from
+unable clear cluster lock
+glusterd fail get iobuf
+glusterd fail encode message
+glusterd out memory
+glusterd fail serialize reply
+glusterd reply submission fail
+not able create the duplicate volinfo for the volume
+fail canonicalize brick path
+unable generate brick id
+fail convert hostname uuid
+fail convert hostname uuid
+unable kill service reason
+unable kill pid reason
+unable kill service reason
+unable find pid must be dead already ignoring
+unable kill pid reason
+fail create rundir
+all the port in the range be exhausted can start brick for volume
+all rdma port in the range be exhausted can start brick for volume
+fail create new brick process instance
+fail connect brick on
+fail create new brick process instance
+fail send detach request for brick
+fail kill the brick
+unable open errno
+could not generate temp file reason for volume
+sort info file fail
+unable get checksum for path
+unable get checksum for path
+unable get checksum for path
+glusterd fail compute checksum for volume
+glusterd option add for
+glusterd option add for
+glusterd le than count data pair found
+glusterd pair  key null
+glusterd pair  value null
+version cksums differ local cksum remote cksum on peer
+cksums quota configuration volume differ local cksum remote cksum on peer
+glusterd
+glusterd
+glusterd
+glusterd
+fail compute checksum
+fail save quota version checksum
+glusterd fail import snapshot detail for volume
+glusterd only one volume op version find
+glusterd
+glusterd fail disconnect
+glusterd fail stop brick
+fail store volinfo for volume
+fail import global option
+import global option fail
+glusterd out memory
+fail remove error
+glusterd de register mountv unsuccessful
+glusterd de register mountv unsuccessful
+glusterd de register nfsv unsuccessful
+glusterd de registration nlm fail
+glusterd de registration nlm fail
+glusterd de registration acl fail
+fail get volinfo from brick so pidfile copying unlink will fail
+fail get volinfo from brick so pidfile copying unlink will fail
+could not copy file
+fail store volinfo volume
+unable set cluster brick graceful cleanup key
+add brick brick process fail
+add brick brick process failed
+unable start brick
+fail write volinfo for volume
+fail write volinfo for volume
+unable fetch secondary details
+unable read the status
+unable set key value running in the dict
+unable create status file error
+realpath fail for path
+fail get mount point for brick
+fail get mnt entry for mount path
+statfs error
+fail get all volume name for status
+glusterd replace brick src brick differ
+glusterd replace brick dst brick differ
+glusterd could not allocate memory
+glusterd could not allocate memory
+glusterd could not allocate memory
+glusterd fail regenerate brick volfiles for
+glusterd fail regenerate trust client volfiles for
+glusterd fail regenerate client volfiles for
+glusterd both upgrade downgrade option be set only one should be on
+glusterd cannot resolve brick
+glusterd unable open pidfile
+glusterd unable get pid brick process
+glusterd error while parse the statedump option
+glusterd unable open pidfile
+glusterd unable get pid brick process
+glusterd error while parse the statedump option
+unable open pidfile
+unable get pid quotad process
+error while parse statedump option
+fail stop snapd daemon service
+fail stop shd daemon service
+error delete stale volume
+fail reconfigure all daemon services
+fail initialize defrag not start rebalance process for
+unknown defrag status not start rebalance process for
+fail generate task id
+fail get volume id for volume
+fail parse volume id for volume
+volume id volume be different possibly split brain among peers
+fopen on file fail
+fopen on file fail
+stat on file fail
+stat on file fail
+libxml not present in the system
+fail get command string
+glusterd out memory
+fail set
+glusterd operation context not present
+glusterd unable store conf path
+glusterd operation context not present
+fail aggregate brick mount dirs
+operation context not present
+glusterd unable set key in dict
+fail get remote task count
+fail copy task ctx dict
+local task count remote task count do not match not aggregate task status
+fail get task typpe from rsp dict
+fail get task status from rsp dict
+fail get task id from rsp dict
+fail get local task id
+could not find match local task for task
+fail get local task status
+fail update task status
+maximum support op version not set in destination dictionary
+fail get maximum support op version from source
+fail set max op version
+unable get volume name
+unable find volinfo for volume
+fail get count value
+fail set count in dictonary
+fail set bitrot log file location
+fail set scrubber log file location
+unable get volume name
+unable find volinfo for volume
+fail set count
+fail set node uuid
+operation context not present
+glusterd unable get volume name
+glusterd fail get index from rsp dict
+glusterd fail set count
+glusterd source or destination dict empty
+glusterd unable fetch
+glusterd unable set
+fail get quota opcode
+fail get the count gfids from the rsp dict
+fail get gfid from rsp dict
+fail set gfid from rsp dict into req dict
+fail set aggregate count in req dict
+glusterd unable get volume name
+glusterd unable get heal op
+couldn get node index
+couldn get node index
+couldn set fuse count
+couldn set gfapi count
+couldn set rebalance count
+couldn set glustershd count
+couldn set quotad count
+couldn set snapd count
+fail set file count
+fail set size xfer
+fail set lookedup file count
+fail set status
+fail set failure count
+fail set skip count
+fail set run time
+glusterd unable get volume name
+unable get the cmd
+fail set count
+fail set node uuid
+fail set time leave
+glusterd fail set originator uuid
+fail set in dict
+error set uuid in dict with key
+fail get opcode
+fail get quota opcode
+fail get path
+fail get count
+fail get key
+fail get key
+fail set gfid
+fail iterate through entry in the req dict
+umount on failed reason
+fail set option on volume
+fail set option features quota deem statfs on volume
+fail set transport address family on
+fail set option storage fips mode rchecksum on volume
+fail set option cluster granular entry heal on volume
+get the root the brick fail
+get the mount entry for the brick fail
+fail get key from volume option entry
+xlator volopt dynload error
+fail get max opversion value from dictionary
+fail set in dictionary
+fail set for key in dictionary
+fail get option key from dictionary
+fail set in dictionary
+fail set for key in dictionary
+fail set count in dictionary
+fail set in dictionary
+fail set for key in dictionary
+fail set count in dictionary
+glusterd libxml not present
+glusterd libxml not present
+glusterd libxml not present
+client run with min op version max op version don support the require op version
+unable get volume name
+unable open dev fuse command fail
+unable get src brick
+unable get dest brick
+dst brick not form
+return add value dict fail
+fail allocate memory
+fail allocate memory
+unable get volume name
+unable find volume
+unable resolve host name for addr
+fail allocate memory
+brick check could not retrieve brick list
+brick check could not retrieve brick count
+unable resolve host name for addr
+fail allocate memory
+fail bad brick order check
+unable find volume
+unable set new auth allow list
+unable set old auth allow list
+unable find volume
+unable replace auth allow list
+fail init shd service
+glusterd fail get shd object from shd service
+glusterd fail get volinfo from from shd
+iov null
+xdr decode error
+svc volume fail attach pid
+glusterd call with null rpc
+unable stat
+read fail on path file size read size
+fail set pidfile in dict
+glusterd delete peer info fail
+error in getaddrinfo
+fail set key in dict
+fail set key in dict
+fail set key in dict
+fail set key in dict
+key not present in dictionary
+could not add address peer
+key not present in dictionary
+key not present in dictionary
+could not add address peer
+could not create peerinfo object
+key not present in dictionary
+fail save snap detils brick
+fail store the snapd port volume
+fail create the temporary file for the snapd store handle volume
+fail write snapd port info store handle volume
+fail create store handle for snapd volume
+fail store snapd info the volume
+fail write snap detail for volume
+unable write volume value for
+fail create snap dir
+couldn rename temporary file
+couldn rename temporary file
+fail create snap dir
+fail create snap info file
+fail write snap info
+fail do automic update
+fail create trash directory
+fail rename volume directory for volume
+fail create trash directory
+fail rename snap directory
+unable get store handle
+chmod error for
+fail store glusterd global info
+unable get store handle
+chmod error for
+store op version fail ret
+fail store max op version
+wrong op version retrieve
+volinfo handle null
+fail get new store iter
+fail get next store iter
+fail destroy store iter
+glusterd unable iterate the store for brick
+glusterd brick hostname truncated
+glusterd brick path truncated
+glusterd real path truncated
+fail convert string integer
+fail convert string integer
+fail convert string integer
+glusterd device path truncated
+glusterd mount dir truncated
+fail convert string integer
+glusterd fstype truncated
+glusterd mnt opts truncated
+glusterd brickinfo  vg truncated
+glusterd brick id truncated
+not valid uint value
+unknown key
+error parse brickinfo op errno
+fail destroy store iter
+glusterd unable iterate the store for brick
+glusterd brick hostname truncated
+glusterd brick path truncated
+glusterd real path truncated
+fail convert string integer
+fail convert string integer
+fail convert string integer
+glusterd brick id truncated
+not valid uint value
+fail convert string integer
+unknown key
+fail destroy store iter
+fail destroy store iter
+fail strdup value string
+error set data in rebal dict
+fail destroy store iter
+volinfo handle null
+fail get new store iter
+fail get next store iter
+error in dict set str
+glusterd parent volname truncated
+error in dict set str
+fail destroy store iter
+fail update volinfo for volume
+parent volinfo not find for volume
+unable open dir
+fail stat entry
+unable restore volume
+invalid brick path
+fail activate
+fail mount lvm snapshot
+fail find brick mount path for
+fail create
+brick path not valid
+fail mount brick mount path
+resolve brick fail in restore
+snap handle null
+fail get new store iter
+fail get next store iter
+fail destroy store iter
+fail create snap object
+fail update snapshot for snap
+fail retrieve snap volume for snap
+fail open
+fail fetch data from missed snaps list
+invalid missed snap entry
+fail store miss snaps list
+unable open dir
+unable restore snapshot
+fail write miss snapinfo
+unable obtain missed snaps list store handle
+fail create tmp file
+fail write miss snap disk
+fail rename the tmp file
+fail unlink the tmp file
+unable open dir
+could not add address peer
+unknown key
+fail recreate brick mount for
+fail recreate brick mount for
+fail create dict
+fail remove the snapshot
+glusterd fail resolve brick with host volume in restore
+resolve the snap brick fail for snap
+fail perform cleanup the snapshot
+fail recreate all snap brick mount
+unable get store handle for
+fail store quota cksum version
+unable create rundir
+volfile not present
+fail get the service
+fail get the svc proc data
+fail get the service
+replace brick commit failed
+add brick commit failed
+volume start commit failed
+volume stop commit failed
+remove brick commit failed
+reset brick commit failed
+commit failed
+commit fail for volume profile operation
+rebalance commit fail
+add brick post commit failed
+replace brick post commit failed
+glusterd unable get volume name
+glusterd unable allocate memory
+glusterd unable get volume name
+glusterd unable allocate memory
+glusterd unable get volume name
+glusterd unable allocate memory
+fail acquire mgmt lock on localhost
+fail aggregate prevalidate response dictionaries
+fail aggregate prevalidate response dictionaries
+fail aggregate brick mount dirs
+fail aggregate prevalidate response dictionaries
+invalid op
+fail aggregate response from node brick
+fail create response dictionary
+server quorum not met reject operation
+pre validation fail for operation on local node
+fail aggregate response from node brick
+pre validation fail on peer
+fail aggregate response from node brick
+fail create response dictionary
+brick ops fail for operation on local node
+brick ops fail on peer
+fail aggregate response from node brick
+fail create response dictionary
+commit fail for operation on local node
+fail aggregate response from node brick
+commit fail on peer
+fail aggregate response from node brick
+fail create response dictionary
+post commit fail for operation on local node
+fail aggregate response from node brick
+post commit fail on peer
+fail create response dictionary
+post validation fail for operation on local node
+post validation fail on peer
+unlock fail on peer
+fail set originator uuid
+fail set synctasked flag
+unable create dict
+mgmt lockdown failed
+pre validation fail
+commit op fail
+post validation fail
+fail release mgmt lock on localhost
+fail set originator uuid
+fail set synctasked flag
+unable create dict
+mgmt lockdown failed
+pre validation fail
+commit op fail
+post commit op fail
+post validation fail
+fail release mgmt lock on localhost
+volname not present in dict
+volume not find
+fail set barrier op in request dictionary
+fail set barrier op in volume option dict
+fail create volfiles
+fail set originator uuid
+fail set synctasked flag
+unable create dict
+mgmt lockdown failed
+pre validation fail
+fail set operation type in dictionary
+brick ops fail
+fail set dict
+commit op fail
+fail set operation type in dictionary
+brick ops fail
+post validation fail
+fail release mgmt lock on localhost
+glusterd unable generate save new uuid
+unable store the generate uuid
+unable store version
+memory account init fail
+glusterd module not work desire
+glusterd module not work desire
+glusterd module not work desire
+glusterd cannot access mountbroker root directory
+glusterd permission on mountbroker root directory be too liberal
+glusterd error while check mountbroker root ancestor
+glusterd permission on ancestor mountbroker root directory be too liberal
+glusterd fail set mountbroker root directory
+glusterd add smount spec failed label desc
+fail start glusterd unix domain socket listener
+stat fail on exiting errno
+stat fail on exiting errno
+glusterd upgrade option not valid boolean type
+glusterd downgrade option not valid boolean type
+unable create log dir
+stat fail on exiting errno
+fail init rpc
+rpcsvc register notify return
+fail set ssl enabled in dict
+fail get transport type
+fail get total number available tranpsorts
+creation listener fail
+creation listener failed continue with succeed transport
+fail restore op version
+unable set atime mtime
+fail create new brickinfo
+fail dup brickinfo
+fail add miss snapshot info for in the rsp dict
+fail regenerate volfiles
+geo rep marker tstamp timestamp restoration fail
+fail set snap status for
+fail set snap device for
+fail set fstype for
+fail set mnt opts for
+fail set mount dir for
+unable set for volume
+unable set for volume
+unable set for volume
+unable set for volume
+unable set
+unable set missed snap count
+fail add snap volume peer data dict for handshake
+fail add quota conf for snap volume peer data dict for handshake
+unable set host bricks for snap
+unable set volcount for snap
+unable set snapname for snap
+unable set snap id for snap
+unable set description for snap
+unable set time stamp for snap
+unable set snap restored for snap
+unable set snap status for snap
+fail add snap the peer data dict for handshake
+fail set snap count
+miss in payload
+miss in payload
+miss in payload
+miss in payload
+miss in payload
+miss in payload for
+miss in payload for
+miss in payload for
+unable create dict
+fail remove snap
+could not get volinfo
+fail restore snap for
+fail remove lvm backend
+fail perform snapshot restore cleanup for volume
+invalid miss snap entry
+fail perform miss snap op
+fail add miss snap list
+fail perform snap operation
+fail update missed snaps list
+fail get version snap volume
+fail get snap volinfo
+fail store snapshot volinfo for snap
+generate the brick volfiles for the snap fail
+generate the trust client volfiles for the snap fail
+generate the client volfiles for the snap fail
+parent volinfo not find for volume snap
+fail store snap volinfo
+could not create the snap object for snap
+fail create dict
+save the snapshot description fail
+unable get time stamp for snap
+unable get snap restored for snap
+unable get snap status for snap
+unable get volcount for snap
+fail create snap dir
+fail import snap volinfo for snap
+fail generate snap vol file for snap
+fail recreate brick mount for
+fail write volinfo for volume
+fail unmounts for
+fail import quota conf for snap
+unable fetch snapname from peer
+unable fetch snap id from peer
+unable get volcount for snap
+unable fetch host bricks from peer for
+conflict in snapshot with peer
+fail fetch snap count
+fail fetch peername
+unable fetch snapname from peer
+unable fetch snap id from peer
+unable create dict
+snapshot from peer miss on localhost
+fail remove snap
+fail import snap from peer
+fail fetch snap count
+fail compare snapshot with peer
+fail set peername into the dict
+glusterd source or destination dict empty
+glusterd fail get config command type
+glusterd unable set snap max hard limit
+glusterd unable get snap max soft limit
+glusterd unable set snap max soft limit
+glusterd unable get voldisplaycount
+glusterd unable set voldisplaycount
+glusterd unable get
+glusterd unable set
+glusterd unable get
+glusterd unable set
+glusterd unable get
+glusterd unable set
+glusterd unable get
+glusterd unable set
+source or destination dict empty
+unable get the type the snapshot command
+fail get the volume count
+fail get brick order
+fail get the brick status
+fail set the brick status
+source or destination dict empty
+fail merge brick status
+fail get snap uuid
+fail set snap uuid in dict
+fail set soft limit flag
+unable fetch
+unable set
+unable set dst missed snap count
+glusterd source or destination dict empty
+glusterd unable get the type the snapshot command
+glusterd unable use rsp dict
+glusterd unable use rsp dict
+mount the snapshot logical device fail error
+fail get snapname
+fail get the snapshot
+fail get volcount
+fail get clonename
+fail get snap volume for snap
+fail find the volume
+fail get snapname
+fail get the snapshot
+fail get volcount
+fail get volname
+fail get snap volume for snap
+fail find the volume
+unable get the type the snapshot command
+fail find brick mount path for
+umount fail for path brick retry
+umounting fail
+not find
+unable open file
+unble open file
+error read file
+write in file fail with error
+unable open
+could not copy
+fail get value for key
+fail copy in
+not find
+fail copy in
+stat on fail with
+fail copy in
+fail open
+unable fetch volinfo for volname
+fail get geo rep session
+could not copy
+fail copy in
+fail get features uss from dict for volume
+fail set soft limit exceed flag in response dictionary
+fail decode request receive from cli
+fail unserialize req buffer dictionary
+replace brick not permit on distribute only volume
+server quorum not met reject operation
+fail get brick mount dir
+fail set brick mount dir
+fail set local brick count
+fail fetch disk utilization from the brick please check the health the brick error code be
+brick  mount dir not present
+unable get src brick
+unable get dst brick
+unable get volume name
+unable allocate memory
+unable get replace brick destination brickinfo
+unable stop gluster services ret
+couldn store replace brick operation state
+fail set originator uuid
+fail set synctasked flag true
+unable create dict
+mgmt lockdown failed
+pre validation fail
+commit op fail
+fail release mgmt lock on localhost
+device null
+snapname null
+fail get volume group for device
+fail get volume group for snap
+fail add miss snapshot info for in the rsp dict
+create directory fail
+fail allocate memory for regular expression
+fail compile the regular expression
+session file not present in
+could not copy file session
+fail create trash directory reason
+fail rename snap directory
+fail create origin volume directory reason
+fail rename directory
+create directory fail
+fail get geo rep session
+fail copy file relate session
+fail get snap name
+could not get volinfo
+fail set snap uuid in response dictionary for snapshot
+fail set snap uuid in response dictionary for snapshot
+fail set snap uuid in response dictionary for snapshot
+fail find miss snap restore
+fail recreate brick mount for
+fail restore snap for
+fail get snap name
+fail set snap name
+fail get volume count
+fail get volume name
+fail backup volume backend file for volume
+fail set
+fail set
+fail set
+fail set
+fail set
+fail set
+fail set
+snap max hard limit validation failed
+unable set hold vol locks value gf false
+snap max limit display commit failed
+fail send cli response
+unknown config type
+fail get the volume count
+fail get brick order
+fail set
+fail set
+fail set
+unable fetch snap device
+fail set
+fail get the brick status
+fail set the brick status
+source or destination dict empty
+fail get
+fail get
+fail set
+fail get
+fail get
+fail get
+source or destination dict empty
+unable get the type the snapshot command
+unable use rsp dict
+unable use rsp dict
+key prefix null
+fail set
+fail get thin pool name for device
+fail get pool name for device
+fail validate snapname or volume information
+fail set
+fail update mount option for brick
+fail set
+fail set
+fail set
+fail set
+fail add brick status dict
+fail set
+glusterd fail get snap volinfo
+unable fetch snap volid
+fail pre validate
+fail set volcount
+unable get flag
+unable fetch snap volid
+fail pre validate
+fail set volcount
+fail initiate snap lock
+brickinfo null
+umount fail for path brick
+remove snapshot the brick device fail
+fail find brick mount path for
+fail add miss snapshot info for in the rsp dict
+fail remove the snapshot
+invalid brick
+fail rmdir err
+fail remove directory error
+fail get parent volinfo for volume
+fail set volume name in dictionary
+fail set volume id in dictionary
+invalid volume status
+fail set volume status in dictionary
+fail get the parent volinfo for the volume
+fail set available snap
+could not save snapcount
+fail set parent volume name in dictionary
+fail set snap name in dictionary
+fail set snap id in dictionary
+fail set snap time stamp in dictionary
+fail set snap description in dictionary
+invalid snap status
+fail set snap status in dictionary
+fail get volume detail for snap
+fail get volume detail for snap
+fail set
+fail get snapdetail for snap
+fail set snapcount
+fail set available snap
+fail set parent volume name in dictionary
+fail get snapdetail for snap
+fail set snapcount
+fail get type snapshot info
+fail get info all snap
+fail get snap name
+fail set snapcount
+fail get snap detail snap
+fail get volname
+fail get volume info volume
+fail set snap driven
+fail send cli response
+strdup fail
+fail set
+fail set snapcount
+fail set
+fail set snapcount
+fail get snapshot list
+fail get snapshot list for volume
+fail send cli response
+fail get the volume count
+invalid volume count supply
+fail get the snapname
+unable set snap time
+unable update snap name
+out memory
+unable set snap id
+fail get volume name
+fail set snap username for volume
+fail set snap password for volume
+out memory
+unable set snap volid
+unable set snap volname
+fail initiate snap phase
+fail initiate snap phase
+fail get the clone name
+fail set clone name for volume lock
+fail get the snapname
+out memory
+unable set clone id
+fail get snapname name
+fail set clone username for volume
+fail set clone password for volume
+out memory
+unable set clone volid
+unable set snap volname
+fail initiate snap phase
+fail get snapname
+could not set parent volume name in the dict
+could not save volume count
+fail initiate snap phase
+unable fetch snapname
+unable fetch snap id
+unable fetch snap time
+invalid time stamp
+find duplicate snap
+could not create the snap object for snap
+save the snapshot description fail
+fail set missed snap entry in the rsp dict
+fail set missed snap count for in the rsp dict
+get device name for the brick fail
+fail run lvcreate help
+take snapshot the brick device fail
+create the brick directory for the snapshot device fail
+fail mount lvm snapshot
+fail set extend attribute on reason snap
+fail set
+initialize the brick for the snap volume fail snapname
+fail add miss snapshot info for in the rsp dict
+unable fetch snap device leave empty
+fail canonicalize path
+fail change filesystem label brick
+device path empty brick
+fail take snapshot brick
+fail update file system label for brick
+not able create the brick for the snap volume
+glusterd dict set fail
+fail get for snap
+fail get for snap
+unable fetch snap volid
+fail duplicate volinfo for the snapshot
+fail get for snap
+could not add the snap volume the list
+fail copy geo rep config status file for volume
+fail add the snap brick for the snap volume
+fail create export file for nfs ganesha
+dynamic export addition deletion failed please see log file for details clone name
+fail store snapshot volinfo for snap
+fail copy quota config cksum for volume
+fail clear quota option for the snap volume
+generate the brick volfiles for the snap volume fail
+generate the trust client volfiles for the snap volume fail
+generate the client volfiles for the snap volume fail
+fail reset quota option for the snap volume
+fail create export file for nfs ganesha
+dynamic export addition deletion failed please see log file for details clone name
+input parameter null
+get the snap name fail
+unable get flag
+unable fetch snap volinfo
+fail get volume name
+fail get volinfo volume
+fail get snapshot list for volume
+could not save snap name
+could not save snapcount
+fail get snapname
+strdup fail
+fail set volume name in dictionary
+fail set volcount
+fail initiate snap phase
+fail get sub cmd
+fail handle snapshot delete for type snap
+fail handle snapshot delete for type all
+fail handle snapshot delete for type vol
+wrong snapshot delete type
+fail send cli response
+input parameter null
+get the snap name fail
+snapshot do not exist
+fail set snap uuid in response dictionary for snapshot
+input dict null
+could not fetch status cmd
+could not fetch snapname
+snapshot do not exist
+could not fetch volname
+volume not present
+invalid command
+input parameter null
+get the snap name fail
+unable get flag
+snapshot do not exist
+unable fetch snap volinfo
+not able create the brick for the snap volume
+fail activate snap volume the snap
+fail set snap uuid in response dictionary for snapshot
+input parameter null
+get the snap name fail
+snapshot do not exist
+unable fetch snap volinfo
+fail deactivate snap
+fail unmounts for
+fail remove directory error
+fail set snap uuid in response dictionary for snapshot
+input parameter null
+get the snap name fail
+snapshot do not exist
+fail set snap uuid in response dictionary for snapshot
+fail store snap object
+unable fetch snap volinfo
+fail find miss snap delete
+fail remove snap
+strdup fail
+fail set the snapname
+input parameter null
+glusterd unable get volume name
+get the snap name fail volume
+fail add miss snap list
+fail update missed snaps list
+fail take backend snapshot for brick volume
+fail add dict
+fail set
+fail add dict
+fail spawn task for snapshot create
+fail add dict
+fail create snapshot
+unable fetch clonename
+unable fetch clone id
+could not create the snap object for snap
+unable fetch clonename
+out memory
+unable set clonename in rsp dict
+fail get snap name
+fail fetch snap
+glusterd fail get snap volinfo
+create the snap object fail
+fail set volcount
+fail take backend snapshot
+fail set snap uuid in response dictionary for snapshot
+fail get the volume count
+unable fetch snapname
+out memory
+unable set snapname in rsp dict
+create the snap object fail
+fail get volume name
+fail get the volinfo for the volume
+fail check soft limit exceed or not for volume
+fail set volcount
+fail take backend snapshot
+fail set snap uuid in response dictionary for snapshot
+fail store snap volinfo
+unable get flag
+fail activate snap volume the snap
+fail store in the option
+fail store option
+fail get config command type
+snap max hard limit set commit failed
+fail save in the dictionary
+could not save auto delete value in conf  opts
+could not save snap activate on create value in conf  opts
+invalid option
+fail get next global opt version
+fail set next global opt version
+fail store option
+get device name for the brick fail
+could not perform lvs action
+could not save vgname
+could not save data percent
+could not save meta data percent
+unable store brick path
+could not save vgname
+could not save brick status
+could not save brick status
+could not save pid
+could not save vgname
+fail get brick lvm detail
+get single snap status fail
+could not save brick count
+could not save volcount
+could not save snap name
+could not save snap uuid
+could not get single snap status
+could not save volcount
+fail get volinfo volume
+could not save snap name
+fail save snapcount
+could not save snap name
+could not save snapcount
+fail get status cmd type
+could not save status cmd in rsp dictionary
+unable get snapshot status
+unable get snap name
+unable get snap volinfo
+unable get status snap
+unable set snapcount
+unable get volume name
+function glusterd get snap status of volume fail
+fail get the volcount
+fail get the volname
+volinfo for not find
+could not store snap object
+unable fetch clonename
+unable find clone volinfo
+snapshot volume null
+unable fetch snapname
+unable find snap
+fail create snapshot
+fail get volname
+fail get volinfo
+unable get the type the snapshot command
+fail create snapshot
+fail clone snapshot
+snapshot config fail
+fail delete snapshot
+fail get snapname
+fail show snapshot status
+unable get the type the snapshot command
+fail fetch operation type
+fail set barrier value enable in dict
+fail set barrier value disable in dict
+invalid op type
+unable get volname
+unable get the type the snapshot command
+fail lstat backup dir
+fail remove backup dir
+fail remove backup dir
+fail remove directory
+fail rename folder from
+fail load restore volume
+could not get volinfo
+fail revert snapshot restore operation for volume
+get the snap name fail volume
+snapshot do not exist
+fail get volume name
+volume do not exist
+get the snap name fail volume
+snap not find
+fail perform snapshot restore cleanup for volume
+fail remove backup dir
+fail revert restore operation for volume
+could not store snap object for snap
+fail unmounts for
+unable get the type the snapshot command
+fail update miss snap list
+fail update miss snap list
+fail perform snapshot restore post op
+stat fail on exiting errno
+fail unserialize req buffer dictionary
+request dict length
+unknown snapshot request type
+fail create new miss snap object
+fail create miss snapinfo
+fail update exist miss snap entry
+unable fetch
+invalid missed snap entry
+fail store miss snaps list
+could not store snap object for snap volume
+fail stop snap volume
+fail create volinfo
+fail restore snap
+fail restore quota file for snap
+fail store volinfo
+fail get volinfo volume
+fail set snap name in dictionary
+fail set snap id in dictionary
+fail set snap id in dictionary
+fail set snapcount
+fail aggregate brick mount dirs
+could not find peer with id
+could not find peer with id
+fail aggregate response from node brick
+error set index on brick status rsp dict
+fail get opcode
+fail aggregate response from node brick
+fail acquire lock
+fail aggregate response from node brick
+fail validate set gfid
+fail get opcode
+fail aggregate response from node brick
+fail unlock on some peer
+unable release lock for
+brick op failed check glusterd log file for more details
+brick op fail due rpc failure
+fail get volume operation
+fail generate transaction id
+unable set transaction opinfo
+fail set originator uuid
+unable acquire lock
+unable acquire lock for
+unable acquire lock for
+lock peer failed
+unable clear transaction opinfo for transaction id
+dict set fail for set operation
+fail create volfile
+fail init scrub service
+fail set transaction id
+empty transaction id received
+count dict  not set in volume set
+libxml not present in the system
+no option receive
+invalid key value pair in volume set
+option with name do not exist
+fail set key op version in dict
+fail get key op version from dict
+require op version available op version
+fail validate share storage volume option
+fail validate localtime log volume option
+fail validate daemon log level volume option
+unable set the option in volume set
+unable set the option in volume set
+unable set the option in volume set
+unable set the option in volume set
+unable set the option in volume set
+could not create temp volfile some option failed
+fail set new op version in dict
+fail set check op version in dict
+unable get volume name
+unable get option key
+unable get volume name
+glusterd
+glusterd
+fail set default option on reset for volume
+fail set default value for option on reset for volume
+unable create volfile for volume reset
+fail get key
+option do not exist
+unable get volume name
+unable get option key
+volinfo dict inconsistency option not find
+fail start for
+fail set option nfs disable map key on volume
+fail set transport address family on
+invalid key value pair in volume set
+invalid key
+fail set share storage option
+fail set brick multiplexing option
+fail set brick graceful option
+unable create volfile for volume set
+unable restart service
+fail store op version
+set value for max opversion dict fail
+fail set hooks args in dict
+count dict  not set in volume set
+unable get volume name
+unable get new op version from dict
+invalid key value pair in volume set
+invalid value in key value pair
+unable set the option in volume set
+no option receive
+fail store op version
+unable create volfile for volume set
+unable restart service
+unable create volfile for volume set
+unable restart service
+glusterd volume with name not exist
+glusterd fail set the volume option value on
+glusterd fail set the volume option value on
+glusterd volume name get fail
+glusterd volume profile op get fail
+glusterd invalid profile op
+glusterd unable create volfile for volume set
+fail get brick count
+fail set brick count in dict
+unable get
+fail add brick dict
+fail add remove brick dict
+operation doesn have task id
+error set task type in dict
+error set task id in dict
+error set task status in dict
+fail add task detail dict
+error set task count in dict
+fail get all volume name for status
+volume with name do not exist
+unable set transaction opinfo
+fail set peerinfo
+unable set transaction opinfo
+unlock fail for operation volume on peer
+unlock fail for operation volume on peer
+unlock fail for operation volume on peer
+unable set transaction opinfo
+unable set transaction opinfo
+unable acquire volname
+unable acquire lock for
+unable acquire lock for
+unable acquire volname
+unable release lock for
+unable release lock for
+unable set transaction opinfo
+null context for op
+fail get volume operation
+fail set port in dictionary
+status command not present in op ctx
+fail create rsp dict
+localhost
+fail set peerinfo
+unable set transaction opinfo
+error set hostname dict
+fail reset defrag status for fix layout
+localhost
+fail set peerinfo
+unable set transaction opinfo
+unable set transaction opinfo
+unable set transaction opinfo
+unable set transaction opinfo
+unknown response receive
+unable set transaction opinfo
+unable set transaction opinfo
+couldn start replace brick operation
+unable set transaction opinfo
+unable release lock for
+respond cli failed ret
+unable clear transaction opinfo
+fail get new dictionary
+stage fail on operation volume status
+fail set transaction id
+commit operation volume failed
+fail set transaction id
+unable set transaction opinfo
+unknown op
+unknown op
+glusterd unable get volume name
+glusterd unable allocate memory
+glusterd unable get count
+glusterd unable get command
+glusterd unable get brick
+glusterd volume name get fail
+glusterd volume profile op get fail
+nfs server not run
+nfs server not run
+glusterd invalid profile op
+unable get volname
+could not find the replica index for per replica type command
+unable set the dictionary for shd status msg
+unable set dictionary for shd status msg
+receive empty ctx
+unable fill the shd status for the local brick
+receive empty ctx
+unable fill the shd status for the local bricks
+glusterd volume name get fail
+glusterd heal op invalid
+could not determine the translator count
+glusterd volume name get fail
+unable get status type
+unable get volname
+unable get brick
+nfs server not run
+self heal daemon not run
+quotad not run
+bitrot not run
+scrubber not run
+snapd not run
+fail allocate memory for pending node
+unable allocate memory
+unable get volname
+fail get volname
+fail find volume
+unknown response receive
+unable set transaction opinfo
+lock fail due
+handler returned
+unable transition state from
+unable clear transaction opinfo
+unable set transaction opinfo
+fail init quotad service
+fail unserialize req buffer dictionary
+fail get flag
+fail set the replica count in dict
+fail set the new type in dict
+fail unserialize req buffer dictionary
+glusterd fail gf strdup
+glusterd unable store secondary
+glusterd
+glusterd unable fetch secondary or confpath details
+glusterd gsync run validation failed
+glusterd unable restart gsync session
+not present
+fail fetch disk utilization from the brick please check the health the brick error code be
+fail set performance client io threads off
+fail stop shd for
+fail create volfile
+unable stop glusterfs ret
+unable get volume name
+unable find volume
+not add brick because bad brick order
+unable get count
+unable get brick
+add brick unable get brickinfo
+fail get brick mount dir
+fail set
+fail set local brick count
+unable get volume name
+volume do not exist
+unable get brick command
+unable get brick count
+earlier remove brick task exist for volume
+fail generate task id
+glusterd unable get volume name
+glusterd unable allocate memory
+glusterd unable get count
+glusterd unable get brick
+glusterd unable add brick
+unable get volume name
+unable get volume name
+unable allocate memory
+unable get command
+fail set remove brick id
+fail set task id for volume
+unable get volume name
+unable allocate memory
+unable get command
+fail set remove brick id
+glusterd unable get count
+fail save remove brick count
+unable get
+fail duplicate brick name
+fail add brick dict
+fail set performance client io threads on
+fail start the rebalance
+volname not present in dict
+volname not present in dict
+fail set barrier op in volume option dict
+fail create volfiles
+fail acquire on
+fail release on
+fail add lock healq
+fail remove lock from healq
+fail heal lock on child for
+fail getlk for
+event gen mismatch skip heal lock on child for
+abort process lk healq heal will be reattempted on next child for lock be still in quorum
+fail launch lock heal synctask
+fail get inode ctx for
+error set gfid heal msg dict
+fail populate thin arbiter loc for
+fail lookup create thin arbiter id file
+fail unlock on with lk owner
+gfid unlock fail on subvolume with lock owner
+gfid unlock fail on subvolume with lock owner
+lock heal support only for replica volumes
+cannot create timer for delay initialization
+gf msg this  name gf log error afr msg subvols down
+fail create ta frame
+fail release afr ta dom notify lock
+receive child up from invalid subvolume
+test fail get the node uuid brick
+fail get afr ta dom notify lock on
+fail get afr ta dom modify lock on
+fail unlock afr ta dom modify lock
+fail unlock afr ta dom notify lock
+error set gfid heal msg dict
+error set dictionary
+error set dictionary
+cannot set node uuid key in dict
+cannot set xattr cookie key
+cannot set pathinfo key in dict
+cannot set xattr cookie key
+cannot set pathinfo key in dict
+fail create synctask unable fetch split brain status for
+fail populate loc for thin arbiter
+fail unlock afr ta dom notify lock
+fail for gfid fop state is
+fail populate loc for thin arbiter
+post op on thin arbiter id file fail for gfid
+post op on thin arbiter id file for gfid invalidate due event gen mismatch
+fail create ta frame
+fail launch post op on thin arbiter for gfid
+could not set key during xattrop
+could not set key during xattrop
+not subvolume
+not subvolume index
+replicate translator need more than one subvolume defined
+not subvolume
+not subvolume index
+subvolume do not support locking please load features locks xlator on server
+subvolume do not support locking please load features locks xlator on server
+fail getlk for
+fail get whether reopen allow or not on fd for file on subvolume
+invalid ia type or gfid source brick pargfid name
+skip conservative merge on the file
+type mismatch detect for on on skip conservative merge on the file
+fail lookup on file
+fail create dict
+xattrop fail on
+fail populate thin arbiter loc for
+error get value pending key
+xattrop failed
+fail populate thin arbiter loc for
+xl do not have id
+could not add statistics healed count output
+could not add statistics split brain count output
+could not add statistics crawl type output
+could not add statistics healed failed count output
+could not add statistics crawl start time output
+could not add statistics crawl end time output
+could not add statistics inprogress output
+could not increment the counter
+xl do not have id
+could not add output
+could not set time
+could not increment count
+all the brick should be resolve the gfid split barin
+error set gfid heal msg dict
+error set gfid heal msg dict
+error set gfid heal msg dict
+error get the source brick
+error set gfid heal msg dict
+no majority resolve gfid split brain
+gfid mismatch detect for on on
+cannot perform selfheal on size policy not applicable directories
+no bigger file
+no child select by favorite child policy
+invalid child select by policy
+type mismatch on for gfid
+have gfid
+fail xattrop for gfid on
+fail populate thin arbiter loc for
+gfid fail get afr ta dom modify lock on
+gfid fail xattrop on
+fail read for gfid since good brick down
+gfid fail unlock afr ta dom modify lock on
+fail create ta frame
+fail launch afr ta read txn synctask for gfid
+unhandled state for
+fail copy location
+fail reference dictionary
+unhandled state for
+fail on
+fail reference file descriptor
+fail reference dictionary
+fail reference dictionary
+unhandled state for
+fail on
+fail reference file descriptor
+fail reference dictionary
+fail reference dictionary
+unhandled state for
+fail reference file descriptor
+fail reference dictionary
+fail reference an inode
+fail reference dictionary
+unable prepare lookup request
+unable prepare lookup request
+unhandled state for
+fail copy location
+fail reference dictionary
+unhandled state for
+fail copy location
+fail reference dictionary
+unhandled state for
+fail copy location
+fail reference dictionary
+fail reference dictionary
+fail reference file descriptor
+fail reference dictionary
+fail reference dictionary
+unhandled state for
+fail reference file descriptor
+fail reference dictionary
+unhandled state for
+fail copy location
+fail reference file descriptor
+fail reference dictionary
+invalid index in readdirp request
+ec not wind readdir
+unhandled state for
+fail reference file descriptor
+fail reference dictionary
+fail reference file descriptor
+fail reference dictionary
+invalid redundancy must be between
+too many subvolumes
+allocation xlator list fail
+memory account initialization failed
+cannot create timer for delay initialization
+in read mask id not valid integer
+in read mask id not in range
+read mask should contain at least id
+fail allocate private memory
+fail create memory pools
+fail initialize xlator
+fail parse xlator option
+fail initialize matrix management
+fail build subvol dictionary
+fail build subvol id dictionary
+unhandled state for
+fail copy location
+fail reference dictionary
+fail reference dictionary
+fail reference dictionary
+unhandled state for
+fail copy location
+fail duplicate string
+fail reference dictionary
+fail reference dictionary
+fail reference dictionary
+fail reference file descriptor
+fail duplicate string
+fail reference dictionary
+fail reference file descriptor
+fail reference dictionary
+unhandled state for
+fail copy location
+fail reference file descriptor
+fail reference dictionary
+unhandled state for
+fail copy location
+fail reference dictionary
+fail duplicate vector list
+fail reference buffer
+fail reference dictionary
+unhandled state for
+fail reference file descriptor
+fail reference dictionary
+unhandled state for
+fail reference dictionary
+unhandled state for
+fail copy location
+fail reference dictionary
+fail reference dictionary
+fail reference file descriptor
+fail reference dictionary
+mismatch xlators between request answer req ans
+mismatch frame between request answer req ans
+mismatch fop between request answer req ans
+fail allocate memory for an answer
+fail allocate memory for request
+fail create private frame for request
+try lock base on an invalid inode
+invalid or corrupt config
+unsupported config
+unable get version xattr
+unable get size xattr
+unable get config xattr
+invalid config xattr
+unable update version size
+unhandled state for
+fail copy location
+fail reference file descriptor
+fail reference dictionary
+unhandled state for
+fail copy location
+fail copy location
+fail reference dictionary
+unhandled state for
+fail copy location
+fail reference dictionary
+unhandled state for
+fail copy location
+fail reference dictionary
+unhandled state for
+fail copy location
+fail copy location
+fail reference dictionary
+unhandled state for
+fail copy location
+fail reference dictionary
+unhandled state for
+fail duplicate string
+fail copy location
+fail reference dictionary
+unhandled state for
+fail copy location
+fail reference dictionary
+ec try store an unsupported config version
+ec find an unsupported config version
+unable duplicate path
+invalid name in loc
+unable duplicate path
+unable duplicate path
+parent inode miss for loc
+unhandled state for
+fail copy location
+fail duplicate string
+fail reference dictionary
+fail reference file descriptor
+fail duplicate string
+fail reference dictionary
+unhandled state for
+fail copy location
+fail reference dictionary
+fail reference file descriptor
+fail reference dictionary
+fail copy location
+fail reference dictionary
+fail reference dictionary
+fail reference dictionary
+fail reference file descriptor
+fail reference dictionary
+fail reference dictionary
+unhandled state for
+fail reference file descriptor
+fail reference dictionary
+unhandled state for
+unhandled state for
+fail copy location
+fail reference dictionary
+fail reference file descriptor
+fail reference dictionary
+unhandled state for
+fail reference file descriptor
+fail duplicate vector list
+fail reference buffer
+fail reference dictionary
+unable create temporary file for the ec dynamic code
+unable resize the file for the ec dynamic code
+unable map the executable area for the ec dynamic code
+unable map the writable area for the ec dynamic code
+fail generate dynamic code
+fail reference dictionary
+unhandled state for
+fail duplicate string
+fail copy location
+fail duplicate string
+fail reference dictionary
+fail reference dictionary
+fail duplicate string
+fail reference file descriptor
+fail duplicate string
+fail reference dictionary
+fail reference dictionary
+unhandled state for
+fail duplicate string
+fail copy location
+fail reference dictionary
+fail reference dictionary
+fail duplicate string
+fail reference file descriptor
+fail reference dictionary
+fail reference dictionary
+unhandled state for
+fail reference file descriptor
+fail reference dictionary
+invalid concat format
+stime combination fail
+dictionary combination fail
+insufficient memory
+fail set key in dictionary
+fail get md subvol for path
+fail set hash subvol for on inode vol null
+path exist file on one subvolume directory on another please fix manually
+xattr heal fail for directory gfid
+fail set md subvol on inode ctx for
+dict new fail
+fail set hash subvol for vol
+no gfid exist for path so heal xattr not possible
+memory allocation fail for path gfid
+synctask creation fail heal xattr for path gfid
+fail set md
+fail set md subvol for vol
+could not unlink the linkto file either fd open and or linkto xattr set for null
+path gfid exists file on one subvolume directory on another please fix manually
+dictionary creation fail
+dictionary set array fail
+subvolume return
+fail get node uuid
+fail get
+fail parse uuid for
+getxattr err for dir
+alloc or fill failure
+vgetxattr subvolume return
+allocation or fill failure
+layout null
+fail copy node uuid key
+fail copy node uuid key
+fail get hash subvol for
+fail get cache subvol for
+layout null
+cannot determine mds fetch xattr randomly from subvol for gfid
+fail get md subvol for fd gfid
+fail get md subvol gfid
+dictionary creation fail for path for gfid
+dictionary set array fail for path for gfid
+fail get hash subvol for
+fail create new rebalance synctask
+wrong directory spread count value
+fail set dictionary key for
+fail set dictionary key for fd
+fail set dictionary value key ret
+fail set dictionary value key
+memory allocation fail
+fail set dictionary value key
+no subvolume in layout for path
+dht mknod lock fail for file
+mem allocation fail for refresh frame
+mem allocation fail for refresh local
+loc copy fail
+parent loc build fail
+lock parent fail
+loc copy fail
+parent loc build fail
+lock parent fail
+no subvolume in layout for path
+dht create lock fail for file
+no subvolume in layout for path
+loc copy fail
+parent loc build fail
+lock parent fail
+fail set hash subvol for on inode vol
+dict new fail
+fail set dictionary value key
+dict new fail
+fail set dictionary value key
+fail set key
+fail set key
+fail set in dict
+memory account init fail
+invalid option reconfigure rebal throttle should be within range maximum number core available
+invalid option reconfigure rebal throttle should be lazy normal aggressive or number the number core available not default
+invalid option reconfigure lookup unhashed should be boolean not default
+invalid option defrag pattern invalid number format
+invalid volume configuration node uuid not specify
+invalid option cannot parse glusterd node uuid
+invalid option cannot parse rebalance filter
+dht init local subvolumes fail
+dht initialisation failed fail create local memory pool
+fail create lock mem pool fail initialization
+pattern too long
+not subvolume pattern can only be schedule only subvolume
+switch check option in unify volume exit
+switch no nod leave for pattern exit
+migrate file fail loc  pargfid null for
+migrate file fail loc  gfid null for
+could not allocate memory for dict
+migrate file failed fail set linkto key in dict
+migrate file failed lookup fail with ret
+migrate file fail fail get cache subvol for on
+migrate file fail fail get hash subvol for on
+migrate file fail fail set dictionary value key for
+migrate file fail linkto setxattr fail
+fail get linkto subvol for
+migrate file fail failed lookup on
+dictionary allocation fail for path
+fail set dictionary value key gfid req
+fail set dictionary value key
+fd create fail destination
+dict new failed
+fail set dictionary value key
+file exist in with different gfid
+fail open on
+fail create on
+file exist in with different gfid find in lookup after create
+file do not exist on
+chown fail for on
+fallocate fail for on
+fail allocate dictionary
+fail get statfs on
+fail get statfs on
+dht insufficient memory
+dht fail set dict
+fd create fail source
+fail open file on
+could not allocate memory for dict
+fail set xattr on in
+fail set mode on in
+migrate file cleanup failed fail fstat file on
+could not allocate memory for dict
+migrate file failed fail set linkto key in dict
+migrate file failed fail set key in dict
+migrate file failed lookup fail on
+create dst fail on for file
+exit migration for file flag stbuf ia nlink
+migrate file failed fail open on
+migrate file failed failed lookup on
+migrate file failed fail migrate data
+migrate file failed fail fstat file on
+dict new fail
+fail set dictionary value key path
+trace dict set fail
+trace syncop setxattr metalock fail
+migrate file failed fail lock on
+write lock fail on
+getactivelk fail for file
+fail set xattr on in
+fd create fail
+fail create linkto file on in
+chown fail for on
+trace dict set fail
+trace dict set fail
+trace syncop setxattr meta unlock fail
+migrate file failed fail reset target size back
+fail unlink listener socket
+migrate file failed lookup fail
+fail get hash subvol for
+fail get cache subvol for
+insufficient memory frame creation fail
+migrate data fail for
+migrate data on failed
+fix layout on fail
+lookup fail for
+readdirp fail for path abort fix layout
+fix layout fail for
+setxattr fail for
+gf defrag process dir fail for directory
+settle hash fail for
+local subvolume determination fail with error
+local subvolume determination fail with error
+dht fail get the total data size unable estimate time complete rebalance
+dht file counter thread pthread join failed
+fail get the total data size unable estimate time complete rebalance
+fail create the file counter thread
+fail initialise migration queue
+fail create migration thread
+dht thread creation failed
+fail start rebalance look on fail
+insufficient memory frame creation fail
+fail start rebalance fail set dictionary value key
+fix layout on fail
+could not create task for rebalance
+unable calculate estimate time for rebalance
+fail set dict value
+fail set dict value
+fail set dict value
+couldn find local brick
+insufficient memory for src
+insufficient memory for dst
+fail calloc memory
+fail set dictionary value key path
+fail set dictionary value key path
+fail create dictionary track rename
+fail set dictionary value key path
+local should not happen
+memory account init fail
+fatal write behind not configure with exactly one child
+aggregate size cannot be more than window size
+out sequence directory preload
+release directory with pending stub
+memory account init fail
+fatal readdir ahead not configure with exactly one child
+memory account fail
+fatal volume not configure with exactly one child
+out memory
+out memory
+md cache disable cache for xattrs dict set fail
+fail create the frame
+fail allocate memory
+out memory
+memory account init fail
+could not get cache size option
+cache size greater than the max size
+not reconfiguring cache size
+fatal volume not configure with exactly one child
+memory account init fail
+fatal read ahead not configure with exactly one child
+fail create local memory pool
+inode ctx set fail
+initing the global timer wheel fail
+memory account init fail
+not configure with exactly one child exit
+dangle volume check volfile
+priv allocation fail
+unknown lock type
+unknown lock type
+authenticate authentication module have be replace by
+authenticate dlopen
+authenticate dlsym gf auth on
+authenticate volume option validation fail
+authentication init fail
+auth no authentication module interest in accept remote client
+asprintf fail while set error msg
+asprintf fail while set error msg
+fail set child up for xlator in the reply dict
+not receive child up for xlator
+asprintf fail while set error msg
+authentication module not initialize
+cannot authenticate client from because brick not attach in graph old
+cannot authenticate client from old
+bug dict allocation fail pargfid name still continue
+bug dict allocation fail gfid still continue
+parent type not directory
+basename send by client not allow
+invalid pointer for state  resolve now
+server could not create the fd
+server fd creation for the inode fail
+server wrong state
+fd unknown lock type
+fail create the pthread key
+fd create
+fd anonymous
+opendir
+graph print fwrite fail
+graph print print fail
+glusterfs volume can be add from command line only on client side
+glusterfs initialization fail
+validation failed
+initialize translator fail
+graph gethostname fail
+graph glusterfs graph settop fail
+graph glusterfs graph worm fail
+graph glusterfs graph acl fail
+graph glusterfs graph mac compat fail
+graph glusterfs graph gfid access fail
+graph glusterfs graph meta fail
+graph validate option fail
+graph init fail
+graph unknown option fail
+graph graph new notification fail
+graph parent notification fail
+glusterfsd mgmt ctx null
+glusterfsd mgmt ctx null
+glusterfsd mgmt glusterfs ctx  active null
+glusterfsd mgmt unable create temporary volfile
+glusterfsd mgmt temporary file delete failed
+glusterfs fail acquire lock
+glusterfs fail release lock
+glusterfs set type fail
+glusterfs fail create clean thread
+glusterfsd pidfile truncation fail
+glusterfsd pidfile write fail
+glusterfsd pidfile write fail
+mgmt fail get pidfile from dict for volfile id
+mgmt fail update the pidfile for volfile id
+glusterfsd fail construct the graph
+glusterfsd fuse xlator cannot be specify in volume file
+graph parent notification fail
+glusterfs fail create clean thread
+glusterfsd mgmt ctx null
+glusterfsd mgmt fail get volfile object
+glusterfsd mgmt could not detach old graph abort the reconfiguration operation
+libglusterfs couldn set extend attribute for
+libglusterfs couldn set extend attribute for
+lazy unmount
+thread creation fail
+fd multiple attempt expand fd table have failed
+fd cannot expand fdtable
+monitor fail create metric dir
+monitor fail open tmp file
+syncop swapcontext fail
+syncop getcontext fail
+syncop swapcontext fail
+lock mem allocation fail
+mkdir fail on path
+unable create store handle for path
+fail open
+fail open directory
+fail fsync
+fail close
+fail fsync
+fail rename
+fail mv
+unable open file
+unable open file
+fail open file
+path correspond
+unable open file
+glusterd store may be corrupted invalid key value null in
+glusterd store may be corrupted invalid key null in
+glusterd store may be corrupted invalid value null for key in
+unable close file ret
+fail open
+fail gain lock on
+fail release lock on
+client gf client clienttable expand fail
+glusterfs asprintf failed
+glusterfs asprintf failed
+operation mode not specify
+glusterfs error load nfs server library
+glusterfs error find function exp file parse in symbol
+glusterfs error find function exp file print in symbol
+glusterfs error find function exp file deinit in lib
+glusterfs error load nfs server library
+glusterfs error find function ng file parse in symbol
+glusterfs error find function ng file print in symbol
+glusterfs error find function ng file deinit in lib
+cannot lookup the save frame correspond xid
+server have not respond in the last seconds disconnecting
+rpcsvc get connect event which should have not come
+rpcsvc get map xid event which should have not come
+disable barrier because the barrier timeout
+couldn add barrier timeout event
+fatal posix locks should have exactly one child
+locks translator not load over storage translator
+index go corrupt at reason geo replication secondary content need be revalidated
+continuation stub unwind the call absent hence call will be hang call stack id
+bogus operation mode specify
+quota configuration store may be corrupt
+quota configuration store may be corrupt
+watchdog fire too often
+fail get iobuf
+fail encode message
+out memory
+fail serialize reply
+reply submission fail
+ctx  active return null
+glusterd could not allocate memory
+glusterd could not open tmp file
+glusterd could not flush cache
+glusterd could not seek back start
+glusterd could not open output file
+couldn get status op
+ctx return null
+ctx  active return null
+xlator not load
+couldn get status op
+couldn get volname
+ctx  active return null
+fail set node xlator name
+xlator not load
+fail set node xlator name
+couldn get volname
+ctx  active return null
+xlator no load
+ctx  active return null
+barrier notify fail
+changelog notify fail
+xdr decode error
+fail serialize dictionary
+xdr decode error
+xdr decode error
+fail set volname
+fail serialize dict
+invalid op
+xdr decode error
+xdr decode error
+glfs available events
+glfs path null
+glfs path not directory
+buffer empty
+openssl version do not support crl
+openssl version do not support crl
+ssl new fail
+bio new socket fail
+port already in use
+port already in use
+openssl have no dh support
+openssl have no ecdh support
+could not load ca list
+double init attempt
+fail build record header
+fail start ping timer
+rpc transport
+xdr decode fail
+no vectored handler present
+invalid rpc status value
+reply record creation fail
+fail cache reply
+program not find
+option transport type not set
+option transport type not set
+asprintf fail
+dict set str error
+asprintf fail
+dict set str error
+fail init option
+mem pool allocation fail
+fail register dump program
+asprintf fail
+asprintf fail
+asprintf fail
+asprintf fail
+asprintf fail
+asprintf fail
+drc fail detect duplicate
+fail add auth glusterfs
+fail add auth glusterfs
+fail add auth glusterfs
+fail add auth unix
+fail add auth null
+no init function define
+fail add initers
+fail init auth scheme
+svc
+no authentication
+umountd signal fail
+umountd signal fail
+out memory
+out memory
+out memory
+out memory
+out memory
+can allocate ns priv structure
+already disabled
+already enable
+fail get iobuf
+fail encode message
+receive null argument
+lock preempt fail
+posix locks unexpected case in subtract locks
+dangle volume check volfile
+dict new fail
+fd creation fail
+inode link fail
+quota dict set fail
+dict new fail
+dict new fail
+dict new fail
+dict new fail
+dict set fail
+dict new fail
+dict set fail
+dict new fail
+dict set failed
+dict get failed
+dict new fail
+dict new fail
+loc copy fail
+dict new fail
+dict set fail
+fail create fd
+loc fill strdup fail
+loc fill strdup fail
+marker force inode ctx get fail
+dangle volume check volfile
+out memory
+subvolume
+cannot open file
+compression error ret
+zlib unable initialize inflate
+decompression error ret
+fail create frame
+out memory
+out memory
+set key gfid req fail
+set key gfid req fail
+fail create frame
+fail create frame
+out memory
+out memory
+out memory
+out memory
+out memory
+out memory
+out memory
+out memory
+out memory
+out memory
+cannot create timer
+this  private null
+error set worm state
+error set worm state
+error initialize state
+error allocate priv
+error create the dict
+error set xattr
+error create the dict
+error in set the dict
+error set xattr
+empty val
+error set xattr
+error create the dict
+error in set the dict
+send fuse iov invalid argument
+fuse fd null
+glusterfs fuse kernel notifier loop terminate
+glusterfs fuse time response loop terminate
+glusterfs fuse get init after first message
+fail set gfid req
+could not get mount status
+out memory
+glusterfs fuse out memory
+glusterfs fuse out memory
+glusterfs fuse out memory
+glusterfs fuse out memory
+glusterfs fuse out memory
+procfs path exceed buffer size
+dict set str error
+iobref creation fail
+fail build export list
+memory account init fail
+glusterd fail generate user xlator type
+could not generate gfproxy volfiles
+could not generate shd volfiles
+couldn find volinfo
+couldn find volinfo
+iov null
+xdr decode error
+call with null rpc
+brick op fail
+fail store max op version
+layout null
+dht rebal entry null
+pattern match fail
+child loc build fail
+loc copy fail
+dir dfmeta null
+dir dfmeta  head null
+dir dfmeta  iterator null
+dir dfmeta  equeue null
+dir dfmeta  offset var null
+dict new fail
+fail set new commit hash
+fail create fd
+error parse socket identifier
+no filename give
+out memory
+auth login remote subvolume not specify
+auth addr peer info not present
+fail set subdir mount
+fail set gfid req for subdir
+fail reconfigure authentication
+fail set hostname
+fail create frame
+cli unable get transport type
+dict set fail
+dict set fail
+dict set fail
+dict set fail
+fail create frame
+cli fail fetch volname
+cli fail fetch command
+cli fail get default soft limit
+cli fail set default soft limit
+cli fail get volume name
+cli fail get quota option type
+cli fail set type in xdata
+cli fail set volume uuid
+cli fail set max count
+cli fail set gfid
+cli fail get opcode
+cli fail get volume name
+cli fail fetch volname
+fail create frame
+fail create frame
+geo replication not instal
+fail create frame
+cli
+cli
+cli
+cli
+cli
+cli
+cli
+cli couldn get daemon name
+cli couldn get filepath
+cli
+cli
+cli
+cli
+cli
+cli
+cli
+cli
+dict get fail
+cli
+cli
+cli fail get uuid from dictionary
+cli
+cli
+cli
+cli dict get fail
+cli
+cli
+cli count not set
+cli node down have fail set dict
+fail get volname
+cli fail get command
+glusterd
+cli fail print rebalance status
+cli
+cli
+cli
+cli
+cli
+cli
+fail get command
+cli
+cli
+dict get on operation fail
+cli
+dict get on operation fail
+cli
+cli
+cli
+cli fail get quota type
+cli
+cli fail get type
+cli
+cli fail set quota list count in dict
+cli
+cli fail add node the list
+cli fail get max count
+cli
+fail get volname
+cli
+cli
+out memory
+cli
+cli
+fail create the dict
+fail set flag
+fail set dict
+struct member empty
+cli struct member empty
+struct member empty
+unable read status data
+unable print status output
+unable fetch workdir
+fail get
+fail add new line char
+unable get command from dict
+fail get
+cli
+cli invalid data
+cli invalid data
+cli
+cli couldn get brick name
+cli
+cli fail get task count
+cli fail get local
+fail create the dict
+cli local not find
+cli
+cli error output xml
+cli
+cli
+cli
+cli status all fail
+cli
+fail get volname
+cli
+cli
+cli
+cli
+cli could not get sub cmd
+cli frame  local null
+cli fail get snapname
+cli could not fetch config type
+could not fetch config key
+cli could not fetch voldisplaycount
+cli could not fetch
+cli could not fetch
+cli could not fetch
+cli fail get
+cli fail get
+cli fail get
+cli fail get
+cli unable fetch snapname
+cli unable fetch snap id
+cli unable list detail the snap
+cli unable get snapcount
+cli unable print snap detail
+cli could not fetch origin volname
+cli could not fetch snapcount
+cli could not fetch snaps available
+cli unable print snap detail
+cli could not fetch snap count
+cli could not get
+cli fail fetch brickcount
+cli unable get snapname
+cli unable get snap uuid
+cli unable get volume count
+cli could not get snap volume status
+cli fail get snapname
+cli fail save snapname
+cli fail save command type
+cli could not save command string delete
+cli could not save command type in snap dict
+cli could not get snapname
+cli could not save snapname in snap dict
+cli could not save command type
+cli could not save command string status
+cli set volume lock flag fail
+cli frame  local null
+cli could not fetch status type
+cli could not fetch status snap
+cli fail get snap name
+cli fail get volume name
+cli fail get snap uuid
+cli fail get snap name
+cli fail get snap uuid
+cli fail get snap name
+cli fail get snap uuid
+cli fail get snap name
+cli fail get snap uuid
+cli fail get volname
+cli could not get sub cmd
+cli fail get snap name
+cli fail get snap uuid
+cli fail get clone name
+cli fail get snapname name
+cli fail get snap uuid
+cli could not fetch config type
+fail get type
+cli fail fetch data from dict
+cli fail generate snapshot event
+cli
+cli fail get snap name
+cli fail get volume name
+cli fail get clone name
+cli fail get snapname name
+cli fail get snap name
+cli fail get snap name
+cli fail get snap name
+cli snapshot info fail
+cli snapshot info fail
+cli fail display snapshot list
+cli fail delete snap
+cli fail get sub cmd
+cli could not get snapcount
+cli fail get sub cmd
+cli could not get snapcount
+cli cli to glusterd for snapshot fail
+cli
+cli
+cli
+cli value count invalid
+cli
+cli fail get command type
+cli fail print bitrot scrub status
+cli
+cli cli to glusterd for bitrot fail
+cli spawn child fail
+cli read data from child fail
+cli struct member empty
+cli struct member empty
+cli struct member empty
+cli struct member empty
+cli struct member empty
+cli fail get type
+cli fail get snap name
+cli fail get snap uuid
+cli fail get clone name
+cli fail get clone uuid
+cli fail get vol name
+cli fail get volume id
+cli fail get snap name
+cli fail get snap uuid
+cli fail get snapcount
+cli could not get
+cli fail get
+cli fail get
+cli fail get
+cli fail get
+cli unable fetch snapname
+cli unable fetch snap id
+cli unable fetch snap time
+cli fail get snap vol count
+cli fail get snapcount
+cli could not get
+cli fail fetch brickcount
+cli unable get brick path
+cli unable get volume group
+cli unable get data percent
+cli unable get lv size
+cli unable get snapname
+cli unable get snap uuid
+cli unable get volume count
+cli could not get snap volume status
+cli could not fetch status type
+cli could not get snapcount
+cli could not fetch auto delete
+cli could not fetch volcount
+cli could not fetch
+cli could not fetch
+cli could not fetch
+cli could not fetch config type
+cli invalid command
+cli fail get snap name
+cli fail get snap uuid
+cli fail get snap name
+cli fail get snap uuid
+cli fail get sub cmd
+cli error create xml output
+cli fail register notify
+cli memory account init failed
+cli fail generate uuid
+cli fail create iobuf pool
+cli fail create event pool
+cli fail create call pool
+cli fail create frame mem pool
+cli fail create stack mem pool
+cli fail stub mem pool
+cli fail create dict pool
+cli fail create dict pair pool
+cli fail create dict data pool
+cli fail create logbuf pool
+cli fail register notify
+cli out memory
+cli out memory
+cli out memory
+cli out memory
+cli out memory
+cli out memory
+cli unable parse create volume cli
+cli dict new fail
+cli dict new fail
+fail allocate memory for data
+dict set on global key failed
+dict set on global key failed
+cli unable parse add brick cli
+cli unable parse remove brick cli
+cli unable parse reset brick cli
+cli fail allocate dictionary
+cli unable parse reset brick cli
+cli could not set clear stats in dict
+cli error parse dumpoptions
+cli out memory
+fail create the dict
+fail set volname
+fail set dict
+fail set dict
+cli clone name too long
+cli could not save volcount
+cli too le word for snap create command
+cli snapname too long
+cli invalid syntax
+cli could not save volcount
+cli description not provide
+cli invalid syntax
+cli invalid syntax
+cli invalid syntax
+cli fail save volname in dictionary
+cli invalid syntax
+cli invalid syntax
+cli invalid syntax
+cli invalid syntax
+cli unable save snap name
+cli invalid syntax
+cli unable save snap name
+cli invalid option
+cli unable save force option
+cli invalid syntax
+cli unable save snap name
+cli invalid syntax
+cli invalid syntax
+cli invalid syntax
+cli invalid syntax
+cli invalid syntax
+cli invalid syntax
+cli value not provide for
+cli could not set global key
+cli could not set global lock
+cli invalid wordcount
+cli fail set volname
+cli invalid syntax
+cli invalid syntax
+cli invalid syntax
+cli invalid syntax
+cli invalid syntax
+cli invalid syntax
+invalid command not enough argument
+opword mismatch
+cli invalid syntax
+cli create command parse failed
+cli invalid syntax
+cli clone command parse failed
+opword mismatch
+fail set type
+cli invalid syntax
+cli fail validate volume name
+cli unable parse bitrot command
+dict set on key fail
+dict set on value fail
+fail create frame
+cli fail parse command
+unable set command in dict
+unable set in dict
+unable set cmd args count in dict
+unable set volname in dict
+fail create frame
+unable set filename in dict
+unable set volname in dict
+fail create frame
+fail unserialize req buffer dictionary
+can terminate not find
+fail unserialize req buffer dictionary
+fail unserialize req buffer dictionary
+couldn get xlator
+xlator not load
+no volfile id provided erroring out
+fail unserialize req buffer dictionary
+fail unserialize req buffer dictionary
+couldn get brickname from dict
+ctx  active  first return null
+fail serialize output dict rsp
+fail unserialize req buffer dictionary
+xlator not load
+error set volname dict
+fail serialize output dict rsp
+fail unserialize req buffer dict
+xlator nfs server not load
+fail serialize output dict rsp
+fail unserialize req buffer dictionary
+fail unserialize request dictionary
+xlator not load features barrier
+xlator not load features changelog
+fail get the volume file from server
+fail unserialize xdata dictionary
+fail process server list
+mgmt graph reconfigure succeed with out have checksum
+mgmt server operate at an op version which not support
+mgmt fail fetch volume file key
+no volfile id provided erroring out
+fail set min op version in request dict
+fail set max op version in request dict
+fail set brick name in request dict
+fail get the rsp from server
+fail get the rsp from server
+receive error from server
+glusterfsd mgmt fail set remote host
+glusterfsd mgmt fail fetch volume file key
+fail set transport socket ssl enabled in option dict
+fail register the port with glusterd
+fail register the port with glusterd
+glusterfs fail set volfile server
+fail unserialize xdata dictionary
+fail process server list
+glfs fail set volfile server
+glfs fail set leaseid
+glfs not valid path
+glfs path doesn have write permission
+glfs fail set statedump path no memory
+ssl connect error client server
+setsockopt for so reuseaddr fail
+bind failed
+bind failed
+msg size bigger than the maximum allow size on socket
+rpc older version protocol process try connect from use newer version on node
+rpc wrong msg type receive from
+connection fail
+gf log this  name gf log error
+socket creation fail
+set receive window size failed
+set send window size failed
+nodelay on fail
+fail set keep alive
+nbio on fail
+connection attempt on failed
+gf log this  name gf log error
+socket creation fail
+set receive window size failed
+set send window size failed
+setsockopt fail for nodelay
+nbio on socket fail errno
+gf log this  name gf log error
+gf log this  name gf log error
+transport socket keepalive take only boolean options not take any action
+invalid number format
+non blocking io take only boolean options not take any action
+fail open dh cipher be disable
+fail read dh param from dh cipher be disabled
+fail load ec curve ecdh cipher be disabled
+fail find any valid cipher
+could not load our cert at
+could not load private key at
+non blocking io take only boolean options not take any action
+transport socket nodelay take only boolean options not take any action
+invalid number format
+transport socket keepalive take only boolean options not take any action
+invalid value give for ssl enabled boolean
+cannot bind unix domain socket
+transport address family not specified could not guess default value from remote host or transport unix connect path option
+unknown address family specify
+option remote host miss in volume
+option remote host have data null in volume
+option remote port have invalid port in volume
+dns resolution fail on host
+option transport unix connect path not specify for address family unix
+connect path value length octet
+transport unix connect path null string
+miss option transport socket listen path
+option transport unix listen path have value length
+getaddrinfo fail for host service
+unknown address family
+unknown address family
+unknown address family specify
+getnameinfo fail
+cannot fill inet inet identifier for server
+cannot fill inet inet identifier for client
+unknown address family
+bail out frame type op xid unique send timeout for
+error add timer event queue
+cannot lookup the save frame for reply with xid
+no request with frame for xid
+rpc clnt lkowner field too big do not fit in the rpc header
+rpc auth lkowner field too big do not fit in the rpc header
+program registration failed num ver
+rpc transport option transport type miss in volume
+rpc transport dlsym rpc transport ops on
+rpc transport dlsym gf rpc transport init on
+rpc transport dlsym gf rpc transport fini on
+rpc transport volume option validation fail
+fail register the port with glusterd
+rpcsvc error get memory for rpc request
+rpc procedure not available for program
+rpc program procedure not available for procedure in for
+rpc program procedure not available for procedure in for
+rpc version not support xid ver program progvers proc from trans
+auth fail on request xid ver program progvers proc from trans
+rpcsvc rpc actor fail complete successfully
+invalid address family
+request receive from non privilege port fail request for
+rpc clnt fail build record header
+fail build record header
+fail submit message xid program progvers proc rpc transport not matched
+could not register the ipv service with rpcbind
+could not unregister the ipv service with rpcbind
+could not register with portmap
+could not unregister with portmap
+invalid port for listener
+portmap unregistration program fail
+rpcbind ipv unregistration program fail
+program unregistration fail num ver port
+program registration failed num ver port
+fail parse dict
+fail parse bool string
+fail init authentication
+fail read rpc auth ports insecure value
+fail convert rpc auth ports insecure value
+fail get mempool for drc drc size
+registration drc notify function fail
+registration auth failed
+hardlink failed exceed max link count
+calloc fail allocate memory for diskxl object
+posix setxattr fail
+posix truncate fail
+posix removexattr fail post processing
+setxattr fail
+memory account init fail
+client send umask but not the original mode
+fail reconfigure snapshot directory option
+cannot allocate new call frame
+cannot allocate function stub
+cannot allocate function local
+translator need single subvolume
+dangle volume please check volfile
+could not fetch barrier key from the dictionary
+memory account initialization failed
+barrier not configure with exactly one child
+miss inode can adjust for quota
+fatal quota not configure for min child
+invalid length total length le than minimum length
+gfid no null byte present
+gfid invalid length
+gfid invalid length
+gfid invalid length
+gfid invalid length
+gfid invalid length
+gfid invalid length
+gfid invalid length
+gfid invalid length
+not configure with exactly one child exit
+fail create local memory pool
+dentry fop serializer not configure with exactly one child
+lock unlock on type entrylk wrlck attempt but no match lock find
+unexpected case in entrylk cmd please file bug report at http   bugs gluster com
+get error errno stderror from child
+lock truncate fail with ret error
+lock truncate on fail with ret error
+lock ftruncate fail with ret error
+clear locks invalid lock type
+clear lock type failed
+memory account init fail
+fail create local memory pool
+match lock not find for unlock llu  llu by on for gfid unknown
+memory account initialization failed
+thin arbiter not configure with exactly one child
+not configure with children exit
+readdirp fail for
+fail get inode ctx for
+fail get inode ctx for
+get contri key fail for
+get contri key fail for
+fail get inode ctx for
+fail spawn new synctask
+parent loc fill fail for child inode
+build ancestry fail for inode
+parent loc fill fail for child inode
+fail create contribution node for abort update txn
+opendir fail for
+readdirp fail for
+fail remove extend attribute
+fail create synctask for clean quota extend attribute
+fail get the path for the entry
+memory account init fail
+please specify the volume uuid in the translator option
+invalid volume uuid
+please specify the timestamp file in the translator option
+invalid quota version
+marker translator need subvolume defined
+invalid quota version
+fail create local memory pool
+marker parent null for
+marker fail resolve path for
+memory account initialization failed
+arbiter not configure with exactly one child
+invalid operation mode
+invalid operation mode
+memory account init fail
+zlib output buffer overflow ncount max iovec
+unable init zlib retval
+cannot allocate xdata dict
+data deflated but could not set canary value in dict for identification
+checksum or length mismatch in inflate data
+fail create thread
+fail init mutex for thread
+fail init cond var for thread
+fail initialize resource for thread
+rename trash directory failed
+mkdir fail for internal op directory
+mkdir fail for trash directory
+directory creation fail therefore unlinking without move trash directory
+directory creation fail therefore truncate without move the original copy trash directory
+fail create trash inode table during graph reconfigure
+memory account init fail
+not configure with exactly one child exit
+no option specify for max trashable file size use default lld mb
+fail create local memory pool
+no option specify for brick path
+fail create trash inode table disable trash
+quiesce not configure with exactly one child
+fail create the quiesce dequeue thread
+memory account initialization failed
+translator not configure with exactly one child
+memory account initialization failed
+cannot set atime le than the mtime for worm retained file
+cannot decrease the atime worm retained file in enterprise mode
+cannot set atime le than the mtime for worm retained file
+cannot decrease the atime worm retained file in enterprise mode
+fail set the fd ctx for gfid worm feature may not work for the gfid
+translator not configure with exactly one child
+fail create read only priv memory pool
+error in set the dict
+fuse resolve invalid pointer for state  resolve now
+glusterfs fuse inconsistent write fuse device write zd expectd
+glusterfs fuse fail dump fuse message
+glusterfs fuse send fuse iov failed
+glusterfs fuse unique interrupt for fail allocate time message
+fuse fail resolve path
+glusterfs fuse getattr resolution fail
+glusterfs fuse setattr resolution fail
+glusterfs fuse access resolution fail
+glusterfs fuse readlink resolution fail
+glusterfs fuse mknod resolution fail
+glusterfs fuse mkdir resolution fail
+glusterfs fuse unlink resolution fail
+glusterfs fuse rmdir resolution fail
+glusterfs fuse symlink resolution fail
+glusterfs fuse rename src resolution fail
+glusterfs fuse rename dst resolution fail
+glusterfs fuse open resolution fail
+glusterfs fuse write iobref allocation fail
+glusterfs fuse flush unique interrupt record allocation fail
+glusterfs fuse setxattr dict allocation fail
+glusterfs fuse setxattr value allocation fail
+size not equal
+glusterfs fuse getlk not supported load features posix locks on server side will add getlk support
+glusterfs fuse setlk not supported load features posix locks on server side will add setlk support
+glusterfs fuse setlk unique interrupt record allocation fail
+glusterfs fuse unsupported fuse protocol version
+glusterfs fuse fail start time response thread
+glusterfs fuse fail start messenger daemon
+glusterfs fuse fuse init fail
+first lookup on root fail
+poll error
+mount pipe close without status
+server authenication failed shut down
+poll error
+mount pipe close without status
+memory account init fail
+glusterfs fuse fail dump fuse message
+fuse mandatory option mountpoint not specified
+do not exist
+mountpoint seem have stale mount run umount try again
+not directory
+glusterfs fuse fail remove old fuse dump file
+glusterfs fuse fail open fuse dump file
+glusterfs fuse fail initialize group cache
+could not create pipe separate mount process
+could not create new event history
+getpwuid fail
+getpwuid no match record
+could not map group list ngroups max
+fail open
+fail allocate gid buffer
+cannot find gid list in
+fail parse
+fail parse transport socket bind address string
+dict set str error when try enable ipv
+fail set transport address family
+fail set transport address family
+brick op fail fetch disk utilization from the brick please check health the brick error code be
+fail set transport address family for
+glusterd fail generate user xlator option matcher
+glusterd invalid user xlator position
+could not generate gfproxy client volfiles
+glusterd add bulk volume thread creation fail bulkvoldict
+add brick process fail
+brick process not run
+brick process not run
+open fail open file
+miss extend attribute on brick root brick deem not be part the volume
+mismatch extend attribute on brick root brick deem not be part the volume
+fail get volfile path
+mount command failed
+null uuid while attempt read peer from
+fail aggregate response from node brick
+fail get no timestamp flag
+fail set in dict
+fail set xattr in dict for linkto
+fail set linkto key in dict
+fail set gfid in dict for create
+create dst fail on for file
+fail set last fsync flag on
+fail set xattr in dict for linkto
+fail allocate memory for container
+fail allocate memory for df entry
+fail allocate memory for loc
+dht dfoffset ctx initialization fail
+fail set dict for key
+fail open dir err
+child loc build fail for entry
+fail set
+fail set commit hash on rebalance cannot proceed
+delay gen not configure with one subvolume
+memory account init fail
+memory account init fail
+error gen not configure with one subvolume
+gf strdup failed fail username resolution
+gf strdup failed fail username resolution
+fail set interval
+fail set duration
+fail set total read
+fail set total write
+fail set read  db with
+fail set write  db with
+fail set fop hits
+fail set avglatency with
+fail set minlatency with
+fail set maxlatency with
+fail set upcall hits
+no allow in path
+fail open for write
+could not create stats dump directory
+could not create stats sample directory
+invalid path for stats dump and or latency sample
+could not open stats dump file
+could not open samples dump file
+io stats fail start thread while reconfigure return
+memory account init fail
+io stats translator require at least one subvolume
+io stats fail start thread in init return
+fail set top op in dict
+fail reset top stats
+fail set stats cleared in dict
+fail set info op in dict
+fail set stats cleared in dict
+memory account init fail
+must specify only one include ops exclude ops
+trace translator require one subvolume
+cannot allocate xl  private
+must specify only one include ops exclude ops
+event history cannot be initialize
+rot fatal rot should have exactly one child
+encrypt write take only boolean option
+decrypt read take only boolean option
+auth login asprintf fail while set search string return reject
+auth login wrong username password combination
+auth login wrong password for user
+auth addr asprintf fail while set search string
+auth addr asprintf fail while set search string
+auth addr client bind port which not privilege
+authenticate addr unknown address family
+first lookup on subdir failed
+lookup on root failed
+first lookup on subdir failed
+graph janitor thread creation fail for brick
+victim brick not find in graph
+fail set flag
+fail set volume
+cli fail set force option
+memory allocation fail for bricklist
+cli fail set force option
+cli fail fetch default soft limit
+fail move offset the beginning
+cli fail get quota limit for
+cli error in print xml output
+cli error output in xml format
+cli could not fetch display quota limit
+cli fail set ignore partition option
+cli error parse statedump option
+cli error parse clear locks option
+unable get volname from dict
+fail check debug xlator be add
+out memory
+fail check user xlator be add
+out memory
+cli fail check server graph have be change
+cli fail print remove brick rebalance status
+cli remove brick id not present in dict
+cli fail output in xml format for quota list command
+cli fail output in xml format for quota list command
+cli could not convert default soft limit percent
+cli fail get the xattr on reason
+cli fail get quota size on path
+cli umount on failed reason
+fail get default soft limit
+cli fail set quota list success count in dict
+cli pthread create failed
+getspec fail
+pump fail
+fail set min op version in request dict
+fail set max op version in request dict
+fail open error
+fail write
+fail get type
+cli unable get lock summary from dictionary
+cli fail create xml output for delete
+cli fail create xml output for snapshot delete command
+cli could not fetch snap max hard limit for
+cli could not fetch snap max soft limit for
+cli could not fetch effective snap max hard limit for
+cli could not list detail volume in snap
+cli unable fetch snap time
+cli could not get volume relate information
+cli could not save command type in snap dictionary
+cli fail set op errstr in local dictionary
+cli fail create xml output for snapshot status
+cli at least one option from snap max hard limit snap max soft limit auto delete snap activate on create should be set
+cli fail display snapshot config output
+cli fail display snapshot status output
+cli fail write xml element
+cli fail fetch volname from local dictionary
+cli could not populate snap request dictionary
+cli cli to glusterd for snapshot delete fail
+cli could not populate snap request dictionary
+cli cli to glusterd for snapshot status fail
+cli fail begin snapshot xml composite op
+cli cli glusterd for snapshot status command fail
+cli cli glusterd for snapshot delete command fail
+cli fail end snapshot xml composite op
+cli fail retrieve count from the dictionary
+cli fail retrieve from the dictionary
+cli fail retrieve key value for from the dictionary
+cli fail get count value from dictionary
+cli fail create xml output for snapshot origin volume
+cli could not list detail volume in snap
+cli fail create xml output for snapshot origin volume
+cli fail create xml output for snapshot status
+cli fail get snap max hard limit
+cli fail get snap max soft limit
+cli could not fetch snap activate on create delete
+cli could not fetch effective snap max hard limit for
+cli at least one option from snap max hard limit snap max soft limit auto delete snap activate on create should be set
+cli fail create xml output for snapshot config set command
+cli fail create xml output for snapshot config show command
+cli unknown config command
+cli fail output xml begin block
+cli fail output xml common block
+cli fail create xml output for snapshot create command
+cli fail create xml output for snapshot clone command
+cli fail create xml output for snapshot restore command
+cli fail create xml output for snapshot list command
+cli fail create xml output for snapshot status command
+cli fail create xml output for snapshot info command
+cli fail create xml output for snapshot config command
+cli fail create xml output for snapshot config command
+cli unexpected snapshot command
+cli fail output xml end block
+cli fail get sub cmd
+cli fail get snapshot command type from dictionary
+cli fail get sub cmd
+cli fail get snapshot command type from dictionary
+cli error create xml output
+cli fail retrieve count from the dictionary
+cli value count invalid
+cli fail retrieve from the dictionary
+cli fail retrieve key value for from the dictionary
+cli unable retrieve hostname
+cli unable allocate memory
+cli volume create cancelled exit
+incorrect transport protocol specify
+set daemon name dictionary fail
+set output directory dictionary fail
+set filename dictionary fail
+set get state command type dictionary fail
+cli fail set quota patch in request dictionary
+cli fail set quota limit count in request dictionary
+cli operation cancelled exit
+cli operation cancelled exit
+cli add brick cancelled exit
+cli remove brick cancelled exit
+cli cmd volume remove brick parse unable get memory
+cli cmd volume remove brick parse unable get memory
+duplicate brick find
+cli unable allocate memory
+cli unable save snap description
+cli invalid number word for snap clone command
+cli could not save clone name
+cli could not save snap name
+cli could not save snap name
+cli could not save volume name
+cli could not save time stamp option
+cli could not save snap description
+cli could not save snap force option
+cli unable save snapname
+cli could not save volume name
+cli could not save type snapshot info
+cli user cancel snapshot restore operation for snap
+cli could not save volume name
+cli unable save snapname
+cli could not save type snapshot delete
+cli count not save snap name
+cli count not save volume name
+cli could not save cmd snapshot status
+cli could not set in dictionary
+cli fail parse snap config hard limit
+cli soft limit cannot be set volume
+cli fail parse snap config soft limit
+cli auto delete option cannot be set volume
+cli fail set value auto delete in request dictionary
+cli activate on create option cannot be set volume
+cli fail set value activate on create in request dictionary
+cli unable set config command
+cli unable set hold snap locks value gf true
+cli set volume lock flag fail
+cli fail parse snapshot info command
+cli fail parse snapshot list command
+cli fail parse snapshot delete command
+cli config command parse failed
+cli unable set config type
+cli fail parse snapshot status command
+cli fail parse restore command
+cli fail parse start command
+cli fail parse deactivate command
+cli global operation cancelled exit
+dict set on global key failed
+dict set on global key failed
+unable set in dict
+unable stat
+read fail on path file size read size
+fail get volfile checksum for volfile id

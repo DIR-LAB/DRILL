@@ -1,0 +1,2519 @@
+fail alloc crypto hash
+fail alloc ahash request for
+use crypto hash speed mb
+crypto hash algorithm test error rc
+crypto hash algorithm speed mb
+libcfs ioctl cmd lu
+invalid ioctl type nr size
+portal setup ok
+before portal cleanup kmem
+invoke lnet debug log upcall
+try empty hash loop
+early quit rehashing
+key entry
+cpu invalid or it offline
+cpu already in partition
+cpu already in cpumask
+cpu already in partition cpumask
+invalid cpu id
+cpu change cpu action lx
+in progress stopping
+object lu lu page be
+rc err
+llu llu
+error in handle
+set mtime lld ctime lld
+resend create on
+resend cross eviction
+activate ignore repeat request
+root fid last committed  llu
+mode
+get xattr for
+obd md fleasize set should be
+obd md fleasize set
+obd md fldirea set should be
+obd md fldirea set
+update handle from llx llx
+file close with intent
+couldn find open req expect close error
+request fail send rc
+offset lx llx llx
+read pages
+read pages
+page lu add page cache failed
+read cache page at llu ld
+blocks  llu free  llu avail  llu
+path get from llu
+path get from llu
+ct start
+receive message mg actions
+recover copytool registration mdt
+recover copytool registration mdt
+pack security xattr name
+increase repbuf by bytes total
+get xattrs for
+pack security xattr name
+layout return lvb transno lld
+resend op
+resend cross eviction
+it dentry intent status disp rc
+name in obj
+name in inode intent flag llo
+len zd zd concurrent rename
+permission denied mode fsuid uid
+see user at index id endrec  llu
+see record at index llu in log
+see user at index id endrec  llu in
+changelog start index  llu
+connect
+register changelog user
+purge request id
+turn off changelogs
+purge changelog entry for user
+request llu out range llu
+rewrite changelog user endrec llu
+purge request id endrec  llu
+could not clear changelog request
+purge changelog entry
+changelog garbage collect thread start with pid
+changelog garbage collection
+filter out
+no valid attribute on previous
+set mtime llu ctime llu
+cannot swap layout with dom component
+cannot swap layout for ost dom
+cannot swap layout for new layout
+eadata len
+object retain in orphan
+object delete from orphan
+readdir from dead object
+find orphan delete it
+find orphan count skip it
+object locate on remote server
+object insert into
+ea cr flags llo no create
+opened count
+update
+doesn exist
+update
+log resid llx   llx
+log ref
+log ref
+drop config log
+do add config log lx
+add config log lx
+lockh llx
+end config log client
+update log
+disconnecting won update log
+start requeue thread
+end requeue thread
+log requeue sp st
+lockh llx
+lock re
+miss data won requeue
+log stopping won requeue
+log disconnecting won requeue
+enqueue for res llx
+register
+register get index
+initrecov or
+register target
+import event
+reactivate import
+mgc cannot find obdname
+find uuid by nid
+ir apply log lld  lld for
+process config for error
+latest version lld more
+nodemap config change in transit retrying
+fail get mg log use local
+process log lx from
+can get cfg lock
+configuration from log sed
+add target
+parse log from
+there no params
+lookup seq llx range rc
+find target idx llu by seq llx
+add target idx llu
+use hash
+lookup fld entry seq llx on target idx llu
+fld cache size threshold
+fld cache statistic
+cache reqs llu
+total reqs llu
+fld cache shrink by
+insert range
+get index from
+fld req handle error range
+change hash
+lookup cache flushed
+activate ignore repeat request
+init last use fid
+llu blocks llu free llu avail
+async update
+process llu
+in flight
+do in lld rc
+connect
+connect
+get disconnected
+get inactive
+get connected
+connect
+set attr rc
+set xattr with size zd
+invalidate osp object
+fid for osp object
+write gap in llog
+write last use fid index
+ooi pos nr
+new record rc
+commit req transno llu
+reply req rc transno
+in flight in progress
+process all old entries
+in flight in progress
+find record idx id
+massive record cancel id
+in flight in progress do
+stop llog processing
+changes in progress
+init llog for catid
+llu committed
+add commit cb at lluns next at lluns rc
+sync forced changes
+fid op
+update magic count size zu
+total in
+trans no llu commit transno llu
+version llu gen llu oth version llu
+ou version llu rpc version llu
+invalidate our
+add oth with version llu
+write offset llu length zu
+read offset llu size zu
+update statfs
+couldn update statfs rc
+go update statfs
+sync forced changes
+expect actual
+don send new precreate rc
+current precreated pool
+get last fid
+go cleanup orphan since
+get last id from ost last created
+full state rc
+uncommitted changes in progress
+return einprogress instead
+current lldns fresh till lldns
+set blksize for
+set orphan flag on llx
+enforce quota on uid gid
+set xattr with size
+update remote entry for rc
+index object
+miss account obj for
+id not find in dmu account zap
+not find in dmu account zap
+id not find in account zap
+write pages reserve lldk quota space
+retry after sync
+object change block size
+write byte at
+obj skip lnb rc
+transaction aborted
+transaction hook failed rc
+sync osd
+sync osd
+connect
+refresh oi map for scrub op force
+the fid use by
+oi scrub prep flag
+oi scrub post with result
+fail checkpoint po llu
+oi scrub fail init env rc
+oi scrub fail scrub prep rc
+oi scrub start flag po llu
+oi scrub stop po llu rc
+register index
+restore index with rc
+llu have no fid in lma skip it
+initial oi scrub handle under
+fid not in the id map cache
+fid not in the id map cache
+destroy ltd desc
+osp idx gen
+set mds portal timeout
+osp idx gen
+ea store size not enough
+default strip component size not
+buf len zu too small for lov user md
+bad userland lov magic
+bad userland stripe pattern
+stripe size not multiple
+stripe offset bitmap size
+stripe offset not in bitmap
+invalid buf len zu  zu for lov user md with
+stripe count osts in the pool
+dom component size be bigger than mdt limit
+invalid buf len zu
+buf len zu too small for lov user md
+bad userland lov magic
+buf len zu le than
+entry count zero
+invalid extent
+invalid id
+invalid dom component
+invalid dom layout
+dom component size
+stripe size isn aligned
+swab lov desc
+delete pool
+turn inactive
+turn active
+can declare creation on
+can declare new object on
+can declare new object on
+invalid magic
+invalid pattern
+invalid stripe count
+invalid offset
+tgt count stripe count
+init llog for index catid
+set component version
+set layout version comp idx
+try idx mdt cnt allocate
+require strip only get
+get idx for stripe
+lum magic count offset
+operation not supported
+entry count zero
+request component not found
+invalid component id flag
+specify both id flags
+no id or flag specified
+deletion will create
+request component id not found
+invalid xattr name
+object isn composite file
+unsupported xattr name
+repeat component
+delete comp leave
+stripe count stripe size stripe offset append stripes
+inherit from default flags
+strip from default dir count  hu
+no default strip for foreign dir
+final dir stripe hu
+lld
+delete stripe
+ost no longer present
+statfs fail for ost error
+ost not availble for sel
+ost lowwm highwm
+low space on ost available llu
+new component end not align
+prev start llu extension start llu extension end
+previous component not inited
+new end llu
+extension component exhausted
+after extent updates prev start llu current start
+extent    start llu extent    end llu
+update component
+primary mirror
+primary comp
+stale
+mirror ost unavail rc
+mirror stale
+resync instantiate
+try write
+pick mirror id primary
+find primary
+intent write
+write instantiate
+receive op in sync pending
+cocurrent write sync pending
+lcme id zd not exist
+no mirror in sync
+sync resynced zu components
+get tgt for sequence llx
+process recovery update
+get update log fail retry
+retrieve update log duration lld retry
+get update log from all mdts
+finish sub llog
+init sub log
+can process
+connect
+not ready
+not ready
+pool
+pool
+pool
+pool have members
+pool
+cannot add proc entry
+pool proc
+pool
+proc entry
+add member
+remove from
+request for an unknown pool
+request for an empty pool
+ostid
+fld lookup get md for fid
+comp id llu llu llu llu
+take share lov owner
+release share lov owner
+take exclusive lov owner
+release exclusive lov owner
+file wait for active io now
+from
+apply new layout lov type
+lo layout invalid
+io type ignore verify layout
+lsm addref by
+destroy lov targets
+not connect administratively disabled
+connect tgt idx sactive
+connect
+disconnect target
+search in lov for uuid event
+osc already sactivate
+sactivate osc
+osc already sactive
+mark osc sactive
+lov idx conn llx
+uuid idx gen active
+tgts size
+idx ltd gen ld tgt count
+uuid idx gen exp active
+remove tgt
+swab lov desc
+delete pool
+ost inactive
+lustre lov module
+there be zd component be stale
+designate mirror state
+write intent for llu llu
+flr state move mirror from
+use sdelayed rpc state for io
+component flag
+shrink llu llu
+cra end lu strip rc
+max index lu pps index
+mdt id initial value llu llu
+mdt id on ost llu llu
+id flags
+oinfo ostid
+pool
+pool
+pool
+pool have members
+pool
+pool proc
+pool
+proc entry
+add member
+remove from
+objid magic pattern
+stripe size stripe count layout gen
+stripe idx subobj
+pool name
+unrecognized lmm magic assume
+have no data
+lld   lld lld   lld
+lov idx inactive
+lov idx administratively disabled
+lov idx inactive
+null ns skip cleanup
+dlm namespace free do waiting
+getref res count
+putref res count
+lock destroyed not add resource
+lock destroyed not add resource
+namespace rc side
+resource refcount
+grant lock in reverse order
+wait locks
+contend lock
+fail get resource for resid llu  llu
+grant conflict lock
+negative interval  lld too short period  lld
+lock pool initialized
+lock export failed lock exp
+lock already destroyed lock
+lock destroyed not add resource
+reprocess lock
+export lock cancelled
+export cancel locks
+export cancel locks
+reprocess deadlock req
+flag llx owner llu pid mode start
+flags llx data getlk
+ns lock be reclaimed find
+nothing do
+can find connection
+imp find exist conn
+imp add connection at
+imp remove connection
+mark inactive
+disconnect zu
+connection from st llu exp cur lld last lld
+cancel recovery timer
+recovery timer will expire in ld seconds
+wake for abort recovery
+wake for expire recovery
+wake for duplicate req llu
+wake for next lld
+wake for complete recovery
+wake for next lock
+wake for complete lock replay
+wake for abort recovery
+wake for expire recovery
+wait for lock
+wait for transno lld
+start recovery thread pid
+request replay stage client from llu
+lock replay stage clients
+final stage process recovery completion pings
+recovery complete in lus reqs locks
+recovery service recoverable clients
+last committed llu transno llu xid llu
+transno llu last commit llu
+schedule reply immediately
+reprocess resource
+local remote cookie llx flags llx
+lock packed
+no resource llu
+cancel unused lock from namespace
+client lock no op
+bad request buffer for cancel
+block ast
+completion ast
+glimpse ast
+cancel
+convert
+bad request buffer for cancel
+chkdq find noquota for
+setdq insert for
+setdq remove for
+dump object extent at mppr
+obj ready wr rd
+grant dirty ld  ld dirty pages ld  lu
+use lu grant credit for brw page
+lose grant lu avail lu dirty lu  lu
+sleep for cache space for
+event for cache space never arrive
+wake for oap avail grant
+invalid import force rpc
+high prio request force rpc
+urgent request force rpc
+cache waiter force rpc
+full extent ready make an rpc
+invalid import force rpc
+do not permit different type io
+queue writeback work for client
+oap page obj off llu
+teardown oap page at index lu
+oap not in cache
+set km from lluto llu
+invalidate osc object active ios
+run lru work for client obd
+shrink page from client obd
+queue again
+queue lru work
+shrinkers force
+start reclaim ld page from lru
+reclaim ld  ld page from lru
+cli no free slots pages ld  ld want ld
+cli lru pages ld busy ld
+cli free ld pages
+queue lru left lu  ld
+busy oap page for submit
+stripe km sincreasing llu   llu llu
+busy oap page for submit
+lu zu
+page index lu lock for
+object lu lu page be
+mode
+oa flag
+transno lld
+oa null
+dirty llu undirty drop grant llu
+next time lld shrink grant
+get llu extra grant
+set cl avail grant ld cl lost grant ld
+missing short rc vector on brw write reply
+rc req
+rc invalid req
+off
+use short io for data transfer size
+fail checksum rc
+checksum at write origin
+brw rpc object offset lld lld
+can open dump page with
+write bytes
+checksum confirmed
+use short io read size
+page count
+checksum confirmed
+request aa rc
+resend cross eviction for object
+write with layout version
+unrecognised ioctl by rc
+ocd connect flags llx ocd version
+run writeback work for client obd
+lustre osc module
+activate ignore repeat request
+obd iocontrol failed rc
+could not prepare the opdata rc
+vfs op inode xattr
+vfs op inode xattr
+vfs op inode
+pcc create match
+match id pcc mode
+cannot get layout for
+gen consistent auto attached
+layout change from
+open pcc file
+release pcc file
+wait for io completion
+invalidate layout gen
+restore failure
+hsm remove failure
+find
+duplicate xattr
+fail allocate xattr
+fail alloc xattr name
+fail alloc xattr value
+set
+del xattr
+list buffer name
+md intent lock fail with for fid
+cancel by parallel getxattr
+caching xdata xtail
+cache
+not cache
+not cache security selinux
+lock lu lu
+ignore verify layout layout version
+write layout type
+lock lu lu
+read llu llu
+tot zu ra start lu ra count lu
+map count dirty
+commit async pages from
+commit page bytes tot ld
+write llu llu
+write nob zd result zd
+write position mismatch
+get addr type nopage
+get addr sigbus
+get addr oom
+llite fault truncate race happened
+ignore verify layout layout version
+search inode for   lu
+can get object attrs fid rc
+get dentry for fid
+encode for maxlen minlen
+get parent for
+parent for
+vm flags lx lu
+race on page mkwrite lu page have
+mkwrite with
+delay new page fault for inode
+fault
+ocd connect flags llx ocd version
+rootfid
+max lov ea size
+max lmv ea size
+parse opt
+next opt
+vfs op cfg instance lx sb
+llite sb uuid
+find profile mdc osc
+vfs op cfg instance lx sb
+lli slave master
+set dir layout
+update lsm
+vfs op inode
+setattr inode from llu llu
+file too large llu llu
+set mtime lld ctime lld now lld
+hsm set dirty failed rc
+mdc block llu  llu object llu  llu
+osc block llu  llu object llu  llu
+vfs op sb
+inode update size llu
+vfs op inode
+flush context for user
+vfs op superblock count active
+vfs op inode pos size
+bad userland lov magic
+md getattr fail on inode rc
+could not read file data version
+could not read file data version
+file data version mismatched
+vfs op inode cmd
+ioc mdc lookup miss filename
+ioc mdc lookup miss filename
+ioc mdc lookup miss filename
+lustre client module
+get inode rc
+inode layout have no dom stripe
+cannot flush dom data
+cannot invalidate layout
+invalidate inode lli
+invalidate
+ldlm cli cancel rc
+add dentry inode refc flag
+it disposition
+server return security context
+vfs op name dir intent
+cannot get security xattr name for
+security xattr for
+vfs op name dir flags
+vfs op name dir file
+set ast data inode
+vfs op name dir intent
+vfs op name dir mode dev
+vfs op name dir
+vfs op name unhashed
+vfs op name dir target
+vfs op inode dir
+vfs op name dir
+vfs op name dir
+vfs op name dir
+vfs op name dir
+vfs op oldname src dir
+lose layout lock
+writeback failed
+still have lu page remaining
+alloc sa entry index llu
+free sa entry index llu
+handle init async glimpse inode
+handle init async glimpse inode
+set data inode
+sa entry rc
+agl thread started sai parent
+agl thread stopped sai parent
+start agl thread sai parent
+statahead thread starting sai parent
+error read dir at llu
+statahead for dir hit
+stop agl thread sai pid
+statahead thread stopped sai parent
+deauthorize statahead for
+skip hide file
+start statahead thread pid parent
+revalidate statahead
+use cache symlink len
+vfs op
+vfs op
+vfs op
+glimpse inode
+clean lease
+vfs op inode
+get data along with open at llu len size llu
+lock enqueue err
+vfs op inode flag
+ldlm cli cancel
+bias close file
+lease for broken bias
+update size llu
+desiginated mirror
+ppos llu count zu
+range lock
+range unlock
+iot result zd
+result zu original count zu
+md getattr name fail
+group lock lu obtained
+group lock lu released
+release file
+lock request file inode mode
+advice with value not recognized
+invalid flag for
+invalid mode for
+invalid flag for
+invalid range llu llu
+set lease with mode
+vfs op inode cmd
+vfs op inode to  llu   llx
+vfs op inode start lld end lld
+vfs op inode file lock
+unknown fcntl lock type
+inode pid flags   llx mode
+migrate mdt stripe count
+try match re mode
+try match re
+vfs op inode name
+vfs op inode inode mode mask
+squash cred
+lvb ready lvb data lvb len
+wait for layout reconf
+file wait layout return
+update def max easize
+change connect flags llx llx
+vfs op inode size  zd max lu
+dio size now zu
+vfs op inode size  zd max lu
+dio size now zu
+write lu bytes
+po llu len copy
+lu re lu ro llu rl llu rb llu
+start llu end llu start left llu end left llu
+idx lu ra lu rpc lu
+ria lu  lu bead lu  lu hit
+reserve pages lu  lu  lu ra cur ra max lu
+kmsp llu mwp lu mp lu
+page at lu miss
+page read ahead at lu
+find name flag refc
+dentry parent inode
+ldd on dentry parent inode refc
+release lock with cookie llx from
+release remote lock with cookie
+intent released
+mark dentries for inode invalid
+dentry in drop parent
+set data inode
+vfs op name flags
+vfs op name flags
+cli dirty ld pend ld grant ld
+process self export ld ld
+cli free llu avail llu
+cli shrink ld ted grant ld total llu
+replay write skip accounting
+recoverable resend arrived skip
+cli claim ld grant
+cli idx no space for
+have no space leave statfs too old
+cli ocd grant want llu left llu
+have no space leave statfs too old
+not enough space for create llu
+insert record batchid llu transno llu
+update batchid from llu llu
+destroy llu llu
+next update transno llu
+update on mdt not committed
+xid  llu transno  llu
+replay uth update
+error during execution from
+execute rc
+tmt refcount commit result batchid llu
+st obd commit start stop
+cookie
+add update log rc
+add update log rc
+batchid llu cancel update log
+llu batchid updated
+update batchid llu rc
+commit batchid llu
+start commit thread commit batchid llu
+batchid llu commit batchid
+stop distribute txn commit thread
+destroy
+create dof mode
+insert create reply index rc
+attr set
+insert attr set reply index rc
+write po llu buf len lu
+set xattr buf name flag
+insert xattr set reply index rc
+del xattr name on
+insert xattr del reply index rc
+insert ref add reply index rc
+insert ref del reply index rc
+index insert name fid type
+index delete name
+insert idx insert reply index rc
+delete idx insert reply index rc
+insert destroy reply index rc
+change barrier status from
+barrier freeze done
+handle barrier request status
+operation on unconnected ost from
+no target for connect export
+checksum for algo
+can open dump page with
+write bytes
+checksum confirm upon retry
+index offset len leave
+checksum at read origin
+reorder bulk
+index offset len leave
+client csum server csum
+client use short io for data transfer
+checksum from ok
+read header magic
+write header magic
+free reply data xid llu transno llu
+release reply data xid llu transno llu
+read lcd lld uuid last transno llu
+commit for initial connect
+no target for connect export
+update last rcvd client data for uuid
+read last rcvd server data for uuid
+write last rcvd server data for uuid
+update last rcvd server data for uuid
+transno lld committed
+new client at index llu with uuid
+client at idx with uuid added
+no target for connect export
+del client at idx off lld uuid
+add reply xid llu transno llu
+transno llu last committed llu
+skip zero client at offset
+rcvrng client uuid idx lr llu
+client at idx have last transno llu
+begin dump last rcvd
+server last transno llu
+server mount count llu
+server data size
+per client data start
+per client data size
+last rcvd size lu
+server subdir count
+last rcvd clients lu
+end dump last rcvd
+more than one transaction llu
+new reply data file initializing
+restore reply xid llu
+reply data have be recovered
+lookup reply xid llu find last xid llu
+master transno llu batchid llu flag
+update dth params count hu
+param dth off hu size hu
+max op size zu update op zu
+max param size zu params size zu
+uth param offset size zu
+huth param count
+fork reply reply index rc
+insert attr get reply index rc
+get xattr len
+list xattr len
+lookup get rc
+insert lookup reply index rc
+index insert rc
+error during execution from
+execute rc
+namespace lfsck hit first non repaired
+invalid lfsck namespace magic
+fail load lfsck namespace
+fail store lfsck namespace rc
+namespace lfsck flag for in the
+namespace lfsck remove invalid linkea
+namespace lfsck insert orphan for the
+namespace lfsck insert object with
+namespace lfsck create orphan dir for
+namespace lfsck remove linkea entry
+namespace lfsck conditionally destroy the
+namespace lfsck rebuild linkea for the
+namespace lfsck assistant find bad name
+namespace lfsck rebuild dotdot name entry for
+namespace lfsck repair the object
+some mdt maybe not take part in the
+clear linkea overflow timestamp for the object
+repair agent entry for rc
+namespace lfsck find
+namespace lfsck reset rc
+namespace lfsck checkpoint at the po llu
+namespace lfsck prep failed
+namespace lfsck prep done start po llu
+namespace lfsck post done rc
+namespace lfsck handle notify from mdt
+mdt failed stopped at
+namespace lfsck assistant find dangle
+dir scan find invalid fid
+cannot talk with mdt which
+namespace lfsck assistant fail handle
+namespace lfsck assistant
+namespace lfsck
+start scan backend lost found
+fail iterate backend
+the orphan with igif
+stop scan backend lost found rc
+namespace lfsck phase scan start
+namespace lfsck phase scan stop at the no
+namespace lfsck assistant fail
+namespace lfsck assistant fail
+update name entry with the fid
+invalid lfsck bookmark magic
+fail load lfsck bookmark
+fail store lfsck bookmark rc
+lfsck assistant fail
+lov ea magic for the file
+the dom entry for not
+unsupported lov ea pattern for the file
+foreign lov ea magic len type flag for file
+foreign lov ea internal size do not match ea full size zu for file
+the pfl file contain invalid
+find invalid fpl id
+find invalid fpl extent
+layout lfsck init ost objects access bitmap
+layout lfsck fini ost objects access bitmap
+fail update ost objects access
+fail load lfsck layout rc
+lfsck layout size reset it
+invalid lfsck layout magic
+fail store lfsck layout rc
+layout lfsck will create last id for
+layout lfsck find crash
+layout lfsck will sync the last id for
+layout lfsck fail store
+layout lfsck fail store
+layout lfsck cannot find the
+layout lfsck find invalid
+layout lfsck hit first non repaired
+layout lfsck double scan rc
+layout lfsck double scan result rc
+insert the paris comp id
+delete the dangle record for
+remove layout hole for
+layout lfsck assistant add new comp for
+layout lfsck assistant extend layout ea for
+layout lfsck assistant create layout ea for
+layout lfsck assistant fail
+layout lfsck destroy the empty
+layout lfsck assistant replace the conflict
+layout lfsck assistant fail recreate
+find invalid
+layout lfsck assistant fill
+the parent contain
+layout lfsck assistant
+layout lfsck assistant start the orphan
+layout lfsck assistant skip the orphan
+layout lfsck assistant finish the orphan
+layout lfsck assistant find
+layout lfsck assistant find
+layout lfsck assistant repair
+layout lfsck assistant repair
+layout lfsck assistant repair
+the parent contain
+layout lfsck assistant fail
+layout lfsck phase scan start
+layout lfsck phase scan dangle stop
+layout lfsck phase scan stop rc
+layout lfsck slave get the mdt
+layout lfsck slave fail
+layout lfsck slave query master rc
+layout lfsck slave notify master
+layout lfsck slave fail
+layout lfsck slave repair pfid for
+layout lfsck reset rc
+layout lfsck master checkpoint at the po
+layout lfsck slave checkpoint at the po
+layout lfsck prep failed
+layout lfsck slave prep done start po
+layout lfsck master prep done start po
+get invalid layout ea for
+cannot talk with ost which
+layout lfsck master bad lmm oi for
+layout lfsck fail
+layout lfsck fail
+layout lfsck find crash
+layout lfsck master post done rc
+layout lfsck have rebuild
+layout lfsck slave post done rc
+layout lfsck slave phase scan start
+layout lfsck slave phase scan finished
+layout lfsck master handle notify
+layout lfsck slave handle notify
+destroy orphan ost object rc
+init the orphan iteration rc
+fini the orphan iteration
+return orphan pfid owner
+the give hash llu for orphan
+unexpected pdo lock mode on the obj
+remove name entry rc
+partially create the object
+update lpf fid
+reset invalid lpf fid
+scan lustre lost found
+reset invalid lpf fid
+reset invalid lpf fid
+fail notify for
+fail notify for
+invalid query reply for
+unexpected event rc
+fail notify for
+unknown async request rc
+fail query for stat
+wait for assistant do post rc
+the assistant have do post rc
+wait for assistant do double scan
+the assistant have do double scan
+lfsck fail load
+lfsck post at the component
+scan dir exit for engine stop
+scan dir fail at rec
+scan dir exit for engine stop
+dir engine fail locate next
+oit scan exit for engine stop
+oit scan fail at rec
+oit scan find invalid fid
+invalid idif
+oit scan fail at find target
+oit engine fail locate next at
+oit scan exit for engine stop
+master engine fail init iteration
+master engine fail verify the
+lfsck entry oit flags dir flags
+lfsck exit oit flags dir flags
+lfsck assistant fail query
+lfsck assistant fail
+lfsck assistant fail
+lfsck assistant fail
+lfsck assistant unexpected lfsck event
+lfsck assistant thread start
+lfsck assistant fail notify others
+lfsck assistant thread post
+lfsck assistant notify
+lfsck assistant sync before
+lfsck assistant phase
+lfsck assistant unknown
+lfsck assistant fail notify
+lfsck assistant sync before exit
+lfsck assistant sync before exit rc
+lfsck assistant phase scan
+lfsck assistant thread exit rc
+namespace lfsck set the master mdt object
+record slave lmv ea for the strip directory
+namespace lfsck update the lmv ea
+namespace lfsck notify lmv ea update for the
+namespace lfsck set master lmv ea for the object
+namespace lfsck assistant find bad name hash
+namespace lfsck repair the shard
+cannot talk with mdt which
+namespace lfsck assistant fail handle
+write last objid rc
+res initial lvb size llu
+res update lvb size
+res update lvb mtime
+res update lvb atime
+res update lvb ctime
+res update lvb blocks
+res update lvb size from disk
+res update lvb mtime from disk
+res update lvb atime from disk
+res update lvb ctime from disk
+res update lvb block from disk
+pas param down the stack
+object init fid
+object free fid
+ost lock llu  llu lh
+extent count
+ost lock llu  llu
+ost lock llu  llu
+get fiemap object
+last fid
+get layout version
+after destroy set last id
+ofd create
+ofd last id llu diff lld
+fail acquire grant
+precreate fid over
+reserve object in group llx
+slow creates lld object
+destroy object count
+call punch for object valid llx
+prolong lock for req with llu
+refresh lock timeout for req
+refresh lock timeout for req
+receive md connection for group
+get connection from md
+recovery over
+invalid export
+invalid client export
+llu blocks llu free llu avail
+destroy object
+destroy non existent object
+ofd create
+handle ioctl cmd
+sync ost
+write page synchronously for check io rc
+fail verify ost local store
+fail verify the client give
+both the client give pfid
+fix the stale ost pfid xattr
+fail fix the ost pfid xattr
+verify layout version vs rc
+export soft sync count reset
+retry after force commit retries
+version mismatch llx llx
+sub from for th sync
+add for th sync
+object llx   llx exists
+create new object nr
+ost layout version
+fsname entry size page
+read ir log return with version llu
+ir current version llu
+revoke recover lock complete after lld    lds
+wake up phase
+try revoke recover lock
+read ir log bufsize ld
+change fsr state from
+skip backup file
+cmd
+ost index for
+mdt index
+get db
+create new db rc
+server update index
+set index for
+unhandled lrh type
+insane cfg
+match rec marker flag
+mg check
+mg check failed rc
+change rec marker
+modify fl
+lcfg
+add nid with uuid
+add nid for failover
+copy idx rc len cmd
+skip idx rc len cmd
+replace nids for in
+device name without fsname
+device name with wrong index
+config llog name record index
+config llog name invalid config file
+skip idx rc len
+skip idx rc len
+copy idx rc len cmd
+clear config log
+change log
+steal llog re
+write lmv log for
+write lov log for
+add nid for failover uuid
+add mdc for log lmv
+add nid for mdt
+add osp index
+add nid for mdt
+write new mdt
+add osc for log
+add nid
+write new ost
+global removed
+global val
+global removed
+global
+next param
+add failnode with param
+next param
+add failnode
+lov param
+param
+param
+param
+update params for
+remain string param
+remove log
+unknown cfg marker entry with
+unknown cfg pool entry with
+fork the config log from
+skip invalid configuration file
+fail locate file rc
+fail fork rc
+fail erase old rc
+don contain an index
+see file system name
+set conf param fs device param
+set param fs device param
+fs index ready reconnect
+fs index register mgs
+server run on
+update index
+reply with index rc
+handle ioctl cmd
+mg started
+object init fid
+fid version llx
+version mismatch llx llx
+name cannot find
+name on another mdt
+do not exist
+link target existed
+skip parent reovke
+skip stripe
+lock
+doesn exist skip
+busy lock on
+migrate
+in nosquash nids list
+squash req from
+local client auth uid
+mdt block setuid attempt from
+mdt block setgid attempt
+local client auth uid
+deny access without identity uid
+mdt block setuid attempt from
+mdt block setgid attempt
+deny access without identity
+objid magic pattern
+stripe size stripe count
+stripe idx subobj
+idx subobj
+shrink md size cookie acl size
+enlarge reply buffer extra bytes
+enlarge reply acl buffer bytes
+not run in request reply context
+unknown attr bits llx
+no xattr data supplied
+progress on len  llu rc
+copytool progress on fail rc
+finish rc cancel cookie   llx
+incompatible mask provide set llx
+incompatible mask provide set llx
+could not set an archive number for
+archive id from old client
+incompatible flag change on
+more than one transaction
+steal lock from lld   lld
+identity upcall set
+nodemap fileset
+get fileset
+block cache llu grant llu
+llu blocks llu free llu avail
+grow the
+client prepare buffer size
+nlink mode valid   llx
+return size llu
+after getattr rc ma valid llx ma lmm
+rpc from do not lovea
+read shorter symlink
+symlink dest len
+change the max md size
+partial getattr name child fid
+getattr with lock for
+getattr with lock for
+object open skip
+allocate object for
+find object for
+ldlm cli cancel
+convert pdo lock
+find sync lock
+get layout change request from client
+layout size
+object init fid
+object free fid
+cli support cksum type return
+cli do not support
+server disconnect error rc
+path get from llu
+invalid seq should be llx
+cannot find rc
+nonlocal object rc
+fid path recno llx linkno
+no getinfo key
+cannot get rmf getinfo vallen buffer
+cannot get get info rpc out buffer
+get version for
+handle ioctl cmd
+the upcall is
+invoke upcall time ldus
+parse mdt identity ngroups nperms
+transno llu last committed llu
+transno llu last transno llu
+change mfd open flags llo llo
+after open ma valid bite llx lmm size
+delete orphan mfd fid
+orphan mfd not found fid
+store old cookie llx in new mfd
+reconstruct open disp   llx result
+normal open lease count lm
+request bit lock ibits llx   llx
+will create layout get ex layout lock
+acq lease openers want
+fail find parent
+on remote mdt
+fail find parent
+be go open
+no object continue regular open
+no object for
+data version mismatches
+sclosing file handle with intent llx
+file release failed
+no handle for file close fid
+hal header version count
+fid dfid
+coordinator thread starting pid
+coordinator resumes
+coordinator stops
+disable state coordinator sleeps
+coordinator start read llog
+find request send
+no agent available
+coordinator thread exiting process
+coordinator thread started
+progress receive for fid cookie   llx
+update record fid cookie   llx action
+fid action flags   llx
+receive new policy
+new policy rm   llx add   llx set   llx
+agent register for all archives
+agent register for archives
+agent unregistration
+add hsm remove request
+agent select for archive
+lose connection agent unregistering
+read som attrs
+prolong dom lock for req with llu
+refresh dom lock for
+write io stale object
+skip commit stale object
+retry after force commit retries
+call punch for object valid llx
+size llu
+glimpse from the client own lock
+have no composite layout
+layout version
+file size llu reply size
+read wanted byte from llu
+read on open failed rc
+fid action rq flags   llx
+valid bits llx
+getxattr
+listxattr
+listxattr failed
+setxattr for
+valid bits llx
+fid dfid
+slrh  type len idx fid
+search llx find llx
+llog successfully initialized start from lld
+show from cat index eof
+res update lvb size from disk
+res update lvb mtime from disk
+res update lvb atime from disk
+res update lvb ctime from disk
+res update lvb block from disk
+skip lvb update export obd
+res update lvb size
+res update lvb mtime
+res update lvb atime
+res update lvb ctime
+res update lvb blocks
+small buffer size for ea
+space
+allocate sequence
+new range
+allocate sequence llx
+new sequence llx
+allocate fid
+detach sequence client
+sequence controller already
+attach sequence controller
+can allocate super sequence
+allocate meta sequence
+space
+width llu
+space
+sequence size llu
+dump sfield follows
+dump swab field
+dump sarray field
+dump swab array field
+field have no dumper function
+end req capsule dump
+reply packed allocated field len
+retrieve sepol
+get nodemap new refcount
+put nodemap new refcount
+find nid
+nodemap null on export at
+successfully import rfc context
+successfully import context
+successfully copy reverse context
+ctx not uptodate
+register mechanism
+unregister mechanism
+delete
+create reverse
+create ctx
+prepare error notify
+process init request from
+invalid context handle for destroy
+do gc on sec
+reverse svcctx rsc expire soon
+reverse svcctx rsc update seq
+cache check return enoent drop
+cache check good
+server create rsc
+create rsc with idx llx
+invalid input buffer for null context
+successfully import null context
+successfully copy reverse null context
+ctx start timer llds
+ctx key
+destroy ctx
+destroy
+request key for
+obtain key for
+instal key ctx sec
+no more key find for current user
+sec nctx uid grace force
+key instantiated ctx
+update too soon key flag lx
+destroy key
+successfully import sk context
+successfully copy reverse sk context
+token receive too short expect
+fail create checksum validate
+token receive too short expect
+release ld pages ld left
+add page total lu
+add page into pools
+the nrs policy be register on
+insert new idmap
+change import state from
+set import invalid
+import for not
+import already conn be
+sleep llds for inflight error out
+wake pinger
+recovery started wait seconds
+recovery finish
+connect nid last attempt lld
+try all connections increase latency
+connection change
+import use connection
+reset ns connect flags server
+connect target with instance
+connect replayable target
+connect during recovery
+reconnected after partition
+reconnected but import invalid
+reconnected during replay
+evicted aborted by during recovery
+recovery on fail
+last replay message error
+thread invalidate import
+evict from invalidating
+replay request by
+disconnect after llus idle
+add time  lu
+at change old new delta
+remove old index create new one
+find config entry nm id type
+nodemap config change inflight old llu new llu
+walk index hashend llx
+read nodemap log name size
+ignore the unmatched deletion
+from net rpc
+free sptlrpc conf
+create sptlrpc conf
+process rule
+obd
+open log
+bad ctxt id idx name
+no ctxt group idx name
+bad ctxt id idx
+bad ctxt id idx
+bad ctxt id idx
+tbf start rule rate llu gen llu
+nrs stop request from seq llu
+client save version llx   llx
+interrupt set
+set go sleep for lld seconds
+skip recheck last committed llu
+commit for last committed llu gen
+resend bulk old llu new llu
+unregistering policy from nrs core
+registered
+unregistered
+find delay sec adapt expired do now
+req flavor have change
+be destroied
+reverse sec use flavor
+select security flavor
+import change flavor
+import netid select flavor
+exp just changed
+good but not root
+exp do delay adapt
+mark middle expired
+exp not match middle
+exp match the oldest one lld
+mark oldest expired
+exp not match found
+exp skip the last one
+exp update flavor
+conn refcount
+put conn refcount
+conn refcount
+started listen on portal
+think about evict from lld
+drop req for fail obd
+arm at llds
+get req llu
+get req llu
+stop thread
+service thread started
+post buffers
+service thread exiting rc
+stop thread for service
+wait for stopping thread
+start min max
+wait for create thread
+create thread race retry later
+start thread
+tear down
+start recovery
+import from commit llu last llu
+import abruptly disconnected reconnecting
+set import valid
+recovery started wait jiffies
+recovery finished
+ir up
+ir down
+next wakeup in lld lld
+add pingable import
+remove pingable import
+start ping evictor
+evict all export obd older than lld
+last request be at lld
+exit ping evictor
+ir connect an obsoleted
+ir have already be connect
+add sec
+del sec
+hand over ctx
+gc pick ctx
+sec have gc time
+check on sec
+deletion pending start over
+truncate req rpc
+incoming req llu msgsize
+peer source
+buffer complete buffer still posted
+my pid is
+can init network interface
+peer id
+send byte portal xid lld offset
+transfer page byte via portal
+setup bulk buffers page bytes
+no early reply support flags
+send enodev from fail obd
+mute rpc for fail imp obd
+setup reply buffer bytes xid llu
+lnetmeattach portal
+nrs start request from seq llu
+nrs stop request from seq llu
+msg buffer not present count
+lov user md
+tlmm magic
+tlmm pattern
+tlmm object id llu
+tlmm object gr llu
+tlmm stripe size
+tlmm stripe count
+tlmm stripe offset lmm layout gen
+tlmm pool name
+tlmm pool name
+ttarget list
+bad magic
+lov comp md
+tlcm magic
+tlcm size
+tlcm layout gen
+tlcm flags
+tlcm entry count
+tlcm mirror count
+tentry
+tlcme id
+tlcme flags
+tlcme timestamp llu
+tlcme extent   start llu
+tlcme extent   end llu
+tlcme offset
+tlcme size
+swab lov user md
+swab lov user md
+swab lov user comp md
+swab lov user md
+invalid lov magic
+swab lov mds md
+niobuf remote offset  llu len flags
+obdo valid llx
+obdo id
+obdo parent seq llx
+obdo size lld
+obdo mtime lld
+obdo atime lld
+obdo ctime lld
+obdo blocks lld
+obdo grant lld
+obdo blksize
+obdo mode
+obdo uid
+obdo uid
+obdo gid
+obdo gid
+obdo flags
+obdo nlink
+obdo checksum nlink
+obdo parent oid
+obdo stripe idx
+obdo parent ver
+obdo handle lld
+rmf rcs
+initiate qmt shutdown
+lose global index lock for type
+update default quota set from qmt
+qqi reference count repeat
+no space account support rc ld
+initiate qsd shutdown
+qsd shutdown completed
+initialize lvb
+nobody notify
+skip defer update ver
+find defer update record
+schedule update global version  llu
+discard glb update from glimpse
+process quota parameter fs cfgstr
+look up create sglobal idx file
+lookup slave index file for
+lookup create slave index file for
+update global index hardlimit llu
+update grant llu for id llu
+global quota lock successfully acquired glb
+process page for index
+process page with
+reintegration process for fid successfully
+start reintegration thread for
+glb ver  llu  llu slv ver  llu
+pending update for type
+pending dqacq for type
+hash have entry inuse inuse  lu
+echo device go be freed next
+no object exists exiting
+ecl cookie llx
+echo client write return
+after getattr rc ma valid llx ma lmm
+start create object
+end create object rc
+lookup in parent
+start setattr object
+end setattr object
+start getattr object
+end getattr object
+start lookup object
+end lookup object
+start destroy object
+end destroy object
+oa oid
+get page llu for
+use page addr llu
+obdos with ios
+page allocate after prep
+read obdos with ios
+write obdos with ios
+page remain after commit
+create object
+destroy object
+search in lmv for uuid activate
+target idx conn llx
+find obd device type at lmv idx
+obd already sactive
+mark obd sactive
+connect
+connect successfully
+target uuid index
+time connect
+disconnect from successfully
+get path rec llu ln
+cbdata for
+close
+locate mdt parent
+create name on md
+create
+enqueue on
+enqueue on md
+getattr name for on md
+early cancel on
+link
+migrate
+rename
+setattr for valid
+entry hash llx
+unlink with fid md
+invalid client cookie llx
+invalid key
+can lookup rc
+invalid client cookie llx
+unpack lsm count master hash type
+unpack fid
+lock match for
+inaccessible rc
+fld lookup get md for fid
+remote intent with fid md
+security xattr fetch for
+revalidate slave md
+slave still valid
+open intent with fid fid
+lookup intent with fid fid
+intent lock for on
+add site lru hash bkt
+ld object cached cache pressure
+shrink lu objects
+lustre lu module
+destroy cache entry for key llu
+upcall for key llu not expected
+upcall for key llu return
+find uptodate entry key llu
+create upcall cache entry for key llu
+ctxt already set up
+obd ctxt initialized
+valid llx new time lld  lld
+src obdo valid llx dst obdo
+net
+obd dev attach type with refcount
+finish setup obd uuid
+detach on obd uuid
+force export disconnect
+incref now
+decref now
+add profile
+del profile
+lctl invoke upcall time ldus
+process cmd
+remove mapping for uuid
+mountopt profile osc mdc
+mountopt profile
+change lustre timeout from
+change lustre ldlm timeout from
+marker
+marker inst flg mark flg
+skip
+exclude
+skip
+for interoperability
+cmd mark excluded
+cmd instance name
+add net info setup
+skip add conn for
+look llog
+process log gen rc
+manual cleanup flags
+device name
+no device for name
+device name dev
+cmd
+device name
+no device for uuid
+device name dev
+disable committed transno notification
+obd object eof llx
+val obd object eof llx
+val obd object eof llx
+load module
+type already registered
+allocate new device
+release obd device obd type name
+finish cleanup obd
+look for null handle
+want new connection
+look for export cookie llx
+destroy export for
+get export refcount
+put export new refcount
+final put
+destroy import for
+import refcount obd
+import refcount obd
+final put import
+lock export ref
+lock export ref
+connect client cookie llx
+disconnect cookie llx
+disconnect export at
+disconnect export at rc
+obd device have exports
+obd device have no exports
+disconnect stale client
+disconnect dead export skipping
+disconnect export
+disconnect export
+can disconnect nid no export found
+get export total
+put export total
+modify rpc slot allocate
+sleep for modify rpc slot
+lock lu lu
+checksum algorithm test error
+checksum algorithm speed
+find uuid cnt
+add uuid
+try delete non existent uuid
+del uuid
+check if uuid have
+add object with handle llx hash
+remove object with handle llx from hash
+get refcount
+jobid duplicate find for pid
+jobid pid map established
+freeing
+clear jobid
+item remain in jobid table
+add tgt server targets
+remove server
+tgt size
+recalc tgt usable bavail  llu ffree  llu tgtppo  llu tgtp  llu svrppo  llu svrp  llu wt  llu
+send message rc fp
+kernelcomm bad group
+add uid fp group
+kernelcomm bad group
+remove uid fp from group
+kernelcomm bad group
+kernelcomm bad group
+not read header from byte log
+new record
+modify record idx
+llog get too large at
+add record off llu
+look for log index cur idx off
+look for log index
+llog exist with the same fid
+llog fid obj doesn exist
+cat list disk size read
+can write catalog at index rc
+nb  page index ld
+id llx offset llu off llx
+id llx offset llu id llx llx
+id llx offset llu end off llx
+id llx offset llu end id llx
+stat data
+refcnt
+use hash
+find stats for nid ref
+lu lx
+new plain log catalog
+use next log
+cannot find llog for handle
+llog do not exist
+process log at index catalog
+add llog entry size  llu tot  llu
+catlog first idx last idx
+cancel plain log at index catalog
+create new object
+find old llog lastid file
+find old lastid file for sequence llx
+register mount from
+deregister mount from
+get mount from refs
+put mount from refs
+last put mount from
+start mg service
+stop mg service
+mg not running
+set mgc disk for
+unassign mgc disk
+lri reference count repeat
+skip add conn for rec
+registration fs index flags
+error register with the mgs
+start target
+server put super
+stop
+umount
+server sb dev
+already started
+find service on device
+lcfg
+start obd typ
+new mg with live mgc
+set mgc reconnect
+start mgc
+mg nids
+mgc still have references
+disconnect fail
+free lsi
+put
+drop sb
+mgc still in use
+check exclusion in
+ignore exclude type
+vfs op sb
+mount client
+mount server from
+mount complete
+llogd body
+tlgd logid lgl oi oi fid
+tlgd logid lgl ogen
+tlgd ctxt idx
+tlgd llh flags
+tlgd index
+tlgd saved index
+tlgd len
+tlgd cur offset llx
+llog header
+tllh hdr lrh index
+tllh hdr lrh len
+tllh hdr lrh type
+tllh timestamp llx
+tllh count
+tllh bitmap offset
+tllh flags
+tllh size
+tllh cat idx
+tllh tail lrt index
+tllh tail lrt len
+lustre cfg
+tlcfg  lcfg version
+tlcfg  lcfg command
+tlcfg  lcfg num
+tlcfg  lcfg flags
+tlcfg  lcfg nid
+tlcfg  lcfg bufcount
+tlcfg  lcfg buflens
+no enough space hold linkea entry
+new link ea name added
+old link ea name removed
+no enough space hold the last linkea entry
+old link ea name not found
+at
+cancel records first in log
+catalog index already clear
+index last index
+cur offset llu chunk offset llu
+process rec type
+after swabbing type idx
+synced idx
+skip lrh index
+index lh last idx
+process flag startcat startidx first idx last idx
+index idx
+reset oi scrub file old flag
+fail load scrub file
+invalid scrub magic
+store scrub file rc
+oi scrub checkpoint at po llu
+backup index rc
+cannot find log
+cannot find log
+cannot destroy log
+invalid log name rc
+see record at index in log
+record type at index in log
+checksum speed crc crc adler
+create new object
+can set version rc
+can get version rc
+create directory
+create agent entry for rc
+remove agent entry for rc
+quota for id not found
+force ignore quota flag
+realloc for pages
+realloc for blocks
+inode lu map page from lu
+skip
+fid not in the id map cache
+fid not in the id map cache
+no inode ino rc ld
+unmatched inode ino oii gen
+stale inode ino
+no inode for fid ino rc
+bad inode for fid ino
+unmatched inode for fid ino
+stale inode for fid ino
+fail check lmv ea inode lu
+sync osd rc
+async commit osd
+set journal dev lx rdonly
+set dev lx rdonly
+enforce quota on uid gid
+declare uid gid
+increase nlink
+decrease nlink
+get version llx for inode lu
+set version llx old llx for inode lu
+set xattr with size zu
+index object
+add info
+parent lu insert lu rc
+fail reinsert the dirent
+fail iget for dirent
+fail start trans for dirent
+expect remote agent
+the target inode do not
+fail verify fid in the dirent
+fail re insert fid after
+fail set lma for
+fail append igif
+connect
+fail start trans for scrub op
+fail refresh oi map for scrub op
+fail start trans for convert ff
+fail convert ff rc
+oi scrub prep flag
+oi scrub post with result
+fail read inode ino
+fail checkpoint po llu
+join in the oi scrub with flag rc
+oi scrub fail init env rc
+oi scrub fail scrub prep rc
+oi scrub start flag po llu
+oi scrub stop po llu rc
+index object registered
+restore index with rc
+child lack inode rc
+fail get lma for init oi scrub
+fail set lma for init oi
+cannot lookup child rc
+child lack inode
+cannot add child
+recover from
+cannot rename for
+send
+error on write ip pi
+send ip pi
+packet type nob niov nkiov
+send byte in frags
+eof from
+peer ni conn race retry later
+page offset for
+sk wspace low water conn
+peer ni deleted
+get peer ni
+peer ni iface ksni nroutes
+bind pi pi
+rebind pi from pi
+scheduler have no threads select scheduler
+new conn pi pi
+not create conn type
+connection
+gw down
+peer ni alive lld sec ago connect
+before nal cleanup kmem
+after nal cleanup kmem
+get peer ni version
+msg type cred
+snd rc dl lld
+conn version
+state nposted cred cred
+comms err
+early rxs
+tx noops
+tx queue nocred
+tx queue rsrvd
+tx queue
+active txs
+rxs
+scheduler have no threads select scheduler
+peer credits will result in send work
+close conn
+close stale conn version
+peer ni alive lld sec ago
+rx llx   llx
+wait for failover
+another thread allocate new
+allocate new fmr pool
+finalize pool
+initialize pool
+another thread allocate new
+pool exhausted allocate new pool
+ps pool create take lld complete
+before lnd base cleanup kmem
+after lnd base cleanup kmem
+before lnd net cleanup kmem
+after lnd net cleanup kmem
+configuration device failed rc
+receive from
+rx conn
+fragnob available page with
+niov offset nob
+fragnob available page with
+post enough
+no credits
+not use last credit
+redundant or enough noop
+error post transmit
+too soon
+bind port hu
+bind port hu failed
+send byte in frags
+close conn
+active version status
+conn race
+accept
+reject by old version peer ni
+connreq
+addr resolved
+connection bind
+route resolved
+establish passive
+established active
+ignore timewait exit event
+established
+set quiesce trigger
+command nid
+invalid parameter
+take node down
+bring node up
+invalid command
+proc peer state report node down nid
+alloc fmablk num msg maxsize credit
+mdd release fmablk sz avail hold
+fmablk free buffer mbox size
+conn smsg fmablk
+conn smsg fmablk free smsg mbox
+conn smsg fmablk hold smsg mbox
+conn smsg fmablk release smsg mbox
+get dgram
+slab alloced dgram lu at ndgrams
+dgram saw clean up
+grc dgram type post state
+slab freed dgram lu at
+dgram type cdm
+add peer conn with nid
+ready llx on device
+grc dgram type post state
+ready llx on device
+wait for connect finish rc
+connect failed rc
+drop complete connreq for peer
+not create duplicate connection
+new conn dev
+clear peer unlink
+nak errno
+nak failed rc
+drop nak from
+nak done
+clean dgram rc
+check dgram type
+wake dgram mover thread
+process connect
+error dev could not post wildcard datagram
+do timeout lu next lu jiffy lu
+schedule timeout ld lu sec
+awake after schedule
+llx
+llx
+schedule conn caller
+not schedule conn caller
+not waking
+slab freed tx phys lu at
+vfreed buffer
+slab freed tx lu at
+slab alloced tx lu at
+cksum for ptr sz zu
+calc cksum for kiov nkiov offset nob dump
+odd len offset nob
+cksum for addr len offset
+retsum from cksum
+slab alloced tx  tx phys lu at
+tx buffer map start kiov niov offset
+page kiov offset kiov len nob
+slab freed tx phys lu at
+no byte send turn on timer for lu
+conn for
+slab alloced rx lu at
+consume
+slab freed rx lu at
+send msg type with byte in frags
+check conn timeout keepalive
+send noop idle lu  lu
+check peer for timeouts interval lus
+conn time out will
+cancel tx for peer
+start connect
+can release peer conn from purgatory lu
+reconnected in lds or admin force detach drop
+drop hold resource due
+schedule timeout ld lu sec
+awake after schedule
+set new min timeout ld
+next check at lu or in sec
+send rdma cq empty process ld
+move conn from delay queue ready queue
+schedule conn for fmaq
+smsg rx cq empty data llx
+smsg rx cq error llx
+smsg rx cqid lookup llu
+smsg rx cqid llu
+send noop idle lu
+send regular msg type cookie llx
+reschedule more do
+reset rdmaq byte ld deadline lu lu
+error tx data tx tx id nob llu physnop buffertype memhandle llx   llxx
+smsg rx empty conn
+send close msg
+tx type will
+tx type will
+send close with errno
+conn for processing
+awake after yeild
+awake after schedule
+skip prune
+close stale conn nid
+close stale conn nid
+check conn for peer
+alloc cqid for conn
+create conn ep hndl
+not connect non null ephandle find peer
+start connect
+schedule new connect
+destroy conn ephandle error
+peer ting conn rst error
+peer last alive lld llds ago
+close conn error
+error someone schedule after be
+error someone schedule after be
+close conn errno
+conn src dst smsg acquire
+peer nic
+peer deleted
+conn peer dev
+peer purg conn mdd list tx
+peer can reconnect at lu interval lu
+get peer
+unlinking peer
+find peer at index
+no gni peer at index
+peer connect
+wait on peer close detaches
+conn
+peer when lld
+nic nid
+initial kmem
+after nal cleanup kmem
+add net nid on dev
+before nal cleanup kmem
+after nal cleanup kmem
+case loop src dest nob niov
+free pages
+bump all timeouts by ds
+all thread paused
+all thread awake
+will try clear ready conns
+about release purgatory entries
+trigger reset to bump pause
+wait for hardware quiesce
+request thread pause
+thread pause already underway
+initiate thread pause
+thread pause bypass because shutdown
+request timeout bump by lld msecs
+timeout bump bypass because shutdown
+request stack reset
+stack reset bypass because shutdown
+ec node available
+ec node failed
+ec node unavailable
+ignore
+unknown event
+kgnilnd rca report nid
+done
+krca wakeup wait event failed
+krca get sysnodes fail
+nid rc up
+add service id name
+wait for post buffer unlink
+abort service id name
+shut down service id name
+post rpc peer service timeout
+outgo framework rpc done
+reserve buffer for test
+batch already active llu
+batch llu inactive
+lst no active session
+transfer page bulk data
+can find group
+group busy
+can find group
+group busy
+can find group
+group busy
+can find group
+group busy
+can find group
+group busy
+can create transaction
+can find group
+batch already exists
+can find batch
+can find specify test in batch
+can find batch
+can find batch
+fail add test
+can find batch
+can change run batch
+can find group
+group have no active nodes
+fail add test batch
+can find batch
+can find test
+can find group
+out memory
+transaction started
+transaction stopped
+transaction success failure total
+transaction destroy with pending rpcs
+condition error while create rpc
+ping nod in session
+session closed wakeup transaction
+ping test finish ok
+reply in llu nsec
+get ping from
+shutdown
+queue msg for resend
+msg recovery ping retry
+msg request no resend retry
+health check
+md already unlinked
+msg not commit for send or receive
+msg status cannot retry
+msg in inconsistent state don perform health
+health check status hstatus
+src dst simulate health error
+set rout down for gw because
+discovery disabled process reply for gw
+router discovery fail
+add route remote net hop priority gw
+del route net gw
+expect find an lpni for but non found
+discover cpt
+notify
+auto down disabled
+not found
+event equeue busy on destroy
+event sequence lu eq  size
+event queue overflow eq seq lu ev seq lu
+msg cancel will not be resent
+ni is pref
+no peer ni find on peer net
+sd best lpni
+compare ni with best ni
+select best ni
+rspt next hop nid
+trace try
+set prefer local nid on nmr peer
+msg delayed pending discovery
+source destination
+resending recovery try
+attempt recover local ni
+receive event status
+recovery ping unlinked
+recovery message send
+reply from length into md llx
+ack from into md llx
+trace
+src dst drop simulate
+resume delay put from portal
+lnetput
+reply from md
+lnetget
+accept from pi
+acceptor stopping
+nid
+net
+net
+nid
+nid
+peer nid
+peer
+peer nid flag
+peer nid
+peer
+peer nid
+peer nid
+nid primary nid rc
+peer nid flag
+peer nid flag
+peer nid flag
+peer nid
+peer
+peer be not configured
+prim nid not primary for peer
+multi rail state mismatch for peer
+prim nid not primary for peer
+nid
+queue peer
+discovery complete dequeue peer
+send pending message target
+push put from unknown source ignoring
+push put error from source
+corrupt push from
+peer have discovery disabled
+peer have discovery enabled
+truncate push from nids
+ping push race from
+cannot allocate push buffer for
+receive push
+discovery attempt
+non blocking discovery
+peer nid
+peer ev  status
+ping reply error from source
+corrupt ping reply from
+peer have discovery enabled
+peer have discovery disabled
+peer mr
+peer mr capable
+truncate reply from nids
+peer seq get have peer rebooted
+peer data present state
+send
+ping unlink for message peer
+push unlink for message peer
+receive event
+peer
+peer
+peer state
+peer
+peer
+peer
+peer
+peer
+peer
+discovery error
+peer
+woken
+started
+peer state
+peer state rc
+stopping
+stopped
+discovery start
+discovery stopped
+no peer
+ld
+incoming index from
+request from length into portal
+resume delay put from portal
+set portal lazy
+clear portal lazy
+allocated
+gateway priority nob
+queue unlink md
+unlinking md
+port already in use
+can find valid message type bit
+add drop rule src dst rate interval
+remove drop rule src dst
+set drop all messages
+drop rule next drop lld
+drop rule next drop lu
+delay rule next delay lld
+delay rule next delay lu
+delay latency cannot be zero
+add delay rule src dst rate
+remove delay rule src dst
+lnd registered
+lnd unregistered
+still wait for ping data md unlink
+nnis success
+nnis error
+still wait for ping data md unlink
+remove lni
+add lni
+ref
+manually set healthv for all
+poll

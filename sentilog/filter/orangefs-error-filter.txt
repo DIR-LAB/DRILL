@@ -1,0 +1,1202 @@
+critical error message
+ncache initialize failure
+cannot properly resolve insert entry
+cannot properly resolve insert entry
+error fail insert entry
+ncache get cached entry failure
+ncache lookup failure
+fail get attributes skip
+dist do not exist
+op reqsize exceed prealloced
+op respsize exceed prealloced
+error fail bmi malloc memory for response
+error bmi address llu still valid
+invalid operation
+op need lld byte but alloced only
+invalid operation
+op need lld byte but alloced only
+error poorly format protocol message received
+too small message only lld bytes
+error poorly format protocol message received
+encode type mismatch receive type when
+error poorly format protocol message received
+protocol version mismatch receive major version when
+please verify your orangefs installation
+make sure the version consistent
+error poorly format protocol message received
+protocol version mismatch request have minor version when
+client too new for server
+please verify your orangefs installation
+make sure the version consistent
+error poorly format protocol message received
+protocol version mismatch request have minor version when
+server too old for client
+please verify your orangefs installation
+make sure the version consistent
+error poorly format protocol message received
+pint encode release encoder type not
+pint decode release encoder type not
+error epoll create failure
+error epoll ctl failure
+hello update addr index ref
+error tcp server init failure
+error fail retrieve peer name for client
+invalid network specification
+error bmi sockio new sock
+error bmi sockio bind sock
+error listen
+warning bmi communication attempt on an
+error message order violation
+error message too large for next buffer
+error message order violation
+error message too large for next buffer
+error incomplete bmi tcp header after seconds
+error bmi sockio nbrecv
+error bad magic in bmi tcp message
+error message order violation
+error message too large for next buffer
+error incoming size ld expect size ld
+reject client on port
+error accept continuing
+error accept
+error enqueue operation or tcp do work
+error enqueue operation returned
+error enqueue operation returned
+invalid method name method name
+fail find an appropriate listen
+target op  op id llu id llu
+null query op
+query op  op id llu
+unimplemented unexpected free callback
+tmp ref  ref count
+target op  op id llu id llu
+error bmi cancel unimplemented for module
+error fail lookup listen
+op list dump
+operation
+op id ld
+send recv
+msg tag
+error code
+amt complete ld
+buffer
+actual size ld
+expect size ld
+addr
+mode
+ni err
+ptlmeunlink sq
+mlen llu rlen llu do not agree
+ptlmeunlink sq
+alloc unexpected rq
+alloc unexpected rq data
+which but zero md
+alloc nonprepost rq
+unknown event
+ptleqpoll drop some completions
+ptleqpoll
+unimplemented
+ptlniinit failed
+ptlgetid failed
+ptlacentry
+ptleqalloc
+ptlmeattach mark
+ptlmeattach zero
+ptlmdattach zero
+ptlmdbind
+ptlmeinsert
+ptlmdbind
+ptlput
+send len llu longer than post lld
+ptlmdbind
+ptlget
+ptlmeinsert
+ptlmdattach
+ptlmdupdate
+ptlmeinsert
+ptlmdattach
+ptlmeunlink
+ptlmeunlink
+ptlmdunlink
+bmi method addr reg callback failed
+gethostbyname cannot resolve
+gethostbyname return byte addresses hop for
+convert nid hostname failed
+no found
+invalid pid number
+extra character after pid number
+ptlmeunlink
+ptlmeinsert
+ptlmdattach
+ptlmeunlink
+ptlmeunlink
+ptlmeinsert
+ptlmdattach
+refcnt should be zero
+ptlmeunlink
+server but no listen address
+ptlinit failed
+ptlmeunlink zero
+ptleqfree
+ptlmeunlink mark
+ptlmeunlink zero
+ptleqfree
+ptlnifini
+error
+send from
+error
+send from
+error
+send from
+error bad magic in bmi gm message
+error
+send from
+error gm return value
+send from
+error epoll create failure
+error epoll ctl failure
+hello update addr index ref
+error tcp server init failure
+error fail retrieve peer name for client
+invalid network specification
+error bmi sockio new sock
+error bmi sockio bind sock
+error listen
+warning bmi communication attempt on an
+error message order violation
+error message too large for next buffer
+error message order violation
+error message too large for next buffer
+error incomplete bmi tcp header after seconds close connection
+error bmi sockio nbrecv
+error bad magic in bmi tcp message
+error message order violation
+error message too large for next buffer
+error incoming size ld expect size ld
+reject client on port
+error accept continuing
+error accept
+error enqueue operation or tcp do work returned
+error enqueue operation returned
+error enqueue operation returned
+error
+error
+error
+error
+warning
+warning
+warning
+error invalid collection id requested
+error remove key llu
+error remove key llu
+error db runrecovery encountered
+dbpf dspace collection corrupt
+dbpf keyval collection corrupt
+trove dbpf berkeley db fail set flags
+trove dbpf berkeley db fail open
+trove dbpf keyval dbpf db get
+trove dbpf keyval dbpf db get
+trove dbpf dbpf db put keyval handle info ops
+trove dbpf keyval dbpf db get
+trove dbpf dbpf db put keyval write list ret
+trove dbpf keyval dbpf db get handle info
+trove dbpf keyval dbpf db get
+trove dbpf keyval dbpf db del
+trove dbpf dbpf db put keyval handle info ops
+invalid operation test against
+invalid dbpf op state find
+aio error on block skipping
+xxx lmdb map full
+dbpf dspace collection corrupt
+dbpf keyval collection corrupt
+pthread join failed tid
+error handle allocator return zero handle
+error dbpf dspace create list do not support force handle or empty extent specifier
+error handle allocator return zero handle
+try remove non existant dataspace
+trove dbpf dbpf dspace remove
+fail get cursor
+fail set cursor position at handle llu
+fail set cursor position at handle llu
+get fail on iteration
+trove dbpf dspace dbpf db put setattr
+trove dbpf dspace dbpf db get
+invalid operation test against
+invalid dbpf op state find
+from op type
+invalid operation test against
+invalid operation testsome against
+error in dspace create db    get failed
+warning find old bstream file
+error trove fail rename strand bstream
+error in dspace create db    put failed
+dbpf open cache initialize fail
+dbpf open cache get pull exist entry from the used list with the
+thandle  llu
+tref ct tfd
+dbpf open cache get pull exist entry from the unused list with the
+thandle  llu
+tref ct tfd
+dbpf open cache get pull first entry from the free list with the
+tsetting remove flag zero
+dbpf open cache get pull first entry from the unused list with the
+tsetting remove flag zero
+dbpf open cache remove bingo entry find in the used list when try
+tused list entry
+handle  llu
+ref ct tfd
+tremove flag
+type
+dbpf open cache remove handle  llu find in the unused list with
+unable allocate memory for file struct
+unable allocate memory for pathname
+unable allocate memory for file struct
+unable allocate memory for pathname
+error do stat on bstream entry
+unable open strand bstream directory
+pthread join failed tid
+dbpf initialize failure invalid data storage path
+dbpf initialize failure invalid metadata storage path
+dbpf finalize attr sync
+dbpf finalize attr close
+dbpf finalize attribute database not defined
+dbpf finalize collection sync
+dbpf finalize collection close
+dbpf finalize collection database not defined
+invalid storage name specified
+dbpf collection create
+dbpf collection create
+stat fail on data directory
+mkdir fail on data directory
+stat fail on metadata directory
+mkdir fail on metadata directory
+mkdir fail on data collection directory
+mkdir fail on metadata collection directory
+fail stat db file
+dbpf db create fail on attrib db
+dbpf db open fail on attrib db
+db    put fail write trove dbpf version
+db    put fail write initial handle value
+fail stat attrib db
+dbpf db create fail on
+fail stat keyval db
+dbpf db create fail on
+mkdir fail on bstream directory
+mkdir fail on bstream bucket directory
+mkdir fail on bstream directory
+trove dbpf dbpf db get collection
+trove dbpf dbpf db del
+trove dbpf dbpf db sync
+failure remove dataspace attrib db
+failure remove keyval db
+failure remove collection attrib db
+error do stat on bstream entry
+failure remove bstream entry
+failure remove bstream directory
+error do stat on bstream entry
+failure remove bstream entry
+failure remove bstream directory
+failure remove metadata collection directory
+failure remove data collection directory
+trove collection not defined
+db sync coll attr db
+db sync coll ds db
+db sync coll keyval db
+trove dbpf dbpf db get collection
+fail retrieve collection version
+fail get the version
+fail get the version
+trove dbpf metadata format version mismatch
+collection have version
+code understand version
+not directory
+not directory
+failure open attribute database
+failure open collection database
+invalid op state find op
+db sync failed
+fail lock flock before writing
+fail unlock flock after writing
+fail ftruncate direct fd size
+dbpf direct read try do direct io but file wasn
+dbpf direct read fail perform align read
+fail get size in dspace attr error
+fail get bstream extent from offset sizes
+fail get bstream extent from offset sizes
+direct locked read failed error
+fail count extent from stream offset sizes
+fail get stream extent from stream offset sizes
+fail create grow bstream handle table
+fail get dspace attr for bstream error
+fail perform direct lock write
+fail get size from dspace attr error
+fail update size in dspace attr
+fail coalesce size update in dspace
+fail find collection with fsid
+fail post direct read op error
+fail alloc memory
+logical to physical todo
+error in varstrip distribution in
+error in varstrip distribution in
+error in varstrip distribution in
+error in varstrip distribution the strip
+error in varstrip distribution there be more
+error parameter strips empty
+error parameter strips too long
+invalid num groups server ct options
+invalid num groups server ct options
+error strip size param
+error num groups param
+error group strip factor param
+error miss manditory parameter varstrip dist distribution
+error varstrip dist distribution parameter too long
+error unable parse varstrip dist distribution parameters
+job desc   dump
+job id ld
+type job bmi
+bmi id ld
+type job bmi unexp
+type job trove
+type job flow
+type job req sched
+type job dev unexp
+type job req sched timer
+type job null
+type job precreate pool
+job time out cancel bmi operation job id llu
+job time out cancel flow operation job id llu
+job time out cancel trove operation job id llu
+trove thread function thread terminating
+critical trove failure null callback
+trove thread function thread terminating
+bmi thread function thread terminating
+critical bmi failure null callback
+bmi thread function thread terminating
+exiting
+thread mgr bmi cancel scan op llu
+thread mgr bmi cancel skip op llu
+warning bmi cancel failed proceed anyway
+thread mgr trove cancel scan op llu
+thread mgr trove cancel skip op llu
+error job req sched release fail locate descriptor
+error trove support not enabled
+error trove support not enabled
+error trove support not enabled
+error trove support not enabled
+error trove support not enabled
+error trove support not enabled
+error trove support not enabled
+error trove support not enabled
+error trove support not enabled
+error trove support not enabled
+error trove support not enabled
+error trove support not enabled
+error trove support not enabled
+error trove support not enabled
+error trove support not enabled
+error trove support not enabled
+error trove support not enabled
+error trove support not enabled
+error trove support not enabled
+error trove support not enabled
+error trove support not enabled
+error trove support not enabled
+error trove support not enabled
+error trove support not enabled
+error trove support not enabled
+error trove support not enabled
+error trove support not enabled
+error trove support not enabled
+error unable write all precreated handle pool
+warning fsck may be need recover strand handles
+error unable write all precreated handle pool
+warning fsck may be need recover strand handles
+error get handles unknown server
+error could not find pool
+error invalid position give job precreate pool iterate handles
+error trove support not enabled
+error must be root open pvfs device
+error ioctl pvfs dev get magic failure
+error ioctl pvfs dev get max upsize failure
+error ioctl pvfs dev get max downsize failure
+error ioctl pvfs dev debug failure kernel debug mask
+ioctl pvfs dev upstream failure
+ioctl pvfs dev debug failure
+ioctl pvfs dev client mask failure
+overflow
+ioctl pvfs dev client string failure
+error total device buffer size must be multiple system page size
+error descriptor size must be power llu
+error fail mlock share buffer
+error fail munlock share buffer
+error short message from device
+error magic number do not match
+error protocol version do not match
+please check your pvfs module
+list count
+downcall iovec size should be be
+try write bytes writev return
+error ioctl pvfs dev remount all failure
+error unable parse device file
+error could not setup device
+error do you remember load the kernel module
+error could not stat
+error could not unlink old
+error could not create new device entry
+error could not open
+error request flow protocol which doesn appear be loaded
+flow proto cancel call on
+error occurred
+error occurred
+error occurred
+error occurred
+error occurred
+error occurred
+error occurred
+error occurred
+error occurred
+error occurred
+error occurred
+error occurred
+error occurred
+error occurred
+flow proto error cleanup start on
+flow proto cancel operations will clean up
+flow proto error cleanup finished
+warning bmi thread mgr cancel failed
+warning trove thread mgr cancel
+dump offset memory bmi
+dump offset pint process request
+dump offset bytes ld segs ld
+dump offset bmi memory
+dump offset pint process request
+dump offset bytes ld segs ld
+dump offset bmi trove
+dump offset pint process request
+dump offset bytes ld segs ld
+dump offset trove bmi
+dump offset pint process request
+dump offset bytes ld segs ld
+null acl buffer
+no group or pvfs attr common gid not set
+permission check for operation with no permission
+could not retrieve parent metafile handle
+could not retrieve parent handle from
+attempt perform operation on target
+invalid mask
+invalid argument
+warning seteattr operation with no keys
+error please check your config files
+error server aborting
+error invalid configuration aborting
+error fail allocate array for
+error could not initialize server aborting
+error fail write pid file
+error open log file
+error fail reopen stdin
+error fail reopen stdout
+error fail reopen stderr
+error open log file
+error could not start server aborting
+error could not initialize security module
+error could not initialize capability cache
+error could not initialize credential cache
+error could not initialize certificate cache
+warning could not cache ca certificate
+error could not initialize server subsystems
+error post unexpected recv
+fail create pid file
+cannot change work directory
+error in fork system call errno
+error in setsid system call aborting
+error initialize event interface
+error initialize distribution interface
+pint encode initialize failed
+error initialize cached config interface
+invalid storage space or
+storage initialization failed the most
+error set filesystem configuration in trove
+error set directio thread num
+error set directio ops per queue
+error set directio thread num
+error initialize trove for filesystem
+error configuration file do not match storage collection
+storage file fs id
+config file fs id
+warning most likely mean the configuration
+file have be regenerate without destroy and
+recreate the correspond storage collection
+error invalid handle range for host
+error initialize trove context
+error set handle timeout
+error set attr cache keywords
+error set attr cache size
+error set attr cache max num elems
+error initialize the attr cache
+error add handle range
+error set coalesce high watermark
+error set coalesce low watermark
+error set coalesce low watermark
+error set trove immediate completion
+error open job context
+error initialize performance counters
+error pint perf set info update interval
+error pint perf set info update interval
+error pint perf set info update history
+error pint perf set info update history
+error initialize the uid management interface
+error initialize precreate pool
+pvfs server signal faulty address
+pvfs server signal
+bt
+error please check your config files
+error sighup unable update configuration
+changing original bypass timeout check
+error sighup unable update configuration
+sigsegv skip cleanup exit now
+pvfs server get signal
+usage options
+foreground
+mkfs   twill cause server
+help   twill show message
+rmfs   twill cause server
+version   toutput version information
+pidfile twrite process id file
+alias tuse the specify alias for node
+error pidfile must be specify with an
+miss config file in command line arguments
+fail get current work directory create
+config file path greater than characters
+failure create absolute path from relative
+failure create absolute path from relative
+failure copy create full path into configuration
+config file path greater than characters
+failure copy configuration file path
+the two config file format no longer supported
+warning find empty post operation list
+error server do not implement request type
+server perf start rollover call with null pc
+server perf start rollover fail alloc sm
+error not find in configuration file
+error configuration file inconsistent
+error unable count server for fsid
+error unable allocate book keep information for
+error unable retrieve server for fsid
+error precreate pool initialize fail
+error precreate pool initialize fail
+error precreate pool initialize fail
+error precreate pool fail read eattrs
+error precreate pool fail read eattrs
+error pint cached config get meta failure
+error precreate pool fail create pool
+error fail record precreate pool handle
+warning fsck may be need recover lose handle
+error fail retrieve configuration on server
+error open temp file
+error could not write reference configuration
+error fail popen for command
+error fail popen for command
+error file system config on doesn
+match reference config from
+warning unable remove handle llu from handle list while verify strand objects
+error unable get dfile attributes
+error dfile have invalid attributes
+error dfile size lld invalid
+warning unable remove handle llu from
+error metafile have invalid attributes
+error metafile dfile invalid
+error metafile have an invalid number dfiles
+warning unable remove handle llu from handle
+error symlink target invalid
+error symlink miss target attribute
+warning symlink target use absolute path
+warning unable remove handle llu from handle
+error fail get attribute for dirdata object
+error dirdata entry have invalid attributes
+warning unable remove handle llu from
+error directory have invalid attributes
+error no memory for dirdata array
+error unable get dirdata array
+error directory dirdata invalid
+error could not read directory entries
+error directory entry invalid
+error directory type do not
+error directory entry count lld invalid
+error directory entry contain invalid character
+warning directory entry contain odd character
+error unable retrieve attributes
+error could not resolve handle llu server
+error could not find match server for handle llu
+error could not find handle llu
+error pint perf initialize key out order
+error pint perf initialize no key specified
+error pint perf count invalid key
+error pint perf count invalid op for timer
+error pint perf count invalid op for timer
+error pint perf count invalid op for timer
+error pint perf count invalid op for non timer
+error pint perf count sample roll over
+error pint perf count invalid op
+count lld be lld now lld
+perf timer start time not clean
+start time address mismatch key
+sample value lld
+error layout too large encode in request protocol
+fail get hostname while attempt guess
+get user info for uid failed
+get member for group gid failed
+error storage space or already
+error storage create failed aborting
+error trove initialize failed aborting
+fail merge the handle range format invalid
+error collection seteattr for root handle
+error dspace setattr for root handle
+error storage space or do not
+invalid server configuration object
+server alias not provide for server config
+error open config file
+configuration file error
+configuration file error
+configuration file error
+configuration file error
+configuration file error no flow module specified
+configuration file error
+configuration file error
+configuration file error no keystore path specified
+configuration file error no server key path
+configuration file error no ca certificate path
+error line ld
+error file system configuration invalid
+warning force trovesyncmeta be yes instead
+warning non sync mode not support without
+warning overwrite with
+warning overwrite with
+warning credentialtimeoutsecs value invalid ld
+warning capabilitytimeoutsecs value invalid ld
+when use enhance security timeout check
+warning credentialcachetimeoutsecs value invalid ld
+warning capabilitycachetimeoutsecs value invalid ld
+warning certificatecachetimeoutsecs value invalid ld
+invalid host id for alias
+fail create extent list
+roothandle llu not within the meta handle
+error fail alloc extents
+invalid config file
+fail find global config file
+fail stat config file please make sure
+the file nexists not zero file size has
+permission suitable for open read it
+fail open config file
+fail allocate byte for cache the
+fail read config file
+could not locate fs conf for fs id
+invalid host id for alias
+fail create extent list
+could not find handle range for host
+please make sure the host name in
+pint hint encode too many hint
+pint hint decode error
+environment variable pvfs  hints malformed start with
+environment variable pvfs  hints malformed unknown
+sm invoke call on invalid smcb or state
+sm action return invalid return code
+sm next call on invald smcb
+sm current state or trtbl invalid
+state machine request not valid
+state machine not find for operation
+frame get smcb index target list empty
+frame get smcb index target out range
+pjmp child state machine fail start
+pint realloc realloc fail magic number test
+mem size emem esize
+pint tcache finalize call with null pointer
+environment variable pvfs  hints
+error class
+warning non pvfs error code
+unknown event or event group
+unknown event or event group
+error buffer too small lu
+warning uid lookup error not
+error uid not number
+warning uid lookup error not found
+error gid not number
+warning unable get group list for user use
+warning unable get group list for user use
+error could not find any pvfs tabfile entries
+error try the follow tabfiles
+error could not find any pvfs tabfile entries
+error try the follow tabfiles
+error invalid tab file entry
+error offend tab file
+error with id already mount use
+error could indicate duplicate fsid
+error please check your server configuration
+error pvfs util resolve input path too long
+fail initialize file system
+continue execution without remain
+error could not initialize any file system
+error malformed flowproto option in tab file
+error unrecognized flowproto option
+error malformed encode option in tab file
+error unknown encode type in tab file
+error malformed num dfiles option in tab file
+error malformed num dfiles option in tab file
+error pvfs util resolve absolute only
+error reside on pvfs file system
+error reside on pvfs file system
+error fail load handle lookup table
+pint cached config get next meta call with
+hash search fail return configuration
+find end list metaservers
+fail find file system match fsid
+fail find file system match fsid
+the specify datafile layout larger
+the address specify in the datafile
+unknown datafile map algorithm
+error fail find handle llu in configuration
+error distribution failure for server
+distribution require more datafiles
+error fail find handle llu in configuration
+fail get number data servers
+warning reduce number data
+fail allocate server address list
+fail get io server addrs from layout
+fail allocate server address list
+error fail resolve address server
+error could not find any pvfs tabfile entries
+error tabfile
+error no tabfile specified
+error could not find any pvfs tabfile entries
+error try the follow tabfiles
+error invalid tab file entry
+error offend tab file
+error with id already mount use
+error could indicate duplicate fsid
+error please check your server configuration
+error pvfs util resolve input path too long
+fail initialize file system
+continue execution without remain
+error could not initialize any file system
+error malformed flowproto option in tab file
+error unrecognized flowproto option
+error malformed encode option in tab file
+error unknown encode type in tab file
+error malformed num dfiles option in tab file
+error malformed num dfiles option in tab file
+error reside on pvfs file system
+error reside on pvfs file system
+worker impl  destroy type
+can add queue worker type
+operation post with queue id llu isn
+fail get the manage op llu out the
+cannot post an operation without first add queue
+no queue id be specify there more than
+fail find valid queue match the
+fail push op onto queue llu
+no queue id be specify there more than
+fail push op onto queue llu
+no queue id be specify there more than
+can destroy non empty queue
+fail service operation llu
+fail complete operation llu
+fail push op onto queue
+warning capability cache signature size mismatch
+certificate have verification error
+error at depth
+ldap error
+could not stat ldap password file
+warning ldap password file have group or other
+error load ldap password file
+no ldap host specified
+ldap warning multiple entry for user
+ldap error user attribute
+ldap error user attribute
+ldap error user no value for
+ldap error user no ldap entry
+ldap error user no ldap results
+ldap search error retrying
+ldap error user no value for or
+userid and or password null or blank
+ldap warning multiple entry for user
+ldap result buffer null
+warning credential cache signature size mismatch
+could not find public key for alias
+error load private key
+error load private key
+error load keystore
+error load keystore issuer must start with
+error load public key
+error insert public key
+parameter error
+openssl error
+warning could not cache certificate
+error initialize
+error pint perf initialize failure
+client capcache update not cache cap because
+client capcache update out memory
+client capcache update could not copy capability
+error insert client capcache entry
+out memory
+error insert client capcache entry
+warning could not unlock cache lock
+null parameter
+no memory cache struct
+no memory hash table
+no memory hash table lists entries
+warning cannot set hash limit after cache
+invalid parameter
+invalid parameter
+bt
+openssl error
+error user cert path
+user private key path
+error could not retrieve current user
+write device response fail tag  lld
+pvfs client signal faulty address
+pvfs client signal
+bt
+pvfs  client core catch signal
+fail remount filesystems
+configuration server must be the form
+pint get server config struct failed
+pint config get fs key failed
+post iox request do not receive any offset length trailers
+post iox request invalid buffer index
+post iox request pint dev get mapped buffer failed
+post iox request trailer size ld
+post iox request mem sizes allocation failed
+post iox request iox sizes allocation failed
+post iox request iox offsets allocation failed
+post iox request op ids allocation failed
+post iox request file req allocation failed
+post iox request mem req allocation failed
+post iox request iox response allocation failed
+post iox request request contiguous fail mem sizes
+post iox request request hindexed failed
+lookup fail in create failure path
+copy dirents to downcall invalid trailer size ld
+copy direntplus to downcall invalid trailer size ld
+fail retrieve root handle for
+complete upcall unknown type
+error short read from device aborting
+op id ld complete op id ld
+complete op id ld weird
+error fail reopen stdin
+error fail reopen stdout
+error fail reopen stderr
+pvfs client daemon started version
+acache pint perf set info history size
+pint acache get pc return null
+ncache pint perf set info history size
+pint ncache get pc return null
+client capcache pint perf set info history size
+pint client capcache get pc return null
+cannot create remount thread
+fail process vfs requests
+pvfs  client core shut down
+invalid acache timeout value ms
+invalid ncache timeout value ms
+invalid ccache timeout value
+invalid ccache timeout value
+unrecognized option
+generate credential unable generate credential
+unable generate client credential for uid gid
+error fail reopen stdin
+error fail reopen stdout
+error fail reopen stderr
+pvfs  client core with pid exit with
+child process with pid be kill by
+chld process restart too quickly
+error initialize
+acache payload not find or attr status invalid
+acache payload find attr status okay
+error pint perf initialize failure
+display perf counter for ncache
+display perf counter for acache
+display perf counter for capcache
+detect environment variable
+error initialize event interface
+invalid sm control block op
+invalid dirname no lead
+lookup fail on
+invalid filename
+invalid dirname no lead
+cannot get parent directory
+lookup fail on
+error distribution do not have parameter
+error there be problem parse your distribution
+error there be problem parse your supply
+error there be problem set the parse
+error initialize
+error pint perf initialize failure
+please pas the device name in the option
+mount pvfs pvfs mnt pvfs
+cannot parse mount time option length
+cannot parse mount time option option
+cannot parse mount time option
+error mount option not supported
+error find an initialize inode in pvfs  read inode
+warning don have the reference the pvfs object handle use iget  iget locked interface
+fail initialize fsid fskey hashtable
+fskey table not initialized
+pvfs  sb get fs key fsid do not match
+fail parse mount time options
+error retrieve null fs id or root handle
+pvfs  get sb mount request fail with
+ensure all pvfs  servers have the same configuration files
+look at pvfs  client core log file typically tmp pvfs  client log for more details
+error retrieve null fs id or root handle
+invalid superblock obtain from get sb nodev
+error device name not specified
+pvfs  get sb mount request fail with
+ensure all pvfs  servers have the
+look at pvfs  client core log file
+pvfs  kill sb warning number inode allocs
+pvfs  xattr set trusted operation not permitted
+pvfs  xattr get trusted operation not permitted
+pvfs wait time out abort attempt
+the share memory system have not start in second after the
+interrupt operation in weird state
+pvfs device error you cannot open the device file
+dev more than once please make sure that nthere
+instance program use device ncurrently
+for example you can use the lsof program follows
+lsof grep run root
+open access count
+pvfs device cannot be open in block mode
+pvfs device error cannot obtain reference
+pvfs block read be not supported pvfs  client core bug
+bug trailer size ld trailer buf
+warn op not in wait state but in state tag llu should be llu
+fail copy data user space
+fail copy data user space
+fail copy trailer user space
+read buffer for trailer too small ld oppose ld
+cur op op linger op linger tmp
+error number iov vector ld notrailer count
+writev error free buffer returning
+fail copy data from user space
+error device magic number do not match
+error device protocol version number do not match
+please check your pvfs module pvfs  client version be consistent
+error trailer size ld non zero no trailer element though ld
+writev error trailer size ld iov len ld
+fail copy trailer data from user space
+writev could not vmalloc for trailer
+total must be at least  lu
+fail copy head
+error device magic number do not match
+warning no one wait for tag llu
+get hash link but no op
+fail copy downcall
+funky write head size
+operation with trailer
+operation with no trailer
+fail trailer vmalloc
+fail copy trailer
+device ioctl magic number don match
+invalid ioctl command number
+could not translate dev map
+could not translate dev map structure
+invalid null buffer specify in readdir handle ctor
+invalid buffer index specify in readdir handle ctor
+could not decode readdir from buffer ld
+client down abort readdir call
+could not decode trailer buffer
+byte decode ld trailer size ld
+invalid null buffer specify in readdirplus handle ctor
+invalid buffer index specify in readdirplus handle ctor
+could not decode readdirplus from buffer ld
+pvfs  readdirplus invalid po value no re entrance allow because distribute directory structure
+pvfs  readdirplus readdir index get
+pvfs  readdirplus could not decode trailer buffer
+pvfs  readdirplus byte decode ld trailer size ld
+could not allocate inode
+bad inode obtain from iget locked
+copy attribute inode fail with err
+warning filldirplus fail with err will probably cause readdirplus fail with einval error
+pvfs ndescs cannot be
+pvfs could not allocate bytes
+pvfs could not allocate bytes
+pvfs error bufmap already initialized
+pvfs error memory alignment front
+pvfs error memory alignment back
+pvfs error user provide an oddly
+pvfs error bufmap size not page size
+pvfs error ask for pages only get
+pvfs bufmap get not yet
+pvfs please confirm pvfs  client daemon running
+pvfs bufmap put not yet
+pvfs please confirm pvfs  client daemon running
+pvfs bufmap copy to user not yet
+pvfs please confirm pvfs  client daemon running
+pvfs bufmap copy to kernel not yet
+pvfs please confirm pvfs  client daemon running
+pvfs bufmap copy from user not yet
+pvfs please confirm pvfs  client daemon running
+pvfs bufmap copy to pages not yet
+pvfs please confirm pvfs  client running
+pvfs bufmap copy to pages count cannot exceed
+pvfs bufmap copy to pages invalid page pointer
+pvfs bufmap copy from pages not yet
+pvfs please confirm pvfs  client running
+pvfs bufmap copy from pages count cannot exceed number
+pvfs bufmap copy from pages invalid page pointer
+pvfs  bufmap copy iovec from user fail allocate memory
+pvfs  bufmap copy iovec from user compute total zd not equal zd
+fail copy data from user space
+pvfs  bufmap copy iovec from kernel fail allocate memory
+pvfs  bufmap copy iovec from kernel compute total zd not equal zd
+pvfs  bufmap copy to user iovec fail allocate memory
+pvfs  bufmap copy to user iovec compute total zd le than zd
+fail copy data user space
+pvfs  bufmap copy to kernel iovec fail allocate memory
+pvfs  bufmap copy to kernel iovec compute total zd le than zd
+pvfs  bufmap copy to user not yet
+pvfs please confirm pvfs  client
+pvfs bufmap copy to user iovec fail allocate memory
+pvfs bufmap copy to user task iovec compute total zd
+failure in copy to user lu could not be copied
+pvfs  get custom inode private
+pvfs could not initialize device subsystem
+fail initialize op hashtable
+pvfs  rename directory surpass
+pvfs  copy attributes to inode get invalid
+null iattr inode attrs in copy attributes from inode
+pvfs  inode getattr fail copy
+pvfs  inode getxattr bogus null pointers
+invalid size or key length
+pvfs  inode setxattr bogus value size flags
+pvfs  inode setxattr bogus null pointers
+pvfs  inode setxattr bogus key size
+pvfs  inode setxattr bogus key size
+pvfs  inode setxattr read only file system
+pvfs  inode setxattr immutable inode or append only
+pvfs  inode removexattr xattr key null
+pvfs  inode removexattr invalid key length
+pvfs  inode removexattr invalid key length
+pvfs  inode listxattr bogus null pointers
+invalid size
+fail allocate pvfs file inode
+fail allocate pvfs dir inode
+fail allocate pvfs symlink inode
+pvfs  create entry invalid op type
+perform handle checks length mismatch ld
+perform handle checks mismatch magic number
+perform handle checks fsid do not match
+get handle get invalid handle buffer
+get handle invalid fsid in private buffer
+could not allocate inode
+bad inode obtain from iget locked
+copy attributes to inode fail with err
+pvfs error status receieved
+pvfs assume error code inverted
+pvfs warning
+pvfs  acl decode null buffers
+pvfs  acl decode invalid value size
+pvfs  acl decode could not allocate acl
+pvfs  acl decode bogus value tag obtain
+pvfs  acl decode return einval
+pvfs  acl encode could not allocate byte
+pvfs  acl encode bogus value tag
+pvfs  acl encode return einval
+pvfs  get acl bogus value type
+pvfs  get acl could not allocate value ptr
+inode retrieve acl fail with error
+pvfs  set acl disallow on symbolic links
+pvfs  set acl posix acl equiv mode error
+pvfs  set acl invalid type
+pvfs  get acl fail with error
+invalid name
+invalid name
+pvfs  xattr set acl operation not permit
+pvfs  xattr set acl posix acl from xattr return
+pvfs  xattr set acl posix acl valid return
+set acl access invalid name
+set acl default invalid name
+pvfs  get acl default fail with error
+pvfs  set acl default directory fail with
+posix acl clone fail with enomem
+pvfs  acl chmod operation not permit on symlink
+pvfs  acl chmod get acl access fail with
+pvfs  acl chmod fail with enomem
+pvfs  permission cannot write an immutable file
+fail copy in buffers please make sure
+fail copy out buffers please make sure
+copy from pagecache fail allocate memory
+copy from pagecache user buffer size zd
+index cannot exceed number allocate page ld
+fail copy data user space
+invalid parameter split iovecs
+split iovecs could not allocate memory for lu bytes
+split iovecs could not allocate memory for lu bytes
+split iovecs could not allocate memory for lu bytes
+split iovecs exceed the index limit lu
+could not allocate memory
+could not allocate memory
+could not allocate page cache
+could not page cache alloc cold
+could not allocate memory for issue pages
+read cache pages fail ld
+bogus parameter page array
+bogus parameter
+page have the same file offset index
+out memory allocate uncached vec
+out memory allocate uncached xtvec
+fail with error zd
+write be not handle yet
+error in locate page ld
+wait for missing io error in wait for miss ld
+invalid offset
+invalid inode
+invalid pvfs inode
+invalid iovec or nr segs lu
+invalid file pointer
+fail generic argument check
+fail generic argument check
+fail split iovecs satisfy larger
+invalid parameter split xtvecs
+split xtvecs could not allocate memory for lu bytes
+split xtvecs could not allocate memory for lu bytes
+split xtvecs could not allocate memory for lu bytes
+split xtvecs exceed the index limit lu
+construct file offset trailer
+error in handle file return ld
+invalid inode
+invalid pvfs inode
+invalid iovec or nr segs lu
+invalid xtvec or xtnr segs lu
+mem count ld stream count ld
+fail split iovecs satisfy larger
+fail split iovecs satisfy larger
+pvfs  aio retry could not
+pvfs  aio retry critical error
+pvfs  aio cancel invalid parameter
+pvfs  aio cancel cannot retrieve
+pvfs  aio cancel kiocb structure
+pvfs  aio cancel cannot retreive
+fail generic
+fail copy user buffer ld make sure pvfs  client core
+pvfs  ioctl the fs ioc setflags only support set
+pvfs  file llseek invalid inode null
+operation not permit on read only file system
+wrapper called
+pvfs  xattr set default return eperm for inode
+pvfs  xattr set default return eperm for inode
+cannot create pvfs  op cache
+fail destroy pvfs  op cache
+op alloc kmem cache alloc failed
+null pointer in op release
+cannot create pvfs  dev req cache
+fail destroy pvfs  devreqcache
+fail allocate from dev req cache
+null pointer pas dev req release
+cannot create pvfs  inode cache
+pvfs  inode cache finalize warning release unreleased pvfs inode objects
+fail destroy pvfs  inode cache
+fail allocate pvfs  inode
+null pointer in pvfs  inode release
+cannot create pvfs  kiocb cache
+fail destroy pvfs  devreqcache
+kiocb alloc kmem cache alloc failed
+kiocb release kmem cache free null pointer

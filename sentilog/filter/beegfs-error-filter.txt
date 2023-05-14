@@ -1,0 +1,150 @@
+fail get state for mirror
+unknown mirror group id
+could not update user quota data
+could not update group quota data
+error during read file with uids or gids
+unable open file with uids or gids
+give quotadatatype do not match the
+give quotadatatype do not match the
+give quotadatatype do not match the
+give quotadatatype do not match the
+error generate access acl for new directory
+unable set exceed quota ids configuration problem detected
+error deserializing directory default acl
+error load directory default acl
+error set file acl
+error buffer too small
+only meta storage nodetypes supported
+could not get client stats from nodes
+job complete with return code
+could not download client list from management daemon
+could not download metadata server list from management daemon
+could not download storage server list from management daemon
+too many clientstats connections
+unable deliver mail due miss sender address
+unable deliver mail due miss recipient address
+will not send due empty subject
+will not send due empty message body
+unable deliver mail due miss smtp server
+unable deliver mail subject sender
+fail get installation information the metadata nodes
+fail get installation information the metadata nodes
+fail get installation information the metadata nodes
+fail get installation information the management node
+fail move file
+could not reference management server nodenumid
+could not reference metadata server nodenumid
+could not reference storage server nodenumid
+destination hostname empty nodeid
+request uri
+authentication failed miss nonce
+fail check distri
+ssh connection some nod
+could not write the configuration file file
+could not read the configuration file file
+could not write the configuration file file
+could not read the configuration file file
+fail save management nodes file
+fail save meta nodes file
+fail save storage nodes file
+fail save client nodes file
+could not read the configuration file file
+could not read the configuration file file
+could not read the configuration file file
+could not read the configuration file file
+could not list file directory
+could not read client warn file
+an error occur on the server side while
+an error occur on the server side while
+either the source or the target group do not exist
+an error occur on the server side while add the
+an error occur on the server side while remove
+fail update admon configuration
+authentication error
+authentication error
+fail load logfile
+authentication for admin user failed
+fail write runtime configuration database
+fail get general node info metadata node
+authentication for admin user failed
+new config not write path do not exist or not
+new config not write script not executable
+could not store runtime configuration database
+authentication for admin user failed
+authentication for admin user failed
+fail execute start all service script
+authentication for admin user failed
+fail execute stop all service script service
+authentication for admin user failed
+authentication for admin user failed
+authentication for admin user failed
+fail execute status all service script
+fail get general node info storage node
+authentication for admin user failed
+fail download target mapping from mgmtd
+fail download target mapping from mgmtd
+fail send email
+could not load file
+root by heartbeat
+fail delete chunk entry targetid
+unable reference metadata node for root
+fail link directory inode lost found
+fail link file inode lost found
+fail recreate dentry by id file link
+fail recreate dentry
+wait for beegfs mgmtd
+all component stopped exit now
+unable increase process resource limit for
+version
+new root directory metadata node
+could not stat dir entry file entryid
+root by heartbeat
+hard error occurred shut down
+all component stopped exit now
+unable increase process resource limit for
+get root by possession root directory
+root directory mirror
+version
+receive sigint shut down
+receive sigterm shut down
+receive an unknown signal shut down
+wait for beegfs mgmtd
+node id reservation failed management node offline
+push node state management node failed
+management node do not accept node state change
+push node free space management node failed
+management node do not accept free space info message
+bug buffer too small for message
+bug buffer too small for message
+beegfs helper daemon version
+client log message will be prefix with an asterisk symbol
+could not open path for target id targetid
+unable connect mirror node
+communication with mirror node failed
+unable connect mirror node
+communication with mirror node failed
+all component stopped exit now
+unable increase process resource limit for
+version
+wait for beegfs mgmtd
+node id reservation failed management node offline
+target id reservation failed management node offline
+benchmark started
+benchmark finished
+benchmark stop with errors
+benchmark stopped
+push target state management node failed
+management node do not accept target state
+node registration not successful
+push target state change management node failed
+management node do not accept target state changes
+bug attempt reference numeric node id
+unknown errcode given
+unknown errcode given
+hard error occurred shut down
+hard error occurred shut down
+all component stopped exit now
+version
+receive sigint shut down
+receive sigterm shut down
+receive an unknown signal shut down
