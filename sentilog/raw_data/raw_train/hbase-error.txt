@@ -1,0 +1,1145 @@
+./hbase-client/src/test/java/org/apache/hadoop/hbase/security/TestHBaseSaslRpcClient.java:      LOG.error(ex.getMessage(), ex);
+./hbase-client/src/test/java/org/apache/hadoop/hbase/security/TestHBaseSaslRpcClient.java:      LOG.error(ex.getMessage(), ex);
+./hbase-client/src/test/java/org/apache/hadoop/hbase/security/TestHBaseSaslRpcClient.java:      LOG.error(ex.getMessage(), ex);
+./hbase-client/src/main/java/org/apache/hadoop/hbase/security/access/Permission.java:          LOG.error("Ignoring unknown action code '" +
+./hbase-client/src/main/java/org/apache/hadoop/hbase/security/access/Permission.java:            LOG.error("Ignoring unknown action code '{}'",
+./hbase-client/src/main/java/org/apache/hadoop/hbase/security/SaslUtil.java:      LOG.error("Error disposing of SASL client", e);
+./hbase-client/src/main/java/org/apache/hadoop/hbase/security/SaslUtil.java:      LOG.error("Error disposing of SASL server", e);
+./hbase-client/src/main/java/org/apache/hadoop/hbase/shaded/protobuf/ResponseConverter.java:              LOG.error(msg);
+./hbase-client/src/main/java/org/apache/hadoop/hbase/shaded/protobuf/ResponseConverter.java:            LOG.error("Exception while reading cells from result."
+./hbase-client/src/main/java/org/apache/hadoop/hbase/CatalogFamilyFormat.java:      LOG.error("Ignoring invalid region for server " + hostAndPort + "; cell=" + cell, e);
+./hbase-client/src/main/java/org/apache/hadoop/hbase/ipc/BlockingRpcConnection.java:      LOG.error(HBaseMarkers.FATAL, "Can't get the connection header response for rpc timeout, "
+./hbase-client/src/main/java/org/apache/hadoop/hbase/filter/MultipleColumnPrefixFilter.java:          LOG.error("prefix {} is repeated", Bytes.toString(prefix));
+./hbase-client/src/main/java/org/apache/hadoop/hbase/filter/RegexStringComparator.java:        LOG.error("invalid charset", e);
+./hbase-client/src/main/java/org/apache/hadoop/hbase/filter/ParseFilter.java:      LOG.error("Could not find class {}", filterName, e);
+./hbase-client/src/main/java/org/apache/hadoop/hbase/filter/ParseFilter.java:      LOG.error("Could not find method {} in {}", methodName, filterName, e);
+./hbase-client/src/main/java/org/apache/hadoop/hbase/filter/ParseFilter.java:      LOG.error("Unable to access specified class {}", filterName, e);
+./hbase-client/src/main/java/org/apache/hadoop/hbase/filter/ParseFilter.java:      LOG.error("Method {} threw an exception for {}", methodName, filterName, e);
+./hbase-client/src/main/java/org/apache/hadoop/hbase/client/ConnectionUtils.java:      LOG.error("cannot determine my address", uhe);
+./hbase-client/src/main/java/org/apache/hadoop/hbase/client/ConnectionUtils.java:        LOG.error("No ClientProtos.RegionLoadStats found for server={}, region={}", serverName,
+./hbase-client/src/main/java/org/apache/hadoop/hbase/client/CatalogReplicaLoadBalanceSimpleSelector.java:      LOG.error("Failed to fetch Table {}'s region replica count", tableName);
+./hbase-client/src/main/java/org/apache/hadoop/hbase/client/ClusterStatusListener.java:        LOG.error("Unexpected exception, continuing.", cause);
+./hbase-client/src/main/java/org/apache/hadoop/hbase/client/Scan.java:      LOG.error("TimeRange failed, likely caused by integer overflow. ", e);
+./hbase-client/src/main/java/org/apache/hadoop/hbase/client/AsyncNonMetaRegionLocator.java:              LOG.error("Failed to get table {}'s region replication, ", META_TABLE_NAME, e);
+./hbase-client/src/main/java/org/apache/hadoop/hbase/client/AsyncBatchRpcRetryingCaller.java:      LOG.error("Server " + serverName + " sent us neither result nor exception for row '" +
+./hbase-client/src/main/java/org/apache/hadoop/hbase/client/AsyncBatchRpcRetryingCaller.java:          LOG.error("Server sent us neither results nor exceptions for {}",
+./hbase-client/src/main/java/org/apache/hadoop/hbase/client/Append.java:      LOG.error(e.toString(), e);
+./hbase-client/src/main/java/org/apache/hadoop/hbase/client/HBaseHbck.java:              LOG.error(pids.stream().map(i -> i.toString()).
+./hbase-client/src/main/java/org/apache/hadoop/hbase/client/ConnectionOverAsyncConnection.java:      LOG.error(HBaseMarkers.FATAL, why, error);
+./hbase-client/src/main/java/org/apache/hadoop/hbase/client/ConnectionOverAsyncConnection.java:      LOG.error(HBaseMarkers.FATAL, why);
+./hbase-client/src/main/java/org/apache/hadoop/hbase/client/AsyncConnectionImpl.java:      LOG.error("Error fetching cluster ID: ", e);
+./hbase-client/src/main/java/org/apache/hadoop/hbase/client/RawAsyncHBaseAdmin.java:                    LOG.error(
+./hbase-client/src/main/java/org/apache/hadoop/hbase/client/Get.java:      LOG.error("TimeRange failed, likely caused by integer overflow. ", e);
+./hbase-asyncfs/src/test/java/org/apache/hadoop/hbase/io/asyncfs/TestSaslFanOutOneBlockAsyncDFSOutput.java:          LOG.error("Failed setting up MiniKDC. Tried " + numTries + " times.");
+./hbase-asyncfs/src/test/java/org/apache/hadoop/hbase/io/asyncfs/TestSaslFanOutOneBlockAsyncDFSOutput.java:        LOG.error("BindException encountered when setting up MiniKdc. Trying again.");
+./hbase-asyncfs/src/main/java/org/apache/hadoop/hbase/io/asyncfs/FanOutOneBlockAsyncDFSOutputSaslHelper.java:      LOG.error(msg, e);
+./hbase-asyncfs/src/main/java/org/apache/hadoop/hbase/io/asyncfs/FanOutOneBlockAsyncDFSOutputHelper.java:      LOG.error(msg, e);
+./hbase-backup/src/test/java/org/apache/hadoop/hbase/backup/TestIncrementalBackupMergeWithFailures.java:        LOG.error(e.toString(), e);
+./hbase-backup/src/test/java/org/apache/hadoop/hbase/backup/TestBackupUtils.java:          LOG.error("Failed to get foo's home directory", ioe);
+./hbase-backup/src/test/java/org/apache/hadoop/hbase/backup/TestBackupUtils.java:          LOG.error("Failed to get bulk output dir path", ioe);
+./hbase-backup/src/test/java/org/apache/hadoop/hbase/backup/TestBackupDelete.java:      LOG.error("failed", e);
+./hbase-backup/src/test/java/org/apache/hadoop/hbase/backup/TestBackupDelete.java:      LOG.error("failed", e);
+./hbase-backup/src/test/java/org/apache/hadoop/hbase/backup/TestBackupDelete.java:      LOG.error("failed", e);
+./hbase-backup/src/test/java/org/apache/hadoop/hbase/backup/TestBackupMultipleDeletes.java:    LOG.error("Delete backupIdInc2");
+./hbase-backup/src/test/java/org/apache/hadoop/hbase/backup/TestBackupMultipleDeletes.java:    LOG.error("Delete backupIdInc2 done");
+./hbase-backup/src/main/java/org/apache/hadoop/hbase/backup/impl/TableBackupClient.java:      LOG.error("Cleaning up uncompleted backup data of " + backupInfo.getBackupId() + " at "
+./hbase-backup/src/main/java/org/apache/hadoop/hbase/backup/impl/TableBackupClient.java:      LOG.error(msg + getMessage(e), e);
+./hbase-backup/src/main/java/org/apache/hadoop/hbase/backup/impl/TableBackupClient.java:      LOG.error(backupFailedData);
+./hbase-backup/src/main/java/org/apache/hadoop/hbase/backup/impl/TableBackupClient.java:      LOG.error("Backup " + backupInfo.getBackupId() + " failed.");
+./hbase-backup/src/main/java/org/apache/hadoop/hbase/backup/impl/TableBackupClient.java:      LOG.error("Please run backup repair tool manually to restore backup system integrity");
+./hbase-backup/src/main/java/org/apache/hadoop/hbase/backup/impl/BackupAdminImpl.java:            LOG.error("Delete operation failed, please run backup repair utility to restore "
+./hbase-backup/src/main/java/org/apache/hadoop/hbase/backup/impl/BackupAdminImpl.java:      LOG.error("Cleaning up backup data of " + backupInfo.getBackupId() + " for table " + table
+./hbase-backup/src/main/java/org/apache/hadoop/hbase/backup/impl/BackupAdminImpl.java:        LOG.error(CHECK_FAILED);
+./hbase-backup/src/main/java/org/apache/hadoop/hbase/backup/impl/BackupAdminImpl.java:      LOG.error("There is an active session already running");
+./hbase-backup/src/main/java/org/apache/hadoop/hbase/backup/impl/FullTableBackupClient.java:        LOG.error("Exporting Snapshot " + args[1] + " failed with return code: " + res + ".");
+./hbase-backup/src/main/java/org/apache/hadoop/hbase/backup/impl/IncrementalTableBackupClient.java:        LOG.error("Copy incremental HFile files failed with return code: " + res + ".");
+./hbase-backup/src/main/java/org/apache/hadoop/hbase/backup/impl/BackupManager.java:        LOG.error(e.toString(), e);
+./hbase-backup/src/main/java/org/apache/hadoop/hbase/backup/impl/BackupManifest.java:        LOG.error(errorMsg);
+./hbase-backup/src/main/java/org/apache/hadoop/hbase/backup/impl/RestoreTablesClient.java:        LOG.error("Existing table (" + existTableList
+./hbase-backup/src/main/java/org/apache/hadoop/hbase/backup/impl/RestoreTablesClient.java:          LOG.error("Found offline table in the restore target, "
+./hbase-backup/src/main/java/org/apache/hadoop/hbase/backup/impl/BackupSystemTable.java:            LOG.error("Close WAL Iterator", e);
+./hbase-backup/src/main/java/org/apache/hadoop/hbase/backup/impl/BackupSystemTable.java:        LOG.error("Snapshot " + snapshotName + " does not exists");
+./hbase-backup/src/main/java/org/apache/hadoop/hbase/backup/BackupDriver.java:      LOG.error("Error running command-line tool", e);
+./hbase-backup/src/main/java/org/apache/hadoop/hbase/backup/util/BackupUtils.java:          LOG.error("Skip log file (can't parse): " + p);
+./hbase-backup/src/main/java/org/apache/hadoop/hbase/backup/util/BackupUtils.java:      LOG.error("Skip log file (can't parse): " + p, e);
+./hbase-backup/src/main/java/org/apache/hadoop/hbase/backup/util/BackupUtils.java:        LOG.error(newMsg);
+./hbase-backup/src/main/java/org/apache/hadoop/hbase/backup/util/BackupUtils.java:      LOG.error("Cleaning up backup data of " + backupInfo.getBackupId() + " at "
+./hbase-backup/src/main/java/org/apache/hadoop/hbase/backup/util/BackupUtils.java:        LOG.error("Can not load backup info from: " + lfs.getPath(), e);
+./hbase-backup/src/main/java/org/apache/hadoop/hbase/backup/util/BackupUtils.java:          LOG.error("ERROR: backup image does not exist: " + imageDir);
+./hbase-backup/src/main/java/org/apache/hadoop/hbase/backup/util/RestoreTool.java:      LOG.error("couldn't find Table Desc for table: " + tableName + " under tableInfoPath: "
+./hbase-backup/src/main/java/org/apache/hadoop/hbase/backup/util/RestoreTool.java:      LOG.error("tableDescriptor.getNameAsString() = "
+./hbase-backup/src/main/java/org/apache/hadoop/hbase/backup/util/RestoreTool.java:      LOG.error(e.toString(), e);
+./hbase-backup/src/main/java/org/apache/hadoop/hbase/backup/BackupHFileCleaner.java:        LOG.error("Failed to get tables which have been fully backed up, skipping checking", ioe);
+./hbase-backup/src/main/java/org/apache/hadoop/hbase/backup/BackupHFileCleaner.java:      LOG.error("Failed to read hfile references, skipping checking deletable files", ioe);
+./hbase-backup/src/main/java/org/apache/hadoop/hbase/backup/BackupHFileCleaner.java:      LOG.error("Couldn't establish connection", ioe);
+./hbase-backup/src/main/java/org/apache/hadoop/hbase/backup/regionserver/LogRollBackupSubprocedure.java:        LOG.error(e.toString(), e);
+./hbase-backup/src/main/java/org/apache/hadoop/hbase/backup/master/BackupLogCleaner.java:      LOG.error("Failed to get backup system table table, therefore will keep all files", e);
+./hbase-backup/src/main/java/org/apache/hadoop/hbase/backup/master/LogRollMasterProcedureManager.java:      LOG.error(msg);
+./hbase-backup/src/main/java/org/apache/hadoop/hbase/backup/RestoreDriver.java:      LOG.error("Error while running restore backup", e);
+./hbase-backup/src/main/java/org/apache/hadoop/hbase/backup/RestoreDriver.java:      LOG.error("Error running command-line tool", e);
+./hbase-backup/src/main/java/org/apache/hadoop/hbase/backup/BackupInfo.java:        LOG.error(e.toString(), e);
+./hbase-backup/src/main/java/org/apache/hadoop/hbase/backup/BackupObserver.java:      LOG.error("Failed to get tables which have been fully backed up", ioe);
+./hbase-backup/src/main/java/org/apache/hadoop/hbase/backup/mapreduce/MapReduceBackupCopyJob.java:        LOG.error(t.toString(), t);
+./hbase-backup/src/main/java/org/apache/hadoop/hbase/backup/mapreduce/MapReduceBackupCopyJob.java:        LOG.error("No job found for " + id);
+./hbase-backup/src/main/java/org/apache/hadoop/hbase/backup/mapreduce/MapReduceRestoreJob.java:        LOG.error(e.toString(), e);
+./hbase-backup/src/main/java/org/apache/hadoop/hbase/backup/mapreduce/MapReduceBackupMergeJob.java:      LOG.error(e.toString(), e);
+./hbase-replication/src/main/java/org/apache/hadoop/hbase/replication/ReplicationQueueInfo.java:                LOG.error("Found invalid server name:" + serverName);
+./hbase-replication/src/main/java/org/apache/hadoop/hbase/replication/ReplicationQueueInfo.java:        LOG.error("Found invalid server name at the end:" + serverName);
+./hbase-zookeeper/src/test/java/org/apache/hadoop/hbase/zookeeper/TestZKLeaderManager.java:      LOG.error(HBaseMarkers.FATAL, "Aborting during test: "+why, e);
+./hbase-zookeeper/src/main/java/org/apache/hadoop/hbase/zookeeper/LoadBalancerTracker.java:      LOG.error("ZK state for LoadBalancer could not be parsed {}", Bytes.toStringBinary(upData));
+./hbase-zookeeper/src/main/java/org/apache/hadoop/hbase/zookeeper/HQuorumPeer.java:      LOG.error("Failed to start ZKServer", e);
+./hbase-zookeeper/src/main/java/org/apache/hadoop/hbase/zookeeper/RecoverableZooKeeper.java:      LOG.error("ZooKeeper {} failed after {} attempts", opName, retryCounter.getMaxAttempts());
+./hbase-zookeeper/src/main/java/org/apache/hadoop/hbase/zookeeper/RecoverableZooKeeper.java:              LOG.error("Node " + path + " already exists with " +
+./hbase-zookeeper/src/main/java/org/apache/hadoop/hbase/zookeeper/SnapshotCleanupTracker.java:      LOG.error("ZK state for Snapshot Cleanup could not be parsed " +
+./hbase-zookeeper/src/main/java/org/apache/hadoop/hbase/zookeeper/DeletionListener.java:      LOG.error("Error when re-setting the watch on " + pathToWatch, ex);
+./hbase-zookeeper/src/main/java/org/apache/hadoop/hbase/zookeeper/ZKWatcher.java:        LOG.error("Invalid event of type {} received for path {}. Ignoring.",
+./hbase-zookeeper/src/main/java/org/apache/hadoop/hbase/zookeeper/ZKWatcher.java:    LOG.error(prefix("Received unexpected KeeperException, re-throwing exception"), ke);
+./hbase-zookeeper/src/main/java/org/apache/hadoop/hbase/zookeeper/RegionNormalizerTracker.java:      LOG.error("ZK state for RegionNormalizer could not be parsed "
+./hbase-zookeeper/src/main/java/org/apache/hadoop/hbase/zookeeper/MetaTableLocator.java:        LOG.error(errorMsg);
+./hbase-thrift/src/test/java/org/apache/hadoop/hbase/thrift2/TestThriftConnection.java:        LOG.error("Thrift Server failed", t);
+./hbase-thrift/src/test/java/org/apache/hadoop/hbase/thrift/TestThriftHttpServer.java:          LOG.error("Invocation of HBase Thrift server threw exception", tsr.getRunException());
+./hbase-thrift/src/test/java/org/apache/hadoop/hbase/thrift/TestThriftHttpServer.java:      LOG.error("Thrift Client", clientSideException);
+./hbase-thrift/src/test/java/org/apache/hadoop/hbase/thrift/TestThriftServerCmdLine.java:          LOG.error("Command-line invocation of HBase Thrift server threw exception",
+./hbase-thrift/src/test/java/org/apache/hadoop/hbase/thrift/TestThriftServerCmdLine.java:      LOG.error("Thrift Client; parameters={}", getParametersString(), clientSideException);
+./hbase-thrift/src/test/java/org/apache/hadoop/hbase/thrift/HBaseThriftTestingUtility.java:      LOG.error("HBase Thrift server threw an exception ", thriftServerException);
+./hbase-thrift/src/test/java/org/apache/hadoop/hbase/thrift/ThriftServerRunner.java:      LOG.error("Run threw an exception", e);
+./hbase-thrift/src/main/java/org/apache/hadoop/hbase/thrift2/client/ThriftConnection.java:      LOG.error("Error fetching cluster ID: ", e);
+./hbase-thrift/src/main/java/org/apache/hadoop/hbase/thrift/IncrementCoalescer.java:          LOG.error("FAILED_ICV: " + Bytes.toString(row.getTable()) + ", "
+./hbase-thrift/src/main/java/org/apache/hadoop/hbase/thrift/ThriftServer.java:      LOG.error("Server types {} don't support IP address binding at the moment. See " +
+./hbase-thrift/src/main/java/org/apache/hadoop/hbase/thrift/ThriftServer.java:      LOG.error("Could not parse the value provided for the port option", e);
+./hbase-thrift/src/main/java/org/apache/hadoop/hbase/thrift/ThriftServer.java:      LOG.error("Could not parse the value provided for the " + INFOPORT_OPTION +
+./hbase-thrift/src/main/java/org/apache/hadoop/hbase/thrift/ThriftServer.java:        LOG.error("Failed to stop infoServer", ex);
+./hbase-thrift/src/main/java/org/apache/hadoop/hbase/thrift/ThriftServer.java:        LOG.error("Problem encountered in shutting down HTTP server", e);
+./hbase-thrift/src/main/java/org/apache/hadoop/hbase/thrift/ThriftHBaseServiceHandler.java:      LOG.error(e.getMessage(), e);
+./hbase-thrift/src/main/java/org/apache/hadoop/hbase/thrift/ThriftHttpServlet.java:        LOG.error("Kerberos Authentication failed", e);
+./hbase-thrift/src/main/java/org/apache/hadoop/hbase/thrift/TBoundedThreadPoolServer.java:      LOG.error("Error occurred during listening.", ttx);
+./hbase-thrift/src/main/java/org/apache/hadoop/hbase/thrift/TBoundedThreadPoolServer.java:        LOG.error("Thrift error occurred during processing of message.", tx);
+./hbase-thrift/src/main/java/org/apache/hadoop/hbase/thrift/TBoundedThreadPoolServer.java:        LOG.error("Error occurred during processing of message.", x);
+./hbase-common/src/test/java/org/apache/hadoop/hbase/Waiter.java:        LOG.error("Failed to get explanation, ", e);
+./hbase-common/src/test/java/org/apache/hadoop/hbase/util/ClassLoaderTestHelper.java:      LOG.error("Error: " + ex.getMessage());
+./hbase-common/src/test/java/org/apache/hadoop/hbase/util/TestDynamicClassLoader.java:      LOG.error("Should be able to load class " + className, cnfe);
+./hbase-common/src/test/java/org/apache/hadoop/hbase/util/TestDynamicClassLoader.java:      LOG.error("Should be able to load class " + className, cnfe);
+./hbase-common/src/test/java/org/apache/hadoop/hbase/TestHBaseConfiguration.java:          LOG.error("Failed to load class:" + e);
+./hbase-common/src/test/java/org/apache/hadoop/hbase/TestHBaseConfiguration.java:        LOG.error("Failed to load the " + name + ": " + e);
+./hbase-common/src/test/java/org/apache/hadoop/hbase/TestHBaseConfiguration.java:        LOG.error("Failed to invoke: " + getProvidersMethod.getName() +
+./hbase-common/src/main/java/org/apache/hadoop/hbase/util/DynamicClassLoader.java:        LOG.error("Disabling the DynamicClassLoader as it failed to initialize its temp directory."
+./hbase-common/src/main/java/org/apache/hadoop/hbase/util/Bytes.java:      LOG.error("Exception caught during division", e);
+./hbase-common/src/main/java/org/apache/hadoop/hbase/util/Methods.java:      LOG.error(HBaseMarkers.FATAL, "Constructed invalid call. class="+clazz.getName()+
+./hbase-common/src/main/java/org/apache/hadoop/hbase/util/Methods.java:      LOG.error(HBaseMarkers.FATAL, "SecurityException calling method. class="+
+./hbase-common/src/main/java/org/apache/hadoop/hbase/util/FutureUtils.java:        LOG.error("Unexpected error caught when processing CompletableFuture", t);
+./hbase-common/src/main/java/org/apache/hadoop/hbase/util/FutureUtils.java:        LOG.error("Unexpected error caught when processing CompletableFuture", t);
+./hbase-common/src/main/java/org/apache/hadoop/hbase/util/ByteBufferArray.java:        LOG.error("Buffer creation interrupted", e);
+./hbase-common/src/main/java/org/apache/hadoop/hbase/util/AbstractHBaseTool.java:      LOG.error(e.getMessage());
+./hbase-common/src/main/java/org/apache/hadoop/hbase/util/AbstractHBaseTool.java:      LOG.error("Use -h or --help for usage instructions.");
+./hbase-common/src/main/java/org/apache/hadoop/hbase/util/AbstractHBaseTool.java:      LOG.error("Error when parsing command-line arguments", e);
+./hbase-common/src/main/java/org/apache/hadoop/hbase/util/AbstractHBaseTool.java:      LOG.error("Use -h or --help for usage instructions.");
+./hbase-common/src/main/java/org/apache/hadoop/hbase/util/AbstractHBaseTool.java:      LOG.error("Error running command-line tool", e);
+./hbase-common/src/main/java/org/apache/hadoop/hbase/util/AbstractHBaseTool.java:      LOG.error("Error running command-line tool", ex);
+./hbase-common/src/main/java/org/apache/hadoop/hbase/util/ClassSize.java:        LOG.error(e.toString(), e);
+./hbase-common/src/main/java/org/apache/hadoop/hbase/io/compress/ReusableStreamGzipCodec.java:            LOG.error(e.toString(), e);
+./hbase-common/src/main/java/org/apache/hadoop/hbase/ScheduledChore.java:        LOG.error("Caught error", t);
+./hbase-common/src/main/java/org/apache/hadoop/hbase/AuthUtil.java:      LOG.error("Error while trying to login as user {} through {}, with message: {}.",
+./hbase-common/src/main/java/org/apache/hadoop/hbase/AuthUtil.java:        LOG.error("Error resolving host name: " + e.getMessage(), e);
+./hbase-common/src/main/java/org/apache/hadoop/hbase/AuthUtil.java:        LOG.error("Error while trying to perform the initial login: " + e.getMessage(), e);
+./hbase-common/src/main/java/org/apache/hadoop/hbase/AuthUtil.java:          LOG.error("Got exception while trying to refresh credentials: " + e.getMessage(), e);
+./hbase-common/src/main/java/org/apache/hadoop/hbase/conf/ConfigurationManager.java:          LOG.error("Encountered a throwable while notifying observers: of type : {}({})",
+./hbase-common/src/main/java/org/apache/hadoop/hbase/KeyValue.java:        LOG.error("Unexpected getShortMidpointKey result, fakeKey:"
+./hbase-common/src/main/java/org/apache/hadoop/hbase/KeyValue.java:        LOG.error("Unexpected getShortMidpointKey result, lastKeyOfPreviousBlock:" +
+./hbase-examples/src/test/java/org/apache/hadoop/hbase/security/provider/example/TestShadeSaslAuthenticationProvider.java:        LOG.error("Caught interrupted exception", e);
+./hbase-examples/src/test/java/org/apache/hadoop/hbase/coprocessor/example/TestRefreshHFilesBase.java:      LOG.error("Couldn't finish setup", ex);
+./hbase-examples/src/test/java/org/apache/hadoop/hbase/coprocessor/example/TestRefreshHFilesEndpoint.java:      LOG.error(ex.toString(), ex);
+./hbase-examples/src/main/java/org/apache/hadoop/hbase/coprocessor/example/RefreshHFilesEndpoint.java:      LOG.error("Exception while trying to refresh store files: ", ioe);
+./hbase-examples/src/main/java/org/apache/hadoop/hbase/coprocessor/example/BulkDeleteEndpoint.java:      LOG.error(ioe.toString(), ioe);
+./hbase-examples/src/main/java/org/apache/hadoop/hbase/coprocessor/example/BulkDeleteEndpoint.java:          LOG.error(ioe.toString(), ioe);
+./hbase-examples/src/main/java/org/apache/hadoop/hbase/thrift/HttpDoAsClient.java:        LOG.error("Kerberos authentication failed", e);
+./hbase-examples/src/main/java/org/apache/hadoop/hbase/mapreduce/SampleUploader.java:        LOG.error("Interrupted emitting put", e);
+./hbase-examples/src/main/java/org/apache/hadoop/hbase/client/example/RefreshHFilesClient.java:      LOG.error("Refresh HFiles from table " + tableName.getNameAsString() + "  failed: ", t);
+./hbase-procedure/src/test/java/org/apache/hadoop/hbase/procedure2/TestProcedureExecutor.java:        LOG.error("got unexpected exception", e);
+./hbase-procedure/src/test/java/org/apache/hadoop/hbase/procedure2/TestProcedureReplayOrder.java:              LOG.error("unable to instantiate the procedure", e);
+./hbase-procedure/src/main/java/org/apache/hadoop/hbase/procedure2/TimeoutExecutorThread.java:        LOG.error("CODE-BUG unknown timeout task type {}", task);
+./hbase-procedure/src/main/java/org/apache/hadoop/hbase/procedure2/TimeoutExecutorThread.java:      LOG.error("Ignoring {} exception: {}", chore, e.getMessage(), e);
+./hbase-procedure/src/main/java/org/apache/hadoop/hbase/procedure2/ProcedureExecutor.java:          LOG.error("Corrupt " + proc);
+./hbase-procedure/src/main/java/org/apache/hadoop/hbase/procedure2/ProcedureExecutor.java:          LOG.error(msg);
+./hbase-procedure/src/main/java/org/apache/hadoop/hbase/procedure2/ProcedureExecutor.java:      LOG.error("ThreadGroup {} contains running threads; {}: See STDOUT",
+./hbase-procedure/src/main/java/org/apache/hadoop/hbase/procedure2/ProcedureExecutor.java:          LOG.error("Listener " + listener + " had an error: " + e.getMessage(), e);
+./hbase-procedure/src/main/java/org/apache/hadoop/hbase/procedure2/ProcedureExecutor.java:          LOG.error("Listener " + listener + " had an error: " + e.getMessage(), e);
+./hbase-procedure/src/main/java/org/apache/hadoop/hbase/procedure2/ProcedureExecutor.java:          LOG.error("Listener " + listener + " had an error: " + e.getMessage(), e);
+./hbase-procedure/src/main/java/org/apache/hadoop/hbase/procedure2/ProcedureExecutor.java:      LOG.error(HBaseMarkers.FATAL, "CODE-BUG: Uncaught runtime exception for " + proc, e);
+./hbase-procedure/src/main/java/org/apache/hadoop/hbase/procedure2/ProcedureExecutor.java:        LOG.error(msg, e);
+./hbase-procedure/src/main/java/org/apache/hadoop/hbase/procedure2/ProcedureExecutor.java:      LOG.error("CODE-BUG: uncatched runtime exception for procedure: " + proc, e);
+./hbase-procedure/src/main/java/org/apache/hadoop/hbase/procedure2/ProcedureExecutor.java:      LOG.error("CODE-BUG: uncatched runtime exception for completion cleanup: {}", proc, e);
+./hbase-procedure/src/main/java/org/apache/hadoop/hbase/procedure2/store/wal/WALProcedureStore.java:          LOG.error("Got an exception from the sync-loop", e);
+./hbase-procedure/src/main/java/org/apache/hadoop/hbase/procedure2/store/wal/WALProcedureStore.java:      LOG.error(HBaseMarkers.FATAL, "Unable to serialize one of the procedure: proc=" +
+./hbase-procedure/src/main/java/org/apache/hadoop/hbase/procedure2/store/wal/WALProcedureStore.java:      LOG.error(HBaseMarkers.FATAL, "Unable to serialize one of the procedure: " +
+./hbase-procedure/src/main/java/org/apache/hadoop/hbase/procedure2/store/wal/WALProcedureStore.java:      LOG.error(HBaseMarkers.FATAL, "Unable to serialize the procedure: " + proc, e);
+./hbase-procedure/src/main/java/org/apache/hadoop/hbase/procedure2/store/wal/WALProcedureStore.java:      LOG.error(HBaseMarkers.FATAL, "Unable to serialize the procedure: " + procId, e);
+./hbase-procedure/src/main/java/org/apache/hadoop/hbase/procedure2/store/wal/WALProcedureStore.java:      LOG.error(HBaseMarkers.FATAL, "Unable to serialize the procedure: " + proc, e);
+./hbase-procedure/src/main/java/org/apache/hadoop/hbase/procedure2/store/wal/WALProcedureStore.java:      LOG.error("Unable to serialize the procedures: " + Arrays.toString(procIds), e);
+./hbase-procedure/src/main/java/org/apache/hadoop/hbase/procedure2/store/wal/WALProcedureStore.java:            LOG.error("Sync slots after log roll failed, abort.", e);
+./hbase-procedure/src/main/java/org/apache/hadoop/hbase/procedure2/store/wal/WALProcedureStore.java:    LOG.error(HBaseMarkers.FATAL, "Unable to roll the log");
+./hbase-procedure/src/main/java/org/apache/hadoop/hbase/procedure2/store/wal/WALProcedureStore.java:      LOG.error("Log file with id={} already exists", logId, e);
+./hbase-procedure/src/main/java/org/apache/hadoop/hbase/procedure2/store/wal/WALProcedureStore.java:      LOG.error("Unable to close the stream", e);
+./hbase-procedure/src/main/java/org/apache/hadoop/hbase/procedure2/store/wal/WALProcedureStore.java:      LOG.error("Unable to remove log: " + log, e);
+./hbase-procedure/src/main/java/org/apache/hadoop/hbase/procedure2/store/wal/WALProcedureStore.java:      LOG.error(msg, e);
+./hbase-procedure/src/main/java/org/apache/hadoop/hbase/procedure2/store/wal/ProcedureWALPrettyPrinter.java:      LOG.error("Failed to parse commandLine arguments", e);
+./hbase-procedure/src/main/java/org/apache/hadoop/hbase/procedure2/store/wal/ProcedureWALFormatReader.java:      LOG.error("While reading entry #{} in {}", count, log, e);
+./hbase-procedure/src/main/java/org/apache/hadoop/hbase/procedure2/store/ProcedureTree.java:        LOG.error("unexpected active children for root-procedure: {}", rootEntry);
+./hbase-procedure/src/main/java/org/apache/hadoop/hbase/procedure2/store/ProcedureTree.java:        rootEntry.subProcs.forEach(e -> LOG.error("unexpected active children: {}", e));
+./hbase-procedure/src/main/java/org/apache/hadoop/hbase/procedure2/store/ProcedureTree.java:        LOG.error("Missing stack id {}, max stack id is {}, root procedure is {}", i, maxStackId,
+./hbase-procedure/src/main/java/org/apache/hadoop/hbase/procedure2/store/ProcedureTree.java:        LOG.error("Multiple procedures {} have the same stack id {}, max stack id is {}," +
+./hbase-procedure/src/main/java/org/apache/hadoop/hbase/procedure2/store/ProcedureTree.java:      LOG.error("Orphan procedure: {}", entry);
+./hbase-endpoint/src/test/java/org/apache/hadoop/hbase/coprocessor/TestSecureExport.java:        LOG.error(ex.toString(), ex);
+./hbase-endpoint/src/main/java/org/apache/hadoop/hbase/coprocessor/Export.java:      LOG.error(e.toString(), e);
+./hbase-balancer/src/main/java/org/apache/hadoop/hbase/favored/FavoredNodeAssignmentHelper.java:        LOG.error("Cannot place the secondary and tertiary"
+./hbase-balancer/src/main/java/org/apache/hadoop/hbase/favored/FavoredNodeAssignmentHelper.java:       LOG.error("Cannot place the secondary, tertiary favored node for region " +
+./hbase-balancer/src/main/java/org/apache/hadoop/hbase/master/AssignmentVerificationReport.java:        LOG.error("Cannot verify the region assignment for region " +
+./hbase-balancer/src/main/java/org/apache/hadoop/hbase/master/AssignmentVerificationReport.java:        LOG.error("Cannot verify the region assignment for region "
+./hbase-balancer/src/main/java/org/apache/hadoop/hbase/master/SnapshotOfRegionAssignmentFromMeta.java:          LOG.error("Catche remote exception " + e.getMessage() +
+./hbase-server/src/test/java/org/apache/hadoop/hbase/snapshot/TestFlushSnapshotFromClient.java:        LOG.error("Table:" + tableName + " already exists, checking a new name");
+./hbase-server/src/test/java/org/apache/hadoop/hbase/snapshot/TestRegionSnapshotTask.java:          LOG.error("Interrupted due to error: " + ex);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/snapshot/TestSnapshotWhenChoreCleaning.java:        LOG.error("Snapshot failed: ", e);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/snapshot/TestSnapshotWhenChoreCleaning.java:        LOG.error("Chore cleaning failed: ", e);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/TestJMXConnectorServer.java:      LOG.error("Exception occurred while stopping HMaster. ", e);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/TestClientOperationTimeout.java:        LOG.error("Sleep interrupted during get operation", e);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/TestClientOperationTimeout.java:        LOG.error("Sleep interrupted during mutate operation", e);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/TestClientOperationTimeout.java:        LOG.error("Sleep interrupted during scan operation", e);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/TestClientOperationTimeout.java:        LOG.error("Sleep interrupted during multi operation", e);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/TestServerSideScanMetricsFromClientSide.java:      LOG.error("FAIL", t);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/util/MultiThreadedReaderWithACL.java:          LOG.error("Error while closing the table " + table.getName(), e);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/util/MultiThreadedWriter.java:        LOG.error("Failed to insert: " + keyBase + " after " + (System.currentTimeMillis() - start)
+./hbase-server/src/test/java/org/apache/hadoop/hbase/util/MultiThreadedWriter.java:        LOG.error("Error closing table", e);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/util/MultiThreadedWriterBase.java:        LOG.error("Error in inserted/updaed key tracker", ex);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/util/TestRootPath.java:      LOG.error(HBaseMarkers.FATAL, "Unexpected exception checking valid path:", e);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/util/TestRootPath.java:      LOG.error(HBaseMarkers.FATAL, "Unexpected exception checking valid path:", e);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/util/MultiThreadedReader.java:        LOG.error("Error closing table", e);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/util/MultiThreadedReader.java:          LOG.error("At the time of failure, writer wrote " + writer.numKeys.get() + " keys");
+./hbase-server/src/test/java/org/apache/hadoop/hbase/util/MultiThreadedReader.java:        LOG.error("Aborting readers -- found more than " + maxErrors + " errors");
+./hbase-server/src/test/java/org/apache/hadoop/hbase/util/MultiThreadedWriterWithACL.java:          LOG.error("Error in closing the table "+table.getName(), e);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/util/MultiThreadedWriterWithACL.java:    LOG.error("Failed to insert: " + keyBase + " after " + (System.currentTimeMillis() - start)
+./hbase-server/src/test/java/org/apache/hadoop/hbase/util/MultiThreadedUpdaterWithACL.java:            LOG.error("Error while closing the table " + table.getName(), e);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/util/MultiThreadedUpdaterWithACL.java:        LOG.error("Error while closing the HTable "+table.getName(), e);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/util/MultiThreadedUpdaterWithACL.java:      LOG.error("Failed to mutate: " + keyBase + " after " + (System.currentTimeMillis() - start)
+./hbase-server/src/test/java/org/apache/hadoop/hbase/util/ProcessBasedLocalHBaseCluster.java:      LOG.error("Error running: " + command, e);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/util/ProcessBasedLocalHBaseCluster.java:        LOG.error("Could not read pid from file " + pidFile);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/util/ProcessBasedLocalHBaseCluster.java:      LOG.error("Error writing to: " + fileName, e);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/util/ProcessBasedLocalHBaseCluster.java:      LOG.error("Could not install log4j.properties into " + dir);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/util/ProcessBasedLocalHBaseCluster.java:        LOG.error(ex.toString(), ex);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/util/ProcessBasedLocalHBaseCluster.java:          LOG.error("Log tailer thread interrupted", e);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/util/ProcessBasedLocalHBaseCluster.java:        LOG.error("Unrecognized log path format: " + filePath);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/util/ProcessBasedLocalHBaseCluster.java:                LOG.error("Tailer for " + filePath + " interrupted");
+./hbase-server/src/test/java/org/apache/hadoop/hbase/util/ProcessBasedLocalHBaseCluster.java:            LOG.error("Failed tailing " + filePath, ex);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/util/TestCompressionTest.java:          LOG.error(codecName, e);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/util/TestIdLock.java:            LOG.error("Id " + id + " already taken by " + owner + ", "
+./hbase-server/src/test/java/org/apache/hadoop/hbase/util/MockServer.java:    LOG.error(HBaseMarkers.FATAL, "Abort why=" + why, e);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/util/MultiThreadedAction.java:      LOG.error("Error checking data for key [" + rowKeyStr + "], no data returned");
+./hbase-server/src/test/java/org/apache/hadoop/hbase/util/MultiThreadedAction.java:      LOG.error("Error checking data for key [" + rowKeyStr
+./hbase-server/src/test/java/org/apache/hadoop/hbase/util/MultiThreadedAction.java:        LOG.error("Error checking data for key [" + rowKeyStr
+./hbase-server/src/test/java/org/apache/hadoop/hbase/util/MultiThreadedAction.java:          LOG.error("Error checking data for key [" + rowKeyStr + "], column family ["
+./hbase-server/src/test/java/org/apache/hadoop/hbase/util/MultiThreadedAction.java:                LOG.error("Error checking data for key [" + rowKeyStr + "], column family ["
+./hbase-server/src/test/java/org/apache/hadoop/hbase/util/MultiThreadedAction.java:          LOG.error("Error checking data for key [" + rowKeyStr + "], column family ["
+./hbase-server/src/test/java/org/apache/hadoop/hbase/util/MultiThreadedAction.java:            LOG.error("Error checking data for key [" + rowKeyStr + "], column family ["
+./hbase-server/src/test/java/org/apache/hadoop/hbase/util/MultiThreadedAction.java:          LOG.error("Error checking data for key [" + rowKeyStr
+./hbase-server/src/test/java/org/apache/hadoop/hbase/util/MultiThreadedAction.java:                LOG.error("Error checking data for key [" + rowKeyStr
+./hbase-server/src/test/java/org/apache/hadoop/hbase/util/MultiThreadedAction.java:              LOG.error("Error checking data for key [" + rowKeyStr + "], column family ["
+./hbase-server/src/test/java/org/apache/hadoop/hbase/util/MultiThreadedUpdater.java:                  LOG.error("Failed to update the row with key = [" + Bytes.toString(rowKey)
+./hbase-server/src/test/java/org/apache/hadoop/hbase/util/MultiThreadedUpdater.java:        LOG.error("Error closing table", e);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/util/MultiThreadedUpdater.java:        LOG.error("Failed to mutate: " + keyBase + " after " +
+./hbase-server/src/test/java/org/apache/hadoop/hbase/util/MultiThreadedUpdater.java:      LOG.error("Failed to mutate: " + keyBase + " after " + (System.currentTimeMillis() - start) +
+./hbase-server/src/test/java/org/apache/hadoop/hbase/wal/TestWALSplit.java:          LOG.error(getName() + " ex " + ex.toString());
+./hbase-server/src/test/java/org/apache/hadoop/hbase/wal/TestWALSplit.java:            LOG.error("Juliet: got RemoteException " + ex.getMessage() +
+./hbase-server/src/test/java/org/apache/hadoop/hbase/wal/TestWALSplit.java:            LOG.error(getName() + " failed to write....at " + editsCount.get());
+./hbase-server/src/test/java/org/apache/hadoop/hbase/wal/TestWALSplit.java:          LOG.error(getName() + " HOW? " + t);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/wal/TestWALSplit.java:              LOG.error("Failed delete of " + file);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/wal/WALPerformanceEvaluation.java:        LOG.error(getClass().getSimpleName() + " Thread failed", e);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/wal/TestWALFactory.java:        LOG.error("Waiting for cluster to go down");
+./hbase-server/src/test/java/org/apache/hadoop/hbase/wal/TestDisabledWAL.java:      LOG.error("Master failed to start.", e);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/security/token/TestTokenAuthentication.java:      LOG.error(HBaseMarkers.FATAL, "Aborting on: "+reason, error);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/security/access/SecureTestUtil.java:            LOG.error("Snapshot of AccessController state does not include instance on region " +
+./hbase-server/src/test/java/org/apache/hadoop/hbase/security/access/SecureTestUtil.java:          LOG.error("grant failed: ", t);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/security/access/SecureTestUtil.java:          LOG.error("revoke failed: ", t);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/security/access/SecureTestUtil.java:          LOG.error("grant failed: ", t);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/security/access/SecureTestUtil.java:          LOG.error("grant failed: ", t);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/security/access/SecureTestUtil.java:          LOG.error("revoke failed: ", t);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/security/access/SecureTestUtil.java:          LOG.error("revoke failed: ", t);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/security/access/TestAccessController2.java:      LOG.error("Error during call of AccessControlClient.getUserPermissions. ", e);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/security/access/TestAccessController.java:      LOG.error("error during call of AccessControlClient.getUserPermissions. ", e);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/security/access/TestAccessController.java:      LOG.error("error during call of AccessControlClient.grant. ", e);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/security/access/TestAccessController.java:      LOG.error("error during call of AccessControlClient.revoke ", e);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/security/access/TestAccessController.java:      LOG.error("error during call of AccessControlClient.grant. ", e);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/security/access/TestAccessController.java:      LOG.error("error during call of AccessControlClient.revoke ", e);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/security/access/TestAccessController.java:      LOG.error("error during call of AccessControlClient.grant. ", e);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/security/access/TestAccessController.java:      LOG.error("error during call of AccessControlClient.grant. ", e);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/security/access/TestAccessController.java:      LOG.error("error during call of AccessControlClient.revoke ", e);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/security/access/TestAccessController.java:      LOG.error("error during call of AccessControlClient.grant. ", e);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/security/access/TestAccessController.java:      LOG.error("error during call of AccessControlClient.grant. ", e);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/security/access/TestAccessController.java:      LOG.error("error during call of AccessControlClient.revoke ", e);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/security/access/TestAccessController.java:      LOG.error("error during call of AccessControlClient.grant. ", e);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/security/access/TestAccessController.java:      LOG.error("error during call of AccessControlClient.grant. ", e);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/security/access/TestAccessController.java:      LOG.error("error during call of AccessControlClient.revoke ", e);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/security/access/TestAccessController.java:      LOG.error("error during call of AccessControlClient.grant. ", e);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/security/access/TestAccessController.java:      LOG.error("error during call of AccessControlClient.revoke ", e);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/security/access/TestAccessController.java:          LOG.error("error during call of AccessControlClient.getUserPermissions.", e);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/security/access/TestAccessController3.java:      LOG.error("error during call of AccessControlClient.getUserPermissions. ", e);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/security/visibility/ExpAsStringVisibilityLabelServiceImpl.java:        LOG.error(t.toString(), t);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/quotas/ThrottleQuotaTestUtil.java:      LOG.error("put failed after nRetries=" + count, e);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/quotas/ThrottleQuotaTestUtil.java:      LOG.error("get failed after nRetries=" + count, e);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/quotas/TestQuotaObserverChoreRegionReports.java:          LOG.error(msg, e);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/io/hfile/TestHFileBlock.java:          LOG.error("Error in client " + clientId + " trying to read block at " + offset
+./hbase-server/src/test/java/org/apache/hadoop/hbase/coprocessor/TestCoprocessorStop.java:        LOG.error("on RegionCoprocessorEnvironment!!");
+./hbase-server/src/test/java/org/apache/hadoop/hbase/coprocessor/TestCoprocessorStop.java:        LOG.error("on RegionCoprocessorEnvironment!!");
+./hbase-server/src/test/java/org/apache/hadoop/hbase/namespace/TestNamespaceAuditor.java:        LOG.error("Error whiling cleaning compacted file");
+./hbase-server/src/test/java/org/apache/hadoop/hbase/namespace/TestNamespaceAuditor.java:        LOG.error(exp.toString(), exp);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/namespace/TestNamespaceAuditor.java:        LOG.error(e.toString(), e);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/HBaseTestingUtility.java:        LOG.error("No region info for row " + Bytes.toString(result.getRow()));
+./hbase-server/src/test/java/org/apache/hadoop/hbase/HBaseTestingUtility.java:      LOG.error("Master not running", e);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/HBaseTestingUtility.java:          LOG.error("Failed setting up MiniKDC. Tried " + numTries + " times.");
+./hbase-server/src/test/java/org/apache/hadoop/hbase/HBaseTestingUtility.java:        LOG.error("BindException encountered when setting up MiniKdc. Trying again.");
+./hbase-server/src/test/java/org/apache/hadoop/hbase/procedure/SimpleMasterProcedureManager.java:      LOG.error(msg);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/procedure/TestZKProcedure.java:            LOG.error("Remote commit failure, not propagating error:" + remoteCause);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/MultithreadedTestUtil.java:      LOG.error("Failed!", err);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/DataBlockEncodingTool.java:            LOG.error("There is a bug in codec " + it +
+./hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/DataBlockEncodingTool.java:            LOG.error("There is bug in codec " + it.toString() +
+./hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/DataBlockEncodingTool.java:        LOG.error("KV_LIMIT should not less than 1.");
+./hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/DataBlockEncodingTool.java:      LOG.error("Please specify HFile name using the " + OPT_HFILE_NAME
+./hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/DataBlockEncodingTool.java:      LOG.error("The number of times to run each benchmark ("
+./hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/TestCacheOnWriteInSchema.java:      LOG.error("Could not delete " + DIR, e);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/TestCompactionFileNotFound.java:        LOG.error("Got an exception during compaction", e);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/TestSecureBulkLoadManager.java:          LOG.error("bulk load failed .",e);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/TestSecureBulkLoadManager.java:          LOG.error("bulk load failed .",e);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/TestHRegionReplayEvents.java:      LOG.error(msg, e);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/wal/TestLogRollAbort.java:        LOG.error(HBaseMarkers.FATAL, "FAILED TEST: Got wrong exception", t);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/wal/TestFSHLog.java:              LOG.error(e.toString(), e);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/wal/TestFSHLog.java:            LOG.error(e.toString(), e);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/wal/TestFSHLog.java:            LOG.error(e.toString(), e);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/wal/AbstractTestFSWAL.java:            LOG.error(e.toString(), e);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/wal/AbstractTestFSWAL.java:          LOG.error(e.toString(), e);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/wal/AbstractTestFSWAL.java:          LOG.error(e.toString(), e);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/TestScanner.java:      LOG.error("Failed", e);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/TestScanner.java:      LOG.error("Failed", e);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/TestRowPrefixBloomFilter.java:      LOG.error(HBaseMarkers.FATAL, "error during setup", e);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/TestRowPrefixBloomFilter.java:      LOG.error(HBaseMarkers.FATAL, "error during tear down", e);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/TestBulkLoadReplication.java:        LOG.error(e.getMessage(), e);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/TestRegionServerOnlineConfigChange.java:      LOG.error("Can't test the compaction configuration of HStore class. "
+./hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/TestEndToEndSplitTransaction.java:          LOG.error("Failed while closing store file", ioe);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/TestEndToEndSplitTransaction.java:        LOG.error("failed in removing compacted file", ioe);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/CreateRandomStoreFile.java:      LOG.error(ex.toString(), ex);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/CreateRandomStoreFile.java:      LOG.error("Output directory is not specified");
+./hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/CreateRandomStoreFile.java:      LOG.error("The number of keys/values not specified");
+./hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/CreateRandomStoreFile.java:      LOG.error("Key size is not specified");
+./hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/CreateRandomStoreFile.java:      LOG.error("Value size not specified");
+./hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/CreateRandomStoreFile.java:        LOG.error("the parameter of bloom filter is not specified");
+./hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/CreateRandomStoreFile.java:      LOG.error(ex.toString(), ex);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/TestHRegion.java:          LOG.error("test failed!", ioe);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/TestHRegion.java:      LOG.error("Interrupted!", e);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/TestHRegion.java:            LOG.error("Error while flushing cache", e);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/TestHRegion.java:          LOG.error("Uncaught exception", t);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/regionserver/TestHRegion.java:          LOG.error("Error while putting records", e);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/master/TestNewStartedRegionServerVersion.java:          LOG.error("Failed to start a new RS", e);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/master/assignment/TestMasterAbortWhileMergingTable.java:      LOG.error("mergeCommitArrive countdown");
+./hbase-server/src/test/java/org/apache/hadoop/hbase/master/procedure/TestMasterProcedureSchedulerConcurrency.java:              LOG.error("Failed " + e.getMessage(), e);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/master/procedure/TestMasterProcedureSchedulerConcurrency.java:              LOG.error("Failed " + e.getMessage(), e);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/master/procedure/TestWALProcedureStoreOnHDFS.java:      LOG.error(HBaseMarkers.FATAL, "Abort the Procedure Store");
+./hbase-server/src/test/java/org/apache/hadoop/hbase/master/TestRegionPlacement.java:          LOG.error("Result=" + result);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/master/balancer/TestFavoredStochasticBalancerPickers.java:      LOG.error("Most loaded server: " + mostLoadedServer + " does not match: "
+./hbase-server/src/test/java/org/apache/hadoop/hbase/master/TestWarmupRegion.java:          LOG.error("Failed warming up region " + info.getRegionNameAsString(), ie);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/MiniHBaseCluster.java:        LOG.error("Exception in run", t);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/MiniHBaseCluster.java:      LOG.error("Error starting cluster", t);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/rsgroup/TestRSGroupsWithACL.java:      LOG.error("error during call of AccessControlClient.getUserPermissions. ", e);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/rsgroup/TestRSGroupsAdmin2.java:        LOG.error("move server error", e);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/AcidGuaranteesTestTool.java:      LOG.error("Exiting due to error", e);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/ipc/TestFifoRpcScheduler.java:      LOG.error("No such field exception:"+e);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/ipc/TestFifoRpcScheduler.java:      LOG.error("Illegal access exception:"+e);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/ipc/TestFifoRpcScheduler.java:      LOG.error("Interrupted exception:"+e);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/ipc/TestSimpleRpcScheduler.java:      LOG.error("No such field exception"+e);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/ipc/TestSimpleRpcScheduler.java:      LOG.error("Illegal access exception"+e);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/replication/TestReplicationSmallTests.java:              LOG.error("Row missing: " + row);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/replication/TestReplicationSmallTests.java:          LOG.error("Last row: " + lastRow);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/replication/TestReplicationKillRS.java:          LOG.error("Couldn't kill a region server", e);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/replication/TestSyncReplicationStandbyKillRS.java:        LOG.error("Failed to kill RS", e);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/replication/TestSyncReplicationStandbyKillRS.java:      LOG.error("Failed to transit standby cluster to " + SyncReplicationState.DOWNGRADE_ACTIVE, e);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/replication/regionserver/TestReplicationSourceManager.java:        LOG.error("Got exception while running NodeFailoverWorker", e);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/replication/regionserver/TestReplicationSource.java:        LOG.error("Interrupted while sleeping");
+./hbase-server/src/test/java/org/apache/hadoop/hbase/replication/TestSyncReplicationStandbyKillMaster.java:        LOG.error("Failed to stop master", e);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/replication/TestSyncReplicationStandbyKillMaster.java:      LOG.error("Failed to transit standby cluster to " + SyncReplicationState.DOWNGRADE_ACTIVE);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/mob/MobStressToolRunner.java:          LOG.error("MOB Stress Test FAILED", e);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/mob/MobStressToolRunner.java:          LOG.error("CleanMobAndArchive", e);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/mob/MobStressToolRunner.java:        LOG.error("MOB Stress Test FAILED", e);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/mob/MobStressToolRunner.java:      LOG.error("MOB Stress Test FAILED");
+./hbase-server/src/test/java/org/apache/hadoop/hbase/mob/FaultyMobStoreCompactor.java:        LOG.error("Failed to create mob writer, ", e);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/mob/FaultyMobStoreCompactor.java:                  LOG.error("Missing MOB cell: file={} not found", fName);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/mob/FaultyMobStoreCompactor.java:                LOG.error("Missing MOB cell value: file={} cell={}", fName, mobCell);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/mob/FaultyMobStoreCompactor.java:                  LOG.error("Empty value for: " + c);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/mob/FaultyMobStoreCompactor.java:              LOG.error("Corrupted MOB reference: {}", c);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/mob/FaultyMobStoreCompactor.java:      LOG.error("MOB Stress Test FAILED, region: " + store.getRegionInfo().getEncodedName(), e);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/mob/FaultyMobStoreCompactor.java:      LOG.error("Mob compaction failed for region: " + store.getRegionInfo().getEncodedName());
+./hbase-server/src/test/java/org/apache/hadoop/hbase/mob/TestMobCompactionWithDefaults.java:      LOG.error("MOB file compaction chore test FAILED", e);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/mob/TestMobCompactionWithDefaults.java:      LOG.error("MOB file compaction test FAILED", e);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/mob/TestMobFileCleanerChore.java:      LOG.error("MOB file cleaner chore test FAILED", e);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/mob/TestMobFileCleanerChore.java:      LOG.error("MOB file cleaner chore test FAILED");
+./hbase-server/src/test/java/org/apache/hadoop/hbase/client/TestEnableTable.java:      LOG.error("", e);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/client/TestEnableTable.java:        LOG.error("", e);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/client/TestTableSnapshotScanner.java:      LOG.error("scan snapshot error", e);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/client/TestCatalogReplicaLoadBalanceSimpleSelector.java:          LOG.error("Failed to get table {}'s region replication, ", META_TABLE_NAME, e);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/client/TestCatalogReplicaLoadBalanceSimpleSelector.java:          LOG.error("Failed to get table {}'s region replication, ", META_TABLE_NAME, e);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/client/TestFromClientSide3.java:          LOG.error("encountered " + ex);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/client/TestFromClientSide3.java:                  LOG.error("Should be equal but not, original value: " + Bytes.toString(value)
+./hbase-server/src/test/java/org/apache/hadoop/hbase/client/TestSnapshotFromClient.java:        LOG.error("Table:" + tableName + " already exists, checking a new name");
+./hbase-server/src/test/java/org/apache/hadoop/hbase/client/TestAsyncAccessControlAdminApi.java:      LOG.error("Call has permission error", e);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/client/replication/TestReplicationAdminForSyncReplication.java:          LOG.error("Failed to add replication peer " + peerId);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/client/TestBlockEvictionFromClient.java:        LOG.error(e1.toString(), e1);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/client/TestReplicaWithCluster.java:          LOG.error(e1.toString(), e1);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/client/TestReplicaWithCluster.java:        LOG.error(e1.toString(), e1);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/client/TestReplicaWithCluster.java:        LOG.error(e1.toString(), e1);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/client/TestReplicaWithCluster.java:        LOG.error(e1.toString(), e1);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/client/TestFromClientSide5.java:            LOG.error(e.toString(), e);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/client/TestAsyncRegionAdminApi2.java:        LOG.error(e.toString(), e);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/client/TestReplicasClient.java:          LOG.error(e1.toString(), e1);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/client/TestReplicasClient.java:          LOG.error(e1.toString(), e1);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/client/TestConnection.java:          LOG.error(t.toString(), t);
+./hbase-server/src/test/java/org/apache/hadoop/hbase/client/TestResult.java:      LOG.error("Unexpected exception", e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/snapshot/SnapshotDescriptionUtils.java:        LOG.error(msg);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/snapshot/SnapshotReferenceUtil.java:        LOG.error(msg);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/snapshot/SnapshotReferenceUtil.java:      LOG.error(msg);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/coordination/ZKSplitLogManagerCoordination.java:    LOG.error(HBaseMarkers.FATAL, "logic failure, rescan failure must not happen");
+./hbase-server/src/main/java/org/apache/hadoop/hbase/coordination/ZKSplitLogManagerCoordination.java:      LOG.error("ZK session expired. Master is expected to shut down. Abandoning retries for "
+./hbase-server/src/main/java/org/apache/hadoop/hbase/coordination/ZKSplitLogManagerCoordination.java:      LOG.error(HBaseMarkers.FATAL, "logic error - got null data " + path);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/coordination/ZKSplitLogManagerCoordination.java:      LOG.error(HBaseMarkers.FATAL, "logic error - unexpected zk state for path = "
+./hbase-server/src/main/java/org/apache/hadoop/hbase/coordination/ZkSplitLogWorkerCoordination.java:      LOG.error(HBaseMarkers.FATAL,
+./hbase-server/src/main/java/org/apache/hadoop/hbase/util/ConnectionCache.java:      LOG.error("Error getting connection: ", e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/util/hbck/HFileCorruptionChecker.java:        LOG.error("Unexpected exception encountered", e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/util/HBaseFsck.java:        LOG.error("Another instance of hbck is fixing HBase, exiting this instance. " +
+./hbase-server/src/main/java/org/apache/hadoop/hbase/util/HBaseFsck.java:      LOG.error(e.toString(), e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/util/HBaseFsck.java:        LOG.error("Failed to sideline reference file " + path);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/util/HBaseFsck.java:        LOG.error("Failed to sideline HFileLink file " + path);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/util/HBaseFsck.java:        LOG.error("Failed to sideline HFileLink backreference file " + path);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/util/HBaseFsck.java:      LOG.error("Failed to create path: " + dst.getParent());
+./hbase-server/src/main/java/org/apache/hadoop/hbase/util/HBaseFsck.java:            LOG.error("Unable to create default .tableinfo for " + tableName + " while missing column family information");
+./hbase-server/src/main/java/org/apache/hadoop/hbase/util/HBaseFsck.java:        LOG.error("Failed to fix " + numFailedCase
+./hbase-server/src/main/java/org/apache/hadoop/hbase/util/HBaseFsck.java:            LOG.error(msg);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/util/HBaseFsck.java:              LOG.error(msg);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/util/HBaseFsck.java:      LOG.error(msg);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/util/HBaseFsck.java:        LOG.error(why, e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/util/HBaseFsck.java:          LOG.error("Region " + hbi.getHdfsHRI() + " could have been repaired"
+./hbase-server/src/main/java/org/apache/hadoop/hbase/util/HBaseFsck.java:          LOG.error("This should have been repaired in table integrity repair phase");
+./hbase-server/src/main/java/org/apache/hadoop/hbase/util/HBaseFsck.java:          LOG.error("Result=" + result);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/util/HBaseFsck.java:                LOG.error("Could not load region dir", e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/util/HBaseFsck.java:            LOG.error("Unexpected exec exception!  Should've been caught already.  (Bug?)", e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/util/HBaseFsck.java:        LOG.error("Cannot execute WorkItemHdfsDir for " + tableDir, e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/util/HBaseFsck.java:            LOG.error("Unable to read directory " + hbi.getHdfsRegionDir(), ioe2);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/util/HbckTableInfo.java:      LOG.error("None/Multiple table descriptors found for table '"
+./hbase-server/src/main/java/org/apache/hadoop/hbase/util/HbckTableInfo.java:      LOG.error("Overlap merges were interrupted", e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/util/HbckTableInfo.java:        LOG.error("Waiting for overlap merges was interrupted", e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/util/ServerCommandLine.java:      LOG.error("Failed to run", e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/util/HbckRegionInfo.java:      LOG.error("Entry " + this + " has no meta or hdfs region start key.");
+./hbase-server/src/main/java/org/apache/hadoop/hbase/util/HbckRegionInfo.java:      LOG.error("Entry " + this + " has no meta or hdfs region start key.");
+./hbase-server/src/main/java/org/apache/hadoop/hbase/util/MoveWithAck.java:      LOG.error("Region: {} stuck on {} for {} sec , newServer={}", region.getRegionNameAsString(),
+./hbase-server/src/main/java/org/apache/hadoop/hbase/util/MoveWithAck.java:      LOG.error("Could not scan region: {}", region.getEncodedName(), e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/util/compaction/MajorCompactor.java:      LOG.error(builder.toString());
+./hbase-server/src/main/java/org/apache/hadoop/hbase/util/compaction/MajorCompactor.java:              LOG.error(
+./hbase-server/src/main/java/org/apache/hadoop/hbase/util/MoveWithoutAck.java:      LOG.error("Error Moving Region: {}", region.getEncodedName(), e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/util/ModifyRegionUtils.java:      LOG.error("Caught " + e + " during region creation");
+./hbase-server/src/main/java/org/apache/hadoop/hbase/util/TableDescriptorChecker.java:      LOG.error(message);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/util/JVMClusterUtil.java:              LOG.error("Exception occurred while stopping master", e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/util/JVMClusterUtil.java:          LOG.error("Exception occurred in HMaster.shutdown()", e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/util/FSUtils.java:      LOG.error("file system close failed: ", e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/util/FSUtils.java:              LOG.error("Could not get region store file map for region: " + dd, e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/util/FSUtils.java:          LOG.error("Unexpected exec exception!  Should've been caught already.  (Bug?)", e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/util/FSUtils.java:      LOG.error("Cannot execute getTableStoreFilePathMap for " + tableName, e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/util/RegionMover.java:        LOG.error("Error while loading regions to " + hostname, e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/util/RegionMover.java:        LOG.error("Error while unloading regions ", e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/util/RegionMover.java:      LOG.error("Error while " + operation + " regions on RegionServer " + this.hostname, e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/util/RegionMover.java:          LOG.error("Was Not able to move region....Exiting Now");
+./hbase-server/src/main/java/org/apache/hadoop/hbase/util/RegionMover.java:        LOG.error("Interrupted while waiting for Thread to Complete " + e.getMessage(), e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/util/RegionMover.java:          LOG.error("Got Exception From Thread While moving region {}", e.getMessage(), e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/util/RegionMover.java:        LOG.error("Thread for moving region cancelled. Timeout for cancellation:" + timeoutInSeconds
+./hbase-server/src/main/java/org/apache/hadoop/hbase/util/RegionMover.java:      LOG.error("Server " + hostname + ":" + port + " is not up. Giving up.");
+./hbase-server/src/main/java/org/apache/hadoop/hbase/util/RegionMover.java:      LOG.error("Error while reading regions from file:" + filename, e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/util/RegionMover.java:      LOG.error(
+./hbase-server/src/main/java/org/apache/hadoop/hbase/util/RegionMover.java:        LOG.error("Exception while reading servers from file,", e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/util/FSTableDescriptors.java:          LOG.error("Failed to delete table descriptor at " + path);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/wal/WALFactory.java:      LOG.error("couldn't set up WALProvider, the configured class is " + clazz);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/wal/WALFactory.java:              LOG.error("Can't open after " + nbAttempt + " attempts and "
+./hbase-server/src/main/java/org/apache/hadoop/hbase/wal/FSHLogProvider.java:        LOG.error("The RegionServer write ahead log provider for FileSystem implementations " +
+./hbase-server/src/main/java/org/apache/hadoop/hbase/wal/FSHLogProvider.java:          LOG.error("cannot close log writer", ee);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/wal/RegionGroupingProvider.java:      LOG.error("couldn't set up region grouping strategy, check config key " +
+./hbase-server/src/main/java/org/apache/hadoop/hbase/wal/RegionGroupingProvider.java:        LOG.error("Problem shutting down wal provider '" + provider + "': " + e.getMessage());
+./hbase-server/src/main/java/org/apache/hadoop/hbase/wal/RegionGroupingProvider.java:        LOG.error("Problem closing wal provider '" + provider + "': " + e.getMessage());
+./hbase-server/src/main/java/org/apache/hadoop/hbase/wal/AbstractRecoveredEditsOutputSink.java:      LOG.error(errorMsg, ioe);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/wal/AbstractRecoveredEditsOutputSink.java:      LOG.error(errorMsg, ioe);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/wal/AbstractRecoveredEditsOutputSink.java:      LOG.error(HBaseMarkers.FATAL, errorMsg, e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/wal/AbstractWALRoller.java:        LOG.error("Log rolling failed", ex);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/wal/SyncReplicationWALProvider.java:          LOG.error("Shutdown WAL failed", e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/wal/SyncReplicationWALProvider.java:          LOG.error("Close WAL failed", e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/wal/SyncReplicationWALProvider.java:        LOG.error("Close WAL failed", e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/wal/WALPrettyPrinter.java:      LOG.error("Failed to parse commandLine arguments", e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/wal/OutputSink.java:        LOG.error("Exiting thread", t);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/wal/AbstractFSWALProvider.java:        LOG.error("Couldn't locate log: " + path);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/wal/AbstractFSWALProvider.java:      LOG.error("Couldn't locate log: " + path);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/wal/AsyncFSWALProvider.java:        LOG.error("The RegionServer async write ahead log provider " +
+./hbase-server/src/main/java/org/apache/hadoop/hbase/security/token/AuthenticationTokenSecretManager.java:      LOG.error("ZooKeeper initialization failed", ke);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/security/token/AuthenticationTokenSecretManager.java:        LOG.error("ZKWatcher is abort");
+./hbase-server/src/main/java/org/apache/hadoop/hbase/security/token/ZKSecretWatcher.java:        LOG.error(HBaseMarkers.FATAL, "Error reading data from zookeeper", ke);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/security/token/ZKSecretWatcher.java:        LOG.error("Invalid znode name for key ID '"+keyId+"'", nfe);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/security/token/ZKSecretWatcher.java:        LOG.error(HBaseMarkers.FATAL, "Error reading data from zookeeper", ke);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/security/token/ZKSecretWatcher.java:        LOG.error(HBaseMarkers.FATAL, "Error reading key writables", ioe);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/security/token/ZKSecretWatcher.java:        LOG.error(HBaseMarkers.FATAL, "Error reading data from zookeeper", ke);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/security/token/ZKSecretWatcher.java:        LOG.error(HBaseMarkers.FATAL, "Failed reading new secret key for id '" +
+./hbase-server/src/main/java/org/apache/hadoop/hbase/security/token/ZKSecretWatcher.java:      LOG.error("Non-existent znode "+keyZNode+" for key "+key.getKeyId(), nne);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/security/token/ZKSecretWatcher.java:      LOG.error(HBaseMarkers.FATAL, "Failed removing znode "+keyZNode+" for key "+
+./hbase-server/src/main/java/org/apache/hadoop/hbase/security/token/ZKSecretWatcher.java:      LOG.error(HBaseMarkers.FATAL, "Unable to synchronize master key "+key.getKeyId()+
+./hbase-server/src/main/java/org/apache/hadoop/hbase/security/token/ZKSecretWatcher.java:      LOG.error(HBaseMarkers.FATAL, "Unable to update master key "+key.getKeyId()+
+./hbase-server/src/main/java/org/apache/hadoop/hbase/security/token/ZKSecretWatcher.java:      LOG.error(HBaseMarkers.FATAL, "Error reading data from zookeeper", ke);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/security/token/FsDelegationToken.java:          LOG.error("Failed to get token for " + renewer);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/security/access/AuthManager.java:      LOG.error("Failed parse of ACL tag in cell " + cell);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/security/access/ZKPermissionWatcher.java:            LOG.error("Error reading data from zookeeper", ke);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/security/access/ZKPermissionWatcher.java:            LOG.error("Error reading data from zookeeper for node " + entry, ke);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/security/access/ZKPermissionWatcher.java:            LOG.error("Error reading permissions writables", ioe);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/security/access/ZKPermissionWatcher.java:          LOG.error(msg, ke);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/security/access/ZKPermissionWatcher.java:        LOG.error("Failed parsing permissions for table '" + entry +
+./hbase-server/src/main/java/org/apache/hadoop/hbase/security/access/ZKPermissionWatcher.java:      LOG.error("Failed updating permissions for entry '" +
+./hbase-server/src/main/java/org/apache/hadoop/hbase/security/access/ZKPermissionWatcher.java:      LOG.error("Failed deleting acl node of table '" + tableName + "'", e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/security/access/ZKPermissionWatcher.java:      LOG.error("Failed deleting acl node of namespace '" + namespace + "'", e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/security/access/AccessChecker.java:      LOG.error("Error occurred while retrieving group for " + user, e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/security/access/AccessController.java:          LOG.error("Failed updating permissions mirror for '" +
+./hbase-server/src/main/java/org/apache/hadoop/hbase/security/access/AccessController.java:      LOG.error("Exception while getting cells to calculate covering permission", ex);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/security/access/AccessController.java:      LOG.error("NULL region from RegionCoprocessorEnvironment in preOpen()");
+./hbase-server/src/main/java/org/apache/hadoop/hbase/security/access/AccessController.java:      LOG.error("NULL region from RegionCoprocessorEnvironment in postOpen()");
+./hbase-server/src/main/java/org/apache/hadoop/hbase/security/access/SnapshotScannerHDFSAclHelper.java:      LOG.error("Set HDFS acl error when grant: {}", userPermission, e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/security/access/SnapshotScannerHDFSAclHelper.java:      LOG.error("Set HDFS acl error when revoke: {}", userPermission, e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/security/access/SnapshotScannerHDFSAclHelper.java:      LOG.error("Set HDFS acl error when snapshot {}", snapshot, e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/security/access/SnapshotScannerHDFSAclHelper.java:      LOG.error("Remove HDFS acl error when {} table {}", operation, tableName, e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/security/access/SnapshotScannerHDFSAclHelper.java:      LOG.error("Remove HDFS acl error when delete namespace {}", namespace, e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/security/access/SnapshotScannerHDFSAclHelper.java:      LOG.error("Remove HDFS acl error when delete table {}", tableName, e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/security/access/SnapshotScannerHDFSAclHelper.java:      LOG.error("Set HDFS acl error when {} table {}", operation, tableName, e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/security/access/SnapshotScannerHDFSAclHelper.java:      LOG.error("Set HDFS acl error when create or modify table {}", tableName, e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/security/access/SnapshotScannerHDFSAclHelper.java:        LOG.error("Set HDFS acl error for path {}", acl.path, e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/security/access/SnapshotScannerHDFSAclHelper.java:        LOG.error("Set HDFS acl error", e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/security/visibility/VisibilityController.java:      LOG.error("Error while initializing VisibilityLabelService..", ioe);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/security/visibility/VisibilityController.java:        LOG.error("User is not having required permissions to add labels", e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/security/visibility/VisibilityController.java:        LOG.error(e.toString(), e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/security/visibility/VisibilityController.java:        LOG.error("User is not having required permissions to set authorization", e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/security/visibility/VisibilityController.java:        LOG.error(e.toString(), e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/security/visibility/VisibilityController.java:        LOG.error("User is not having required permissions to clear authorization", e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/security/visibility/VisibilityController.java:        LOG.error(e.toString(), e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/security/visibility/VisibilityScanDeleteTracker.java:      LOG.error("Error in isDeleted() check! Will treat cell as not deleted", e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/security/visibility/DefaultVisibilityLabelServiceImpl.java:      LOG.error("Error creating VisibilityLabelsCache", ioe);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/security/visibility/DefaultVisibilityLabelServiceImpl.java:        LOG.error(t.toString(), t);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/security/visibility/VisibilityReplicationEndpoint.java:                LOG.error(
+./hbase-server/src/main/java/org/apache/hadoop/hbase/security/visibility/ZKVisibilityLabelWatcher.java:      LOG.error("Failed parsing data from labels table " + " from zk", ioe);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/security/visibility/ZKVisibilityLabelWatcher.java:      LOG.error("Failed parsing data from labels table " + " from zk", ioe);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/security/visibility/ZKVisibilityLabelWatcher.java:        LOG.error("Error setting watcher on node " + path, ke);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/security/visibility/ZKVisibilityLabelWatcher.java:        LOG.error("Error reading data from zookeeper for node " + path, ke);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/security/visibility/ZKVisibilityLabelWatcher.java:      LOG.error("Failed writing to " + znode, e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/security/visibility/VisibilityLabelsCache.java:      LOG.error("ZooKeeper initialization failed", ke);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/security/visibility/VisibilityNewVersionBehaivorTracker.java:      LOG.error("Error in isDeleted() check! Will treat cell as not deleted", e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/security/provider/SaslServerAuthenticationProviders.java:        LOG.error("Failed to initialize {}", provider.getClass(), e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/quotas/SpaceQuotaRefresherChore.java:          LOG.error(msg, e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/quotas/QuotaUtil.java:        LOG.error("Unable to parse user '" + user + "' quotas", e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/quotas/QuotaUtil.java:        LOG.error("Unable to parse " + type + " '" + key + "' quotas", e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/quotas/RegionServerSpaceQuotaManager.java:        LOG.error("Failed to enable space violation policy for " + tableName
+./hbase-server/src/main/java/org/apache/hadoop/hbase/quotas/RegionServerSpaceQuotaManager.java:          LOG.error("Failed to disable space violation policy for " + tableName
+./hbase-server/src/main/java/org/apache/hadoop/hbase/io/HFileLink.java:      LOG.error("couldn't create the link=" + name + " for " + dstFamilyPath, e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/io/util/MemorySizeUtil.java:        LOG.error("Bad configuration value for " + MEMSTORE_SIZE_LOWER_LIMIT_KEY + ": "
+./hbase-server/src/main/java/org/apache/hadoop/hbase/io/util/MemorySizeUtil.java:        LOG.error("Value of " + MEMSTORE_SIZE_LOWER_LIMIT_OLD_KEY + " (" + lowerWaterMarkOldVal
+./hbase-server/src/main/java/org/apache/hadoop/hbase/io/hfile/HFileReaderImpl.java:        LOG.error("Current pos = " + blockBuffer.position()
+./hbase-server/src/main/java/org/apache/hadoop/hbase/io/hfile/bucket/FileMmapIOEngine.java:      LOG.error("Can't create bucket cache file " + filePath, fex);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/io/hfile/bucket/FileMmapIOEngine.java:      LOG.error(
+./hbase-server/src/main/java/org/apache/hadoop/hbase/io/hfile/bucket/FileMmapIOEngine.java:      LOG.error("Can't shutdown cleanly", ex);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/io/hfile/bucket/FileMmapIOEngine.java:      LOG.error("Can't shutdown cleanly", ex);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/io/hfile/bucket/FileIOEngine.java:        LOG.error("Failed allocating cache on " + filePath, fex);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/io/hfile/bucket/FileIOEngine.java:        LOG.error("Failed closing " + filePaths[i] + " when shudown the IOEngine", ex);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/io/hfile/bucket/BucketCache.java:        LOG.error("Can't restore from file[" + persistencePath + "] because of ", ioex);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/io/hfile/bucket/BucketCache.java:        LOG.error("Failed reading block " + key + " from bucket cache", ioex);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/io/hfile/bucket/BucketCache.java:            LOG.error("WriterThread encountered error", ioe);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/io/hfile/bucket/BucketCache.java:          LOG.error("Failed writing to bucket cache", ioex);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/io/hfile/bucket/BucketCache.java:        LOG.error("Failed syncing IO engine", ioex);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/io/hfile/bucket/BucketCache.java:        LOG.error("IO errors duration time has exceeded " + ioErrorsTolerationDuration +
+./hbase-server/src/main/java/org/apache/hadoop/hbase/io/hfile/bucket/BucketCache.java:        LOG.error("Unable to persist data on exit: " + ex.toString(), ex);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/io/hfile/bucket/PersistentIOEngine.java:      LOG.error("Calculating checksum failed, because of ", ioex);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/io/hfile/bucket/PersistentIOEngine.java:      LOG.error("No such algorithm : " + algorithm + "!");
+./hbase-server/src/main/java/org/apache/hadoop/hbase/io/hfile/BlockCacheFactory.java:      LOG.error("Can't instantiate bucket cache", ioex); throw new RuntimeException(ioex);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/io/hfile/HFilePrettyPrinter.java:      LOG.error("Error parsing command-line options", ex);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/io/hfile/HFilePrettyPrinter.java:      LOG.error("Error parsing command-line options", ex);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/io/hfile/HFilePrettyPrinter.java:        LOG.error("Error reading " + fileName, ex);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/namequeues/impl/SlowLogQueueService.java:      LOG.error("slowLog and largeLog both are false. Ignoring the event. rpcCallDetails: {}",
+./hbase-server/src/main/java/org/apache/hadoop/hbase/namequeues/DisruptorExceptionHandler.java:    LOG.error("Sequence={}, event={}", sequence, event, e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/namequeues/DisruptorExceptionHandler.java:    LOG.error("Disruptor onStartException: ", e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/namequeues/DisruptorExceptionHandler.java:    LOG.error("Disruptor onShutdownException: ", e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/LocalHBaseCluster.java:        LOG.error("Interrupted while waiting for {} to finish. Retrying join", rst.getName(), e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/LocalHBaseCluster.java:        LOG.error("Interrupted while waiting for {} to finish. Retrying join",
+./hbase-server/src/main/java/org/apache/hadoop/hbase/coprocessor/BaseEnvironment.java:        LOG.error("Error stopping coprocessor "+impl.getClass().getName(), ioe);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/coprocessor/CoprocessorHost.java:        LOG.error("Cannot load coprocessor " + implClass.getSimpleName());
+./hbase-server/src/main/java/org/apache/hadoop/hbase/coprocessor/CoprocessorHost.java:    LOG.error(message, e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/coprocessor/CoprocessorHost.java:        LOG.error("Removing coprocessor '" + env.toString() + "' from table '"+ tableName + "'", e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/coprocessor/CoprocessorHost.java:        LOG.error("Removing coprocessor '" + env.toString() + "' from " +
+./hbase-server/src/main/java/org/apache/hadoop/hbase/coprocessor/CoprocessorHost.java:        LOG.error("Uncaught exception when shutting down coprocessor '"
+./hbase-server/src/main/java/org/apache/hadoop/hbase/namespace/NamespaceStateManager.java:      LOG.error("Error while fetching namespace descriptor for namespace : " + namespaceAsString);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/procedure2/store/region/RegionProcedureStore.java:        LOG.error("Unsupported procedure type {} found, please rollback your master to the old" +
+./hbase-server/src/main/java/org/apache/hadoop/hbase/procedure2/store/region/RegionProcedureStore.java:      LOG.error("At least one ServerCrashProcedure is going to schedule a RecoverMetaProcedure," +
+./hbase-server/src/main/java/org/apache/hadoop/hbase/procedure2/store/region/RegionProcedureStore.java:          LOG.error("Corrupted procedure {}", procIter.next());
+./hbase-server/src/main/java/org/apache/hadoop/hbase/procedure2/store/region/RegionProcedureStore.java:        LOG.error(HBaseMarkers.FATAL, "Failed to insert proc {}, sub procs {}", proc,
+./hbase-server/src/main/java/org/apache/hadoop/hbase/procedure2/store/region/RegionProcedureStore.java:        LOG.error(HBaseMarkers.FATAL, "Failed to insert procs {}", Arrays.toString(procs), e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/procedure2/store/region/RegionProcedureStore.java:        LOG.error(HBaseMarkers.FATAL, "Failed to update proc {}", proc, e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/procedure2/store/region/RegionProcedureStore.java:      LOG.error(HBaseMarkers.FATAL, "Failed to delete pid={}", procId, e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/procedure2/store/region/RegionProcedureStore.java:      LOG.error(HBaseMarkers.FATAL, "Failed to delete parent proc {}, sub pids={}", parentProc,
+./hbase-server/src/main/java/org/apache/hadoop/hbase/procedure2/store/region/RegionProcedureStore.java:      LOG.error(HBaseMarkers.FATAL, "Failed to delete pids={}", Arrays.toString(procIds), e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/procedure/ProcedureMember.java:      LOG.error("Subproc name cannot be null or the empty string");
+./hbase-server/src/main/java/org/apache/hadoop/hbase/procedure/ProcedureMember.java:        LOG.error("Subproc '" + procName + "' is already running. Bailing out");
+./hbase-server/src/main/java/org/apache/hadoop/hbase/procedure/ProcedureMember.java:        LOG.error("Another thread has replaced existing subproc '" + procName + "'. Bailing out");
+./hbase-server/src/main/java/org/apache/hadoop/hbase/procedure/ProcedureMember.java:        LOG.error("Another thread has submitted subproc '" + procName + "'. Bailing out");
+./hbase-server/src/main/java/org/apache/hadoop/hbase/procedure/ProcedureMember.java:    LOG.error("Failed to start subprocedure '" + procName + "'");
+./hbase-server/src/main/java/org/apache/hadoop/hbase/procedure/ProcedureMember.java:    LOG.error(message, cause);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/procedure/ProcedureMember.java:    LOG.error(msg, ee);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/procedure/ProcedureCoordinator.java:        LOG.error("Another thread has submitted procedure '" + procName + "'. Ignoring this attempt.");
+./hbase-server/src/main/java/org/apache/hadoop/hbase/procedure/ProcedureCoordinator.java:      LOG.error("Failed to submit procedure '" + procName + "'");
+./hbase-server/src/main/java/org/apache/hadoop/hbase/procedure/flush/RegionServerFlushTableProcedureManager.java:          LOG.error("fail to get family by parsing from data", e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/procedure/flush/MasterFlushTableProcedureManager.java:      LOG.error(msg);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/procedure/Procedure.java:      LOG.error(msg, e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/procedure/ZKProcedureCoordinator.java:      LOG.error(msg, e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/procedure/ZKProcedureCoordinator.java:      LOG.error(msg, e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/procedure/ZKProcedureCoordinator.java:              LOG.error(msg);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/procedure/ZKProcedureCoordinator.java:      LOG.error(msg, e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/procedure/ZKProcedureCoordinator.java:      LOG.error(msg, e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/procedure/ZKProcedureCoordinator.java:        LOG.error(msg, e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/procedure/ZKProcedureCoordinator.java:      LOG.error("Unable to start the ZK-based Procedure Coordinator rpcs.", e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/procedure/ZKProcedureMemberRpcs.java:        LOG.error(msg);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/procedure/ZKProcedureMemberRpcs.java:      LOG.error("Illegal argument exception", iae);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/procedure/ZKProcedureMemberRpcs.java:      LOG.error("Illegal state exception ", ise);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/procedure/ZKProcedureMemberRpcs.java:      LOG.error("Failed due to null subprocedure", ee);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/procedure/ZKProcedureMemberRpcs.java:          LOG.error(msg);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/procedure/Subprocedure.java:          LOG.error("Can't reach controller, not propagating error", e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/procedure/Subprocedure.java:    LOG.error(msg, cause);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/SplitLogWorker.java:        LOG.error("unexpected error ", t);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/handler/RSProcedureHandler.java:      LOG.error("pid=" + this.procId, t);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/handler/OpenRegionHandler.java:        LOG.error("Region " + encodedName +
+./hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/handler/OpenRegionHandler.java:        LOG.error("Region " + encodedName + " opening cancelled");
+./hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/handler/OpenRegionHandler.java:          LOG.error("Bad state: we've just opened a region that was NOT in transition. Region="
+./hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/handler/OpenRegionHandler.java:          LOG.error("Race condition: we've finished to open a region, while a close was requested "
+./hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/handler/OpenRegionHandler.java:      LOG.error(
+./hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/handler/ParallelSeekHandler.java:      LOG.error("", e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/handler/RegionReplicaFlushHandler.java:      LOG.error("Caught throwable while processing event " + eventType, t);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/handler/AssignRegionHandler.java:      LOG.error("Bad state: we've just opened {} which was NOT in transition", regionName);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/handler/AssignRegionHandler.java:      LOG.error("Bad state: we've just opened {} which was closing", regionName);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/snapshot/FlushSnapshotSubprocedure.java:      LOG.error("got interrupted exception for " + getMemberName());
+./hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/ShutdownHook.java:      LOG.error(HBaseMarkers.FATAL, "Couldn't find field 'clientFinalizer' in FileSystem!",
+./hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/ShutdownHook.java:      LOG.error(HBaseMarkers.FATAL, "Couldn't access field 'clientFinalizer' in FileSystem!",
+./hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/DelimitedKeyPrefixRegionSplitPolicy.java:      LOG.error(DELIMITER_KEY + " not specified for table " +
+./hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/StripeStoreConfig.java:      LOG.error("Split part count cannot be 1 (" + splitPartCount + "), using the default");
+./hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/StripeStoreConfig.java:      LOG.error("Initial stripe count is 0, using the default");
+./hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/HStoreFile.java:      LOG.error("Error reading timestamp range data from meta -- " +
+./hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/HStoreFile.java:      LOG.error("Error reading compacted storefiles from meta data", e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/wal/AsyncFSWAL.java:        LOG.error("We have waited " + waitOnShutdownInSeconds + " seconds but" +
+./hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/wal/AsyncFSWAL.java:      LOG.error("The wait for close of async writer is interrupted");
+./hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/wal/FSHLog.java:      LOG.error("Sequence=" + sequence + ", event=" + event, ex);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/wal/FSHLog.java:      LOG.error(ex.toString(), ex);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/wal/FSHLog.java:      LOG.error(ex.toString(), ex);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/wal/FSHLog.java:      LOG.error("Failed close of WAL writer " + oldPath + ", unflushedEntries=" + count, e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/wal/FSHLog.java:        LOG.error("Close of WAL " + path + " failed. Cause=\"" + ioe.getMessage() + "\", errors="
+./hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/wal/FSHLog.java:        LOG.error("We have waited {} seconds but the close of writer(s) doesn't complete."
+./hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/wal/FSHLog.java:      LOG.error("The wait for termination of FSHLog writer(s) is interrupted");
+./hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/wal/FSHLog.java:            LOG.error("Error syncing, request close of WAL", e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/wal/FSHLog.java:        LOG.error("UNEXPECTED!!! syncFutures.length=" + this.syncFutures.length, t);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/wal/WALCoprocessorHost.java:      LOG.error(implClass.getName() + " is not of type WALCoprocessor. Check the "
+./hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/wal/SequenceIdAccounting.java:          LOG.error(errorStr);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/wal/ProtobufLogReader.java:        LOG.error(
+./hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/wal/AbstractFSWAL.java:          LOG.error("Failed log archiving for the log {},", log.getFirst(), e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/wal/AbstractFSWAL.java:          LOG.error("Log archiving failed for the log {} - attempt {}", log.getFirst(), retry,
+./hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/wal/AbstractFSWAL.java:      LOG.error(HBaseMarkers.FATAL, "Please use the WALPerformanceEvaluation tool instead. i.e.:");
+./hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/wal/AbstractFSWAL.java:      LOG.error(HBaseMarkers.FATAL,
+./hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/AbstractMultiFileWriter.java:        LOG.error("Failed to close the writer after an unfinished compaction.", ex);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/HMobStore.java:      LOG.error("Fail to open mob file[" + path + "], keep it in temp directory.", e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/HMobStore.java:          LOG.error("The mob file " + path + " is corrupt", e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/HMobStore.java:    LOG.error("The mob file " + fileName + " could not be found in the locations " + locations
+./hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/HRegionServerCommandLine.java:      LOG.error("Region server exiting", t);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/CompactedHFilesDischarger.java:          LOG.error("Exception while trying to close and archive the compacted store "
+./hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/RSRpcServices.java:          LOG.error("Exception while closing the scanner " + scanner, e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/RSRpcServices.java:          LOG.error("Closing scanner for " + s.getRegionInfo().getRegionNameAsString(), e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/RSRpcServices.java:            LOG.error("Closing scanner for " + s.getRegionInfo().getRegionNameAsString(), e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/RSRpcServices.java:      LOG.error("ZooKeeper permission watcher initialization failed", e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/RSRpcServices.java:        LOG.error(HBaseMarkers.FATAL, "Run out of memory; "
+./hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/RSRpcServices.java:      LOG.error("Failed warmup of {}", region.getRegionNameAsString(), ie);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/RSRpcServices.java:      LOG.error("Error while skipping Cells in CellScanner for invalid Region Mutations", e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/RSRpcServices.java:      LOG.error("Error while retrieving log entries.", e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/SplitRequest.java:      LOG.error("Unable to ask master to split " + parent.getRegionNameAsString());
+./hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/RegionCoprocessorHost.java:          LOG.error("Failed to load coprocessor " + attr.getClassName(), t);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/RegionCoprocessorHost.java:        LOG.error("{} is not of type RegionCoprocessor. Check the configuration of {}",
+./hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/KeyPrefixRegionSplitPolicy.java:        LOG.error(PREFIX_LENGTH_KEY + " not specified for table "
+./hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/KeyPrefixRegionSplitPolicy.java:      LOG.error("Number format exception when parsing " + PREFIX_LENGTH_KEY + " for table "
+./hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/KeyPrefixRegionSplitPolicy.java:      LOG.error("Invalid value for " + PREFIX_LENGTH_KEY + " for table "
+./hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/HStore.java:      LOG.error("Compaction check period multiplier must be positive, setting default: {}",
+./hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/HStore.java:        // TODO: change this to LOG.error() after more debugging
+./hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/HStore.java:      LOG.error("Failed to open store file : {}, keeping it in tmp location", path, e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/HStore.java:          LOG.error("Failed to commit store file {}", storeFilePath, ex);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/HStore.java:              LOG.error(HBaseMarkers.FATAL, "Failed to delete store file we committed, "
+./hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/HStore.java:          LOG.error("Exception while trying to close the compacted store file {}", file.getPath(),
+./hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/SecureBulkLoadManager.java:            LOG.error("Failed to complete bulk load", e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/SecureBulkLoadManager.java:        LOG.error("Failed to close FileSystem for: {}", ugi, e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/RegionServerCoprocessorHost.java:        LOG.error("{} is not of type RegionServerCoprocessor. Check the configuration of {}",
+./hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/MetricsRegionWrapperImpl.java:      LOG.error("Could not load HFile info ", ioe);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/StoreFileReader.java:      LOG.error("Bad Delete Family bloom filter data -- proceeding without",
+./hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/StoreFileReader.java:      LOG.error("Error reading bloom filter data -- proceeding without",
+./hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/StoreFileReader.java:      LOG.error("Bad bloom filter data -- proceeding without", e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/StoreFileReader.java:      LOG.error("Error reading bloom filter meta for " + blockType
+./hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/StoreFileReader.java:      LOG.error("Bad bloom filter meta " + blockType
+./hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/StripeMultiFileWriter.java:      LOG.error(error);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/StripeMultiFileWriter.java:      LOG.error(error);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/StripeStoreFileManager.java:        LOG.error("Unexpected metadata - start row [" + Bytes.toString(startRow) + "], end row ["
+./hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/CompactSplit.java:          LOG.error("Compaction selection failed " + this, ex);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/CompactSplit.java:        LOG.error("Compaction failed " + this, remoteEx);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/CompactSplit.java:        LOG.error("Compaction failed " + this, ex);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/compactions/DateTieredCompactionPolicy.java:      LOG.error("Can not check for compaction: ", e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/SplitWALCallable.java:      LOG.error("Parse proto buffer of split WAL request failed ", e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/MemStoreFlusher.java:        LOG.error("Above memory mark but there are no flushable regions!");
+./hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/MemStoreFlusher.java:          LOG.error("Cache flusher failed for entry " + fqe, ex);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/MemStoreFlusher.java:              LOG.error("Cache flush failed for region " +
+./hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/MemStoreFlusher.java:      LOG.error(
+./hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/HRegion.java:          LOG.error("Could not initialize all stores for the region=" + this);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/HRegion.java:      LOG.error("Asked to modify this region's (" + this.toString()
+./hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/HRegion.java:        LOG.error(msg);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/HRegion.java:        LOG.error("Memstore data size is {} in region {}", this.memStoreSizing.getDataSize(), this);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/HRegion.java:        LOG.error("Failed delete of {}", file);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/HRegion.java:      LOG.error(HConstants.HREGION_EDITS_REPLAY_SKIP_ERRORS + "=true so continuing. Renamed "
+./hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/HRegion.java:            LOG.error(getRegionInfo().getEncodedName() + " : "
+./hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/HRegion.java:          LOG.error("There was IO error when checking if the bulk load is ok in region {}.", this,
+./hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/HRegion.java:          LOG.error("There was a partial failure due to IO when attempting to" +
+./hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/HRegion.java:              LOG.error("Error while calling failedBulkLoad for family " +
+./hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/HRegion.java:            LOG.error("There was a partial failure due to IO when attempting to" +
+./hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/HRegion.java:                LOG.error("Error while calling failedBulkLoad for family " +
+./hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/HRegion.java:          LOG.error("bulkload hfiles request compaction error ", e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/HRegion.java:      LOG.error("RowProcessor timeout: {} ms, in region {}, {}", timeout,
+./hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/HRegion.java:      LOG.error("Coprocessor service {} already registered, rejecting request from {} in region {}",
+./hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/HRegion.java:        LOG.error("Ignoring invalid split for region {}", this, e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/StripeStoreFlusher.java:            LOG.error("Failed to delete a file after failed flush: " + e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/HRegionServer.java:      LOG.error("Failed construction RegionServer", t);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/HRegionServer.java:      LOG.error("Coprocessor executorService " + serviceName +
+./hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/HRegionServer.java:        LOG.error("Failed to stop infoServer", e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/HRegionServer.java:        LOG.error("Shutdown / close of WAL failed: " + e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/HRegionServer.java:            LOG.error(msg);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/HRegionServer.java:            LOG.error(msg);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/HRegionServer.java:      LOG.error(msg);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/HRegionServer.java:          LOG.error("Failed binding http info server to port: " + port);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/HRegionServer.java:      LOG.error(
+./hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/HRegionServer.java:      LOG.error(HBaseMarkers.FATAL, msg, cause);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/HRegionServer.java:      LOG.error(HBaseMarkers.FATAL, msg);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/HRegionServer.java:    LOG.error(HBaseMarkers.FATAL, "RegionServer abort: loaded coprocessors are: " +
+./hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/HRegionServer.java:        LOG.error(HBaseMarkers.FATAL, "Master rejected startup because clock is out of sync",
+./hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/HRegionServer.java:      LOG.error("", e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/HRegionServer.java:      LOG.error(msg, e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/HeapMemoryManager.java:        LOG.error("Exception thrown from the HeapMemoryTuner implementation", t);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/LeaseManager.java:        LOG.error(HBaseMarkers.FATAL, "Unexpected exception killed leases thread", e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/LeaseManager.java:            LOG.error("lease listener is null for lease " + lease.getLeaseName());
+./hbase-server/src/main/java/org/apache/hadoop/hbase/master/MasterFileSystem.java:      LOG.error(HBaseMarkers.FATAL, "Please fix invalid configuration for '{}' {}",
+./hbase-server/src/main/java/org/apache/hadoop/hbase/master/MasterFileSystem.java:      LOG.error(HBaseMarkers.FATAL, "Please fix invalid configuration for '{}' {}",
+./hbase-server/src/main/java/org/apache/hadoop/hbase/master/MasterFileSystem.java:      LOG.error("Failed to create or set permission on staging directory " + p.toString());
+./hbase-server/src/main/java/org/apache/hadoop/hbase/master/snapshot/EnabledTableSnapshotHandler.java:      LOG.error(msg);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/master/snapshot/SnapshotHFileCleaner.java:      LOG.error("Exception while checking if files were valid, keeping them just in case.", e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/master/snapshot/SnapshotHFileCleaner.java:      LOG.error("Failed to create cleaner util", e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/master/snapshot/TakeSnapshotHandler.java:      LOG.error(reason, e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/master/snapshot/TakeSnapshotHandler.java:          LOG.error("Couldn't delete snapshot working directory:" + workingDir);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/master/snapshot/TakeSnapshotHandler.java:        LOG.error("Couldn't delete snapshot working directory:" + workingDir);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/master/snapshot/MasterSnapshotVerifier.java:      LOG.error(msg);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/master/snapshot/MasterSnapshotVerifier.java:      LOG.error(errorMsg);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/master/snapshot/MasterSnapshotVerifier.java:        LOG.error(mesg);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/master/snapshot/SnapshotManager.java:        LOG.error("Snapshot information for " + snapshot.getPath() + " doesn't exist");
+./hbase-server/src/main/java/org/apache/hadoop/hbase/master/snapshot/SnapshotManager.java:          LOG.error("Couldn't delete working directory (" + workingDir + " for snapshot:" +
+./hbase-server/src/main/java/org/apache/hadoop/hbase/master/snapshot/SnapshotManager.java:        LOG.error("Couldn't delete working directory (" + workingDir + " for snapshot:" +
+./hbase-server/src/main/java/org/apache/hadoop/hbase/master/snapshot/SnapshotManager.java:      LOG.error(msg);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/master/snapshot/SnapshotManager.java:      LOG.error("Can't snapshot table '" + snapshot.getTable()
+./hbase-server/src/main/java/org/apache/hadoop/hbase/master/snapshot/SnapshotManager.java:      LOG.error("Exception occurred while cloning the snapshot " + snapshot.getName()
+./hbase-server/src/main/java/org/apache/hadoop/hbase/master/snapshot/SnapshotManager.java:      LOG.error(msg, e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/master/snapshot/SnapshotManager.java:      LOG.error("A Snapshot named '" + reqSnapshot.getName() + "' does not exist.");
+./hbase-server/src/main/java/org/apache/hadoop/hbase/master/snapshot/SnapshotManager.java:      LOG.error("Exception occurred while restoring the snapshot " + snapshot.getName()
+./hbase-server/src/main/java/org/apache/hadoop/hbase/master/snapshot/SnapshotManager.java:      LOG.error(msg, e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/master/snapshot/SnapshotManager.java:      LOG.error("stop ProcedureCoordinator error", e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/master/snapshot/SnapshotManager.java:      LOG.error("Snapshots from an earlier release were found under: " + oldSnapshotDir);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/master/snapshot/SnapshotManager.java:      LOG.error("Please rename the directory as " + HConstants.SNAPSHOT_DIR_NAME);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/master/snapshot/SnapshotManager.java:          LOG.error("Snapshots are present, but cleaners are not enabled.");
+./hbase-server/src/main/java/org/apache/hadoop/hbase/master/MasterCoprocessorHost.java:        LOG.error("{} is not of type MasterCoprocessor. Check the configuration of {}",
+./hbase-server/src/main/java/org/apache/hadoop/hbase/master/locking/LockProcedure.java:      LOG.error("Unknown level specified in " + toString());
+./hbase-server/src/main/java/org/apache/hadoop/hbase/master/locking/LockProcedure.java:        LOG.error("Shared lock on namespace not supported for " + toString());
+./hbase-server/src/main/java/org/apache/hadoop/hbase/master/locking/LockProcedure.java:        LOG.error("Unexpected lock type " + toString());
+./hbase-server/src/main/java/org/apache/hadoop/hbase/master/locking/LockProcedure.java:        LOG.error("Unexpected lock type " + toString());
+./hbase-server/src/main/java/org/apache/hadoop/hbase/master/locking/LockProcedure.java:        LOG.error("Only exclusive lock supported on regions for " + toString());
+./hbase-server/src/main/java/org/apache/hadoop/hbase/master/assignment/SplitTableRegionProcedure.java:        LOG.error(msg, e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/master/assignment/SplitTableRegionProcedure.java:        LOG.error("pid=" + getProcId() + " row key of mutation from coprocessor not parsable as "
+./hbase-server/src/main/java/org/apache/hadoop/hbase/master/assignment/MergeTableRegionsProcedure.java:        LOG.error(msg, e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/master/assignment/MergeTableRegionsProcedure.java:        LOG.error("Row key of mutation from coprocessor is not parsable as region name. "
+./hbase-server/src/main/java/org/apache/hadoop/hbase/master/assignment/RegionStateStore.java:      LOG.error(msg, e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/master/assignment/TransitRegionStateProcedure.java:              LOG.error(
+./hbase-server/src/main/java/org/apache/hadoop/hbase/master/assignment/AssignmentManager.java:        LOG.error(t.toString(), t);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/master/assignment/AssignmentManager.java:      LOG.error("Failed trying to close {} on {}", Bytes.toStringBinary(regionName), sn, e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/master/assignment/AssignmentManager.java:      LOG.error("Error trying to load region {} from META", regionEncodedName, e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/master/SplitWALManager.java:      LOG.error("Failed to create procedures for splitting WALs of {}", crashedServer, e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/master/SplitLogManager.java:        LOG.error(HBaseMarkers.FATAL, "Logic error. Deleted task still present in tasks map");
+./hbase-server/src/main/java/org/apache/hadoop/hbase/master/RegionPlacementMaintainer.java:        LOG.error("Get some exceptions for placing primary region server" +
+./hbase-server/src/main/java/org/apache/hadoop/hbase/master/RegionPlacementMaintainer.java:      LOG.error("Failed to update hbase:meta with the new assignment" +
+./hbase-server/src/main/java/org/apache/hadoop/hbase/master/RegionPlacementMaintainer.java:      LOG.error("Failed to update the following + " + failedNum +
+./hbase-server/src/main/java/org/apache/hadoop/hbase/master/RegionPlacementMaintainer.java:        LOG.error("Failed to update " + entry.getKey().getAddress() +
+./hbase-server/src/main/java/org/apache/hadoop/hbase/master/RegionPlacementMaintainer.java:            LOG.error("Cannot find the region " + regionName + " from the META");
+./hbase-server/src/main/java/org/apache/hadoop/hbase/master/RegionPlacementMaintainer.java:              LOG.error("Cannot parse the invalid favored nodes because " + e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/master/janitor/CatalogJanitor.java:      LOG.error("Error trying to determine if daughter region exists, " +
+./hbase-server/src/main/java/org/apache/hadoop/hbase/master/janitor/CatalogJanitor.java:      LOG.error("Error trying to determine referenced files from : " + daughter.getEncodedName() +
+./hbase-server/src/main/java/org/apache/hadoop/hbase/master/janitor/CatalogJanitor.java:      LOG.error("Log4j check failed", e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/master/procedure/CloneSnapshotProcedure.java:          LOG.error(msg, e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/master/procedure/RSProcedureDispatcher.java:        LOG.error("Unexpected error caught, this may cause the procedure to hang forever", e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/master/procedure/RSProcedureDispatcher.java:    LOG.error("Caught error", e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/master/procedure/ModifyTableProcedure.java:        LOG.error("Error while modifying table '" + getTableName().toString()
+./hbase-server/src/main/java/org/apache/hadoop/hbase/master/procedure/RestoreSnapshotProcedure.java:      LOG.error(msg, e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/master/procedure/RestoreSnapshotProcedure.java:      LOG.error(msg, e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/master/region/MasterRegionFlusherAndCompactor.java:      LOG.error("Failed to compact master local region", e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/master/region/MasterRegionFlusherAndCompactor.java:        LOG.error(HBaseMarkers.FATAL, "Failed to flush master local region, aborting...", e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/master/SplitOrMergeTracker.java:        LOG.error("ZK state for LoadBalancer could not be parsed " + Bytes.toStringBinary(upData));
+./hbase-server/src/main/java/org/apache/hadoop/hbase/master/balancer/StochasticLoadBalancer.java:      LOG.error("failed to get the size of all tables", e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/master/balancer/HeterogeneousRegionCountCostFunction.java:        LOG.error("error on line: " + e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/master/balancer/HeterogeneousRegionCountCostFunction.java:      LOG.error("cannot read rules file located at ' " + filename + " ':" + e.getMessage());
+./hbase-server/src/main/java/org/apache/hadoop/hbase/master/balancer/BalancerChore.java:      LOG.error("Failed to balance.", e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/master/ActiveMasterManager.java:        LOG.error("Error updating backup masters", ioe);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/master/ActiveMasterManager.java:      LOG.error("Error fetching active master information", e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/master/RegionServerTracker.java:      forEach(s -> LOG.error("{} has no matching ServerCrashProcedure", s));
+./hbase-server/src/main/java/org/apache/hadoop/hbase/master/HMasterCommandLine.java:      LOG.error("Could not parse: ", e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/master/HMasterCommandLine.java:      LOG.error("Master exiting", t);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/master/HMasterCommandLine.java:        LOG.error("Failed to stop master", t);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/master/HMasterCommandLine.java:      LOG.error("Master not running");
+./hbase-server/src/main/java/org/apache/hadoop/hbase/master/HMasterCommandLine.java:      LOG.error("ZooKeeper not available");
+./hbase-server/src/main/java/org/apache/hadoop/hbase/master/HMasterCommandLine.java:      LOG.error("Got IOException: " +e.getMessage(), e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/master/HMasterCommandLine.java:          LOG.error("Failed to shutdown MiniZooKeeperCluster", e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/master/RegionsRecoveryChore.java:              LOG.error("{} tableName: {}, regionNames: {}", ERROR_REOPEN_REIONS_MSG,
+./hbase-server/src/main/java/org/apache/hadoop/hbase/master/RegionsRecoveryChore.java:      LOG.error("Error while reopening regions based on storeRefCount threshold", e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/master/MasterRpcServices.java:      LOG.error("Exception occurred in HMaster.shutdown()", e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/master/MasterRpcServices.java:      LOG.error("Exception occurred while stopping master", e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/master/MasterRpcServices.java:      LOG.error("A minimum HFile version of " + HFile.MIN_FORMAT_VERSION_WITH_TAGS
+./hbase-server/src/main/java/org/apache/hadoop/hbase/master/MasterRpcServices.java:      LOG.error("Error while retrieving log entries.", e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/master/HMaster.java:      LOG.error("Failed construction of Master", t);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/master/HMaster.java:          LOG.error(error, t);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/master/HMaster.java:      LOG.error(msg);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/master/HMaster.java:        LOG.error("Coprocessor preMasterInitialization() hook failed", e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/master/HMaster.java:        LOG.error("Coprocessor postStartMaster() hook failed", ioe);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/master/HMaster.java:        LOG.error("Failed to stop master jetty server", e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/master/HMaster.java:      LOG.error("Error updating snapshot cleanup mode to {}", on, e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/master/HMaster.java:          LOG.error("Error invoking master coprocessor preBalance()", ioe);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/master/HMaster.java:          LOG.error("Error invoking master coprocessor postBalance()", ioe);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/master/HMaster.java:      LOG.error(HBaseMarkers.FATAL, "Failed to become active master", t);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/master/HMaster.java:              LOG.error("Error while populating TABLE_TO_REGIONS_COUNT for Cluster Metrics..", e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/master/HMaster.java:      LOG.error(HBaseMarkers.FATAL, "Master server abort: loaded coprocessors are: " +
+./hbase-server/src/main/java/org/apache/hadoop/hbase/master/HMaster.java:      LOG.error(HBaseMarkers.FATAL, msg, cause);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/master/HMaster.java:      LOG.error(HBaseMarkers.FATAL, msg);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/master/HMaster.java:      LOG.error("Exception occurred while stopping master", e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/master/HMaster.java:        LOG.error("ZooKeeper exception trying to set cluster as down in ZK", e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/master/HMaster.java:      LOG.error("Coprocessor service "+serviceName+
+./hbase-server/src/main/java/org/apache/hadoop/hbase/master/HMaster.java:      LOG.error("Exception when get compaction state for " + tableName.getNameAsString(), e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/master/TableStateManager.java:      LOG.error("Unable to get table " + tableName + " state", e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/master/normalizer/RegionNormalizerChore.java:      LOG.error("Failed to normalize regions.", e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/master/normalizer/RegionNormalizerManager.java:          LOG.error("Uncaught exception, worker thread likely terminated.", throwable))
+./hbase-server/src/main/java/org/apache/hadoop/hbase/master/MasterInitializationMonitor.java:          LOG.error("Master failed to complete initialization after " + timeout + "ms. Please" +
+./hbase-server/src/main/java/org/apache/hadoop/hbase/master/MasterInitializationMonitor.java:            LOG.error("Zombie Master exiting. Thread dump to stdout");
+./hbase-server/src/main/java/org/apache/hadoop/hbase/master/cleaner/CleanerChore.java:      LOG.error("Unrecognized value: " + poolSize + " for " + CHORE_POOL_SIZE +
+./hbase-server/src/main/java/org/apache/hadoop/hbase/master/cleaner/SnapshotCleanerChore.java:      LOG.error("Error while cleaning up Snapshots...", e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/master/cleaner/SnapshotCleanerChore.java:      LOG.error("Error while deleting Snapshot: {}", snapshotDescription.getName(), e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/master/MetaRegionLocationCache.java:          LOG.error("Interrupted while loading meta locations from ZK", ie);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/ExecutorStatusChore.java:      LOG.error(e.getMessage(), e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/rsgroup/RSGroupMajorCompactionTTL.java:        LOG.error("Invalid rsgroup specified: " + rsgroup);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/rsgroup/RSGroupMajorCompactionTTL.java:          LOG.error("Failed to compact table: " + tableName);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/rsgroup/RSGroupBasedLoadBalancer.java:        LOG.error(msg);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/rsgroup/RSGroupBasedLoadBalancer.java:      LOG.error(RSGroupInfoManager.class.getSimpleName()
+./hbase-server/src/main/java/org/apache/hadoop/hbase/rsgroup/RSGroupBasedLoadBalancer.java:      LOG.error("get correct assignments and mis-placed regions error ", e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/rsgroup/RSGroupBasedLoadBalancer.java:      LOG.error("Failed to get default rsgroup info to fallback", e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/rsgroup/RSGroupInfoManagerImpl.java:        LOG.error("{}, placing {} back to default rsgroup",
+./hbase-server/src/main/java/org/apache/hadoop/hbase/rsgroup/RSGroupInfoManagerImpl.java:      LOG.error("Failed to write to rsGroupZNode", e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/rsgroup/RSGroupInfoManagerImpl.java:      LOG.error(msg);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/rsgroup/RSGroupInfoManagerImpl.java:        LOG.error("Move region {} to group {} failed, will retry on next attempt",
+./hbase-server/src/main/java/org/apache/hadoop/hbase/ipc/RpcExecutor.java:              LOG.error("Error but can't abort because abortable is null: "
+./hbase-server/src/main/java/org/apache/hadoop/hbase/ipc/SimpleRpcServer.java:            LOG.error(getName() + ": error closing read selector in " + getName(), ioe);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/ipc/SimpleRpcServer.java:            LOG.error(getName() + ": CancelledKeyException in Reader", e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/ipc/ServerRpcConnection.java:            RpcServer.LOG.error("Error when trying to create instance of HBaseSaslRpcServer "
+./hbase-server/src/main/java/org/apache/hadoop/hbase/ipc/SimpleRpcServerResponder.java:        SimpleRpcServer.LOG.error(getName() + ": couldn't close write selector", ioe);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/ipc/RpcServer.java:      LOG.error("Unexpected throwable object ", e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/executor/ExecutorService.java:      LOG.error("Cannot submit [" + eh + "] because the executor is missing." +
+./hbase-server/src/main/java/org/apache/hadoop/hbase/executor/ExecutorService.java:        LOG.error("Failed to submit the event handler {} to executor", eh, e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/executor/EventHandler.java:    LOG.error(msg, t);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/replication/regionserver/RecoveredReplicationSourceShipper.java:        LOG.error("Error while locating recovered queue paths, attempt #" + numRetries);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/replication/regionserver/RecoveredReplicationSourceShipper.java:      LOG.error(
+./hbase-server/src/main/java/org/apache/hadoop/hbase/replication/regionserver/ReplicationSourceManager.java:        LOG.error(String.format("ReplicationException: cannot claim dead region (%s)'s " +
+./hbase-server/src/main/java/org/apache/hadoop/hbase/replication/regionserver/ReplicationSourceManager.java:          LOG.error("Failed creating a source", e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/replication/regionserver/RecoveredReplicationSource.java:        LOG.error(
+./hbase-server/src/main/java/org/apache/hadoop/hbase/replication/regionserver/RecoveredReplicationSource.java:        LOG.error("Recovery queue size is incorrect");
+./hbase-server/src/main/java/org/apache/hadoop/hbase/replication/regionserver/RecoveredReplicationSource.java:    LOG.error("Didn't find path for: " + path.getName());
+./hbase-server/src/main/java/org/apache/hadoop/hbase/replication/regionserver/WALEntryStream.java:    LOG.error("Couldn't locate log: " + path);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/replication/regionserver/ReplicationSink.java:      LOG.error("Unable to accept edit because:", ex);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/replication/regionserver/ReplicationSourceWALReader.java:          LOG.error("Failed to read stream of replication entries", e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/replication/regionserver/ReplicationSourceWALReader.java:          LOG.error("Failed to deserialize bulk load entry from wal edit. "
+./hbase-server/src/main/java/org/apache/hadoop/hbase/replication/regionserver/ReplicationSourceWALReader.java:          LOG.error("Failed to deserialize bulk load entry from wal edit. "
+./hbase-server/src/main/java/org/apache/hadoop/hbase/replication/regionserver/Replication.java:      LOG.error("Failed to add hfile references in the replication queue.", e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/replication/regionserver/ReplicationSource.java:    LOG.error("Unexpected exception in {} currentPath={}",
+./hbase-server/src/main/java/org/apache/hadoop/hbase/replication/regionserver/ReplicationSource.java:          LOG.error("Replication sources refresh failed.", e1);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/replication/regionserver/ReplicationSource.java:      LOG.error("{} Closing source {} because an error occurred: {}",
+./hbase-server/src/main/java/org/apache/hadoop/hbase/replication/master/ReplicationHFileCleaner.java:      LOG.error("Error while configuring " + this.getClass().getName(), e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/replication/master/ReplicationHFileCleaner.java:      LOG.error("Error while configuring " + this.getClass().getName(), e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/replication/master/ReplicationLogCleaner.java:      LOG.error("Error while configuring " + this.getClass().getName(), e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/replication/master/ReplicationLogCleaner.java:      LOG.error("Error while configuring " + this.getClass().getName(), e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/replication/HBaseReplicationEndpoint.java:    LOG.error("The HBaseReplicationEndpoint corresponding to peer " + ctx.getPeerId()
+./hbase-server/src/main/java/org/apache/hadoop/hbase/replication/BaseReplicationEndpoint.java:            LOG.error("Unable to create WALEntryFilter " + filterName, e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/backup/example/TableHFileArchiveTracker.java:      LOG.error("Failed to update tables to archive", e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/backup/example/LongTermArchivingHFileCleaner.java:      LOG.error("Failed to lookup status of:" + fStat.getPath() + ", keeping it just incase.", e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/backup/example/LongTermArchivingHFileCleaner.java:      LOG.error("Error while configuring " + this.getClass().getName(), e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/backup/example/LongTermArchivingHFileCleaner.java:      LOG.error("Error while configuring " + this.getClass().getName(), e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/backup/HFileArchiver.java:      LOG.error("No archive directory could be found because tabledir (" + tableDir
+./hbase-server/src/main/java/org/apache/hadoop/hbase/backup/HFileArchiver.java:        LOG.error("Could not rename archive file to backup: " + backedupArchiveFile
+./hbase-server/src/main/java/org/apache/hadoop/hbase/backup/HFileArchiver.java:      LOG.error("Failed to archive " + currentFile);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/backup/HFileArchiver.java:        LOG.error("Failed to delete {}", hsf.getPath());
+./hbase-server/src/main/java/org/apache/hadoop/hbase/fs/HFileSystem.java:      LOG.error("Failed to wrap filesystem: " + e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/JMXListener.java:      LOG.error("Failed start of JMXConnectorServer!", e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/JMXListener.java:      LOG.error("JMXListener should not be loaded in Region Environment!");
+./hbase-server/src/main/java/org/apache/hadoop/hbase/mob/DefaultMobStoreCompactor.java:                  LOG.error("Missing MOB cell: file={} not found cell={}", fName, c);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/mob/DefaultMobStoreCompactor.java:                LOG.error("Missing MOB cell value: file={} mob cell={} cell={}", fName,
+./hbase-server/src/main/java/org/apache/hadoop/hbase/mob/DefaultMobStoreFlusher.java:        LOG.error("Failed to delete the temp mob file", e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/mob/ManualMobMaintHFileCleaner.java:          LOG.error("couldn't determine mob region for table {} keeping files just in case.",
+./hbase-server/src/main/java/org/apache/hadoop/hbase/mob/ManualMobMaintHFileCleaner.java:      LOG.error("Failed to determine mob status of '{}', keeping it just in case.", fStat.getPath(),
+./hbase-server/src/main/java/org/apache/hadoop/hbase/mob/ExpiredMobFileCleaner.java:        LOG.error("Failed to close the connection.", e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/mob/MobUtils.java:        LOG.error("Cannot parse the fileName " + fileName, e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/mob/MobUtils.java:        LOG.error("Failed to delete the mob files " + filesToClean, e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/mob/MobFileCompactionChore.java:            LOG.error("Failed to compact table={} cf={}",
+./hbase-server/src/main/java/org/apache/hadoop/hbase/mob/MobFileCompactionChore.java:      LOG.error("Failed to compact", e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/mob/MobFileCompactionChore.java:          LOG.error("Could not get compaction state for table={} cf={} region={}, compaction will"+
+./hbase-server/src/main/java/org/apache/hadoop/hbase/mob/MobFileCompactionChore.java:          LOG.error("Because of:", e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/mob/MobFileCache.java:        LOG.error("Failed to evict the file " + fileName, e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/mob/MobFileCache.java:      LOG.error("MobFileCache, Exception happen during close " + file.getFileName(), e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/mob/MobFileCleanerChore.java:      LOG.error("MobFileCleanerChore failed", e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/mob/MobFileCleanerChore.java:            LOG.error("Failed to clean the expired mob files table={} family={}",
+./hbase-server/src/main/java/org/apache/hadoop/hbase/mob/MobFileCleanerChore.java:        LOG.error("Failed to clean the obsolete mob files for table={}",htd.getTableName(), e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/client/locking/EntityLock.java:          LOG.error("Heartbeat failed, releasing " + EntityLock.this, e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/client/locking/EntityLock.java:            LOG.error("Interrupted, releasing " + this, e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/tool/coprocessor/CoprocessorValidator.java:      LOG.error("Please give at least one -table, -class or -config parameter.");
+./hbase-server/src/main/java/org/apache/hadoop/hbase/tool/coprocessor/CoprocessorValidator.java:            LOG.error("Error in class '{}': {}.", className, message);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/tool/coprocessor/CoprocessorValidator.java:            LOG.error("Error in class '{}': {}.", className, message, throwable);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/tool/CanaryTool.java:      LOG.error("Constructing read table timeouts map failed ", e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/tool/CanaryTool.java:      LOG.error("Read from {} on {}", table, server);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/tool/CanaryTool.java:      LOG.error("Read from {} on {}", znode, server);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/tool/CanaryTool.java:      LOG.error("Read from {} on serverName={} failed",
+./hbase-server/src/main/java/org/apache/hadoop/hbase/tool/CanaryTool.java:      LOG.error("Read from {} on serverName={}, columnFamily={} failed",
+./hbase-server/src/main/java/org/apache/hadoop/hbase/tool/CanaryTool.java:      LOG.error("Write to {} on {} failed", region.getRegionNameAsString(), serverName, e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/tool/CanaryTool.java:      LOG.error("Write to {} on {} {} failed", region.getRegionNameAsString(), serverName,
+./hbase-server/src/main/java/org/apache/hadoop/hbase/tool/CanaryTool.java:            LOG.error("Close table failed", e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/tool/CanaryTool.java:        LOG.error("Close table failed", e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/tool/CanaryTool.java:        LOG.error("Table may be deleted", tnfe);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/tool/CanaryTool.java:        LOG.error(dnrioe.toString(), dnrioe);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/tool/CanaryTool.java:        LOG.error(e.toString(), e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/tool/CanaryTool.java:            LOG.error("Close table failed", e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/tool/CanaryTool.java:              LOG.error("The monitor is running too long (" + currentTimeLength
+./hbase-server/src/main/java/org/apache/hadoop/hbase/tool/CanaryTool.java:        LOG.error("Too many failures detected, treating failure as error, failing the Canary.");
+./hbase-server/src/main/java/org/apache/hadoop/hbase/tool/CanaryTool.java:          LOG.error("Initial HBaseAdmin failed...", e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/tool/CanaryTool.java:        LOG.error("HBaseAdmin aborted");
+./hbase-server/src/main/java/org/apache/hadoop/hbase/tool/CanaryTool.java:              LOG.error("-readTableTimeouts can only specify read timeouts for monitor targets " +
+./hbase-server/src/main/java/org/apache/hadoop/hbase/tool/CanaryTool.java:                LOG.error("Check canary table distribution failed!", e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/tool/CanaryTool.java:              LOG.error("Sniff region failed!", e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/tool/CanaryTool.java:                LOG.error("Read operation for {} took {}ms exceeded the configured read timeout." +
+./hbase-server/src/main/java/org/apache/hadoop/hbase/tool/CanaryTool.java:              LOG.error("Read operation for {} failed!", tableName);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/tool/CanaryTool.java:              LOG.error("Write operation for {} exceeded the configured write timeout.",
+./hbase-server/src/main/java/org/apache/hadoop/hbase/tool/CanaryTool.java:          LOG.error("Run regionMonitor failed", e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/tool/CanaryTool.java:          LOG.error("Communicate with admin failed", e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/tool/CanaryTool.java:          LOG.error(msg);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/tool/CanaryTool.java:        LOG.error("Run ZooKeeperMonitor failed!", e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/tool/CanaryTool.java:            LOG.error("Sniff zookeeper failed!", e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/tool/CanaryTool.java:        LOG.error("Sniff zookeeper interrupted!", e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/tool/CanaryTool.java:          LOG.error("Run RegionServerMonitor failed!", e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/tool/CanaryTool.java:        LOG.error("Get listTableNames failed", e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/tool/CanaryTool.java:          LOG.error("Regionserver not serving any regions - {}", serverName);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/tool/CanaryTool.java:            LOG.error("Sniff regionserver failed!", e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/tool/CanaryTool.java:        LOG.error("Sniff regionserver interrupted!", e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/tool/CanaryTool.java:        LOG.error("Get HTables info failed", e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/tool/PreUpgradeValidator.java:      LOG.error("Error running command-line tool", e);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/tool/BulkLoadHFilesTool.java:      LOG.error(msg);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/tool/BulkLoadHFilesTool.java:              LOG.error("Encountered unrecoverable error from region server", error);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/tool/BulkLoadHFilesTool.java:                LOG.error(RETRY_ON_IO_EXCEPTION
+./hbase-server/src/main/java/org/apache/hadoop/hbase/tool/BulkLoadHFilesTool.java:        LOG.error("Unexpected execution exception during bulk load", e1);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/tool/BulkLoadHFilesTool.java:        LOG.error("Unexpected interrupted exception during bulk load", e1);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/tool/BulkLoadHFilesTool.java:          LOG.error("Trying to load more than " + maxFilesPerRegionPerFamily +
+./hbase-server/src/main/java/org/apache/hadoop/hbase/tool/BulkLoadHFilesTool.java:          LOG.error("IOException during splitting", e1);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/tool/BulkLoadHFilesTool.java:        LOG.error("Unexpected execution exception during splitting", e1);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/tool/BulkLoadHFilesTool.java:        LOG.error("Unexpected interrupted exception during splitting", e1);
+./hbase-server/src/main/java/org/apache/hadoop/hbase/tool/BulkLoadHFilesTool.java:      LOG.error(err.toString());
+./hbase-server/src/main/java/org/apache/hadoop/hbase/tool/BulkLoadHFilesTool.java:    LOG.error(errorMsg);
+./hbase-rest/src/test/java/org/apache/hadoop/hbase/rest/HBaseRESTTestingUtility.java:      LOG.error("RESTServer already running");
+./hbase-rest/src/test/java/org/apache/hadoop/hbase/rest/PerformanceEvaluation.java:      LOG.error("Failed", e);
+./hbase-rest/src/test/java/org/apache/hadoop/hbase/rest/PerformanceEvaluation.java:      LOG.error("Failed", e);
+./hbase-rest/src/test/java/org/apache/hadoop/hbase/rest/TestTableResource.java:    LOG.error("regions: " + regionMap);
+./hbase-rest/src/main/java/org/apache/hadoop/hbase/rest/ScannerResultGenerator.java:      LOG.error(StringUtils.stringifyException(e));
+./hbase-rest/src/main/java/org/apache/hadoop/hbase/rest/ScannerResultGenerator.java:          LOG.error(StringUtils.stringifyException(e));
+./hbase-rest/src/main/java/org/apache/hadoop/hbase/rest/RESTServer.java:      LOG.error("Could not parse: ", e);
+./hbase-rest/src/main/java/org/apache/hadoop/hbase/rest/RESTServer.java:      LOG.error(HBaseMarkers.FATAL, "Failed to start server", e);
+./hbase-rest/src/main/java/org/apache/hadoop/hbase/rest/ScannerResource.java:      LOG.error("Exception occurred while processing " + uriInfo.getAbsolutePath() + " : ", e);
+./hbase-rest/src/main/java/org/apache/hadoop/hbase/rest/client/Client.java:      LOG.error("Failed to negotiate with the server.", e);
+./hbase-http/src/main/java/org/apache/hadoop/hbase/util/JSONBean.java:            LOG.error("Getting attribute " + prs + " of " + oname + " threw an exception", e);
+./hbase-http/src/main/java/org/apache/hadoop/hbase/util/JSONBean.java:          LOG.error("getting attribute " + prs + " of " + oname + " threw an exception", e);
+./hbase-http/src/main/java/org/apache/hadoop/hbase/util/JSONBean.java:          LOG.error("getting attribute " + prs + " of " + oname + " threw an exception", e);
+./hbase-http/src/main/java/org/apache/hadoop/hbase/util/JSONBean.java:          LOG.error("getting attribute " + prs + " of " + oname + " threw an exception", e);
+./hbase-http/src/main/java/org/apache/hadoop/hbase/util/JSONBean.java:          LOG.error("getting attribute " + prs + " of " + oname + " threw an exception", e);
+./hbase-http/src/main/java/org/apache/hadoop/hbase/util/JSONBean.java:        LOG.error("Problem while trying to process JMX query: " + qry + " with MBean " + oname, e);
+./hbase-http/src/main/java/org/apache/hadoop/hbase/util/JSONBean.java:        LOG.error("Problem while trying to process JMX query: " + qry + " with MBean " + oname, e);
+./hbase-http/src/main/java/org/apache/hadoop/hbase/util/JSONBean.java:        LOG.error("getting attribute " + attName + " of " + oname + " threw an exception", e);
+./hbase-http/src/main/java/org/apache/hadoop/hbase/util/JSONBean.java:      LOG.error("getting attribute " + attName + " of " + oname + " threw an exception", e);
+./hbase-http/src/main/java/org/apache/hadoop/hbase/util/JSONBean.java:      LOG.error("getting attribute " + attName + " of " + oname + " threw an exception", e);
+./hbase-http/src/main/java/org/apache/hadoop/hbase/util/JSONBean.java:      LOG.error("getting attribute " + attName + " of " + oname + " threw an exception", e);
+./hbase-http/src/main/java/org/apache/hadoop/hbase/util/JSONMetricUtil.java:      LOG.error("Unable to get value from MBean= " + bean.toString() + "for attribute=" +
+./hbase-http/src/main/java/org/apache/hadoop/hbase/util/JSONMetricUtil.java:      LOG.error("keys and values arrays must be same size");
+./hbase-http/src/main/java/org/apache/hadoop/hbase/util/JSONMetricUtil.java:      LOG.error("keys and values arrays can not be empty;");
+./hbase-http/src/main/java/org/apache/hadoop/hbase/http/jmx/JMXJsonServlet.java:      LOG.error("Caught an exception while processing JMX request", e);
+./hbase-http/src/main/java/org/apache/hadoop/hbase/http/jmx/JMXJsonServlet.java:      LOG.error("Caught an exception while processing JMX request", e);
+./hbase-http/src/main/java/org/apache/hadoop/hbase/http/HttpServer.java:        LOG.error(
+./hbase-http/src/main/java/org/apache/hadoop/hbase/http/HttpServer.java:      LOG.error("Error while stopping web app context for webapp "
+./hbase-http/src/main/java/org/apache/hadoop/hbase/http/HttpServer.java:      LOG.error("Error while stopping web server for webapp "
+./hbase-it/src/test/java/org/apache/hadoop/hbase/IntegrationTestRegionReplicaReplication.java:        LOG.error(errorMsg);
+./hbase-it/src/test/java/org/apache/hadoop/hbase/IntegrationTestRegionReplicaReplication.java:        LOG.error(errorMsg);
+./hbase-it/src/test/java/org/apache/hadoop/hbase/IntegrationTestDDLMasterFailover.java:        LOG.error(HBaseMarkers.FATAL, "Failed to establish connection.", e);
+./hbase-it/src/test/java/org/apache/hadoop/hbase/IntegrationTestDDLMasterFailover.java:        LOG.error("Found exception in thread: " + worker.getName());
+./hbase-it/src/test/java/org/apache/hadoop/hbase/IntegrationTestDDLMasterFailover.java:      LOG.error(HBaseMarkers.FATAL, "Failed to establish connection. Aborting test ...", e);
+./hbase-it/src/test/java/org/apache/hadoop/hbase/test/IntegrationTestTimeBoundedRequestsWithRegionReplicas.java:      LOG.error(errorMsg);
+./hbase-it/src/test/java/org/apache/hadoop/hbase/test/IntegrationTestTimeBoundedRequestsWithRegionReplicas.java:      LOG.error("The amount of time left for the test to perform random reads is "
+./hbase-it/src/test/java/org/apache/hadoop/hbase/test/IntegrationTestTimeBoundedRequestsWithRegionReplicas.java:        LOG.error(errorMsg);
+./hbase-it/src/test/java/org/apache/hadoop/hbase/test/IntegrationTestTimeBoundedRequestsWithRegionReplicas.java:            LOG.error("FAILED FOR " + r);
+./hbase-it/src/test/java/org/apache/hadoop/hbase/test/IntegrationTestTimeBoundedRequestsWithRegionReplicas.java:              LOG.error("LOCATION " + h);
+./hbase-it/src/test/java/org/apache/hadoop/hbase/test/IntegrationTestBigLinkedList.java:            LOG.error("Start node not found: " + Bytes.toStringBinary(startKey));
+./hbase-it/src/test/java/org/apache/hadoop/hbase/test/IntegrationTestBigLinkedList.java:              LOG.error("ConcurrentWalker found UNDEFINED NODE: " + Bytes.toStringBinary(prev));
+./hbase-it/src/test/java/org/apache/hadoop/hbase/test/IntegrationTestBigLinkedList.java:              LOG.error("ConcurrentWalker found TERMINATING NODE: " +
+./hbase-it/src/test/java/org/apache/hadoop/hbase/test/IntegrationTestBigLinkedList.java:        LOG.error("Master not running", e);
+./hbase-it/src/test/java/org/apache/hadoop/hbase/test/IntegrationTestBigLinkedList.java:          LOG.error("Concurrent walker failed to verify during Generation phase");
+./hbase-it/src/test/java/org/apache/hadoop/hbase/test/IntegrationTestBigLinkedList.java:          LOG.error("TERMINATING nodes: " + counters.findCounter(Counts.TERMINATING).getValue());
+./hbase-it/src/test/java/org/apache/hadoop/hbase/test/IntegrationTestBigLinkedList.java:          LOG.error("UNDEFINED nodes: " + counters.findCounter(Counts.UNDEFINED).getValue());
+./hbase-it/src/test/java/org/apache/hadoop/hbase/test/IntegrationTestBigLinkedList.java:          LOG.error("IOEXCEPTION nodes: " + counters.findCounter(Counts.IOEXCEPTION).getValue());
+./hbase-it/src/test/java/org/apache/hadoop/hbase/test/IntegrationTestBigLinkedList.java:          LOG.error("LinkedListError: key=" + keyString + ", reference(s)=" +
+./hbase-it/src/test/java/org/apache/hadoop/hbase/test/IntegrationTestBigLinkedList.java:          LOG.error("LinkedListError: key=" + keyString + ", lost big or tiny families");
+./hbase-it/src/test/java/org/apache/hadoop/hbase/test/IntegrationTestBigLinkedList.java:            LOG.error("Extras on ref without a def, ref=" + Bytes.toStringBinary(ref) +
+./hbase-it/src/test/java/org/apache/hadoop/hbase/test/IntegrationTestBigLinkedList.java:        LOG.error("Expected referenced count does not match with actual referenced count. " +
+./hbase-it/src/test/java/org/apache/hadoop/hbase/test/IntegrationTestBigLinkedList.java:        LOG.error("Unreferenced nodes were not expected. Unreferenced count=" + unreferenced.getValue()
+./hbase-it/src/test/java/org/apache/hadoop/hbase/test/IntegrationTestBigLinkedList.java:        LOG.error("Found an undefined node. Undefined count=" + undefined.getValue());
+./hbase-it/src/test/java/org/apache/hadoop/hbase/test/IntegrationTestBigLinkedList.java:        LOG.error("Found nodes which lost big or tiny families, count=" + lostfamilies.getValue());
+./hbase-it/src/test/java/org/apache/hadoop/hbase/test/IntegrationTestBigLinkedList.java:            LOG.error("undefined row " + keyString + ", " + loc);
+./hbase-it/src/test/java/org/apache/hadoop/hbase/test/IntegrationTestBigLinkedList.java:            LOG.error("unreferred row " + keyString + ", " + loc);
+./hbase-it/src/test/java/org/apache/hadoop/hbase/test/IntegrationTestLoadAndVerify.java:        LOG.error("Reference error row " + parsedRow);
+./hbase-it/src/test/java/org/apache/hadoop/hbase/test/IntegrationTestBigLinkedListWithVisibility.java:            LOG.error(HBaseMarkers.FATAL, "Error in granting permission for the user " +
+./hbase-it/src/test/java/org/apache/hadoop/hbase/test/IntegrationTestBigLinkedListWithVisibility.java:          LOG.error("undefined row " + keyString + ", " + loc);
+./hbase-it/src/test/java/org/apache/hadoop/hbase/test/IntegrationTestBigLinkedListWithVisibility.java:          LOG.error("unreferred row " + keyString + ", " + loc);
+./hbase-it/src/test/java/org/apache/hadoop/hbase/ChaosZKClient.java:      LOG.error("Error creating ZooKeeper Connection: ", e);
+./hbase-it/src/test/java/org/apache/hadoop/hbase/ChaosZKClient.java:          LOG.error("ERROR ", ie);
+./hbase-it/src/test/java/org/apache/hadoop/hbase/ChaosZKClient.java:      LOG.error("Error checking for given hostname: {} ERROR: ", hostname, e);
+./hbase-it/src/test/java/org/apache/hadoop/hbase/ChaosZKClient.java:        LOG.error("ERROR while getting status of task: " + path + " ERROR: " +
+./hbase-it/src/test/java/org/apache/hadoop/hbase/ChaosZKClient.java:        LOG.error("ERROR while setting watch on task ZNode: " + path + " ERROR: " +
+./hbase-it/src/test/java/org/apache/hadoop/hbase/ChaosZKClient.java:        LOG.error("Error submitting task: " + name + " ERROR:" +
+./hbase-it/src/test/java/org/apache/hadoop/hbase/ChaosZKClient.java:            LOG.error("Error while closing ZooKeeper Connection.");
+./hbase-it/src/test/java/org/apache/hadoop/hbase/ChaosZKClient.java:          LOG.error("ERROR while deleting task: " + path + " ERROR: " +
+./hbase-it/src/test/java/org/apache/hadoop/hbase/ChaosZKClient.java:      LOG.error("Error closing ZK connection : ", e);
+./hbase-it/src/test/java/org/apache/hadoop/hbase/ChaosZKClient.java:        LOG.error("Error creating new ZK COnnection for agent: ", e);
+./hbase-it/src/test/java/org/apache/hadoop/hbase/ShellExecEndpointCoprocessor.java:      LOG.error("Failure launching process", e);
+./hbase-it/src/test/java/org/apache/hadoop/hbase/ShellExecEndpointCoprocessor.java:        LOG.error("Failure launching process", e);
+./hbase-it/src/test/java/org/apache/hadoop/hbase/IntegrationTestMobCompaction.java:          LOG.error("MOB Stress Test FAILED", e);
+./hbase-it/src/test/java/org/apache/hadoop/hbase/IntegrationTestMobCompaction.java:        LOG.error("MOB Stress Test FAILED", e);
+./hbase-it/src/test/java/org/apache/hadoop/hbase/IntegrationTestMobCompaction.java:      LOG.error("MOB Stress Test FAILED");
+./hbase-it/src/test/java/org/apache/hadoop/hbase/IntegrationTestIngest.java:        LOG.error(errorMsg);
+./hbase-it/src/test/java/org/apache/hadoop/hbase/IntegrationTestIngest.java:        LOG.error(errorMsg);
+./hbase-it/src/test/java/org/apache/hadoop/hbase/IntegrationTestIngest.java:        LOG.error(errorMsg + " Rerunning verification after 1 minute for debugging");
+./hbase-it/src/test/java/org/apache/hadoop/hbase/IntegrationTestIngest.java:          LOG.error("Rerun of Verification failed with error code " + ret);
+./hbase-it/src/test/java/org/apache/hadoop/hbase/StripeCompactionsPerformanceEvaluation.java:      LOG.error("Write failed");
+./hbase-it/src/test/java/org/apache/hadoop/hbase/StripeCompactionsPerformanceEvaluation.java:        LOG.error("Read failed");
+./hbase-it/src/test/java/org/apache/hadoop/hbase/IntegrationTestBackupRestore.java:            LOG.error("Failed", e);
+./hbase-it/src/test/java/org/apache/hadoop/hbase/IntegrationTestManyRegions.java:      LOG.error("Failed to create table", e);
+./hbase-it/src/test/java/org/apache/hadoop/hbase/mapreduce/IntegrationTestBulkLoad.java:          LOG.error(e1.toString(), e1);
+./hbase-it/src/test/java/org/apache/hadoop/hbase/mapreduce/IntegrationTestBulkLoad.java:      LOG.error("Failure in chain verification: " + msg);
+./hbase-it/src/test/java/org/apache/hadoop/hbase/mapreduce/IntegrationTestBulkLoad.java:        LOG.error("cluster metrics:\n" + admin.getClusterMetrics());
+./hbase-it/src/test/java/org/apache/hadoop/hbase/mapreduce/IntegrationTestBulkLoad.java:        LOG.error("table regions:\n"
+./hbase-it/src/test/java/org/apache/hadoop/hbase/chaos/util/Monkeys.java:        LOG.error("Exception occurred when running chaos monkeys: ", e);
+./hbase-it/src/test/java/org/apache/hadoop/hbase/chaos/factories/MonkeyFactory.java:        LOG.error("Error trying to create " + factoryName + " could not load it by class name");
+./hbase-it/src/main/java/org/apache/hadoop/hbase/chaos/ChaosAgent.java:      LOG.error("Error Creating Connection: " + e);
+./hbase-it/src/main/java/org/apache/hadoop/hbase/chaos/ChaosAgent.java:        LOG.error("Chaos Agent status node does not exists: "
+./hbase-it/src/main/java/org/apache/hadoop/hbase/chaos/ChaosAgent.java:        LOG.error("Error while setting status of task ZNode: " +
+./hbase-it/src/main/java/org/apache/hadoop/hbase/chaos/ChaosAgent.java:        LOG.error("Error occurred while creating Persistent ZNode: " + path,
+./hbase-it/src/main/java/org/apache/hadoop/hbase/chaos/ChaosAgent.java:        LOG.error("Error occurred while creating Ephemeral ZNode: ",
+./hbase-it/src/main/java/org/apache/hadoop/hbase/chaos/ChaosAgent.java:                LOG.error("Unknown Command Type");
+./hbase-it/src/main/java/org/apache/hadoop/hbase/chaos/ChaosAgent.java:            LOG.error("Got error while executing command : " + cmd +
+./hbase-it/src/main/java/org/apache/hadoop/hbase/chaos/ChaosAgent.java:            LOG.error("Error occured after setting status: " + e);
+./hbase-it/src/main/java/org/apache/hadoop/hbase/chaos/ChaosAgent.java:          LOG.error("Error occurred while getting data",
+./hbase-it/src/main/java/org/apache/hadoop/hbase/chaos/ChaosAgent.java:              LOG.error("Error scheduling next task : " +
+./hbase-it/src/main/java/org/apache/hadoop/hbase/chaos/ChaosAgent.java:          LOG.error("Error occurred while getting task",
+./hbase-it/src/main/java/org/apache/hadoop/hbase/chaos/ChaosAgent.java:      LOG.error("Error checking given node : " + path + " " + e);
+./hbase-it/src/main/java/org/apache/hadoop/hbase/chaos/ChaosAgent.java:      LOG.error("Error while closing ZooKeeper Connection.");
+./hbase-it/src/main/java/org/apache/hadoop/hbase/chaos/ChaosAgent.java:      LOG.error("Error while running Chaos Agent", e);
+./hbase-it/src/main/java/org/apache/hadoop/hbase/chaos/ChaosAgent.java:          LOG.error("Session expired creating again");
+./hbase-it/src/main/java/org/apache/hadoop/hbase/chaos/ChaosAgent.java:            LOG.error("Error creating Zookeeper connection", e);
+./hbase-it/src/main/java/org/apache/hadoop/hbase/chaos/ChaosAgent.java:          LOG.error("Unknown State");
+./hbase-it/src/main/java/org/apache/hadoop/hbase/chaos/ChaosAgent.java:        LOG.error("Error creating new ZK COnnection for agent: {}", agentName + e);
+./hbase-it/src/main/java/org/apache/hadoop/hbase/chaos/ChaosService.java:          LOG.error("action passed: {} Unexpected action. Please provide only start/stop.",
+./hbase-it/src/main/java/org/apache/hadoop/hbase/chaos/ChaosService.java:        LOG.error("Invalid Options");
+./hbase-it/src/main/java/org/apache/hadoop/hbase/chaos/ChaosService.java:      LOG.error("Error while starting ChaosService : ", e);
+./hbase-it/src/main/java/org/apache/hadoop/hbase/chaos/ChaosService.java:          LOG.error("Failed while executing next task execution of ChaosAgent on : {}",
+./hbase-it/src/main/java/org/apache/hadoop/hbase/chaos/ChaosService.java:        LOG.error("Service Name not known : " + serviceName.toString());
+./hbase-mapreduce/src/test/java/org/apache/hadoop/hbase/util/LoadTestTool.java:        LOG.error("the parameter of bloom filter {} is not specified", bloomType.name());
+./hbase-mapreduce/src/test/java/org/apache/hadoop/hbase/util/LoadTestTool.java:            LOG.error(exp.toString(), exp);
+./hbase-mapreduce/src/test/java/org/apache/hadoop/hbase/util/LoadTestTool.java:        LOG.error(HBaseMarkers.FATAL, "Error in granting permission for the user " +
+./hbase-mapreduce/src/test/java/org/apache/hadoop/hbase/util/LoadTestTool.java:        LOG.error("Error in worker thread", ex);
+./hbase-mapreduce/src/test/java/org/apache/hadoop/hbase/PerformanceEvaluation.java:        LOG.error("cannot find region with start key: " + i);
+./hbase-mapreduce/src/test/java/org/apache/hadoop/hbase/mapred/TestTableOutputFormatConnectionExhaust.java:        LOG.error("Exception encountered", e);
+./hbase-mapreduce/src/test/java/org/apache/hadoop/hbase/mapreduce/TestHFileOutputFormat2.java:          LOG.error("Failed to get foo's home directory", ioe);
+./hbase-mapreduce/src/test/java/org/apache/hadoop/hbase/mapreduce/TestHFileOutputFormat2.java:          LOG.error("Failed to configure partitioner", ioe);
+./hbase-mapreduce/src/test/java/org/apache/hadoop/hbase/mapreduce/TestHashTable.java:      LOG.error("Diff: " + Maps.difference(expectedHashes, actualHashes));
+./hbase-mapreduce/src/test/java/org/apache/hadoop/hbase/mapreduce/TestImportTSVWithVisibilityLabels.java:          LOG.error("Error in adding labels" , t);
+./hbase-mapreduce/src/main/java/org/apache/hadoop/hbase/snapshot/ExportSnapshot.java:        LOG.error("Error copying " + inputPath + " to " + outputPath, e);
+./hbase-mapreduce/src/main/java/org/apache/hadoop/hbase/snapshot/ExportSnapshot.java:        LOG.error("Unable to open source file=" + fileInfo.toString(), e);
+./hbase-mapreduce/src/main/java/org/apache/hadoop/hbase/snapshot/ExportSnapshot.java:        LOG.error("Unable to get the status for source file=" + fileInfo.toString(), e);
+./hbase-mapreduce/src/main/java/org/apache/hadoop/hbase/snapshot/ExportSnapshot.java:        LOG.error("Unable to get the status for source file=" + fileInfo.toString(), e);
+./hbase-mapreduce/src/main/java/org/apache/hadoop/hbase/snapshot/ExportSnapshot.java:      LOG.error("Use -h or --help for usage instructions.");
+./hbase-mapreduce/src/main/java/org/apache/hadoop/hbase/snapshot/ExportSnapshot.java:      LOG.error("Use -h or --help for usage instructions.");
+./hbase-mapreduce/src/main/java/org/apache/hadoop/hbase/snapshot/ExportSnapshot.java:      LOG.error("Snapshot export failed", e);
+./hbase-mapreduce/src/main/java/org/apache/hadoop/hbase/mapred/TableInputFormat.java:      LOG.error(StringUtils.stringifyException(e));
+./hbase-mapreduce/src/main/java/org/apache/hadoop/hbase/mapred/HRegionPartitioner.java:      LOG.error(e.toString(), e);
+./hbase-mapreduce/src/main/java/org/apache/hadoop/hbase/mapred/HRegionPartitioner.java:      LOG.error(e.toString(), e);
+./hbase-mapreduce/src/main/java/org/apache/hadoop/hbase/mapred/HRegionPartitioner.java:      LOG.error(e.toString(), e);
+./hbase-mapreduce/src/main/java/org/apache/hadoop/hbase/mapred/TableMapReduceUtil.java:        LOG.error("IOException encountered while adding dependency jars", e);
+./hbase-mapreduce/src/main/java/org/apache/hadoop/hbase/mapred/TableMapReduceUtil.java:      LOG.error("IOException encountered while initializing credentials", ioe);
+./hbase-mapreduce/src/main/java/org/apache/hadoop/hbase/mapred/TableMapReduceUtil.java:        LOG.error("Interrupted obtaining user authentication token", ie);
+./hbase-mapreduce/src/main/java/org/apache/hadoop/hbase/mob/mapreduce/MobRefReporter.java:            LOG.error("Could not find referenced file '{}'. See the docs on this tool.", file);
+./hbase-mapreduce/src/main/java/org/apache/hadoop/hbase/mob/mapreduce/MobRefReporter.java:          LOG.error(
+./hbase-mapreduce/src/main/java/org/apache/hadoop/hbase/mob/mapreduce/MobRefReporter.java:        LOG.error("The passed configs point to an HBase dir does not exist: {}",
+./hbase-mapreduce/src/main/java/org/apache/hadoop/hbase/mapreduce/SyncTable.java:          LOG.error("Suppressing exception from closing tables", t);
+./hbase-mapreduce/src/main/java/org/apache/hadoop/hbase/mapreduce/SyncTable.java:      LOG.error("Failed to parse commandLine arguments", e);
+./hbase-mapreduce/src/main/java/org/apache/hadoop/hbase/mapreduce/RowCounter.java:        LOG.error("Failing job because count of '" + counter.getValue() +
+./hbase-mapreduce/src/main/java/org/apache/hadoop/hbase/mapreduce/CopyTable.java:      LOG.error("Failed to parse commandLine arguments", e);
+./hbase-mapreduce/src/main/java/org/apache/hadoop/hbase/mapreduce/CopyTable.java:          LOG.error("Deleting folder " + bulkloadDir + " failed!");
+./hbase-mapreduce/src/main/java/org/apache/hadoop/hbase/mapreduce/TsvImporterTextMapper.java:      LOG.error("Interrupted while emitting TSV text", e);
+./hbase-mapreduce/src/main/java/org/apache/hadoop/hbase/mapreduce/TableInputFormat.java:        LOG.error("An error occurred.", e);
+./hbase-mapreduce/src/main/java/org/apache/hadoop/hbase/mapreduce/TableInputFormat.java:          LOG.error(StringUtils.stringifyException(e));
+./hbase-mapreduce/src/main/java/org/apache/hadoop/hbase/mapreduce/TableInputFormat.java:      LOG.error(StringUtils.stringifyException(e));
+./hbase-mapreduce/src/main/java/org/apache/hadoop/hbase/mapreduce/HRegionPartitioner.java:      LOG.error(e.toString(), e);
+./hbase-mapreduce/src/main/java/org/apache/hadoop/hbase/mapreduce/HRegionPartitioner.java:      LOG.error(e.toString(), e);
+./hbase-mapreduce/src/main/java/org/apache/hadoop/hbase/mapreduce/HRegionPartitioner.java:      LOG.error(e.toString(), e);
+./hbase-mapreduce/src/main/java/org/apache/hadoop/hbase/mapreduce/DefaultVisibilityExpressionResolver.java:        LOG.error("Error opening 'labels' table", e);
+./hbase-mapreduce/src/main/java/org/apache/hadoop/hbase/mapreduce/DefaultVisibilityExpressionResolver.java:        LOG.error("Error scanning 'labels' table", e);
+./hbase-mapreduce/src/main/java/org/apache/hadoop/hbase/mapreduce/DefaultVisibilityExpressionResolver.java:      LOG.error("Failed reading 'labels' tags", ioe);
+./hbase-mapreduce/src/main/java/org/apache/hadoop/hbase/mapreduce/ImportTsv.java:              LOG.error(errorMsg);
+./hbase-mapreduce/src/main/java/org/apache/hadoop/hbase/mapreduce/ImportTsv.java:            LOG.error(errorMsg);
+./hbase-mapreduce/src/main/java/org/apache/hadoop/hbase/mapreduce/ImportTsv.java:      LOG.error(format("***Dry run: Failed to delete table '%s'.***%n%s", tableName,
+./hbase-mapreduce/src/main/java/org/apache/hadoop/hbase/mapreduce/MultithreadedTableMapper.java:        LOG.error("Problem in running map.", ie);
+./hbase-mapreduce/src/main/java/org/apache/hadoop/hbase/mapreduce/Import.java:        LOG.error("Interrupted while emitting Cell", e);
+./hbase-mapreduce/src/main/java/org/apache/hadoop/hbase/mapreduce/Import.java:        LOG.error("Interrupted while emitting Cell", e);
+./hbase-mapreduce/src/main/java/org/apache/hadoop/hbase/mapreduce/Import.java:        LOG.error("Interrupted while writing result", e);
+./hbase-mapreduce/src/main/java/org/apache/hadoop/hbase/mapreduce/Import.java:        LOG.error("Problem connecting to ZooKeper during task setup", e);
+./hbase-mapreduce/src/main/java/org/apache/hadoop/hbase/mapreduce/Import.java:        LOG.error("Problem reading ZooKeeper data during task setup", e);
+./hbase-mapreduce/src/main/java/org/apache/hadoop/hbase/mapreduce/Import.java:        LOG.error("Problem setting up task", e);
+./hbase-mapreduce/src/main/java/org/apache/hadoop/hbase/mapreduce/Import.java:      LOG.error("Couldn't instantiate filter!", e);
+./hbase-mapreduce/src/main/java/org/apache/hadoop/hbase/mapreduce/Import.java:      LOG.error("Couldn't instantiate filter!", e);
+./hbase-mapreduce/src/main/java/org/apache/hadoop/hbase/mapreduce/Import.java:      LOG.error("Couldn't instantiate filter!", e);
+./hbase-mapreduce/src/main/java/org/apache/hadoop/hbase/mapreduce/Import.java:      LOG.error("Couldn't instantiate filter!", e);
+./hbase-mapreduce/src/main/java/org/apache/hadoop/hbase/mapreduce/Import.java:      LOG.error("Couldn't instantiate filter!", e);
+./hbase-mapreduce/src/main/java/org/apache/hadoop/hbase/mapreduce/CellCounter.java:        LOG.error("Interrupted while writing cellCount", e);
+./hbase-mapreduce/src/main/java/org/apache/hadoop/hbase/mapreduce/TableOutputFormat.java:      LOG.error(e.toString(), e);
+./hbase-mapreduce/src/main/java/org/apache/hadoop/hbase/mapreduce/replication/VerifyReplication.java:          LOG.error("recompare fail after sleep, rowkey=" + delimiter +
+./hbase-mapreduce/src/main/java/org/apache/hadoop/hbase/mapreduce/replication/VerifyReplication.java:      LOG.error(counter.toString() + ", rowkey=" + delimiter + Bytes.toStringBinary(row.getRow()) +
+./hbase-mapreduce/src/main/java/org/apache/hadoop/hbase/mapreduce/replication/VerifyReplication.java:          LOG.error("fail to scan peer table in cleanup", e);
+./hbase-mapreduce/src/main/java/org/apache/hadoop/hbase/mapreduce/replication/VerifyReplication.java:          LOG.error("fail to close source table in cleanup", e);
+./hbase-mapreduce/src/main/java/org/apache/hadoop/hbase/mapreduce/replication/VerifyReplication.java:          LOG.error("fail to close source connection in cleanup", e);
+./hbase-mapreduce/src/main/java/org/apache/hadoop/hbase/mapreduce/replication/VerifyReplication.java:          LOG.error("fail to close replicated table in cleanup", e);
+./hbase-mapreduce/src/main/java/org/apache/hadoop/hbase/mapreduce/replication/VerifyReplication.java:          LOG.error("fail to close replicated connection in cleanup", e);
+./hbase-mapreduce/src/main/java/org/apache/hadoop/hbase/mapreduce/replication/VerifyReplication.java:      LOG.error("Failed to parse commandLine arguments", e);
+./hbase-mapreduce/src/main/java/org/apache/hadoop/hbase/mapreduce/WALPlayer.java:        LOG.error("Interrupted while emitting Cell", e);
+./hbase-mapreduce/src/main/java/org/apache/hadoop/hbase/mapreduce/WALPlayer.java:        LOG.error("Interrupted while writing results", e);
+./hbase-mapreduce/src/main/java/org/apache/hadoop/hbase/mapreduce/HashTable.java:      LOG.error("Failed to parse commandLine arguments", e);
+./hbase-mapreduce/src/main/java/org/apache/hadoop/hbase/mapreduce/TsvImporterMapper.java:      LOG.error("Interrupted while emitting put", e);
+./hbase-mapreduce/src/main/java/org/apache/hadoop/hbase/mapreduce/ExportUtils.java:        LOG.error("Batching could not be set", e);
+./hbase-mapreduce/src/main/java/org/apache/hadoop/hbase/mapreduce/ExportUtils.java:        LOG.error("Caching could not be set", e);

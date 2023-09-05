@@ -1,0 +1,1670 @@
+./src/vea/vea_alloc.c:	D_DEBUG(DB_IO, "["DF_U64", %u]\n", resrvd->vre_blk_off,
+./src/vea/vea_alloc.c:	D_DEBUG(DB_IO, "largest free extent ["DF_U64", %u]\n",
+./src/vea/vea_alloc.c:	D_DEBUG(DB_IO, "["DF_U64", %u]\n", resrvd->vre_blk_off,
+./src/vea/vea_alloc.c:			D_DEBUG(DB_IO, "["DF_U64", %u]\n",
+./src/vea/vea_alloc.c:	D_DEBUG(DB_IO, "Persistent alloc ["DF_U64", %u]\n",
+./src/vea/vea_api.c:		D_DEBUG(DB_IO, "load unformatted blob\n");
+./src/vos/evtree.c:#define V_TRACE(...) D_DEBUG(__VA_ARGS__)
+./src/vos/evtree.c:	D_DEBUG(DB_TRACE, "Sorting array with filter "DF_FILTER"\n",
+./src/vos/evtree.c:	D_DEBUG(DB_TRACE, "EVTree sort policy is %#x\n", policy);
+./src/vos/evtree.c:					D_DEBUG(DB_IO, "Same epoch partial "
+./src/vos/evtree.c:			D_DEBUG(DB_TRACE, "reuse slot at %d, nr %d, "
+./src/vos/evtree.c:				D_DEBUG(DB_TRACE, "reuse slot at %d, nr %d, "
+./src/vos/evtree.c:			D_DEBUG(DB_TRACE, "Allocating an extra %d bytes "
+./src/vos/evtree.c:	D_DEBUG(DB_TRACE, "Filling entry csum from evt_desc");
+./src/vos/sys_db.c:		D_DEBUG(DB_IO, "%s doesn't exist, bypassing vos_pool_open\n",
+./src/vos/sys_db.c:	D_DEBUG(DB_IO, "Opening %s, try_create=%d\n", vdb->db_file, try_create);
+./src/vos/sys_db.c:			D_DEBUG(DB_IO, "successfully open system DB\n");
+./src/vos/sys_db.c:		D_DEBUG(DB_DF, "Try to create system DB\n");
+./src/vos/vos_gc.c:	D_DEBUG(DB_TRACE, "drain btree for %s, creds=%d\n",
+./src/vos/vos_gc.c:	D_DEBUG(DB_TRACE, "empty=%d, remainded creds=%d\n", *empty, *credits);
+./src/vos/vos_gc.c:	D_DEBUG(DB_TRACE, "drain %s evtree, creds=%d\n", gc->gc_name, *credits);
+./src/vos/vos_gc.c:	D_DEBUG(DB_TRACE, "empty=%d, remainded creds=%d\n", *empty, *credits);
+./src/vos/vos_gc.c:	D_DEBUG(DB_TRACE, "GC released a %s\n", gc->gc_name);
+./src/vos/vos_gc.c:	D_DEBUG(DB_TRACE, "Add %s addr="DF_X64"\n",
+./src/vos/vos_gc.c:		D_DEBUG(DB_TRACE, "GC=%s cont=%p credits=%d/%d\n", gc->gc_name,
+./src/vos/vos_gc.c:					D_DEBUG(DB_TRACE, "container %p objects"
+./src/vos/vos_gc.c:				D_DEBUG(DB_TRACE, "Nothing to reclaim\n");
+./src/vos/vos_gc.c:			D_DEBUG(DB_TRACE, "GC=%s is empty\n", gc->gc_name);
+./src/vos/vos_gc.c:		D_DEBUG(DB_TRACE, "GC=%s credits=%d empty=%d\n",
+./src/vos/vos_gc.c:	D_DEBUG(DB_TRACE,
+./src/vos/vos_gc.c:	D_DEBUG(DB_IO, "Init garbage bins for pool="DF_UUID"\n",
+./src/vos/vos_gc.c:	D_DEBUG(DB_IO, "Init garbage bins for cont="DF_UUID"\n",
+./src/vos/vos_gc.c:	D_DEBUG(DB_TRACE, "Register pool="DF_UUID" for GC\n",
+./src/vos/vos_gc.c:	D_DEBUG(DB_TRACE,
+./src/vos/vos_gc.c:		D_DEBUG(DB_TRACE, "GC pool="DF_UUID", creds=%d\n",
+./src/vos/vos_gc.c:			D_DEBUG(DB_TRACE,
+./src/vos/vos_gc.c:			D_DEBUG(DB_TRACE, "Re-add pool="DF_UUID", opened=%d\n",
+./src/vos/vos_gc.c:	D_DEBUG(DB_TRACE, "checked %d pools, consumed %d/%d credits\n",
+./src/vos/vos_gc.c:			D_DEBUG(DB_TRACE, "Consumed %d credits\n",
+./src/vos/vos_gc.c:			D_DEBUG(DB_TRACE, "GC pool run aborted\n");
+./src/vos/vos_gc.c:		D_DEBUG(DB_TRACE, "GC consumed %d credits\n", total);
+./src/vos/vos_ilog.c:	D_DEBUG(DB_TRACE, "After fetch at "DF_X64": create="DF_X64
+./src/vos/vos_ilog.c:	D_DEBUG(DB_TRACE, "Checking and updating incarnation log in range "
+./src/vos/vos_ilog.c:	D_DEBUG(DB_TRACE, "Checking existence of incarnation log in range "
+./src/vos/vos_ilog.c:	D_DEBUG(DB_TRACE, "log="DF_X64"\n", umem_ptr2off(umm, ilog));
+./src/vos/tests/vts_container.c:			D_DEBUG(DB_TRACE,
+./src/vos/tests/vts_array.c:	D_DEBUG(DB_IO, "Writing "DF_U64" records of size "DF_U64" at offset "
+./src/vos/tests/vts_array.c:	D_DEBUG(DB_IO, "Reading "DF_U64" records of size "DF_U64" at offset "
+./src/vos/tests/vts_array.c:	D_DEBUG(DB_IO, "Writing metadata at epoch "DF_U64"\n", epoch);
+./src/vos/tests/vts_array.c:	D_DEBUG(DB_IO, "Reading metadata at epoch "DF_U64"\n", epoch);
+./src/vos/tests/vts_array.c:	D_DEBUG(DB_IO, "Getting the old array size\n");
+./src/vos/tests/vts_array.c:	D_DEBUG(DB_IO, "Old size is "DF_U64"\n", old_size);
+./src/vos/tests/vts_array.c:		D_DEBUG(DB_IO, "Truncate at "DF_U64"\n", new_size);
+./src/vos/tests/vts_array.c:		D_DEBUG(DB_IO, "Checking array size again\n");
+./src/vos/tests/vts_array.c:		D_DEBUG(DB_IO, "Size is now "DF_U64"\n", old_size);
+./src/vos/tests/vts_io.c:		D_DEBUG(DB_TRACE, "Object ID: "DF_UOID"\n",
+./src/vos/vos_iterator.c:		D_DEBUG(DB_TRACE, "The end of iteration\n");
+./src/vos/vos_iterator.c:		D_DEBUG(DB_TRACE, "Preparing nested iterator of type %s\n",
+./src/vos/vos_iterator.c:	D_DEBUG(DB_TRACE, "Preparing standalone iterator of type %s\n",
+./src/vos/vos_iterator.c:	D_DEBUG(DB_IO, "probing iterator\n");
+./src/vos/vos_iterator.c:	D_DEBUG(DB_IO, "done probing iterator rc = "DF_RC"\n", DP_RC(rc));
+./src/vos/vos_iterator.c:		D_DEBUG(DB_TRACE, "The end of iteration\n");
+./src/vos/vos_dtx.c:		D_DEBUG(DB_TRACE, "Evicting lid "DF_DTI": lid=%d\n",	\
+./src/vos/vos_dtx.c:	D_DEBUG(DB_IO,
+./src/vos/vos_dtx.c:		D_DEBUG(DB_IO, "Abort the DTX "DF_DTI": rc = "DF_RC"\n",
+./src/vos/vos_dtx.c:	D_DEBUG(DB_IO, "Allocated new lid DTX: "DF_DTI" lid=%d dae=%p"
+./src/vos/vos_dtx.c:		D_DEBUG(DB_TRACE,
+./src/vos/vos_dtx.c:	D_DEBUG(DB_TRACE, "Register DTX record for "DF_DTI
+./src/vos/vos_dtx.c:			D_DEBUG(DB_TRACE, "Re-indexed lid DTX: "DF_DTI
+./src/vos/vos_dtx.c:	D_DEBUG(DB_TRACE, "Reset the DTX cache: "DF_RC"\n", DP_RC(rc));
+./src/vos/ilog.c:	D_DEBUG(DB_TRACE, "Registered ilog="DF_X64" epoch="DF_X64" lid=%d\n",
+./src/vos/ilog.c:	D_DEBUG(DB_TRACE, "%s ilog="DF_X64" epoch="DF_X64
+./src/vos/ilog.c:		D_DEBUG(DB_TRACE, "Removing destroyed entry "DF_X64" in root\n",
+./src/vos/ilog.c:			D_DEBUG(DB_IO, "No entry found, done\n");
+./src/vos/ilog.c:		D_DEBUG(DB_IO, "Access of incarnation log from multiple DTX"
+./src/vos/ilog.c:		D_DEBUG(DB_TRACE, "Setting "DF_X64" to persistent\n",
+./src/vos/ilog.c:	D_DEBUG(DB_TRACE, "Updating "DF_X64
+./src/vos/ilog.c:		D_DEBUG(DB_TRACE, "No entry found, done\n");
+./src/vos/ilog.c:	D_DEBUG(DB_TRACE, "%s in incarnation log: log:"DF_X64 " epoch:" DF_X64
+./src/vos/ilog.c:			D_DEBUG(DB_TRACE, "ilog entry "DF_X64" not found\n",
+./src/vos/ilog.c:		D_DEBUG(DB_TRACE, "Inserting "DF_X64" at ilog root\n",
+./src/vos/ilog.c:				D_DEBUG(DB_TRACE, "Removing "DF_X64
+./src/vos/ilog.c:			D_DEBUG(DB_TRACE, "Entry "DF_X64" not found in ilog\n",
+./src/vos/ilog.c:			D_DEBUG(DB_TRACE, "No update needed\n");
+./src/vos/ilog.c:	D_DEBUG(DB_TRACE, "%s in incarnation log "DF_X64
+./src/vos/ilog.c:	D_DEBUG(DB_IO, "Aborting ilog entry %d "DF_X64"\n", id->id_tx_id,
+./src/vos/ilog.c:	D_DEBUG(DB_TRACE, "Removing ilog entry at "DF_X64"\n",
+./src/vos/ilog.c:	D_DEBUG(DB_TRACE, "Removed ilog entry at "DF_X64"\n",
+./src/vos/ilog.c:	D_DEBUG(DB_TRACE, "Entry "DF_X64".%d punch=%s prev="DF_X64
+./src/vos/ilog.c:	D_DEBUG(DB_TRACE, "%s incarnation log: epr: "DF_X64"-"DF_X64" punched="
+./src/vos/ilog.c:		D_DEBUG(DB_TRACE, "log is empty\n");
+./src/vos/ilog.c:			D_DEBUG(DB_TRACE, "Removed ilog entry at "DF_X64" "DF_RC
+./src/vos/ilog.c:	D_DEBUG(DB_TRACE, "%s in incarnation log epr:"DF_X64"-"DF_X64
+./src/vos/vos_io.c:		D_DEBUG(DB_IO, "Found dedup entry\n");
+./src/vos/vos_io.c:	D_DEBUG(DB_IO, "Inserted dedup entry in list\n");
+./src/vos/vos_io.c:			D_DEBUG(DB_IO, "Inserted dedup entry\n");
+./src/vos/vos_io.c:	D_DEBUG(DB_TRACE, "ilog check returned "DF_RC" epr_in="DF_X64"-"DF_X64
+./src/vos/vos_io.c:	D_DEBUG(DB_IO, "akey "DF_KEY" fetch %s epr "DF_X64"-"DF_X64"\n",
+./src/vos/vos_io.c:			D_DEBUG(DB_IO,
+./src/vos/vos_io.c:	D_DEBUG(DB_TRACE, "Fetch "DF_UOID", desc_nr %d, epoch "DF_X64"\n",
+./src/vos/vos_io.c:	D_DEBUG(DB_TRACE, "akey "DF_KEY" update %s value eph "DF_X64"\n",
+./src/vos/vos_io.c:		D_DEBUG(DB_IO, "Conditional update on non-existent akey\n");
+./src/vos/vos_io.c:		D_DEBUG(DB_IO, "Conditional insert on existent akey\n");
+./src/vos/vos_io.c:			D_DEBUG(DB_IO,
+./src/vos/vos_io.c:		D_DEBUG(DB_IO, "Conditional update on non-existent akey\n");
+./src/vos/vos_io.c:		D_DEBUG(DB_IO, "Conditional insert on existent akey\n");
+./src/vos/vos_io.c:	D_DEBUG(DB_TRACE, "media %hu offset "DF_U64" size %zd\n",
+./src/vos/vos_io.c:	D_DEBUG(DB_TRACE, "Prepare IOC for "DF_UOID", iod_nr %d, epc "DF_X64
+./src/vos/vos_pool.c:			D_DEBUG(DB_MGMT, "Closed VOS I/O context:%p pool:"
+./src/vos/vos_pool.c:		D_DEBUG(DB_MGMT, "can't find "DF_UUID"\n", DP_UUID(ukey->uuid));
+./src/vos/vos_pool.c:	D_DEBUG(DB_MGMT, "Pool Path: %s, size: "DF_U64":"DF_U64", "
+./src/vos/vos_pool.c:	D_DEBUG(DB_MGMT, "Creating blob for xs:%p pool:"DF_UUID"\n",
+./src/vos/vos_pool.c:	D_DEBUG(DB_MGMT, "No open handles, OK to delete\n");
+./src/vos/vos_pool.c:		D_DEBUG(DB_MGMT, "Deleting blob for xs:%p pool:"DF_UUID"\n",
+./src/vos/vos_pool.c:	D_DEBUG(DB_MGMT, "delete path: %s UUID: "DF_UUID"\n",
+./src/vos/vos_pool.c:	D_DEBUG(DB_MGMT, "Slab ID:%d, Size:%lu\n", id, slab->unit_size);
+./src/vos/vos_pool.c:	D_DEBUG(DB_MGMT, "Pool Path: %s, UUID: "DF_UUID"\n", path,
+./src/vos/vos_pool.c:		D_DEBUG(DB_MGMT, "Found already opened(%d) pool : %p\n",
+./src/vos/vos_pool.c:	D_DEBUG(DB_MGMT, "Opening VOS I/O context for xs:%p pool:"DF_UUID"\n",
+./src/vos/vos_pool.c:	D_DEBUG(DB_MGMT, "Opened pool %p\n", pool);
+./src/vos/vos_pool.c:	D_DEBUG(DB_MGMT, "Close opened(%d) pool "DF_UUID" (%p).\n",
+./src/vos/vos_dtx_iter.c:	D_DEBUG(DB_IO, "DTX iterator fetch the one "DF_DTI"\n",
+./src/vos/vos_ts.c:	D_DEBUG(DB_TRACE, "%s %s at idx %d(%p), read.hi="DF_U64		\
+./src/vos/vos_obj_cache.c:	D_DEBUG(DB_TRACE, "cont="DF_UUID", obj="DF_UOID"\n",
+./src/vos/vos_obj_cache.c:	D_DEBUG(DB_TRACE, "lru free callback for vos_obj_cache\n");
+./src/vos/vos_obj_cache.c:	D_DEBUG(DB_TRACE, "pool="DF_UUID" cont="DF_UUID", obj="DF_UOID"\n",
+./src/vos/vos_obj_cache.c:	D_DEBUG(DB_TRACE, "Creating an object cache %d\n", (1 << cache_size));
+./src/vos/vos_obj_cache.c:	D_DEBUG(DB_TRACE, "Try to hold cont="DF_UUID", obj="DF_UOID
+./src/vos/vos_obj_cache.c:		D_DEBUG(DB_TRACE, "looking up object ilog");
+./src/vos/vos_obj_cache.c:	D_DEBUG(DB_TRACE, "%s Got empty obj "DF_UOID" epr="DF_U64"-"DF_U64"\n",
+./src/vos/vos_obj_cache.c:			D_DEBUG(DB_TRACE, "non exist oid "DF_UOID"\n",
+./src/vos/vos_obj_cache.c:		D_DEBUG(DB_TRACE, "nonexistent obj "DF_UOID"\n",
+./src/vos/vos_obj_cache.c:			D_DEBUG(DB_TRACE, "Object "DF_UOID" not found at "
+./src/vos/vos_obj_cache.c:			D_DEBUG(DB_TRACE, "Object "DF_UOID" not visible at "
+./src/vos/vos_obj.c:		D_DEBUG(DB_IO, "Failed to punch key: "DF_RC"\n",
+./src/vos/vos_obj.c:		D_DEBUG(DB_TRACE, "%s tree empty, punching parent\n",
+./src/vos/vos_obj.c:	D_DEBUG(DB_IO, "Punch "DF_UOID", epoch "DF_U64"\n",
+./src/vos/vos_obj.c:		D_DEBUG(DB_IO, "Failed to punch object "DF_UOID": rc = %d\n",
+./src/vos/vos_obj.c:		D_DEBUG(DB_IO, "can't load the akey tree: "DF_RC"\n",
+./src/vos/vos_obj.c:		D_DEBUG(DB_IO, "Cannot prepare singv iterator: "DF_RC"\n",
+./src/vos/vos_obj.c:		D_DEBUG(DB_IO, "Can't find the provided anchor\n");
+./src/vos/vos_obj.c:		D_DEBUG(DB_IO, "Cannot prepare recx iterator : "DF_RC"\n",
+./src/vos/vos_obj.c:		D_DEBUG(DB_TRACE, "Failed to fetch and initialize cursor "
+./src/vos/vos_obj.c:			D_DEBUG(DB_TRACE, "Failed to open tree for iterator:"
+./src/vos/vos_obj.c:			D_DEBUG(DB_TRACE, "Failed to open tree for iterator:"
+./src/vos/vos_obj.c:		D_DEBUG(DB_TRACE, "Failed to prepare iterator: rc = "DF_RC"\n",
+./src/vos/vos_obj.c:		D_DEBUG(DB_IO, "Removing %s from tree\n",
+./src/vos/vos_container.c:	D_DEBUG(DB_DF, "Allocating container uuid=" DF_UUID "\n",
+./src/vos/vos_container.c:	D_DEBUG(DB_DF, "Record exists already. Nothing to do\n");
+./src/vos/vos_container.c:	D_DEBUG(DB_TRACE, "looking up co_id in container index\n");
+./src/vos/vos_container.c:	D_DEBUG(DB_TRACE, "Open container "DF_UUID"\n", DP_UUID(co_uuid));
+./src/vos/vos_container.c:		D_DEBUG(DB_TRACE, "Found handle for cont "DF_UUID
+./src/vos/vos_container.c:		D_DEBUG(DB_TRACE, DF_UUID" container does not exist\n",
+./src/vos/vos_container.c:	D_DEBUG(DB_TRACE, "Inert cont "DF_UUID" into hash table.\n",
+./src/vos/vos_container.c:	D_DEBUG(DB_TRACE, "Close cont "DF_UUID", open count: %d\n",
+./src/vos/vos_container.c:	D_DEBUG(DB_TRACE, "Destroying CO ID in container index "DF_UUID"\n",
+./src/vos/vos_container.c:		D_DEBUG(DB_TRACE, DF_UUID" container does not exist\n",
+./src/vos/vos_container.c:	D_DEBUG(DB_DF, "Registering Container table class: %d\n",
+./src/vos/vos_tree.c:	D_DEBUG(DB_IO, "Overwrite epoch "DF_X64".%d\n", skey->sk_epoch,
+./src/vos/vos_tree.c:		D_DEBUG(DB_TRACE, "Attempt to fetch wrong value type\n");
+./src/vos/vos_tree.c:		D_DEBUG(DB_TRACE, "Create dbtree %s feats 0x"DF_X64"\n",
+./src/vos/vos_tree.c:	D_DEBUG(DB_TRACE, "prepare tree, flags=%x, tclass=%d\n", flags, tclass);
+./src/vos/vos_tree.c:		D_DEBUG(DB_DF, "Create btree for object\n");
+./src/vos/vos_tree.c:		D_DEBUG(DB_DF, "Open btree for object\n");
+./src/vos/vos_tree.c:		D_DEBUG(DB_TRACE, "Register tree type %s\n", ta->ta_name);
+./src/vos/vos_tree.c:		D_DEBUG(DB_TRACE, "ta->ta_class: %d, tree_class: %d\n",
+./src/vos/evt_iter.c:	D_DEBUG(DB_TRACE, "iterator state is %d\n", iter->it_state);
+./src/vos/evt_iter.c:	D_DEBUG(DB_TRACE, "Skipping to next unfiltered entry\n");
+./src/vos/vos_aggregate.c:		D_DEBUG(DB_EPC, "Skip oid:"DF_UOID" aggregation on re-probe\n",
+./src/vos/vos_aggregate.c:		D_DEBUG(DB_EPC, "Skip dkey: "DF_KEY" aggregation on re-probe\n",
+./src/vos/vos_aggregate.c:		D_DEBUG(DB_EPC, "Skip akey: "DF_KEY" aggregation on re-probe\n",
+./src/vos/vos_aggregate.c:			D_DEBUG(DB_EPC, "Hit uncommitted single value at epoch:"
+./src/vos/vos_aggregate.c:			D_DEBUG(DB_EPC, "Delete aborted at epoch:"DF_X64"\n",
+./src/vos/vos_aggregate.c:		D_DEBUG(DB_EPC, "Fill segment: %u-%u "DF_RECT"\n",
+./src/vos/vos_aggregate.c:	D_DEBUG(DB_EPC, "Skip window flush "DF_EXT"\n", DP_EXT(&mw->mw_ext));
+./src/vos/vos_aggregate.c:	D_DEBUG(DB_EPC, "lgc_ext:"DF_EXT", phy_ext:"DF_RECT", mw:"DF_EXT", "
+./src/vos/vos_aggregate.c:		D_DEBUG(DB_EPC, "Delete aborted EV entry "DF_EXT"@"DF_X64"\n",
+./src/vos/vos_aggregate.c:		D_DEBUG(DB_EPC, "Hit uncommitted EV entry "DF_EXT"@"DF_X64"\n",
+./src/vos/vos_aggregate.c:		D_DEBUG(DB_TRACE, "EV tree 0 iod_size could be caused by "
+./src/vos/vos_aggregate.c:	D_DEBUG(DB_EPC, "oid:"DF_UOID", lgc_ext:"DF_EXT", "
+./src/vos/vos_aggregate.c:	D_DEBUG(DB_EPC, DF_CONT": Aggregate pre, type:%d, is_discard:%d\n",
+./src/vos/vos_aggregate.c:			D_DEBUG(DB_EPC, "Restarting evtree aggregation\n");
+./src/vos/vos_aggregate.c:			D_DEBUG(DB_EPC, "Abort value aggregation "DF_RC"\n",
+./src/vos/vos_aggregate.c:			D_DEBUG(DB_EPC, "VOS discard/aggregation aborted\n");
+./src/vos/vos_aggregate.c:	D_DEBUG(DB_EPC, DF_CONT": Aggregate post, type:%d, is_discard:%d\n",
+./src/vos/vos_aggregate.c:	D_DEBUG(DB_EPC, "Discard epr "DF_U64"-"DF_U64"\n",
+./src/vos/vos_obj_index.c:	D_DEBUG(DB_TRACE, "alloc "DF_UOID" rec "DF_X64"\n",
+./src/vos/vos_obj_index.c:	D_DEBUG(DB_TRACE, "fetch "DF_UOID" rec "DF_X64"\n",
+./src/vos/vos_obj_index.c:	D_DEBUG(DB_TRACE, "Lookup obj "DF_UOID" in the OI table.\n",
+./src/vos/vos_obj_index.c:	D_DEBUG(DB_TRACE, "Object "DF_UOID" not found adding it..\n",
+./src/vos/vos_obj_index.c:	D_DEBUG(DB_TRACE, "Punch obj "DF_UOID", epoch="DF_U64".\n",
+./src/vos/vos_obj_index.c:	D_DEBUG(DB_TRACE, "Delete obj "DF_UOID"\n", DP_UOID(oid));
+./src/vos/vos_obj_index.c:		D_DEBUG(DB_TRACE, "Expected VOS_ITER_DKEY nested iterator type,"
+./src/vos/vos_obj_index.c:			D_DEBUG(DB_TRACE, "Cannot fetch oid info because of "
+./src/vos/vos_obj_index.c:		D_DEBUG(DB_IO, "Removing object "DF_UOID" from tree\n",
+./src/vos/vos_obj_index.c:	D_DEBUG(DB_DF, "Registering class for OI table Class: %d\n",
+./src/gurt/fault_inject.c:		D_DEBUG(DB_ALL, "new fault id: %u added.\n", fault_id);
+./src/gurt/fault_inject.c:		D_DEBUG(DB_ALL, "fault attr for fault ID %d not set yet.\n",
+./src/gurt/fault_inject.c:			D_DEBUG(DB_ALL, "mapping end\n");
+./src/gurt/fault_inject.c:			D_DEBUG(DB_ALL, "id: %lu\n", val);
+./src/gurt/fault_inject.c:			D_DEBUG(DB_ALL, "probability_x: %lu\n", val);
+./src/gurt/fault_inject.c:			D_DEBUG(DB_ALL, "probability_y: %lu\n", val);
+./src/gurt/fault_inject.c:			D_DEBUG(DB_ALL, "interval: %lu\n", val);
+./src/gurt/fault_inject.c:			D_DEBUG(DB_ALL, "max_faults: %lu\n", val);
+./src/gurt/fault_inject.c:			D_DEBUG(DB_ALL, "err_code: "DF_RC"\n",
+./src/gurt/fault_inject.c:			D_DEBUG(DB_ALL, "argument: %s\n", attr.fa_argument);
+./src/gurt/fault_inject.c:		D_DEBUG(DB_TRACE, "fault injection not initialized.\n");
+./src/gurt/fault_inject.c:	D_DEBUG(DB_ALL, "Finalized.\n");
+./src/gurt/tests/test_gurt.c:	D_DEBUG(DB_TEST1, "This message should appear\n");
+./src/gurt/tests/test_gurt.c:	D_DEBUG(DB_TEST2, "This message should NOT appear\n");
+./src/gurt/tests/test_gurt.c:	D_DEBUG(DB_TEST1, "This message should NOT appear\n");
+./src/gurt/tests/test_gurt.c:	D_DEBUG(DB_TEST2, "This message should appear\n");
+./src/gurt/tests/test_gurt.c:	D_DEBUG(DB_TEST1, "This message should NOT appear\n");
+./src/gurt/telemetry.c:	D_DEBUG(DB_TRACE, "Shared memory allocation success!\n"
+./src/gurt/telemetry.c:	D_DEBUG(DB_TRACE, "successfully added item: [%s]\n", path);
+./src/gurt/telemetry.c:	D_DEBUG(DB_TRACE, "Successfully added histogram for: [%s]\n", path);
+./src/gurt/telemetry.c:			D_DEBUG(DB_TRACE,
+./src/gurt/telemetry.c:		D_DEBUG(DB_TRACE,
+./src/gurt/hash.c:			D_DEBUG(DB_TRACE, "Max depth %d/%d/%d\n",
+./src/gurt/hash.c:				D_DEBUG(DB_TRACE, "Warning, non-empty hash\n");
+./src/gurt/hash.c:	D_DEBUG(DB_TRACE, "max nr: %d, cur nr: %d, max_dep: %d\n",
+./src/gurt/hash.c:	D_DEBUG(DB_TRACE, "uuid_key: "CF_UUID"\n", CP_UUID(lkey->uuid));
+./src/gurt/hash.c:	D_DEBUG(DB_TRACE, "Link key, Key:"CF_UUID","CF_UUID"\n",
+./src/gurt/misc.c:			D_DEBUG(DB_TRACE, "%s:%d, rank_list %p, removed "
+./src/gurt/misc.c:		D_DEBUG(DB_TRACE, "%s:%d, rank_list %p, removed %d ranks.\n",
+./src/gurt/misc.c:		D_DEBUG(DB_TRACE, "%s:%d, rank_list %p, filter rank[%d](%d).\n",
+./src/gurt/misc.c:		D_DEBUG(DB_TRACE, "%s:%d, rank_list %p, filter %d ranks.\n",
+./src/gurt/misc.c:		D_DEBUG(DB_TRACE, "Rank %d not in the rank list.\n", rank);
+./src/gurt/misc.c:	D_DEBUG(DB_TRACE, "%s, %d ranks: %s\n",
+./src/gurt/misc.c:	D_DEBUG(DB_TRACE, "get ENV %s as %d.\n", env, value);
+./src/bio/bio_device.c:		D_DEBUG(DB_MGMT, "Setting VMD device:%s LED state to %s(%d)\n",
+./src/bio/bio_device.c:		D_DEBUG(DB_MGMT, "Resetting VMD device:%s LED state to %d\n",
+./src/bio/bio_xstream.c:		D_DEBUG(DB_MGMT, "Device "DF_UUID"(%s) is already in "
+./src/bio/bio_xstream.c:	D_DEBUG(DB_MGMT, "Got SPDK event(%d) for dev %s\n", type,
+./src/bio/bio_xstream.c:		D_DEBUG(DB_MGMT, "bio_bdev for "DF_UUID"(%s) is still "
+./src/bio/bio_xstream.c:		D_DEBUG(DB_MGMT, "Removed device "DF_UUID"(%s)\n",
+./src/bio/bio_xstream.c:		D_DEBUG(DB_MGMT, "Creating bs for %s\n", d_bdev->bb_name);
+./src/bio/bio_xstream.c:	D_DEBUG(DB_MGMT, "%s :"DF_UUID"\n",
+./src/bio/bio_xstream.c:	D_DEBUG(DB_MGMT, "Initial target count for "DF_UUID" set at %d\n",
+./src/bio/bio_xstream.c:	D_DEBUG(DB_MGMT, "Successfully mapped dev "DF_UUID"/%d to tgt %d\n",
+./src/bio/bio_xstream.c:	D_DEBUG(DB_MGMT, "Get dev "DF_UUID" mapped to tgt %d.\n",
+./src/bio/bio_xstream.c:		D_DEBUG(DB_MGMT, "Loaded bs, tgt_id:%d, xs:%p dev:%s\n",
+./src/bio/bio_xstream.c:				D_DEBUG(DB_MGMT, "Init xs waits\n");
+./src/bio/bio_xstream.c:			D_DEBUG(DB_MGMT, "Finalizing SPDK subsystems\n");
+./src/bio/bio_xstream.c:		D_DEBUG(DB_MGMT, "Finalizing SPDK thread, tgt_id:%d",
+./src/bio/bio_xstream.c:		D_DEBUG(DB_MGMT, "SPDK thread finalized, tgt_id:%d",
+./src/bio/bio_xstream.c:		D_DEBUG(DB_MGMT, "SPDK bdev initialized, tgt_id:%d", tgt_id);
+./src/bio/bio_xstream.c:			D_DEBUG(DB_MGMT, "Removed device "DF_UUID"(%s)\n",
+./src/bio/bio_context.c:		D_DEBUG(DB_IO, "Self poll xs_ctxt:%p\n", xs_ctxt);
+./src/bio/bio_context.c:	D_DEBUG(DB_MGMT, "Deleting blobID "DF_U64" for pool:"DF_UUID" xs:%p\n",
+./src/bio/bio_context.c:		D_DEBUG(DB_MGMT, "Successfully deleted blobID "DF_U64" for "
+./src/bio/bio_context.c:		D_DEBUG(DB_MGMT, "Successfully created blobID "DF_U64" for xs:"
+./src/bio/bio_context.c:			D_DEBUG(DB_MGMT, "Successfully assign blob:"DF_U64" "
+./src/bio/bio_context.c:	D_DEBUG(DB_MGMT, "Opening blobID "DF_U64" for xs:%p pool:"DF_UUID"\n",
+./src/bio/bio_context.c:		D_DEBUG(DB_MGMT, "Successfully opened blobID "DF_U64" for xs:%p"
+./src/bio/bio_context.c:	D_DEBUG(DB_MGMT, "Closing blob %p for xs:%p\n", ctxt->bic_blob,
+./src/bio/bio_context.c:		D_DEBUG(DB_MGMT, "Successfully closed blob %p for xs:%p\n",
+./src/bio/bio_context.c:	D_DEBUG(DB_MGMT, "Unmapping blob %p pgoff:"DF_U64" pgcnt:"DF_U64"\n",
+./src/bio/bio_context.c:		D_DEBUG(DB_MGMT, "Successfully unmapped blob %p for xs:%p\n",
+./src/bio/bio_context.c:	D_DEBUG(DB_MGMT, "Writing header blob:%p, xs:%p\n",
+./src/bio/bio_recovery.c:		D_DEBUG(DB_MGMT, "xs:%p has %d opened blobs\n",
+./src/bio/bio_recovery.c:		D_DEBUG(DB_MGMT, "Blobstore %p is inuse:%d, retry later.\n",
+./src/bio/bio_recovery.c:		D_DEBUG(DB_MGMT, "Blobstore %p is in %s\n", bbs,
+./src/bio/bio_recovery.c:		D_DEBUG(DB_MGMT, "xs:%p has %d closed blobs\n",
+./src/bio/bio_recovery.c:		D_DEBUG(DB_MGMT, "Blobstore %p is inuse:%d, retry later.\n",
+./src/bio/bio_recovery.c:		D_DEBUG(DB_MGMT, "Blobstore %p is in loading\n", bbs);
+./src/bio/bio_recovery.c:		D_DEBUG(DB_MGMT, "Blobstore state transitioned. "
+./src/bio/smd/smd_pool.c:		D_DEBUG(DB_MGMT, "Pool "DF_UUID" target %d not found.\n",
+./src/bio/smd/smd_device.c:	D_DEBUG(DB_MGMT, "SMD dev "DF_UUID" state set to %s\n",
+./src/bio/bio_buffer.c:		D_DEBUG(DB_IO, "Release chunk:%p[%p] idx:%u ref:%u huge:%d\n",
+./src/bio/bio_buffer.c:	D_DEBUG(DB_TRACE, "Reserved on chunk:%p[%p], idx:%u, cnt:%u, off:%u\n",
+./src/bio/bio_buffer.c:		D_DEBUG(DB_IO, "Huge chunk:%p[%p], cnt:%u, off:%u\n",
+./src/bio/bio_buffer.c:		D_DEBUG(DB_TRACE, "Last region %p:%d ["DF_U64","DF_U64")\n",
+./src/bio/bio_buffer.c:				D_DEBUG(DB_TRACE, "Consecutive reserve %p.\n",
+./src/bio/bio_buffer.c:			D_DEBUG(DB_IO, "Last chunk reserve %p.\n",
+./src/bio/bio_buffer.c:			D_DEBUG(DB_IO, "Current chunk reserve %p.\n",
+./src/bio/bio_buffer.c:		D_DEBUG(DB_IO, "New chunk reserve %p.\n",
+./src/bio/bio_buffer.c:	D_DEBUG(DB_IO, "DMA start, blob:%p, update:%d, rmw:%d\n",
+./src/bio/bio_buffer.c:			D_DEBUG(DB_IO, "%s blob:%p payload:%p, "
+./src/bio/bio_buffer.c:			D_DEBUG(DB_IO, "Front partial blob:%p payload:%p, "
+./src/bio/bio_buffer.c:			D_DEBUG(DB_IO, "Rear partial blob:%p payload:%p, "
+./src/bio/bio_buffer.c:		D_DEBUG(DB_IO, "Self poll completion, blob:%p\n", blob);
+./src/bio/bio_buffer.c:	D_DEBUG(DB_IO, "DMA done, blob:%p, update:%d, rmw:%d\n",
+./src/bio/bio_buffer.c:			D_DEBUG(DB_TRACE, "bio copy %p size %zd\n",
+./src/bio/bio_buffer.c:	D_DEBUG(DB_TRACE, "Consumed all iovs, "DF_U64" bytes left\n", size);
+./src/bio/bio_buffer.c:		D_DEBUG(DB_IO, "IOD %p waits for active IODs. %d\n",
+./src/bio/bio_buffer.c:		D_DEBUG(DB_IO, "IOD %p finished waiting. %d\n",
+./src/bio/bio_buffer.c:		D_DEBUG(DB_IO, "Readv to blob %p for xs:%p successfully\n",
+./src/bio/bio_buffer.c:		D_DEBUG(DB_IO, "Writev to blob %p for xs:%p successfully\n",
+./src/bio/bio_buffer.c:		D_DEBUG(DB_IO, "%s to blob %p for xs:%p successfully\n",
+./src/mgmt/cli_query.c:	D_DEBUG(DB_MGMT, "getting internal blobstore state in DAOS system:%s\n",
+./src/mgmt/srv_util.c:	D_DEBUG(DB_MGMT, "%u -> %u\n", version_current, version);
+./src/mgmt/srv_system.c:	D_DEBUG(DB_MGMT, "setting %d servers in map version %u\n",
+./src/mgmt/srv_system.c:	D_DEBUG(DB_MGMT, "set %d servers in map version %u\n",
+./src/mgmt/srv_system.c:	D_DEBUG(DB_MGMT, "requesting dist of map version %u (%u servers)\n",
+./src/mgmt/srv_system.c:	D_DEBUG(DB_MGMT, "enter: version=%u nservers=%d\n", map_version,
+./src/mgmt/srv_system.c:	D_DEBUG(DB_MGMT, "leave: version=%u nservers=%d: "DF_RC"\n",
+./src/mgmt/cli_debug.c:	D_DEBUG(DB_MGMT, "set parameter %d/%u/"DF_U64"\n", args->rank,
+./src/mgmt/cli_debug.c:	D_DEBUG(DB_MGMT, "mgmt mark: rc "DF_RC"\n", DP_RC(rc));
+./src/mgmt/srv_target.c:	D_DEBUG(DB_MGMT, "Clear SPDK blobs for NEWBORN pool "DF_UUID"\n",
+./src/mgmt/srv_target.c:		D_DEBUG(DB_MGMT, DF_UUID": creating vos file %s\n",
+./src/mgmt/srv_target.c:	D_DEBUG(DB_MGMT, DF_UUID": thread exiting, vc_rc: "DF_RC"\n",
+./src/mgmt/srv_target.c:			D_DEBUG(DB_MGMT, DF_UUID": received cancel request\n",
+./src/mgmt/srv_target.c:				D_DEBUG(DB_MGMT, DF_UUID": prealloc thread "
+./src/mgmt/srv_target.c:				D_DEBUG(DB_MGMT, DF_UUID": prealloc thread "
+./src/mgmt/srv_target.c:	D_DEBUG(DB_MGMT, DF_UUID": processing rpc %p\n",
+./src/mgmt/srv_target.c:	D_DEBUG(DB_MGMT, DF_UUID": record inserted to dpt_creates_ht\n",
+./src/mgmt/srv_target.c:	D_DEBUG(DB_MGMT, DF_UUID" record removed from dpt_creates_ht\n",
+./src/mgmt/srv_target.c:	D_DEBUG(DB_MGMT, DF_UUID": processing rpc %p\n",
+./src/mgmt/srv_target.c:		D_DEBUG(DB_MGMT, DF_UUID": busy creating tgts, ask to cancel "
+./src/mgmt/srv_target.c:	D_DEBUG(DB_MGMT, DF_UUID": ready to destroy targets\n",
+./src/mgmt/srv_target.c:		D_DEBUG(DB_MGMT, "Set param DMG_KEY_FAIL_VALUE=%"PRIu64"\n",
+./src/mgmt/srv_target.c:	D_DEBUG(DB_MGMT, "profile task: rc "DF_RC"\n", DP_RC(rc));
+./src/mgmt/srv_target.c:	D_DEBUG(DB_TRACE, "Mark trace %s.\n", in->m_mark);
+./src/mgmt/srv_target.c:	D_DEBUG(DB_MGMT, "in=%u current=%u\n", in->tm_map_version, version);
+./src/mgmt/srv_drpc.c:	D_DEBUG(DB_MGMT, DF_UUID": creating pool\n", DP_UUID(pool_uuid));
+./src/mgmt/srv_drpc.c:	D_DEBUG(DB_MGMT, "%d service replicas\n", svc->rl_nr);
+./src/mgmt/cli_mgmt.c:	D_DEBUG(DB_MGMT, "mgmt profile: rc "DF_RC"\n", DP_RC(rc));
+./src/mgmt/cli_mgmt.c:		D_DEBUG(DB_MGMT, "GetAttachInfo ms_ranks[%d]: rank=%u\n", i,
+./src/mgmt/cli_mgmt.c:	D_DEBUG(DB_MGMT,
+./src/mgmt/cli_mgmt.c:	D_DEBUG(DB_MGMT, "getting attach info for %s\n", name);
+./src/mgmt/cli_mgmt.c:	D_DEBUG(DB_MGMT,
+./src/mgmt/cli_mgmt.c:	D_DEBUG(DB_MGMT, "disconnecting process for pid:%d\n", getpid());
+./src/mgmt/cli_mgmt.c:	D_DEBUG(DB_MGMT, "attaching to system '%s'\n", name);
+./src/mgmt/cli_mgmt.c:	D_DEBUG(DB_MGMT, "detaching from system '%s'\n", sys->sy_name);
+./src/mgmt/cli_mgmt.c:		D_DEBUG(DB_MGMT, DF_UUID ": ask rank %u for PS replicas list\n",
+./src/mgmt/cli_mgmt.c:			D_DEBUG(DB_MGMT, DF_UUID ": daos_rpc_send_wait() failed"
+./src/mgmt/cli_mgmt.c:	D_DEBUG(DB_MGMT, DF_UUID ": rank %u returned PS replicas list\n",
+./src/mgmt/srv.c:	D_DEBUG(DB_MGMT, "profile hdlr: rc "DF_RC"\n", DP_RC(rc));
+./src/mgmt/srv.c:	D_DEBUG(DB_MGMT, "mark hdlr: rc "DF_RC"\n", DP_RC(rc));
+./src/mgmt/srv.c:	D_DEBUG(DB_MGMT, "get svcranks for pool "DF_UUIDF"\n",
+./src/mgmt/srv.c:		D_DEBUG(DB_MGMT, DF_UUID": get_pool_svc_ranks() upcall failed, "
+./src/mgmt/srv.c:	D_DEBUG(DB_MGMT, "successful init call\n");
+./src/mgmt/srv.c:	D_DEBUG(DB_MGMT, "successful fini call\n");
+./src/mgmt/srv_query.c:	D_DEBUG(DB_MGMT, "BIO blobstore state query on xs:%d, tgt:%d\n",
+./src/mgmt/srv_query.c:	D_DEBUG(DB_MGMT, "Starting ULT on tgt_id:%d\n", tgt_id);
+./src/mgmt/srv_query.c:	D_DEBUG(DB_MGMT, "BIO health stats query on xs:%d, tgt:%d\n",
+./src/mgmt/srv_query.c:	D_DEBUG(DB_MGMT, "Querying BIO Health Data for dev:"DF_UUID"\n",
+./src/mgmt/srv_query.c:	D_DEBUG(DB_MGMT, "Starting ULT on tgt_id:%d\n", tgt_id);
+./src/mgmt/srv_query.c:	D_DEBUG(DB_MGMT, "Querying BIO & SMD device list\n");
+./src/mgmt/srv_query.c:	D_DEBUG(DB_MGMT, "Querying SMD pool list\n");
+./src/mgmt/srv_query.c:	D_DEBUG(DB_MGMT, "Querying SMD device state for dev:"DF_UUID"\n",
+./src/mgmt/srv_query.c:	D_DEBUG(DB_MGMT, "BIO health state set on xs:%d, tgt:%d\n",
+./src/mgmt/srv_query.c:	D_DEBUG(DB_MGMT, "BIO health state set on xs:%d, tgt:%d\n",
+./src/mgmt/srv_query.c:	D_DEBUG(DB_MGMT, "Setting FAULTY SMD device state for dev:"DF_UUID"\n",
+./src/mgmt/srv_query.c:	D_DEBUG(DB_MGMT, "Starting ULT on tgt_id:%d\n", tgt_id);
+./src/mgmt/srv_query.c:	D_DEBUG(DB_MGMT, "Replacing device:"DF_UUID" with device:"DF_UUID"\n",
+./src/mgmt/srv_query.c:	D_DEBUG(DB_MGMT, "Identifying device:"DF_UUID"\n", DP_UUID(dev_uuid));
+./src/mgmt/srv_pool.c:	D_DEBUG(DB_MD, DF_UUID ": send tgt destroy to %u UP ranks:\n",
+./src/mgmt/srv_pool.c:	D_DEBUG(DB_MGMT, DF_UUID" create %zu tgts pool\n",
+./src/mgmt/srv_pool.c:		D_DEBUG(DB_TRACE, "fill ranks %d idx %d "DF_UUID"\n",
+./src/mgmt/srv_pool.c:	D_DEBUG(DB_MGMT, DF_UUID": all tgts created, setting up pool "
+./src/mgmt/srv_pool.c:	D_DEBUG(DB_MGMT, "create pool "DF_UUID": "DF_RC"\n", DP_UUID(pool_uuid),
+./src/mgmt/srv_pool.c:	D_DEBUG(DB_MGMT, "Destroying pool "DF_UUID"\n", DP_UUID(pool_uuid));
+./src/mgmt/srv_pool.c:		D_DEBUG(DB_MGMT, DF_UUID": %u svc_ranks, but only %u found "
+./src/mgmt/srv_pool.c:	D_DEBUG(DB_MGMT, "Destroying pool " DF_UUID " succeeded.\n",
+./src/mgmt/srv_pool.c:	D_DEBUG(DB_MGMT, "extend pool "DF_UUID"\n", DP_UUID(pool_uuid));
+./src/mgmt/srv_pool.c:	D_DEBUG(DB_MGMT, "evict pool "DF_UUID"\n", DP_UUID(pool_uuid));
+./src/mgmt/srv_pool.c:	D_DEBUG(DB_MGMT, "evicting pool connections "DF_UUID" succeed.\n",
+./src/mgmt/srv_pool.c:	D_DEBUG(DB_MGMT, "Getting container list for pool "DF_UUID"\n",
+./src/mgmt/srv_pool.c:	D_DEBUG(DB_MGMT, "Querying pool "DF_UUID"\n", DP_UUID(pool_uuid));
+./src/mgmt/srv_pool.c:	D_DEBUG(DB_MGMT, "Getting ACL for pool "DF_UUID"\n",
+./src/mgmt/srv_pool.c:	D_DEBUG(DB_MGMT, "Overwriting ACL for pool "DF_UUID"\n",
+./src/mgmt/srv_pool.c:	D_DEBUG(DB_MGMT, "Updating ACL for pool "DF_UUID"\n",
+./src/mgmt/srv_pool.c:	D_DEBUG(DB_MGMT, "Deleting ACL entry for pool "DF_UUID"\n",
+./src/mgmt/srv_pool.c:	D_DEBUG(DB_MGMT, "Setting property for pool "DF_UUID"\n",
+./src/mgmt/srv_container.c:	D_DEBUG(DB_MGMT, "Setting owner for container "DF_UUID" in pool "
+./src/security/srv_acl.c:	D_DEBUG(DB_MGMT, "Checking ACE for principal type %d\n", type);
+./src/tests/ftest/cart/iv_server.c:	D_DEBUG(DB_TEST, "IV Variable:\n");
+./src/tests/ftest/cart/iv_server.c:	D_DEBUG(DB_TRACE, "ivns %p was destroyed, arg %p\n", ivns, arg);
+./src/tests/ftest/cart/iv_server.c:	D_DEBUG(DB_TRACE, "Respond/Send to change in IV\n");
+./src/tests/ftest/cart/iv_server.c:	D_DEBUG(DB_TEST, "  set_grp_version: to 0x%0x: %d\n",
+./src/tests/ftest/cart/iv_server.c:	D_DEBUG(DB_TEST, " grp version: 0x%08x : %d::  rc %d:\n",
+./src/tests/ftest/cart/iv_server.c:		D_DEBUG(DB_TEST, "Group Config File: %s\n", grp_cfg_file);
+./src/tests/ftest/cart/iv_server.c:	D_DEBUG(DB_TEST, "My_rank %d: grp size %d\n",
+./src/tests/ftest/cart/test_no_timeout.c:	D_DEBUG(DB_TEST, "client(rank %d) sending ping rpc with tag "
+./src/tests/ftest/cart/test_no_timeout.c:	D_DEBUG(DB_TEST, "joined progress thread.\n");
+./src/tests/ftest/cart/test_no_timeout.c:	D_DEBUG(DB_TEST, "exiting.\n");
+./src/tests/ftest/cart/test_rpc_error.c:	D_DEBUG(DB_TEST, "local group: %s, target group: %s\n",
+./src/tests/ftest/cart/test_rpc_error.c:		D_DEBUG(DB_TEST, "client rank %d sending magic number %d to "
+./src/tests/ftest/cart/test_rpc_error.c:		D_DEBUG(DB_TEST, "Waiting on reply %d\n", i * 2);
+./src/tests/ftest/cart/test_rpc_error.c:		D_DEBUG(DB_TEST, "Waiting on reply %d\n", (i * 2) + 1);
+./src/tests/ftest/cart/test_rpc_error.c:		D_DEBUG(DB_TEST, "sizeof %s is %d\n",
+./src/tests/ftest/cart/test_group_np_srv.c:	D_DEBUG(DB_TEST, "Cart callback event: "
+./src/tests/ftest/cart/test_group_np_srv.c:		D_DEBUG(DB_TEST, "joined progress thread.\n");
+./src/tests/ftest/cart/test_group_np_srv.c:	D_DEBUG(DB_TEST, "exiting.\n");
+./src/tests/ftest/cart/test_proto_server.c:	D_DEBUG(DB_TRACE, "joined progress thread.\n");
+./src/tests/ftest/cart/test_proto_server.c:	D_DEBUG(DB_TRACE, "exiting.\n");
+./src/tests/ftest/cart/test_hlc_net.c:#define dbg(fmt, ...)	D_DEBUG(DB_TEST, fmt, ##__VA_ARGS__)
+./src/tests/ftest/cart/test_swim_net.c:#define dbg(fmt, ...)	D_DEBUG(DB_TEST, fmt, ##__VA_ARGS__)
+./src/tests/ftest/cart/test_rpc_to_ghost_rank.c:		D_DEBUG(DB_ALL, "No fault injected.\n");
+./src/tests/ftest/cart/test_rpc_to_ghost_rank.c:	D_DEBUG(DB_TEST, "client(rank %d) sending checkin rpc with tag "
+./src/tests/ftest/cart/test_rpc_to_ghost_rank.c:		D_DEBUG(DB_TEST, "joined progress thread %d.\n", ii);
+./src/tests/ftest/cart/test_rpc_to_ghost_rank.c:			D_DEBUG(DB_TEST, "flush returned rc %d\n", rc);
+./src/tests/ftest/cart/test_rpc_to_ghost_rank.c:				D_DEBUG(DB_TEST, "flush finished.\n");
+./src/tests/ftest/cart/test_rpc_to_ghost_rank.c:		D_DEBUG(DB_TEST, "flush finished.\n");
+./src/tests/ftest/cart/test_rpc_to_ghost_rank.c:			D_DEBUG(DB_TEST, "crt_context_destroy() not successful,"
+./src/tests/ftest/cart/test_rpc_to_ghost_rank.c:		D_DEBUG(DB_TEST, "destroyed crt_ctx.\n");
+./src/tests/ftest/cart/test_rpc_to_ghost_rank.c:	D_DEBUG(DB_TEST, "exiting.\n");
+./src/tests/ftest/cart/rpc_test_srv.c:		D_DEBUG(DB_ALL, "testing multitier io.\n");
+./src/tests/ftest/cart/test_proto_client.c:	D_DEBUG(DB_TRACE, "joined progress thread.\n");
+./src/tests/ftest/cart/test_proto_client.c:	D_DEBUG(DB_TRACE, "exiting.\n");
+./src/tests/ftest/cart/test_group_np_cli.c:	D_DEBUG(DB_TEST, "joined progress thread.\n");
+./src/tests/ftest/cart/test_group_np_cli.c:	D_DEBUG(DB_TEST, "exiting.\n");
+./src/tests/suite/daos_degraded.c:		D_DEBUG(DF_MISC, "  d-key[%d] '%s' val '%d %s'\n", i,
+./src/tests/suite/daos_degraded.c:			D_DEBUG(DF_MISC, "i %d key %s len %d\n", i, dkey_enum,
+./src/tests/suite/daos_epoch.c:			D_DEBUG(DF_MISC, "  d-key[%d] '%s' val '%d %s'\n",
+./src/tests/suite/daos_obj.c:	D_DEBUG(DF_MISC, "open oid="DF_OID"\n", DP_OID(oid));
+./src/rdb/rdb_tx.c:			D_DEBUG(DB_TRACE, DF_DB": nearly out of space, do not "
+./src/rdb/rdb_tx.c:		D_DEBUG(DB_MD, DF_DB": initialized rdb_lc_oid_next to "DF_U64
+./src/rdb/rdb_tx.c:	D_DEBUG(DB_TRACE, DF_DB": "DF_TX_OP"\n", DP_DB(db), DP_TX_OP(op));
+./src/rdb/rdb_tx.c:			D_DEBUG(DB_TRACE, DF_DB": evicting kvs %p\n",
+./src/rdb/rdb_tx.c:	D_DEBUG(DB_TRACE, DF_DB": applying index "DF_U64": buf=%p len="DF_U64
+./src/rdb/rdb_kvs.c:	D_DEBUG(DB_TRACE, "walking path %zu from kvs %p\n", p.iov_len, kvs);
+./src/rdb/rdb_kvs.c:	D_DEBUG(DB_TRACE, "got kvs handle "DF_X64"\n", arg.deo_parent);
+./src/rdb/rdb_kvs.c:	D_DEBUG(DB_TRACE, DF_DB": created %p len %u\n", DP_DB(arg->dea_db), kvs,
+./src/rdb/rdb_kvs.c:	D_DEBUG(DB_TRACE, "freeing %p "DF_X64"\n", kvs, kvs->de_object);
+./src/rdb/rdb_kvs.c:	D_DEBUG(DB_TRACE, DF_DB": looking up "DF_IOV": alloc=%d\n", DP_DB(db),
+./src/rdb/tests/rdb_test.c:			D_DEBUG(DB_MD, "failed to open uuid file %s: %d\n",
+./src/rdb/rdb_raft.c:	D_DEBUG(DB_TRACE, DF_DB": sending rv to node %d rank %u: term=%ld\n",
+./src/rdb/rdb_raft.c:	D_DEBUG(DB_TRACE, DF_DB": sending ae to node %u rank %u: term=%ld\n",
+./src/rdb/rdb_raft.c:	D_DEBUG(DB_MD, DF_DB": nreplicas: %u\n", DP_DB(db), nreplicas);
+./src/rdb/rdb_raft.c:	D_DEBUG(DB_MD, DF_DB": loading snapshot: base="DF_U64" term="DF_U64"\n",
+./src/rdb/rdb_raft.c:	D_DEBUG(DB_TRACE,
+./src/rdb/rdb_raft.c:				D_DEBUG(DB_TRACE,
+./src/rdb/rdb_raft.c:				D_DEBUG(DB_TRACE,
+./src/rdb/rdb_raft.c:			D_DEBUG(DB_TRACE,
+./src/rdb/rdb_raft.c:			D_DEBUG(DB_TRACE, DF_DB": destroying slc: "DF_U64"\n",
+./src/rdb/rdb_raft.c:		D_DEBUG(DB_TRACE, DF_DB": creating slc: %ld\n", DP_DB(db),
+./src/rdb/rdb_raft.c:		D_DEBUG(DB_TRACE, DF_DB": already has: "DF_U64" <= "DF_U64"\n",
+./src/rdb/rdb_raft.c:		D_DEBUG(DB_TRACE, DF_DB": slc complete: "DF_U64"/"DF_U64"\n",
+./src/rdb/rdb_raft.c:		D_DEBUG(DB_TRACE, DF_DB": chunk complete: "DF_U64"/"DF_U64"\n",
+./src/rdb/rdb_raft.c:		D_DEBUG(DB_TRACE,
+./src/rdb/rdb_raft.c:		D_DEBUG(DB_TRACE,
+./src/rdb/rdb_raft.c:		D_DEBUG(DB_TRACE,
+./src/rdb/rdb_raft.c:	D_DEBUG(DB_TRACE,
+./src/rdb/rdb_raft.c:	D_DEBUG(DB_TRACE,
+./src/rdb/rdb_raft.c:	D_DEBUG(DB_TRACE, DF_DB": polling [%ld, %ld]\n", DP_DB(db), index,
+./src/rdb/rdb_raft.c:	D_DEBUG(DB_TRACE, DF_DB": deleted "DF_U64" entries"
+./src/rdb/rdb_raft.c:		D_DEBUG(DB_TRACE, DF_DB": %s: rank=%u\n", DP_DB(db), buf,
+./src/rdb/rdb_raft.c:		D_DEBUG(DB_TRACE, DF_DB": %s\n", DP_DB(db), buf);
+./src/rdb/rdb_raft.c:	D_DEBUG(DB_TRACE, DF_DB": snapping "DF_U64"\n", DP_DB(db),
+./src/rdb/rdb_raft.c:	D_DEBUG(DB_TRACE, DF_DB": compacting to "DF_U64"\n", DP_DB(db), index);
+./src/rdb/rdb_raft.c:	D_DEBUG(DB_TRACE, DF_DB": compacted to "DF_U64"\n", DP_DB(db), index);
+./src/rdb/rdb_raft.c:	D_DEBUG(DB_MD, DF_DB": compactd starting\n", DP_DB(db));
+./src/rdb/rdb_raft.c:	D_DEBUG(DB_MD, DF_DB": compactd stopping\n", DP_DB(db));
+./src/rdb/rdb_raft.c:			D_DEBUG(DB_MD, DF_DB": stepping down from term "DF_U64
+./src/rdb/rdb_raft.c:			D_DEBUG(DB_MD, DF_DB": requesting a replica stop\n",
+./src/rdb/rdb_raft.c:	D_DEBUG(DB_MD, DF_DB": callbackd starting\n", DP_DB(db));
+./src/rdb/rdb_raft.c:	D_DEBUG(DB_MD, DF_DB": callbackd stopping\n", DP_DB(db));
+./src/rdb/rdb_raft.c:		D_DEBUG(DB_TRACE, DF_DB": committed/applied to "DF_U64"\n",
+./src/rdb/rdb_raft.c:		D_DEBUG(DB_MD, DF_DB": requesting a replica stop\n", DP_DB(db));
+./src/rdb/rdb_raft.c:	D_DEBUG(DB_MD, DF_DB": Replica Rank: %d\n", DP_DB(db), rank);
+./src/rdb/rdb_raft.c:	D_DEBUG(DB_MD, DF_DB": Replica Rank: %d\n", DP_DB(db), rank);
+./src/rdb/rdb_raft.c:	D_DEBUG(DB_MD, DF_DB": timerd starting\n", DP_DB(db));
+./src/rdb/rdb_raft.c:	D_DEBUG(DB_MD, DF_DB": timerd stopping\n", DP_DB(db));
+./src/rdb/rdb_raft.c:	D_DEBUG(DB_TRACE,
+./src/rdb/rdb_raft.c:		D_DEBUG(DB_MD, DF_DB": no SLC record\n", DP_DB(db));
+./src/rdb/rdb_raft.c:		D_DEBUG(DB_MD, DF_DB": dangling SLC record: "DF_UUID"\n",
+./src/rdb/rdb_raft.c:	D_DEBUG(DB_MD, DF_DB": raft started: election_timeout=%dms "
+./src/rdb/rdb_raft.c:		D_DEBUG(DB_MD, DF_DB": waiting for %d references\n", DP_DB(db),
+./src/rdb/rdb_raft.c:	D_DEBUG(DB_MD, DF_DB": resigning from term "DF_U64"\n", DP_DB(db),
+./src/rdb/rdb_raft.c:		D_DEBUG(DB_MD, DF_DB": no election called, must be follower\n",
+./src/rdb/rdb_raft.c:	D_DEBUG(DB_MD, DF_DB": calling election from current term %ld\n",
+./src/rdb/rdb_raft.c:	D_DEBUG(DB_TRACE, DF_DB": waiting for entry "DF_U64" to be applied\n",
+./src/rdb/rdb_raft.c:	D_DEBUG(DB_TRACE, DF_DB": handling raft rv from rank %u\n", DP_DB(db),
+./src/rdb/rdb_raft.c:	D_DEBUG(DB_TRACE, DF_DB": handling raft ae from rank %u\n", DP_DB(db),
+./src/rdb/rdb_raft.c:	D_DEBUG(DB_TRACE, DF_DB": handling raft is from rank %u\n", DP_DB(db),
+./src/rdb/rdb_raft.c:		D_DEBUG(DB_MD, DF_DB": opc %u failed: %d\n", DP_DB(db), opc,
+./src/rdb/rdb.c:	D_DEBUG(DB_MD, DF_UUID": creating db %s with %u replicas\n",
+./src/rdb/rdb.c:	D_DEBUG(DB_MD, DF_DB": vos pool SCM: tot: "DF_U64" free: "DF_U64
+./src/rdb/rdb.c:	D_DEBUG(DB_MD, DF_DB": started db %s %p with %u replicas\n", DP_DB(db),
+./src/rdb/rdb.c:	D_DEBUG(DB_MD, DF_DB": stopping db %p\n", DP_DB(db), db);
+./src/rdb/rdb.c:	D_DEBUG(DB_MD, DF_DB": Adding %d replicas\n",
+./src/rdb/rdb.c:	D_DEBUG(DB_MD, DF_DB": Removing %d replicas\n",
+./src/rdb/rdb_rpc.c:	D_DEBUG(DB_MD, DF_DB": recvd starting\n", DP_DB(db));
+./src/rdb/rdb_rpc.c:	D_DEBUG(DB_MD, DF_DB": recvd stopping\n", DP_DB(db));
+./src/rdb/rdb_rpc.c:	D_DEBUG(DB_MD, DF_DB": opc=%u rank=%u rtt=%f\n", DP_DB(db), opc,
+./src/utils/self_test/self_test.c:				D_DEBUG(DB_TEST, "Test still processing on "
+./src/utils/ctl/cart_ctl.c:	D_DEBUG(DB_TRACE, "arg_str %s\n", arg_str);
+./src/utils/ctl/cart_ctl.c:	D_DEBUG(DB_TRACE, "arg_str %s\n", arg_str);
+./src/utils/ctl/cart_ctl.c:		D_DEBUG(DB_NET, "rpc_req %p rank %d tag %d seq %d\n",
+./src/container/oid_iv.c:	D_DEBUG(DB_TRACE, "%u: ON REFRESH %zu\n", dss_self_rank(), num_oids);
+./src/container/oid_iv.c:	D_DEBUG(DB_TRACE, "%u: ON UPDATE, num_oids = %zu\n", myrank, num_oids);
+./src/container/oid_iv.c:	D_DEBUG(DB_TRACE, "%u: ENTRY NUM OIDS = %zu, oid = %" PRIu64 "\n",
+./src/container/oid_iv.c:		D_DEBUG(DB_TRACE, "%u: ROOT MAX_OID = %"PRIu64"\n", myrank,
+./src/container/oid_iv.c:		D_DEBUG(DB_TRACE, "%u: IDs available\n", myrank);
+./src/container/oid_iv.c:	D_DEBUG(DB_TRACE, "%u: IDs not available, FORWARD %zu oids\n",
+./src/container/oid_iv.c:	D_DEBUG(DB_TRACE, "%u: OID GET\n", dss_self_rank());
+./src/container/oid_iv.c:	D_DEBUG(DB_TRACE, "%u: ON PUT\n", dss_self_rank());
+./src/container/oid_iv.c:	D_DEBUG(DB_TRACE, "%d: OID alloc CUUID "DF_UUIDF" num_oids %"PRIu64"\n",
+./src/container/cli.c:		D_DEBUG(DF_DSMC, "failed to create container: "DF_RC"\n",
+./src/container/cli.c:	D_DEBUG(DF_DSMC, "completed creating container\n");
+./src/container/cli.c:	D_DEBUG(DF_DSMC, DF_UUID": creating "DF_UUIDF"\n",
+./src/container/cli.c:	D_DEBUG(DF_DSMC, "completed destroying container\n");
+./src/container/cli.c:	D_DEBUG(DF_DSMC, DF_UUID": destroying "DF_UUID": force=%d\n",
+./src/container/cli.c:		D_DEBUG(DB_TRACE, DF_UUID": pmap_refresh version (%d:%d), "
+./src/container/cli.c:		D_DEBUG(DF_DSMC, DF_CONT": failed to open container: "DF_RC"\n",
+./src/container/cli.c:	D_DEBUG(DF_DSMC, DF_CONT": opened: cookie="DF_X64" hdl="DF_UUID
+./src/container/cli.c:	D_DEBUG(DF_DSMC, DF_CONT": opening: hdl="DF_UUIDF" flags=%x\n",
+./src/container/cli.c:	D_DEBUG(DF_DSMC, "failed to open container: "DF_RC"\n", DP_RC(rc));
+./src/container/cli.c:		D_DEBUG(DF_DSMC, DF_CONT": already disconnected: hdl="DF_UUID
+./src/container/cli.c:		D_DEBUG(DF_DSMC, DF_CONT": already destroyed: hdl="DF_UUID"\n",
+./src/container/cli.c:	D_DEBUG(DF_DSMC, DF_CONT": closed: cookie="DF_X64" hdl="DF_UUID
+./src/container/cli.c:	D_DEBUG(DF_DSMC, DF_CONT": closing: cookie="DF_X64" hdl="DF_UUID"\n",
+./src/container/cli.c:		D_DEBUG(DF_DSMC, DF_CONT": closed: cookie="DF_X64" hdl="DF_UUID
+./src/container/cli.c:	D_DEBUG(DF_DSMC, "failed to close container handle "DF_X64": %d\n",
+./src/container/cli.c:		D_DEBUG(DF_DSMC, DF_CONT": failed to query container: %d\n",
+./src/container/cli.c:	D_DEBUG(DF_DSMC, DF_CONT": Queried: using hdl="DF_UUID"\n",
+./src/container/cli.c:	D_DEBUG(DF_DSMC, DF_CONT": querying: hdl="DF_UUID"\n",
+./src/container/cli.c:	D_DEBUG(DF_DSMC, "Failed to query container: "DF_RC"\n", DP_RC(rc));
+./src/container/cli.c:		D_DEBUG(DF_DSMC, DF_CONT": failed to set prop on container: "
+./src/container/cli.c:	D_DEBUG(DF_DSMC, DF_CONT": Set prop: using hdl="DF_UUID"\n",
+./src/container/cli.c:	D_DEBUG(DF_DSMC, DF_CONT": setting props: hdl="DF_UUID"\n",
+./src/container/cli.c:	D_DEBUG(DF_DSMC, "Failed to set prop on container: "DF_RC"\n",
+./src/container/cli.c:		D_DEBUG(DF_DSMC, DF_CONT": failed to update ACL on container: "
+./src/container/cli.c:	D_DEBUG(DF_DSMC, DF_CONT": Update ACL: using hdl="DF_UUID"\n",
+./src/container/cli.c:	D_DEBUG(DF_DSMC, DF_CONT": updating ACL: hdl="DF_UUID"\n",
+./src/container/cli.c:	D_DEBUG(DF_DSMC, "Failed to update ACL on container: "DF_RC"\n",
+./src/container/cli.c:		D_DEBUG(DF_DSMC, DF_CONT": failed to delete ACL on container: "
+./src/container/cli.c:	D_DEBUG(DF_DSMC, DF_CONT": Delete ACL: using hdl="DF_UUID"\n",
+./src/container/cli.c:	D_DEBUG(DF_DSMC, DF_CONT": deleting ACL: hdl="DF_UUID"\n",
+./src/container/cli.c:	D_DEBUG(DF_DSMC, "Failed to delete ACL on container: "DF_RC"\n",
+./src/container/cli.c:	D_DEBUG(DF_DSMC, DF_CONT": OID ALLOC: using hdl="DF_UUID"\n",
+./src/container/cli.c:	D_DEBUG(DF_DSMC, DF_CONT": oid allocate: hdl="DF_UUID"\n",
+./src/container/cli.c:	D_DEBUG(DF_DSMC, "Failed to allocate OIDs: "DF_RC"\n", DP_RC(rc));
+./src/container/cli.c:		D_DEBUG(DF_DSMC, "Larger glob buffer needed ("DF_U64" bytes "
+./src/container/cli.c:	D_DEBUG(DF_DSMC, DF_UUID": opened "DF_UUID": cookie="DF_X64" hdl="
+./src/container/cli.c:		D_DEBUG(DF_DSMC, "Invalid parameter of glob, iov_buf %p, "
+./src/container/cli.c:		D_DEBUG(DF_DSMC, "Invalid parameter, NULL coh.\n");
+./src/container/cli.c:		D_DEBUG(DF_DSMC, DF_CONT": failed to access container: %d\n",
+./src/container/cli.c:	D_DEBUG(DF_DSMC, DF_CONT": Accessed: using hdl="DF_UUID"\n",
+./src/container/cli.c:	D_DEBUG(DF_DSMC, DF_CONT": listing attributes: hdl="
+./src/container/cli.c:	D_DEBUG(DF_DSMC, "Failed to list container attributes: "DF_RC"\n",
+./src/container/cli.c:	D_DEBUG(DF_DSMC, DF_CONT": getting attributes: hdl="DF_UUID"\n",
+./src/container/cli.c:	D_DEBUG(DF_DSMC, "Failed to get container attributes: "DF_RC"\n",
+./src/container/cli.c:	D_DEBUG(DF_DSMC, DF_CONT": setting attributes: hdl="DF_UUID"\n",
+./src/container/cli.c:	D_DEBUG(DF_DSMC, "Failed to set container attributes: "DF_RC"\n",
+./src/container/cli.c:	D_DEBUG(DF_DSMC, DF_CONT": deleting attributes: hdl="DF_UUID"\n",
+./src/container/cli.c:	D_DEBUG(DF_DSMC, "Failed to del container attributes: "DF_RC"\n",
+./src/container/cli.c:	D_DEBUG(DF_DSMC, DF_CONT": op=%u; hdl="DF_UUID"; epoch="DF_U64"\n",
+./src/container/cli.c:	D_DEBUG(DF_DSMC, "epoch op %u("DF_U64") failed: %d\n", opc, *epoch, rc);
+./src/container/cli.c:	D_DEBUG(DF_DSMC, DF_CONT": listing snapshots: hdl="
+./src/container/cli.c:	D_DEBUG(DF_DSMC, "Failed to list container snapshots: "DF_RC"\n",
+./src/container/srv_target.c:		D_DEBUG(DB_EPC, DF_CONT": skip aggregation for "
+./src/container/srv_target.c:		D_DEBUG(DB_EPC, "No aggregation before snapshots fetched\n");
+./src/container/srv_target.c:		D_DEBUG(DB_EPC, "Pool reclaim strategy is disabled\n");
+./src/container/srv_target.c:		D_DEBUG(DB_EPC, "Pool reclaim strategy is lazy, service is "
+./src/container/srv_target.c:		D_DEBUG(DB_EPC, "change hlc "DF_U64" > full "DF_U64"\n",
+./src/container/srv_target.c:		D_DEBUG(DB_EPC, "rebuild fence "DF_U64"\n", rebuild_fence);
+./src/container/srv_target.c:	D_DEBUG(DB_EPC, DF_CONT"[%d]: MIN: %lu; HLC: %lu\n",
+./src/container/srv_target.c:		D_DEBUG(DB_EPC, DF_CONT"[%d]: Aggregating {%lu -> %lu}\n",
+./src/container/srv_target.c:	D_DEBUG(DB_EPC, DF_CONT"[%d]: Aggregating {%lu -> %lu}\n",
+./src/container/srv_target.c:	D_DEBUG(DB_EPC, DF_CONT"[%d]: Aggregating finished\n",
+./src/container/srv_target.c:	D_DEBUG(DB_EPC, DF_CONT"[%d]: Aggregation ULT started\n",
+./src/container/srv_target.c:	D_DEBUG(DB_EPC, DF_CONT"[%d]: Aggregation ULT stopped\n",
+./src/container/srv_target.c:	D_DEBUG(DB_EPC, DF_CONT"[%d]: Stopping aggregation ULT\n",
+./src/container/srv_target.c:	D_DEBUG(DF_DSMS, DF_CONT": starting DTX reindex ULT on xstream %d\n",
+./src/container/srv_target.c:			D_DEBUG(DF_DSMS, DF_CONT": DTX reindex done\n",
+./src/container/srv_target.c:	D_DEBUG(DF_DSMS, DF_CONT": stopping DTX reindex ULT on stream %d\n",
+./src/container/srv_target.c:	D_DEBUG(DF_DSMS, DF_CONT": opening\n", DP_CONT(po_uuid, co_uuid));
+./src/container/srv_target.c:	D_DEBUG(DF_DSMS, DF_CONT": freeing\n",
+./src/container/srv_target.c:			D_DEBUG(DF_DSMS, DF_CONT": failed to lookup%s "
+./src/container/srv_target.c:		D_DEBUG(DF_DSMS, DF_CONT"[%d]: Stopping container\n",
+./src/container/srv_target.c:	D_DEBUG(DF_DSMS, DF_UUID"[%d]: Stopping all containers\n",
+./src/container/srv_target.c:	D_DEBUG(DF_DSMS, DF_CONT"[%d]: Starting container\n",
+./src/container/srv_target.c:	D_DEBUG(DF_DSMS, DF_UUID"[%d]: Starting all containers\n",
+./src/container/srv_target.c:	D_DEBUG(DF_DSMS, "freeing "DF_UUID"\n", DP_UUID(hdl->sch_uuid));
+./src/container/srv_target.c:		D_DEBUG(DF_DSMS, DF_CONT": freeing\n",
+./src/container/srv_target.c:	D_DEBUG(DF_DSMS, DF_CONT": wait container destroy\n",
+./src/container/srv_target.c:	D_DEBUG(DF_DSMS, DF_CONT": container destroy done\n",
+./src/container/srv_target.c:	D_DEBUG(DF_DSMS, DF_CONT": destroying vos container\n",
+./src/container/srv_target.c:	D_DEBUG(DF_DSMS, DF_CONT": handling rpc %p\n",
+./src/container/srv_target.c:	D_DEBUG(DF_DSMS, DF_CONT": replying rpc %p: %d "DF_RC"\n",
+./src/container/srv_target.c:	D_DEBUG(DF_DSMS, DF_CONT": creating new vos container\n",
+./src/container/srv_target.c:				D_DEBUG(DF_DSMS, DF_CONT": found compatible"
+./src/container/srv_target.c:		D_DEBUG(DF_DSMS, DF_CONT": destroying new vos container\n",
+./src/container/srv_target.c:	D_DEBUG(DB_TRACE, "open pool/cont/hdl "DF_UUID"/"DF_UUID"/"DF_UUID"\n",
+./src/container/srv_target.c:		D_DEBUG(DF_DSMS, DF_CONT": already closed: hdl="DF_UUID"\n",
+./src/container/srv_target.c:		D_DEBUG(DF_DSMS, DF_CONT": closing (%d): hdl="DF_UUID"\n",
+./src/container/srv_target.c:	D_DEBUG(DF_DSMS, DF_CONT": replying rpc %p: %d "DF_RC"\n",
+./src/container/srv_target.c:		D_DEBUG(DB_EPC, DF_CONT": Reset aggregation lower bound\n",
+./src/container/srv_target.c:	D_DEBUG(DB_EPC, DF_UUID": refreshing snapshots %d\n",
+./src/container/srv_target.c:	D_DEBUG(DB_EPC, DF_CONT": handling rpc %p\n",
+./src/container/srv_target.c:	D_DEBUG(DF_DSMS, DF_CONT": handling rpc %p: epr (%p) [#"DF_U64"]\n",
+./src/container/srv_target.c:	D_DEBUG(DF_DSMS, DF_CONT": replying rpc %p: "DF_RC"\n",
+./src/container/srv_target.c:		D_DEBUG(DB_ANY, "iter "DF_UOID"/"DF_UUID"\n",
+./src/container/srv_target.c:			D_DEBUG(DB_ANY, "iter "DF_UOID" rc "DF_RC"\n",
+./src/container/srv_target.c:	D_DEBUG(DF_DSMS, DF_CONT": oid alloc: num_oids="DF_U64"\n",
+./src/container/srv_target.c:	D_DEBUG(DF_DSMS, DF_CONT": replying rpc %p: "DF_RC"\n",
+./src/container/srv_target.c:	D_DEBUG(DF_DSMS, DF_CONT": processing rpc %p: hdl="DF_UUID" opc=%u\n",
+./src/container/srv_target.c:	D_DEBUG(DF_DSMS, DF_CONT": replying rpc %p: hdl="DF_UUID
+./src/container/srv_target.c:	D_DEBUG(DB_MD, DF_UUID" start tgt ec query eph ULT\n",
+./src/container/srv_target.c:			D_DEBUG(DB_MD, "eph "DF_U64" "DF_UUID"\n",
+./src/container/srv_target.c:	D_DEBUG(DB_MD, DF_UUID" stop tgt ec aggregation\n",
+./src/container/srv_oi_table.c:	D_DEBUG(DB_IO, "Store %d OIDs\n", bucket->ob_nr);
+./src/container/srv_oi_table.c:	D_DEBUG(DB_TRACE, "enumerate OID="DF_OID"\n", DP_OID(oid));
+./src/container/srv_oi_table.c:	D_DEBUG(DB_TRACE, "Bucket is full, send OIDs\n");
+./src/container/srv_oi_table.c:	D_DEBUG(DB_IO, "OIT="DF_OID"\n", DP_OID(oa->oa_oit_id));
+./src/container/srv_layout.c:		D_DEBUG(DB_MGMT,
+./src/container/srv_layout.c:		D_DEBUG(DB_MGMT, "Freeing default ACL cont prop\n");
+./src/container/srv_epoch.c:	D_DEBUG(DF_DSMS, DF_CONT": processing rpc %p: epoch="DF_U64"\n",
+./src/container/srv_epoch.c:	D_DEBUG(DF_DSMS, DF_CONT": replying rpc %p: epoch="DF_U64", %d\n",
+./src/container/srv_epoch.c:	D_DEBUG(DF_DSMS, DF_CONT": created snapshot "DF_U64"\n",
+./src/container/srv_epoch.c:	D_DEBUG(DF_DSMS, DF_CONT": processing rpc %p\n",
+./src/container/srv_epoch.c:	D_DEBUG(DF_DSMS, DF_CONT": replying rpc %p: %d\n",
+./src/container/srv_epoch.c:	D_DEBUG(DF_DSMS, DF_CONT": processing rpc %p: epoch="DF_U64"\n",
+./src/container/srv_epoch.c:	D_DEBUG(DF_DSMS, DF_CONT": deleted snapshot [%lu]\n",
+./src/container/srv_epoch.c:	D_DEBUG(DF_DSMS, DF_CONT": processing rpc %p: hdl="DF_UUID"\n",
+./src/container/srv_epoch.c:		D_DEBUG(DF_DSMS, DF_CONT": bulk_size=%lu\n",
+./src/container/srv_epoch.c:	D_DEBUG(DB_TRACE, DF_UUID"/"DF_UUID" get %d snaps rc %d\n",
+./src/container/srv_csum_recalc.c:#define C_TRACE(...)	D_DEBUG(DB_CSUM, __VA_ARGS__)
+./src/container/container_iv.c:		D_DEBUG(DB_MD, "snap_cnt "DF_U64":"DF_U64"\n",
+./src/container/container_iv.c:			D_DEBUG(DB_MD, "%zd < %zd\n",
+./src/container/container_iv.c:		D_DEBUG(DB_MGMT, "lookup cont: rc "DF_RC"\n", DP_RC(rc));
+./src/container/container_iv.c:		D_DEBUG(DB_MD, DF_UUID" retry by snap_cnt "DF_U64"\n",
+./src/container/container_iv.c:		D_DEBUG(DB_MD, "retry with "DF_U64"\n", snap_cnt);
+./src/container/container_iv.c:			D_DEBUG(DB_TRACE, "get hdl "DF_UUID"\n",
+./src/container/container_iv.c:	D_DEBUG(DB_TRACE, "Can not find "DF_UUID" hdl\n",
+./src/container/container_iv.c:		D_DEBUG(DB_TRACE, "Can not find "DF_UUID" hdl\n",
+./src/container/srv_container.c:	D_DEBUG(DF_DSMS, DF_CONT": processing rpc %p\n",
+./src/container/srv_container.c:			D_DEBUG(DF_DSMS, DF_CONT": container already exists\n",
+./src/container/srv_container.c:	D_DEBUG(DF_DSMS, DF_CONT": bcasting\n",
+./src/container/srv_container.c:	D_DEBUG(DF_DSMS, DF_CONT": bcasted: %d\n",
+./src/container/srv_container.c:	D_DEBUG(DF_DSMS, DF_CONT": processing rpc %p: force=%u\n",
+./src/container/srv_container.c:	D_DEBUG(DF_DSMS, DF_CONT": replying rpc %p: %d\n",
+./src/container/srv_container.c:			D_DEBUG(DB_MD, "rank %u eph "DF_U64" retry for"
+./src/container/srv_container.c:		D_DEBUG(DB_MD, DF_CONT" update eph rank %u eph "DF_U64"\n",
+./src/container/srv_container.c:	D_DEBUG(DB_MD, DF_CONT": update aggregation max eph "DF_U64"\n",
+./src/container/srv_container.c:					D_DEBUG(DB_MD, DF_CONT" skip %u\n",
+./src/container/srv_container.c:			D_DEBUG(DB_MD, DF_CONT" minimum "DF_U64" current "
+./src/container/srv_container.c:	D_DEBUG(DF_DSMS, DF_UUID": stop eph ult: rc %d\n",
+./src/container/srv_container.c:	D_DEBUG(DB_MD, DF_UUID" wait for ec agg leader stop\n",
+./src/container/srv_container.c:	D_DEBUG(DB_MD, DF_UUID" Stopping EC query ULT\n",
+./src/container/srv_container.c:	D_DEBUG(DF_DSMS, DF_CONT": processing rpc %p: hdl="DF_UUID" flags="
+./src/container/srv_container.c:		D_DEBUG(DF_DSMS, DF_CONT"/"DF_UUID": "
+./src/container/srv_container.c:	D_DEBUG(DF_DSMS, DF_CONT": replying rpc %p: %d\n",
+./src/container/srv_container.c:	D_DEBUG(DF_DSMS, DF_CONT": closing: recs[0].hdl="DF_UUID
+./src/container/srv_container.c:			D_DEBUG(DF_DSMS, DF_CONT"/"DF_UUID" fail %d",
+./src/container/srv_container.c:	D_DEBUG(DF_DSMS, DF_CONT": bcasted: hdls[0]="DF_UUID" nhdls=%d: %d\n",
+./src/container/srv_container.c:	D_DEBUG(DF_DSMS, DF_CONT": closing %d recs: recs[0].hdl="DF_UUID
+./src/container/srv_container.c:	D_DEBUG(DF_DSMS, DF_CONT": leaving: %d\n",
+./src/container/srv_container.c:	D_DEBUG(DF_DSMS, DF_CONT": processing rpc %p: hdl="DF_UUID"\n",
+./src/container/srv_container.c:			D_DEBUG(DF_DSMS, DF_CONT": already closed: "DF_UUID"\n",
+./src/container/srv_container.c:	D_DEBUG(DF_DSMS, DF_CONT": closing: hdl="DF_UUID" hce="DF_U64"\n",
+./src/container/srv_container.c:	D_DEBUG(DF_DSMS, DF_CONT": replying rpc %p: %d\n",
+./src/container/srv_container.c:	D_DEBUG(DF_DSMS,
+./src/container/srv_container.c:		D_DEBUG(DF_DSMS, DF_CONT": failed to query %d targets\n",
+./src/container/srv_container.c:	D_DEBUG(DF_DSMS, DF_CONT": processing rpc %p: hdl="DF_UUID"\n",
+./src/container/srv_container.c:	D_DEBUG(DF_DSMS, DF_CONT" updating co_status - status %s, pm_ver %d.\n",
+./src/container/srv_container.c:	D_DEBUG(DF_DSMS, DF_CONT": processing rpc %p: hdl="DF_UUID"\n",
+./src/container/srv_container.c:	D_DEBUG(DF_DSMS, DF_CONT": processing rpc %p: hdl="DF_UUID"\n",
+./src/container/srv_container.c:	D_DEBUG(DF_DSMS, DF_CONT": processing rpc %p: hdl="DF_UUID"\n",
+./src/container/srv_container.c:	D_DEBUG(DF_DSMS, DF_CONT": processing rpc %p: hdl="DF_UUID"\n",
+./src/container/srv_container.c:	D_DEBUG(DF_DSMS, DF_CONT": processing rpc %p: hdl="DF_UUID"\n",
+./src/container/srv_container.c:	D_DEBUG(DF_DSMS, DF_CONT": processing rpc %p: hdl="DF_UUID"\n",
+./src/container/srv_container.c:	D_DEBUG(DF_DSMS, DF_CONT": processing rpc %p: hdl="DF_UUID"\n",
+./src/container/srv_container.c:	D_DEBUG(DF_DSMS, DF_CONT": closing by %d pool hdls: pool_hdls[0]="
+./src/container/srv_container.c:	D_DEBUG(DF_DSMS, "pool/cont: "DF_CONTF"\n",
+./src/container/srv_container.c:	D_DEBUG(DF_DSMS, "iterate rc=%d, args.conts=%p, args.ncont="DF_U64"\n",
+./src/container/srv_container.c:	D_DEBUG(DF_DSMS, DF_CONT": processing rpc %p: hdl="DF_UUID" opc=%u\n",
+./src/container/srv_container.c:	D_DEBUG(DF_DSMS, DF_CONT": replying rpc %p: hdl="DF_UUID
+./src/container/srv_container.c:	D_DEBUG(DB_MGMT, DF_CONT": Setting container prop\n",
+./src/container/srv_container.c:	D_DEBUG(DF_DSMS, DF_CONT": processing cont set prop rpc %p\n",
+./src/container/srv_container.c:	D_DEBUG(DF_DSMS, DF_CONT": replying rpc %p: rc=%d\n",
+./src/common/lru.c:	D_DEBUG(DB_TRACE, "Creating a new LRU cache of size (2^%d)\n", bits);
+./src/common/lru.c:	D_DEBUG(DB_TRACE, "Destroying LRU cache\n");
+./src/common/lru.c:			D_DEBUG(DB_TRACE, "Remove %p from LRU cache\n",
+./src/common/lru.c:	D_DEBUG(DB_TRACE, "Evicted %u items, total count %u of %u\n",
+./src/common/lru.c:	D_DEBUG(DB_TRACE, "Inserting %p item into LRU Hash table\n", llink);
+./src/common/lru.c:	D_DEBUG(DB_TRACE, "Flush LRU cache: %d > %d\n",
+./src/common/lru.c:			D_DEBUG(DB_TRACE, "Remove %p from LRU cache\n", llink);
+./src/common/btree.c:		D_DEBUG(DB_TRACE, "Create context for a new tree\n");
+./src/common/btree.c:		D_DEBUG(DB_TRACE, "Load tree context from "DF_X64"\n",
+./src/common/btree.c:	D_DEBUG(DB_TRACE, "Failed to create tree context: "DF_RC"\n",
+./src/common/btree.c:	D_DEBUG(DB_TRACE, "trace[%d] "DF_X64"/%d\n", level, nd_off, at);
+./src/common/btree.c:	D_DEBUG(DB_TRACE,						\
+./src/common/btree.c:	D_DEBUG(DB_TRACE, "Allocate new node "DF_X64"\n", nd_off);
+./src/common/btree.c:	D_DEBUG(DB_TRACE, "Free node "DF_X64"\n", nd_off);
+./src/common/btree.c:		D_DEBUG(DB_TRACE, "Destroy inplace created tree root\n");
+./src/common/btree.c:		D_DEBUG(DB_TRACE, "Destroy tree root\n");
+./src/common/btree.c:		D_DEBUG(DB_TRACE, "Failed to allocate new root\n");
+./src/common/btree.c:	D_DEBUG(DB_TRACE, "Grow the tree depth to %d\n", root->tr_depth + 1);
+./src/common/btree.c:		D_DEBUG(DB_TRACE, "Failed to allocate new root\n");
+./src/common/btree.c:		D_DEBUG(DB_TRACE, "Splitting leaf node\n");
+./src/common/btree.c:		D_DEBUG(DB_TRACE, "Bubble up the new key\n");
+./src/common/btree.c:	D_DEBUG(DB_TRACE, "Bubble up the 1st key of the right node\n");
+./src/common/btree.c:	D_DEBUG(DB_TRACE, "left keyn %d, right keyn %d\n",
+./src/common/btree.c:	D_DEBUG(DB_TRACE, "Root node size increase from %d to %d\n",
+./src/common/btree.c:		D_DEBUG(DB_TRACE, "Failed to allocate new root\n");
+./src/common/btree.c:	D_DEBUG(DB_TRACE, "compared record at %d, cmp %d\n", at, cmp);
+./src/common/btree.c:		D_DEBUG(DB_TRACE, "Empty tree\n");
+./src/common/btree.c:			D_DEBUG(DB_TRACE,
+./src/common/btree.c:			D_DEBUG(DB_TRACE, "compared record at %d, got "
+./src/common/btree.c:			D_DEBUG(DB_TRACE, "End\n");
+./src/common/btree.c:			D_DEBUG(DB_TRACE, "End\n");
+./src/common/btree.c:		D_DEBUG(DB_TRACE, "Target is in some uncommitted DTX.\n");
+./src/common/btree.c:		D_DEBUG(DB_TRACE, "Fetch hit some corrupted transaction.\n");
+./src/common/btree.c:		D_DEBUG(DB_TRACE, "Key does not exist.\n");
+./src/common/btree.c:		D_DEBUG(DB_TRACE, "Cannot find key: %d\n", tcx->tc_probe_rc);
+./src/common/btree.c:	D_DEBUG(DB_TRACE, "Update record %s\n",
+./src/common/btree.c:		D_DEBUG(DB_TRACE, "Replace the original record\n");
+./src/common/btree.c:		D_DEBUG(DB_TRACE, "Failed to update record: "DF_RC"\n",
+./src/common/btree.c:		D_DEBUG(DB_TRACE, "Failed to create new record: "DF_RC"\n",
+./src/common/btree.c:			D_DEBUG(DB_TRACE,
+./src/common/btree.c:		D_DEBUG(DB_TRACE, "Add record %s to an empty tree\n", rec_str);
+./src/common/btree.c:			D_DEBUG(DB_TRACE, "Failed to start the tree: "DF_RC"\n",
+./src/common/btree.c:		D_DEBUG(DB_TRACE, "btr_probe got PROBE_RC_ERR, probably due to "
+./src/common/btree.c:		D_DEBUG(DB_TRACE, "The target is in some uncommitted DTX.");
+./src/common/btree.c:		D_DEBUG(DB_TRACE, "Upsert hit some corrupted transaction.\n");
+./src/common/btree.c:	D_DEBUG(DB_TRACE, "Grab records from the %s sibling, cur:sib=%d:%d\n",
+./src/common/btree.c:		D_DEBUG(DB_TRACE,
+./src/common/btree.c:		D_DEBUG(DB_TRACE,
+./src/common/btree.c:	D_DEBUG(DB_TRACE, "Grab children from the %s sibling, cur:sib=%d:%d\n",
+./src/common/btree.c:		D_DEBUG(DB_TRACE,
+./src/common/btree.c:		D_DEBUG(DB_TRACE,
+./src/common/btree.c:	D_DEBUG(DB_TRACE, "Delete %s from the %s node, key_nr = %d\n",
+./src/common/btree.c:		D_DEBUG(DB_TRACE, "Straight away deletion, no rebalance.\n");
+./src/common/btree.c:		D_DEBUG(DB_TRACE, "Parent trace at=%d, key_nr=%d\n",
+./src/common/btree.c:		D_DEBUG(DB_TRACE, "Delete and rebalance with the %s sibling.\n",
+./src/common/btree.c:	D_DEBUG(DB_TRACE, "Delete record/child from tree root, depth=%d\n",
+./src/common/btree.c:		D_DEBUG(DB_TRACE, "Delete leaf from the root, key_nr=%d.\n",
+./src/common/btree.c:			D_DEBUG(DB_TRACE, "Tree is empty now.\n");
+./src/common/btree.c:		D_DEBUG(DB_TRACE, "Delete child from the root, key_nr=%d.\n",
+./src/common/btree.c:		D_DEBUG(DB_TRACE, "Target is in some uncommitted DTX.\n");
+./src/common/btree.c:		D_DEBUG(DB_TRACE, "Delete hit some corrupted transaction.\n");
+./src/common/btree.c:		D_DEBUG(DB_TRACE, "Cannot find key\n");
+./src/common/btree.c:	D_DEBUG(DB_TRACE, "Stat tree %s "DF_X64", keyn %d\n",
+./src/common/btree.c:	D_DEBUG(DB_TRACE, "Allocate tree root: "DF_RC"\n", DP_RC(rc));
+./src/common/btree.c:		D_DEBUG(DB_TRACE, "Order (%d) should be between %d and %d\n",
+./src/common/btree.c:		D_DEBUG(DB_TRACE, "Order (%d) should be between %d and %d\n",
+./src/common/btree.c:		D_DEBUG(DB_TRACE,
+./src/common/btree.c:		D_DEBUG(DB_TRACE, "Nonexistent tree\n");
+./src/common/btree.c:	D_DEBUG(DB_TRACE, "Destroy tree %s "DF_X64", keyn %d\n",
+./src/common/btree.c:	D_DEBUG(DB_TRACE, "Destroy "DF_X64", order %d\n",
+./src/common/btree.c:			D_DEBUG(DB_TRACE,
+./src/common/btree.c:	D_DEBUG(DB_TRACE, "probe(%d) key or anchor\n", opc);
+./src/common/btree.c:	D_DEBUG(DB_TRACE, "Current iterator\n");
+./src/common/btree.c:	D_DEBUG(DB_TRACE, "iterated %d records: "DF_RC"\n", niterated,
+./src/common/btree.c:		D_DEBUG(DB_TRACE, "Invalid class id: %d\n", tree_class);
+./src/common/btree.c:		D_DEBUG(DB_TRACE, "Unregistered class id %d\n", tree_class);
+./src/common/btree.c:		D_DEBUG(DB_TRACE, "Setting feature "DF_X64" required"
+./src/common/pool_map.c:	D_DEBUG(DB_TRACE, "Initialize sorter for %s, nr %d\n",
+./src/common/pool_map.c:		D_DEBUG(DB_TRACE, "Finalize sorter for %s\n",
+./src/common/pool_map.c:	D_DEBUG(DB_TRACE, "Attaching %d components\n", comp_nr);
+./src/common/pool_map.c:		D_DEBUG(DB_TRACE, "nr %d %s\n", nr,
+./src/common/pool_map.c:		D_DEBUG(DB_MGMT, "Invalid number of components: %d/%d/%d/%d\n",
+./src/common/pool_map.c:	D_DEBUG(DB_TRACE, "domain %d node %d target %d\n", buf->pb_domain_nr,
+./src/common/pool_map.c:			D_DEBUG(DB_MGMT, "Invalid type %d/%d\n",
+./src/common/pool_map.c:		D_DEBUG(DB_TRACE, "Parse %s[%d] i %d nr %d\n",
+./src/common/pool_map.c:				D_DEBUG(DB_TRACE, "Setup children for %s[%d]"
+./src/common/pool_map.c:				D_DEBUG(DB_TRACE, "Setup targets for %s[%d]\n",
+./src/common/pool_map.c:				D_DEBUG(DB_TRACE, "%s[%d] has %d targets\n",
+./src/common/pool_map.c:	D_DEBUG(DB_TRACE, "Build children and targets pointers\n");
+./src/common/pool_map.c:			D_DEBUG(DB_TRACE, "Set %d target for %s[%d]\n",
+./src/common/pool_map.c:		D_DEBUG(DB_MGMT, "Empty pool map.\n");
+./src/common/pool_map.c:		D_DEBUG(DB_MGMT, "Invalid pool map format.\n");
+./src/common/pool_map.c:		D_DEBUG(DB_TRACE, "%s, nr = %d\n", pool_domain_name(&tree[0]),
+./src/common/pool_map.c:	D_DEBUG(DB_TRACE, "Layers %d, top domains %d, domains %d, targets %d\n",
+./src/common/pool_map.c:	D_DEBUG(DB_TRACE, "Sanity check of component buffer\n");
+./src/common/pool_map.c:		D_DEBUG(DB_MGMT, "Buffer has no target\n");
+./src/common/pool_map.c:			D_DEBUG(DB_MGMT,
+./src/common/pool_map.c:				D_DEBUG(DB_MGMT, "Invalid version %u/%u\n",
+./src/common/pool_map.c:				D_DEBUG(DB_MGMT,
+./src/common/pool_map.c:				D_DEBUG(DB_MGMT, "No target found\n");
+./src/common/pool_map.c:				D_DEBUG(DB_MGMT, "Invalid child tree\n");
+./src/common/pool_map.c:				D_DEBUG(DB_MGMT, "Invalid target tree\n");
+./src/common/pool_map.c:				D_DEBUG(DB_MGMT, "Invalid children pointer\n");
+./src/common/pool_map.c:				D_DEBUG(DB_MGMT, "Invalid children pointer i"
+./src/common/pool_map.c:			D_DEBUG(DB_MGMT, "Invalid leaf type %d(%s) i %d\n",
+./src/common/pool_map.c:			D_DEBUG(DB_MGMT, "Invalid version %u/%u i %d\n",
+./src/common/pool_map.c:	D_DEBUG(DB_TRACE, "Component buffer is sane\n");
+./src/common/pool_map.c:	D_DEBUG(DB_TRACE, "Release buffers for pool map\n");
+./src/common/pool_map.c:		D_DEBUG(DB_TRACE, "Invalid tree format: %s/%d\n",
+./src/common/pool_map.c:	D_DEBUG(DB_TRACE, "Setup nlayers %d, ndomains %d, ntargets %d\n",
+./src/common/pool_map.c:		D_DEBUG(DB_TRACE, "domain %s, ndomains %d\n",
+./src/common/pool_map.c:	D_DEBUG(DB_MGMT, "Failed to setup pool map: "DF_RC"\n", DP_RC(rc));
+./src/common/pool_map.c:		D_DEBUG(DB_MGMT, "empty map, type of buffer root is %s\n",
+./src/common/pool_map.c:	D_DEBUG(DB_TRACE, "Check if buffer is compatible with pool map\n");
+./src/common/pool_map.c:			D_DEBUG(DB_MGMT, "tree has more layers than the map\n");
+./src/common/pool_map.c:		D_DEBUG(DB_TRACE, "checking %s/%s\n",
+./src/common/pool_map.c:				D_DEBUG(DB_MGMT,
+./src/common/pool_map.c:					D_DEBUG(DB_MGMT, "unmatched tree\n");
+./src/common/pool_map.c:		D_DEBUG(DB_MGMT, "Failed to create scratch map for buffer: "
+./src/common/pool_map.c:				D_DEBUG(DB_TRACE, "Add new domain %s %d\n",
+./src/common/pool_map.c:			D_DEBUG(DB_TRACE, "Check changes for %s[%d]\n",
+./src/common/pool_map.c:				D_DEBUG(DB_TRACE, "Scan children of %s[%d]\n",
+./src/common/pool_map.c:					D_DEBUG(DB_TRACE, "New %s[%d]\n",
+./src/common/pool_map.c:				D_DEBUG(DB_TRACE, "Scan targets of %s[%d]\n",
+./src/common/pool_map.c:					D_DEBUG(DB_TRACE, "New target[%d]\n",
+./src/common/pool_map.c:	D_DEBUG(DB_TRACE, "Merged all components\n");
+./src/common/pool_map.c:		D_DEBUG(DB_MGMT, "Insane buffer format\n");
+./src/common/pool_map.c:		D_DEBUG(DB_MGMT, "Buffer is incompatible with pool map\n");
+./src/common/pool_map.c:	D_DEBUG(DB_TRACE, "Merge buffer with already existent pool map\n");
+./src/common/pool_map.c:		D_DEBUG(DB_MGMT, "Can't find domain type %s(%d)\n",
+./src/common/pool_map.c:	D_DEBUG(DB_TRACE, "Fetch pool map version %u\n", map->po_version);
+./src/common/pool_map.c:	D_DEBUG(DB_TRACE, "Update pool map version %u->%u\n",
+./src/common/mem.c:		D_DEBUG(DB_MEM, "Cannot find memory class %d\n", uma->uma_id);
+./src/common/mem.c:	D_DEBUG(DB_MEM, "Instantiate memory class %s\n", umc->umc_name);
+./src/common/rsvc.c:	D_DEBUG(DB_MD, DF_CLI"\n", DP_CLI(client));
+./src/common/rsvc.c:		D_DEBUG(DB_MD, "replica list empty\n");
+./src/common/rsvc.c:			D_DEBUG(DB_MD, "rank %u not found in list of replicas",
+./src/common/rsvc.c:			D_DEBUG(DB_MD, "give up leader rank %u\n",
+./src/common/rsvc.c:			D_DEBUG(DB_MD, "stale hint from rank %u: hint.term="
+./src/common/rsvc.c:					D_DEBUG(DB_MD, "leader rank %u bump "
+./src/common/rsvc.c:		D_DEBUG(DB_MD, "unknown replica from rank %u: hint.term="DF_U64
+./src/common/rsvc.c:			D_DEBUG(DB_MD, "failed to append new rank: "DF_RC"\n",
+./src/common/rsvc.c:	D_DEBUG(DB_MD, "new hint from rank %u: hint.term="DF_U64
+./src/common/rsvc.c:	D_DEBUG(DB_MD, DF_CLI"\n", DP_CLI(client));
+./src/common/rsvc.c:		D_DEBUG(DB_MD, "group-id %s does not exist for rank %u: rc_crt=%d\n",
+./src/common/rsvc.c:		D_DEBUG(DB_MD, "rank %u out of group: rc_crt=%d\n",
+./src/common/rsvc.c:		D_DEBUG(DB_MD, "no reply from rank %u: rc_crt=%d\n",
+./src/common/rsvc.c:		D_DEBUG(DB_MD, "non-leader reply without hint from rank %u\n",
+./src/common/rsvc.c:		D_DEBUG(DB_MD, "non-leader reply with hint from rank %u: "
+./src/common/rsvc.c:		D_DEBUG(DB_MD, "service not found reply from rank %u: ",
+./src/common/rsvc.c:		D_DEBUG(DB_MD, "\"leader\" reply without hint from rank %u: "
+./src/common/rsvc.c:		D_DEBUG(DB_MD, "leader reply with hint from rank %u: hint.term="
+./src/common/tests/btree.c:			D_DEBUG(DB_TEST, "Looking for "DF_U64"\n", key);
+./src/common/tests/btree_direct.c:			D_DEBUG(DB_TEST, "Looking for %s\n", key);
+./src/common/checksum.c:#define C_TRACE(...) D_DEBUG(DB_CSUM, __VA_ARGS__)
+./src/common/tse.c:			D_DEBUG(DB_TRACE, "re-init task %p\n", task);
+./src/common/tse.c:			D_DEBUG(DB_TRACE, "new dep-task added to task %p\n",
+./src/common/tse.c:		D_DEBUG(DB_TRACE, "daos task %p dep_cnt %d\n", dtp_tmp,
+./src/common/tse.c:	D_DEBUG(DB_TRACE, "Add dependent %p ---> %p\n", dep_dtp, dtp);
+./src/common/drpc.c:	D_DEBUG(DB_MGMT, "Decrementing refcount (%u)\n",
+./src/common/drpc.c:		D_DEBUG(DB_MGMT, "Closing dRPC socket fd=%d\n", ctx->comm->fd);
+./src/common/tests_dmg_helpers.c:	D_DEBUG(DB_TEST, "running %s\n", cmd_str);
+./src/common/tests_dmg_helpers.c:		D_DEBUG(DB_TEST, "parsed output:\n%s\n",
+./src/common/tests_dmg_helpers.c:		D_DEBUG(DB_TEST, "key:\"%s\",val=%s\n", key,
+./src/common/tests_dmg_helpers.c:			D_DEBUG(DB_TEST, "key1:\"%s\",val1=%s\n", key1,
+./src/common/tests_dmg_helpers.c:		D_DEBUG(DB_TEST, "key:\"%s\",val=%s\n", key,
+./src/common/tests_dmg_helpers.c:			D_DEBUG(DB_TEST, "key1:\"%s\",val1=%s\n", key1,
+./src/common/profile.c:		D_DEBUG(DB_TRACE, "Reuse the old profile buffer %p\n", chunk);
+./src/common/fail_loc.c:	D_DEBUG(DB_ANY, "*** fail_loc="DF_X64"\n", daos_fail_loc);
+./src/common/fail_loc.c:		D_DEBUG(DB_ANY, "No attr fail_loc="DF_X64" value="DF_U64
+./src/common/fail_loc.c:		D_DEBUG(DB_ANY, "*** fail_loc="DF_X64" value="DF_U64
+./src/common/fail_loc.c:	D_DEBUG(DB_ANY, "*** fail_loc="DF_X64"\n", daos_fail_loc);
+./src/common/misc.c:	D_DEBUG(DB_TRACE, "iov_len %d\n", (int)dst->iov_len);
+./src/common/cont_props.c:		D_DEBUG(DB_TRACE, "No props to set, props=%p, cont_prop=%p\n",
+./src/common/btree_class.c:	D_DEBUG(DB_TRACE, "updating \"%s\":%p+%zu\n", (char *)key, key,
+./src/common/btree_class.c:	D_DEBUG(DB_TRACE, "looking up \"%s\"\n", (char *)key);
+./src/common/btree_class.c:			D_DEBUG(DB_TRACE, "cannot find \"%s\"\n", (char *)key);
+./src/common/btree_class.c:	D_DEBUG(DB_TRACE, "looking up \"%s\" ptr\n", (char *)key);
+./src/common/btree_class.c:			D_DEBUG(DB_TRACE, "cannot find \"%s\"\n", (char *)key);
+./src/common/btree_class.c:	D_DEBUG(DB_TRACE, "deleting \"%s\"\n", (char *)key);
+./src/common/btree_class.c:			D_DEBUG(DB_TRACE, "cannot find \"%s\"\n", (char *)key);
+./src/common/btree_class.c:			D_DEBUG(DB_TRACE, "cannot find \"%s\"\n", (char *)key);
+./src/common/btree_class.c:			D_DEBUG(DB_TRACE, "cannot find \"%s\"\n", (char *)key);
+./src/common/btree_class.c:			D_DEBUG(DB_TRACE, "cannot find "DF_UUID"\n",
+./src/common/btree_class.c:		D_DEBUG(DB_TRACE, "cannot find opc=%d in="DF_UUID"\n", opc,
+./src/common/btree_class.c:			D_DEBUG(DB_TRACE, "cannot find "DF_UUID"\n",
+./src/common/btree_class.c:			D_DEBUG(DB_TRACE, "cannot find "DF_UUID"\n",
+./src/common/btree_class.c:			D_DEBUG(DB_TRACE, "cannot find "DF_UUID"\n",
+./src/common/btree_class.c:	D_DEBUG(DB_TRACE, "updating "DF_U64":"DF_U64"\n", epoch, *count);
+./src/common/btree_class.c:		D_DEBUG(DB_TRACE, "cannot find "DF_U64"\n", epoch);
+./src/common/btree_class.c:		D_DEBUG(DB_TRACE, "cannot find opc=%d in="DF_U64"\n",
+./src/common/btree_class.c:	D_DEBUG(DB_TRACE, "deleting "DF_U64"\n", epoch);
+./src/common/btree_class.c:		D_DEBUG(DB_TRACE, "cannot find "DF_U64"\n", epoch);
+./src/dtx/dtx_srv.c:	D_DEBUG(DB_TRACE, "Handle DTX ("DF_DTI") rpc %u, count %d, epoch "
+./src/dtx/dtx_common.c:	D_DEBUG(DB_IO, "Sub init DTX "DF_DTI" for object "DF_UOID
+./src/dtx/dtx_common.c:	D_DEBUG(DB_IO, "Start DTX "DF_DTI" sub modification %d, ver %u, leader "
+./src/dtx/dtx_common.c:	D_DEBUG(DB_IO, "dth "DF_DTI" rc "DF_RC"\n",
+./src/dtx/dtx_common.c:		D_DEBUG(DB_IO,
+./src/dtx/dtx_common.c:	D_DEBUG(DB_IO, "Start DTX "DF_DTI" sub modification %d, ver %u, "
+./src/dtx/dtx_common.c:	D_DEBUG(DB_IO,
+./src/dtx/dtx_common.c:	D_DEBUG(DB_TRACE, "execute from rank %d tag %d, rc %d.\n",
+./src/dtx/dtx_resync.c:				D_DEBUG(DB_TRACE, "Not the leader for the DTX "
+./src/dtx/dtx_resync.c:		D_DEBUG(DB_TRACE, "As the new leader for TX "
+./src/dtx/dtx_resync.c:		D_DEBUG(DB_TRACE, "As the new leader for TX "
+./src/dtx/dtx_resync.c:		D_DEBUG(DB_TRACE, "Waiting for resync of "DF_UUID"\n",
+./src/dtx/dtx_resync.c:	D_DEBUG(DB_TRACE, "resync DTX scan "DF_UUID"/"DF_UUID" start.\n",
+./src/dtx/dtx_resync.c:	D_DEBUG(DB_TRACE, "resync DTX scan "DF_UUID"/"DF_UUID" stop: rc = %d\n",
+./src/dtx/dtx_resync.c:		D_DEBUG(DB_REBUILD, DF_UUID" already scan\n",
+./src/dtx/dtx_resync.c:	D_DEBUG(DB_TRACE, DF_UUID" iterate pool done: rc %d\n",
+./src/dtx/dtx_resync.c:		D_DEBUG(DB_MD, DF_UUID" ignore dtx resync version %u/%u\n",
+./src/dtx/dtx_resync.c:	D_DEBUG(DB_MD, DF_UUID" update dtx resync version %u->%u\n",
+./src/dtx/dtx_rpc.c:	D_DEBUG(DB_TRACE,
+./src/dtx/dtx_rpc.c:	D_DEBUG(DB_TRACE, "DTX req for opc %x to %d/%d (req %p future %p) sent "
+./src/dtx/dtx_rpc.c:				D_DEBUG(DB_TRACE,
+./src/dtx/dtx_rpc.c:			D_DEBUG(DB_TRACE, "The DTX "DF_DTI" RPC req result %d, "
+./src/dtx/dtx_rpc.c:	D_DEBUG(DB_TRACE, "DTX req for opc %x, future %p done, rc = %d\n",
+./src/dtx/dtx_rpc.c:	D_DEBUG(DB_TRACE, "DTX req for opc %x, future %p start.\n",
+./src/object/srv_csum.c:#define C_TRACE(...) D_DEBUG(DB_CSUM, __VA_ARGS__)
+./src/object/cli_obj.c:		D_DEBUG(DB_IO, "ol ver %d != map ver %d\n",
+./src/object/cli_obj.c:		D_DEBUG(DB_IO, "shard %u does not exist.\n", shard);
+./src/object/cli_obj.c:	D_DEBUG(DB_TRACE, "Open object shard %d\n", shard);
+./src/object/cli_obj.c:		D_DEBUG(DB_PL, "Cannot find valid placement map\n");
+./src/object/cli_obj.c:		D_DEBUG(DB_PL, "Failed to generate object layout\n");
+./src/object/cli_obj.c:	D_DEBUG(DB_PL, "Place object on %d targets ver %d\n", layout->ol_nr,
+./src/object/cli_obj.c:			D_DEBUG(DB_IO, "tgt %u exists in failed.\n", tgt);
+./src/object/cli_obj.c:	D_DEBUG(DB_IO, "Add tgt %u to %p failed list.\n", tgt, obj_auxi);
+./src/object/cli_obj.c:		D_DEBUG(DB_IO, "choose special idx %d\n", idx);
+./src/object/cli_obj.c:	D_DEBUG(DB_IO, "grp size %d replicas %d\n", grp_size,
+./src/object/cli_obj.c:		D_DEBUG(DB_TRACE, DF_OID" req reassembled (retry case).\n",
+./src/object/cli_obj.c:			D_DEBUG(DB_IO, DF_OID" shard %d failed in recovery(%d) "
+./src/object/cli_obj.c:		D_DEBUG(DB_IO, DF_OID" shard %d fetch re-direct to shard %d.\n",
+./src/object/cli_obj.c:					D_DEBUG(DB_IO, "Modify obj "DF_OID
+./src/object/cli_obj.c:		D_DEBUG(DB_IO, "obj_pool_query_cb task=%p result=%d\n",
+./src/object/cli_obj.c:	D_DEBUG(DB_IO, "Retrying task=%p/%d for err=%d, io_retry=%d\n",
+./src/object/cli_obj.c:		D_DEBUG(DB_IO, "scheduling %d recovery tasks for IO task %p.\n",
+./src/object/cli_obj.c:		D_DEBUG(DB_IO, "set fetch epoch "DF_U64"\n", epoch->oe_value);
+./src/object/cli_obj.c:			D_DEBUG(DB_TRACE, "shard_idx %d shard_cnt %d\n",
+./src/object/cli_obj.c:				D_DEBUG(DB_IO, "data shard %d enumeration for "
+./src/object/cli_obj.c:			D_DEBUG(DB_IO, "shard %d, dt_result %d, target %d @ "
+./src/object/cli_obj.c:		D_DEBUG(DB_TRACE, "current "DF_U64"/"DF_U64"\n", recx_start, recx_end);
+./src/object/cli_obj.c:			D_DEBUG(DB_TRACE, "new "DF_U64"/"DF_U64"\n",
+./src/object/cli_obj.c:			D_DEBUG(DB_TRACE, "offset "DF_U64"/"DF_U64"\n", offset, end);
+./src/object/cli_obj.c:		D_DEBUG(DB_IO, "total "DF_U64" merge "DF_U64"/"DF_U64"\n",
+./src/object/cli_obj.c:	D_DEBUG(DB_TRACE, "merge_nr %d/"DF_U64"\n", iter_arg->merge_nr,
+./src/object/cli_obj.c:		D_DEBUG(DB_IO, "shard %d ret %d.\n", shard_auxi->shard, ret);
+./src/object/cli_obj.c:		D_DEBUG(DB_IO, "shard %d ret %d.\n", shard_auxi->shard, ret);
+./src/object/cli_obj.c:				D_DEBUG(DB_IO, "failed %d %u --> %u\n",
+./src/object/cli_obj.c:				D_DEBUG(DB_IO, "failed %d no replica %d"
+./src/object/cli_obj.c:		D_DEBUG(DB_IO, "Enumerated All shards\n");
+./src/object/cli_obj.c:		D_DEBUG(DB_IO, "More keys in shard %d\n", shard);
+./src/object/cli_obj.c:		D_DEBUG(DB_IO, "next shard %d grp %d nr %u\n",
+./src/object/cli_obj.c:		D_DEBUG(DB_IO, "Enumerated All shards\n");
+./src/object/cli_obj.c:			D_DEBUG(DB_IO, DF_OID" retry by %d\n",
+./src/object/cli_obj.c:			D_DEBUG(DB_IO, DF_OID" set iod_size="DF_U64"\n",
+./src/object/cli_obj.c:		D_DEBUG(DB_IO, DF_OID" retrying IO after size fetch.\n",
+./src/object/cli_obj.c:		D_DEBUG(DB_IO, "obj complete callback: %d\n", task->dt_result);
+./src/object/cli_obj.c:		D_DEBUG(DB_IO, "map_ver stale (req %d, reply %d). result %d\n",
+./src/object/cli_obj.c:	D_DEBUG(DB_CSUM, "obj: %p, args: %p, obj_auxi: %p, csummer: %p, "
+./src/object/cli_obj.c:	D_DEBUG(DB_IO, "update "DF_OID" dkey_hash "DF_U64"\n",
+./src/object/cli_obj.c:	D_DEBUG(DB_IO, "let's choose from the data shard 0 for "DF_OID"\n",
+./src/object/cli_obj.c:	D_DEBUG(DB_IO, "get shard %d on "DF_OID"\n", shard,
+./src/object/cli_obj.c:		D_DEBUG(DB_IO, DF_OID" spec shard %d\n",
+./src/object/cli_obj.c:	D_DEBUG(DB_IO, DF_OID" grp/shard %d/%d\n", DP_OID(obj->cob_md.omd_id),
+./src/object/cli_obj.c:		D_DEBUG(DB_IO, DF_OID".%d is being rebuilt\n",
+./src/object/cli_obj.c:	D_DEBUG(DB_IO, DF_OID" list on shard %d leader %s\n",
+./src/object/cli_obj.c:	D_DEBUG(DB_IO, "list opc %d "DF_OID" dkey %llu shard %d\n", opc,
+./src/object/cli_obj.c:	D_DEBUG(DB_IO, "punch "DF_OID" dkey %llu\n",
+./src/object/cli_obj.c:	D_DEBUG(DB_IO, "Object Key Query "DF_OID" start %u\n",
+./src/object/cli_obj.c:	D_DEBUG(DB_IO, "sync "DF_OID", reps %d\n",
+./src/object/cli_obj.c:	D_DEBUG(DB_TRACE, "available domain=%d, targets=%d\n",
+./src/object/srv_cli.c:	D_DEBUG(DB_REBUILD, "retry task %p\n", task);
+./src/object/obj_class.c:		D_DEBUG(DB_PL, "Unknown object class %d for "DF_OID"\n",
+./src/object/obj_class.c:	D_DEBUG(DB_PL, "Find class %s for oid "DF_OID"\n",
+./src/object/obj_class.c:	D_DEBUG(DB_PL, "matched object class: %s, group: %d, group_nr: %d\n",
+./src/object/obj_class.c:	D_DEBUG(DB_PL,
+./src/object/obj_class.c:	D_DEBUG(DB_PL, "Object class %s array[%d]:\n", array_name, array_size);
+./src/object/cli_shard.c:	D_DEBUG(DB_IO, "rpc %p, csum report "DF_RC"\n", rpc, DP_RC(rc));
+./src/object/cli_shard.c:	D_DEBUG(DB_IO, "rpc %p opc:%d completed, dt_result %d.\n",
+./src/object/cli_shard.c:			D_DEBUG(DB_IO, "rpc %p opc %d to rank %d tag %d may "
+./src/object/cli_shard.c:			D_DEBUG(DB_IO, "rpc %p opc %d to rank %d tag %d"
+./src/object/cli_shard.c:			D_DEBUG(DB_IO, DF_UOID" size "DF_U64
+./src/object/cli_shard.c:	D_DEBUG(DB_TRACE, "rpc %p opc:%d "DF_UOID" "DF_KEY" rank:%d tag:%d eph "
+./src/object/cli_shard.c:	D_DEBUG(DB_IO, "rpc %p opc %d "DF_UOID" "DF_KEY" rank %d tag %d eph "
+./src/object/cli_shard.c:	D_DEBUG(DB_IO, "opc=%d, rank=%d tag=%d epoch "DF_U64".\n",
+./src/object/cli_shard.c:			D_DEBUG(DB_CSUM, "Checksum buffer truncated");
+./src/object/cli_shard.c:			D_DEBUG(DB_IO, "key size "DF_U64" too big.\n",
+./src/object/cli_shard.c:			D_DEBUG(DB_TRACE, "rpc %p RPC %d may need retry: "
+./src/object/cli_shard.c:	D_DEBUG(DB_IO, "opc %d "DF_UOID" rank %d tag %d\n",
+./src/object/cli_shard.c:			D_DEBUG(DB_TRACE, "rpc %p RPC %d may need retry: %d\n",
+./src/object/cli_shard.c:	D_DEBUG(DB_IO, "OBJ_QUERY_KEY_RPC, rank=%d tag=%d.\n",
+./src/object/cli_shard.c:		D_DEBUG(DB_TRACE,
+./src/object/cli_shard.c:	D_DEBUG(DB_IO, "OBJ_SYNC_RPC reply: eph "DF_U64", version %u.\n",
+./src/object/cli_shard.c:	D_DEBUG(DB_IO, "OBJ_SYNC_RPC, rank=%d tag=%d.\n",
+./src/object/srv_obj_migrate.c:			D_DEBUG(DB_TRACE, "Container "DF_UUID" not exist\n",
+./src/object/srv_obj_migrate.c:			D_DEBUG(DB_TRACE, DF_UUID"/"DF_UOID " not exist\n",
+./src/object/srv_obj_migrate.c:		D_DEBUG(DB_TRACE, "Create cont "DF_UUID" tree\n",
+./src/object/srv_obj_migrate.c:		D_DEBUG(DB_TRACE, DF_UOID"/"DF_UUID" already exits\n",
+./src/object/srv_obj_migrate.c:	D_DEBUG(DB_TRACE, "insert "DF_UOID"/"DF_UUID" in"
+./src/object/srv_obj_migrate.c:	D_DEBUG(DB_REBUILD, "TLS destroy for "DF_UUID" ver %d\n",
+./src/object/srv_obj_migrate.c:	D_DEBUG(DB_REBUILD, "TLS %p create for "DF_UUID" "DF_UUID"/"DF_UUID
+./src/object/srv_obj_migrate.c:	D_DEBUG(DB_TRACE, "create tls "DF_UUID" rc %d\n",
+./src/object/srv_obj_migrate.c:			D_DEBUG(DB_REBUILD, "j %d k %d "DF_U64"/"DF_U64"\n",
+./src/object/srv_obj_migrate.c:	D_DEBUG(DB_REBUILD, DF_UOID" mrone %p dkey "DF_KEY" nr %d eph "DF_U64
+./src/object/srv_obj_migrate.c:				D_DEBUG(DB_TRACE, "i %d iod_size = 0\n", i);
+./src/object/srv_obj_migrate.c:			D_DEBUG(DB_TRACE, "update start %d cnt %d\n",
+./src/object/srv_obj_migrate.c:			D_DEBUG(DB_IO, "parity "DF_U64"/"DF_U64" "DF_U64"\n",
+./src/object/srv_obj_migrate.c:			D_DEBUG(DB_IO, "replicate "DF_U64"/"DF_U64" "
+./src/object/srv_obj_migrate.c:	D_DEBUG(DB_REBUILD,
+./src/object/srv_obj_migrate.c:	D_DEBUG(DB_REBUILD,
+./src/object/srv_obj_migrate.c:			D_DEBUG(DB_REBUILD,
+./src/object/srv_obj_migrate.c:			D_DEBUG(DB_REBUILD, DF_UOID" one tgt.\n",
+./src/object/srv_obj_migrate.c:	D_DEBUG(DB_REBUILD,
+./src/object/srv_obj_migrate.c:			D_DEBUG(DB_REBUILD,
+./src/object/srv_obj_migrate.c:		D_DEBUG(DB_REBUILD, DF_UOID" punch dkey "DF_KEY"/"DF_U64"\n",
+./src/object/srv_obj_migrate.c:		D_DEBUG(DB_REBUILD, DF_UOID" mrone %p punch dkey "
+./src/object/srv_obj_migrate.c:		D_DEBUG(DB_REBUILD, DF_UOID" mrone %p punch %d eph "DF_U64
+./src/object/srv_obj_migrate.c:		D_DEBUG(DB_REBUILD, DF_UUID" disable rebuild\n",
+./src/object/srv_obj_migrate.c:		D_DEBUG(DB_REBUILD, "empty mrone %p\n", mrone);
+./src/object/srv_obj_migrate.c:	D_DEBUG(DB_TRACE, "mrone %p data size is "DF_U64"\n",
+./src/object/srv_obj_migrate.c:	D_DEBUG(DB_REBUILD, "mrone %p inflight size "DF_U64" max "DF_U64"\n",
+./src/object/srv_obj_migrate.c:		D_DEBUG(DB_REBUILD, "mrone %p wait "DF_U64"/"DF_U64"\n",
+./src/object/srv_obj_migrate.c:	D_DEBUG(DB_REBUILD, DF_UOID" migrate dkey "DF_KEY" inflight "DF_U64
+./src/object/srv_obj_migrate.c:		D_DEBUG(DB_REBUILD, "Merge akey "DF_KEY" to %d\n",
+./src/object/srv_obj_migrate.c:			D_DEBUG(DB_REBUILD, "recx "DF_U64"/"DF_U64"\n",
+./src/object/srv_obj_migrate.c:	D_DEBUG(DB_REBUILD,
+./src/object/srv_obj_migrate.c:	D_DEBUG(DB_TRACE,
+./src/object/srv_obj_migrate.c:			D_DEBUG(DB_REBUILD, "src merge "DF_U64"/"DF_U64"\n",
+./src/object/srv_obj_migrate.c:		D_DEBUG(DB_REBUILD, "dst merge "DF_U64"/"DF_U64"\n",
+./src/object/srv_obj_migrate.c:		D_DEBUG(DB_REBUILD, "merge recx "DF_U64"/"DF_U64"\n",
+./src/object/srv_obj_migrate.c:	D_DEBUG(DB_REBUILD, "migrate dkey "DF_KEY" iod nr %d\n", DP_KEY(dkey),
+./src/object/srv_obj_migrate.c:		D_DEBUG(DB_REBUILD, "No need eph_total %d version %u"
+./src/object/srv_obj_migrate.c:			D_DEBUG(DB_TRACE, "punched %d akey "DF_KEY" "
+./src/object/srv_obj_migrate.c:	D_DEBUG(DB_TRACE, "create migrate dkey ult %d\n",
+./src/object/srv_obj_migrate.c:	D_DEBUG(DB_REBUILD, DF_UOID" %p dkey "DF_KEY" migrate on idx %d"
+./src/object/srv_obj_migrate.c:	D_DEBUG(DB_REBUILD, "tls %p "DF_UUID" version %d punch "DF_UOID"\n",
+./src/object/srv_obj_migrate.c:		D_DEBUG(DB_REBUILD, DF_UOID" %p dkey "DF_KEY" migrate on idx %d"
+./src/object/srv_obj_migrate.c:	D_DEBUG(DB_REBUILD, "migrate obj "DF_UOID" for shard %u eph "
+./src/object/srv_obj_migrate.c:			D_DEBUG(DB_REBUILD, "migrate obj "DF_UOID" got "
+./src/object/srv_obj_migrate.c:			D_DEBUG(DB_REBUILD, "migrate obj csum buf "
+./src/object/srv_obj_migrate.c:				D_DEBUG(DB_REBUILD, DF_UOID "retry to non"
+./src/object/srv_obj_migrate.c:				D_DEBUG(DB_REBUILD, "retry leader "DF_UOID"\n",
+./src/object/srv_obj_migrate.c:				D_DEBUG(DB_REBUILD, "No replicas for "DF_UOID
+./src/object/srv_obj_migrate.c:			D_DEBUG(DB_REBUILD, "Can not rebuild "
+./src/object/srv_obj_migrate.c:	D_DEBUG(DB_REBUILD, "obj "DF_UOID" for shard %u eph "
+./src/object/srv_obj_migrate.c:	D_DEBUG(DB_TRACE, "abort one ult "DF_UUID"\n", DP_UUID(arg->pool_uuid));
+./src/object/srv_obj_migrate.c:	D_DEBUG(DB_REBUILD, "destroyed pool/object "DF_UUID"/"DF_UOID
+./src/object/srv_obj_migrate.c:	D_DEBUG(DB_REBUILD, "stop migrate obj "DF_UOID" for shard %u rc %d\n",
+./src/object/srv_obj_migrate.c:		D_DEBUG(DB_REBUILD, "Insert "DF_UUID"/"DF_UOID": "DF_RC"\n",
+./src/object/srv_obj_migrate.c:	D_DEBUG(DB_REBUILD, "obj migrate "DF_UUID"/"DF_UOID" %"PRIx64
+./src/object/srv_obj_migrate.c:	D_DEBUG(DB_REBUILD, "iter cont "DF_UUID"/%"PRIx64" %"PRIx64" start\n",
+./src/object/srv_obj_migrate.c:			D_DEBUG(DB_REBUILD, "obj "DF_U64"/"DF_U64", key"
+./src/object/srv_obj_migrate.c:	D_DEBUG(DB_REBUILD, "iter cont "DF_UUID"/%"PRIx64" finish.\n",
+./src/object/srv_obj_migrate.c:	D_DEBUG(DB_REBUILD, "Insert migrate "DF_UUID"/"DF_UOID" "DF_U64
+./src/object/srv_obj_migrate.c:		D_DEBUG(DB_REBUILD, DF_UUID"/"DF_UOID" not need insert: "
+./src/object/srv_obj_migrate.c:		D_DEBUG(DB_REBUILD, DF_UUID"/"DF_UOID" not need insert: "
+./src/object/srv_obj_migrate.c:		D_DEBUG(DB_TRACE, DF_UUID" pool service is not started yet\n",
+./src/object/srv_obj_migrate.c:		D_DEBUG(DB_TRACE, DF_UUID" pool service is stopping.\n",
+./src/object/srv_obj_migrate.c:			D_DEBUG(DB_TRACE, DF_UOID"/"DF_UUID"exists.\n",
+./src/object/srv_obj_migrate.c:	D_DEBUG(DB_REBUILD, "status %d/%d  rec/obj/size "
+./src/object/srv_obj_migrate.c:	D_DEBUG(DB_REBUILD, "pool "DF_UUID" migrating=%s,"
+./src/object/srv_obj_migrate.c:		D_DEBUG(DB_TRACE, "Can not find tgt %d or target is down %d\n",
+./src/object/srv_obj_migrate.c:	D_DEBUG(DB_REBUILD, DF_UUID" migrate object: %d\n",
+./src/object/obj_tx.c:		D_DEBUG(DB_IO, DF_X64"/%p: set: value="DF_U64" first="DF_U64
+./src/object/obj_tx.c:		D_DEBUG(DB_IO, DF_X64"/%p: epoch task complete\n", th->cookie,
+./src/object/obj_tx.c:		D_DEBUG(DB_IO, DF_X64"/%p: already failed\n", th.cookie, task);
+./src/object/obj_tx.c:		D_DEBUG(DB_IO, DF_X64"/%p: choosing epoch\n", th.cookie, task);
+./src/object/obj_tx.c:		D_DEBUG(DB_IO, DF_X64"/%p: waiting for epoch task %p\n",
+./src/object/obj_tx.c:	D_DEBUG(DB_TRACE,
+./src/object/obj_tx.c:	D_DEBUG(DB_TRACE, "Cache update: DTI "DF_DTI", obj "DF_OID", dkey "
+./src/object/obj_tx.c:	D_DEBUG(DB_TRACE, "Cache punch obj: DTI "DF_DTI", obj "DF_OID
+./src/object/obj_tx.c:	D_DEBUG(DB_TRACE, "Cache punch dkey: DTI "DF_DTI", obj "DF_OID", dkey "
+./src/object/obj_tx.c:	D_DEBUG(DB_TRACE, "Cache punch akey: DTI "DF_DTI", obj "DF_OID", dkey "
+./src/object/obj_tx.c:		D_DEBUG(DB_TRACE, "Cache read opc %d: DTI "DF_DTI", obj "DF_OID
+./src/object/obj_tx.c:		D_DEBUG(DB_TRACE, "Cache enum obj: DTI "DF_DTI", obj "DF_OID
+./src/object/srv_obj_remote.c:		D_DEBUG(DB_IO, DF_UOID": map_ver stale (%d < %d).\n",
+./src/object/srv_obj_remote.c:			D_DEBUG(DB_TRACE, "complete shard %d update as "
+./src/object/srv_obj_remote.c:	D_DEBUG(DB_TRACE, DF_UOID" forwarding to rank:%d tag:%d.\n",
+./src/object/srv_obj_remote.c:		D_DEBUG(DB_IO, DF_UOID": map_ver stale (%d < %d).\n",
+./src/object/srv_obj_remote.c:	D_DEBUG(DB_TRACE, DF_UOID" forwarding to rank:%d tag:%d.\n",
+./src/object/srv_obj_remote.c:	D_DEBUG(DB_TRACE, "Forwarding CPD RPC to rank:%d tag:%d idx %u for DXT "
+./src/object/cli_mod.c:		D_DEBUG(DB_IO, "Client dispatch.\n");
+./src/object/cli_mod.c:		D_DEBUG(DB_IO, "Server dispatch but without dtx.\n");
+./src/object/cli_mod.c:		D_DEBUG(DB_IO, "Full dtx mode by default\n");
+./src/object/obj_enum.c:		D_DEBUG(DB_IO, "recx_len %d recx_cap %d\n",
+./src/object/obj_enum.c:		D_DEBUG(DB_IO, "eprs_len %d eprs_cap %d\n",
+./src/object/obj_enum.c:	D_DEBUG(DB_IO, "Pack recxs "DF_U64"/"DF_U64" recxs_len %d size "
+./src/object/obj_enum.c:			D_DEBUG(DB_IO, "current %dth iov buf is full"
+./src/object/obj_enum.c:		D_DEBUG(DB_IO, "full sgl %d/%d size " DF_U64"\n", arg->sgl_idx,
+./src/object/obj_enum.c:	D_DEBUG(DB_IO, "Pack obj "DF_UOID" iov_len/sgl %zu/%d kds_len %d\n",
+./src/object/obj_enum.c:	D_DEBUG(DB_IO, "Pack key "DF_KEY" iov total %zd kds len %d eph "
+./src/object/obj_enum.c:	D_DEBUG(DB_IO, "Pack rec "DF_U64"/"DF_U64
+./src/object/obj_enum.c:	D_DEBUG(DB_IO, "enum type %d rc "DF_RC"\n", type, DP_RC(rc));
+./src/object/obj_enum.c:	D_DEBUG(DB_IO, "unpacked data %p idx/nr "DF_U64"/"DF_U64
+./src/object/obj_enum.c:	D_DEBUG(DB_IO, "unpacked nr %d version/type /%u/%d rc "DF_RC"\n",
+./src/object/obj_enum.c:		D_DEBUG(DB_IO, "iod without recxs: %d\n", idx);
+./src/object/obj_enum.c:		D_DEBUG(DB_IO, "io empty\n");
+./src/object/obj_enum.c:	D_DEBUG(DB_IO, "move to top %d\n", io->ui_iods_top);
+./src/object/obj_enum.c:		D_DEBUG(DB_IO, "process dkey "DF_KEY": rc "DF_RC"\n",
+./src/object/obj_enum.c:	D_DEBUG(DB_IO, "process akey " DF_KEY "\n",
+./src/object/obj_enum.c:		D_DEBUG(DB_IO, "different version %u != %u or type %u != %u\n",
+./src/object/obj_enum.c:	D_DEBUG(DB_IO, "unpack recxs: "DF_RC"\n", DP_RC(rc));
+./src/object/obj_enum.c:	D_DEBUG(DB_REBUILD, "process obj "DF_UOID"\n", DP_UOID(io->ui_oid));
+./src/object/obj_enum.c:		D_DEBUG(DB_REBUILD, "process %d type %d ptr %p len "DF_U64
+./src/object/obj_enum.c:			D_DEBUG(DB_REBUILD, "skip type/size %d/%zd\n",
+./src/object/obj_enum.c:	D_DEBUG(DB_REBUILD, "process %d list buf rc "DF_RC"\n", nr, DP_RC(rc));
+./src/object/obj_enum.c:	D_DEBUG(DB_REBUILD, "process list buf "DF_UOID" rc "DF_RC"\n",
+./src/object/cli_ec.c:		D_DEBUG(DB_IO, "all parity tgts failed, reuse enc gftbls.\n");
+./src/object/srv_obj.c:	D_DEBUG(DB_IO, "rpc %p opc %d send reply, pmv %d, epoch "DF_U64
+./src/object/srv_obj.c:	D_DEBUG(DB_IO, "bulk_op %d sgl_nr %d\n", bulk_op, sgl_nr);
+./src/object/srv_obj.c:				D_DEBUG(DLOG_DBG, DF_U64 " > %zu : %d\n",
+./src/object/srv_obj.c:		D_DEBUG(DB_IO, "Data corruption after RDMA\n");
+./src/object/srv_obj.c:	D_DEBUG(DB_TRACE, "rpc %p set sizes count as %d for "
+./src/object/srv_obj.c:	D_DEBUG(DB_TRACE, "opc %d oid "DF_UOID" dkey "DF_KEY
+./src/object/srv_obj.c:				D_DEBUG(DB_IO, "Verify dedup succeeded\n");
+./src/object/srv_obj.c:			D_DEBUG(DB_IO, "Verify dedup extents failed, "
+./src/object/srv_obj.c:	D_DEBUG(DB_IO,
+./src/object/srv_obj.c:		D_DEBUG(DB_TRACE, DF_UUID"/%p is server cont hdl\n",
+./src/object/srv_obj.c:		D_DEBUG(DB_IO, "stale server map_version %d req %d\n",
+./src/object/srv_obj.c:		D_DEBUG(DB_IO, "stale version req %d map_version %d\n",
+./src/object/srv_obj.c:	D_DEBUG(DB_IO,
+./src/object/srv_obj.c:	D_DEBUG(DB_IO, "overwrite epoch "DF_U64"\n", *epoch);
+./src/object/srv_obj.c:	D_DEBUG(DB_IO,
+./src/object/srv_obj.c:			D_DEBUG(DB_IO, "Hit non-commit DTX when fetch "
+./src/object/srv_obj.c:		D_DEBUG(DB_IO, "Hit non-commit DTX when enum "
+./src/object/srv_obj.c:	D_DEBUG(DB_IO, ""DF_UOID" iterate "DF_U64"-"DF_U64" type %d tag %d"
+./src/object/srv_obj.c:		D_DEBUG(DB_IO, "reply kds bulk %zd\n", tmp_iov.iov_len);
+./src/object/srv_obj.c:		D_DEBUG(DB_IO, "reply bulk %zd nr_out %d\n",
+./src/object/srv_obj.c:	D_DEBUG(DB_IO, "rpc %p opc %d oid "DF_UOID" tag/xs %d/%d pmv %u/%u\n",
+./src/object/srv_obj.c:		D_DEBUG(DB_TRACE, "disable dtx\n");
+./src/object/srv_obj.c:	D_DEBUG(DB_IO, DF_DTI" %d/%d shards flags "DF_X64" result %d\n",
+./src/object/srv_obj.c:		D_DEBUG(DB_TRACE,
+./src/object/srv_obj.c:		D_DEBUG(DB_TRACE,
+./src/object/srv_obj.c:	D_DEBUG(DB_IO, "flags = "DF_U64"\n", okqi->okqi_api_flags);
+./src/object/srv_obj.c:		D_DEBUG(DB_IO, "Hit non-commit DTX when query "
+./src/object/srv_obj.c:	D_DEBUG(DB_IO, "obj_sync start: "DF_UOID", epc "DF_U64"\n",
+./src/object/srv_obj.c:	D_DEBUG(DB_IO, "obj_sync stop: "DF_UOID", epc "DF_U64", rd = %d\n",
+./src/object/srv_obj.c:	D_DEBUG(DB_TRACE, "CPD rpc %p send reply, pmv %d, status %d.\n",
+./src/object/srv_obj.c:	D_DEBUG(DB_IO, "Handling DTX "DF_DTI" on non-leader\n",
+./src/object/srv_obj.c:	D_DEBUG(DB_IO, "Handling DTX "DF_DTI" on leader, idx %u\n",
+./src/object/srv_obj.c:	D_DEBUG(DB_TRACE,
+./src/object/srv_ec_aggregate.c:	D_DEBUG(DB_TRACE, "Querying parity for stripe: %lu, offset: %lu\n",
+./src/object/srv_ec_aggregate.c:	D_DEBUG(DB_TRACE, "adding extent %lu,%lu, to stripe  %lu, shard: %u\n",
+./src/object/srv_ec_aggregate.c:			D_DEBUG(DB_EPC, "EC aggregation aborted\n");
+./src/cart/crt_corpc.c:		D_DEBUG(DB_NET, "%s: self rank not known yet\n",
+./src/cart/crt_corpc.c:			D_DEBUG(DB_NET, "parent rpc %p, child rpc %p, "
+./src/cart/crt_corpc.c:		D_DEBUG(DB_NET, "parent rpc %p, child rpc %p, wait_num %d, "
+./src/cart/crt_corpc.c:		D_DEBUG(DB_NET, "parent rpc %p, child rpc %p move to "
+./src/cart/crt_corpc.c:	D_DEBUG(DB_TRACE, "group %s grp_rank %d, co_info->co_child_num: %d.\n",
+./src/cart/crt_tree.c:			D_DEBUG(DB_TRACE, "d_rank_list_filter(group %s) "
+./src/cart/crt_tree.c:			D_DEBUG(DB_ALL,
+./src/cart/crt_tree.c:		D_DEBUG(DB_TRACE, "crt_get_filtered_grp_rank_list(group %s) "
+./src/cart/crt_tree.c:		D_DEBUG(DB_TRACE, "crt_get_filtered_grp_rank_list(group %s) "
+./src/cart/crt_context.c:	D_DEBUG(DB_TRACE, "created context (idx %d)\n", ctx->cc_idx);
+./src/cart/crt_context.c:			D_DEBUG(DB_NET, "destroy context (idx %d, rank %d, "
+./src/cart/crt_context.c:			D_DEBUG(DB_NET,
+./src/cart/crt_context.c:			D_DEBUG(DB_NET,
+./src/cart/crt_context.c:		D_DEBUG(DB_TRACE, "destroy context (idx %d, force %d), "
+./src/cart/crt_context.c:	D_DEBUG(DB_TRACE, "destroyed context (idx %d, force %d)\n",
+./src/cart/crt_context.c:		D_DEBUG(DB_ALL, "Aborting RPCs to rank=%d\n",
+./src/cart/crt_swim.c:		D_DEBUG(DB_TRACE, "select dping target: %lu => {%lu %c %lu}\n",
+./src/cart/crt_swim.c:		D_DEBUG(DB_TRACE, "there is no dping target\n");
+./src/cart/crt_swim.c:		D_DEBUG(DB_TRACE, "select iping target: %lu => {%lu %c %lu}\n",
+./src/cart/crt_swim.c:		D_DEBUG(DB_TRACE, "there is no iping target\n");
+./src/cart/crt_swim.c:		D_DEBUG(DB_TRACE, "add self {%lu %c %lu}\n", cst->cst_id,
+./src/cart/crt_swim.c:		D_DEBUG(DB_TRACE, "add member {%lu %c %lu}\n", cst->cst_id,
+./src/cart/crt_swim.c:			D_DEBUG(DB_TRACE, "del member {%lu %c %lu}\n",
+./src/cart/crt_swim.c:		D_DEBUG(DB_TRACE, "del member {%lu %c %lu}\n", cst->cst_id,
+./src/cart/crt_ctl.c:	D_DEBUG(DB_TRACE, "sent reply to get uri cache request\n");
+./src/cart/crt_ctl.c:	D_DEBUG(DB_TRACE, "out_args->cel_ctx_num %d\n", out_args->cel_ctx_num);
+./src/cart/crt_ctl.c:	D_DEBUG(DB_TRACE, "sent reply to endpoint list request\n");
+./src/cart/crt_register.c:		D_DEBUG(DB_TRACE, "opc map empty, skipping.\n");
+./src/cart/crt_register.c:	D_DEBUG(DB_TRACE,
+./src/cart/crt_register.c:			D_DEBUG(DB_ALL, "Registering protocol without checking"
+./src/cart/crt_register.c:		D_DEBUG(DB_TRACE, "registered protocol: '%s', version %u, "
+./src/cart/crt_register.c:	D_DEBUG(DB_TRACE, "high_ver %u\n", high_ver);
+./src/cart/crt_rpc.c:	D_DEBUG(DB_TRACE, "entering (opc: %#x)\n", opc);
+./src/cart/crt_rpc.c:		D_DEBUG(DB_ALL, "URI lookup rank chosen: %d\n", contact_rank);
+./src/cart/crt_rpc.c:	D_DEBUG(DB_ALL, "rpc_priv: %p\n", rpc_priv);
+./src/cart/crt_rpc.c:		D_DEBUG(DB_ALL, "call crp_corpc_reply_hdlf: rpc_priv: %p\n",
+./src/cart/crt_rpc.c:		D_DEBUG(DB_ALL, "call crt_hg_reply_send: rpc_priv: %p\n",
+./src/cart/crt_init.c:	D_DEBUG(DB_ALL, "Memory pinning workaround enabled\n");
+./src/cart/crt_init.c:	D_DEBUG(DB_ALL, "initializing crt_gdata...\n");
+./src/cart/crt_init.c:	D_DEBUG(DB_ALL, "Starting RPCID %#lx\n", start_rpcid);
+./src/cart/crt_init.c:	D_DEBUG(DB_ALL, "set the global timeout value as %d second.\n",
+./src/cart/crt_init.c:		D_DEBUG(DB_ALL, "CRT_CREDIT_EP_CTX set as 0, flow control "
+./src/cart/crt_init.c:		D_DEBUG(DB_ALL, "ENV CRT_CREDIT_EP_CTX's value %d exceed max "
+./src/cart/crt_init.c:		D_DEBUG(DB_ALL, "CRT_CREDIT_EP_CTX set as %d for flow "
+./src/cart/crt_init.c:			D_DEBUG(DB_ALL, "crt_gdata.cg_sep_mode turned on.\n");
+./src/cart/crt_init.c:			D_DEBUG(DB_ALL, "crt_gdata.cg_sep_mode turned on.\n");
+./src/cart/crt_init.c:	D_DEBUG(DB_ALL, "set cg_sep_mode %d, cg_ctx_max_num %d.\n",
+./src/cart/crt_init.c:		D_DEBUG(DB_ALL, "Server bit set to %d\n", server);
+./src/cart/crt_init.c:		D_DEBUG(DB_ALL, "Swim auto disable set to %d\n",
+./src/cart/crt_init.c:				D_DEBUG(DB_ALL, "set group_config_path as "
+./src/cart/crt_init.c:			D_DEBUG(DB_ALL, "ENV %s not found.\n",
+./src/cart/crt_init.c:			D_DEBUG(DB_ALL, "EVN %s: %s.\n", CRT_PHY_ADDR_ENV,
+./src/cart/crt_init.c:			D_DEBUG(DB_ALL, "Setting FI_PSM2_NAME_SERVER to 1\n");
+./src/cart/crt_init.c:	D_DEBUG(DB_ALL, "got a port: %d.\n", *port);
+./src/cart/crt_init.c:		D_DEBUG(DB_ALL, "OFI_DOMAIN is not set. Setting it to %s\n",
+./src/cart/crt_init.c:			 * D_DEBUG("Get interface %s IPv4 Address %s\n",
+./src/cart/crt_init.c:			 * D_DEBUG("Get %s IPv6 Address %s\n",
+./src/cart/crt_init.c:			D_DEBUG(DB_ALL, "ignoring invalid OFI_PORT %s.",
+./src/cart/crt_init.c:			D_DEBUG(DB_ALL, "OFI_PORT %d, using it as service "
+./src/cart/swim/swim.c:	D_DEBUG(DB_TRACE, "swim_prot_period_len set as %lu\n", val);
+./src/cart/swim/swim.c:	D_DEBUG(DB_TRACE, "swim_suspect_timeout set as %lu\n", val);
+./src/cart/swim/swim.c:	D_DEBUG(DB_TRACE, "swim_ping_timeout set as %lu\n", val);
+./src/cart/swim/swim.c:		D_DEBUG(DB_TRACE, "SWIM_MUTEX_CREATE(): %s\n", strerror(rc));
+./src/cart/swim/swim.c:		D_DEBUG(DB_TRACE, "SWIM_MUTEX_DESTROY(): %s\n", strerror(rc));
+./src/cart/crt_group.c:		D_DEBUG(DB_TRACE,
+./src/cart/crt_group.c:			D_DEBUG(DB_TRACE, "entry already exists in lookup "
+./src/cart/crt_group.c:			D_DEBUG(DB_TRACE, "Filling in URI in lookup table. "
+./src/cart/crt_group.c:		D_DEBUG(DB_TRACE, "Filling in URI in lookup table. "
+./src/cart/crt_group.c:		D_DEBUG(DB_ALL, "Entry for rank=%d not found\n", rank);
+./src/cart/crt_group.c:		D_DEBUG(DB_TRACE, "group non-exist (%s).\n", grp_id);
+./src/cart/crt_group.c:		D_DEBUG(DB_TRACE, "primary group %s, gp_size %d, gp_self %d.\n",
+./src/cart/crt_group.c:		D_DEBUG(DB_TRACE, "ul_grp_id %s matches with gg_primary_grp"
+./src/cart/crt_group.c:	D_DEBUG(DB_ALL, "Group config saved in %s\n", filename);
+./src/cart/crt_group.c:		D_DEBUG(DB_ALL, "No more free indices left\n");
+./src/cart/crt_group.c:		D_DEBUG(DB_ALL, "uri for %d:%d not found\n", rank, tag);
+./src/cart/crt_group.c:		D_DEBUG(DB_ALL, "Setting rank %d as self rank for grp %s\n",
+./src/cart/crt_iv.c:	D_DEBUG(DB_TRACE, "[key=%p] " msg, (key)->iov_buf, ##__VA_ARGS__)
+./src/cart/crt_iv.c:	D_DEBUG(DB_TRACE, "addref to %d ivns=%p\n",		\
+./src/cart/crt_iv.c:	D_DEBUG(DB_TRACE, "decref to %d ivns=%p\n",		\
+./src/cart/crt_iv.c:	D_DEBUG(DB_TRACE, "kip_entry=%p  refcnt=%d\n", entry,
+./src/cart/crt_iv.c:	D_DEBUG(DB_TRACE, "Processing requests for kip_entry=%p\n", kip_entry);
+./src/cart/crt_iv.c:	D_DEBUG(DB_TRACE, "Done processing requests for kip_entry=%p\n",
+./src/cart/crt_iv.c:	D_DEBUG(DB_TRACE, "kip_entry=%p in_prog=%d\n",
+./src/cart/crt_iv.c:		D_DEBUG(DB_ALL, "Group Version Changed: From %d: To %d\n",
+./src/cart/crt_iv.c:	D_DEBUG(DB_TRACE, "parent lookup: current=%d, root=%d, parent=%d "
+./src/cart/crt_iv.c:		D_DEBUG(DB_ALL, "%s: self rank not known yet\n",
+./src/cart/crt_iv.c:		D_DEBUG(DB_ALL,
+./src/cart/crt_iv.c:			D_DEBUG(DB_TRACE, "crt_iv_parent_get() returned %d\n",
+./src/cart/crt_iv.c:			D_DEBUG(DB_ALL, "Group (%s) version changed. "
+./src/cart/crt_iv.c:		D_DEBUG(DB_ALL,
+./src/cart/crt_iv.c:		D_DEBUG(DB_TRACE, "Executing ivo_pre_fetch\n");
+./src/cart/crt_iv.c:			D_DEBUG(DB_TRACE, "crt_iv_parent_get() returned %d\n",
+./src/cart/crt_iv.c:		D_DEBUG(DB_ALL,
+./src/cart/crt_iv.c:		D_DEBUG(DB_ALL,
+./src/cart/crt_iv.c:		D_DEBUG(DB_TRACE, "Executing ivo_pre_refresh\n");
+./src/cart/crt_iv.c:	D_DEBUG(DB_TRACE, "Executing ivo_pre_sync\n");
+./src/cart/crt_iv.c:		D_DEBUG(DB_TRACE, "Call Back not supplied\n");
+./src/cart/crt_iv.c:		D_DEBUG(DB_TRACE, "NONE syncMode\n");
+./src/cart/crt_iv.c:		D_DEBUG(DB_TRACE, "EAGER syncMode\n");
+./src/cart/crt_iv.c:		D_DEBUG(DB_TRACE, "LAZY syncMode\n");
+./src/cart/crt_iv.c:		D_DEBUG(DB_TRACE, "Create Bulk\n");
+./src/cart/crt_iv.c:		D_DEBUG(DB_ALL,
+./src/cart/crt_iv.c:			D_DEBUG(DB_TRACE, "crt_iv_parent_get() returned %d\n",
+./src/cart/crt_iv.c:	D_DEBUG(DB_TRACE, "Triggering bulk_update_transfer_done_aux()\n");
+./src/cart/crt_iv.c:		D_DEBUG(DB_ALL,
+./src/cart/crt_iv.c:				D_DEBUG(DB_TRACE, "crt_iv_parent_get() rc=%d\n",
+./src/cart/crt_iv.c:				D_DEBUG(DB_ALL,
+./src/cart/crt_iv.c:			D_DEBUG(DB_ALL,
+./src/cart/crt_iv.c:		D_DEBUG(DB_ALL, "%s: self rank not known yet\n",
+./src/cart/crt_hg.c:		D_DEBUG(DB_NET, "hg_pool %p, add, chp_num %d.\n",
+./src/cart/crt_hg.c:	D_DEBUG(DB_NET, "hg_pool %p disabled and become empty (chp_num 0).\n",
+./src/cart/crt_hg.c:			D_DEBUG(DB_NET, "hg_hdl %p destroyed.\n", hdl->chh_hdl);
+./src/cart/crt_hg.c:		D_DEBUG(DB_NET,
+./src/cart/crt_hg.c:		D_DEBUG(DB_NET,
+./src/cart/crt_hg.c:	D_DEBUG(DB_NET, "hg_pool %p, remove, chp_num %d.\n",
+./src/cart/crt_hg.c:		D_DEBUG(DB_NET, "hg_pool %p, add, chp_num %d.\n",
+./src/cart/crt_hg.c:		D_DEBUG(DB_NET, "hg_pool %p, chp_num %d, max_num %d, "
+./src/cart/crt_hg.c:	D_DEBUG(DB_NET, "New context(idx:%d), listen address: %s.\n",
+./src/cart/crt_hg.c:	D_DEBUG(DB_NET, "crt_gdata.cg_sep_mode %d, crt_is_service() %d\n",
+./src/cart/crt_hg.c:		D_DEBUG(DB_NET, "sgl->sg_nr (%d) too small, %d required.\n",
+./src/cart/crt_hg.c:			D_DEBUG(DB_NET, "bulk transferring canceled.\n");
+./src/cart/crt_hg.c:		D_DEBUG(DB_NET, "No bulk completion callback registered.\n");
+./src/cart/crt_hg_proc.c:	 * D_DEBUG("in crt_proc_common_hdr, opc: %#x.\n", hdr->cch_opc);
+./src/cart/crt_hg_proc.c:	/* D_DEBUG("in crt_proc_in_common, data: %p\n", *data); */
+./src/cart/crt_hg_proc.c:		D_DEBUG("crt_proc_in_common, opc: %#x, NULL input.\n",
+./src/cart/crt_hg_proc.c:	/* D_DEBUG("in crt_proc_out_common, data: %p\n", *data); */
+./src/cart/crt_hg_proc.c:		D_DEBUG("crt_proc_out_common, opc: %#x, NULL output.\n",
+./src/rsvc/srv_common.c:	D_DEBUG(DB_MD, "%s: count=%lu, size=%lu\n", svc->s_name, count,
+./src/rsvc/srv_common.c:	D_DEBUG(DB_MD, "%s: count=%lu, size=%lu\n", svc->s_name, count,
+./src/rsvc/srv_common.c:	D_DEBUG(DB_MD, "%s: count=%lu, key_length=%lu, size=%lu\n",
+./src/rsvc/srv_common.c:		D_DEBUG(DB_MD, "%s: bulk_size=%lu\n", svc->s_name, bulk_size);
+./src/rsvc/srv.c:	D_DEBUG(DB_MD, "%s: term "DF_U64" state %s to %s\n", svc->s_name,
+./src/rsvc/srv.c:		D_DEBUG(DB_MD, "%s: skip term "DF_U64" due to stopping\n",
+./src/rsvc/srv.c:	D_DEBUG(DB_MD, "%s: stepping up to "DF_U64"\n", svc->s_name,
+./src/rsvc/srv.c:	D_DEBUG(DB_MD, "%s: bootstrapping\n", svc->s_name);
+./src/rsvc/srv.c:	D_DEBUG(DB_MD, "%s: calling sc_bootstrap\n", svc->s_name);
+./src/rsvc/srv.c:	D_DEBUG(DB_MD, "%s: calling sc_step_up\n", svc->s_name);
+./src/rsvc/srv.c:	D_DEBUG(DB_MD, "%s: bootstrapped: "DF_RC"\n", svc->s_name, DP_RC(rc));
+./src/rsvc/srv.c:	D_DEBUG(DB_MD, "%s: stepping down from "DF_U64"\n", svc->s_name, term);
+./src/rsvc/srv.c:			D_DEBUG(DB_MD, "%s: waiting for %d leader refs\n",
+./src/rsvc/srv.c:	D_DEBUG(DB_MD, "%s: stepped down from "DF_U64"\n", svc->s_name, term);
+./src/rsvc/srv.c:	D_DEBUG(DB_MD, "%s: start\n", svc->s_name);
+./src/rsvc/srv.c:	D_DEBUG(DB_MD, "%s: stop\n", svc->s_name);
+./src/rsvc/srv.c:		D_DEBUG(DB_MD, "%s: found: stop=%d\n", svc->s_name,
+./src/rsvc/srv.c:		D_DEBUG(DB_MD, "%s: insert: "DF_RC"\n", svc->s_name, DP_RC(rc));
+./src/rsvc/srv.c:	D_DEBUG(DB_MD, "%s: started service\n", svc->s_name);
+./src/rsvc/srv.c:		D_DEBUG(DB_MD, "%s: found: stop=%d\n", svc->s_name,
+./src/rsvc/srv.c:		D_DEBUG(DB_MD, "%s: insert: "DF_RC"\n", svc->s_name, DP_RC(rc));
+./src/rsvc/srv.c:	D_DEBUG(DB_MD, "%s: started replicated service\n", svc->s_name);
+./src/rsvc/srv.c:		D_DEBUG(DB_MD, "%s: stopping already\n", svc->s_name);
+./src/rsvc/srv.c:	D_DEBUG(DB_MD, "%s: stopping\n", svc->s_name);
+./src/rsvc/srv.c:	D_DEBUG(DB_MD, DF_UUID": %s DB\n",
+./src/rebuild/scan.c:		D_DEBUG(DB_REBUILD, "Current tgt id %d, entry id %d\n",
+./src/rebuild/scan.c:	D_DEBUG(DB_REBUILD, "send oid/con "DF_UOID"/"DF_UUID" ephs "DF_U64
+./src/rebuild/scan.c:		D_DEBUG(DB_REBUILD, "Can not get objects: "DF_RC"\n",
+./src/rebuild/scan.c:	D_DEBUG(DB_REBUILD, "send rebuild objects "DF_UUID" to tgt %d"
+./src/rebuild/scan.c:		D_DEBUG(DB_REBUILD, DF_UUID" retry send object to tgt_id %d\n",
+./src/rebuild/scan.c:	D_DEBUG(DB_REBUILD, DF_UUID"/%d objects send finish\n",
+./src/rebuild/scan.c:	D_DEBUG(DB_REBUILD, "insert "DF_UOID"/"DF_UUID" tgt %u rc %d\n",
+./src/rebuild/scan.c:			D_DEBUG(DB_REBUILD, "Got REC2BIG, increasing rebuild "
+./src/rebuild/scan.c:			D_DEBUG(DB_REBUILD, "Insufficient stack buffer to find "
+./src/rebuild/scan.c:		D_DEBUG(DB_REBUILD, "rebuild is aborted\n");
+./src/rebuild/scan.c:			D_DEBUG(DB_REBUILD, "deleting object "DF_UOID
+./src/rebuild/scan.c:					D_DEBUG(DB_REBUILD,
+./src/rebuild/scan.c:		D_DEBUG(DB_REBUILD, "rebuild obj "DF_UOID"/"DF_UUID"/"DF_UUID
+./src/rebuild/scan.c:		D_DEBUG(DB_REBUILD, DF_UUID" already scan\n",
+./src/rebuild/scan.c:	D_DEBUG(DB_TRACE, DF_UUID"/"DF_UUID" iterate cont done: rc %d\n",
+./src/rebuild/scan.c:		D_DEBUG(DB_TRACE, DF_UUID" skip scan\n",
+./src/rebuild/scan.c:		D_DEBUG(DB_REBUILD, "sleep 2 seconds then retry\n");
+./src/rebuild/scan.c:	D_DEBUG(DB_TRACE, DF_UUID" iterate pool done: rc %d\n",
+./src/rebuild/scan.c:	D_DEBUG(DB_REBUILD, DF_UUID "check resync %u < %u\n",
+./src/rebuild/scan.c:	D_DEBUG(DB_REBUILD, "rebuild scan collective "DF_UUID" done.\n",
+./src/rebuild/scan.c:	D_DEBUG(DB_REBUILD, DF_UUID" sent objects to initiator %d\n",
+./src/rebuild/scan.c:	D_DEBUG(DB_REBUILD, DF_UUID"scan leader done %d\n",
+./src/rebuild/scan.c:	D_DEBUG(DB_REBUILD, "%d scan rebuild for "DF_UUID" ver %d\n",
+./src/rebuild/scan.c:		D_DEBUG(DB_REBUILD, DF_UUID" already started.\n",
+./src/rebuild/scan.c:			D_DEBUG(DB_REBUILD, DF_UUID" master rank"
+./src/rebuild/srv.c:	D_DEBUG(DB_REBUILD, "TLS create for "DF_UUID" ver %d\n",
+./src/rebuild/srv.c:	D_DEBUG(DB_REBUILD, "TLS destroy for "DF_UUID" ver %d\n",
+./src/rebuild/srv.c:	D_DEBUG(DB_REBUILD, "iv rank %d scan_done %d pull_done %d\n",
+./src/rebuild/srv.c:		D_DEBUG(DB_REBUILD, "rebuild ver %d tgt %d scan done\n",
+./src/rebuild/srv.c:		D_DEBUG(DB_REBUILD, "rebuild ver %d tgt %d pull done\n",
+./src/rebuild/srv.c:		D_DEBUG(DB_REBUILD, "%d/%d target status %d\n",
+./src/rebuild/srv.c:	D_DEBUG(DB_REBUILD, "%d scanning %d status %d\n", idx,
+./src/rebuild/srv.c:	D_DEBUG(DB_REBUILD, "pool "DF_UUID" scanning %d/%d rebuilding=%s, "
+./src/rebuild/srv.c:	D_DEBUG(DB_REBUILD, "rebuild "DF_UUID" done %s rec "DF_U64" obj "
+./src/rebuild/srv.c:				D_DEBUG(DB_REBUILD, "rank %d/%x.\n",
+./src/rebuild/srv.c:		D_DEBUG(DB_REBUILD, "%s", sbuf);
+./src/rebuild/srv.c:	D_DEBUG(DB_REBUILD, "pool "DF_UUID" create rebuild iv, op=%s\n",
+./src/rebuild/srv.c:				D_DEBUG(DB_REBUILD, "rebuild %s rank %u/%u\n",
+./src/rebuild/srv.c:	D_DEBUG(DB_REBUILD, "rebuild "DF_UUID" scan broadcast, op=%s\n",
+./src/rebuild/srv.c:		D_DEBUG(DB_REBUILD, "rebuild "DF_UUID" scan retry\n",
+./src/rebuild/srv.c:	D_DEBUG(DB_REBUILD, "rebuild "DF_UUID" rc %d got stable epoch "
+./src/rebuild/srv.c:	D_DEBUG(DB_REBUILD, "rpt %p ref %d\n", rpt, rpt->rt_refcount);
+./src/rebuild/srv.c:	D_DEBUG(DB_REBUILD, "rpt %p ref %d\n", rpt, rpt->rt_refcount);
+./src/rebuild/srv.c:	D_DEBUG(DB_REBUILD, "Current rebuild queue:\n");
+./src/rebuild/srv.c:		D_DEBUG(DB_REBUILD, "  " DF_UUID " op=%s ver=%u tgts=%s\n",
+./src/rebuild/srv.c:	D_DEBUG(DB_REBUILD, "("DF_UUID" ver=%u) id %u merge to task %p op=%s\n",
+./src/rebuild/srv.c:		D_DEBUG(DB_REBUILD, "rebuild task ver %u --> %u\n",
+./src/rebuild/srv.c:	D_DEBUG(DB_REBUILD, "rebuild "DF_UUID", rebuild version=%u, op=%s\n",
+./src/rebuild/srv.c:			D_DEBUG(DB_REBUILD, DF_UUID" redistribute pool map\n",
+./src/rebuild/srv.c:			D_DEBUG(DB_REBUILD, "pool "DF_UUID" ver %u rebuild is"
+./src/rebuild/srv.c:		D_DEBUG(DB_REBUILD, DF_UUID" rebuild is not done: %d\n",
+./src/rebuild/srv.c:			D_DEBUG(DB_REBUILD, DF_UUID" Only stop the leader\n",
+./src/rebuild/srv.c:			D_DEBUG(DB_REBUILD, "mark failed target %d of "DF_UUID
+./src/rebuild/srv.c:			D_DEBUG(DB_REBUILD, "mark added target %d of "DF_UUID
+./src/rebuild/srv.c:			D_DEBUG(DB_REBUILD, DF_UUID" reschedule rebuild\n",
+./src/rebuild/srv.c:			D_DEBUG(DB_REBUILD, "abort rebuild\n");
+./src/rebuild/srv.c:	D_DEBUG(DB_REBUILD, "try abort rebuild "DF_UUID" version %d\n",
+./src/rebuild/srv.c:	D_DEBUG(DB_REBUILD, "rebuild "DF_UUID"/ %d is stopped.\n",
+./src/rebuild/srv.c:	D_DEBUG(DB_REBUILD, "abort rebuild %p\n", &rebuild_gst);
+./src/rebuild/srv.c:		D_DEBUG(DB_REBUILD, DF_UUID" is stopping,"
+./src/rebuild/srv.c:	D_DEBUG(DB_REBUILD, "rebuild queue "DF_UUID" ver=%u, op=%s",
+./src/rebuild/srv.c:		D_DEBUG(DB_REBUILD, "rebuild ult "DF_UUID" ver=%u, op=%s",
+./src/rebuild/srv.c:	D_DEBUG(DB_REBUILD, "Hang current rebuild process.\n");
+./src/rebuild/srv.c:		D_DEBUG(DB_REBUILD, "close container/pool "
+./src/rebuild/srv.c:		D_DEBUG(DB_REBUILD, DF_UUID": Reset aggregation end hlc "
+./src/rebuild/srv.c:		D_DEBUG(DB_REBUILD, DF_UUID": pool is still being rebuilt"
+./src/rebuild/srv.c:	D_DEBUG(DB_REBUILD, "Finalize rebuild for "DF_UUID", map_ver=%u\n",
+./src/rebuild/srv.c:					D_DEBUG(DB_REBUILD, "abort rebuild "
+./src/rebuild/srv.c:		D_DEBUG(DB_REBUILD, "ver %d obj "DF_U64" rec "DF_U64" size "
+./src/rebuild/srv.c:	D_DEBUG(DB_REBUILD, "open local container "DF_UUID"/"DF_UUID
+./src/rebuild/srv.c:	D_DEBUG(DB_REBUILD, "prepare rebuild for "DF_UUID"/%d\n",
+./src/rebuild/srv.c:	D_DEBUG(DB_REBUILD, "rebuild coh/poh "DF_UUID"/"DF_UUID"\n",
+./src/rebuild/rebuild_iv.c:	D_DEBUG(DB_REBUILD, "rank %d master rank %d\n", src_iv->riv_rank,
+./src/rebuild/rebuild_iv.c:		D_DEBUG(DB_TRACE, "update rebuild "DF_UUID" ver %d "
+./src/rebuild/rebuild_iv.c:	D_DEBUG(DB_TRACE, "pool "DF_UUID" master_rank %d\n",
+./src/rebuild/rebuild_iv.c:		D_DEBUG(DB_REBUILD, DF_UUID" rebuild status gsd/gd %d/%d"
+./src/engine/server_iv.c:	D_DEBUG(DB_TRACE, "register %d/%d,", class->iv_class_id,
+./src/engine/server_iv.c:	D_DEBUG(DB_TRACE, "can not find the key %d\n", class_id);
+./src/engine/server_iv.c:	D_DEBUG(DB_TRACE, "unpack %d\n", key_iv->class_id);
+./src/engine/server_iv.c:	D_DEBUG(DB_TRACE, DF_UUID" ns ref %u\n",
+./src/engine/server_iv.c:	D_DEBUG(DB_TRACE, DF_UUID" ns ref %u\n",
+./src/engine/server_iv.c:			D_DEBUG(DB_MD, DF_UUID" stopping\n",
+./src/engine/server_iv.c:		D_DEBUG(DB_TRACE, "Get entry %p/%d key %d\n",
+./src/engine/server_iv.c:	D_DEBUG(DB_MD, "FETCH: Key [%d:%d] entry %p valid %s\n", key.rank,
+./src/engine/server_iv.c:		D_DEBUG(DB_MD, "[%d:%d] reset to 0 during IV aggregation.\n",
+./src/engine/server_iv.c:		D_DEBUG(DB_MD, "key id %d update failed: rc = %d\n",
+./src/engine/server_iv.c:	D_DEBUG(DB_MD, "key id %d rank %d myrank %d valid %s\n",
+./src/engine/server_iv.c:	D_DEBUG(DB_TRACE, "Put entry %p/%d\n", entry, entry->iv_ref - 1);
+./src/engine/server_iv.c:	D_DEBUG(DB_MGMT, "destroy ivns %d\n", iv_ns->iv_ns_id);
+./src/engine/server_iv.c:	D_DEBUG(DB_MGMT, "update iv_ns %u master rank %u new master rank %u "
+./src/engine/server_iv.c:		D_DEBUG(DB_MGMT, DF_UUID" ns stop wait ref %u\n",
+./src/engine/server_iv.c:		D_DEBUG(DB_MGMT, DF_UUID" ns stopped\n",
+./src/engine/server_iv.c:			D_DEBUG(DB_MD, "key %d/%d does not"
+./src/engine/server_iv.c:	D_DEBUG(DB_MD, "class_id %d master %d crt class id %d opc %d\n",
+./src/engine/server_iv.c:	D_DEBUG(DB_MD, "class_id %d opc %d rc %d\n", key_iv->class_id, opc, rc);
+./src/engine/sched.c:/* #define SCHED_DEBUG */
+./src/engine/sched.c:#ifdef SCHED_DEBUG
+./src/engine/sched.c:		D_DEBUG(DB_TRACE, "XS(%d) popped NULL unit for ABT pool(%d)\n",
+./src/engine/sched.c:				D_DEBUG(DB_TRACE, "XS(%d) stop scheduler\n",
+./src/engine/init.c:		D_DEBUG(DB_MGMT, "ignore src/type/evict %u/%u\n",
+./src/engine/drpc_client.c:	D_DEBUG(DB_MGMT, "fetching svc_ranks for "DF_UUID"\n",
+./src/engine/drpc_client.c:			D_DEBUG(DB_MGMT, "pool svc "DF_UUID" not found: "
+./src/engine/drpc_client.c:	D_DEBUG(DB_MGMT, "fetched %d svc_ranks for "DF_UUID"\n",
+./src/engine/srv.c:	D_DEBUG(DB_TRACE, "XS(%d) draining ULTs.\n", dx->dx_xs_id);
+./src/engine/srv.c:	D_DEBUG(DB_TRACE, "XS(%d) drained ULTs.\n", dx->dx_xs_id);
+./src/engine/srv.c:		D_DEBUG(DB_TRACE, "failed to set memory affinity: %d\n", errno);
+./src/engine/srv.c:	D_DEBUG(DB_TRACE, "created xstream name(%s)xs_id(%d)/tgt_id(%d)/"
+./src/engine/srv.c:	D_DEBUG(DB_TRACE, "Stopping execution streams\n");
+./src/engine/srv.c:	D_DEBUG(DB_TRACE, "Execution streams stopped\n");
+./src/engine/srv.c:	D_DEBUG(DB_TRACE, "start xs_id called for %d.  ", xs_id);
+./src/engine/srv.c:		D_DEBUG(DB_TRACE,
+./src/engine/srv.c:		D_DEBUG(DB_TRACE, "Using CPU set %s\n", cpuset);
+./src/engine/srv.c:		D_DEBUG(DB_TRACE, "Using non-NUMA aware core allocation\n");
+./src/engine/srv.c:	D_DEBUG(DB_TRACE,
+./src/engine/srv.c:		D_DEBUG(DB_TRACE,
+./src/engine/srv.c:	D_DEBUG(DB_TRACE, "%d execution streams successfully started "
+./src/engine/srv.c:		D_DEBUG(DB_TRACE, "Finalized everything\n");
+./src/engine/drpc_ras.c:	D_DEBUG(DB_MGMT, "&&& RAS EVENT%s", buf);
+./src/engine/ult.c:		D_DEBUG(DB_MD, "mandatory args missing dss_collective_reduce");
+./src/engine/ult.c:		D_DEBUG(DB_MD, "Free callback missing for reduce args\n");
+./src/engine/ult.c:		D_DEBUG(DB_TRACE, "no xstreams\n");
+./src/engine/ult.c:				D_DEBUG(DB_TRACE, "Skip tgt %d\n", tid);
+./src/engine/ult.c:		D_DEBUG(DB_TRACE, "Create ult stacksize is %zd\n", stack_size);
+./src/pool/srv_util.c:			D_DEBUG(DB_MGMT, DF_UUID": Targets are all in %s\n",
+./src/pool/srv_util.c:			D_DEBUG(DB_MGMT, DF_UUID": Trigger targets %s.\n",
+./src/pool/srv_util.c:	D_DEBUG(DB_MGMT, "Faulty reaction done. tgt_cnt:%d, rc:%d\n",
+./src/pool/srv_iv.c:	D_DEBUG(DB_MD, "delete hdl uuid "DF_UUID"/%zd\n", DP_UUID(hdl_uuid),
+./src/pool/srv_iv.c:	D_DEBUG(DB_MD, "insert conn %u/%u\n", conns->pic_size,
+./src/pool/srv_iv.c:		D_DEBUG(DB_MD, "insert conn "DF_UUID": %d\n",
+./src/pool/srv_iv.c:		D_DEBUG(DB_MD, "dst_conns_size %d > pic_buf_size %u\n",
+./src/pool/srv_iv.c:	D_DEBUG(DB_MD, "reset iv conns to %u/%u\n", new_conns->pic_size,
+./src/pool/srv_iv.c:		D_DEBUG(DB_MD, "Update -1 entry dst_sgl %p\n", dst_sgl);
+./src/pool/srv_iv.c:	D_DEBUG(DB_MD, "retry pool buf nr %u\n",
+./src/pool/srv_iv.c:	D_DEBUG(DB_MD, "pool/cont "DF_UUID"/"DF_UUID"\n",
+./src/pool/srv_iv.c:	D_DEBUG(DB_MD, "%u update: %d\n", key->class_id, rc);
+./src/pool/srv_iv.c:	D_DEBUG(DB_TRACE, DF_UUID "rank %d master rank %d\n",
+./src/pool/srv_iv.c:	D_DEBUG(DB_MD, DF_UUID": key %u rc %d\n",
+./src/pool/srv_iv.c:			D_DEBUG(DB_MD, "skip -1 update on master %u\n",
+./src/pool/srv_iv.c:			D_DEBUG(DB_MD, "skip -1 update on master %u\n",
+./src/pool/srv_iv.c:	D_DEBUG(DB_MD, DF_UUID": key %u rc %d\n",
+./src/pool/srv_iv.c:		D_DEBUG(DB_TRACE, DF_UUID": pool not found\n",
+./src/pool/srv_iv.c:		D_DEBUG(DB_MD, "retry by %u\n", pb_nr);
+./src/pool/srv_iv.c:	D_DEBUG(DB_MD, DF_UUID": map_ver=%u\n", DP_UUID(pool->sp_uuid),
+./src/pool/srv_iv.c:		D_DEBUG(DB_MD, DF_UUID": map_ver=%u: %d\n",
+./src/pool/srv_iv.c:	D_DEBUG(DB_MD, DF_UUID": map_ver=%u: %d\n", DP_UUID(pool->sp_uuid),
+./src/pool/srv_iv.c:	D_DEBUG(DB_MD, DF_UUID" distribute hdl "DF_UUID" capas "DF_U64" %d\n",
+./src/pool/srv_iv.c:		D_DEBUG(DB_MD, "retry by %u\n", entry_size);
+./src/pool/srv_iv.c:		D_DEBUG(DB_TRACE, "current pool version %u >= %u\n",
+./src/pool/cli.c:				D_DEBUG(DF_DSMC, DF_UUID ": sc_ranks[%d]=%u\n",
+./src/pool/cli.c:		D_DEBUG(DF_DSMC, DF_UUID": init pool map: %u\n",
+./src/pool/cli.c:		D_DEBUG(DF_DSMC, DF_UUID": got older pool map: %u -> %u %p\n",
+./src/pool/cli.c:	D_DEBUG(DF_DSMC, DF_UUID": updating pool map: %u -> %u\n",
+./src/pool/cli.c:		D_DEBUG(DF_DSMC, "current pool map buffer size (%ld) < size "
+./src/pool/cli.c:	D_DEBUG(DF_DSMC, DF_UUID": connected: cookie="DF_X64" hdl="DF_UUID
+./src/pool/cli.c:		D_DEBUG(DF_DSMC, DF_UUID": connecting: hdl="DF_UUIDF
+./src/pool/cli.c:	D_DEBUG(DF_DSMC, DF_UUID": disconnected: cookie="DF_X64" hdl="DF_UUID
+./src/pool/cli.c:	D_DEBUG(DF_DSMC, DF_UUID": disconnecting: hdl="DF_UUID" cookie="DF_X64
+./src/pool/cli.c:		D_DEBUG(DF_DSMC, DF_UUID": disconnecting: cookie="DF_X64" hdl="
+./src/pool/cli.c:		D_DEBUG(DF_DSMC, "Invalid parameter, NULL glob pointer.\n");
+./src/pool/cli.c:		D_DEBUG(DF_DSMC, "Invalid parameter of glob, iov_buf %p, "
+./src/pool/cli.c:	D_DEBUG(DF_DSMC, DF_UUID": connected: cookie="DF_X64" hdl="DF_UUID
+./src/pool/cli.c:		D_DEBUG(DF_DSMC, "Invalid parameter of glob, iov_buf %p, "
+./src/pool/cli.c:		D_DEBUG(DF_DSMC, "Invalid parameter, NULL poh.\n");
+./src/pool/cli.c:	D_DEBUG(DF_DSMC, DF_UUID": updated: hdl="DF_UUID" failed=%d\n",
+./src/pool/cli.c:	D_DEBUG(DF_DSMC, DF_UUID": opc %d targets:%u tgts[0]=%u/%d\n",
+./src/pool/cli.c:	D_DEBUG(DF_DSMC, DF_UUID": query rpc done: %d\n",
+./src/pool/cli.c:	D_DEBUG(DF_DSMC, DF_UUID": querying: hdl="DF_UUID" tgts=%p info=%p\n",
+./src/pool/cli.c:	D_DEBUG(DF_DSMC, DF_UUID": list cont rpc done: %d\n",
+./src/pool/cli.c:	D_DEBUG(DF_DSMC, DF_UUID": list containers: hdl="DF_UUID"\n",
+./src/pool/cli.c:	D_DEBUG(DF_DSMC, "req_ncont="DF_U64" (cont_buf=%p, *ncont="DF_U64"\n",
+./src/pool/cli.c:	D_DEBUG(DF_DSMC, DF_UUID": target query rpc done: %d\n",
+./src/pool/cli.c:	D_DEBUG(DF_DSMC, DF_UUID": querying: hdl="DF_UUID" tgt=%d rank=%d\n",
+./src/pool/cli.c:		D_DEBUG(DF_DSMC, DF_UUID": failed to access pool: %d\n",
+./src/pool/cli.c:	D_DEBUG(DF_DSMC, DF_UUID": Accessed: using hdl="DF_UUID"\n",
+./src/pool/cli.c:	D_DEBUG(DF_DSMC, DF_UUID": listing attributes: hdl="
+./src/pool/cli.c:	D_DEBUG(DF_DSMC, "Failed to list pool attributes: "DF_RC"\n",
+./src/pool/cli.c:	D_DEBUG(DF_DSMC, DF_UUID": getting attributes: hdl="DF_UUID"\n",
+./src/pool/cli.c:	D_DEBUG(DF_DSMC, "Failed to get pool attributes: "DF_RC"\n", DP_RC(rc));
+./src/pool/cli.c:	D_DEBUG(DF_DSMC, DF_UUID": setting attributes: hdl="DF_UUID"\n",
+./src/pool/cli.c:	D_DEBUG(DF_DSMC, "Failed to set pool attributes: "DF_RC"\n", DP_RC(rc));
+./src/pool/cli.c:	D_DEBUG(DF_DSMC, DF_UUID": deleting attributes: hdl="DF_UUID"\n",
+./src/pool/cli.c:	D_DEBUG(DF_DSMC, "Failed to del pool attributes: "DF_RC"\n", DP_RC(rc));
+./src/pool/cli.c:	D_DEBUG(DF_DSMC, DF_UUID": stop rpc done: %d\n",
+./src/pool/cli.c:	D_DEBUG(DF_DSMC, DF_UUID": stopping svc: hdl="DF_UUID"\n",
+./src/pool/srv_pool_map.c:			D_DEBUG(DF_DSMS, "change "DF_TARGET" to DOWN %p\n",
+./src/pool/srv_pool_map.c:			D_DEBUG(DF_DSMS, "change "DF_TARGET" to DRAIN %p\n",
+./src/pool/srv_pool_map.c:			D_DEBUG(DF_DSMS, "change "DF_TARGET" to UP %p\n",
+./src/pool/srv_pool_map.c:			D_DEBUG(DF_DSMS, "change rank %u to UP\n",
+./src/pool/srv_pool_map.c:			D_DEBUG(DF_DSMS, "change "DF_TARGET" to UPIN %p\n",
+./src/pool/srv_pool_map.c:			D_DEBUG(DF_DSMS, "change "DF_TARGET" to DOWNOUT %p\n",
+./src/pool/srv_pool_map.c:			D_DEBUG(DF_DSMS, "change rank %u to DOWN\n",
+./src/pool/srv_pool_map.c:		D_DEBUG(DF_DSMS, "generating map %p version %u:\n",
+./src/pool/srv_cli.c:	D_DEBUG(DB_TRACE, "after alloc "DF_UUIDF"\n", DP_UUID(pool_uuid));
+./src/pool/srv_cli.c:	D_DEBUG(DB_TRACE, "before update "DF_UUIDF"\n", DP_UUID(pool_uuid));
+./src/pool/srv_cli.c:	D_DEBUG(DF_DSMC, DF_UUID": create: hdl="DF_UUIDF" flags=%x\n",
+./src/pool/srv_target.c:		D_DEBUG(DF_DSMS, DF_UUID": destroying\n",
+./src/pool/srv_target.c:	D_DEBUG(DF_DSMS, DF_UUID"[%d]: GC ULT started\n",
+./src/pool/srv_target.c:	D_DEBUG(DF_DSMS, DF_UUID"[%d]: GC ULT stopped\n",
+./src/pool/srv_target.c:	D_DEBUG(DF_DSMS, DF_UUID"[%d]: Stopping GC ULT\n",
+./src/pool/srv_target.c:	D_DEBUG(DF_DSMS, DF_UUID": creating\n", DP_UUID(arg->pla_uuid));
+./src/pool/srv_target.c:	D_DEBUG(DF_DSMS, DF_UUID": creating\n", DP_UUID(key));
+./src/pool/srv_target.c:	D_DEBUG(DF_DSMS, DF_UUID": freeing\n", DP_UUID(pool->sp_uuid));
+./src/pool/srv_target.c:		D_DEBUG(DB_MD, DF_UUID": no ESs\n", DP_UUID(pool->sp_uuid));
+./src/pool/srv_target.c:		D_DEBUG(DB_MD, DF_UUID": skip fetching hdl due to stop\n",
+./src/pool/srv_target.c:	D_DEBUG(DB_MD, DF_UUID": Stopping EC query ULT\n",
+./src/pool/srv_target.c:	D_DEBUG(DF_DSMS, DF_UUID": freeing "DF_UUID"\n",
+./src/pool/srv_target.c:		D_DEBUG(DB_TRACE, "Skip empty space info\n");
+./src/pool/srv_target.c:			D_DEBUG(DF_DSMS, DF_UUID": found compatible pool "
+./src/pool/srv_target.c:	D_DEBUG(DF_DSMS, DF_UUID": connect "DF_RC"\n",
+./src/pool/srv_target.c:		D_DEBUG(DF_DSMS, "handle "DF_UUID" does not exist\n",
+./src/pool/srv_target.c:	D_DEBUG(DF_DSMS, DF_UUID": handling rpc %p: hdls[0]="DF_UUID" nhdls="
+./src/pool/srv_target.c:	D_DEBUG(DF_DSMS, DF_UUID": replying rpc %p: %d "DF_RC"\n",
+./src/pool/srv_target.c:	D_DEBUG(DB_MD, DF_UUID": %u -> %u\n", DP_UUID(pool->sp_uuid), version,
+./src/pool/srv_target.c:			D_DEBUG(DB_MD, DF_UUID": SG and PG out of sync: %d\n",
+./src/pool/srv_target.c:		D_DEBUG(DB_MD, DF_UUID
+./src/pool/srv_target.c:		D_DEBUG(DB_MD, DF_UUID
+./src/pool/srv_pool_scrub.c:#define C_TRACE(...) D_DEBUG(DB_CSUM, __VA_ARGS__)
+./src/pool/srv_layout.c:		D_DEBUG(DB_MGMT,
+./src/pool/srv_layout.c:		D_DEBUG(DB_MGMT, "Freeing default ACL pool prop\n");
+./src/pool/srv_pool.c:	D_DEBUG(DF_DSMS, "version=%u ntargets=%u ndomains=%u\n", version,
+./src/pool/srv_pool.c:	D_DEBUG(DF_DSMS, "version=%u ntargets=%u ndomains=%u\n", *version,
+./src/pool/srv_pool.c:			D_DEBUG(DB_MD, "failed to open uuid file %s: %d\n",
+./src/pool/srv_pool.c:		D_DEBUG(DB_MD, "ranks[%d]: %u\n", j, target_addrs->rl_ranks[i]);
+./src/pool/srv_pool.c:	D_DEBUG(DB_MGMT, DF_UUID" evict rank %u : rc %d\n",
+./src/pool/srv_pool.c:		D_DEBUG(DB_MGMT, "ignore src/type/evict %u/%u/%d\n",
+./src/pool/srv_pool.c:		D_DEBUG(DB_MGMT, "self healing is disabled\n");
+./src/pool/srv_pool.c:		D_DEBUG(DB_MD, DF_UUID": no layout version\n",
+./src/pool/srv_pool.c:			D_DEBUG(DB_MD, DF_UUID": new db\n",
+./src/pool/srv_pool.c:		D_DEBUG(DB_REBUILD, DF_UUID" disable swim evict.\n",
+./src/pool/srv_pool.c:		D_DEBUG(DB_REBUILD, "rank/state %d/%d\n",
+./src/pool/srv_pool.c:	D_DEBUG(DB_MD, DF_UUID": starting pool\n", DP_UUID(uuid));
+./src/pool/srv_pool.c:	D_DEBUG(DB_MD, DF_UUID": stopping pool\n", DP_UUID(uuid));
+./src/pool/srv_pool.c:	D_DEBUG(DF_DSMS, DF_UUID": processing rpc %p\n",
+./src/pool/srv_pool.c:		D_DEBUG(DB_MD, DF_UUID": pool service already stopping\n",
+./src/pool/srv_pool.c:			D_DEBUG(DF_DSMS, DF_UUID": db already initialized\n",
+./src/pool/srv_pool.c:		D_DEBUG(DF_DSMS, DF_UUID": trying to finish stepping up\n",
+./src/pool/srv_pool.c:	D_DEBUG(DF_DSMS, DF_UUID": replying rpc %p: "DF_RC"\n",
+./src/pool/srv_pool.c:	D_DEBUG(DF_DSMS, DF_UUID": bcasting\n", DP_UUID(svc->ps_uuid));
+./src/pool/srv_pool.c:			D_DEBUG(DF_DSMS, DF_UUID":"DF_UUID" some ranks stop.\n",
+./src/pool/srv_pool.c:	D_DEBUG(DF_DSMS, DF_UUID": bcasted: "DF_RC"\n", DP_UUID(svc->ps_uuid),
+./src/pool/srv_pool.c:	D_DEBUG(DF_DSMS, DF_UUID": processing rpc %p: hdl="DF_UUID"\n",
+./src/pool/srv_pool.c:	D_DEBUG(DF_DSMS, DF_UUID": connectable=%u\n",
+./src/pool/srv_pool.c:			D_DEBUG(DF_DSMS, DF_UUID": others already connected\n",
+./src/pool/srv_pool.c:	D_DEBUG(DF_DSMS, DF_UUID": replying rpc %p: "DF_RC"\n",
+./src/pool/srv_pool.c:	D_DEBUG(DF_DSMS, DF_UUID": bcasting\n", DP_UUID(svc->ps_uuid));
+./src/pool/srv_pool.c:	D_DEBUG(DF_DSMS, DF_UUID": bcasted: "DF_RC"\n", DP_UUID(svc->ps_uuid),
+./src/pool/srv_pool.c:	D_DEBUG(DF_DSMS, DF_UUID": disconnecting %d hdls: hdl_uuids[0]="DF_UUID
+./src/pool/srv_pool.c:	D_DEBUG(DF_DSMS, DF_UUID": leaving: "DF_RC"\n", DP_UUID(svc->ps_uuid),
+./src/pool/srv_pool.c:	D_DEBUG(DF_DSMS, DF_UUID": processing rpc %p: hdl="DF_UUID"\n",
+./src/pool/srv_pool.c:	D_DEBUG(DF_DSMS, DF_UUID": replying rpc %p: "DF_RC"\n",
+./src/pool/srv_pool.c:	D_DEBUG(DB_MD, DF_UUID": bcasting\n", DP_UUID(svc->ps_uuid));
+./src/pool/srv_pool.c:	D_DEBUG(DB_MD, DF_UUID": bcasted: "DF_RC"\n", DP_UUID(svc->ps_uuid),
+./src/pool/srv_pool.c:	D_DEBUG(DB_MGMT, DF_UUID": Getting container list\n", DP_UUID(uuid));
+./src/pool/srv_pool.c:	D_DEBUG(DF_DSMS, DF_UUID": processing rpc %p: hdl="DF_UUID"\n",
+./src/pool/srv_pool.c:		D_DEBUG(DF_DSMS, DF_UUID": hdl="DF_UUID": has %"PRIu64
+./src/pool/srv_pool.c:		D_DEBUG(DF_DSMS, DF_UUID": hdl="DF_UUID": has %"PRIu64
+./src/pool/srv_pool.c:	D_DEBUG(DF_DSMS, DF_UUID": replying rpc %p: %d\n",
+./src/pool/srv_pool.c:	D_DEBUG(DF_DSMS, DF_UUID": processing rpc %p: hdl="DF_UUID"\n",
+./src/pool/srv_pool.c:	D_DEBUG(DF_DSMS, DF_UUID": replying rpc %p: "DF_RC"\n",
+./src/pool/srv_pool.c:	D_DEBUG(DF_DSMS, DF_UUID": processing rpc %p: hdl="DF_UUID"\n",
+./src/pool/srv_pool.c:	D_DEBUG(DF_DSMS, DF_UUID": replying rpc %p: "DF_RC"\n",
+./src/pool/srv_pool.c:	D_DEBUG(DB_MGMT, DF_UUID": Querying pool\n", DP_UUID(pool_uuid));
+./src/pool/srv_pool.c:	D_DEBUG(DB_MGMT, "Successfully queried pool\n");
+./src/pool/srv_pool.c:	D_DEBUG(DF_DSMS, DF_UUID": processing rpc %p\n",
+./src/pool/srv_pool.c:	D_DEBUG(DF_DSMS, DF_UUID": replying rpc %p: "DF_RC"\n",
+./src/pool/srv_pool.c:	D_DEBUG(DB_MGMT, DF_UUID": Getting prop\n", DP_UUID(pool_uuid));
+./src/pool/srv_pool.c:	D_DEBUG(DF_DSMS, DF_UUID": processing rpc %p\n",
+./src/pool/srv_pool.c:	D_DEBUG(DF_DSMS, DF_UUID": replying rpc %p: %d\n",
+./src/pool/srv_pool.c:	D_DEBUG(DB_MGMT, DF_UUID": Setting pool prop\n", DP_UUID(pool_uuid));
+./src/pool/srv_pool.c:	D_DEBUG(DF_DSMS, DF_UUID": processing rpc %p\n",
+./src/pool/srv_pool.c:	D_DEBUG(DF_DSMS, DF_UUID": replying rpc %p: %d\n",
+./src/pool/srv_pool.c:	D_DEBUG(DB_MGMT, DF_UUID": Updating pool ACL\n", DP_UUID(pool_uuid));
+./src/pool/srv_pool.c:	D_DEBUG(DF_DSMS, DF_UUID": processing rpc %p\n",
+./src/pool/srv_pool.c:	D_DEBUG(DF_DSMS, DF_UUID": replying rpc %p: %d\n",
+./src/pool/srv_pool.c:	D_DEBUG(DB_MGMT, DF_UUID": Deleting entry from pool ACL\n",
+./src/pool/srv_pool.c:		D_DEBUG(DB_MD, DF_UUID": cannot replace failed replicas: "
+./src/pool/srv_pool.c:			D_DEBUG(DB_MD, DF_UUID": failed to update replicas\n",
+./src/pool/srv_pool.c:				D_DEBUG(DB_MD, DF_UUID": replica update notify "
+./src/pool/srv_pool.c:	D_DEBUG(DF_DSMS, DF_UUID": version=%u->%u\n",
+./src/pool/srv_pool.c:		D_DEBUG(DB_MD, DF_UUID": failed to commit: "DF_RC"\n",
+./src/pool/srv_pool.c:	D_DEBUG(DF_DSMS, DF_UUID": packed %u handles into %zu bytes\n",
+./src/pool/srv_pool.c:		D_DEBUG(DB_TRACE, "Rebuild is disabled\n");
+./src/pool/srv_pool.c:		D_DEBUG(DB_MGMT, "self healing is disabled\n");
+./src/pool/srv_pool.c:	D_DEBUG(DF_DSMS, "map ver %u/%u\n", map_version ? *map_version : -1,
+./src/pool/srv_pool.c:		D_DEBUG(DB_MD, DF_UUID": failed to commit: "DF_RC"\n",
+./src/pool/srv_pool.c:	D_DEBUG(DF_DSMS, DF_UUID": replying rpc %p: "DF_RC"\n",
+./src/pool/srv_pool.c:	D_DEBUG(DF_DSMS, DF_UUID": processing rpc %p: ntargets=%zu\n",
+./src/pool/srv_pool.c:	D_DEBUG(DF_DSMS, DF_UUID": replying rpc %p: "DF_RC"\n",
+./src/pool/srv_pool.c:	D_DEBUG(DB_MGMT, "Exclude pool "DF_UUID"/%u rank %u: rc %d\n",
+./src/pool/srv_pool.c:			D_DEBUG(DF_DSMS, "Skipping invalid handle" DF_UUID "\n",
+./src/pool/srv_pool.c:	D_DEBUG(DF_DSMS, DF_UUID": processing rpc %p\n",
+./src/pool/srv_pool.c:			D_DEBUG(DF_DSMS, DF_UUID": busy, %u open handles\n",
+./src/pool/srv_pool.c:		D_DEBUG(DF_DSMS, DF_UUID": pool destroy/evict: mark pool for "
+./src/pool/srv_pool.c:	D_DEBUG(DF_DSMS, DF_UUID": replying rpc %p: "DF_RC"\n",
+./src/pool/srv_pool.c:	D_DEBUG(DB_MGMT,
+./src/pool/srv_pool.c:	D_DEBUG(DB_MGMT, DF_UUID ": Getting storage ranks\n", DP_UUID(uuid));
+./src/pool/srv_pool.c:	D_DEBUG(DF_DSMS, DF_UUID ": send POOL_RANKS_GET to PS rank %u, "
+./src/pool/srv_pool.c:	D_DEBUG(DF_DSMS, DF_UUID ": processing rpc %p:\n",
+./src/pool/srv_pool.c:		D_DEBUG(DF_DSMS, DF_UUID ": %u ranks (more than client: %u)\n",
+./src/pool/srv_pool.c:		D_DEBUG(DF_DSMS, DF_UUID ": %u ranks\n",
+./src/pool/srv_pool.c:	D_DEBUG(DF_DSMS, DF_UUID ": replying rpc %p: %d\n",
+./src/pool/srv_pool.c:	D_DEBUG(DF_DSMS, DF_UUID": processing rpc %p\n",
+./src/pool/srv_pool.c:	D_DEBUG(DF_DSMS, DF_UUID": replying rpc %p: "DF_RC"\n",
+./src/pool/srv_pool.c:	D_DEBUG(DF_DSMS, DF_UUID": processing rpc %p: hdl="DF_UUID"\n",
+./src/pool/srv_pool.c:	D_DEBUG(DF_DSMS, DF_UUID": replying rpc %p: "DF_RC"\n",
+./src/pool/srv_pool.c:	D_DEBUG(DF_DSMS, DF_UUID": processing rpc %p: hdl="DF_UUID"\n",
+./src/pool/srv_pool.c:	D_DEBUG(DF_DSMS, DF_UUID": replying rpc %p: "DF_RC"\n",
+./src/pool/srv_pool.c:	D_DEBUG(DF_DSMS, DF_UUID": processing rpc %p: hdl="DF_UUID"\n",
+./src/pool/srv_pool.c:	D_DEBUG(DF_DSMS, DF_UUID": replying rpc %p: "DF_RC"\n",
+./src/pool/srv_pool.c:	D_DEBUG(DF_DSMS, DF_UUID": processing rpc %p: hdl="DF_UUID"\n",
+./src/pool/srv_pool.c:	D_DEBUG(DF_DSMS, DF_UUID": replying rpc %p: "DF_RC"\n",
+./src/pool/srv_pool.c:	D_DEBUG(DB_TRACE, "get new leader tgt id %d\n", leader);
+./src/client/dfs/duns.c:	D_DEBUG(DB_TRACE, "%s has been found and dynamically binded !\n",
+./src/client/dfs/duns.c:	D_DEBUG(DB_TRACE, "llapi_dir_create_foreign() resolved at %p\n",
+./src/client/dfs/duns.c:	D_DEBUG(DB_TRACE, "llapi_unlink_foreign() resolved at %p\n",
+./src/client/dfs/duns.c:	D_DEBUG(DB_TRACE, "Trying to retrieve associated container's infos "
+./src/client/dfs/duns.c:		D_DEBUG(DB_TRACE, "DUNS resolve to direct path: %s\n", dir);
+./src/client/dfs/dfs.c:	D_DEBUG(DB_TRACE, "(%o)\t", mode);
+./src/client/dfs/dfs.c:	D_DEBUG(DB_TRACE, (mode & S_IRUSR) ? "r" : "-");
+./src/client/dfs/dfs.c:	D_DEBUG(DB_TRACE, (mode & S_IWUSR) ? "w" : "-");
+./src/client/dfs/dfs.c:	D_DEBUG(DB_TRACE, (mode & S_IXUSR) ? "x" : "-");
+./src/client/dfs/dfs.c:	D_DEBUG(DB_TRACE, (mode & S_IRGRP) ? "r" : "-");
+./src/client/dfs/dfs.c:	D_DEBUG(DB_TRACE, (mode & S_IWGRP) ? "w" : "-");
+./src/client/dfs/dfs.c:	D_DEBUG(DB_TRACE, (mode & S_IXGRP) ? "x" : "-");
+./src/client/dfs/dfs.c:	D_DEBUG(DB_TRACE, (mode & S_IROTH) ? "r" : "-");
+./src/client/dfs/dfs.c:	D_DEBUG(DB_TRACE, (mode & S_IWOTH) ? "w" : "-");
+./src/client/dfs/dfs.c:	D_DEBUG(DB_TRACE, (mode & S_IXOTH) ? "x" : "-");
+./src/client/dfs/dfs.c:	D_DEBUG(DB_TRACE, "\n");
+./src/client/dfs/dfs.c:	D_DEBUG(DB_TRACE, "Size = %zu\n", stbuf->st_size);
+./src/client/dfs/dfs.c:	D_DEBUG(DB_TRACE, "UID %lu\n", (unsigned long int)stbuf->st_uid);
+./src/client/dfs/dfs.c:	D_DEBUG(DB_TRACE, "GID %lu\n", (unsigned long int)stbuf->st_gid);
+./src/client/dfs/dfs.c:	D_DEBUG(DB_TRACE, "Access time %s\n", buf);
+./src/client/dfs/dfs.c:	D_DEBUG(DB_TRACE, "Modify time %s\n", buf);
+./src/client/dfs/dfs.c:	D_DEBUG(DB_TRACE, "Change time %s\n", buf);
+./src/client/dfs/dfs.c:	D_DEBUG(DB_TRACE, "available domain=%d, targets=%d\n",
+./src/client/dfs/dfs.c:		D_DEBUG(DB_ALL, "DFS mount with distributed transactions.\n");
+./src/client/dfs/dfs.c:		D_DEBUG(DF_DSMC, "Larger glob buffer needed ("DF_U64" bytes "
+./src/client/dfs/dfs.c:				D_DEBUG(DB_TRACE,
+./src/client/dfs/dfs.c:					D_DEBUG(DB_TRACE,
+./src/client/dfs/dfs.c:					D_DEBUG(DB_TRACE,
+./src/client/dfs/dfs.c:				D_DEBUG(DB_TRACE,
+./src/client/dfs/dfs.c:			D_DEBUG(DB_TRACE, "Failed to open file (%d)\n", rc);
+./src/client/dfs/dfs.c:			D_DEBUG(DB_TRACE, "Failed to open dir (%d)\n", rc);
+./src/client/dfs/dfs.c:			D_DEBUG(DB_TRACE, "Failed to open symlink (%d)\n", rc);
+./src/client/dfs/dfs.c:		D_DEBUG(DF_DSMC, "Larger glob buffer needed ("DF_U64" bytes "
+./src/client/dfs/dfs.c:	D_DEBUG(DB_TRACE, "DFS Read: Off %"PRIu64", Len %zu\n", off, buf_size);
+./src/client/dfs/dfs.c:	D_DEBUG(DB_TRACE, "DFS Write: Off %"PRIu64", Len %zu\n", off, buf_size);
+./src/client/dfs/dfs.c:		D_DEBUG(DB_TRACE, "Failed to lookup symlink %s\n",
+./src/client/array/dc_array.c:		D_DEBUG(DF_DSMC, "Larger glob buffer needed ("DF_U64" bytes "
+./src/client/array/dc_array.c:	D_DEBUG(DB_IO, "zero hole segment, buf %p, len %zu\n", buf, len);
+./src/client/array/dc_array.c:			D_DEBUG(DB_IO, "zero out sg_idx %u/"DF_U64
+./src/client/array/dc_array.c:			D_DEBUG(DB_IO, "zero out sg_idx %u/"DF_U64"/"DF_U64"\n",
+./src/client/array/dc_array.c:		D_DEBUG(DB_IO, "DKEY "DF_U64": possible shortfetch %zu recs\n",
+./src/client/array/dc_array.c:		D_DEBUG(DB_IO, "DKEY IOD "DF_U64": idx = %d\t num_records = %zu"
+./src/client/array/dc_array.c:			D_DEBUG(DB_IO, "%zu: index = "DF_U64", size = %zu\n",
+./src/client/array/dc_array.c:		D_DEBUG(DB_IO, "DKEY IOD "DF_U64" ---------------\n", dkey_val);
+./src/client/array/dc_array.c:	D_DEBUG(DB_IO, "Key Query: dkey %zu, IDX %"PRIu64", NR %"PRIu64"\n",
+./src/client/array/dc_array.c:	D_DEBUG(DB_IO, "Punching Key %zu\n", dkey_val);
+./src/client/array/dc_array.c:	D_DEBUG(DB_IO, "Punching (%zu, %zu) in Key %zu\n",
+./src/client/array/dc_array.c:	D_DEBUG(DB_IO, "update record (%zu, %zu), iod_size %zu.\n",
+./src/client/array/dc_array.c:			D_DEBUG(DB_IO, "Punching key: "DF_U64"\n", dkey_val);
+./src/client/array/dc_array.c:				D_DEBUG(DB_IO, "Punch extent in key "DF_U64"\n",
+./src/client/array/dc_array.c:		D_DEBUG(DB_IO, "Extending array key %zu, rec = %d\n",
+./src/client/pydaos/pydaos_shim.c:		D_DEBUG(DB_ANY, "Bad args passed to %s", __func__);	\
+./src/placement/jump_map.c:				D_DEBUG(DB_PL,
+./src/placement/jump_map.c:	D_DEBUG(DB_PL,
+./src/placement/jump_map.c:	D_DEBUG(DB_PL, "Allow status: [%s%s%s%s%s%s%s ]\n",
+./src/placement/jump_map.c:		D_DEBUG(DB_PL, "Attempting to remap failed shard: "
+./src/placement/jump_map.c:			D_DEBUG(DB_PL, "Trying new target: "DF_TARGET"\n",
+./src/placement/jump_map.c:	D_DEBUG(DB_PL, "Building layout. map version: %d\n", layout->ol_ver);
+./src/placement/jump_map.c:				D_DEBUG(DB_PL, "no targets for %d/%d/%d\n",
+./src/placement/jump_map.c:				D_DEBUG(DB_PL, "Target unavailable " DF_TARGET
+./src/placement/jump_map.c:	D_DEBUG(DB_PL, "Determining location for object: "DF_OID", ver: %d\n",
+./src/placement/jump_map.c:		D_DEBUG(DB_PL, DF_OID"/%d is being extended.\n",
+./src/placement/jump_map.c:	D_DEBUG(DB_PL, "Finding Rebuild at version: %u\n", rebuild_ver);
+./src/placement/jump_map.c:	D_DEBUG(DB_PL, "Finding Reint at version: %u\n", reint_ver);
+./src/placement/jump_map.c:	D_DEBUG(DB_PL, "Finding new layout for server addition\n");
+./src/placement/ring_map.c:		D_DEBUG(DB_PL, "Found %d targets for %s[%d]\n",
+./src/placement/ring_map.c:	D_DEBUG(DB_PL, "Sort %d targets of %s[%d] by version\n",
+./src/placement/ring_map.c:	D_DEBUG(DB_PL, "Sort domains by version\n");
+./src/placement/ring_map.c:	D_DEBUG(DB_PL, "Copy scratch buffer\n");
+./src/placement/ring_map.c:	D_DEBUG(DB_PL, "Create ring %d [%d targets] for rimap\n",
+./src/placement/ring_map.c:	D_DEBUG(DB_PL, "Built %d rings for placement map\n",
+./src/placement/ring_map.c:	D_DEBUG(DB_PL, "Build consistent hash for ring map\n");
+./src/placement/ring_map.c:	D_DEBUG(DB_PL, "domanis %d, targets %d, hash range is 0-0x"DF_X64"\n",
+./src/placement/ring_map.c:	D_DEBUG(DB_PL, "Create ring map: domain %s, ring_nr: %d\n",
+./src/placement/ring_map.c:	D_DEBUG(DB_PL, "create obj with rank/tgt %d/%d pl pos %d\n",
+./src/placement/ring_map.c:	D_DEBUG(DB_PL,
+./src/placement/ring_map.c:	D_DEBUG(DB_PL, "ring map: ver %d, nrims %d, domain_nr %d, "
+./src/placement/ring_map.c:		D_DEBUG(DB_PL, "ring[%d]\n", index);
+./src/placement/ring_map.c:			D_DEBUG(DB_PL, "id:%d fseq:%d status:%d rank %d",
+./src/placement/ring_map.c:				D_DEBUG(DB_PL, "\n");
+./src/placement/ring_map.c:		D_DEBUG(DB_PL, "obj:"DF_OID", select spare:%d grp_size:%u, "
+./src/placement/ring_map.c:		D_DEBUG(DB_PL, "Not replicated object "DF_OID"\n",
+./src/placement/ring_map.c:		D_DEBUG(DB_PL, "Not replicated object "DF_OID"\n",
+./src/placement/pl_map_common.c:	D_DEBUG(DB_PL, "fnew: %u/%d/%u/%u", f_new->fs_shard_idx,
+./src/placement/pl_map_common.c:		D_DEBUG(DB_PL, "fnew: %u, fshard: %u", f_new->fs_shard_idx,
+./src/placement/pl_map_common.c:	D_DEBUG(DB_PL, "tgt %u status %u reint %s\n", tgt->ta_comp.co_id,
+./src/placement/pl_map_common.c:	D_DEBUG(DB_PL, "remap list for "DF_OID", %s, ver %d\n",
+./src/placement/pl_map_common.c:		D_DEBUG(DB_PL, "fseq:%u, shard_idx:%u status:%u tgt %d\n",
+./src/placement/pl_map_common.c:			D_DEBUG(DB_REBUILD, ""DF_OID" skip idx %u"
+./src/placement/pl_map_common.c:		D_DEBUG(DB_PL, "Spare target is also unavailable " DF_TARGET
+./src/placement/pl_map_common.c:			D_DEBUG(DB_PL, DF_OID", "DF_TARGET", ver: %d\n",
+./src/placement/pl_map_common.c:			D_DEBUG(DB_PL, "spare tgt %u co fs_seq %u"
+./src/placement/pl_map_common.c:		D_DEBUG(DB_PL, "failed shard ("DF_FAILEDSHARD") added to "
+./src/placement/pl_map_common.c:		D_DEBUG(DB_PL, "spare_tgt %u status %u f_seq %u try next.\n",
+./src/placement/pl_map.c:		D_DEBUG(DB_PL,
+./src/placement/pl_map.c:	D_DEBUG(DB_PL, "Create a %s placement map\n", dict->pd_name);
+./src/placement/pl_map.c:	D_DEBUG(DB_PL, "dump layout for "DF_OID", ver %d\n",
+./src/placement/pl_map.c:		D_DEBUG(DB_PL, "%d: shard_id %d, tgt_id %d, f_seq %d, %s\n",

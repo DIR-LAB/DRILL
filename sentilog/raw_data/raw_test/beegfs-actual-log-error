@@ -1,0 +1,39 @@
+Unable to proceed without a working root metadata node
+Retrieval of root directory entry failed. Are all metadata servers running and registered at the management daemon? (Error: Unknown node)
+Unable to proceed without a working root metadata node
+Retrieval of root directory entry failed. Are all metadata servers running and registered at the management daemon? (Error: Unknown node)
+Management node found. Downloading node groups...
+Unable to proceed without a working root metadata node
+Retrieval of root directory entry failed. Are all metadata servers running and registered at the management daemon? (Error: Unknown node)
+Unable to create subdir: buddymir/inodes/C/60
+Unable to create subdir: buddymir/inodes/C/60
+Unable to create subdir: buddymir/inodes/C/5F
+Unable to create subdir: buddymir/inodes/C/5F
+Could not open storage pool mappings file. storePath: storagePools; sysErr: No such file or directory (2)
+Could not read states. nodeType: beegfs-storage; Error: Path does not exist
+Could not read states. nodeType: beegfs-meta; Error: Path does not exist
+Could not open storage pool mappings file. storePath: storagePools; sysErr: No such file or directory (2)
+Could not read states. nodeType: beegfs-storage; Error: Path does not exist
+Could not read states. nodeType: beegfs-meta; Error: Path does not exist
+Could not open temporary file. tmpname: /mgmt/targetStates.tmp-I6gA9X
+Could not save target states. nodeType: beegfs-storage
+Could not open temporary file. tmpname: /mgmt/nodeStates.tmp-GGN9MS
+Could not save target states. nodeType: beegfs-meta
+Could not open temporary file. tmpname: /mgmt/targetStates.tmp-iiFjwS
+Could not save target states. nodeType: beegfs-storage
+Unable to save target mappings file: targetNumIDs. SysErr: No such file or directory
+Unable to save target mappings file: targets. SysErr: No such file or directory
+Unable to save mirror buddy groups mappings file: storagebuddygroups. SysErr: No such file or directory
+Unable to save mirror buddy groups mappings file: metabuddygroups. SysErr: No such file or directory
+Could not open storage pool mappings file. storePath: storagePools; sysErr: No such file or directory (2)
+Unable to create nodes file: meta.nodes.tmp. SysErr: No such file or directory
+Unable to create nodes file: storage.nodes.tmp. SysErr: No such file or directory
+Unable to create nodes file: clients.nodes.tmp. SysErr: No such file or directory
+Could not open storage pool mappings file. storePath: storagePools; sysErr: No such file or directory (2)
+Could not read states. nodeType: beegfs-storage; Error: Path does not exist
+Could not read states. nodeType: beegfs-meta; Error: Path does not exist
+Could not open storage pool mappings file. storePath: storagePools; sysErr: No such file or directory (2)
+Could not open storage pool mappings file. storePath: storagePools; sysErr: No such file or directory (2)
+Could not read states. nodeType: beegfs-storage; Error: Path does not exist
+Could not read states. nodeType: beegfs-meta; Error: Path does not exist
+Connect failed: beegfs-mgmtd@192.168.122.1:8008 (protocol: TCP); Error: Unable to establish connection: 192.168.122.1:8008

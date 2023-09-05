@@ -1,0 +1,144 @@
+./src/test/aop/org/apache/hadoop/fi/ProbabilityModel.java:    LOG.debug("Request for " + newProbName + " returns=" + ret);
+./src/test/hdfs/org/apache/hadoop/hdfs/server/namenode/NNThroughputBenchmark.java:          LOG.debug("sendHeartbeat Name-node reply: " + cmd.getAction());
+./src/test/hdfs/org/apache/hadoop/hdfs/server/namenode/NNThroughputBenchmark.java:        LOG.debug("Cannot add block: datanode capacity = " + blocks.size());
+./src/test/hdfs/org/apache/hadoop/hdfs/TestBlockReport.java:      LOG.debug("Block " + b.getBlockName() + " before\t" + "Size " +
+./src/test/hdfs/org/apache/hadoop/hdfs/TestBlockReport.java:      LOG.debug("Setting new length");
+./src/test/hdfs/org/apache/hadoop/hdfs/TestBlockReport.java:      LOG.debug("Block " + b.getBlockName() + " after\t " + "Size " +
+./src/test/hdfs/org/apache/hadoop/hdfs/TestBlockReport.java:    LOG.debug("Number of blocks allocated " + lBlocks.size());
+./src/test/hdfs/org/apache/hadoop/hdfs/TestBlockReport.java:      LOG.debug("Removing the block " + b.getBlockName());
+./src/test/hdfs/org/apache/hadoop/hdfs/TestBlockReport.java:    LOG.debug("Missing " + cluster.getNamesystem().getMissingBlocksCount());
+./src/test/hdfs/org/apache/hadoop/hdfs/TestBlockReport.java:    LOG.debug("Corrupted " + cluster.getNamesystem().getCorruptReplicaBlocks());
+./src/test/hdfs/org/apache/hadoop/hdfs/TestBlockReport.java:    LOG.debug("Under-replicated " + cluster.getNamesystem().
+./src/test/hdfs/org/apache/hadoop/hdfs/TestBlockReport.java:    LOG.debug("Pending delete " + cluster.getNamesystem().
+./src/test/hdfs/org/apache/hadoop/hdfs/TestBlockReport.java:    LOG.debug("Pending replications " + cluster.getNamesystem().
+./src/test/hdfs/org/apache/hadoop/hdfs/TestBlockReport.java:    LOG.debug("Excess " + cluster.getNamesystem().getExcessBlocks());
+./src/test/hdfs/org/apache/hadoop/hdfs/TestBlockReport.java:    LOG.debug("Total " + cluster.getNamesystem().getBlocksTotal());
+./src/test/hdfs/org/apache/hadoop/hdfs/TestBlockReport.java:        LOG.debug(i + " block to be omitted");
+./src/java/org/apache/hadoop/hdfs/DFSClient.java:    LOG.debug(src + ": masked=" + masked);
+./src/java/org/apache/hadoop/hdfs/DFSClient.java:    LOG.debug(src + ": masked=" + absPermission);
+./src/java/org/apache/hadoop/hdfs/DFSClient.java:            LOG.debug("write to " + datanodes[j].getName() + ": "
+./src/java/org/apache/hadoop/hdfs/DFSClient.java:                LOG.debug("Got access token error in response to OP_BLOCK_CHECKSUM "
+./src/java/org/apache/hadoop/hdfs/DFSClient.java:              LOG.debug("set bytesPerCRC=" + bytesPerCRC
+./src/java/org/apache/hadoop/hdfs/DFSClient.java:            LOG.debug("got reply from " + datanodes[j].getName()
+./src/java/org/apache/hadoop/hdfs/DFSClient.java:    LOG.debug(src + ": masked=" + masked);
+./src/java/org/apache/hadoop/hdfs/DFSClient.java:    LOG.debug(src + ": masked=" + absPermission);
+./src/java/org/apache/hadoop/hdfs/DFSClient.java:        LOG.debug("Wait for lease checker to terminate");
+./src/java/org/apache/hadoop/hdfs/DFSClient.java:            LOG.debug(this + " is interrupted.", ie);
+./src/java/org/apache/hadoop/hdfs/DFSClient.java:          LOG.debug("DFSClient readChunk got seqno " + seqno +
+./src/java/org/apache/hadoop/hdfs/DFSClient.java:        LOG.debug("Could not write to datanode " + sock.getInetAddress() +
+./src/java/org/apache/hadoop/hdfs/DFSClient.java:        LOG.debug("newInfo = " + newInfo);
+./src/java/org/apache/hadoop/hdfs/DFSClient.java:            LOG.debug("Faild to getReplicaVisibleLength from datanode "
+./src/java/org/apache/hadoop/hdfs/DFSClient.java:            LOG.debug("Exception while seek to " + targetPos + " from "
+./src/java/org/apache/hadoop/hdfs/DFSClient.java:        LOG.debug("Closing old block " + block);
+./src/java/org/apache/hadoop/hdfs/DFSClient.java:              LOG.debug("Allocating new block");
+./src/java/org/apache/hadoop/hdfs/DFSClient.java:              LOG.debug("Append to block " + block);
+./src/java/org/apache/hadoop/hdfs/DFSClient.java:              LOG.debug("DataStreamer block " + block +
+./src/java/org/apache/hadoop/hdfs/DFSClient.java:              LOG.debug("DFSClient received ack for seqno " + seqno);
+./src/java/org/apache/hadoop/hdfs/DFSClient.java:                    LOG.debug(replies);
+./src/java/org/apache/hadoop/hdfs/DFSClient.java:                LOG.debug(replies);
+./src/java/org/apache/hadoop/hdfs/DFSClient.java:            LOG.debug("pipeline = " + nodes[i].getName());
+./src/java/org/apache/hadoop/hdfs/DFSClient.java:          LOG.debug("Connecting to " + nodes[0].getName());
+./src/java/org/apache/hadoop/hdfs/DFSClient.java:          LOG.debug("Send buf size " + s.getSendBufferSize());
+./src/java/org/apache/hadoop/hdfs/DFSClient.java:        LOG.debug("Set non-null progress callback on DFSOutputStream "+src);
+./src/java/org/apache/hadoop/hdfs/DFSClient.java:        LOG.debug("computePacketChunkSize: src=" + src +
+./src/java/org/apache/hadoop/hdfs/DFSClient.java:          LOG.debug("DFSClient writeChunk allocating new packet seqno=" + 
+./src/java/org/apache/hadoop/hdfs/DFSClient.java:          LOG.debug("DFSClient writeChunk packet full seqno=" +
+./src/java/org/apache/hadoop/hdfs/DFSClient.java:        LOG.debug("DFSClient flush() : saveOffset " + saveOffset +  
+./src/java/org/apache/hadoop/hdfs/server/datanode/DataXceiver.java:      LOG.debug("Number of active connections is: "
+./src/java/org/apache/hadoop/hdfs/server/datanode/DataXceiver.java:        LOG.debug(datanode.dnRegistration + ":Number of active connections is: "
+./src/java/org/apache/hadoop/hdfs/server/datanode/DataXceiver.java:      LOG.debug("writeBlock receive buf size " + s.getReceiveBufferSize() +
+./src/java/org/apache/hadoop/hdfs/server/datanode/DataXceiver.java:        LOG.debug("block=" + block + ", bytesPerCRC=" + bytesPerCRC
+./src/java/org/apache/hadoop/hdfs/server/datanode/ReplicaInPipeline.java:      DataNode.LOG.debug("writeTo blockfile is " + blockFile +
+./src/java/org/apache/hadoop/hdfs/server/datanode/ReplicaInPipeline.java:      DataNode.LOG.debug("writeTo metafile is " + metaFile +
+./src/java/org/apache/hadoop/hdfs/server/datanode/FSDataset.java:          DataNode.LOG.debug("addBlock: Moved " + metaData + " to " + newmeta);
+./src/java/org/apache/hadoop/hdfs/server/datanode/FSDataset.java:          DataNode.LOG.debug("addBlock: Moved " + src + " to " + dest);
+./src/java/org/apache/hadoop/hdfs/server/datanode/FSDataset.java:        InterDatanodeProtocol.LOG.debug("b=" + b + ", volumeMap=" + volumeMap);
+./src/java/org/apache/hadoop/hdfs/server/datanode/FSDataset.java:      DataNode.LOG.debug("Renaming " + oldmeta + " to " + newmeta);
+./src/java/org/apache/hadoop/hdfs/server/datanode/FSDataset.java:      DataNode.LOG.debug("Renaming " + blkfile + " to " + newBlkFile);
+./src/java/org/apache/hadoop/hdfs/server/datanode/FSDataset.java:      DataNode.LOG.debug("Old block file length is " + blkfile.length());
+./src/java/org/apache/hadoop/hdfs/server/datanode/FSDataset.java:      DataNode.LOG.debug("Renaming " + oldmeta + " to " + newmeta);
+./src/java/org/apache/hadoop/hdfs/server/datanode/FSDataset.java:      InterDatanodeProtocol.LOG.debug("b=" + b + ", f=" + f);
+./src/java/org/apache/hadoop/hdfs/server/datanode/BlockSender.java:        DataNode.LOG.debug("block=" + block + ", replica=" + replica);
+./src/java/org/apache/hadoop/hdfs/server/datanode/BlockSender.java:        DataNode.LOG.debug("replica=" + replica);
+./src/java/org/apache/hadoop/hdfs/server/datanode/DataNode.java:      LOG.debug("block=" + block);
+./src/java/org/apache/hadoop/hdfs/server/datanode/DataNode.java:      LOG.debug("getBlockMetaDataInfo successful block=" + stored +
+./src/java/org/apache/hadoop/hdfs/server/datanode/DataNode.java:      LOG.debug("block=" + block + ", (length=" + block.getNumBytes()
+./src/java/org/apache/hadoop/hdfs/server/datanode/BlockReceiver.java:      LOG.debug("Receiving one packet for block " + block +
+./src/java/org/apache/hadoop/hdfs/server/datanode/BlockReceiver.java:      LOG.debug("Receiving an empty packet or the end of the block " + block);
+./src/java/org/apache/hadoop/hdfs/server/datanode/BlockReceiver.java:            LOG.debug("Writing out partial crc for data len " + len);
+./src/java/org/apache/hadoop/hdfs/server/datanode/BlockReceiver.java:    //LOG.debug("Partial CRC matches 0x" + 
+./src/java/org/apache/hadoop/hdfs/server/datanode/BlockReceiver.java:        LOG.debug("PacketResponder " + numTargets + " adding seqno " + seqno +
+./src/java/org/apache/hadoop/hdfs/server/datanode/BlockReceiver.java:      LOG.debug("PacketResponder " + numTargets +
+./src/java/org/apache/hadoop/hdfs/server/datanode/BlockReceiver.java:            LOG.debug("PacketResponder " + numTargets +
+./src/java/org/apache/hadoop/hdfs/server/datanode/BlockReceiver.java:                LOG.debug("PacketResponder " + numTargets + " got -1");
+./src/java/org/apache/hadoop/hdfs/server/datanode/BlockReceiver.java:                LOG.debug("PacketResponder " + numTargets + " got -2");
+./src/java/org/apache/hadoop/hdfs/server/datanode/BlockReceiver.java:                LOG.debug("PacketResponder " + numTargets + " got seqno = " + 
+./src/java/org/apache/hadoop/hdfs/server/datanode/BlockReceiver.java:                      LOG.debug("PacketResponder " + numTargets + 
+./src/java/org/apache/hadoop/hdfs/server/datanode/BlockReceiver.java:                  LOG.debug("PacketResponder " + numTargets + " seqno = " + seqno);
+./src/java/org/apache/hadoop/hdfs/server/datanode/BlockReceiver.java:            LOG.debug("PacketResponder " + numTargets + 
+./src/java/org/apache/hadoop/hdfs/server/datanode/BlockReceiver.java:                    LOG.debug("PacketResponder for block " + block +
+./src/java/org/apache/hadoop/hdfs/server/datanode/BlockReceiver.java:            LOG.debug("PacketResponder " + block + " " + numTargets + 
+./src/java/org/apache/hadoop/hdfs/server/namenode/FSNamesystem.java:      LOG.debug("blocks = " + java.util.Arrays.asList(blocks));
+./src/java/org/apache/hadoop/hdfs/server/namenode/FSNamesystem.java:        LOG.debug("last = " + last);
+./src/java/org/apache/hadoop/hdfs/server/namenode/EditLogFileOutputStream.java:      FSNamesystem.LOG.debug("Preallocating Edit log, current size "
+./src/java/org/apache/hadoop/hdfs/server/namenode/EditLogFileOutputStream.java:      FSNamesystem.LOG.debug("Edit log size is now " + fc.size() + " written "
+./src/java/org/apache/hadoop/hdfs/server/namenode/PendingReplicationBlocks.java:      	FSNamesystem.LOG.debug("Removing pending replication for block" + block);
+./src/java/org/apache/hadoop/hdfs/server/namenode/PendingReplicationBlocks.java:          FSNamesystem.LOG.debug(
+./src/java/org/apache/hadoop/hdfs/server/namenode/PendingReplicationBlocks.java:        FSNamesystem.LOG.debug("PendingReplicationMonitor checking Q");
+./src/java/org/apache/hadoop/hdfs/server/namenode/FSImage.java:    LOG.debug("rollFSImage after purgeEditLog: storageList=" + listStorageDirectories());
+./src/java/org/apache/hadoop/hdfs/server/namenode/FSImage.java:      LOG.debug("renaming  " + ckpt.getAbsolutePath() + " to "  + curFile.getAbsolutePath());
+./src/java/org/apache/hadoop/hdfs/server/namenode/FSEditLog.java:            FSNamesystem.LOG.debug(opcode + ": " + path + 
+./src/java/org/apache/hadoop/hdfs/server/namenode/FSEditLog.java:      FSImage.LOG.debug("numOpAdd = " + numOpAdd + " numOpClose = " + numOpClose 
+./src/java/org/apache/hadoop/hdfs/server/namenode/UpgradeManagerNamenode.java:    NameNode.LOG.debug("\n   Distributed upgrade for NameNode version " 
+./src/java/org/apache/hadoop/hdfs/server/namenode/DatanodeDescriptor.java:    FSNamesystem.LOG.debug("Reported block " + block
+./src/java/org/apache/hadoop/hdfs/server/namenode/DatanodeDescriptor.java:    FSNamesystem.LOG.debug("In memory blockUCState = " + storedBlock.getBlockUCState());
+./src/java/org/apache/hadoop/hdfs/server/namenode/LeaseManager.java:      LOG.debug(getClass().getSimpleName() + ".changelease: " +
+./src/java/org/apache/hadoop/hdfs/server/namenode/LeaseManager.java:        LOG.debug("changeLease: replacing " + oldpath + " with " + newpath);
+./src/java/org/apache/hadoop/hdfs/server/namenode/LeaseManager.java:        LOG.debug(LeaseManager.class.getSimpleName()
+./src/java/org/apache/hadoop/hdfs/server/namenode/LeaseManager.java:      LOG.debug(LeaseManager.class.getSimpleName() + ".findLease: prefix=" + prefix);
+./src/java/org/apache/hadoop/hdfs/server/namenode/LeaseManager.java:            LOG.debug(name + " is interrupted", ie);
+./src/java/org/apache/hadoop/hdfs/server/namenode/FSPermissionChecker.java:      LOG.debug("ACCESS CHECK: " + this
+./src/java/org/apache/hadoop/hdfs/server/balancer/Balancer.java:                LOG.debug("Decided to move block "+ block.getBlockId()
+./src/java/org/apache/hadoop/hdfs/server/balancer/Balancer.java:            LOG.debug("Starting moving "+ block.getBlockId() +
+./src/contrib/hdfsproxy/src/java/org/apache/hadoop/hdfsproxy/ProxyForwardServlet.java:    LOG.debug("Request to " + hostname + " is forwarded to version " + version);
+./src/contrib/hdfsproxy/src/java/org/apache/hadoop/hdfsproxy/ProxyFilter.java:      LOG.debug(b.toString());
+./src/contrib/hdfsproxy/src/java/org/apache/hadoop/hdfsproxy/ProxyFilter.java:          LOG.debug("==> Entering https unit test");
+./src/contrib/hdfsproxy/src/java/org/apache/hadoop/hdfsproxy/ProxyFilter.java:        LOG.debug("\n Checking file path " + userPath);
+./src/contrib/hdfsproxy/src/java/org/apache/hadoop/hdfsproxy/LdapIpDirFilter.java:      LOG.debug(b.toString());
+./src/contrib/hdfsproxy/src/java/org/apache/hadoop/hdfsproxy/LdapIpDirFilter.java:        LOG.debug("\n Checking file path " + userPath);
+./src/contrib/hdfsproxy/src/java/org/apache/hadoop/hdfsproxy/ProxyUtil.java:          LOG.debug(sb.toString());
+./src/contrib/hdfsproxy/src/java/org/apache/hadoop/hdfsproxy/ProxyUtil.java:          LOG.debug("Exception happend for host " + hostname, e);
+./src/contrib/thriftfs/src/java/org/apache/hadoop/thriftfs/HadoopThriftServer.java:        HadoopThriftHandler.LOG.debug("create: " + path);
+./src/contrib/thriftfs/src/java/org/apache/hadoop/thriftfs/HadoopThriftServer.java:        HadoopThriftHandler.LOG.debug("created: " + path + " id: " + id);
+./src/contrib/thriftfs/src/java/org/apache/hadoop/thriftfs/HadoopThriftServer.java:        HadoopThriftHandler.LOG.debug("create: " + path +
+./src/contrib/thriftfs/src/java/org/apache/hadoop/thriftfs/HadoopThriftServer.java:        HadoopThriftHandler.LOG.debug("created: " + path + " id: " + id);
+./src/contrib/thriftfs/src/java/org/apache/hadoop/thriftfs/HadoopThriftServer.java:        HadoopThriftHandler.LOG.debug("open: " + path);
+./src/contrib/thriftfs/src/java/org/apache/hadoop/thriftfs/HadoopThriftServer.java:        HadoopThriftHandler.LOG.debug("opened: " + path + " id: " + id);
+./src/contrib/thriftfs/src/java/org/apache/hadoop/thriftfs/HadoopThriftServer.java:        HadoopThriftHandler.LOG.debug("append: " + path);
+./src/contrib/thriftfs/src/java/org/apache/hadoop/thriftfs/HadoopThriftServer.java:        HadoopThriftHandler.LOG.debug("appended: " + path + " id: " + id);
+./src/contrib/thriftfs/src/java/org/apache/hadoop/thriftfs/HadoopThriftServer.java:        HadoopThriftHandler.LOG.debug("write: " + tout.id);
+./src/contrib/thriftfs/src/java/org/apache/hadoop/thriftfs/HadoopThriftServer.java:        HadoopThriftHandler.LOG.debug("wrote: " + tout.id);
+./src/contrib/thriftfs/src/java/org/apache/hadoop/thriftfs/HadoopThriftServer.java:        HadoopThriftHandler.LOG.debug("read: " + tout.id +
+./src/contrib/thriftfs/src/java/org/apache/hadoop/thriftfs/HadoopThriftServer.java:        HadoopThriftHandler.LOG.debug("read done: " + tout.id);
+./src/contrib/thriftfs/src/java/org/apache/hadoop/thriftfs/HadoopThriftServer.java:        HadoopThriftHandler.LOG.debug("rm: " + path +
+./src/contrib/thriftfs/src/java/org/apache/hadoop/thriftfs/HadoopThriftServer.java:        HadoopThriftHandler.LOG.debug("rm: " + path);
+./src/contrib/thriftfs/src/java/org/apache/hadoop/thriftfs/HadoopThriftServer.java:        HadoopThriftHandler.LOG.debug("rename: " + path +
+./src/contrib/thriftfs/src/java/org/apache/hadoop/thriftfs/HadoopThriftServer.java:        HadoopThriftHandler.LOG.debug("rename: " + path);
+./src/contrib/thriftfs/src/java/org/apache/hadoop/thriftfs/HadoopThriftServer.java:         HadoopThriftHandler.LOG.debug("close: " + tout.id);
+./src/contrib/thriftfs/src/java/org/apache/hadoop/thriftfs/HadoopThriftServer.java:         HadoopThriftHandler.LOG.debug("closed: " + tout.id);
+./src/contrib/thriftfs/src/java/org/apache/hadoop/thriftfs/HadoopThriftServer.java:        HadoopThriftHandler.LOG.debug("mkdirs: " + path);
+./src/contrib/thriftfs/src/java/org/apache/hadoop/thriftfs/HadoopThriftServer.java:        HadoopThriftHandler.LOG.debug("mkdirs: " + path);
+./src/contrib/thriftfs/src/java/org/apache/hadoop/thriftfs/HadoopThriftServer.java:        HadoopThriftHandler.LOG.debug("exists: " + path);
+./src/contrib/thriftfs/src/java/org/apache/hadoop/thriftfs/HadoopThriftServer.java:        HadoopThriftHandler.LOG.debug("exists done: " + path);
+./src/contrib/thriftfs/src/java/org/apache/hadoop/thriftfs/HadoopThriftServer.java:        HadoopThriftHandler.LOG.debug("stat: " + path);
+./src/contrib/thriftfs/src/java/org/apache/hadoop/thriftfs/HadoopThriftServer.java:        HadoopThriftHandler.LOG.debug("stat done: " + path);
+./src/contrib/thriftfs/src/java/org/apache/hadoop/thriftfs/HadoopThriftServer.java:        HadoopThriftHandler.LOG.debug("listStatus: " + path);
+./src/contrib/thriftfs/src/java/org/apache/hadoop/thriftfs/HadoopThriftServer.java:        HadoopThriftHandler.LOG.debug("listStatus done: " + path);
+./src/contrib/thriftfs/src/java/org/apache/hadoop/thriftfs/HadoopThriftServer.java:        HadoopThriftHandler.LOG.debug("chmod: " + path + 
+./src/contrib/thriftfs/src/java/org/apache/hadoop/thriftfs/HadoopThriftServer.java:        HadoopThriftHandler.LOG.debug("chmod done: " + path);
+./src/contrib/thriftfs/src/java/org/apache/hadoop/thriftfs/HadoopThriftServer.java:        HadoopThriftHandler.LOG.debug("chown: " + path +
+./src/contrib/thriftfs/src/java/org/apache/hadoop/thriftfs/HadoopThriftServer.java:        HadoopThriftHandler.LOG.debug("chown done: " + path);
+./src/contrib/thriftfs/src/java/org/apache/hadoop/thriftfs/HadoopThriftServer.java:        HadoopThriftHandler.LOG.debug("setrepl: " + path +
+./src/contrib/thriftfs/src/java/org/apache/hadoop/thriftfs/HadoopThriftServer.java:        HadoopThriftHandler.LOG.debug("setrepl done: " + path);
+./src/contrib/thriftfs/src/java/org/apache/hadoop/thriftfs/HadoopThriftServer.java:        HadoopThriftHandler.LOG.debug("getFileBlockLocations: " + path);
+./src/contrib/thriftfs/src/java/org/apache/hadoop/thriftfs/HadoopThriftServer.java:        HadoopThriftHandler.LOG.debug("getFileBlockLocations done: " + path);

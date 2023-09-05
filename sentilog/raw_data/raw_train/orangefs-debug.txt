@@ -1,0 +1,1792 @@
+./test/common/gossip/test-gossip.c:	gossip_debug(DEBUG_SOME_STUFF, "Hello, normal debugging.\n");
+./test/common/gossip/test-gossip.c:	gossip_debug(DEBUG_BAD_STUFF, "This shouldn't print!\n");
+./test/correctness/pts/pvfs-helper.c:    gossip_debug(GOSSIP_CLIENT_DEBUG,"sysint intialized\n");
+./test/client/sysint/ncache-torture.c:    gossip_debug(GOSSIP_NCACHE_DEBUG, "Properly resolved two objects "
+./test/client/sysint/ncache-torture.c:    gossip_debug(GOSSIP_NCACHE_DEBUG, "Attempted insertion of %d ncache "
+./test/client/sysint/ncache-torture.c:        gossip_debug(GOSSIP_NCACHE_DEBUG, "All expected lookups were ok\n");
+./test/client/sysint/ncache-torture.c:    gossip_debug(GOSSIP_NCACHE_DEBUG,
+./test/client/sysint/ncache-torture.c:        gossip_debug(GOSSIP_NCACHE_DEBUG, "Adding entries for dir [%d]\n", num_dirs);
+./test/client/sysint/find.c:    gossip_debug(GOSSIP_CLIENT_DEBUG, "DIRECTORY WALK CALLED WITH "
+./test/client/sysint/find.c:            gossip_debug(GOSSIP_CLIENT_DEBUG,"No files found.\n");
+./test/client/sysint/find.c:        gossip_debug(GOSSIP_CLIENT_DEBUG, "%d files found.\n",
+./test/client/sysint/find.c:            gossip_debug(GOSSIP_CLIENT_DEBUG,"Got handle %llu\n",
+./src/proto/PINT-le-bytefield.c:    gossip_debug(GOSSIP_ENDECODE_DEBUG,"lebf_initialize\n");
+./src/proto/PINT-le-bytefield.c:    gossip_debug(GOSSIP_ENDECODE_DEBUG,"encode_common\n");
+./src/proto/PINT-le-bytefield.c:    gossip_debug(GOSSIP_ENDECODE_DEBUG,"\tmaxsize:%d\tinitializing_sizes:%d\n"
+./src/proto/PINT-le-bytefield.c:    gossip_debug(GOSSIP_ENDECODE_DEBUG,"Executing lebf_encode_req...\n");
+./src/proto/PINT-le-bytefield.c:    gossip_debug(GOSSIP_ENDECODE_DEBUG,"\treq->op:%d\n",req->op);
+./src/proto/PINT-le-bytefield.c:    gossip_debug(GOSSIP_ENDECODE_DEBUG,"lebf_encode_req\n");
+./src/proto/PINT-le-bytefield.c:    gossip_debug(GOSSIP_ENDECODE_DEBUG,"lebf_encode_resp\n");
+./src/proto/PINT-le-bytefield.c:    gossip_debug(GOSSIP_ENDECODE_DEBUG,"lebf_decode_req\n");
+./src/proto/PINT-le-bytefield.c:    gossip_debug(GOSSIP_ENDECODE_DEBUG,"lebf_decode_resp\n");
+./src/proto/PINT-le-bytefield.c:    gossip_debug(GOSSIP_ENDECODE_DEBUG,"lebf_encode_rel\n");
+./src/proto/PINT-le-bytefield.c:    gossip_debug(GOSSIP_ENDECODE_DEBUG,"lebf_decode_rel\n");
+./src/proto/PINT-le-bytefield.c:    gossip_debug(GOSSIP_ENDECODE_DEBUG,"check_req_size\n");
+./src/proto/PINT-le-bytefield.c:    gossip_debug(GOSSIP_ENDECODE_DEBUG,"check_resp_size\n");
+./src/proto/PINT-reqproto-encode.c:    gossip_debug(GOSSIP_ENDECODE_DEBUG,"PINT_encode_initialize\n");
+./src/proto/PINT-reqproto-encode.c:    gossip_debug(GOSSIP_ENDECODE_DEBUG,"PINT_encode_finalize\n");
+./src/proto/PINT-reqproto-encode.c:    gossip_debug(GOSSIP_ENDECODE_DEBUG,"PINT_encode\n");
+./src/proto/PINT-reqproto-encode.c:    gossip_debug(GOSSIP_ENDECODE_DEBUG,"PINT_decode\n");
+./src/proto/PINT-reqproto-encode.c:    gossip_debug(GOSSIP_ENDECODE_DEBUG,"PINT_encode_release\n");
+./src/proto/PINT-reqproto-encode.c:    gossip_debug(GOSSIP_ENDECODE_DEBUG,"PINT_decode_release\n");
+./src/proto/PINT-reqproto-encode.c:    gossip_debug(GOSSIP_ENDECODE_DEBUG,"PINT_encode_calc_max_size\n");
+./src/io/bmi/bmi_tcp/bmi-tcp.c:    gossip_debug(GOSSIP_BMI_DEBUG_TCP, "Initializing TCP/IP module.\n");
+./src/io/bmi/bmi_tcp/bmi-tcp.c:    gossip_debug(GOSSIP_BMI_DEBUG_TCP, 
+./src/io/bmi/bmi_tcp/bmi-tcp.c:    gossip_debug(GOSSIP_BMI_DEBUG_TCP, "TCP/IP module finalized.\n");
+./src/io/bmi/bmi_tcp/bmi-tcp.c:        gossip_debug(GOSSIP_BMI_DEBUG_TCP, "Method matched\n");
+./src/io/bmi/bmi_tcp/bmi-tcp.c:                    gossip_debug(GOSSIP_BMI_DEBUG_TCP, "connect timed out\n");
+./src/io/bmi/bmi_tcp/bmi-tcp.c:                    gossip_debug(GOSSIP_BMI_DEBUG_TCP, 
+./src/io/bmi/bmi_tcp/bmi-tcp.c:                gossip_debug(GOSSIP_BMI_DEBUG_TCP, "connect test started\n");
+./src/io/bmi/bmi_tcp/bmi-tcp.c:            gossip_debug(GOSSIP_BMI_DEBUG_TCP, 
+./src/io/bmi/bmi_tcp/bmi-tcp.c:                gossip_debug(GOSSIP_BMI_DEBUG_TCP, 
+./src/io/bmi/bmi_tcp/bmi-tcp.c:                    gossip_debug(GOSSIP_BMI_DEBUG_TCP, "does not match\n");
+./src/io/bmi/bmi_tcp/bmi-tcp.c:                gossip_debug(GOSSIP_BMI_DEBUG_TCP, "zone match\n");
+./src/io/bmi/bmi_tcp/bmi-tcp.c:        gossip_debug(GOSSIP_BMI_DEBUG_TCP, 
+./src/io/bmi/bmi_tcp/bmi-tcp.c:	gossip_debug(GOSSIP_BMI_DEBUG_TCP, 
+./src/io/bmi/bmi_tcp/bmi-tcp.c:        gossip_debug(GOSSIP_BMI_DEBUG_TCP, 
+./src/io/bmi/bmi_tcp/bmi-tcp.c:	    gossip_debug(GOSSIP_BMI_DEBUG_TCP, 
+./src/io/bmi/bmi_tcp/bmi-tcp.c:        gossip_debug(GOSSIP_BMI_DEBUG_TCP,
+./src/io/bmi/bmi_tcp/bmi-tcp.c:            gossip_debug(GOSSIP_BMI_DEBUG_TCP, 
+./src/io/bmi/bmi_tcp/bmi-tcp.c:                gossip_debug(GOSSIP_BMI_DEBUG_TCP, 
+./src/io/bmi/bmi_tcp/bmi-tcp.c:                    gossip_debug(GOSSIP_BMI_DEBUG_TCP,
+./src/io/bmi/bmi_tcp/bmi-tcp.c:        gossip_debug(GOSSIP_BMI_DEBUG_TCP, 
+./src/io/bmi/bmi_tcp/bmi-tcp.c:            gossip_debug(GOSSIP_BMI_DEBUG_TCP,
+./src/io/bmi/bmi_tcp/bmi-tcp.c:    gossip_debug(GOSSIP_BMI_DEBUG_TCP, 
+./src/io/bmi/bmi_tcp/bmi-tcp.c:    gossip_debug(GOSSIP_BMI_DEBUG_TCP, 
+./src/io/bmi/bmi_tcp/bmi-tcp.c:	gossip_debug(GOSSIP_BMI_DEBUG_TCP, "tcp_sock_init() failure.\n");
+./src/io/bmi/bmi_tcp/bmi-tcp.c:    gossip_debug(GOSSIP_BMI_DEBUG_TCP, 
+./src/io/bmi/bmi_tcp/bmi-tcp.c:    gossip_debug(GOSSIP_BMI_DEBUG_TCP, 
+./src/io/bmi/bmi_tcp/bmi-tcp.c:    gossip_debug(GOSSIP_BMI_DEBUG_TCP, 
+./src/io/bmi/bmi.c:        gossip_debug(GOSSIP_BMI_DEBUG_CONTROL, 
+./src/io/bmi/bmi.c:        gossip_debug(GOSSIP_BMI_DEBUG_CONTROL, 
+./src/io/bmi/bmi.c:            gossip_debug(GOSSIP_BMI_DEBUG_CONTROL, 
+./src/io/bmi/bmi.c:    gossip_debug(GOSSIP_BMI_DEBUG_OFFSETS,
+./src/io/bmi/bmi.c:    gossip_debug(GOSSIP_BMI_DEBUG_OFFSETS,
+./src/io/bmi/bmi.c:    gossip_debug(GOSSIP_BMI_DEBUG_OFFSETS,
+./src/io/bmi/bmi.c:        gossip_debug(GOSSIP_BMI_DEBUG_CONTROL,
+./src/io/bmi/bmi.c:            gossip_debug(GOSSIP_BMI_DEBUG_CONTROL,
+./src/io/bmi/bmi.c:            gossip_debug(GOSSIP_BMI_DEBUG_CONTROL,
+./src/io/bmi/bmi.c:        gossip_debug(GOSSIP_BMI_DEBUG_CONTROL,
+./src/io/bmi/bmi.c:            gossip_debug(GOSSIP_BMI_DEBUG_CONTROL, 
+./src/io/bmi/bmi.c:    gossip_debug(GOSSIP_BMI_DEBUG_CONTROL,
+./src/io/bmi/bmi.c:    gossip_debug(GOSSIP_BMI_DEBUG_CONTROL,
+./src/io/bmi/bmi.c:        gossip_debug(GOSSIP_BMI_DEBUG_CONTROL,
+./src/io/bmi/bmi.c:        gossip_debug(GOSSIP_BMI_DEBUG_CONTROL,
+./src/io/bmi/bmi.c:            gossip_debug(GOSSIP_BMI_DEBUG_CONTROL,
+./src/io/bmi/bmi.c:    gossip_debug(GOSSIP_BMI_DEBUG_CONTROL, "BMI_addr_lookup: %s\n", id_string);
+./src/io/bmi/bmi.c:    gossip_debug(GOSSIP_BMI_DEBUG_CONTROL, "\taddr not found, go to methods\n");
+./src/io/bmi/bmi.c:        gossip_debug(GOSSIP_BMI_DEBUG_CONTROL, 
+./src/io/bmi/bmi.c:                gossip_debug(GOSSIP_BMI_DEBUG_CONTROL, "\tActivating method\n");
+./src/io/bmi/bmi.c:                gossip_debug(GOSSIP_BMI_DEBUG_CONTROL, 
+./src/io/bmi/bmi.c:    gossip_debug(GOSSIP_BMI_DEBUG_OFFSETS,
+./src/io/bmi/bmi.c:        gossip_debug(GOSSIP_BMI_DEBUG_OFFSETS,
+./src/io/bmi/bmi.c:    gossip_debug(GOSSIP_BMI_DEBUG_OFFSETS,
+./src/io/bmi/bmi.c:        gossip_debug(GOSSIP_BMI_DEBUG_OFFSETS,
+./src/io/bmi/bmi.c:    gossip_debug(GOSSIP_BMI_DEBUG_OFFSETS,
+./src/io/bmi/bmi.c:        gossip_debug(GOSSIP_BMI_DEBUG_OFFSETS,
+./src/io/bmi/bmi.c:    gossip_debug(GOSSIP_BMI_DEBUG_CONTROL,
+./src/io/bmi/bmi.c:    gossip_debug(GOSSIP_BMI_DEBUG_CONTROL, 
+./src/io/bmi/bmi.c:        gossip_debug(GOSSIP_BMI_DEBUG_CONTROL,
+./src/io/bmi/bmi.c:        gossip_debug(GOSSIP_BMI_DEBUG_CONTROL,
+./src/io/bmi/bmi.c:    gossip_debug(GOSSIP_BMI_DEBUG_CONTROL,
+./src/io/bmi/bmi_portals/portals.c:	    gossip_debug(GOSSIP_BMI_DEBUG_PORTALS, fmt, ##args); \
+./src/io/bmi/bmi_gm/bmi-gm.c:    gossip_debug(GOSSIP_BMI_DEBUG_GM, "Timer expired.\n");
+./src/io/bmi/bmi_gm/bmi-gm.c:    gossip_debug(GOSSIP_BMI_DEBUG_GM, 
+./src/io/bmi/bmi_gm/bmi-gm.c:        gossip_debug(GOSSIP_BMI_DEBUG_GM, "BMI_gm_cancel: complete case.\n");
+./src/io/bmi/bmi_gm/bmi-gm.c:            gossip_debug(GOSSIP_BMI_DEBUG_GM, 
+./src/io/bmi/bmi_gm/bmi-gm.c:                gossip_debug(GOSSIP_BMI_DEBUG_GM, 
+./src/io/bmi/bmi_gm/bmi-gm.c:                gossip_debug(GOSSIP_BMI_DEBUG_GM, 
+./src/io/bmi/bmi_gm/bmi-gm.c:                gossip_debug(GOSSIP_BMI_DEBUG_GM, 
+./src/io/bmi/bmi_gm/bmi-gm.c:                gossip_debug(GOSSIP_BMI_DEBUG_GM, 
+./src/io/bmi/bmi_gm/bmi-gm.c:            gossip_debug(GOSSIP_BMI_DEBUG_GM, 
+./src/io/bmi/bmi_gm/bmi-gm.c:            gossip_debug(GOSSIP_BMI_DEBUG_GM, 
+./src/io/bmi/bmi_gm/bmi-gm.c:            gossip_debug(GOSSIP_BMI_DEBUG_GM, 
+./src/io/bmi/bmi_gm/bmi-gm.c:            gossip_debug(GOSSIP_BMI_DEBUG_GM, 
+./src/io/bmi/bmi_gm/bmi-gm.c:            gossip_debug(GOSSIP_BMI_DEBUG_GM, 
+./src/io/bmi/bmi_wintcp/bmi-wintcp.c:        gossip_debug(GOSSIP_BMI_DEBUG_TCP, "Map Address is : %s, Wildcard Octets: %lu.%lu.%lu.%lu\n", inet_ntoa(map_addr.sin_addr),
+./src/io/bmi/bmi_wintcp/bmi-wintcp.c:        gossip_debug(GOSSIP_BMI_DEBUG_TCP, 
+./src/io/bmi/bmi_wintcp/bmi-wintcp.c:        gossip_debug(GOSSIP_BMI_DEBUG_TCP, "%s: attempting reconnect.\n",
+./src/io/bmi/bmi_wintcp/bmi-wintcp.c:            gossip_debug(GOSSIP_BMI_DEBUG_TCP, 
+./src/io/bmi/bmi_wintcp/bmi-wintcp.c:        gossip_debug(
+./src/io/bmi/bmi_wintcp/bmi-wintcp.c:            gossip_debug(GOSSIP_BMI_DEBUG_TCP, "actual_size=%d, "
+./src/io/bmi/bmi_wintcp/bmi-wintcp.c:                gossip_debug(
+./src/io/bmi/bmi_wintcp/bmi-wintcp.c:                    gossip_debug(GOSSIP_BMI_DEBUG_TCP,
+./src/io/bmi/bmi_wintcp/bmi-wintcp.c:        gossip_debug(
+./src/io/bmi/bmi_wintcp/bmi-wintcp.c:            gossip_debug(GOSSIP_BMI_DEBUG_TCP,
+./src/io/bmi/bmi_wintcp/bmi-wintcp.c:    gossip_debug(GOSSIP_BMI_DEBUG_TCP, "Error: bmi_tcp: %d\n",
+./src/io/bmi/bmi_wintcp/bmi-wintcp.c:    gossip_debug(GOSSIP_BMI_DEBUG_TCP, "Bound locally to port: %hd\n", my_local_port);
+./src/io/bmi/bmi_wintcp/bmi-wintcp.c:        gossip_debug(GOSSIP_BMI_DEBUG_TCP, "tcp_sock_init() failure.\n");
+./src/io/bmi/bmi_wintcp/bmi-wintcp.c:    gossip_debug(GOSSIP_BMI_DEBUG_TCP, "Default socket buffers send:%d receive:%d\n",
+./src/io/bmi/bmi_wintcp/bmi-wintcp.c:    gossip_debug(GOSSIP_BMI_DEBUG_TCP, "Setting socket buffer size for send:%d receive:%d \n",
+./src/io/bmi/bmi_wintcp/bmi-wintcp.c:    gossip_debug(GOSSIP_BMI_DEBUG_TCP, "Reread socket buffers send:%d receive:%d\n",
+./src/io/trove/trove-handle-mgmt/trove-extentlist.c:    gossip_debug(GOSSIP_TROVE_DEBUG, "merging extentlists\n");
+./src/io/trove/trove-handle-mgmt/trove-extentlist.c:        gossip_debug(GOSSIP_TROVE_DEBUG, "extenlist_peek_handles: "
+./src/io/trove/trove-handle-mgmt/trove-extentlist.c:        gossip_debug(GOSSIP_TROVE_DEBUG, "extentlist_peek_handles: "
+./src/io/trove/trove-handle-mgmt/trove-extentlist.c:        gossip_debug(
+./src/io/trove/trove-handle-mgmt/trove-extentlist.c:    gossip_debug(GOSSIP_TROVE_DEBUG, "handle/extent ratio: %f\n",
+./src/io/trove/trove-handle-mgmt/trove-extentlist.c:    gossip_debug(GOSSIP_TROVE_DEBUG, "lb: %llu ub: %llu\n",
+./src/io/trove/trove-handle-mgmt/trove-extentlist.c:    gossip_debug(GOSSIP_TROVE_DEBUG, "handle re-use time remaining "
+./src/io/trove/trove-handle-mgmt/trove-handle-mgmt.c:                gossip_debug(GOSSIP_TROVE_DEBUG,
+./src/io/trove/trove-handle-mgmt/trove-handle-mgmt.c:                gossip_debug(GOSSIP_TROVE_DEBUG,
+./src/io/trove/trove-handle-mgmt/trove-handle-mgmt.c:                gossip_debug(GOSSIP_TROVE_DEBUG,
+./src/io/trove/trove-handle-mgmt/trove-handle-mgmt.c:        gossip_debug(GOSSIP_TROVE_DEBUG, "- set handle re-use "
+./src/io/trove/trove-handle-mgmt/trove-ledger.c:    gossip_debug(GOSSIP_TROVE_DEBUG, "====== free list\n");
+./src/io/trove/trove-handle-mgmt/trove-ledger.c:    gossip_debug(GOSSIP_TROVE_DEBUG, "====== recently_freed list\n");
+./src/io/trove/trove-handle-mgmt/trove-ledger.c:    gossip_debug(GOSSIP_TROVE_DEBUG, "====== overflow list\n");
+./src/io/trove/trove-handle-mgmt/trove-ledger.c:    gossip_debug(GOSSIP_TROVE_DEBUG, "====== free list\n");
+./src/io/trove/trove-handle-mgmt/trove-ledger.c:    gossip_debug(GOSSIP_TROVE_DEBUG, "====== recently_freed list\n");
+./src/io/trove/trove-handle-mgmt/trove-ledger.c:    gossip_debug(GOSSIP_TROVE_DEBUG, "====== overflow list\n");
+./src/io/trove/trove-dbpf/dbpf-keyval-pcache.c:gossip_debug(GOSSIP_DBPF_KEYVAL_DEBUG, "dbpf_keyval_pcache_initialize");
+./src/io/trove/trove-dbpf/dbpf-keyval-pcache.c:gossip_debug(GOSSIP_DBPF_KEYVAL_DEBUG, "dbpf_keyval_pcache_finalize");
+./src/io/trove/trove-dbpf/dbpf-keyval-pcache.c:    gossip_debug(GOSSIP_DBPF_KEYVAL_DEBUG,
+./src/io/trove/trove-dbpf/dbpf-keyval-pcache.c:gossip_debug(GOSSIP_DBPF_KEYVAL_DEBUG, "dbpf_keyval_pcache_entry_free");
+./src/io/trove/trove-dbpf/dbpf-keyval-pcache.c:            gossip_debug(GOSSIP_DBPF_KEYVAL_DEBUG,
+./src/io/trove/trove-dbpf/dbpf-keyval-pcache.c:            gossip_debug(GOSSIP_DBPF_KEYVAL_DEBUG,
+./src/io/trove/trove-dbpf/dbpf-keyval-pcache.c:    gossip_debug(GOSSIP_DBPF_KEYVAL_DEBUG,
+./src/io/trove/trove-dbpf/dbpf-keyval-pcache.c:        gossip_debug(GOSSIP_DBPF_KEYVAL_DEBUG,
+./src/io/trove/trove-dbpf/dbpf-keyval-pcache.c:    gossip_debug(GOSSIP_DBPF_KEYVAL_DEBUG,
+./src/io/trove/trove-dbpf/dbpf-keyval.c:    gossip_debug(GOSSIP_DBPF_KEYVAL_DEBUG, "*** Trove KeyVal Read "
+./src/io/trove/trove-dbpf/dbpf-keyval.c:        gossip_debug(GOSSIP_DBPF_KEYVAL_DEBUG,
+./src/io/trove/trove-dbpf/dbpf-keyval.c:            gossip_debug(GOSSIP_DBPF_KEYVAL_DEBUG,
+./src/io/trove/trove-dbpf/dbpf-keyval.c:            gossip_debug(
+./src/io/trove/trove-dbpf/dbpf-keyval.c:            gossip_debug(
+./src/io/trove/trove-dbpf/dbpf-keyval.c:        gossip_debug(GOSSIP_DBPF_KEYVAL_DEBUG,
+./src/io/trove/trove-dbpf/dbpf-keyval.c:        gossip_debug(GOSSIP_DBPF_KEYVAL_DEBUG,
+./src/io/trove/trove-dbpf/dbpf-keyval.c:	gossip_debug(GOSSIP_DBPF_KEYVAL_DEBUG,
+./src/io/trove/trove-dbpf/dbpf-keyval.c:        gossip_debug(GOSSIP_DBPF_KEYVAL_DEBUG, "*** Trove KeyVal Write "
+./src/io/trove/trove-dbpf/dbpf-keyval.c:                gossip_debug(
+./src/io/trove/trove-dbpf/dbpf-keyval.c:                gossip_debug(
+./src/io/trove/trove-dbpf/dbpf-keyval.c:        gossip_debug(GOSSIP_DBPF_KEYVAL_DEBUG,
+./src/io/trove/trove-dbpf/dbpf-keyval.c:        gossip_debug(GOSSIP_DBPF_KEYVAL_DEBUG,
+./src/io/trove/trove-dbpf/dbpf-keyval.c:    gossip_debug(GOSSIP_DBPF_KEYVAL_DEBUG,
+./src/io/trove/trove-dbpf/dbpf-keyval.c:    gossip_debug(GOSSIP_DBPF_KEYVAL_DEBUG, 
+./src/io/trove/trove-dbpf/dbpf-keyval.c:            gossip_debug(GOSSIP_DBPF_KEYVAL_DEBUG, 
+./src/io/trove/trove-dbpf/dbpf-keyval.c:                gossip_debug(GOSSIP_DBPF_KEYVAL_DEBUG,
+./src/io/trove/trove-dbpf/dbpf-keyval.c:            gossip_debug(GOSSIP_DBPF_KEYVAL_DEBUG,
+./src/io/trove/trove-dbpf/dbpf-keyval.c:            gossip_debug(GOSSIP_DBPF_KEYVAL_DEBUG,
+./src/io/trove/trove-dbpf/dbpf-keyval.c:            gossip_debug(GOSSIP_DBPF_KEYVAL_DEBUG, "*** Trove KeyVal Write "
+./src/io/trove/trove-dbpf/dbpf-keyval.c:                    gossip_debug(
+./src/io/trove/trove-dbpf/dbpf-keyval.c:                    gossip_debug(
+./src/io/trove/trove-dbpf/dbpf-keyval.c:    gossip_debug(GOSSIP_DBPF_KEYVAL_DEBUG,
+./src/io/trove/trove-dbpf/dbpf-keyval.c:        gossip_debug(GOSSIP_DBPF_KEYVAL_DEBUG,
+./src/io/trove/trove-dbpf/dbpf-keyval.c:        gossip_debug(GOSSIP_DBPF_KEYVAL_DEBUG, "iterate key: %*s, val: %llu\n", 
+./src/io/trove/trove-dbpf/dbpf-keyval.c:    gossip_debug(GOSSIP_DBPF_KEYVAL_DEBUG,
+./src/io/trove/trove-dbpf/dbpf-keyval.c:    gossip_debug(GOSSIP_DBPF_KEYVAL_DEBUG,
+./src/io/trove/trove-dbpf/dbpf-keyval.c:    gossip_debug(GOSSIP_DBPF_KEYVAL_DEBUG,
+./src/io/trove/trove-dbpf/dbpf-keyval.c:    gossip_debug(GOSSIP_DBPF_KEYVAL_DEBUG,
+./src/io/trove/trove-dbpf/dbpf-keyval.c:            gossip_debug(GOSSIP_DBPF_KEYVAL_DEBUG,
+./src/io/trove/trove-dbpf/dbpf-keyval.c:            gossip_debug(GOSSIP_DBPF_KEYVAL_DEBUG,
+./src/io/trove/trove-dbpf/dbpf-keyval.c:                gossip_debug(GOSSIP_DBPF_KEYVAL_DEBUG,
+./src/io/trove/trove-dbpf/dbpf-bstream.c:    gossip_debug(
+./src/io/trove/trove-dbpf/dbpf-bstream.c:            gossip_debug(GOSSIP_TROVE_DEBUG, "%s: %s complete: "
+./src/io/trove/trove-dbpf/dbpf-bstream.c:            gossip_debug(GOSSIP_TROVE_DEBUG, "error %d (%s) from "
+./src/io/trove/trove-dbpf/dbpf-bstream.c:            gossip_debug(GOSSIP_TROVE_DEBUG, 
+./src/io/trove/trove-dbpf/dbpf-bstream.c:        gossip_debug(GOSSIP_TROVE_DEBUG,"*** starting delayed ops if any.\n");
+./src/io/trove/trove-dbpf/dbpf-bstream.c:        gossip_debug(GOSSIP_TROVE_DEBUG, "*** issuing more aio requests "
+./src/io/trove/trove-dbpf/dbpf-bstream.c:    gossip_debug(GOSSIP_TROVE_DEBUG, "DBPF I/O ops in progress: %d\n",
+./src/io/trove/trove-dbpf/dbpf-bstream.c:        gossip_debug(GOSSIP_TROVE_DEBUG, "starting delayed I/O "
+./src/io/trove/trove-dbpf/dbpf-bstream.c:            gossip_debug(GOSSIP_TROVE_DEBUG,
+./src/io/trove/trove-dbpf/dbpf-bstream.c:                gossip_debug(
+./src/io/trove/trove-dbpf/dbpf-bstream.c:        gossip_debug(GOSSIP_TROVE_DEBUG, "%s: lio_listio posted %p "
+./src/io/trove/trove-dbpf/dbpf-bstream.c:        gossip_debug(GOSSIP_TROVE_DEBUG, "delayed I/O operation %p "
+./src/io/trove/trove-dbpf/dbpf-bstream.c:    gossip_debug(GOSSIP_TROVE_DEBUG, "DBPF I/O ops in progress: %d\n",
+./src/io/trove/trove-dbpf/dbpf-bstream.c:            gossip_debug(GOSSIP_TROVE_DEBUG,
+./src/io/trove/trove-dbpf/dbpf-bstream.c:                gossip_debug(GOSSIP_TROVE_DEBUG,
+./src/io/trove/trove-dbpf/dbpf-bstream.c:           gossip_debug(GOSSIP_TROVE_DEBUG, "%s: lio_listio posted %p "
+./src/io/trove/trove-dbpf/dbpf-bstream.c:        gossip_debug(GOSSIP_TROVE_DEBUG, 
+./src/io/trove/trove-dbpf/dbpf-bstream.c:            gossip_debug(
+./src/io/trove/trove-dbpf/dbpf-bstream.c:            gossip_debug(GOSSIP_TROVE_DEBUG,
+./src/io/trove/trove-dbpf/dbpf-bstream.c:            gossip_debug(GOSSIP_TROVE_DEBUG,
+./src/io/trove/trove-dbpf/dbpf-bstream.c:    gossip_debug(GOSSIP_TROVE_DEBUG, "got cur_op %p\n", cur_op);
+./src/io/trove/trove-dbpf/dbpf-bstream.c:            gossip_debug(GOSSIP_TROVE_DEBUG,
+./src/io/trove/trove-dbpf/dbpf-bstream.c:            gossip_debug(
+./src/io/trove/trove-dbpf/dbpf-bstream.c:                gossip_debug(
+./src/io/trove/trove-dbpf/dbpf-bstream.c:                gossip_debug(
+./src/io/trove/trove-dbpf/dbpf-bstream.c:            gossip_debug(
+./src/io/trove/trove-dbpf/dbpf-bstream.c:                gossip_debug(GOSSIP_TROVE_DEBUG, "%s: %s complete: "
+./src/io/trove/trove-dbpf/dbpf-alt-aio.c:           gossip_debug(GOSSIP_BSTREAM_DEBUG, 
+./src/io/trove/trove-dbpf/dbpf-alt-aio.c:        gossip_debug(GOSSIP_BSTREAM_DEBUG,
+./src/io/trove/trove-dbpf/dbpf-dspace.c:            gossip_debug(GOSSIP_TROVE_DEBUG, "new_handle was FORCED "
+./src/io/trove/trove-dbpf/dbpf-dspace.c:    gossip_debug(GOSSIP_TROVE_DEBUG, "[%d extents] -- new_handle is %llu "
+./src/io/trove/trove-dbpf/dbpf-dspace.c:        gossip_debug(GOSSIP_TROVE_DEBUG, "removed dataspace with handle %llu\n",
+./src/io/trove/trove-dbpf/dbpf-dspace.c:        gossip_debug(GOSSIP_TROVE_DEBUG, "iterate -- notfound\n");
+./src/io/trove/trove-dbpf/dbpf-dspace.c:        gossip_debug(GOSSIP_TROVE_DEBUG, "iterate -- some other "
+./src/io/trove/trove-dbpf/dbpf-dspace.c:        gossip_debug(
+./src/io/trove/trove-dbpf/dbpf-dspace.c:        gossip_debug(GOSSIP_DBPF_ATTRCACHE_DEBUG, "dspace_getattr fast "
+./src/io/trove/trove-dbpf/dbpf-dspace.c:            gossip_debug(GOSSIP_DBPF_ATTRCACHE_DEBUG,
+./src/io/trove/trove-dbpf/dbpf-dspace.c:            gossip_debug(GOSSIP_DBPF_ATTRCACHE_DEBUG,
+./src/io/trove/trove-dbpf/dbpf-dspace.c:            gossip_debug(GOSSIP_DBPF_ATTRCACHE_DEBUG,
+./src/io/trove/trove-dbpf/dbpf-dspace.c:            gossip_debug(
+./src/io/trove/trove-dbpf/dbpf-dspace.c:            gossip_debug(
+./src/io/trove/trove-dbpf/dbpf-dspace.c:                gossip_debug(GOSSIP_TROVE_DEBUG,
+./src/io/trove/trove-dbpf/dbpf-dspace.c:                gossip_debug(GOSSIP_TROVE_DEBUG,
+./src/io/trove/trove-dbpf/dbpf-dspace.c:                gossip_debug(GOSSIP_TROVE_DEBUG,
+./src/io/trove/trove-dbpf/dbpf-dspace.c:        gossip_debug(GOSSIP_DBPF_ATTRCACHE_DEBUG, "dspace_getattr_list serviced entirely from attr cache.\n");
+./src/io/trove/trove-dbpf/dbpf-dspace.c:    gossip_debug(
+./src/io/trove/trove-dbpf/dbpf-dspace.c:        gossip_debug(GOSSIP_TROVE_DEBUG,
+./src/io/trove/trove-dbpf/dbpf-dspace.c:        gossip_debug(GOSSIP_TROVE_DEBUG,
+./src/io/trove/trove-dbpf/dbpf-dspace.c:        gossip_debug(GOSSIP_TROVE_DEBUG,
+./src/io/trove/trove-dbpf/dbpf-dspace.c:            gossip_debug(GOSSIP_TROVE_DEBUG, 
+./src/io/trove/trove-dbpf/dbpf-dspace.c:    gossip_debug(GOSSIP_TROVE_DEBUG, "dbpf_dspace_cancel called for "
+./src/io/trove/trove-dbpf/dbpf-dspace.c:            gossip_debug(GOSSIP_TROVE_DEBUG, "Trove cancellation is not supported for this operation type; ignoring.\n");
+./src/io/trove/trove-dbpf/dbpf-dspace.c:    gossip_debug(GOSSIP_TROVE_DEBUG, "got cur_op %p\n", cur_op);
+./src/io/trove/trove-dbpf/dbpf-dspace.c:                gossip_debug(GOSSIP_TROVE_DEBUG,
+./src/io/trove/trove-dbpf/dbpf-dspace.c:                gossip_debug(
+./src/io/trove/trove-dbpf/dbpf-dspace.c:            gossip_debug(
+./src/io/trove/trove-dbpf/dbpf-dspace.c:            gossip_debug(
+./src/io/trove/trove-dbpf/dbpf-dspace.c:    gossip_debug(GOSSIP_TROVE_DEBUG,
+./src/io/trove/trove-dbpf/dbpf-dspace.c:        gossip_debug(GOSSIP_TROVE_DEBUG, "handle (%llu) already exists.\n",
+./src/io/trove/trove-dbpf/dbpf-open-cache.c:    gossip_debug(GOSSIP_DBPF_OPEN_CACHE_DEBUG,
+./src/io/trove/trove-dbpf/dbpf-open-cache.c:	gossip_debug(GOSSIP_DBPF_OPEN_CACHE_DEBUG, "dbpf_open_cache_get: "
+./src/io/trove/trove-dbpf/dbpf-open-cache.c:	gossip_debug(GOSSIP_DBPF_OPEN_CACHE_DEBUG,
+./src/io/trove/trove-dbpf/dbpf-open-cache.c:	gossip_debug(GOSSIP_DBPF_OPEN_CACHE_DEBUG,
+./src/io/trove/trove-dbpf/dbpf-open-cache.c:            gossip_debug(GOSSIP_DBPF_OPEN_CACHE_DEBUG,
+./src/io/trove/trove-dbpf/dbpf-open-cache.c:	gossip_debug(GOSSIP_DBPF_OPEN_CACHE_DEBUG,
+./src/io/trove/trove-dbpf/dbpf-open-cache.c:    gossip_debug(GOSSIP_DBPF_OPEN_CACHE_DEBUG,
+./src/io/trove/trove-dbpf/dbpf-open-cache.c:    gossip_debug(GOSSIP_DBPF_OPEN_CACHE_DEBUG,
+./src/io/trove/trove-dbpf/dbpf-open-cache.c:	gossip_debug(GOSSIP_DBPF_OPEN_CACHE_DEBUG,
+./src/io/trove/trove-dbpf/dbpf-open-cache.c:	    gossip_debug(GOSSIP_DBPF_OPEN_CACHE_DEBUG,
+./src/io/trove/trove-dbpf/dbpf-open-cache.c:	gossip_debug(GOSSIP_DBPF_OPEN_CACHE_DEBUG,
+./src/io/trove/trove-dbpf/dbpf-open-cache.c:    gossip_debug(GOSSIP_DBPF_OPEN_CACHE_DEBUG,
+./src/io/trove/trove-dbpf/dbpf-open-cache.c:	gossip_debug(GOSSIP_DBPF_OPEN_CACHE_DEBUG,
+./src/io/trove/trove-dbpf/dbpf-open-cache.c:	gossip_debug(GOSSIP_DBPF_OPEN_CACHE_DEBUG,
+./src/io/trove/trove-dbpf/dbpf-open-cache.c:    gossip_debug(GOSSIP_DBPF_OPEN_CACHE_DEBUG,
+./src/io/trove/trove-dbpf/dbpf-open-cache.c:    gossip_debug(GOSSIP_DBPF_OPEN_CACHE_DEBUG,
+./src/io/trove/trove-dbpf/dbpf-open-cache.c:    gossip_debug(GOSSIP_DBPF_OPEN_CACHE_DEBUG,
+./src/io/trove/trove-dbpf/dbpf-open-cache.c:            gossip_debug(
+./src/io/trove/trove-dbpf/dbpf-open-cache.c:    gossip_debug(GOSSIP_DBPF_OPEN_CACHE_DEBUG, 
+./src/io/trove/trove-dbpf/dbpf-open-cache.c:        gossip_debug(GOSSIP_DBPF_OPEN_CACHE_DEBUG, 
+./src/io/trove/trove-dbpf/dbpf-open-cache.c:    gossip_debug(GOSSIP_DBPF_OPEN_CACHE_DEBUG, 
+./src/io/trove/trove-dbpf/dbpf-open-cache.c:            gossip_debug(GOSSIP_DBPF_OPEN_CACHE_DEBUG, 
+./src/io/trove/trove-dbpf/dbpf-open-cache.c:        gossip_debug(GOSSIP_DBPF_OPEN_CACHE_DEBUG, 
+./src/io/trove/trove-dbpf/dbpf-open-cache.c:    gossip_debug(GOSSIP_DBPF_OPEN_CACHE_DEBUG,
+./src/io/trove/trove-dbpf/dbpf-open-cache.c:            gossip_debug(GOSSIP_DBPF_OPEN_CACHE_DEBUG,
+./src/io/trove/trove-dbpf/dbpf-null-aio.c:        gossip_debug(GOSSIP_BSTREAM_DEBUG, 
+./src/io/trove/trove-dbpf/dbpf-null-aio.c:        gossip_debug(GOSSIP_BSTREAM_DEBUG,
+./src/io/trove/trove-dbpf/dbpf-mgmt.c:            gossip_debug(GOSSIP_TROVE_DEBUG, 
+./src/io/trove/trove-dbpf/dbpf-mgmt.c:            gossip_debug(GOSSIP_TROVE_DEBUG, 
+./src/io/trove/trove-dbpf/dbpf-mgmt.c:            gossip_debug(GOSSIP_TROVE_DEBUG, 
+./src/io/trove/trove-dbpf/dbpf-mgmt.c:            gossip_debug(GOSSIP_TROVE_DEBUG, 
+./src/io/trove/trove-dbpf/dbpf-mgmt.c:            gossip_debug(GOSSIP_TROVE_DEBUG, 
+./src/io/trove/trove-dbpf/dbpf-mgmt.c:            gossip_debug(GOSSIP_TROVE_DEBUG, 
+./src/io/trove/trove-dbpf/dbpf-mgmt.c:            gossip_debug(GOSSIP_TROVE_DEBUG, 
+./src/io/trove/trove-dbpf/dbpf-mgmt.c:            gossip_debug(GOSSIP_TROVE_DEBUG, 
+./src/io/trove/trove-dbpf/dbpf-mgmt.c:            gossip_debug(GOSSIP_TROVE_DEBUG, 
+./src/io/trove/trove-dbpf/dbpf-mgmt.c:            gossip_debug(GOSSIP_TROVE_DEBUG, 
+./src/io/trove/trove-dbpf/dbpf-mgmt.c:        gossip_debug(GOSSIP_TROVE_DEBUG,
+./src/io/trove/trove-dbpf/dbpf-mgmt.c:        gossip_debug(
+./src/io/trove/trove-dbpf/dbpf-mgmt.c:    gossip_debug(GOSSIP_TROVE_DEBUG, "Removing %s\n", path_name);
+./src/io/trove/trove-dbpf/dbpf-mgmt.c:    gossip_debug(GOSSIP_TROVE_DEBUG, "Removing %s\n", path_name);
+./src/io/trove/trove-dbpf/dbpf-mgmt.c:    gossip_debug(GOSSIP_TROVE_DEBUG, "Removing %s\n", path_name);
+./src/io/trove/trove-dbpf/dbpf-mgmt.c:    gossip_debug(GOSSIP_TROVE_DEBUG, "Removing %s\n", path_name);
+./src/io/trove/trove-dbpf/dbpf-mgmt.c:    gossip_debug(GOSSIP_TROVE_DEBUG,
+./src/io/trove/trove-dbpf/dbpf-mgmt.c:        gossip_debug(GOSSIP_TROVE_DEBUG, "coll %s already exists with "
+./src/io/trove/trove-dbpf/dbpf-mgmt.c:    gossip_debug(
+./src/io/trove/trove-dbpf/dbpf-mgmt.c:    gossip_debug(GOSSIP_TROVE_DEBUG, "dbpf_collection_lookup of coll: %s\n", 
+./src/io/trove/trove-dbpf/dbpf-mgmt.c:            gossip_debug(GOSSIP_TROVE_DEBUG, "lookup got error (%d)\n", ret);
+./src/io/trove/trove-dbpf/dbpf-mgmt.c:    gossip_debug(GOSSIP_TROVE_DEBUG, "collection lookup: version is "
+./src/io/trove/trove-dbpf/dbpf-bstream-aio.c:    gossip_debug(GOSSIP_TROVE_DEBUG, "aio_fildes = %d, aio_offset = %d, "
+./src/io/trove/trove-dbpf/dbpf-op-queue.c:    gossip_debug(GOSSIP_DBPF_COALESCE_DEBUG, 
+./src/io/trove/trove-dbpf/dbpf-thread.c:        gossip_debug(GOSSIP_TROVE_DEBUG,
+./src/io/trove/trove-dbpf/dbpf-thread.c:        gossip_debug(
+./src/io/trove/trove-dbpf/dbpf-thread.c:    gossip_debug(GOSSIP_TROVE_DEBUG, "dbpf_thread_finalize: finalized\n");
+./src/io/trove/trove-dbpf/dbpf-thread.c:    gossip_debug(GOSSIP_TROVE_DEBUG, "dbpf_thread_function started\n");
+./src/io/trove/trove-dbpf/dbpf-thread.c:                gossip_debug(GOSSIP_TROVE_DEBUG, "%s: pthread_cond_timedwait "
+./src/io/trove/trove-dbpf/dbpf-thread.c:    gossip_debug(GOSSIP_TROVE_DEBUG, "dbpf_thread_function ending\n");
+./src/io/trove/trove-dbpf/dbpf-thread.c:                gossip_debug(GOSSIP_TROVE_DEBUG, "[DBPF THREAD]: [KEYVAL -1]: %d\n", synccount);
+./src/io/trove/trove-dbpf/dbpf-thread.c:        gossip_debug(GOSSIP_TROVE_OP_DEBUG,"[DBPF THREAD]: STARTING TROVE "
+./src/io/trove/trove-dbpf/dbpf-thread.c:        gossip_debug(GOSSIP_TROVE_OP_DEBUG,"[DBPF THREAD]: FINISHED TROVE "
+./src/io/trove/trove-dbpf/dbpf-sync.c:    gossip_debug(GOSSIP_DBPF_COALESCE_DEBUG,
+./src/io/trove/trove-dbpf/dbpf-sync.c:    gossip_debug(GOSSIP_DBPF_COALESCE_DEBUG,
+./src/io/trove/trove-dbpf/dbpf-sync.c:    gossip_debug(GOSSIP_DBPF_COALESCE_DEBUG,
+./src/io/trove/trove-dbpf/dbpf-sync.c:    gossip_debug(GOSSIP_DBPF_COALESCE_DEBUG,
+./src/io/trove/trove-dbpf/dbpf-sync.c:    gossip_debug(GOSSIP_DBPF_COALESCE_DEBUG,
+./src/io/trove/trove-dbpf/dbpf-sync.c:        gossip_debug(GOSSIP_DBPF_COALESCE_DEBUG,
+./src/io/trove/trove-dbpf/dbpf-sync.c:    gossip_debug(GOSSIP_DBPF_COALESCE_DEBUG,
+./src/io/trove/trove-dbpf/dbpf-sync.c:        gossip_debug(GOSSIP_DBPF_COALESCE_DEBUG,
+./src/io/trove/trove-dbpf/dbpf-sync.c:        gossip_debug(GOSSIP_DBPF_COALESCE_DEBUG,
+./src/io/trove/trove-dbpf/dbpf-sync.c:        gossip_debug(GOSSIP_DBPF_COALESCE_DEBUG,
+./src/io/trove/trove-dbpf/dbpf-sync.c:            gossip_debug(GOSSIP_DBPF_COALESCE_DEBUG,
+./src/io/trove/trove-dbpf/dbpf-sync.c:            gossip_debug(GOSSIP_DBPF_COALESCE_DEBUG,
+./src/io/trove/trove-dbpf/dbpf-sync.c:        gossip_debug(GOSSIP_DBPF_COALESCE_DEBUG,
+./src/io/trove/trove-dbpf/dbpf-sync.c:        gossip_debug(GOSSIP_DBPF_COALESCE_DEBUG,
+./src/io/trove/trove-dbpf/dbpf-sync.c:        gossip_debug(GOSSIP_DBPF_COALESCE_DEBUG,
+./src/io/trove/trove-dbpf/dbpf-sync.c:            gossip_debug(GOSSIP_DBPF_COALESCE_DEBUG,
+./src/io/trove/trove-dbpf/dbpf-sync.c:        gossip_debug(GOSSIP_DBPF_COALESCE_DEBUG,
+./src/io/trove/trove-dbpf/dbpf-sync.c:    gossip_debug(GOSSIP_DBPF_COALESCE_DEBUG,
+./src/io/trove/trove-dbpf/dbpf-sync.c:    gossip_debug(GOSSIP_DBPF_COALESCE_DEBUG,
+./src/io/trove/trove-dbpf/dbpf-sync.c:    gossip_debug(GOSSIP_DBPF_COALESCE_DEBUG,
+./src/io/trove/trove-dbpf/dbpf-sync.c:    gossip_debug(GOSSIP_DBPF_COALESCE_DEBUG,
+./src/io/trove/trove-dbpf/dbpf-bstream-direct.c:    gossip_debug(GOSSIP_DIRECTIO_DEBUG, 
+./src/io/trove/trove-dbpf/dbpf-bstream-direct.c:            gossip_debug(GOSSIP_DIRECTIO_DEBUG, "Doing RMW at front\n");
+./src/io/trove/trove-dbpf/dbpf-bstream-direct.c:            gossip_debug(GOSSIP_DIRECTIO_DEBUG, "Doing RMW at end\n");
+./src/io/trove/trove-dbpf/dbpf-bstream-direct.c:    gossip_debug(GOSSIP_DIRECTIO_DEBUG, 
+./src/io/trove/trove-dbpf/dbpf-bstream-direct.c:            gossip_debug(GOSSIP_DIRECTIO_DEBUG, "Doing RMW at front\n");
+./src/io/trove/trove-dbpf/dbpf-bstream-direct.c:            gossip_debug(GOSSIP_DIRECTIO_DEBUG, "Doing RMW at end\n");
+./src/io/trove/trove-dbpf/dbpf-bstream-direct.c:            gossip_debug(GOSSIP_DIRECTIO_DEBUG, 
+./src/io/trove/trove-dbpf/dbpf-bstream-direct.c:                gossip_debug(GOSSIP_DIRECTIO_DEBUG, "%s: failed to release "
+./src/io/trove/trove-dbpf/dbpf-bstream-direct.c:                gossip_debug(GOSSIP_DIRECTIO_DEBUG, "%s: failed to release "
+./src/io/trove/trove-dbpf/dbpf-bstream-direct.c:    gossip_debug(GOSSIP_DIRECTIO_DEBUG, "%s: queuing direct write operation\n",
+./src/io/trove/trove-dbpf/dbpf-bstream-direct.c:       gossip_debug(GOSSIP_DIRECTIO_DEBUG, "%s: no grow_handle entry when "
+./src/io/trove/trove-dbpf/dbpf-bstream-direct.c:        gossip_debug(GOSSIP_DIRECTIO_DEBUG, "ran out of aligned blocks: %d\n",
+./src/io/trove/trove-dbpf/dbpf-bstream-direct.c:	gossip_debug(GOSSIP_DIRECTIO_DEBUG,
+./src/io/trove/trove-dbpf/dbpf-attr-cache.c:    gossip_debug(GOSSIP_DBPF_ATTRCACHE_DEBUG, "Setting dbpf_attr_cache "
+./src/io/trove/trove-dbpf/dbpf-attr-cache.c:    gossip_debug(GOSSIP_DBPF_ATTRCACHE_DEBUG, "There are %d cacheable "
+./src/io/trove/trove-dbpf/dbpf-attr-cache.c:        gossip_debug(GOSSIP_DBPF_ATTRCACHE_DEBUG,
+./src/io/trove/trove-dbpf/dbpf-attr-cache.c:        gossip_debug(GOSSIP_DBPF_ATTRCACHE_DEBUG,
+./src/io/trove/trove-dbpf/dbpf-attr-cache.c:        gossip_debug(GOSSIP_DBPF_ATTRCACHE_DEBUG,
+./src/io/trove/trove-dbpf/dbpf-attr-cache.c:            gossip_debug(
+./src/io/trove/trove-dbpf/dbpf-attr-cache.c:            gossip_debug(GOSSIP_DBPF_ATTRCACHE_DEBUG, "Updating "
+./src/io/trove/trove-dbpf/dbpf-attr-cache.c:            gossip_debug(GOSSIP_DBPF_ATTRCACHE_DEBUG, "Updating "
+./src/io/trove/trove-dbpf/dbpf-attr-cache.c:                gossip_debug(
+./src/io/trove/trove-dbpf/dbpf-attr-cache.c:                gossip_debug(
+./src/io/trove/trove-dbpf/dbpf-attr-cache.c:            gossip_debug(
+./src/io/trove/trove-dbpf/dbpf-attr-cache.c:                gossip_debug(
+./src/io/trove/trove-dbpf/dbpf-attr-cache.c:            gossip_debug(
+./src/io/description/pint-distribution.c:    gossip_debug(GOSSIP_DIST_DEBUG,"******************************\n");
+./src/io/description/pint-distribution.c:    gossip_debug(GOSSIP_DIST_DEBUG,"address\t\t%p\n", dist);
+./src/io/description/pint-distribution.c:    gossip_debug(GOSSIP_DIST_DEBUG,"dist_name\t%s\n", dist->dist_name);
+./src/io/description/pint-distribution.c:    gossip_debug(GOSSIP_DIST_DEBUG,"name_size\t%d\n", dist->name_size);
+./src/io/description/pint-distribution.c:    gossip_debug(GOSSIP_DIST_DEBUG,"param_size\t%d\n", dist->param_size);
+./src/io/description/pint-distribution.c:    gossip_debug(GOSSIP_DIST_DEBUG,"params\t\t%p\n", dist->params);
+./src/io/description/pint-distribution.c:    gossip_debug(GOSSIP_DIST_DEBUG,"methods\t\t%p\n", dist->methods);
+./src/io/description/pint-distribution.c:    gossip_debug(GOSSIP_DIST_DEBUG,"******************************\n");
+./src/io/description/pint-request.c:	    gossip_debug(GOSSIP_REQUEST_DEBUG,"\tprocess a segment\n"); \
+./src/io/description/pint-request.c:	    gossip_debug(GOSSIP_REQUEST_DEBUG,"\t\t\tof %lld sz %lld\n", lld(offset), lld(size)); \
+./src/io/description/pint-request.c:		    gossip_debug(GOSSIP_REQUEST_DEBUG,"\tcount segment in checksize\n"); \
+./src/io/description/pint-request.c:		    gossip_debug(GOSSIP_REQUEST_DEBUG,"\tcombine a segment %d\n", result->segs-1); \
+./src/io/description/pint-request.c:		    gossip_debug(GOSSIP_REQUEST_DEBUG,"\tadd a segment %d\n", result->segs); \
+./src/io/description/pint-request.c:        gossip_debug(GOSSIP_REQUEST_DEBUG,
+./src/io/description/pint-request.c:	gossip_debug(GOSSIP_REQUEST_DEBUG,"PINT_process_request\n");
+./src/io/description/pint-request.c:		gossip_debug(GOSSIP_REQUEST_DEBUG,
+./src/io/description/pint-request.c:		gossip_debug(GOSSIP_REQUEST_DEBUG,
+./src/io/description/pint-request.c:		gossip_debug(GOSSIP_REQUEST_DEBUG,"\tsetting final offset %lld\n",
+./src/io/description/pint-request.c:		gossip_debug(GOSSIP_REQUEST_DEBUG,"\ttiling %lld copies\n", lld(count+1));
+./src/io/description/pint-request.c:		gossip_debug(GOSSIP_REQUEST_DEBUG,"\tskipping ahead to target_offset\n");
+./src/io/description/pint-request.c:		gossip_debug(GOSSIP_REQUEST_DEBUG,"\tDo seq of %lld ne %d st %lld nb %d "
+./src/io/description/pint-request.c:		gossip_debug(GOSSIP_REQUEST_DEBUG,"\t\tlvl %d el %lld blk %d by %lld\n",
+./src/io/description/pint-request.c:		gossip_debug(GOSSIP_REQUEST_DEBUG,"\t\tto %lld ta %lld fi %lld\n",
+./src/io/description/pint-request.c:                gossip_debug(GOSSIP_REQUEST_DEBUG,"\t\tmto %lld mta %lld mfi %lld\n",
+./src/io/description/pint-request.c:			gossip_debug(GOSSIP_REQUEST_DEBUG,"\tnull type\n");
+./src/io/description/pint-request.c:			gossip_debug(GOSSIP_REQUEST_DEBUG,"\tbasic type or contiguous data\n");
+./src/io/description/pint-request.c:			gossip_debug(GOSSIP_REQUEST_DEBUG,"\tsubtype is contiguous\n");
+./src/io/description/pint-request.c:			gossip_debug(GOSSIP_REQUEST_DEBUG,"\tgoing to next level %d\n",req->lvl+1);
+./src/io/description/pint-request.c:        gossip_debug(GOSSIP_REQUEST_DEBUG,
+./src/io/description/pint-request.c:			gossip_debug(GOSSIP_REQUEST_DEBUG,"\tprocess logical skip\n");
+./src/io/description/pint-request.c:				gossip_debug(GOSSIP_REQUEST_DEBUG,
+./src/io/description/pint-request.c:                                    gossip_debug(GOSSIP_REQUEST_DEBUG,
+./src/io/description/pint-request.c:		gossip_debug(GOSSIP_REQUEST_DEBUG,"\tretval = %lld\n", lld(retval));
+./src/io/description/pint-request.c:				gossip_debug(GOSSIP_REQUEST_DEBUG,
+./src/io/description/pint-request.c:				gossip_debug(GOSSIP_REQUEST_DEBUG,
+./src/io/description/pint-request.c:		gossip_debug(GOSSIP_REQUEST_DEBUG,"\treturn from level %d\n",req->lvl);
+./src/io/description/pint-request.c:		gossip_debug(GOSSIP_REQUEST_DEBUG,"\tgoing to next block\n");
+./src/io/description/pint-request.c:			gossip_debug(GOSSIP_REQUEST_DEBUG,"\tgoing to next item in sequence chain\n");
+./src/io/description/pint-request.c:				gossip_debug(GOSSIP_REQUEST_DEBUG,
+./src/io/description/pint-request.c:			gossip_debug(GOSSIP_REQUEST_DEBUG,"\tran out of segments or bytes\n");
+./src/io/description/pint-request.c:			gossip_debug(GOSSIP_REQUEST_DEBUG,"\tend of the request\n");
+./src/io/description/pint-request.c:	gossip_debug(GOSSIP_REQUEST_DEBUG,"\tdone sg %d sm %d by %lld bm %lld ta %lld to %lld fo %lld eof %d\n",
+./src/io/description/pint-request.c:        gossip_debug(GOSSIP_REQUEST_DEBUG,
+./src/io/description/pint-request.c:	gossip_debug(GOSSIP_REQUEST_DEBUG,"\tRequest disp\n");
+./src/io/description/pint-request.c:	gossip_debug(GOSSIP_REQUEST_DEBUG, "%s n=%d\n", __func__, n);
+./src/io/description/pint-request.c:    gossip_debug(GOSSIP_REQUEST_DEBUG,"\tPINT_distribute\n");
+./src/io/description/pint-request.c:    gossip_debug(GOSSIP_REQUEST_DEBUG,
+./src/io/description/pint-request.c:        gossip_debug(GOSSIP_REQUEST_DEBUG,
+./src/io/description/pint-request.c:            gossip_debug(GOSSIP_REQUEST_DEBUG,"rfdata is NULL\n");
+./src/io/description/pint-request.c:            gossip_debug(GOSSIP_REQUEST_DEBUG,"rfdata->dist is NULL\n");
+./src/io/description/pint-request.c:            gossip_debug(GOSSIP_REQUEST_DEBUG,"rfdata->dist->methods is NULL\n");
+./src/io/description/pint-request.c:            gossip_debug(GOSSIP_REQUEST_DEBUG,"rfdata->dist->params is NULL\n");
+./src/io/description/pint-request.c:        gossip_debug(GOSSIP_REQUEST_DEBUG,"\t\treturn, dist says no data\n");
+./src/io/description/pint-request.c:        gossip_debug(GOSSIP_REQUEST_DEBUG,"\t\tbegin iteration loff: %lld\n",
+./src/io/description/pint-request.c:            gossip_debug(GOSSIP_REQUEST_DEBUG,"\t\tfrag extends beyond strip\n");
+./src/io/description/pint-request.c:            gossip_debug(GOSSIP_REQUEST_DEBUG,"\t\tsegment exceeds byte limit\n");
+./src/io/description/pint-request.c:                gossip_debug(GOSSIP_REQUEST_DEBUG,"\t\tfile being extended\n");
+./src/io/description/pint-request.c:                gossip_debug(GOSSIP_REQUEST_DEBUG,
+./src/io/description/pint-request.c:                    gossip_debug(GOSSIP_REQUEST_DEBUG,
+./src/io/description/pint-request.c:            gossip_debug(GOSSIP_REQUEST_DEBUG,
+./src/io/description/pint-request.c:            gossip_debug(GOSSIP_REQUEST_DEBUG,
+./src/io/description/pint-request.c:            gossip_debug(GOSSIP_REQUEST_DEBUG,"\t\tsegment of %lld sz %lld\n",
+./src/io/description/pint-request.c:            gossip_debug(GOSSIP_REQUEST_DEBUG,
+./src/io/description/pint-request.c:        gossip_debug(GOSSIP_REQUEST_DEBUG,"\t\tend iteration\n");
+./src/io/description/pint-request.c:            gossip_debug(GOSSIP_REQUEST_DEBUG,
+./src/io/description/pint-request.c:    gossip_debug(GOSSIP_REQUEST_DEBUG,
+./src/io/description/pint-request.c:    gossip_debug(GOSSIP_REQUEST_DEBUG,
+./src/io/description/pint-request.c:        gossip_debug(GOSSIP_REQUEST_DEBUG,"\t\t\t[return value] %lld (EOF)\n",
+./src/io/description/pint-request.c:        gossip_debug(GOSSIP_REQUEST_DEBUG,
+./src/io/description/pint-request.c:        gossip_debug(GOSSIP_REQUEST_DEBUG,"\t\t\treturn value %lld%s\n",
+./src/io/description/pint-request.c:    gossip_debug(GOSSIP_REQUEST_DEBUG,"\t\tfinished\n");
+./src/io/description/pint-request.c:	gossip_debug(GOSSIP_REQUEST_DEBUG,"%s: commit node %p\n", __func__, node);
+./src/io/description/pint-request.c:		gossip_debug(GOSSIP_REQUEST_DEBUG,"previously commited %d\n", node->committed);
+./src/io/description/pint-request.c:	gossip_debug(GOSSIP_REQUEST_DEBUG,"node stored at %d\n", *index);
+./src/io/description/pint-request.c:		gossip_debug(GOSSIP_REQUEST_DEBUG,"clearing tree\n");
+./src/io/description/pint-request.c:	gossip_debug(GOSSIP_REQUEST_DEBUG,"**********************\n");
+./src/io/description/pint-request.c:	gossip_debug(GOSSIP_REQUEST_DEBUG,"address:\t%p\n",req);
+./src/io/description/pint-request.c:	gossip_debug(GOSSIP_REQUEST_DEBUG,"offset:\t\t%d\n",(int)req->offset);
+./src/io/description/pint-request.c:	gossip_debug(GOSSIP_REQUEST_DEBUG,"num_ereqs:\t%d\n",(int)req->num_ereqs);
+./src/io/description/pint-request.c:	gossip_debug(GOSSIP_REQUEST_DEBUG,"num_blocks:\t%d\n",(int)req->num_blocks);
+./src/io/description/pint-request.c:	gossip_debug(GOSSIP_REQUEST_DEBUG,"stride:\t\t%d\n",(int)req->stride);
+./src/io/description/pint-request.c:	gossip_debug(GOSSIP_REQUEST_DEBUG,"ub:\t\t%d\n",(int)req->ub);
+./src/io/description/pint-request.c:	gossip_debug(GOSSIP_REQUEST_DEBUG,"lb:\t\t%d\n",(int)req->lb);
+./src/io/description/pint-request.c:	gossip_debug(GOSSIP_REQUEST_DEBUG,"agg_size:\t%d\n",(int)req->aggregate_size);
+./src/io/description/pint-request.c:	gossip_debug(GOSSIP_REQUEST_DEBUG,"num_chunk:\t%d\n",(int)req->num_contig_chunks);
+./src/io/description/pint-request.c:	gossip_debug(GOSSIP_REQUEST_DEBUG,"depth:\t\t%d\n",(int)req->depth);
+./src/io/description/pint-request.c:	gossip_debug(GOSSIP_REQUEST_DEBUG,"num_nest:\t%d\n",(int)req->num_nested_req);
+./src/io/description/pint-request.c:	gossip_debug(GOSSIP_REQUEST_DEBUG,"commit:\t\t%d\n",(int)req->committed);
+./src/io/description/pint-request.c:	gossip_debug(GOSSIP_REQUEST_DEBUG,"refcount:\t\t%d\n",(int)req->refcount);
+./src/io/description/pint-request.c:	gossip_debug(GOSSIP_REQUEST_DEBUG,"ereq:\t\t%p\n",req->ereq);
+./src/io/description/pint-request.c:	gossip_debug(GOSSIP_REQUEST_DEBUG,"sreq:\t\t%p\n",req->sreq);
+./src/io/description/pint-request.c:	gossip_debug(GOSSIP_REQUEST_DEBUG,"**********************\n");
+./src/io/description/dist-twod-stripe.c:    gossip_debug(GOSSIP_DIST_DEBUG,
+./src/io/description/dist-twod-stripe.c:    gossip_debug(GOSSIP_DIST_DEBUG,
+./src/io/description/dist-twod-stripe.c:    gossip_debug(GOSSIP_DIST_DEBUG,
+./src/io/description/dist-twod-stripe.c:    gossip_debug(GOSSIP_DIST_DEBUG,
+./src/io/description/dist-twod-stripe.c:            gossip_debug(GOSSIP_DIST_DEBUG,
+./src/io/description/dist-twod-stripe.c:            gossip_debug(GOSSIP_DIST_DEBUG,
+./src/io/description/dist-twod-stripe.c:            gossip_debug(GOSSIP_DIST_DEBUG,
+./src/io/description/pvfs-request.c:        gossip_debug(GOSSIP_REQUEST_DEBUG, "don't free special request\n");
+./src/io/description/pvfs-request.c:        gossip_debug(GOSSIP_REQUEST_DEBUG, "don't free referenced request\n");
+./src/io/description/pvfs-request.c:        gossip_debug(GOSSIP_REQUEST_DEBUG, "free packed request\n");
+./src/io/description/pvfs-request.c:        gossip_debug(GOSSIP_REQUEST_DEBUG, "free sreq linked request\n");
+./src/io/description/pvfs-request.c:    gossip_debug(GOSSIP_REQUEST_DEBUG, "free unpacked request\n");
+./src/io/job/thread-mgr.c:    gossip_debug(GOSSIP_JOB_DEBUG,
+./src/io/job/job.c:    gossip_debug(GOSSIP_FLOW_DEBUG, "Job flows in progress (post time): %d\n",
+./src/io/job/job.c:    gossip_debug(GOSSIP_JOB_DEBUG, "job_trove_keyval_write_list() posting trove_keyval_write_list()\n");
+./src/io/job/job.c:        gossip_debug(GOSSIP_JOB_DEBUG,
+./src/io/job/job.c:        gossip_debug(GOSSIP_JOB_DEBUG, "precreate_pool_fill_thread_mgr_callback() first post.\n");
+./src/io/job/job.c:        gossip_debug(GOSSIP_JOB_DEBUG, "precreate_pool_fill_thread_mgr_callback() completed trove op.\n");
+./src/io/job/job.c:                gossip_debug(GOSSIP_JOB_DEBUG, 
+./src/io/job/job.c:        gossip_debug(GOSSIP_JOB_DEBUG, "checking for get_handles() sleepers\n");
+./src/io/job/job.c:            gossip_debug(GOSSIP_JOB_DEBUG, "Found someone waiting to get handles from precreate pool\n");
+./src/io/job/job.c:        gossip_debug(GOSSIP_JOB_DEBUG, "About to push on get_handles() sleepers.\n");
+./src/io/job/job.c:            gossip_debug(GOSSIP_JOB_DEBUG, "Pushing get_handles() sleeper for jd: %p.\n", jd_checker);
+./src/io/job/job.c:    gossip_debug(GOSSIP_JOB_DEBUG, "job_precreate_pool_fill() posting trove_keyval_write_list()\n");
+./src/io/job/job.c:        gossip_debug(GOSSIP_JOB_DEBUG, "trove_keyval_write_list() immediate completion\n");
+./src/io/job/job.c:        gossip_debug(GOSSIP_JOB_DEBUG, "trove_keyval_write_list() returned zero\n");
+./src/io/job/job.c:    gossip_debug(GOSSIP_JOB_DEBUG,
+./src/io/job/job.c:    gossip_debug(GOSSIP_FLOW_DEBUG, "Job flows in progress (callback time): %d\n",
+./src/io/job/job.c:    gossip_debug(GOSSIP_FLOW_DEBUG, "job_precreate_pool_fill_signal_error() called.\n");
+./src/io/job/job.c:        gossip_debug(GOSSIP_FLOW_DEBUG, "job_precreate_pool_fill_signal_error() waking up a get_handles() caller.\n");
+./src/io/job/job.c:    gossip_debug(GOSSIP_JOB_DEBUG, "job_precreate_pool_fill() called.\n");
+./src/io/job/job.c:    gossip_debug(GOSSIP_JOB_DEBUG, 
+./src/io/job/job.c:    gossip_debug(GOSSIP_JOB_DEBUG,
+./src/io/job/job.c:            gossip_debug(GOSSIP_JOB_DEBUG, "%s: fs_pool %p, storing batch "
+./src/io/job/job.c:                gossip_debug(GOSSIP_JOB_DEBUG, "found pool count low for "
+./src/io/job/job.c:                gossip_debug(GOSSIP_JOB_DEBUG, "found pool count high for pool "
+./src/io/job/job.c:    gossip_debug(GOSSIP_JOB_DEBUG, "%s: requesting %d handles of type %u\n",
+./src/io/job/job.c:    gossip_debug(GOSSIP_JOB_DEBUG, "precreate_pool_get_handles_try_post\n");
+./src/io/job/job.c:            gossip_debug(GOSSIP_JOB_DEBUG, "Found empty precreate pool %llu\n", 
+./src/io/job/job.c:            gossip_debug( GOSSIP_SERVER_DEBUG, "%s: total pool count %d\n",
+./src/io/job/job.c:        gossip_debug(GOSSIP_JOB_DEBUG, 
+./src/io/job/job.c:                    gossip_debug(GOSSIP_JOB_DEBUG, "Pool count low, waking up waiter for handle %llu.\n", llu(jd_checker->u.precreate_pool.precreate_pool));
+./src/io/dev/pint-dev.c:        gossip_debug(GOSSIP_USER_DEV_DEBUG,
+./src/io/dev/pint-dev.c:    gossip_debug(GOSSIP_USER_DEV_DEBUG, 
+./src/io/dev/pint-dev.c:                gossip_debug(GOSSIP_USER_DEV_DEBUG,
+./src/io/dev/pint-dev.c:            gossip_debug(GOSSIP_USER_DEV_DEBUG,
+./src/io/dev/pint-dev.c:    gossip_debug(GOSSIP_USER_DEV_DEBUG,
+./src/io/flow/flowproto-bmi-trove/flowproto-multiqueue.c:    gossip_debug(GOSSIP_FLOW_PROTO_DEBUG, "flowproto completing %p\n",\
+./src/io/flow/flowproto-bmi-trove/flowproto-multiqueue.c:                gossip_debug(
+./src/io/flow/flowproto-bmi-trove/flowproto-multiqueue.c:        gossip_debug(GOSSIP_CANCEL_DEBUG,
+./src/io/flow/flowproto-bmi-trove/flowproto-multiqueue.c:        gossip_debug(GOSSIP_CANCEL_DEBUG,
+./src/io/flow/flowproto-bmi-trove/flowproto-multiqueue.c:    gossip_debug(GOSSIP_FLOW_PROTO_DEBUG, "flowproto posting %p\n",
+./src/io/flow/flowproto-bmi-trove/flowproto-multiqueue.c:            gossip_debug(GOSSIP_FLOW_PROTO_DEBUG,
+./src/io/flow/flowproto-bmi-trove/flowproto-multiqueue.c:        gossip_debug(GOSSIP_FLOW_PROTO_DEBUG,
+./src/io/flow/flowproto-bmi-trove/flowproto-multiqueue.c:    gossip_debug(GOSSIP_FLOW_PROTO_DEBUG, "flowproto posted %p\n",
+./src/io/flow/flowproto-bmi-trove/flowproto-multiqueue.c:    gossip_debug(GOSSIP_FLOW_PROTO_DEBUG,
+./src/io/flow/flowproto-bmi-trove/flowproto-multiqueue.c:        gossip_debug(GOSSIP_DIRECTIO_DEBUG,
+./src/io/flow/flowproto-bmi-trove/flowproto-multiqueue.c:    gossip_debug(GOSSIP_FLOW_PROTO_DEBUG,
+./src/io/flow/flowproto-bmi-trove/flowproto-multiqueue.c:            gossip_debug(GOSSIP_FLOW_PROTO_DEBUG,
+./src/io/flow/flowproto-bmi-trove/flowproto-multiqueue.c:    gossip_debug(GOSSIP_FLOW_PROTO_DEBUG,
+./src/io/flow/flowproto-bmi-trove/flowproto-multiqueue.c:    gossip_debug(GOSSIP_FLOW_PROTO_DEBUG,
+./src/io/flow/flowproto-bmi-trove/flowproto-multiqueue.c:            gossip_debug(GOSSIP_FLOW_PROTO_DEBUG, 
+./src/io/flow/flowproto-bmi-trove/flowproto-multiqueue.c:            gossip_debug(GOSSIP_FLOW_PROTO_DEBUG,
+./src/io/flow/flowproto-bmi-trove/flowproto-multiqueue.c:    gossip_debug(
+./src/io/flow/flowproto-bmi-trove/flowproto-multiqueue.c:        gossip_debug(GOSSIP_DIRECTIO_DEBUG,
+./src/io/flow/flowproto-bmi-trove/flowproto-multiqueue.c:    gossip_debug(GOSSIP_FLOW_PROTO_DEBUG,
+./src/io/flow/flowproto-bmi-trove/flowproto-multiqueue.c:    gossip_debug(GOSSIP_FLOW_PROTO_DEBUG,
+./src/io/flow/flowproto-bmi-trove/flowproto-multiqueue.c:    gossip_debug(GOSSIP_FLOW_PROTO_DEBUG, 
+./src/io/flow/flowproto-bmi-trove/flowproto-multiqueue.c:            gossip_debug(GOSSIP_FLOW_PROTO_DEBUG,
+./src/io/flow/flowproto-bmi-trove/flowproto-multiqueue.c:            gossip_debug(GOSSIP_FLOW_PROTO_DEBUG,
+./src/io/flow/flowproto-bmi-trove/flowproto-multiqueue.c:            gossip_debug(GOSSIP_FLOW_PROTO_DEBUG,
+./src/io/flow/flowproto-bmi-trove/flowproto-multiqueue.c:            gossip_debug(GOSSIP_FLOW_PROTO_DEBUG,
+./src/io/flow/flowproto-bmi-trove/flowproto-multiqueue.c:            gossip_debug(GOSSIP_FLOW_PROTO_DEBUG,
+./src/io/flow/flowproto-bmi-trove/flowproto-multiqueue.c:            gossip_debug(GOSSIP_FLOW_PROTO_DEBUG,
+./src/io/flow/flowproto-bmi-trove/flowproto-multiqueue.c:    gossip_debug(GOSSIP_FLOW_PROTO_DEBUG, 
+./src/io/flow/flowproto-bmi-trove/flowproto-multiqueue.c:            gossip_debug(GOSSIP_FLOW_PROTO_DEBUG,
+./src/io/flow/flowproto-bmi-trove/flowproto-multiqueue.c:    gossip_debug(GOSSIP_FLOW_PROTO_DEBUG, "get_data_sync_mode "
+./src/server/request-scheduler/request-scheduler.c:                gossip_debug(GOSSIP_REQ_SCHED_DEBUG, "REQ SCHED allowing "
+./src/server/request-scheduler/request-scheduler.c:                gossip_debug(GOSSIP_REQ_SCHED_DEBUG, "REQ SCHED allowing "
+./src/server/request-scheduler/request-scheduler.c:            gossip_debug(GOSSIP_REQ_SCHED_DEBUG, "REQ SCHED allowing "
+./src/server/request-scheduler/request-scheduler.c:    gossip_debug(GOSSIP_REQ_SCHED_DEBUG,
+./src/server/request-scheduler/request-scheduler.c:	gossip_debug(GOSSIP_REQ_SCHED_DEBUG, "REQ SCHED SCHEDULING, "
+./src/server/request-scheduler/request-scheduler.c:    gossip_debug(GOSSIP_REQ_SCHED_DEBUG,
+./src/server/request-scheduler/request-scheduler.c:			    gossip_debug(
+./src/server/request-scheduler/request-scheduler.c:                            gossip_debug(
+./src/server/request-scheduler/request-scheduler.c:                            gossip_debug(
+./src/server/request-scheduler/request-scheduler.c:    gossip_debug(GOSSIP_REQ_SCHED_DEBUG,
+./src/server/request-scheduler/request-scheduler.c:	gossip_debug(GOSSIP_REQ_SCHED_DEBUG, "REQ SCHED SCHEDULING, "
+./src/server/request-scheduler/request-scheduler.c:	    gossip_debug(GOSSIP_REQ_SCHED_DEBUG,
+./src/server/request-scheduler/request-scheduler.c:	    gossip_debug(GOSSIP_REQ_SCHED_DEBUG,
+./src/server/request-scheduler/request-scheduler.c:		gossip_debug(GOSSIP_REQ_SCHED_DEBUG,
+./src/server/request-scheduler/request-scheduler.c:		gossip_debug(GOSSIP_REQ_SCHED_DEBUG,
+./src/server/request-scheduler/request-scheduler.c:	gossip_debug(GOSSIP_REQ_SCHED_DEBUG,
+./src/server/check.c:        gossip_debug(GOSSIP_PERMISSIONS_DEBUG,
+./src/server/check.c:    gossip_debug(GOSSIP_SECURITY_DEBUG, "%s: checking operation %s\n", 
+./src/server/check.c:            gossip_debug(GOSSIP_SECURITY_DEBUG, "%s: using operation handle %llu\n",
+./src/server/check.c:    gossip_debug(GOSSIP_SECURITY_DEBUG, "%s: perms %o (capability mask = %s)\n",
+./src/server/check.c:    gossip_debug(GOSSIP_SECURITY_DEBUG, "%s: returning %d\n", __func__, ret);
+./src/server/check.c:        gossip_debug(GOSSIP_PERMISSIONS_DEBUG, "%s: invalid acls on object\n",
+./src/server/check.c:    gossip_debug(GOSSIP_PERMISSIONS_DEBUG, "%s: read keyval size "
+./src/server/check.c:    gossip_debug(GOSSIP_PERMISSIONS_DEBUG, "%s: uid = %d, gid = %d, want = %d\n",
+./src/server/check.c:        gossip_debug(GOSSIP_PERMISSIONS_DEBUG, "%s: decoded acl entry %d "
+./src/server/check.c:                    gossip_debug(GOSSIP_PERMISSIONS_DEBUG, "%s: returning "
+./src/server/check.c:                gossip_debug(GOSSIP_PERMISSIONS_DEBUG, "%s: returning "
+./src/server/check.c:    gossip_debug(GOSSIP_PERMISSIONS_DEBUG, "%s: returning EINVAL (3)\n", 
+./src/server/check.c:        gossip_debug(GOSSIP_PERMISSIONS_DEBUG, "%s: decoded (mask) acl entry %d "
+./src/server/check.c:            gossip_debug(GOSSIP_PERMISSIONS_DEBUG, "%s: returning EACCES (mask)\n",
+./src/server/check.c:    gossip_debug(GOSSIP_PERMISSIONS_DEBUG, "%s: returning EACCES\n",
+./src/server/pvfs2-server.c:    gossip_debug(GOSSIP_SERVER_DEBUG,"Logging %s (mask %llu)\n",
+./src/server/pvfs2-server.c:            gossip_debug(GOSSIP_SERVER_DEBUG,
+./src/server/pvfs2-server.c:            gossip_debug(GOSSIP_SERVER_DEBUG,
+./src/server/pvfs2-server.c:        gossip_debug(GOSSIP_SERVER_DEBUG, "Exiting.\n");
+./src/server/pvfs2-server.c:                gossip_debug(GOSSIP_SERVER_DEBUG,
+./src/server/pvfs2-server.c:        gossip_debug(GOSSIP_SERVER_DEBUG,
+./src/server/pvfs2-server.c:    gossip_debug(GOSSIP_SERVER_DEBUG,
+./src/server/pvfs2-server.c:    gossip_debug(GOSSIP_SERVER_DEBUG,
+./src/server/pvfs2-server.c:    gossip_debug(GOSSIP_SERVER_DEBUG, "Enabling trusted connections!\n");
+./src/server/pvfs2-server.c:            gossip_debug(GOSSIP_SERVER_DEBUG, "File system %s using "
+./src/server/pvfs2-server.c:            gossip_debug(GOSSIP_SERVER_DEBUG, "Sync on metadata update "
+./src/server/pvfs2-server.c:            gossip_debug(GOSSIP_SERVER_DEBUG, "Sync on I/O data update "
+./src/server/pvfs2-server.c:            gossip_debug(GOSSIP_SERVER_DEBUG, "Export options for "
+./src/server/pvfs2-server.c:    gossip_debug(GOSSIP_SERVER_DEBUG,
+./src/server/pvfs2-server.c:    gossip_debug(GOSSIP_SERVER_DEBUG, "%d filesystem(s) initialized\n",
+./src/server/pvfs2-server.c:                gossip_debug(GOSSIP_SERVER_DEBUG, "root dir already setup.\n");
+./src/server/pvfs2-server.c:    gossip_debug(GOSSIP_SERVER_DEBUG, "PVFS2 received server: signal %d\n", sig);
+./src/server/pvfs2-server.c:    gossip_debug(GOSSIP_SERVER_DEBUG, "Reloading configuration %s\n",
+./src/server/pvfs2-server.c:    gossip_debug(GOSSIP_SERVER_DEBUG,
+./src/server/pvfs2-server.c:        gossip_debug(GOSSIP_SERVER_DEBUG, "[+] halting precreate pool "
+./src/server/pvfs2-server.c:        gossip_debug(GOSSIP_SERVER_DEBUG, "[-]         precreate pool "
+./src/server/pvfs2-server.c:        gossip_debug(GOSSIP_SERVER_DEBUG, "[+] halting state machine "
+./src/server/pvfs2-server.c:        gossip_debug(GOSSIP_SERVER_DEBUG, "[-]         state machine "
+./src/server/pvfs2-server.c:        gossip_debug(GOSSIP_SERVER_DEBUG, "[+] halting cached "
+./src/server/pvfs2-server.c:        gossip_debug(GOSSIP_SERVER_DEBUG, "[-]         cached "
+./src/server/pvfs2-server.c:        gossip_debug(GOSSIP_SERVER_DEBUG, "[+] halting event "
+./src/server/pvfs2-server.c:        gossip_debug(GOSSIP_SERVER_DEBUG, "[-]         event "
+./src/server/pvfs2-server.c:        gossip_debug(GOSSIP_SERVER_DEBUG, "[+] halting request "
+./src/server/pvfs2-server.c:        gossip_debug(GOSSIP_SERVER_DEBUG, "[-]         request "
+./src/server/pvfs2-server.c:        gossip_debug(GOSSIP_SERVER_DEBUG, "[+] halting job "
+./src/server/pvfs2-server.c:        gossip_debug(GOSSIP_SERVER_DEBUG, "[-]         job "
+./src/server/pvfs2-server.c:        gossip_debug(GOSSIP_SERVER_DEBUG, "[+] halting job time "
+./src/server/pvfs2-server.c:        gossip_debug(GOSSIP_SERVER_DEBUG, "[-]         job time "
+./src/server/pvfs2-server.c:        gossip_debug(GOSSIP_SERVER_DEBUG, "[+] halting flow "
+./src/server/pvfs2-server.c:        gossip_debug(GOSSIP_SERVER_DEBUG, "[-]         flow "
+./src/server/pvfs2-server.c:        gossip_debug(GOSSIP_SERVER_DEBUG, "[+] halting bmi "
+./src/server/pvfs2-server.c:        gossip_debug(GOSSIP_SERVER_DEBUG, "[-]         bmi "
+./src/server/pvfs2-server.c:        gossip_debug(GOSSIP_SERVER_DEBUG, "[+] halting storage "
+./src/server/pvfs2-server.c:        gossip_debug(GOSSIP_SERVER_DEBUG, "[-]         storage "
+./src/server/pvfs2-server.c:        gossip_debug(GOSSIP_SERVER_DEBUG, "[+] halting security "
+./src/server/pvfs2-server.c:        gossip_debug(GOSSIP_SERVER_DEBUG, "[-]         security "
+./src/server/pvfs2-server.c:        gossip_debug(GOSSIP_SERVER_DEBUG, "[+] halting certificate "
+./src/server/pvfs2-server.c:        gossip_debug(GOSSIP_SERVER_DEBUG, "[-]         certificate "
+./src/server/pvfs2-server.c:        gossip_debug(GOSSIP_SERVER_DEBUG, "[+] halting credential "
+./src/server/pvfs2-server.c:        gossip_debug(GOSSIP_SERVER_DEBUG, "[-]         credential "
+./src/server/pvfs2-server.c:        gossip_debug(GOSSIP_SERVER_DEBUG, "[+] halting capability "
+./src/server/pvfs2-server.c:        gossip_debug(GOSSIP_SERVER_DEBUG, "[-]         capability "
+./src/server/pvfs2-server.c:        gossip_debug(GOSSIP_SERVER_DEBUG, "[+] halting encoder "
+./src/server/pvfs2-server.c:        gossip_debug(GOSSIP_SERVER_DEBUG, "[-]         encoder "
+./src/server/pvfs2-server.c:        gossip_debug(GOSSIP_SERVER_DEBUG, "[+] halting dist "
+./src/server/pvfs2-server.c:        gossip_debug(GOSSIP_SERVER_DEBUG, "[-]         dist "
+./src/server/pvfs2-server.c:        gossip_debug(GOSSIP_SERVER_DEBUG, "[+] halting performance "
+./src/server/pvfs2-server.c:        gossip_debug(GOSSIP_SERVER_DEBUG, "[-]         performance "
+./src/server/pvfs2-server.c:        gossip_debug(GOSSIP_SERVER_DEBUG, "[+] halting uid management "
+./src/server/pvfs2-server.c:        gossip_debug(GOSSIP_SERVER_DEBUG, "[-]         uid management "
+./src/server/pvfs2-server.c:        gossip_debug(GOSSIP_SERVER_DEBUG,
+./src/server/pvfs2-server.c:    gossip_debug(GOSSIP_SERVER_DEBUG,
+./src/server/pvfs2-server.c:    gossip_debug(GOSSIP_SERVER_DEBUG,
+./src/server/pvfs2-server.c:        gossip_debug(GOSSIP_SERVER_DEBUG, "client:%d, reqid:%d, rank:%d\n",
+./src/server/pvfs2-server.c:    gossip_debug(GOSSIP_SERVER_DEBUG,
+./src/server/pvfs2-server.c:    gossip_debug(GOSSIP_SERVER_DEBUG,
+./src/server/pvfs2-server.c:    gossip_debug(GOSSIP_SERVER_DEBUG, "%s: %p\n", __func__, smcb);
+./src/server/pvfs2-server.c:    gossip_debug(GOSSIP_SERVER_DEBUG,
+./src/server/pvfs2-server.c:    gossip_debug(GOSSIP_SERVER_DEBUG,
+./src/server/pvfs2-server.c:    gossip_debug(GOSSIP_SERVER_DEBUG,
+./src/server/pvfs2-server.c:                    gossip_debug(GOSSIP_SERVER_DEBUG, "%s: setting up pool on "
+./src/server/pvfs2-server.c:        gossip_debug(GOSSIP_SERVER_DEBUG, "precreate_pool didn't find handle "
+./src/server/pvfs2-server.c:        gossip_debug(GOSSIP_SERVER_DEBUG, "precreate_pool created handle %llu "
+./src/server/pvfs2-server.c:        gossip_debug(GOSSIP_SERVER_DEBUG, "precreate_pool found handle %llu "
+./src/server/pvfs2-server.c:        gossip_debug(GOSSIP_SERVER_DEBUG, "%s: NOT launching refiller for "
+./src/server/pvfs2-server.c:    gossip_debug(GOSSIP_SERVER_DEBUG, "%s: launching refiller for host %s, "
+./src/common/misc/fsck-utils.c:    gossip_debug(GOSSIP_FSCK_DEBUG, "\tFSID        : %d\n", (int) pref->fs_id);
+./src/common/misc/fsck-utils.c:    gossip_debug(GOSSIP_FSCK_DEBUG, "\tHandle      : %llu\n", llu(pref->handle));
+./src/common/misc/fsck-utils.c:        gossip_debug(GOSSIP_FSCK_DEBUG, 
+./src/common/misc/fsck-utils.c:        gossip_debug(GOSSIP_FSCK_DEBUG, 
+./src/common/misc/fsck-utils.c:        gossip_debug(GOSSIP_FSCK_DEBUG, 
+./src/common/misc/fsck-utils.c:        gossip_debug(GOSSIP_FSCK_DEBUG, 
+./src/common/misc/fsck-utils.c:        gossip_debug(GOSSIP_FSCK_DEBUG, 
+./src/common/misc/fsck-utils.c:        gossip_debug(GOSSIP_FSCK_DEBUG, 
+./src/common/misc/fsck-utils.c:        gossip_debug(GOSSIP_FSCK_DEBUG, 
+./src/common/misc/fsck-utils.c:        gossip_debug(GOSSIP_FSCK_DEBUG, 
+./src/common/misc/fsck-utils.c:        gossip_debug(GOSSIP_FSCK_DEBUG, 
+./src/common/misc/fsck-utils.c:    gossip_debug(GOSSIP_FSCK_DEBUG, "\tobject type : ");
+./src/common/misc/fsck-utils.c:        gossip_debug(GOSSIP_FSCK_DEBUG, "none\n");
+./src/common/misc/fsck-utils.c:        gossip_debug(GOSSIP_FSCK_DEBUG, "meta file\n");
+./src/common/misc/fsck-utils.c:        gossip_debug(GOSSIP_FSCK_DEBUG, "data file\n");
+./src/common/misc/fsck-utils.c:        gossip_debug(GOSSIP_FSCK_DEBUG, "directory\n");
+./src/common/misc/fsck-utils.c:        gossip_debug(GOSSIP_FSCK_DEBUG, "symlink\n");
+./src/common/misc/fsck-utils.c:        gossip_debug(GOSSIP_FSCK_DEBUG, "dirdata\n");
+./src/common/misc/fsck-utils.c:        gossip_debug(GOSSIP_FSCK_DEBUG, "internal\n");
+./src/common/misc/fsck-utils.c:    gossip_debug(GOSSIP_FSCK_DEBUG, "\n");
+./src/common/misc/fsck-utils.c:    gossip_debug(GOSSIP_FSCK_DEBUG, 
+./src/common/misc/pint-util.c:    gossip_debug(GOSSIP_PERMISSIONS_DEBUG, " - check_mode called --- "
+./src/common/misc/pint-util.c:    gossip_debug(GOSSIP_PERMISSIONS_DEBUG, " - object attributes --- "
+./src/common/misc/pint-util.c:    gossip_debug(GOSSIP_PERMISSIONS_DEBUG,
+./src/common/misc/pint-util.c:        gossip_debug(GOSSIP_PERMISSIONS_DEBUG, " - yes\n");
+./src/common/misc/pint-util.c:    gossip_debug(GOSSIP_PERMISSIONS_DEBUG, " - no\n");
+./src/common/misc/pint-util.c:    gossip_debug(GOSSIP_PERMISSIONS_DEBUG, " - checking if owner (%d) "
+./src/common/misc/pint-util.c:        gossip_debug(GOSSIP_PERMISSIONS_DEBUG, " - yes\n");
+./src/common/misc/pint-util.c:        gossip_debug(GOSSIP_PERMISSIONS_DEBUG, " - checking if permissions "
+./src/common/misc/pint-util.c:            gossip_debug(GOSSIP_PERMISSIONS_DEBUG, " - yes\n");
+./src/common/misc/pint-util.c:            gossip_debug(GOSSIP_PERMISSIONS_DEBUG, " - yes\n");
+./src/common/misc/pint-util.c:            gossip_debug(GOSSIP_PERMISSIONS_DEBUG, " - yes\n");
+./src/common/misc/pint-util.c:        gossip_debug(GOSSIP_PERMISSIONS_DEBUG, " - no\n");
+./src/common/misc/pint-util.c:        gossip_debug(GOSSIP_PERMISSIONS_DEBUG, " - no\n");
+./src/common/misc/pint-util.c:    gossip_debug(GOSSIP_PERMISSIONS_DEBUG, " - checking if permissions "
+./src/common/misc/pint-util.c:        gossip_debug(GOSSIP_PERMISSIONS_DEBUG, " - yes\n");
+./src/common/misc/pint-util.c:        gossip_debug(GOSSIP_PERMISSIONS_DEBUG, " - yes\n");
+./src/common/misc/pint-util.c:        gossip_debug(GOSSIP_PERMISSIONS_DEBUG, " - yes\n");
+./src/common/misc/pint-util.c:    gossip_debug(GOSSIP_PERMISSIONS_DEBUG, " - no\n");
+./src/common/misc/pint-util.c:    gossip_debug(GOSSIP_PERMISSIONS_DEBUG, " - checking if group (%d) "
+./src/common/misc/pint-util.c:        gossip_debug(GOSSIP_PERMISSIONS_DEBUG, " - yes\n");
+./src/common/misc/pint-util.c:        gossip_debug(GOSSIP_PERMISSIONS_DEBUG, " - no\n");
+./src/common/misc/pint-util.c:        gossip_debug(GOSSIP_PERMISSIONS_DEBUG, " - checking for"
+./src/common/misc/pint-util.c:            gossip_debug(GOSSIP_PERMISSIONS_DEBUG, " - yes\n");
+./src/common/misc/pint-util.c:            gossip_debug(GOSSIP_PERMISSIONS_DEBUG, " - no\n");
+./src/common/misc/pint-util.c:        gossip_debug(GOSSIP_PERMISSIONS_DEBUG, " - checking if permissions "
+./src/common/misc/pint-util.c:            gossip_debug(GOSSIP_PERMISSIONS_DEBUG, " - yes\n");
+./src/common/misc/pint-util.c:            gossip_debug(GOSSIP_PERMISSIONS_DEBUG, " - yes\n");
+./src/common/misc/pint-util.c:            gossip_debug(GOSSIP_PERMISSIONS_DEBUG, " - yes\n");
+./src/common/misc/pint-util.c:        gossip_debug(GOSSIP_PERMISSIONS_DEBUG, " - no\n");
+./src/common/misc/pint-util.c:    gossip_debug(GOSSIP_PERMISSIONS_DEBUG, "******PINT_check_mode: denying access\n");
+./src/common/misc/pint-util.c:        gossip_debug(GOSSIP_PERMISSIONS_DEBUG,
+./src/common/misc/pint-util.c:    gossip_debug(GOSSIP_PERMISSIONS_DEBUG,
+./src/common/misc/pint-util.c:    gossip_debug(GOSSIP_PERMISSIONS_DEBUG,
+./src/common/misc/pint-util.c:        gossip_debug(GOSSIP_PERMISSIONS_DEBUG, "invalid acls on object\n");
+./src/common/misc/pint-util.c:        gossip_debug(GOSSIP_PERMISSIONS_DEBUG, "Decoded ACL entry %d "
+./src/common/misc/pint-util.c:                    gossip_debug(GOSSIP_PERMISSIONS_DEBUG, "(1) PINT_check_acls:"
+./src/common/misc/pint-util.c:                gossip_debug(GOSSIP_PERMISSIONS_DEBUG, "(2) PINT_check_acls: "
+./src/common/misc/pint-util.c:    gossip_debug(GOSSIP_PERMISSIONS_DEBUG, "(3) PINT_check_acls: returning EIO\n");
+./src/common/misc/pint-util.c:        gossip_debug(GOSSIP_PERMISSIONS_DEBUG, "Decoded (mask) ACL entry %d "
+./src/common/misc/pint-util.c:            gossip_debug(GOSSIP_PERMISSIONS_DEBUG, "(4) PINT_check_acls:"
+./src/common/misc/pint-util.c:    gossip_debug(GOSSIP_PERMISSIONS_DEBUG, "(5) PINT_check_acls: returning"
+./src/common/misc/mkspace.c:   gossip_debug(GOSSIP_SERVER_DEBUG, format, ##f);  \
+./src/common/misc/server-config.c:        gossip_debug(GOSSIP_SERVER_DEBUG, "Parsed %s:%d\n",
+./src/common/misc/server-config.c:        gossip_debug(GOSSIP_SERVER_DEBUG,
+./src/common/misc/server-config.c:        gossip_debug(GOSSIP_SERVER_DEBUG, "Parsed %d RootSquashExceptions wildcard entries\n",
+./src/common/misc/server-config.c:        gossip_debug(GOSSIP_SERVER_DEBUG, "Parsed %d ro wildcard entries\n",
+./src/common/misc/server-config.c:        gossip_debug(GOSSIP_SERVER_DEBUG,
+./src/common/misc/server-config.c:            gossip_debug(
+./src/common/misc/server-config.c:            gossip_debug(
+./src/common/misc/server-config.c:            gossip_debug(
+./src/common/misc/server-config.c:            gossip_debug(
+./src/common/misc/server-config.c:            gossip_debug(
+./src/common/misc/server-config.c:            gossip_debug(
+./src/common/misc/state-machine-fns.c:        gossip_debug(GOSSIP_STATE_MACHINE_DEBUG, 
+./src/common/misc/state-machine-fns.c:         gossip_debug(GOSSIP_STATE_MACHINE_DEBUG,
+./src/common/misc/state-machine-fns.c:        gossip_debug(GOSSIP_STATE_MACHINE_DEBUG,
+./src/common/misc/state-machine-fns.c:            gossip_debug(GOSSIP_STATE_MACHINE_DEBUG,
+./src/common/misc/state-machine-fns.c:    gossip_debug(GOSSIP_STATE_MACHINE_DEBUG, 
+./src/common/misc/state-machine-fns.c:    gossip_debug(GOSSIP_STATE_MACHINE_DEBUG, 
+./src/common/misc/state-machine-fns.c:    gossip_debug(GOSSIP_STATE_MACHINE_DEBUG,
+./src/common/misc/state-machine-fns.c:        gossip_debug(GOSSIP_STATE_MACHINE_DEBUG,
+./src/common/misc/state-machine-fns.c:    gossip_debug(GOSSIP_STATE_MACHINE_DEBUG,"PINT_smcb_free: smcb:%p\n",smcb);
+./src/common/misc/state-machine-fns.c:           gossip_debug(GOSSIP_STATE_MACHINE_DEBUG,
+./src/common/misc/state-machine-fns.c:           gossip_debug(GOSSIP_STATE_MACHINE_DEBUG,
+./src/common/misc/state-machine-fns.c:    gossip_debug(GOSSIP_STATE_MACHINE_DEBUG,
+./src/common/misc/state-machine-fns.c:    gossip_debug(GOSSIP_STATE_MACHINE_DEBUG,
+./src/common/misc/state-machine-fns.c:    gossip_debug(GOSSIP_STATE_MACHINE_DEBUG,
+./src/common/misc/state-machine-fns.c:    gossip_debug(GOSSIP_STATE_MACHINE_DEBUG,
+./src/common/misc/state-machine-fns.c:    gossip_debug(GOSSIP_STATE_MACHINE_DEBUG,
+./src/common/misc/state-machine-fns.c:    gossip_debug(GOSSIP_STATE_MACHINE_DEBUG,"CHILD TERMINATE: smcb:%p.\n",smcb);
+./src/common/misc/state-machine-fns.c:        gossip_debug(GOSSIP_STATE_MACHINE_DEBUG,"START CHILD FRAMES: calling smcb is %p.\n",smcb);
+./src/common/misc/state-machine-fns.c:        gossip_debug(GOSSIP_STATE_MACHINE_DEBUG,"START CHILD FRAMES: with frame: %p.\n",f->frame);
+./src/common/misc/state-machine-fns.c:        gossip_debug(GOSSIP_STATE_MACHINE_DEBUG,"START CHILD FRAMES: and task id: %d.\n",f->task_id);
+./src/common/misc/state-machine-fns.c:        gossip_debug(GOSSIP_STATE_MACHINE_DEBUG,"START CHILD FRAMES: new_sm->current_state is %s:\n"
+./src/common/misc/state-machine-fns.c:            gossip_debug(GOSSIP_STATE_MACHINE_DEBUG,"START CHILD FRAMES: new_sm->current_state->flag is %d\n"
+./src/common/misc/mmap-ra-cache.c:        gossip_debug(GOSSIP_MMAP_RCACHE_DEBUG,
+./src/common/misc/mmap-ra-cache.c:        gossip_debug(GOSSIP_MMAP_RCACHE_DEBUG, "mmap readahead cache already "
+./src/common/misc/mmap-ra-cache.c:        gossip_debug(GOSSIP_MMAP_RCACHE_DEBUG, "Inserted mmap ra cache "
+./src/common/misc/mmap-ra-cache.c:                gossip_debug(GOSSIP_MMAP_RCACHE_DEBUG,
+./src/common/misc/mmap-ra-cache.c:                gossip_debug(
+./src/common/misc/mmap-ra-cache.c:                    gossip_debug(
+./src/common/misc/mmap-ra-cache.c:            gossip_debug(
+./src/common/misc/mmap-ra-cache.c:            gossip_debug(GOSSIP_MMAP_RCACHE_DEBUG, "Flushed mmap ra cache "
+./src/common/misc/mmap-ra-cache.c:        gossip_debug(GOSSIP_MMAP_RCACHE_DEBUG, "mmap_ra_cache_finalized\n");
+./src/common/misc/server-config-mgr.c:                    gossip_debug(GOSSIP_CLIENT_DEBUG, "Set min handle "
+./src/common/misc/server-config-mgr.c:                gossip_debug(GOSSIP_CLIENT_DEBUG,
+./src/common/misc/server-config-mgr.c:    gossip_debug(GOSSIP_CLIENT_DEBUG, "PINT_server_config_mgr_add_"
+./src/common/misc/server-config-mgr.c:            gossip_debug(GOSSIP_CLIENT_DEBUG, "PINT_server_config_mgr_add_"
+./src/common/misc/server-config-mgr.c:        gossip_debug(GOSSIP_CLIENT_DEBUG, "\tmapped fs_id %d => "
+./src/common/misc/server-config-mgr.c:    gossip_debug(GOSSIP_CLIENT_DEBUG, "PINT_server_config_mgr_add_"
+./src/common/misc/server-config-mgr.c:    gossip_debug(GOSSIP_CLIENT_DEBUG, "%s: Trying to "
+./src/common/misc/server-config-mgr.c:                gossip_debug(GOSSIP_CLIENT_DEBUG, "%s: "
+./src/common/misc/server-config-mgr.c:                gossip_debug(GOSSIP_CLIENT_DEBUG, "%s: "
+./src/common/misc/server-config-mgr.c:            gossip_debug(
+./src/common/misc/server-config-mgr.c:            gossip_debug(
+./src/common/misc/pint-hint.c:    gossip_debug(GOSSIP_SERVER_DEBUG, "decoding %d hints from request\n",
+./src/common/misc/pvfs2-util.c:    gossip_debug(GOSSIP_SECURITY_DEBUG, "Executing pvfs2-gencred: %s\n", str);
+./src/common/misc/pvfs2-util.c:    gossip_debug(GOSSIP_CLIENT_DEBUG,
+./src/common/misc/pvfs2-util.c:        gossip_debug(GOSSIP_CLIENT_DEBUG, "* Adding new dynamic mount "
+./src/common/misc/pvfs2-util.c:        gossip_debug(GOSSIP_CLIENT_DEBUG, "* Removing mount "
+./src/common/misc/pvfs2-util.c:    gossip_debug(GOSSIP_CLIENT_DEBUG, "%s: input is %s\n",
+./src/common/misc/pvfs2-util.c:    gossip_debug(GOSSIP_GETATTR_DEBUG,
+./src/common/misc/pvfs2-util.c:    gossip_debug(GOSSIP_CLIENT_DEBUG, "%s: input is %s\n",
+./src/common/misc/pvfs2-win-util.c:    gossip_debug(GOSSIP_CLIENT_DEBUG,
+./src/common/misc/pvfs2-win-util.c:        gossip_debug(GOSSIP_CLIENT_DEBUG, "* Adding new dynamic mount "
+./src/common/misc/pvfs2-win-util.c:        gossip_debug(GOSSIP_CLIENT_DEBUG, "* Removing mount "
+./src/common/misc/pvfs2-win-util.c:    gossip_debug(GOSSIP_CLIENT_DEBUG, "%s: input is %s\n",
+./src/common/misc/pvfs2-win-util.c:    gossip_debug(GOSSIP_GETATTR_DEBUG,
+./src/common/misc/pvfs2-win-util.c:    gossip_debug(GOSSIP_CLIENT_DEBUG, "%s: input is %s\n",
+./src/common/mgmt/pint-mgmt.c:    gossip_debug(GOSSIP_MGMT_DEBUG,
+./src/common/mgmt/pint-mgmt.c:        gossip_debug(GOSSIP_MGMT_DEBUG, "%s: context_test_all failed: %d\n",
+./src/common/mgmt/pint-mgmt.c:                gossip_debug(
+./src/common/mgmt/pint-mgmt.c:                gossip_debug(GOSSIP_MGMT_DEBUG,
+./src/common/mgmt/pint-mgmt.c:            gossip_debug(
+./src/common/mgmt/pint-worker-queues.c:    gossip_debug(GOSSIP_MGMT_DEBUG,
+./src/common/mgmt/pint-context.c:    gossip_debug(GOSSIP_MGMT_DEBUG, 
+./src/common/mgmt/pint-worker-threaded-queues.c:        gossip_debug(GOSSIP_MGMT_DEBUG,"%s:thread_id %p:thread #%d.\n"
+./src/common/mgmt/pint-worker-threaded-queues.c:        gossip_debug(GOSSIP_MGMT_DEBUG,"%s:thread_id %d:thread #%d.\n"
+./src/common/mgmt/pint-worker-threaded-queues.c:    gossip_debug(GOSSIP_MGMT_DEBUG,
+./src/common/mgmt/pint-worker-threaded-queues.c:    gossip_debug(GOSSIP_MGMT_DEBUG,"%s:thread-id %p:worker location is %p: manager location is %p.\n"
+./src/common/mgmt/pint-worker-threaded-queues.c:    gossip_debug(GOSSIP_MGMT_DEBUG,"%s:thread-id %d:worker location is %p: manager location is %p.\n"
+./src/common/mgmt/pint-worker-threaded-queues.c:    gossip_debug(GOSSIP_MGMT_DEBUG,"%s:thread-id %p:op-count is %d:timeout is %d.\n"
+./src/common/mgmt/pint-worker-threaded-queues.c:    gossip_debug(GOSSIP_MGMT_DEBUG,"%s:thread-id %d:op-count is %d:timeout is %d.\n"
+./src/common/mgmt/pint-worker-threaded-queues.c:    gossip_debug(GOSSIP_MGMT_DEBUG,"%s: starting thread function for thread_id %p\n"
+./src/common/mgmt/pint-worker-threaded-queues.c:    gossip_debug(GOSSIP_MGMT_DEBUG,"%s: starting thread function for thread_id %d\n"
+./src/common/mgmt/pint-worker-threaded-queues.c:                gossip_debug(GOSSIP_MGMT_DEBUG,"%s:thread_id %p: op_count is %d.\n"
+./src/common/mgmt/pint-worker-threaded-queues.c:                gossip_debug(GOSSIP_MGMT_DEBUG,"%s:thread_id %d: op_count is %d.\n"
+./src/common/mgmt/pint-worker-threaded-queues.c:                    gossip_debug(GOSSIP_MGMT_DEBUG,"%s:thread_id %p: i is %d.\n"
+./src/common/mgmt/pint-worker-threaded-queues.c:                    gossip_debug(GOSSIP_MGMT_DEBUG,"%s:thread_id %d: i is %d.\n"
+./src/common/mgmt/pint-worker-threaded-queues.c:                    gossip_debug(GOSSIP_MGMT_DEBUG,"%s:thread_id %p: calling PINT_manager_service_op.\n"
+./src/common/mgmt/pint-worker-threaded-queues.c:                    gossip_debug(GOSSIP_MGMT_DEBUG,"%s:thread_id %d: calling PINT_manager_service_op.\n"
+./src/common/mgmt/pint-worker-threaded-queues.c:                    gossip_debug(GOSSIP_MGMT_DEBUG,"%s:thread_id %p: calling PINT_manager_complete_op.\n"
+./src/common/mgmt/pint-worker-threaded-queues.c:                    gossip_debug(GOSSIP_MGMT_DEBUG,"%s:thread_id %d: calling PINT_manager_complete_op.\n"
+./src/common/mgmt/pint-queue.c:        gossip_debug(GOSSIP_MGMT_DEBUG,
+./src/common/mgmt/pint-queue.c:        gossip_debug(GOSSIP_MGMT_DEBUG,
+./src/common/mgmt/pint-queue.c:        gossip_debug(GOSSIP_MGMT_DEBUG,
+./src/common/mgmt/pint-queue.c:    gossip_debug(GOSSIP_MGMT_DEBUG, "%s: returning %d entries\n",
+./src/common/mgmt/pint-queue.c:                gossip_debug(GOSSIP_MGMT_DEBUG,
+./src/common/mgmt/pint-worker-none.c:    gossip_debug(PINT_MGMT_DEBUG,
+./src/common/security/security-hash.c:    	gossip_debug(GOSSIP_SECURITY_DEBUG, 
+./src/common/security/capcache.c:        gossip_debug(GOSSIP_SECCACHE_DEBUG, "%s null capability\n", prefix);
+./src/common/security/capcache.c:    gossip_debug(GOSSIP_SECCACHE_DEBUG, "%s capability:\n", prefix);
+./src/common/security/capcache.c:    gossip_debug(GOSSIP_SECCACHE_DEBUG, "\tissuer: %s\n", cap->issuer);
+./src/common/security/capcache.c:    gossip_debug(GOSSIP_SECCACHE_DEBUG, "\tfsid: %u\n", cap->fsid);
+./src/common/security/capcache.c:    gossip_debug(GOSSIP_SECCACHE_DEBUG, "\tsig_size: %u\n", cap->sig_size);
+./src/common/security/capcache.c:    gossip_debug(GOSSIP_SECCACHE_DEBUG, "\tsignature: %s\n",
+./src/common/security/capcache.c:    gossip_debug(GOSSIP_SECCACHE_DEBUG, "\ttimeout: %d\n",
+./src/common/security/capcache.c:    gossip_debug(GOSSIP_SECCACHE_DEBUG, "\top_mask: %s\n",
+./src/common/security/capcache.c:    gossip_debug(GOSSIP_SECCACHE_DEBUG, "\tnum_handles: %u\n",
+./src/common/security/capcache.c:    gossip_debug(GOSSIP_SECCACHE_DEBUG, "\tfirst handle: %llu\n",
+./src/common/security/capcache.c:        gossip_debug(GOSSIP_SECCACHE_DEBUG, "\thandle %d: %llu\n",
+./src/common/security/capcache.c:        gossip_debug(GOSSIP_SECCACHE_DEBUG, "%s: entry found\n",
+./src/common/security/capcache.c:        gossip_debug(GOSSIP_SECCACHE_DEBUG, "%s: entry timed out\n",
+./src/common/security/capcache.c:    gossip_debug(GOSSIP_SECURITY_DEBUG, "Initializing capability cache...\n");
+./src/common/security/capcache.c:    gossip_debug(GOSSIP_SECURITY_DEBUG, "Finalizing capability cache...\n");
+./src/common/security/pint-ldap-map.c:        gossip_debug(GOSSIP_SECURITY_DEBUG, "%s: connecting to LDAP using "
+./src/common/security/pint-ldap-map.c:    gossip_debug(GOSSIP_SECURITY_DEBUG, "%s: using subject %s\n", __func__,
+./src/common/security/pint-ldap-map.c:    gossip_debug(GOSSIP_SECURITY_DEBUG, "%s: "
+./src/common/security/pint-ldap-map.c:                gossip_debug(GOSSIP_SECURITY_DEBUG, "%s: found LDAP user %s\n",
+./src/common/security/pint-ldap-map.c:        gossip_debug(GOSSIP_SECURITY_DEBUG, 
+./src/common/security/pint-ldap-map.c:    gossip_debug(GOSSIP_SECURITY_DEBUG, "%s: "
+./src/common/security/pint-ldap-map.c:    gossip_debug(GOSSIP_SECURITY_DEBUG, "%s: ldap_search_ext returned %d\n",
+./src/common/security/pint-ldap-map.c:                gossip_debug(GOSSIP_SECURITY_DEBUG, "%s: found LDAP user %s\n",
+./src/common/security/pint-ldap-map.c:                gossip_debug(GOSSIP_SECURITY_DEBUG, "%s: no users found for "
+./src/common/security/pint-ldap-map.c:            gossip_debug(GOSSIP_SECURITY_DEBUG, "%s: authenticating to LDAP "
+./src/common/security/pint-ldap-map.c:                gossip_debug(GOSSIP_SECURITY_DEBUG, "%s: password ok\n",
+./src/common/security/credcache.c:    gossip_debug(GOSSIP_SECCACHE_DEBUG, "%s credential:\n", prefix);
+./src/common/security/credcache.c:    gossip_debug(GOSSIP_SECCACHE_DEBUG, "\tissuer: %s\n", cred->issuer);
+./src/common/security/credcache.c:    gossip_debug(GOSSIP_SECCACHE_DEBUG, "\tuserid: %u\n", cred->userid);
+./src/common/security/credcache.c:    gossip_debug(GOSSIP_SECCACHE_DEBUG, "\tgroups: %s\n", group_buf);
+./src/common/security/credcache.c:    gossip_debug(GOSSIP_SECCACHE_DEBUG, "\tsig_size: %u\n", cred->sig_size);
+./src/common/security/credcache.c:    gossip_debug(GOSSIP_SECCACHE_DEBUG, "\tsignature: %s\n",
+./src/common/security/credcache.c:    gossip_debug(GOSSIP_SECCACHE_DEBUG, "\ttimeout: %d\n", 
+./src/common/security/credcache.c:    gossip_debug(GOSSIP_SECCACHE_DEBUG, "\tcertificate.buf_size: %u\n",
+./src/common/security/credcache.c:    gossip_debug(GOSSIP_SECCACHE_DEBUG, "\tcertificate.buf: %s\n",
+./src/common/security/credcache.c:    gossip_debug(GOSSIP_SECURITY_DEBUG, "Initializing credential cache...\n");
+./src/common/security/credcache.c:    gossip_debug(GOSSIP_SECURITY_DEBUG, "Finalizing credential cache...\n");
+./src/common/security/pint-security.c:        gossip_debug(GOSSIP_SECURITY_DEBUG, "Unsupported key type %u\n",
+./src/common/security/pint-security.c:    gossip_debug(GOSSIP_SECURITY_DEBUG, "CAPSIGN: %s\n", mdstr);
+./src/common/security/pint-security.c:    gossip_debug(GOSSIP_SECURITY_DEBUG, "Generating server-to-server "
+./src/common/security/pint-security.c:        gossip_debug(GOSSIP_SECURITY_DEBUG, "Verified null capability\n");
+./src/common/security/pint-security.c:           gossip_debug(GOSSIP_SECURITY_DEBUG, "Capability (%s) expired "
+./src/common/security/pint-security.c:    gossip_debug(GOSSIP_SECURITY_DEBUG, "CAPVRFY: %s\n", mdstr);
+./src/common/security/pint-security.c:        gossip_debug(GOSSIP_SECURITY_DEBUG,
+./src/common/security/pint-security.c:        gossip_debug(GOSSIP_SECURITY_DEBUG, "Unsupported key type %u\n",
+./src/common/security/pint-security.c:        gossip_debug(GOSSIP_SECURITY_DEBUG, "Unsupported key type %u\n",
+./src/common/security/pint-security.c:        gossip_debug(GOSSIP_SECURITY_DEBUG, "SignUpdate failure\n");
+./src/common/security/pint-security.c:    gossip_debug(GOSSIP_SECURITY_DEBUG, "CREDSIGN: %s\n", mdstr);
+./src/common/security/pint-security.c:        gossip_debug(GOSSIP_SECURITY_DEBUG, "Unsigned credential from %s "
+./src/common/security/pint-security.c:    gossip_debug(GOSSIP_SECURITY_DEBUG, "Verifying credential: %s\n",
+./src/common/security/pint-security.c:           gossip_debug(GOSSIP_SECURITY_DEBUG, "Credential (%s) expired "
+./src/common/security/pint-security.c:    gossip_debug(GOSSIP_SECURITY_DEBUG, "CREDVRFY: %s\n", mdstr);
+./src/common/security/pint-security.c:        gossip_debug(GOSSIP_SECURITY_DEBUG,
+./src/common/security/pint-security.c:        gossip_debug(GOSSIP_SECURITY_DEBUG, "Unsupported key type %u\n",
+./src/common/security/pint-security.c:        gossip_debug(GOSSIP_SECURITY_DEBUG, 
+./src/common/security/security-util.c:        gossip_debug(GOSSIP_SECURITY_DEBUG, "%s null capability\n", prefix);
+./src/common/security/security-util.c:    gossip_debug(GOSSIP_SECURITY_DEBUG, "%s capability:\n", prefix);
+./src/common/security/security-util.c:    gossip_debug(GOSSIP_SECURITY_DEBUG, "\tissuer: %s\n", cap->issuer);
+./src/common/security/security-util.c:    gossip_debug(GOSSIP_SECURITY_DEBUG, "\tfsid: %u\n", cap->fsid);
+./src/common/security/security-util.c:    gossip_debug(GOSSIP_SECURITY_DEBUG, "\tsig_size: %u\n", cap->sig_size);
+./src/common/security/security-util.c:    gossip_debug(GOSSIP_SECURITY_DEBUG, "\tsignature: %s\n",
+./src/common/security/security-util.c:    gossip_debug(GOSSIP_SECURITY_DEBUG, "\ttimeout: %d\n",
+./src/common/security/security-util.c:    gossip_debug(GOSSIP_SECURITY_DEBUG, "\top_mask: %s\n",
+./src/common/security/security-util.c:    gossip_debug(GOSSIP_SECURITY_DEBUG, "\tnum_handles: %u\n", 
+./src/common/security/security-util.c:    gossip_debug(GOSSIP_SECURITY_DEBUG, "\tfirst handle: %llu\n",
+./src/common/security/security-util.c:        gossip_debug(GOSSIP_SECURITY_DEBUG, "\thandle %d: %llu\n",
+./src/common/security/security-util.c:    gossip_debug(GOSSIP_SECURITY_DEBUG, "%s:\n", prefix);
+./src/common/security/security-util.c:    gossip_debug(GOSSIP_SECURITY_DEBUG, "\tissuer: %s\n", cred->issuer);
+./src/common/security/security-util.c:    gossip_debug(GOSSIP_SECURITY_DEBUG, "\tuserid (mapped): %u\n", uid);
+./src/common/security/security-util.c:    gossip_debug(GOSSIP_SECURITY_DEBUG, "\tuserid: %u\n", cred->userid);
+./src/common/security/security-util.c:    gossip_debug(GOSSIP_SECURITY_DEBUG, "\tgroups (mapped): %s\n", group_buf);
+./src/common/security/security-util.c:    gossip_debug(GOSSIP_SECURITY_DEBUG, "\tgroups: %s\n", group_buf);
+./src/common/security/security-util.c:    gossip_debug(GOSSIP_SECURITY_DEBUG, "\tsig_size: %u\n", cred->sig_size);
+./src/common/security/security-util.c:    gossip_debug(GOSSIP_SECURITY_DEBUG, "\tsignature: %s\n",
+./src/common/security/security-util.c:    gossip_debug(GOSSIP_SECURITY_DEBUG, "\ttimeout: %d\n", 
+./src/common/security/security-util.c:    gossip_debug(GOSSIP_SECURITY_DEBUG, "\tcertificate.buf_size: %u\n",
+./src/common/security/security-util.c:    gossip_debug(GOSSIP_SECURITY_DEBUG, "\tcertificate.buf: %s\n",
+./src/common/security/pint-uid-map.c:        gossip_debug(GOSSIP_SECURITY_DEBUG, "%s: certificate cache hit (%s)\n",
+./src/common/security/pint-uid-map.c:        gossip_debug(GOSSIP_SECURITY_DEBUG, "Mapped credential to root\n");
+./src/common/security/client-capcache.c:    gossip_debug(GOSSIP_SECURITY_DEBUG, "client_capcache lookup: H=%llu "
+./src/common/security/client-capcache.c:            gossip_debug(GOSSIP_SECURITY_DEBUG, "client_capcache lookup: timed out\n");
+./src/common/security/client-capcache.c:            gossip_debug(GOSSIP_SECURITY_DEBUG, "client_capcache lookup: miss\n");
+./src/common/security/client-capcache.c:    gossip_debug(GOSSIP_SECURITY_DEBUG, "client_capcache lookup: hit\n");
+./src/common/security/client-capcache.c:    gossip_debug(GOSSIP_SECURITY_DEBUG, "%s: H=%llu uid=%d\n",
+./src/common/security/client-capcache.c:    gossip_debug(GOSSIP_SECURITY_DEBUG, "client_capcache update: H=%llu "
+./src/common/security/client-capcache.c:        gossip_debug(GOSSIP_SECURITY_DEBUG, "client_capcache update: cap "
+./src/common/security/client-capcache.c:        gossip_debug(GOSSIP_SECURITY_DEBUG, "client_capcache update: entry "
+./src/common/security/client-capcache.c:            gossip_debug(GOSSIP_SECURITY_DEBUG, "client_capcache update: "
+./src/common/security/client-capcache.c:            gossip_debug(GOSSIP_SECURITY_DEBUG, "client_capcache update: could "
+./src/common/security/client-capcache.c:        gossip_debug(GOSSIP_SECURITY_DEBUG, "client_capcache update: inserting "
+./src/common/security/client-capcache.c:    gossip_debug(GOSSIP_SECURITY_DEBUG, "client_capcache update: returning "
+./src/common/security/seccache.c:        gossip_debug(GOSSIP_SECCACHE_DEBUG, "*** %s cache statistics "
+./src/common/security/seccache.c:        gossip_debug(GOSSIP_SECCACHE_DEBUG, "*** entries: %llu inserts: %llu "
+./src/common/security/seccache.c:        gossip_debug(GOSSIP_SECCACHE_DEBUG, "*** lookups: %llu hits: %llu (%3.1f%%) misses: "
+./src/common/security/seccache.c:        gossip_debug(GOSSIP_SECCACHE_DEBUG,
+./src/common/security/seccache.c:            gossip_debug(GOSSIP_SECCACHE_DEBUG,
+./src/common/security/seccache.c:        gossip_debug(GOSSIP_SECCACHE_DEBUG,
+./src/common/security/seccache.c:    gossip_debug(GOSSIP_SECCACHE_DEBUG, "%s: %s cache - searching index %u\n",
+./src/common/security/seccache.c:    gossip_debug(GOSSIP_SECCACHE_DEBUG, "%s: %s cache - %s\n",
+./src/common/security/seccache.c:            gossip_debug(GOSSIP_SECCACHE_DEBUG, "%s: %s cache - entry %p "
+./src/common/security/seccache.c:    gossip_debug(GOSSIP_SECCACHE_DEBUG, "%s: %s cache - entry %p (data %p) "
+./src/common/security/seccache.c:        gossip_debug(GOSSIP_SECCACHE_DEBUG, "%s: %s cache - removed entry %p @ "
+./src/common/security/certcache.c:    gossip_debug(GOSSIP_SECCACHE_DEBUG, "%s certificate:\n", prefix);
+./src/common/security/certcache.c:    gossip_debug(GOSSIP_SECCACHE_DEBUG, "\tsubject: %s\n", certdata->subject);
+./src/common/security/certcache.c:    gossip_debug(GOSSIP_SECURITY_DEBUG, "Initializing certificate cache...\n");
+./src/common/security/certcache.c:    gossip_debug(GOSSIP_SECURITY_DEBUG, "Finalizing certificate cache...\n");
+./src/common/gossip/gossip.c:/* __gossip_debug()
+./src/common/gossip/gossip.c:int __gossip_debug(
+./src/apps/admin/pvfs2-get-user-cert.c:    gossip_debug(GOSSIP_CLIENT_DEBUG, "%s: storing user cert and key\n", 
+./src/apps/admin/pvfs2-get-user-cert.c:    gossip_debug(GOSSIP_CLIENT_DEBUG, "%s: user cert size: %d\n", __func__, 
+./src/apps/admin/pvfs2-get-user-cert.c:    gossip_debug(GOSSIP_CLIENT_DEBUG, "%s: user cert saved to %s\n",
+./src/apps/admin/pvfs2-get-user-cert.c:    gossip_debug(GOSSIP_CLIENT_DEBUG, "%s: user private key saved to %s\n",
+./src/apps/ucache/ucached.c:        gossip_debug(GOSSIP_UCACHED_DEBUG,
+./src/apps/ucache/ucached.c:                    gossip_debug(GOSSIP_UCACHED_DEBUG,
+./src/apps/ucache/ucached.c:        gossip_debug(GOSSIP_UCACHED_DEBUG,
+./src/apps/ucache/ucached.c:            gossip_debug(GOSSIP_UCACHED_DEBUG,
+./src/apps/ucache/ucached.c:            gossip_debug(GOSSIP_UCACHED_DEBUG,
+./src/apps/ucache/ucached.c:                gossip_debug(GOSSIP_UCACHED_DEBUG,
+./src/apps/ucache/ucached.c:                    gossip_debug(GOSSIP_UCACHED_DEBUG,
+./src/apps/ucache/ucached.c:        gossip_debug(GOSSIP_UCACHED_DEBUG,
+./src/apps/ucache/ucached.c:            gossip_debug(GOSSIP_UCACHED_DEBUG,
+./src/apps/ucache/ucached.c:    gossip_debug(GOSSIP_UCACHED_DEBUG,
+./src/apps/ucache/ucached.c:        gossip_debug(GOSSIP_UCACHED_DEBUG,
+./src/apps/ucache/ucached.c:            gossip_debug(GOSSIP_UCACHED_DEBUG,
+./src/apps/ucache/ucached.c:            gossip_debug(GOSSIP_UCACHED_DEBUG,
+./src/apps/ucache/ucached.c:            gossip_debug(GOSSIP_UCACHED_DEBUG,
+./src/apps/ucache/ucached.c:                gossip_debug(GOSSIP_UCACHED_DEBUG,
+./src/apps/ucache/ucached.c:                gossip_debug(GOSSIP_UCACHED_DEBUG,
+./src/apps/ucache/ucached.c:        gossip_debug(GOSSIP_UCACHED_DEBUG,
+./src/apps/ucache/ucached.c:            gossip_debug(GOSSIP_UCACHED_DEBUG,
+./src/apps/ucache/ucached.c:            gossip_debug(GOSSIP_UCACHED_DEBUG,
+./src/apps/ucache/ucached.c:                gossip_debug(GOSSIP_UCACHED_DEBUG,
+./src/apps/ucache/ucached.c:                gossip_debug(GOSSIP_UCACHED_DEBUG,
+./src/apps/ucache/ucached.c:                gossip_debug(GOSSIP_UCACHED_DEBUG,
+./src/apps/ucache/ucached.c:                gossip_debug(GOSSIP_UCACHED_DEBUG,
+./src/apps/ucache/ucached.c:        gossip_debug(GOSSIP_UCACHED_DEBUG,
+./src/apps/ucache/ucached.c:            gossip_debug(GOSSIP_UCACHED_DEBUG,
+./src/apps/ucache/ucached.c:            gossip_debug(GOSSIP_UCACHED_DEBUG,
+./src/apps/ucache/ucached.c:        gossip_debug(GOSSIP_UCACHED_DEBUG,
+./src/apps/ucache/ucached.c:            gossip_debug(GOSSIP_UCACHED_DEBUG,
+./src/apps/ucache/ucached.c:            gossip_debug(GOSSIP_UCACHED_DEBUG,
+./src/apps/ucache/ucached.c:    gossip_debug(GOSSIP_UCACHED_DEBUG,
+./src/apps/ucache/ucached.c:    gossip_debug(GOSSIP_UCACHED_DEBUG,
+./src/apps/ucache/ucached.c:            gossip_debug(GOSSIP_UCACHED_DEBUG,
+./src/apps/ucache/ucached.c:                    gossip_debug(GOSSIP_UCACHED_DEBUG,
+./src/apps/ucache/ucached.c:                    gossip_debug(GOSSIP_UCACHED_DEBUG,
+./src/apps/ucache/ucached.c:                    gossip_debug(GOSSIP_UCACHED_DEBUG,
+./src/apps/ucache/ucached.c:                        gossip_debug(GOSSIP_UCACHED_DEBUG,
+./src/apps/kernel/linux/pvfs2-client-core.c:    gossip_debug(GOSSIP_CLIENTCORE_DEBUG,
+./src/apps/kernel/linux/pvfs2-client-core.c:        gossip_debug(GOSSIP_CLIENTCORE_DEBUG, "cancelling I/O req %p "
+./src/apps/kernel/linux/pvfs2-client-core.c:        gossip_debug(GOSSIP_CLIENTCORE_DEBUG, "op in progress cannot "
+./src/apps/kernel/linux/pvfs2-client-core.c:    gossip_debug(GOSSIP_CLIENTCORE_DEBUG, "is_op_in_progress called on "
+./src/apps/kernel/linux/pvfs2-client-core.c:    gossip_debug(
+./src/apps/kernel/linux/pvfs2-client-core.c:    gossip_debug(
+./src/apps/kernel/linux/pvfs2-client-core.c:    gossip_debug(
+./src/apps/kernel/linux/pvfs2-client-core.c:        gossip_debug(
+./src/apps/kernel/linux/pvfs2-client-core.c:    gossip_debug(
+./src/apps/kernel/linux/pvfs2-client-core.c:    gossip_debug(
+./src/apps/kernel/linux/pvfs2-client-core.c:    gossip_debug(
+./src/apps/kernel/linux/pvfs2-client-core.c:    gossip_debug(
+./src/apps/kernel/linux/pvfs2-client-core.c:    gossip_debug(
+./src/apps/kernel/linux/pvfs2-client-core.c:    gossip_debug(
+./src/apps/kernel/linux/pvfs2-client-core.c:    gossip_debug(GOSSIP_CLIENTCORE_DEBUG, "Got a readdir request "
+./src/apps/kernel/linux/pvfs2-client-core.c:    gossip_debug(GOSSIP_CLIENTCORE_DEBUG, "Got a readdirplus request "
+./src/apps/kernel/linux/pvfs2-client-core.c:    gossip_debug(
+./src/apps/kernel/linux/pvfs2-client-core.c:    gossip_debug(
+./src/apps/kernel/linux/pvfs2-client-core.c:    gossip_debug(
+./src/apps/kernel/linux/pvfs2-client-core.c:    gossip_debug( GOSSIP_CLIENTCORE_DEBUG, 
+./src/apps/kernel/linux/pvfs2-client-core.c:    gossip_debug(
+./src/apps/kernel/linux/pvfs2-client-core.c:    gossip_debug(
+./src/apps/kernel/linux/pvfs2-client-core.c:    gossip_debug(
+./src/apps/kernel/linux/pvfs2-client-core.c:    gossip_debug(
+./src/apps/kernel/linux/pvfs2-client-core.c:    gossip_debug(
+./src/apps/kernel/linux/pvfs2-client-core.c:        gossip_debug(GOSSIP_CLIENTCORE_DEBUG,
+./src/apps/kernel/linux/pvfs2-client-core.c:    gossip_debug(GOSSIP_CLIENTCORE_DEBUG, "Using %s Point %s\n",
+./src/apps/kernel/linux/pvfs2-client-core.c:    gossip_debug(
+./src/apps/kernel/linux/pvfs2-client-core.c:    gossip_debug(                                     
+./src/apps/kernel/linux/pvfs2-client-core.c:    gossip_debug(
+./src/apps/kernel/linux/pvfs2-client-core.c:    gossip_debug(
+./src/apps/kernel/linux/pvfs2-client-core.c:        gossip_debug(GOSSIP_CLIENTCORE_DEBUG, "FS umount ok\n");
+./src/apps/kernel/linux/pvfs2-client-core.c:    gossip_debug(
+./src/apps/kernel/linux/pvfs2-client-core.c:    gossip_debug(
+./src/apps/kernel/linux/pvfs2-client-core.c:            gossip_debug(GOSSIP_CLIENTCORE_DEBUG,
+./src/apps/kernel/linux/pvfs2-client-core.c:            gossip_debug(GOSSIP_CLIENTCORE_DEBUG,
+./src/apps/kernel/linux/pvfs2-client-core.c:            gossip_debug(GOSSIP_CLIENTCORE_DEBUG,
+./src/apps/kernel/linux/pvfs2-client-core.c:		gossip_debug(GOSSIP_CLIENTCORE_DEBUG,
+./src/apps/kernel/linux/pvfs2-client-core.c:    gossip_debug(
+./src/apps/kernel/linux/pvfs2-client-core.c:    gossip_debug(
+./src/apps/kernel/linux/pvfs2-client-core.c:    gossip_debug(
+./src/apps/kernel/linux/pvfs2-client-core.c:    gossip_debug(
+./src/apps/kernel/linux/pvfs2-client-core.c:                    gossip_debug(
+./src/apps/kernel/linux/pvfs2-client-core.c:                gossip_debug(
+./src/apps/kernel/linux/pvfs2-client-core.c:                    gossip_debug(
+./src/apps/kernel/linux/pvfs2-client-core.c:                gossip_debug(GOSSIP_MMAP_RCACHE_DEBUG, "readahead io "
+./src/apps/kernel/linux/pvfs2-client-core.c:    gossip_debug(GOSSIP_CLIENTCORE_DEBUG, "posted %s: off %ld size %ld tag: %Ld\n",
+./src/apps/kernel/linux/pvfs2-client-core.c:        gossip_debug(GOSSIP_MMAP_RCACHE_DEBUG,
+./src/apps/kernel/linux/pvfs2-client-core.c:    gossip_debug(GOSSIP_CLIENTCORE_DEBUG, "%s: size %ld\n",
+./src/apps/kernel/linux/pvfs2-client-core.c:    gossip_debug(GOSSIP_CLIENTCORE_DEBUG,
+./src/apps/kernel/linux/pvfs2-client-core.c:    gossip_debug(
+./src/apps/kernel/linux/pvfs2-client-core.c:    gossip_debug(
+./src/apps/kernel/linux/pvfs2-client-core.c:    gossip_debug(GOSSIP_CLIENTCORE_DEBUG, 
+./src/apps/kernel/linux/pvfs2-client-core.c:    gossip_debug(GOSSIP_CLIENTCORE_DEBUG, "%s enter: op %s error code: %d\n",
+./src/apps/kernel/linux/pvfs2-client-core.c:                        gossip_debug(
+./src/apps/kernel/linux/pvfs2-client-core.c:                        gossip_debug(
+./src/apps/kernel/linux/pvfs2-client-core.c:                gossip_debug(GOSSIP_CLIENTCORE_DEBUG,
+./src/apps/kernel/linux/pvfs2-client-core.c:                        gossip_debug(GOSSIP_CLIENTCORE_DEBUG, "BMI forceful "
+./src/apps/kernel/linux/pvfs2-client-core.c:                gossip_debug(GOSSIP_CLIENTCORE_DEBUG,
+./src/apps/kernel/linux/pvfs2-client-core.c:                        gossip_debug(
+./src/apps/kernel/linux/pvfs2-client-core.c:                gossip_debug(GOSSIP_CLIENTCORE_DEBUG, "completed I/O on tag %Ld\n", lld(vfs_request->info.tag));
+./src/apps/kernel/linux/pvfs2-client-core.c:                    gossip_debug(
+./src/apps/kernel/linux/pvfs2-client-core.c:                gossip_debug(GOSSIP_CLIENTCORE_DEBUG, 
+./src/apps/kernel/linux/pvfs2-client-core.c:    gossip_debug(GOSSIP_CLIENTCORE_DEBUG, "%s exit: op %s error code: %d\n",
+./src/apps/kernel/linux/pvfs2-client-core.c:        gossip_debug(GOSSIP_CLIENTCORE_DEBUG, "[-] reposted unexp "
+./src/apps/kernel/linux/pvfs2-client-core.c:    gossip_debug(
+./src/apps/kernel/linux/pvfs2-client-core.c:        gossip_debug(
+./src/apps/kernel/linux/pvfs2-client-core.c:    gossip_debug(GOSSIP_CLIENTCORE_DEBUG,
+./src/apps/kernel/linux/pvfs2-client-core.c:        gossip_debug(GOSSIP_CLIENTCORE_DEBUG, " WARNING: Client-core obtained duplicate upcall of type "
+./src/apps/kernel/linux/pvfs2-client-core.c:    gossip_debug(GOSSIP_CLIENTCORE_DEBUG,
+./src/apps/kernel/linux/pvfs2-client-core.c:        gossip_debug(GOSSIP_CLIENTCORE_DEBUG,
+./src/apps/kernel/linux/pvfs2-client-core.c:                gossip_debug(GOSSIP_CLIENTCORE_DEBUG, "PINT_sys_testsome"
+./src/apps/kernel/linux/pvfs2-client-core.c:            gossip_debug(GOSSIP_CLIENTCORE_DEBUG, "PINT_sys_testsome"
+./src/apps/kernel/linux/pvfs2-client-core.c:                gossip_debug(GOSSIP_CLIENTCORE_DEBUG, "downcall "
+./src/apps/kernel/linux/pvfs2-client-core.c:                gossip_debug(GOSSIP_CLIENTCORE_DEBUG, "skipping "
+./src/apps/kernel/linux/pvfs2-client-core.c:            gossip_debug(GOSSIP_CLIENTCORE_DEBUG,
+./src/apps/kernel/linux/pvfs2-client-core.c:    gossip_debug(GOSSIP_CLIENTCORE_DEBUG,
+./src/apps/kernel/linux/pvfs2-client-core.c:    gossip_debug(GOSSIP_CLIENTCORE_DEBUG,  "***********************"
+./src/apps/kernel/linux/pvfs2-client-core.c:    gossip_debug(GOSSIP_CLIENTCORE_DEBUG,
+./src/apps/kernel/linux/pvfs2-client-core.c:    gossip_debug(GOSSIP_CLIENTCORE_DEBUG,
+./src/apps/kernel/linux/pvfs2-client-core.c:    gossip_debug(GOSSIP_CLIENTCORE_DEBUG,
+./src/apps/kernel/linux/pvfs2-client-core.c:            gossip_debug(
+./src/apps/kernel/linux/pvfs2-client-core.c:        gossip_debug(GOSSIP_CLIENTCORE_DEBUG, "All file systems "
+./src/apps/kernel/linux/pvfs2-client-core.c:            gossip_debug(
+./src/apps/kernel/linux/pvfs2-client-core.c:        gossip_debug(GOSSIP_CLIENTCORE_DEBUG, "All file systems "
+./src/apps/kernel/linux/pvfs2-client-core.c:    gossip_debug(GOSSIP_CLIENTCORE_DEBUG, "mac: %d\n", mac);
+./src/apps/kernel/linux/pvfs2-client-core.c:    gossip_debug(GOSSIP_SECURITY_DEBUG, "credential cache lookup for (%u, %u)"
+./src/apps/kernel/linux/pvfs2-client-core.c:        gossip_debug(GOSSIP_SECURITY_DEBUG,
+./src/apps/kernel/linux/pvfs2-client-core.c:        gossip_debug(GOSSIP_SECURITY_DEBUG, 
+./src/apps/kernel/linux/pvfs2-client-core.c:    gossip_debug(GOSSIP_SECURITY_DEBUG,
+./src/apps/kernel/linux/pvfs2-client-core.c:        gossip_debug(GOSSIP_SECURITY_DEBUG, "cached credential for (%u, %u)\n",
+./src/apps/kernel/linux/pvfs2-client-core.c:        gossip_debug(GOSSIP_SECURITY_DEBUG, "cache insert returned %d\n", ret);
+./src/apps/kernel/linux/pvfs2-client-core.c:    gossip_debug(GOSSIP_SECURITY_DEBUG, "removing credential (%u, %u) from "
+./src/apps/kernel/linux/pvfs2-client-core.c:        gossip_debug(GOSSIP_SECURITY_DEBUG, "... cache delete returned %d\n", 
+./src/apps/kernel/linux/pvfs2-client-core.c:        gossip_debug(GOSSIP_SECURITY_DEBUG, "... cache lookup returned %d\n", 
+./src/client/sysint/acache.c:        gossip_debug(GOSSIP_ACACHE_DEBUG,
+./src/client/sysint/acache.c:    gossip_debug(GOSSIP_ACACHE_DEBUG,
+./src/client/sysint/acache.c:        gossip_debug(GOSSIP_ACACHE_DEBUG, "%s: miss: H=%llu\n",
+./src/client/sysint/acache.c:        gossip_debug(GOSSIP_ACACHE_DEBUG,
+./src/client/sysint/acache.c:            gossip_debug(GOSSIP_ACACHE_DEBUG,
+./src/client/sysint/acache.c:                gossip_debug(GOSSIP_ACACHE_DEBUG,
+./src/client/sysint/acache.c:                gossip_debug(GOSSIP_ACACHE_DEBUG,
+./src/client/sysint/acache.c:                    gossip_debug(GOSSIP_ACACHE_DEBUG,
+./src/client/sysint/acache.c:    gossip_debug(GOSSIP_ACACHE_DEBUG, 
+./src/client/sysint/acache.c:    gossip_debug(GOSSIP_ACACHE_DEBUG,
+./src/client/sysint/acache.c:    gossip_debug(GOSSIP_ACACHE_DEBUG,
+./src/client/sysint/acache.c:    gossip_debug(GOSSIP_ACACHE_DEBUG,
+./src/client/sysint/acache.c:        gossip_debug(GOSSIP_ACACHE_DEBUG,
+./src/client/sysint/acache.c:    gossip_debug(GOSSIP_ACACHE_DEBUG,
+./src/client/sysint/acache.c:        gossip_debug(GOSSIP_ACACHE_DEBUG,
+./src/client/sysint/acache.c:        gossip_debug(GOSSIP_ACACHE_DEBUG,
+./src/client/sysint/acache.c:        gossip_debug(GOSSIP_ACACHE_DEBUG,
+./src/client/sysint/acache.c:        gossip_debug(GOSSIP_ACACHE_DEBUG,
+./src/client/sysint/acache.c:    gossip_debug(GOSSIP_ACACHE_DEBUG,
+./src/client/sysint/mgmt-get-config.c:    gossip_debug(GOSSIP_CLIENT_DEBUG, "PVFS_mgmt_get_config entered\n");
+./src/client/sysint/mgmt-get-config.c:    gossip_debug(GOSSIP_CLIENT_DEBUG, "PVFS_mgmt_get_config completed\n");
+./src/client/sysint/client-state-machine.c:                   gossip_debug(GOSSIP_CANCEL_DEBUG, "%s: assignment of "
+./src/client/sysint/client-state-machine.c:                    gossip_debug(GOSSIP_CANCEL_DEBUG, "%s: assignment of "
+./src/client/sysint/client-state-machine.c:    gossip_debug(GOSSIP_CLIENT_DEBUG, "%s has %d items left on completed list\n", __func__, new_list_index);    
+./src/client/sysint/client-state-machine.c:    gossip_debug(
+./src/client/sysint/client-state-machine.c:    gossip_debug(GOSSIP_CLIENT_DEBUG,
+./src/client/sysint/client-state-machine.c:    gossip_debug(GOSSIP_CLIENT_DEBUG,
+./src/client/sysint/client-state-machine.c:        gossip_debug(GOSSIP_CLIENT_DEBUG,
+./src/client/sysint/client-state-machine.c:        gossip_debug(GOSSIP_CLIENT_DEBUG, 
+./src/client/sysint/client-state-machine.c:        gossip_debug(GOSSIP_CLIENT_DEBUG,
+./src/client/sysint/client-state-machine.c:    gossip_debug(GOSSIP_CLIENT_DEBUG,
+./src/client/sysint/client-state-machine.c:        gossip_debug(
+./src/client/sysint/client-state-machine.c:        gossip_debug(
+./src/client/sysint/client-state-machine.c:    gossip_debug(GOSSIP_CLIENT_DEBUG,
+./src/client/sysint/client-state-machine.c:    gossip_debug(GOSSIP_CANCEL_DEBUG,
+./src/client/sysint/client-state-machine.c:        gossip_debug(GOSSIP_CANCEL_DEBUG,  "skipping cancellation of small I/O operation.\n");
+./src/client/sysint/client-state-machine.c:            gossip_debug(GOSSIP_CANCEL_DEBUG,  "[%d] Posting "
+./src/client/sysint/client-state-machine.c:            gossip_debug(GOSSIP_CANCEL_DEBUG,  "[%d] Posting "
+./src/client/sysint/client-state-machine.c:            gossip_debug(GOSSIP_CANCEL_DEBUG,
+./src/client/sysint/client-state-machine.c:            gossip_debug(GOSSIP_CANCEL_DEBUG,  "[%d] Posting "
+./src/client/sysint/client-state-machine.c:    gossip_debug(GOSSIP_CANCEL_DEBUG, "(%p) Total cancellations "
+./src/client/sysint/client-state-machine.c:    gossip_debug(GOSSIP_STATE_MACHINE_DEBUG,
+./src/client/sysint/client-state-machine.c:        gossip_debug(GOSSIP_CLIENT_DEBUG, "sm control op %d\n", PINT_smcb_op(tmp_smcb));
+./src/client/sysint/client-state-machine.c:            gossip_debug(GOSSIP_CLIENT_DEBUG,
+./src/client/sysint/client-state-machine.c:    gossip_debug(GOSSIP_CLIENT_DEBUG, "%s: id %lld\n", __func__, lld(op_id));
+./src/client/sysint/ncache.c:    gossip_debug(GOSSIP_NCACHE_DEBUG, 
+./src/client/sysint/ncache.c:        gossip_debug(GOSSIP_NCACHE_DEBUG, 
+./src/client/sysint/ncache.c:    gossip_debug(GOSSIP_NCACHE_DEBUG, "ncache: status=%d, entry_status=%d\n",
+./src/client/sysint/ncache.c:        gossip_debug(GOSSIP_NCACHE_DEBUG, "ncache: copying out ref.\n");
+./src/client/sysint/ncache.c:    gossip_debug(GOSSIP_NCACHE_DEBUG, "ncache: invalidate(): entry=%s\n",
+./src/client/sysint/ncache.c:    gossip_debug(GOSSIP_NCACHE_DEBUG, "ncache: update(): name [%s]\n",entry);
+./src/client/sysint/ncache.c:    gossip_debug(GOSSIP_NCACHE_DEBUG, "ncache: update(): return=%d\n", ret);
+./src/client/sysint/rcache.c:    gossip_debug(GOSSIP_RCACHE_DEBUG, 
+./src/client/sysint/rcache.c:        gossip_debug(GOSSIP_RCACHE_DEBUG, 
+./src/client/sysint/rcache.c:    gossip_debug(GOSSIP_RCACHE_DEBUG, "rcache: status=%d, dirdata_index=%d\n",
+./src/client/sysint/rcache.c:    gossip_debug(GOSSIP_RCACHE_DEBUG, "rcache: copying out dirdata index.\n");
+./src/client/sysint/rcache.c:    gossip_debug(GOSSIP_RCACHE_DEBUG, "rcache: invalidate(): handle=%llu, token=%llu\n", llu(ref->handle), llu(token));
+./src/client/sysint/rcache.c:        gossip_debug(GOSSIP_RCACHE_DEBUG, "rcache: trying to insert when rcache is NULL!\n");
+./src/client/sysint/rcache.c:            gossip_debug(GOSSIP_RCACHE_DEBUG, "rcache: initialization caused by insert and null rcache failed!\n");
+./src/client/sysint/rcache.c:        gossip_debug(GOSSIP_RCACHE_DEBUG, "PINT_rcache_insert: enabling rcache\n");
+./src/client/sysint/rcache.c:    gossip_debug(GOSSIP_RCACHE_DEBUG, "rcache: insert(): handle=%llu, token=%llu\n", llu(ref->handle), llu(token));
+./src/client/sysint/rcache.c:    gossip_debug(GOSSIP_RCACHE_DEBUG, "rcache: insert(): return=%d\n", ret);
+./src/client/usrint/ucache.c:        //gossip_debug(GOSSIP_UCACHE_DEBUG, 
+./src/client/usrint/ucache.c:        //gossip_debug(GOSSIP_UCACHE_DEBUG,        
+./src/client/usrint/ucache.c:        //gossip_debug(GOSSIP_UCACHE_DEBUG,        
+./src/client/usrint/ucache.c:        //gossip_debug(GOSSIP_UCACHE_DEBUG,        
+./src/client/usrint/ucache.c:    gossip_debug(GOSSIP_UCACHE_DEBUG,
+./src/client/usrint/posix.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "posix.c open: called with %s\n", path);
+./src/client/usrint/posix.c:        gossip_debug(GOSSIP_USRINT_DEBUG,
+./src/client/usrint/posix.c:        gossip_debug(GOSSIP_USRINT_DEBUG,
+./src/client/usrint/posix.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "\tposix.c open: returns with %d\n", rc);
+./src/client/usrint/posix.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "posix.c close: called with %d\n", fd);
+./src/client/usrint/posix.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "\tposix.c close: returns %d\n", rc);
+./src/client/usrint/aio-pvfs.c:   gossip_debug(GOSSIP_USRINT_DEBUG, "AIO CB %p removed\n", aiocbp);
+./src/client/usrint/iocommon.c:    gossip_debug(GOSSIP_USRINT_DEBUG,
+./src/client/usrint/iocommon.c:    gossip_debug(GOSSIP_USRINT_DEBUG,
+./src/client/usrint/iocommon.c:    gossip_debug(GOSSIP_USRINT_DEBUG,
+./src/client/usrint/iocommon.c:    gossip_debug(GOSSIP_USRINT_DEBUG,
+./src/client/usrint/iocommon.c:        gossip_debug(GOSSIP_USRINT_DEBUG,
+./src/client/usrint/iocommon.c:    gossip_debug(GOSSIP_USRINT_DEBUG,
+./src/client/usrint/iocommon.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "iocommon_open: called with %s\n", path);
+./src/client/usrint/iocommon.c:    gossip_debug(GOSSIP_USRINT_DEBUG,
+./src/client/usrint/iocommon.c:    gossip_debug(GOSSIP_USRINT_DEBUG,
+./src/client/usrint/iocommon.c:    gossip_debug(GOSSIP_USRINT_DEBUG,
+./src/client/usrint/iocommon.c:    gossip_debug(GOSSIP_USRINT_DEBUG,
+./src/client/usrint/iocommon.c:    gossip_debug(GOSSIP_USRINT_DEBUG,
+./src/client/usrint/stdio.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "fopen %s %s\n", path, mode);
+./src/client/usrint/stdio.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "fdopen %d %s\n", fd, mode);
+./src/client/usrint/stdio.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "freopen %s %s %p\n", path, mode, stream);
+./src/client/usrint/stdio.c:    /* gossip_debug(GOSSIP_USRINT_DEBUG, "fwrite %p %d %d %p\n",
+./src/client/usrint/stdio.c:    /* gossip_debug(GOSSIP_USRINT_DEBUG, "fwrite_unlocked %p %d %d %p\n",
+./src/client/usrint/stdio.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "fread %p %d %d %p\n",
+./src/client/usrint/stdio.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "fread_unlocked %p %d %d %p\n",
+./src/client/usrint/stdio.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "fcloseall\n");
+./src/client/usrint/stdio.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "fclose %p\n", stream);
+./src/client/usrint/stdio.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "fseek64 %p %llx %d\n",
+./src/client/usrint/stdio.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "ftell64 %p\n", stream);
+./src/client/usrint/stdio.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "fflush_unlocked %p\n", stream);
+./src/client/usrint/stdio.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "fputc_unlocked %c %p\n", c, stream);
+./src/client/usrint/stdio.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "fputs_unlocked %s %p\n", s, stream);
+./src/client/usrint/stdio.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "fputc %c %p\n", c, stream);
+./src/client/usrint/stdio.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "fputs %s %p\n", s, stream);
+./src/client/usrint/stdio.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "puts %s\n", s);
+./src/client/usrint/stdio.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "putw %d %p\n", wd, stream);
+./src/client/usrint/stdio.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "fgets_unlocked %p %d %p\n",
+./src/client/usrint/stdio.c:        gossip_debug(GOSSIP_USRINT_DEBUG, "fgets_unlocked returns %s\n", s);
+./src/client/usrint/stdio.c:        gossip_debug(GOSSIP_USRINT_DEBUG, "fgets_unlocked returns NULL\n");
+./src/client/usrint/stdio.c:        gossip_debug(GOSSIP_USRINT_DEBUG, "fgets_unlocked returns \"\"\n");
+./src/client/usrint/stdio.c:        gossip_debug(GOSSIP_USRINT_DEBUG, "fgets_unlocked returns NULL\n");
+./src/client/usrint/stdio.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "fgets_unlocked returns %s\n", s);
+./src/client/usrint/stdio.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "fgets %p %d %p\n", s, size, stream);
+./src/client/usrint/stdio.c:        gossip_debug(GOSSIP_USRINT_DEBUG, "fgets returns %s\n", s);
+./src/client/usrint/stdio.c:        gossip_debug(GOSSIP_USRINT_DEBUG, "fgets returns NULL\n");
+./src/client/usrint/stdio.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "fgets returns %s\n", rc);
+./src/client/usrint/stdio.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "fgetc %p\n", stream);
+./src/client/usrint/stdio.c:        gossip_debug(GOSSIP_USRINT_DEBUG, "fgetc returns %d(%c)\n",
+./src/client/usrint/stdio.c:        gossip_debug(GOSSIP_USRINT_DEBUG, "fgetc returns %d\n", EOF);
+./src/client/usrint/stdio.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "fgetc returns %c\n", ch);
+./src/client/usrint/stdio.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "fgetc_unlocked %p\n", stream);
+./src/client/usrint/stdio.c:        gossip_debug(GOSSIP_USRINT_DEBUG, "fgetc_unlocked returns %d(%c)\n",
+./src/client/usrint/stdio.c:        gossip_debug(GOSSIP_USRINT_DEBUG, "fgetc_unlocked returns %d\n", EOF);
+./src/client/usrint/stdio.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "fgetc_unlocked returns %c\n", ch);
+./src/client/usrint/stdio.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "getw %p\n", stream);
+./src/client/usrint/stdio.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "gets %p\n", s);
+./src/client/usrint/stdio.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "getdelim %p, %d, %d, %p\n", 
+./src/client/usrint/stdio.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "ungetc %d, %p\n", 
+./src/client/usrint/stdio.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "clearerr %p\n", stream);
+./src/client/usrint/stdio.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "clearerr_unlocked %p\n", stream);
+./src/client/usrint/stdio.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "feof %p\n", stream);
+./src/client/usrint/stdio.c:        gossip_debug(GOSSIP_USRINT_DEBUG, "feof returns %d\n", rc);
+./src/client/usrint/stdio.c:        gossip_debug(GOSSIP_USRINT_DEBUG, "feof returns %d\n", -1);
+./src/client/usrint/stdio.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "feof returns %d\n", rc);
+./src/client/usrint/stdio.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "feof_unlocked %p\n", stream);
+./src/client/usrint/stdio.c:        gossip_debug(GOSSIP_USRINT_DEBUG, "feof_unlocked returns %d\n", rc);
+./src/client/usrint/stdio.c:        gossip_debug(GOSSIP_USRINT_DEBUG, "feof_unlocked returns %d\n", -1);
+./src/client/usrint/stdio.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "feof_unlocked returns %d\n", rc);
+./src/client/usrint/stdio.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "ferror %p\n", stream);
+./src/client/usrint/stdio.c:        gossip_debug(GOSSIP_USRINT_DEBUG, "ferror returns %d\n", rc);
+./src/client/usrint/stdio.c:        gossip_debug(GOSSIP_USRINT_DEBUG, "ferror returns %d\n", -1);
+./src/client/usrint/stdio.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "ferror returns %d\n", rc);
+./src/client/usrint/stdio.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "ferror_unlocked %p\n", stream);
+./src/client/usrint/stdio.c:        gossip_debug(GOSSIP_USRINT_DEBUG, "ferror_unlocked returns %d\n", rc);
+./src/client/usrint/stdio.c:        gossip_debug(GOSSIP_USRINT_DEBUG, "ferror_unlocked returns %d\n", -1);
+./src/client/usrint/stdio.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "ferror_unlocked returns %d\n", rc);
+./src/client/usrint/stdio.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "fileno %p\n", stream);
+./src/client/usrint/stdio.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "fileno_unlocked %p\n", stream);
+./src/client/usrint/stdio.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "remove %s\n", path);
+./src/client/usrint/stdio.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "setvbuf %p %p %d %d\n", 
+./src/client/usrint/stdio.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "opendir %s\n", name);
+./src/client/usrint/stdio.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "fdopendir %d\n", fd);
+./src/client/usrint/stdio.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "dirfd %p\n", dir);
+./src/client/usrint/stdio.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "readdir %p\n", dir);
+./src/client/usrint/stdio.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "readdir64 %p\n", dir);
+./src/client/usrint/stdio.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "rewinddir %p\n", dir);
+./src/client/usrint/stdio.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "seekdir %p\n", dir);
+./src/client/usrint/stdio.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "telldir %p\n", dir);
+./src/client/usrint/stdio.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "closedir %p\n", dir);
+./src/client/usrint/stdio.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "scandir %p\n", dir);
+./src/client/usrint/stdio.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "scandir64 %p\n", dir);
+./src/client/usrint/stdio.c:    /* gossip_debug(GOSSIP_USRINT_DEBUG, "init_stdio running\n"); */
+./src/client/usrint/posix-pvfs.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "pvfs_open: called with %s\n", path);
+./src/client/usrint/posix-pvfs.c:        gossip_debug(GOSSIP_USRINT_DEBUG, "\tpvfs_open: return with %d\n", -1);
+./src/client/usrint/posix-pvfs.c:        gossip_debug(GOSSIP_USRINT_DEBUG, "\tpvfs_open: return with %d\n", -1);
+./src/client/usrint/posix-pvfs.c:        gossip_debug(GOSSIP_USRINT_DEBUG, "\tpvfs_open: return with %d\n", -1);
+./src/client/usrint/posix-pvfs.c:        gossip_debug(GOSSIP_USRINT_DEBUG,
+./src/client/usrint/posix-pvfs.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "pvfs_open64: called with %s\n", path);
+./src/client/usrint/posix-pvfs.c:        gossip_debug(GOSSIP_USRINT_DEBUG,
+./src/client/usrint/posix-pvfs.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "pvfs_openat: called with %s\n", path);
+./src/client/usrint/posix-pvfs.c:        gossip_debug(GOSSIP_USRINT_DEBUG,
+./src/client/usrint/posix-pvfs.c:            gossip_debug(GOSSIP_USRINT_DEBUG,
+./src/client/usrint/posix-pvfs.c:            gossip_debug(GOSSIP_USRINT_DEBUG,
+./src/client/usrint/posix-pvfs.c:            gossip_debug(GOSSIP_USRINT_DEBUG,
+./src/client/usrint/posix-pvfs.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "pvfs_openat64: called with %s\n", path);
+./src/client/usrint/posix-pvfs.c:        gossip_debug(GOSSIP_USRINT_DEBUG,
+./src/client/usrint/posix-pvfs.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "pvfs_creat: called with %s\n", path);
+./src/client/usrint/posix-pvfs.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "pvfs_creat64: called with %s\n", path);
+./src/client/usrint/posix-pvfs.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "pvfs_unlink: called with %s\n", path);
+./src/client/usrint/posix-pvfs.c:        gossip_debug(GOSSIP_USRINT_DEBUG,
+./src/client/usrint/posix-pvfs.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "\tpvfs_unlink: return with %d\n", rc);
+./src/client/usrint/posix-pvfs.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "pvfs_unlinkat: called with %s\n", path);
+./src/client/usrint/posix-pvfs.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "\tpvfs_unlinkat: return with %d\n", rc);
+./src/client/usrint/posix-pvfs.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "pvfs_rename: called with %s\n", oldpath);
+./src/client/usrint/posix-pvfs.c:    gossip_debug(GOSSIP_USRINT_DEBUG,
+./src/client/usrint/posix-pvfs.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "pvfs_read: called with %d\n", fd);
+./src/client/usrint/posix-pvfs.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "pvfs_pread: called with %d\n", fd);
+./src/client/usrint/posix-pvfs.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "pvfs_readv: called with %d\n", fd);
+./src/client/usrint/posix-pvfs.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "pvfs_pread64: called with %d\n", fd);
+./src/client/usrint/posix-pvfs.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "pvfs_write: called with %d\n", fd);
+./src/client/usrint/posix-pvfs.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "pvfs_pwrite: called with %d\n", fd);
+./src/client/usrint/posix-pvfs.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "pvfs_writev: called with %d\n", fd);
+./src/client/usrint/posix-pvfs.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "pvfs_pwrite64: called with %d\n", fd);
+./src/client/usrint/posix-pvfs.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "pvfs_lseek: called with %d\n", fd);
+./src/client/usrint/posix-pvfs.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "pvfs_lseek64: called with %d\n", fd);
+./src/client/usrint/posix-pvfs.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "pvfs_truncate: called with %s\n", path);
+./src/client/usrint/posix-pvfs.c:    gossip_debug(GOSSIP_USRINT_DEBUG,
+./src/client/usrint/posix-pvfs.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "pvfs_fallocate: called with %d\n", fd);
+./src/client/usrint/posix-pvfs.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "pvfs_ftruncate: called with %d\n", fd);
+./src/client/usrint/posix-pvfs.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "pvfs_ftruncate64: called with %d\n", fd);
+./src/client/usrint/posix-pvfs.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "pvfs_close: called with %d\n", fd);
+./src/client/usrint/posix-pvfs.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "pvfs_close: returns %d\n", rc);
+./src/client/usrint/posix-pvfs.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "pvfs_stat: called with %s\n", path);
+./src/client/usrint/posix-pvfs.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "pvfs_stat_mask: called with %s\n", path);
+./src/client/usrint/posix-pvfs.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "pvfs_stat64: called with %s\n", path);
+./src/client/usrint/posix-pvfs.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "pvfs_fstat: called with %d\n", fd);
+./src/client/usrint/posix-pvfs.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "pvfs_fstat_mask: called with %d\n", fd);
+./src/client/usrint/posix-pvfs.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "pvfs_fstat64: called with %d\n", fd);
+./src/client/usrint/posix-pvfs.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "pvfs_fstatat: called with %s\n", path);
+./src/client/usrint/posix-pvfs.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "pvfs_fstatat64: called with %s\n", path);
+./src/client/usrint/posix-pvfs.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "pvfs_lstat: called with %s\n", path);
+./src/client/usrint/posix-pvfs.c:    gossip_debug(GOSSIP_USRINT_DEBUG,
+./src/client/usrint/posix-pvfs.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "pvfs_lstat64: called with %s\n", path);
+./src/client/usrint/posix-pvfs.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "pvfs_futimesat: called with %s\n", path);
+./src/client/usrint/posix-pvfs.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "pvfs_utimes: called with %s\n", path);
+./src/client/usrint/posix-pvfs.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "pvfs_utime: called with %s\n", path);
+./src/client/usrint/posix-pvfs.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "pvfs_futimes: called with %d\n", fd);
+./src/client/usrint/posix-pvfs.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "pvfs_dup: called with %d\n", oldfd);
+./src/client/usrint/posix-pvfs.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "pvfs_dup2: called with %d\n", oldfd);
+./src/client/usrint/posix-pvfs.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "pvfs_dup2: called with %d\n", oldfd);
+./src/client/usrint/posix-pvfs.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "pvfs_chown: called with %s\n", path);
+./src/client/usrint/posix-pvfs.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "pvfs_fchown: called with %d\n", fd);
+./src/client/usrint/posix-pvfs.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "pvfs_chown: called with %s\n", path);
+./src/client/usrint/posix-pvfs.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "pvfs_lchown: called with %s\n", path);
+./src/client/usrint/posix-pvfs.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "pvfs_chmod: called with %s\n", path);
+./src/client/usrint/posix-pvfs.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "pvfs_fchmod: called with %d\n", fd);
+./src/client/usrint/posix-pvfs.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "pvfs_fchmodat: called with %s\n", path);
+./src/client/usrint/posix-pvfs.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "pvfs_mkdir: called with %s\n", path);
+./src/client/usrint/posix-pvfs.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "pvfs_mkdirat: called with %s\n", path);
+./src/client/usrint/posix-pvfs.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "pvfs_rmdir: called with %s\n", path);
+./src/client/usrint/posix-pvfs.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "pvfs_readlink: called with %s\n", path);
+./src/client/usrint/posix-pvfs.c:    gossip_debug(GOSSIP_USRINT_DEBUG,
+./src/client/usrint/posix-pvfs.c:    gossip_debug(GOSSIP_USRINT_DEBUG,
+./src/client/usrint/posix-pvfs.c:    gossip_debug(GOSSIP_USRINT_DEBUG,
+./src/client/usrint/posix-pvfs.c:    gossip_debug(GOSSIP_USRINT_DEBUG,
+./src/client/usrint/posix-pvfs.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "pvfs_readdir: called with %d\n", fd);
+./src/client/usrint/posix-pvfs.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "pvfs_getdents: called with %d\n", fd);
+./src/client/usrint/posix-pvfs.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "pvfs_getdents64: called with %d\n", fd);
+./src/client/usrint/posix-pvfs.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "pvfs_access: called with %s\n", path);
+./src/client/usrint/posix-pvfs.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "pvfs_faccessat: called with %s\n", path);
+./src/client/usrint/posix-pvfs.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "pvfs_fcntl: called with %d\n", fd);
+./src/client/usrint/posix-pvfs.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "pvfs_fsync: called with %d\n", fd);
+./src/client/usrint/posix-pvfs.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "pvfs_fsync: returns %d\n", rc);
+./src/client/usrint/posix-pvfs.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "pvfs_fdatasync: called with %d\n", fd);
+./src/client/usrint/posix-pvfs.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "pvfs_fadvise64: called with %d\n", fd);
+./src/client/usrint/posix-pvfs.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "pvfs_statfs: called with %s\n", path);
+./src/client/usrint/posix-pvfs.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "pvfs_statfs64: called with %s\n", path);
+./src/client/usrint/posix-pvfs.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "pvfs_fstatfs: called with %d\n", fd);
+./src/client/usrint/posix-pvfs.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "pvfs_fstatfs64: called with %d\n", fd);
+./src/client/usrint/posix-pvfs.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "pvfs_statvfs: called with %s\n", path);
+./src/client/usrint/posix-pvfs.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "pvfs_fstatvfs: called with %d\n", fd);
+./src/client/usrint/posix-pvfs.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "pvfs_mknod: called with %s\n", path);
+./src/client/usrint/posix-pvfs.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "pvfs_mknod: called with %s\n", path);
+./src/client/usrint/posix-pvfs.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "pvfs_sendfile: called with %d\n", outfd);
+./src/client/usrint/posix-pvfs.c:    gossip_debug(GOSSIP_USRINT_DEBUG,
+./src/client/usrint/posix-pvfs.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "pvfs_setxattr: called with %s\n", path);
+./src/client/usrint/posix-pvfs.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "pvfs_lsetxattr: called with %s\n", path);
+./src/client/usrint/posix-pvfs.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "pvfs_fsetxattr: called with %d\n", fd);
+./src/client/usrint/posix-pvfs.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "pvfs_getxattr: called with %s\n", path);
+./src/client/usrint/posix-pvfs.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "pvfs_lgetxattr: called with %s\n", path);
+./src/client/usrint/posix-pvfs.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "pvfs_fgetxattr: called with %d\n", fd);
+./src/client/usrint/posix-pvfs.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "pvfs_listxattr: called with %s\n", path);
+./src/client/usrint/posix-pvfs.c:    gossip_debug(GOSSIP_USRINT_DEBUG,
+./src/client/usrint/posix-pvfs.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "pvfs_flistxattr: called with %d\n", fd);
+./src/client/usrint/posix-pvfs.c:    gossip_debug(GOSSIP_USRINT_DEBUG,
+./src/client/usrint/posix-pvfs.c:    gossip_debug(GOSSIP_USRINT_DEBUG,
+./src/client/usrint/posix-pvfs.c:    gossip_debug(GOSSIP_USRINT_DEBUG,
+./src/client/usrint/posix-pvfs.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "pvfs_chdir: called with %s\n", path);
+./src/client/usrint/posix-pvfs.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "pvfs_fchdir: called with %d\n", fd);
+./src/client/usrint/posix-pvfs.c:    gossip_debug(GOSSIP_USRINT_DEBUG,
+./src/client/usrint/aiocommon.c:   gossip_debug(GOSSIP_USRINT_DEBUG, "Successfully initalized PVFS AIO inteface\n");
+./src/client/usrint/aiocommon.c:          gossip_debug(GOSSIP_USRINT_DEBUG, "%d AIO requests already posted,"
+./src/client/usrint/aiocommon.c:          gossip_debug(GOSSIP_USRINT_DEBUG, "%d AIO requests now waiting\n", 
+./src/client/usrint/aiocommon.c:         gossip_debug(GOSSIP_USRINT_DEBUG, "AIO CB %p attempting to read %d bytes\n", p_cb->a_cb, (int)p_cb->a_cb->aio_nbytes);
+./src/client/usrint/aiocommon.c:         gossip_debug(GOSSIP_USRINT_DEBUG, "AIO CB %p attempting to write %d bytes\n", p_cb->a_cb, (int)p_cb->a_cb->aio_nbytes);
+./src/client/usrint/aiocommon.c:         gossip_debug(GOSSIP_USRINT_DEBUG, "AIO CB %p, NOP\n", p_cb->a_cb);
+./src/client/usrint/aiocommon.c:      gossip_debug(GOSSIP_USRINT_DEBUG, "AIO CB %p, FAILED with error %d\n",
+./src/client/usrint/aiocommon.c:      gossip_debug(GOSSIP_USRINT_DEBUG, "AIO CB %p, COMPLETED immediately (%d bytes)\n",
+./src/client/usrint/aiocommon.c:      gossip_debug(GOSSIP_USRINT_DEBUG, "AIO CB %p, DEFERRED\n", p_cb->a_cb);
+./src/client/usrint/aiocommon.c:   gossip_debug(GOSSIP_USRINT_DEBUG, "AIO progress thread starting up\n");
+./src/client/usrint/aiocommon.c:         gossip_debug(GOSSIP_USRINT_DEBUG, "Adding AIO CB %p to the running list\n", io_cb->a_cb);
+./src/client/usrint/aiocommon.c:            gossip_debug(GOSSIP_USRINT_DEBUG, "AIO CB %p COMPLETED (%d bytes)\n",
+./src/client/usrint/aiocommon.c:            gossip_debug(GOSSIP_USRINT_DEBUG, "AIO CB %p FAILED with error %d\n",
+./src/client/usrint/aiocommon.c:            gossip_debug(GOSSIP_USRINT_DEBUG, "No running requests, progress thread exiting\n");
+./src/client/usrint/openfile-util.c:        /* gossip_debug(GOSSIP_UCACHE_DEBUG, */
+./src/client/usrint/openfile-util.c:      gossip_debug(GOSSIP_CLIENT_DEBUG,
+./src/client/usrint/openfile-util.c:    gossip_debug(GOSSIP_USRINT_DEBUG,
+./src/client/usrint/openfile-util.c:    gossip_debug(GOSSIP_USRINT_DEBUG,
+./src/client/usrint/openfile-util.c:    gossip_debug(GOSSIP_USRINT_DEBUG,
+./src/client/usrint/openfile-util.c:            gossip_debug(GOSSIP_USRINT_DEBUG,
+./src/client/usrint/openfile-util.c:                gossip_debug(GOSSIP_USRINT_DEBUG,
+./src/client/usrint/openfile-util.c:                    gossip_debug(GOSSIP_USRINT_DEBUG,
+./src/client/usrint/openfile-util.c:            gossip_debug(GOSSIP_USRINT_DEBUG,
+./src/client/usrint/openfile-util.c:    gossip_debug(GOSSIP_USRINT_DEBUG,
+./src/client/usrint/openfile-util.c:        gossip_debug(GOSSIP_USRINT_DEBUG,
+./src/client/usrint/openfile-util.c:    gossip_debug(GOSSIP_USRINT_DEBUG,
+./src/client/usrint/openfile-util.c:        gossip_debug(GOSSIP_USRINT_DEBUG,
+./src/client/usrint/openfile-util.c:                gossip_debug(GOSSIP_USRINT_DEBUG,
+./src/client/usrint/openfile-util.c:    gossip_debug(GOSSIP_USRINT_DEBUG, "\tpvfs_free_descriptor returns %d\n", 0);
+./src/client/windows/client-service/io-cache.c:            gossip_debug(GOSSIP_IO_DEBUG, "io_cache_add: updating io_type to %s for context %llx\n",
+./src/client/windows/client-service/io-cache.c:            gossip_debug(GOSSIP_IO_DEBUG, "io_cache_add: context %llx already exists\n", context);
+./src/client/windows/client-service/io-cache.c:    gossip_debug(GOSSIP_IO_DEBUG, "io_cache_add: added context %llx handle %llu\n",
+./src/client/windows/client-service/io-cache.c:        gossip_debug(GOSSIP_IO_DEBUG, "io_cache_remove: removed context %llx\n",
+./src/client/windows/client-service/io-cache.c:        gossip_debug(GOSSIP_IO_DEBUG, "io_cache_get: got context %llx "
+./src/client/windows/client-service/io-cache.c:    gossip_debug(GOSSIP_IO_DEBUG, "io_cache_get: miss for context %llx\n",
+./src/client/windows/client-service/dokan-interface.c:        gossip_debug(GOSSIP_WIN_CLIENT_DEBUG, "%s", buffer);
+./src/client/cp-library/orangefs-client.c:	gossip_debug(OrangeFS_WIN_CLIENT_DEBUG, buff, argp);	
+./src/kernel/linux-2.6/super.c:            gossip_debug(GOSSIP_SUPER_DEBUG, "pvfs2: parse_mount_options called with:\n");
+./src/kernel/linux-2.6/super.c:            gossip_debug(GOSSIP_SUPER_DEBUG, " %s\n", option_str);
+./src/kernel/linux-2.6/super.c:                            gossip_debug(GOSSIP_SUPER_DEBUG, "pvfs2: mount option "
+./src/kernel/linux-2.6/super.c:                            gossip_debug(GOSSIP_SUPER_DEBUG, "pvfs2: mount option "
+./src/kernel/linux-2.6/super.c:                            gossip_debug(GOSSIP_SUPER_DEBUG, "pvfs2: mount option "
+./src/kernel/linux-2.6/super.c:                            gossip_debug(GOSSIP_SUPER_DEBUG, "pvfs2: mount option "
+./src/kernel/linux-2.6/super.c:                            gossip_debug(GOSSIP_SUPER_DEBUG, "pvfs2: mount option "
+./src/kernel/linux-2.6/super.c:                    gossip_debug(GOSSIP_SUPER_DEBUG, "pvfs2: multiple device names specified: "
+./src/kernel/linux-2.6/super.c:        gossip_debug(GOSSIP_SUPER_DEBUG, "pvfs2_alloc_inode: allocated %p\n", pvfs2_inode);
+./src/kernel/linux-2.6/super.c:        gossip_debug(GOSSIP_SUPER_DEBUG,
+./src/kernel/linux-2.6/super.c:    gossip_debug(GOSSIP_SUPER_DEBUG,
+./src/kernel/linux-2.6/super.c:        gossip_debug(GOSSIP_SUPER_DEBUG,
+./src/kernel/linux-2.6/super.c:            gossip_debug(GOSSIP_SUPER_DEBUG,
+./src/kernel/linux-2.6/super.c:            gossip_debug(GOSSIP_SUPER_DEBUG,
+./src/kernel/linux-2.6/super.c:    gossip_debug(GOSSIP_SUPER_DEBUG,
+./src/kernel/linux-2.6/super.c:    gossip_debug(GOSSIP_SUPER_DEBUG,
+./src/kernel/linux-2.6/super.c:    gossip_debug(GOSSIP_SUPER_DEBUG, "pvfs2_statfs: called on sb %p (fs_id is %d)\n",
+./src/kernel/linux-2.6/super.c:        gossip_debug(GOSSIP_SUPER_DEBUG, "pvfs2_statfs: got %ld blocks available | "
+./src/kernel/linux-2.6/super.c:            gossip_debug(GOSSIP_SUPER_DEBUG, "sizeof(kstatfs)=%d\n",
+./src/kernel/linux-2.6/super.c:            gossip_debug(GOSSIP_SUPER_DEBUG, "sizeof(kstatfs->f_blocks)=%d\n",
+./src/kernel/linux-2.6/super.c:            gossip_debug(GOSSIP_SUPER_DEBUG, "sizeof(statfs)=%d\n",
+./src/kernel/linux-2.6/super.c:            gossip_debug(GOSSIP_SUPER_DEBUG, "sizeof(statfs->f_blocks)=%d\n",
+./src/kernel/linux-2.6/super.c:            gossip_debug(GOSSIP_SUPER_DEBUG, "sizeof(sector_t)=%d\n",
+./src/kernel/linux-2.6/super.c:                gossip_debug(GOSSIP_SUPER_DEBUG, "pvfs2_statfs (T) got %lu files total | %lu "
+./src/kernel/linux-2.6/super.c:                gossip_debug(GOSSIP_SUPER_DEBUG, "pvfs2_statfs (N) got %lu files total | %lu "
+./src/kernel/linux-2.6/super.c:    gossip_debug(GOSSIP_SUPER_DEBUG, "pvfs2_statfs: returning %d\n", ret);
+./src/kernel/linux-2.6/super.c:    gossip_debug(GOSSIP_SUPER_DEBUG, "pvfs2_remount_fs: called\n");
+./src/kernel/linux-2.6/super.c:    gossip_debug(GOSSIP_SUPER_DEBUG, "pvfs2_remount: called\n");
+./src/kernel/linux-2.6/super.c:        gossip_debug(GOSSIP_SUPER_DEBUG, "Attempting PVFS2 Remount via host %s\n",
+./src/kernel/linux-2.6/super.c:        gossip_debug(GOSSIP_SUPER_DEBUG, "pvfs2_remount: mount got return value of %d\n", ret);
+./src/kernel/linux-2.6/super.c:    gossip_debug(GOSSIP_SUPER_DEBUG, "pvfs2: pvfs2_get_fs_key fsid is %d\n", fsid);
+./src/kernel/linux-2.6/super.c:    gossip_debug(GOSSIP_SUPER_DEBUG, "Search fskey_table for fsid %d\n", fsid);
+./src/kernel/linux-2.6/super.c:        gossip_debug(GOSSIP_SUPER_DEBUG, "Cached key for FSID %d - %d\n", fsid, entry->fs_keylen);
+./src/kernel/linux-2.6/super.c:    gossip_debug(GOSSIP_SUPER_DEBUG, "Uncached key for FSID %d - %d\n", entry->fsid, entry->fs_keylen);
+./src/kernel/linux-2.6/super.c:        gossip_debug(GOSSIP_SUPER_DEBUG,
+./src/kernel/linux-2.6/super.c:            gossip_debug(GOSSIP_SUPER_DEBUG, "pvfs2_get_sb: no data parameter!\n");
+./src/kernel/linux-2.6/super.c:    gossip_debug(GOSSIP_SUPER_DEBUG, "Attempting PVFS2 Mount via host %s\n",
+./src/kernel/linux-2.6/super.c:    gossip_debug(GOSSIP_SUPER_DEBUG,
+./src/kernel/linux-2.6/super.c:    gossip_debug(GOSSIP_SUPER_DEBUG,
+./src/kernel/linux-2.6/super.c:    gossip_debug(GOSSIP_SUPER_DEBUG, "%s:Allocated root inode [%p] with mode %o\n",__func__,
+./src/kernel/linux-2.6/super.c:    gossip_debug(GOSSIP_SUPER_DEBUG, "pvfs2_get_sb: returning sb %p\n", sb);
+./src/kernel/linux-2.6/super.c:   gossip_debug(GOSSIP_SUPER_DEBUG,
+./src/kernel/linux-2.6/super.c:   gossip_debug(GOSSIP_SUPER_DEBUG,
+./src/kernel/linux-2.6/super.c:      gossip_debug(GOSSIP_SUPER_DEBUG,
+./src/kernel/linux-2.6/super.c:   gossip_debug(GOSSIP_SUPER_DEBUG,
+./src/kernel/linux-2.6/super.c:      gossip_debug(GOSSIP_SUPER_DEBUG,
+./src/kernel/linux-2.6/super.c:    gossip_debug(GOSSIP_SUPER_DEBUG,
+./src/kernel/linux-2.6/super.c:    gossip_debug(GOSSIP_SUPER_DEBUG,
+./src/kernel/linux-2.6/super.c:    gossip_debug(GOSSIP_SUPER_DEBUG,
+./src/kernel/linux-2.6/super.c:        gossip_debug(GOSSIP_SUPER_DEBUG, "Attempting PVFS2 Mount via host %s\n",
+./src/kernel/linux-2.6/super.c:        gossip_debug(GOSSIP_SUPER_DEBUG,
+./src/kernel/linux-2.6/super.c:    gossip_debug(GOSSIP_SUPER_DEBUG, "pvfs2_get_sb: returning %d\n", ret);
+./src/kernel/linux-2.6/super.c:    gossip_debug(GOSSIP_SUPER_DEBUG, "pvfs2_get_sb: returning dentry %p\n", 
+./src/kernel/linux-2.6/super.c:    gossip_debug(GOSSIP_SUPER_DEBUG, "pvfs2_get_sb: returning sb %p\n", sb);
+./src/kernel/linux-2.6/super.c:    gossip_debug(GOSSIP_SUPER_DEBUG, "pvfs2_kill_sb: called\n");
+./src/kernel/linux-2.6/super.c:                gossip_debug(GOSSIP_SUPER_DEBUG,
+./src/kernel/linux-2.6/super.c:        gossip_debug(GOSSIP_SUPER_DEBUG,
+./src/kernel/linux-2.6/super.c:    gossip_debug(GOSSIP_SUPER_DEBUG, "pvfs2_kill_sb: returning normally\n");
+./src/kernel/linux-2.6/xattr-trusted.c:    gossip_debug(GOSSIP_XATTR_DEBUG,
+./src/kernel/linux-2.6/xattr-trusted.c:    gossip_debug(GOSSIP_XATTR_DEBUG,
+./src/kernel/linux-2.6/waitqueue.c:        gossip_debug(GOSSIP_WAIT_DEBUG, "pvfs2-client-core: purging op tag %llu %s\n", llu(op->tag), get_opname_string(op));
+./src/kernel/linux-2.6/waitqueue.c:    gossip_debug(GOSSIP_WAIT_DEBUG, "pvfs2: service_operation: %s %p\n", op_name, op);
+./src/kernel/linux-2.6/waitqueue.c:    gossip_debug(GOSSIP_WAIT_DEBUG, "pvfs2: operation posted by process: %s, pid: %i\n", current->comm, current->pid);
+./src/kernel/linux-2.6/waitqueue.c:            gossip_debug(GOSSIP_WAIT_DEBUG, "pvfs2: service_operation interrupted.\n");
+./src/kernel/linux-2.6/waitqueue.c:    gossip_debug(GOSSIP_WAIT_DEBUG,"%s:About to call is_daemon_in_service().\n",__func__);
+./src/kernel/linux-2.6/waitqueue.c:        gossip_debug(GOSSIP_WAIT_DEBUG,"%s:client core is NOT in service(%d).\n",__func__
+./src/kernel/linux-2.6/waitqueue.c:        gossip_debug(GOSSIP_WAIT_DEBUG,"%s:About to call add_op_to_request_list().\n",__func__);
+./src/kernel/linux-2.6/waitqueue.c:        gossip_debug(GOSSIP_WAIT_DEBUG,"%s:About to call wait_for_cancellation_downcall().\n",__func__);
+./src/kernel/linux-2.6/waitqueue.c:    gossip_debug(GOSSIP_WAIT_DEBUG, "%s: downcall returned %d "
+./src/kernel/linux-2.6/waitqueue.c:    gossip_debug(GOSSIP_WAIT_DEBUG, "%s: downcall status set to %d\n",
+./src/kernel/linux-2.6/waitqueue.c:        gossip_debug(GOSSIP_WAIT_DEBUG, "pvfs2: tag %llu (%s) -- operation to be retried (%d attempt)\n", 
+./src/kernel/linux-2.6/waitqueue.c:            gossip_debug(GOSSIP_WAIT_DEBUG,"uses_shared_memory is true.\n");
+./src/kernel/linux-2.6/waitqueue.c:            gossip_debug(GOSSIP_WAIT_DEBUG,"Client core in-service status(%d).\n",is_daemon_in_service());
+./src/kernel/linux-2.6/waitqueue.c:            gossip_debug(GOSSIP_WAIT_DEBUG,"bufmap_init:%d.\n",get_bufmap_init());
+./src/kernel/linux-2.6/waitqueue.c:            gossip_debug(GOSSIP_WAIT_DEBUG,"operation's state is 0x%0x.\n",op->op_state);
+./src/kernel/linux-2.6/waitqueue.c:            gossip_debug(GOSSIP_WAIT_DEBUG,"Value returned from schedule_timeout:%d.\n",ret);
+./src/kernel/linux-2.6/waitqueue.c:            gossip_debug(GOSSIP_WAIT_DEBUG,"Is shared memory available? (%d).\n",get_bufmap_init());
+./src/kernel/linux-2.6/waitqueue.c:    gossip_debug(GOSSIP_WAIT_DEBUG, "pvfs2: service_operation %s returning: %d for %p.\n", op_name, ret, op);
+./src/kernel/linux-2.6/waitqueue.c:        gossip_debug(GOSSIP_WAIT_DEBUG, "%s: op is null, ignoring\n",
+./src/kernel/linux-2.6/waitqueue.c:        gossip_debug(GOSSIP_WAIT_DEBUG, "%s: op %p NOT in a valid state (%0x), "
+./src/kernel/linux-2.6/waitqueue.c:        gossip_debug(GOSSIP_WAIT_DEBUG, "Interrupted: Removed op %p from request_list\n", op);
+./src/kernel/linux-2.6/waitqueue.c:        gossip_debug(GOSSIP_WAIT_DEBUG, "Interrupted: Removed op %p from "
+./src/kernel/linux-2.6/waitqueue.c:                    gossip_debug(GOSSIP_WAIT_DEBUG, "*** %s: operation timed "
+./src/kernel/linux-2.6/waitqueue.c:                gossip_debug(GOSSIP_WAIT_DEBUG, "*** %s: operation purged "
+./src/kernel/linux-2.6/waitqueue.c:        gossip_debug(GOSSIP_WAIT_DEBUG, "*** %s: operation interrupted by a "
+./src/kernel/linux-2.6/waitqueue.c:            gossip_debug(GOSSIP_WAIT_DEBUG,"%s:op-state is SERVICED.\n",__func__);
+./src/kernel/linux-2.6/waitqueue.c:           gossip_debug(GOSSIP_WAIT_DEBUG,"%s:operation interrupted by a signal (tag %llu, op %p)\n"
+./src/kernel/linux-2.6/waitqueue.c:        gossip_debug(GOSSIP_WAIT_DEBUG,"%s:About to call schedule_timeout.\n",__func__);
+./src/kernel/linux-2.6/waitqueue.c:        gossip_debug(GOSSIP_WAIT_DEBUG,"%s:Value returned from schedule_timeout(%d).\n"
+./src/kernel/linux-2.6/waitqueue.c:            gossip_debug(GOSSIP_WAIT_DEBUG, "%s:*** operation timed out: %p\n", __func__,op);
+./src/kernel/linux-2.6/waitqueue.c:        gossip_debug(GOSSIP_WAIT_DEBUG,"%s:Breaking out of loop, regardless of value returned by schedule_timeout.\n",__func__);
+./src/kernel/linux-2.6/waitqueue.c:    gossip_debug(GOSSIP_WAIT_DEBUG,"%s:returning ret(%d)\n",__func__,ret);
+./src/kernel/linux-2.6/pvfs2-proc.c:  gossip_debug(GOSSIP_PROC_DEBUG,"Executing pvfs2_proc_debug_mask_handler...\n");
+./src/kernel/linux-2.6/pvfs2-proc.c:  gossip_debug(GOSSIP_PROC_DEBUG,"%s: debug string: %s\n"
+./src/kernel/linux-2.6/pvfs2-proc.c:     gossip_debug(GOSSIP_PROC_DEBUG,"%s: kernel debug mask: %lu\n"
+./src/kernel/linux-2.6/pvfs2-proc.c:     gossip_debug(GOSSIP_PROC_DEBUG,"New kernel debug string is %s.\n"
+./src/kernel/linux-2.6/pvfs2-proc.c:        gossip_debug(GOSSIP_PROC_DEBUG,"Downcall:\treturn status:%d\treturn "
+./src/kernel/linux-2.6/pvfs2-proc.c:        gossip_debug(GOSSIP_PROC_DEBUG,"New client debug string is %s\n"
+./src/kernel/linux-2.6/pvfs2-proc.c:        gossip_debug(GOSSIP_PROC_DEBUG, "pvfs2: proc write %d\n", val);
+./src/kernel/linux-2.6/pvfs2-proc.c:        gossip_debug(GOSSIP_PROC_DEBUG, "pvfs2: proc read %d\n", val);
+./src/kernel/linux-2.6/devpvfs2-req.c:    gossip_debug(GOSSIP_DEV_DEBUG, "pvfs2-client-core: opening device\n");
+./src/kernel/linux-2.6/devpvfs2-req.c:    gossip_debug(GOSSIP_DEV_DEBUG, "pvfs2-client-core: open device complete (ret = %d)\n", ret);
+./src/kernel/linux-2.6/devpvfs2-req.c:                gossip_debug(GOSSIP_DEV_DEBUG, "Skipping op tag %llu %s\n", llu(op->tag), get_opname_string(op));
+./src/kernel/linux-2.6/devpvfs2-req.c:        gossip_debug(GOSSIP_DEV_DEBUG, "%s : client-core: reading op tag %llu %s\n"
+./src/kernel/linux-2.6/devpvfs2-req.c:                gossip_debug(GOSSIP_DEV_DEBUG, "writev: Ignoring %d bytes\n", payload_size);
+./src/kernel/linux-2.6/devpvfs2-req.c:                gossip_debug(GOSSIP_DEV_DEBUG, "writev: trailer size %ld\n", (unsigned long) op->downcall.trailer_size);
+./src/kernel/linux-2.6/devpvfs2-req.c:                    gossip_debug(GOSSIP_DEV_DEBUG, "vmalloc: %p\n", op->downcall.trailer_buf);
+./src/kernel/linux-2.6/devpvfs2-req.c:                        gossip_debug(GOSSIP_DEV_DEBUG, "vfree: %p\n", op->downcall.trailer_buf);
+./src/kernel/linux-2.6/devpvfs2-req.c:                            gossip_debug(GOSSIP_DEV_DEBUG, "*** I/O wait time is up\n");
+./src/kernel/linux-2.6/devpvfs2-req.c:                    gossip_debug(GOSSIP_DEV_DEBUG, "*** signal on I/O wait -- aborting\n");
+./src/kernel/linux-2.6/devpvfs2-req.c:                        gossip_debug(GOSSIP_DEV_DEBUG, "WARNING: pvfs2_iocb from op"
+./src/kernel/linux-2.6/devpvfs2-req.c:                        gossip_debug(GOSSIP_DEV_DEBUG, "WARNING: cannot retrieve the "
+./src/kernel/linux-2.6/devpvfs2-req.c:                    gossip_debug(GOSSIP_DEV_DEBUG, "[AIO] status of transfer: %d\n", bytes_copied);
+./src/kernel/linux-2.6/devpvfs2-req.c:                    gossip_debug(GOSSIP_DEV_DEBUG, "Setting state of %p to %d [SERVICED]\n",
+./src/kernel/linux-2.6/devpvfs2-req.c:        gossip_debug(GOSSIP_DEV_DEBUG, "WARNING: No one's waiting for tag %llu\n", llu(tag));
+./src/kernel/linux-2.6/devpvfs2-req.c:	gossip_debug(GOSSIP_DEV_DEBUG, "%s: total:%d: ret:%zd:\n",
+./src/kernel/linux-2.6/devpvfs2-req.c:	gossip_debug(GOSSIP_DEV_DEBUG,
+./src/kernel/linux-2.6/devpvfs2-req.c:					gossip_debug(GOSSIP_DEV_DEBUG,
+./src/kernel/linux-2.6/devpvfs2-req.c:			gossip_debug(GOSSIP_DEV_DEBUG,
+./src/kernel/linux-2.6/devpvfs2-req.c:    gossip_debug(GOSSIP_DEV_DEBUG, "%s:pvfs2-client-core: exiting, closing device\n",__func__);
+./src/kernel/linux-2.6/devpvfs2-req.c:    gossip_debug(GOSSIP_DEV_DEBUG, "PVFS2 Device Close: Filesystem(s) %s\n",
+./src/kernel/linux-2.6/devpvfs2-req.c:    gossip_debug(GOSSIP_DEV_DEBUG, "pvfs2-client-core: device close complete\n");
+./src/kernel/linux-2.6/devpvfs2-req.c:            gossip_debug(GOSSIP_DEV_DEBUG, "pvfs2_devreq_ioctl: got PVFS_DEV_REMOUNT_ALL\n");
+./src/kernel/linux-2.6/devpvfs2-req.c:            gossip_debug(GOSSIP_DEV_DEBUG, "pvfs2_devreq_ioctl: priority remount "
+./src/kernel/linux-2.6/devpvfs2-req.c:                    gossip_debug(GOSSIP_DEV_DEBUG,
+./src/kernel/linux-2.6/devpvfs2-req.c:                        gossip_debug(GOSSIP_DEV_DEBUG,
+./src/kernel/linux-2.6/devpvfs2-req.c:            gossip_debug(GOSSIP_DEV_DEBUG, "pvfs2_devreq_ioctl: priority remount "
+./src/kernel/linux-2.6/devpvfs2-req.c:        gossip_debug(GOSSIP_DEV_DEBUG, "Registered ioctl32 command %08x with handler %p\n",
+./src/kernel/linux-2.6/devpvfs2-req.c:        gossip_debug(GOSSIP_DEV_DEBUG, "Deregistered ioctl32 command %08x\n",
+./src/kernel/linux-2.6/devpvfs2-req.c:        gossip_debug(GOSSIP_INIT_DEBUG, "Failed to register /dev/%s (error %d)\n",
+./src/kernel/linux-2.6/devpvfs2-req.c:    gossip_debug(GOSSIP_INIT_DEBUG, "*** /dev/%s character device registered ***\n",
+./src/kernel/linux-2.6/devpvfs2-req.c:    gossip_debug(GOSSIP_INIT_DEBUG, "'mknod /dev/%s c %d 0'.\n", PVFS2_REQDEVICE_NAME,
+./src/kernel/linux-2.6/devpvfs2-req.c:    gossip_debug(GOSSIP_INIT_DEBUG, "*** /dev/%s character device unregistered ***\n",
+./src/kernel/linux-2.6/dir.c:        gossip_debug(GOSSIP_DIR_DEBUG, "vfree %p\n", buf);
+./src/kernel/linux-2.6/dir.c:        gossip_debug(GOSSIP_BUFMAP_DEBUG, "%s: put index:%d:\n",
+./src/kernel/linux-2.6/dir.c:        gossip_debug(GOSSIP_DIR_DEBUG, "vfree %p\n", rhandle->dents_buf);
+./src/kernel/linux-2.6/dir.c:    gossip_debug(GOSSIP_DIR_DEBUG,
+./src/kernel/linux-2.6/dir.c:    gossip_debug(GOSSIP_DIR_DEBUG,
+./src/kernel/linux-2.6/dir.c:        gossip_debug(GOSSIP_DIR_DEBUG, "%s: done\n", __func__);
+./src/kernel/linux-2.6/dir.c:    gossip_debug(GOSSIP_DIR_DEBUG, "%s: called on %s (pos=%llu)\n",
+./src/kernel/linux-2.6/dir.c:        gossip_debug(GOSSIP_DIR_DEBUG,
+./src/kernel/linux-2.6/dir.c:        gossip_debug(GOSSIP_DIR_DEBUG,
+./src/kernel/linux-2.6/dir.c:    gossip_debug(GOSSIP_DIR_DEBUG,
+./src/kernel/linux-2.6/dir.c:       gossip_debug(GOSSIP_DIR_DEBUG,
+./src/kernel/linux-2.6/dir.c:         gossip_debug(GOSSIP_DIR_DEBUG,
+./src/kernel/linux-2.6/dir.c:     gossip_debug(GOSSIP_DIR_DEBUG,
+./src/kernel/linux-2.6/dir.c:        gossip_debug(GOSSIP_DIR_DEBUG, 
+./src/kernel/linux-2.6/dir.c:        gossip_debug(GOSSIP_DIR_DEBUG, 
+./src/kernel/linux-2.6/dir.c:          gossip_debug(GOSSIP_DIR_DEBUG,
+./src/kernel/linux-2.6/dir.c:	gossip_debug(GOSSIP_DIR_DEBUG,
+./src/kernel/linux-2.6/dir.c:	gossip_debug(GOSSIP_DIR_DEBUG,
+./src/kernel/linux-2.6/dir.c:       gossip_debug(GOSSIP_DIR_DEBUG, "%s: trigger readdir end.\n", __func__);
+./src/kernel/linux-2.6/dir.c:       gossip_debug(GOSSIP_DIR_DEBUG, 
+./src/kernel/linux-2.6/dir.c:    gossip_debug(GOSSIP_DIR_DEBUG, "%s: returning %d\n", __func__, ret);
+./src/kernel/linux-2.6/dir.c:        gossip_debug(GOSSIP_DIR_DEBUG, "vfree %p\n", buf);
+./src/kernel/linux-2.6/dir.c:        gossip_debug(GOSSIP_DIR_DEBUG, "vfree %p\n", rhandle->dentsplus_buf);
+./src/kernel/linux-2.6/dir.c:        gossip_debug(GOSSIP_DIR_DEBUG, "Skipping to graceful termination path since we are done\n");
+./src/kernel/linux-2.6/dir.c:    gossip_debug(GOSSIP_DIR_DEBUG, "pvfs2_readdirplus called on %s (pos=%d)\n",
+./src/kernel/linux-2.6/dir.c:                    gossip_debug(GOSSIP_DIR_DEBUG, "calling filldirplus of . with pos = %d\n", pos);
+./src/kernel/linux-2.6/dir.c:                    gossip_debug(GOSSIP_DIR_DEBUG, "calling filldirplus of .. with pos = %d\n", pos);
+./src/kernel/linux-2.6/dir.c:                gossip_debug(GOSSIP_DIR_DEBUG, "Readdirplus downcall status is %d\n",
+./src/kernel/linux-2.6/dir.c:                        gossip_debug(GOSSIP_DIR_DEBUG,
+./src/kernel/linux-2.6/dir.c:                        gossip_debug(GOSSIP_DIR_DEBUG, "at least one filldir call failed. Not updating token. Setting f_pos to: %ld\n", (unsigned long) file->f_pos);
+./src/kernel/linux-2.6/dir.c:                        gossip_debug(GOSSIP_DIR_DEBUG,
+./src/kernel/linux-2.6/dir.c:                    gossip_debug(GOSSIP_DIR_DEBUG,
+./src/kernel/linux-2.6/dir.c:                    gossip_debug(GOSSIP_DIR_DEBUG, "Failed to readdirplus (downcall status %d)\n",
+./src/kernel/linux-2.6/dir.c:    gossip_debug(GOSSIP_DIR_DEBUG, "pvfs2_readdirplus returning %d\n",ret);
+./src/kernel/linux-2.6/dir.c:        gossip_debug(GOSSIP_DIR_DEBUG,
+./src/kernel/linux-2.6/dir.c:        gossip_debug(GOSSIP_DIR_DEBUG,
+./src/kernel/linux-2.6/pvfs2-bufmap.c:    gossip_debug(GOSSIP_BUFMAP_DEBUG, "pvfs_bufmap_initialize: called "
+./src/kernel/linux-2.6/pvfs2-bufmap.c:    gossip_debug(GOSSIP_BUFMAP_DEBUG, "pvfs_bufmap_initialize: exiting normally\n");
+./src/kernel/linux-2.6/pvfs2-bufmap.c:    gossip_debug(GOSSIP_BUFMAP_DEBUG, "pvfs2_bufmap_finalize: called\n");
+./src/kernel/linux-2.6/pvfs2-bufmap.c:        gossip_debug(GOSSIP_BUFMAP_DEBUG, "pvfs2_bufmap_finalize: not yet "
+./src/kernel/linux-2.6/pvfs2-bufmap.c:    gossip_debug(GOSSIP_BUFMAP_DEBUG, "pvfs2_bufmap_finalize: exiting normally\n");
+./src/kernel/linux-2.6/pvfs2-bufmap.c:            gossip_debug(GOSSIP_BUFMAP_DEBUG,
+./src/kernel/linux-2.6/pvfs2-bufmap.c:                gossip_debug(GOSSIP_BUFMAP_DEBUG, 
+./src/kernel/linux-2.6/pvfs2-bufmap.c:            gossip_debug(GOSSIP_BUFMAP_DEBUG,
+./src/kernel/linux-2.6/pvfs2-bufmap.c:        gossip_debug(GOSSIP_BUFMAP_DEBUG, "pvfs2: %s interrupted.\n",
+./src/kernel/linux-2.6/pvfs2-bufmap.c:    gossip_debug(GOSSIP_BUFMAP_DEBUG, "pvfs_bufmap_copy_to_user: to %p, from %p, index %d, "
+./src/kernel/linux-2.6/pvfs2-bufmap.c:            gossip_debug(GOSSIP_BUFMAP_DEBUG, "Failed to copy data to user space %zd\n", ret);
+./src/kernel/linux-2.6/pvfs2-bufmap.c:    gossip_debug(GOSSIP_BUFMAP_DEBUG, "pvfs_bufmap_copy_to_kernel: to %p, index %d, size %zd\n",
+./src/kernel/linux-2.6/pvfs2-bufmap.c:    gossip_debug(GOSSIP_BUFMAP_DEBUG, "pvfs_bufmap_copy_from_user: from %p, index %d, "
+./src/kernel/linux-2.6/pvfs2-bufmap.c:            gossip_debug(GOSSIP_BUFMAP_DEBUG, "First character (integer value) in pvfs_bufmap_copy_from_user: %d\n", tmp_int);
+./src/kernel/linux-2.6/pvfs2-bufmap.c:            gossip_debug(GOSSIP_BUFMAP_DEBUG, "Failed to copy data from user space\n");
+./src/kernel/linux-2.6/pvfs2-bufmap.c:    gossip_debug(GOSSIP_BUFMAP_DEBUG, "pvfs_bufmap_copy_to_pages: nr_pages %lu,"
+./src/kernel/linux-2.6/pvfs2-bufmap.c:        gossip_debug(GOSSIP_BUFMAP_DEBUG, "pvfs_bufmap_copy_to_pages:"
+./src/kernel/linux-2.6/pvfs2-bufmap.c:        gossip_debug(GOSSIP_BUFMAP_DEBUG, "pvfs_bufmap_copy_to_pages -> "
+./src/kernel/linux-2.6/pvfs2-bufmap.c:    gossip_debug(GOSSIP_BUFMAP_DEBUG, "pvfs_bufmap_copy_from_pages: nr_pages %lu "
+./src/kernel/linux-2.6/pvfs2-bufmap.c:        gossip_debug(GOSSIP_BUFMAP_DEBUG, "pvfs_bufmap_copy_from_pages:"
+./src/kernel/linux-2.6/pvfs2-bufmap.c:        gossip_debug(GOSSIP_BUFMAP_DEBUG, "pvfs_bufmap_copy_from_pages -> "
+./src/kernel/linux-2.6/pvfs2-bufmap.c:    gossip_debug(GOSSIP_BUFMAP_DEBUG, "pvfs_bufmap_copy_iovec_from_user: index %d, "
+./src/kernel/linux-2.6/pvfs2-bufmap.c:        gossip_debug(GOSSIP_BUFMAP_DEBUG, "pvfs_bufmap_copy_iovec_from_user: not yet "
+./src/kernel/linux-2.6/pvfs2-bufmap.c:            gossip_debug(GOSSIP_BUFMAP_DEBUG, "First character (integer value) in pvfs_bufmap_copy_from_user: %d\n", tmp_int);
+./src/kernel/linux-2.6/pvfs2-bufmap.c:        gossip_debug(GOSSIP_BUFMAP_DEBUG, "pvfs2_bufmap_copy_iovec_from_user: copying from user %p to kernel %p %zd bytes (to_kddr: %p,page_offset: %d)\n",
+./src/kernel/linux-2.6/pvfs2-bufmap.c:    gossip_debug(GOSSIP_BUFMAP_DEBUG, "pvfs_bufmap_copy_iovec_from_kernel: index %d, "
+./src/kernel/linux-2.6/pvfs2-bufmap.c:        gossip_debug(GOSSIP_BUFMAP_DEBUG, "pvfs_bufmap_copy_iovec_from_kernel: not yet "
+./src/kernel/linux-2.6/pvfs2-bufmap.c:        gossip_debug(GOSSIP_BUFMAP_DEBUG, "pvfs2_bufmap_copy_iovec_from_kernel: copying from kernel %p to kernel %p %zd bytes (to_kddr: %p,page_offset: %d)\n",
+./src/kernel/linux-2.6/pvfs2-bufmap.c:    gossip_debug(GOSSIP_BUFMAP_DEBUG, "pvfs_bufmap_copy_to_user_iovec: index %d, "
+./src/kernel/linux-2.6/pvfs2-bufmap.c:        gossip_debug(GOSSIP_BUFMAP_DEBUG, "pvfs2_bufmap_copy_to_user_iovec: not yet "
+./src/kernel/linux-2.6/pvfs2-bufmap.c:            gossip_debug(GOSSIP_BUFMAP_DEBUG, "First character (integer value) in pvfs_bufmap_copy_to_user_iovec: %d\n", tmp_int);
+./src/kernel/linux-2.6/pvfs2-bufmap.c:        gossip_debug(GOSSIP_BUFMAP_DEBUG, "pvfs2_bufmap_copy_to_user_iovec: copying to user %p from kernel %p %d bytes (from_kaddr:%p, page_offset:%d)\n",
+./src/kernel/linux-2.6/pvfs2-bufmap.c:    gossip_debug(GOSSIP_BUFMAP_DEBUG, "pvfs_bufmap_copy_to_kernel_iovec: index %d, "
+./src/kernel/linux-2.6/pvfs2-bufmap.c:        gossip_debug(GOSSIP_BUFMAP_DEBUG, "pvfs2_bufmap_copy_to_kernel_iovec: not yet "
+./src/kernel/linux-2.6/pvfs2-bufmap.c:        gossip_debug(GOSSIP_BUFMAP_DEBUG, "pvfs_bufmap_copy_to_kernel_iovec: copying to kernel %p from kernel %p %d bytes (from_kaddr:%p, page_offset:%d)\n",
+./src/kernel/linux-2.6/pvfs2-bufmap.c:    gossip_debug(GOSSIP_BUFMAP_DEBUG, "pvfs_bufmap_copy_to_user_task_iovec: "
+./src/kernel/linux-2.6/inode.c:    gossip_debug(GOSSIP_INODE_DEBUG, "pvfs2_readpage called with page %p\n",page);
+./src/kernel/linux-2.6/inode.c:    gossip_debug(GOSSIP_INODE_DEBUG, "pvfs2_readpages called\n");
+./src/kernel/linux-2.6/inode.c:            gossip_debug(GOSSIP_INODE_DEBUG, "failure adding page to cache, "
+./src/kernel/linux-2.6/inode.c:     gossip_debug(GOSSIP_INODE_DEBUG,
+./src/kernel/linux-2.6/inode.c:    gossip_debug(GOSSIP_INODE_DEBUG, "pvfs2_invalidatepage called on page %p "
+./src/kernel/linux-2.6/inode.c:    gossip_debug(GOSSIP_INODE_DEBUG, "pvfs2_invalidatepage called on page %p "
+./src/kernel/linux-2.6/inode.c:    gossip_debug(GOSSIP_INODE_DEBUG, "pvfs2_releasepage called on page %p\n", page);
+./src/kernel/linux-2.6/inode.c:    gossip_debug(GOSSIP_INODE_DEBUG,
+./src/kernel/linux-2.6/inode.c:    gossip_debug(GOSSIP_INODE_DEBUG, "pvfs2_setattr: called on %s\n", 
+./src/kernel/linux-2.6/inode.c:        gossip_debug(GOSSIP_INODE_DEBUG, "pvfs2_setattr: inode_setattr returned %d\n", ret);
+./src/kernel/linux-2.6/inode.c:    gossip_debug(GOSSIP_INODE_DEBUG, "pvfs2_setattr: returning %d\n", ret);
+./src/kernel/linux-2.6/inode.c:    gossip_debug(GOSSIP_INODE_DEBUG, "pvfs2_revalidate: called on %s\n", dentry->d_name.name);
+./src/kernel/linux-2.6/inode.c:        gossip_debug(GOSSIP_INODE_DEBUG, "%s:%s:%d calling make bad inode\n", __FILE__,  __func__, __LINE__);
+./src/kernel/linux-2.6/inode.c:    gossip_debug(GOSSIP_INODE_DEBUG, 
+./src/kernel/linux-2.6/inode.c:         gossip_debug(GOSSIP_INODE_DEBUG,"%s:%s:%d Received EINTR(%d)\n",__FILE__,__func__,__LINE__,ret);
+./src/kernel/linux-2.6/inode.c:        gossip_debug(GOSSIP_INODE_DEBUG, "%s:%s:%d calling make bad inode with return code(%d)\n", __FILE__,  __func__, __LINE__,ret);
+./src/kernel/linux-2.6/inode.c:    gossip_debug(GOSSIP_INODE_DEBUG, "pvfs2_getattr_lite: called on %s\n", dentry->d_name.name);
+./src/kernel/linux-2.6/inode.c:        gossip_debug(GOSSIP_INODE_DEBUG, "%s:%s:%d calling make bad inode (ret:%d)\n", __FILE__,  __func__, __LINE__,ret);
+./src/kernel/linux-2.6/inode.c:    gossip_debug(GOSSIP_INODE_DEBUG,
+./src/kernel/linux-2.6/inode.c:    gossip_debug(GOSSIP_INODE_DEBUG, "pvfs2_get_custom_inode_common: called\n  (sb is %p | "
+./src/kernel/linux-2.6/inode.c:                gossip_debug(GOSSIP_INODE_DEBUG,
+./src/kernel/linux-2.6/inode.c:        gossip_debug(GOSSIP_INODE_DEBUG, 
+./src/kernel/linux-2.6/inode.c:	gossip_debug(GOSSIP_INODE_DEBUG, "pvfs2_get_custom_inode: inode %p allocated\n  "
+./src/kernel/linux-2.6/inode.c:	    gossip_debug(GOSSIP_INODE_DEBUG, "pvfs2_get_custom_inode: unsupported mode\n");
+./src/kernel/linux-2.6/inode.c:        gossip_debug(GOSSIP_ACL_DEBUG,
+./src/kernel/linux-2.6/pvfs2-mod.c:    gossip_debug(GOSSIP_INIT_DEBUG, "pvfs2: pvfs2_exit called\n");
+./src/kernel/linux-2.6/pvfs2-mod.c:	gossip_debug(GOSSIP_INIT_DEBUG, "Freeing unhandled upcall request type %d\n",
+./src/kernel/linux-2.6/pvfs2-mod.c:            gossip_debug(GOSSIP_INIT_DEBUG, "pvfs2-client-core: purging in-progress op tag %llu %s\n",
+./src/kernel/linux-2.6/namei.c:    gossip_debug(GOSSIP_NAME_DEBUG, "pvfs2_create: called\n");
+./src/kernel/linux-2.6/namei.c:    gossip_debug(GOSSIP_NAME_DEBUG, "pvfs2_create: returning %d\n", ret);
+./src/kernel/linux-2.6/namei.c:    gossip_debug(GOSSIP_NAME_DEBUG,
+./src/kernel/linux-2.6/namei.c:            gossip_debug(GOSSIP_NAME_DEBUG,
+./src/kernel/linux-2.6/namei.c:    gossip_debug(GOSSIP_NAME_DEBUG,
+./src/kernel/linux-2.6/namei.c:    gossip_debug(GOSSIP_NAME_DEBUG,
+./src/kernel/linux-2.6/namei.c:            gossip_debug(GOSSIP_NAME_DEBUG, 
+./src/kernel/linux-2.6/namei.c:        gossip_debug(GOSSIP_NAME_DEBUG,
+./src/kernel/linux-2.6/namei.c:        gossip_debug(GOSSIP_NAME_DEBUG, "Lookup success (inode ct = %d)\n",
+./src/kernel/linux-2.6/namei.c:        gossip_debug(GOSSIP_NAME_DEBUG,
+./src/kernel/linux-2.6/namei.c:    gossip_debug(GOSSIP_NAME_DEBUG, "Returning -EACCES for NULL inode\n");
+./src/kernel/linux-2.6/namei.c:    gossip_debug(GOSSIP_NAME_DEBUG, "pvfs2_unlink: pvfs2_unlink called on %s\n",
+./src/kernel/linux-2.6/namei.c:    gossip_debug(GOSSIP_NAME_DEBUG, "pvfs2_symlink: called\n");
+./src/kernel/linux-2.6/namei.c:    gossip_debug(GOSSIP_NAME_DEBUG, "pvfs2_rename: called (%s/%s => %s/%s) ct=%d\n",
+./src/kernel/linux-2.6/namei.c:    gossip_debug(GOSSIP_NAME_DEBUG, "pvfs2_rename: got downcall status %d\n", ret);
+./src/kernel/linux-2.6/pvfs2-utils.c:        gossip_debug(GOSSIP_UTILS_DEBUG, "attrs->mask = %x (objtype = %s)\n", 
+./src/kernel/linux-2.6/pvfs2-utils.c:            gossip_debug(GOSSIP_UTILS_DEBUG,
+./src/kernel/linux-2.6/pvfs2-utils.c:                    gossip_debug(GOSSIP_UTILS_DEBUG, "Copied attr link target %s\n",
+./src/kernel/linux-2.6/pvfs2-utils.c:                gossip_debug(GOSSIP_UTILS_DEBUG, "symlink mode %o\n", inode->i_mode);
+./src/kernel/linux-2.6/pvfs2-utils.c:        gossip_debug(GOSSIP_UTILS_DEBUG, "pvfs2: copy_attributes_to_inode: setting i_mode to %o, i_size to %lu\n",
+./src/kernel/linux-2.6/pvfs2-utils.c:    gossip_debug(GOSSIP_UTILS_DEBUG, "mode is %o | translated perms is %o\n", mode,
+./src/kernel/linux-2.6/pvfs2-utils.c:        gossip_debug(GOSSIP_UTILS_DEBUG, "(UID) %d\n", attrs->owner);
+./src/kernel/linux-2.6/pvfs2-utils.c:        gossip_debug(GOSSIP_UTILS_DEBUG, "(GID) %d\n", attrs->group);
+./src/kernel/linux-2.6/pvfs2-utils.c:                gossip_debug(GOSSIP_UTILS_DEBUG, "User attempted to set sticky bit"
+./src/kernel/linux-2.6/pvfs2-utils.c:            gossip_debug(GOSSIP_UTILS_DEBUG, "Attempting to set setuid bit "
+./src/kernel/linux-2.6/pvfs2-utils.c:    gossip_debug(GOSSIP_UTILS_DEBUG,
+./src/kernel/linux-2.6/pvfs2-utils.c:            gossip_debug(GOSSIP_UTILS_DEBUG,
+./src/kernel/linux-2.6/pvfs2-utils.c:        gossip_debug(GOSSIP_UTILS_DEBUG,
+./src/kernel/linux-2.6/pvfs2-utils.c:        gossip_debug(GOSSIP_UTILS_DEBUG, "pvfs2_inode_setattr: returning %d\n", ret);
+./src/kernel/linux-2.6/pvfs2-utils.c:    gossip_debug(GOSSIP_UTILS_DEBUG,
+./src/kernel/linux-2.6/pvfs2-utils.c:        gossip_debug(GOSSIP_UTILS_DEBUG,
+./src/kernel/linux-2.6/pvfs2-utils.c:    gossip_debug(GOSSIP_UTILS_DEBUG,
+./src/kernel/linux-2.6/pvfs2-utils.c:        gossip_debug(GOSSIP_XATTR_DEBUG,
+./src/kernel/linux-2.6/pvfs2-utils.c:                    gossip_debug(GOSSIP_XATTR_DEBUG,
+./src/kernel/linux-2.6/pvfs2-utils.c:            gossip_debug(GOSSIP_XATTR_DEBUG,
+./src/kernel/linux-2.6/pvfs2-utils.c:        gossip_debug(GOSSIP_XATTR_DEBUG, "removing xattr (%s%s)\n", prefix, name);
+./src/kernel/linux-2.6/pvfs2-utils.c:        gossip_debug(GOSSIP_XATTR_DEBUG,
+./src/kernel/linux-2.6/pvfs2-utils.c:        gossip_debug(GOSSIP_XATTR_DEBUG,
+./src/kernel/linux-2.6/pvfs2-utils.c:        gossip_debug(GOSSIP_XATTR_DEBUG,
+./src/kernel/linux-2.6/pvfs2-utils.c:        gossip_debug(GOSSIP_XATTR_DEBUG, "pvfs2_inode_removexattr: key %s, key_sz %d\n", 
+./src/kernel/linux-2.6/pvfs2-utils.c:        gossip_debug(GOSSIP_XATTR_DEBUG, "pvfs2_inode_removexattr: returning %d\n",
+./src/kernel/linux-2.6/pvfs2-utils.c:                            gossip_debug(GOSSIP_XATTR_DEBUG, "Copying key %d -> %s\n", 
+./src/kernel/linux-2.6/pvfs2-utils.c:                            gossip_debug(GOSSIP_XATTR_DEBUG, "[RESERVED] key %d -> %s\n", 
+./src/kernel/linux-2.6/pvfs2-utils.c:        gossip_debug(GOSSIP_XATTR_DEBUG, "pvfs2_inode_listxattr: returning %d [size of buffer %ld] "
+./src/kernel/linux-2.6/pvfs2-utils.c:    gossip_debug(GOSSIP_UTILS_DEBUG,
+./src/kernel/linux-2.6/pvfs2-utils.c:        gossip_debug(GOSSIP_UTILS_DEBUG,
+./src/kernel/linux-2.6/pvfs2-utils.c:        gossip_debug(GOSSIP_UTILS_DEBUG,
+./src/kernel/linux-2.6/pvfs2-utils.c:        gossip_debug(GOSSIP_UTILS_DEBUG,
+./src/kernel/linux-2.6/pvfs2-utils.c:        gossip_debug(GOSSIP_UTILS_DEBUG,
+./src/kernel/linux-2.6/pvfs2-utils.c:    gossip_debug(GOSSIP_UTILS_DEBUG,
+./src/kernel/linux-2.6/pvfs2-utils.c:        gossip_debug(GOSSIP_UTILS_DEBUG,
+./src/kernel/linux-2.6/pvfs2-utils.c:        gossip_debug(GOSSIP_UTILS_DEBUG, "pvfs2_create_dir: Instantiating\n  *negative* "
+./src/kernel/linux-2.6/pvfs2-utils.c:        gossip_debug(GOSSIP_UTILS_DEBUG,
+./src/kernel/linux-2.6/pvfs2-utils.c:        gossip_debug(GOSSIP_UTILS_DEBUG, "pvfs2_create_dir: failed with error code %d\n",
+./src/kernel/linux-2.6/pvfs2-utils.c:    gossip_debug(GOSSIP_UTILS_DEBUG,
+./src/kernel/linux-2.6/pvfs2-utils.c:        gossip_debug(GOSSIP_UTILS_DEBUG,
+./src/kernel/linux-2.6/pvfs2-utils.c:        gossip_debug(GOSSIP_UTILS_DEBUG, "pvfs2_create_symlink: Instantiating\n  "
+./src/kernel/linux-2.6/pvfs2-utils.c:        gossip_debug(GOSSIP_UTILS_DEBUG,
+./src/kernel/linux-2.6/pvfs2-utils.c:        gossip_debug(GOSSIP_UTILS_DEBUG, "pvfs2_create_symlink: failed with error code %d\n",
+./src/kernel/linux-2.6/pvfs2-utils.c:        gossip_debug(GOSSIP_UTILS_DEBUG,
+./src/kernel/linux-2.6/pvfs2-utils.c:    gossip_debug(GOSSIP_UTILS_DEBUG,
+./src/kernel/linux-2.6/pvfs2-utils.c:    gossip_debug(GOSSIP_UTILS_DEBUG, "pvfs2: pvfs2_truncate got return value of %d\n",ret);
+./src/kernel/linux-2.6/pvfs2-utils.c:        gossip_debug(GOSSIP_UTILS_DEBUG, "perform_handle_checks : fsid = %d\n", fsid);
+./src/kernel/linux-2.6/pvfs2-utils.c:    gossip_debug(GOSSIP_UTILS_DEBUG,
+./src/kernel/linux-2.6/pvfs2-utils.c:    gossip_debug(GOSSIP_UTILS_DEBUG,
+./src/kernel/linux-2.6/pvfs2-utils.c:    gossip_debug(GOSSIP_UTILS_DEBUG,
+./src/kernel/linux-2.6/pvfs2-utils.c:        gossip_debug(GOSSIP_UTILS_DEBUG, "Returning handle length %ld\n",
+./src/kernel/linux-2.6/pvfs2-utils.c:    gossip_debug(GOSSIP_UTILS_DEBUG,
+./src/kernel/linux-2.6/pvfs2-utils.c:    gossip_debug(GOSSIP_UTILS_DEBUG, "pvfs2_flush_mmap_racache got return "
+./src/kernel/linux-2.6/pvfs2-utils.c:    gossip_debug(GOSSIP_UTILS_DEBUG, "pvfs2_unmount_sb called on sb %p\n", sb);
+./src/kernel/linux-2.6/pvfs2-utils.c:    gossip_debug(GOSSIP_UTILS_DEBUG, "Attempting PVFS2 Unmount via host %s\n",
+./src/kernel/linux-2.6/pvfs2-utils.c:    gossip_debug(GOSSIP_UTILS_DEBUG, "pvfs2_unmount: got return value of %d\n", ret);
+./src/kernel/linux-2.6/pvfs2-utils.c:    gossip_debug(GOSSIP_UTILS_DEBUG, "pvfs2_cancel_op_in_progress called on tag %llu\n", llu(tag));
+./src/kernel/linux-2.6/pvfs2-utils.c:    gossip_debug(GOSSIP_UTILS_DEBUG, "Attempting PVFS2 operation cancellation of tag %llu\n",
+./src/kernel/linux-2.6/pvfs2-utils.c:    gossip_debug(GOSSIP_UTILS_DEBUG, "pvfs2_cancel_op_in_progress: got return "
+./src/kernel/linux-2.6/pvfs2-utils.c:        gossip_debug(GOSSIP_UTILS_DEBUG,
+./src/kernel/linux-2.6/pvfs2-utils.c:        gossip_debug(GOSSIP_UTILS_DEBUG,
+./src/kernel/linux-2.6/acl.c:        gossip_debug(GOSSIP_ACL_DEBUG, "pvfs2_acl_decode: no acls!\n");
+./src/kernel/linux-2.6/acl.c:    gossip_debug(GOSSIP_ACL_DEBUG, "acl decoded %zd bytes (%d acl entries)\n",
+./src/kernel/linux-2.6/acl.c:        gossip_debug(GOSSIP_ACL_DEBUG, "Decoded acl entry %d "
+./src/kernel/linux-2.6/acl.c:    gossip_debug(GOSSIP_ACL_DEBUG, "pvfs2_acl_encode: acl encoded %ld bytes "
+./src/kernel/linux-2.6/acl.c:        gossip_debug(GOSSIP_ACL_DEBUG, "Encoded acl entry %zd "
+./src/kernel/linux-2.6/acl.c:        gossip_debug(GOSSIP_ACL_DEBUG,
+./src/kernel/linux-2.6/acl.c:    gossip_debug(GOSSIP_ACL_DEBUG, "inode %s, key %s, type %d\n", 
+./src/kernel/linux-2.6/acl.c:        gossip_debug(GOSSIP_ACL_DEBUG, "pvfs2_set_acl: ACL options disabled on"
+./src/kernel/linux-2.6/acl.c:                gossip_debug(GOSSIP_ACL_DEBUG, "pvfs2_set_acl: setting default "
+./src/kernel/linux-2.6/acl.c:    gossip_debug(GOSSIP_ACL_DEBUG,
+./src/kernel/linux-2.6/acl.c:    gossip_debug(GOSSIP_ACL_DEBUG,
+./src/kernel/linux-2.6/acl.c:        gossip_debug(GOSSIP_ACL_DEBUG, "pvfs2_xattr_get_acl: ACL options "
+./src/kernel/linux-2.6/acl.c:    gossip_debug(GOSSIP_ACL_DEBUG, "pvfs2_xattr_get_acl: posix_acl_to_xattr "
+./src/kernel/linux-2.6/acl.c:    gossip_debug(GOSSIP_ACL_DEBUG, "%s: %s\n", __func__, name);
+./src/kernel/linux-2.6/acl.c:    gossip_debug(GOSSIP_ACL_DEBUG, "%s: %s\n", __func__, name);
+./src/kernel/linux-2.6/acl.c:    gossip_debug(GOSSIP_ACL_DEBUG, "pvfs2_xattr_set_acl called with size %ld\n",
+./src/kernel/linux-2.6/acl.c:        gossip_debug(GOSSIP_ACL_DEBUG, "pvfs2_xattr_set_acl: ACL options "
+./src/kernel/linux-2.6/acl.c:    gossip_debug(GOSSIP_ACL_DEBUG, "pvfs2_set_acl returned error %d\n", error);
+./src/kernel/linux-2.6/acl.c:    gossip_debug(GOSSIP_ACL_DEBUG, "pvfs2_xattr_set_acl_access: %s\n", name);
+./src/kernel/linux-2.6/acl.c:    gossip_debug(GOSSIP_ACL_DEBUG, "pvfs2_xattr_set_acl_default: %s\n", name);
+./src/kernel/linux-2.6/acl.c:            gossip_debug(GOSSIP_ACL_DEBUG, "inode->i_mode before %o and "
+./src/kernel/linux-2.6/acl.c:            gossip_debug(GOSSIP_ACL_DEBUG, "posix_acl_create changed mode "
+./src/kernel/linux-2.6/acl.c:               gossip_debug(GOSSIP_ACL_DEBUG,
+./src/kernel/linux-2.6/acl.c:            gossip_debug(GOSSIP_ACL_DEBUG, "posix_acl_create_masq changed mode "
+./src/kernel/linux-2.6/acl.c:                gossip_debug(GOSSIP_ACL_DEBUG, "pvfs2_set_acl (access) returned %d\n", error);
+./src/kernel/linux-2.6/acl.c:        gossip_debug(GOSSIP_ACL_DEBUG, "pvfs2_acl_chmod: ACL options "
+./src/kernel/linux-2.6/acl.c:        gossip_debug(GOSSIP_ACL_DEBUG, "pvfs2_acl_chmod: pvfs2 set acl "
+./src/kernel/linux-2.6/acl.c:        gossip_debug(GOSSIP_ACL_DEBUG, "pvfs2_acl_chmod: pvfs2 set acl "
+./src/kernel/linux-2.6/acl.c:        gossip_debug(GOSSIP_ACL_DEBUG, "pvfs2_acl_chmod: pvfs2 set acl "
+./src/kernel/linux-2.6/acl.c:    gossip_debug(GOSSIP_ACL_DEBUG,
+./src/kernel/linux-2.6/acl.c:        gossip_debug(GOSSIP_ACL_DEBUG,
+./src/kernel/linux-2.6/acl.c:        gossip_debug(GOSSIP_ACL_DEBUG,
+./src/kernel/linux-2.6/acl.c:    gossip_debug(GOSSIP_ACL_DEBUG, "pvfs2_check_acl returning EAGAIN\n");
+./src/kernel/linux-2.6/acl.c:        gossip_debug(GOSSIP_ACL_DEBUG,
+./src/kernel/linux-2.6/acl.c:        gossip_debug(GOSSIP_ACL_DEBUG,
+./src/kernel/linux-2.6/acl.c:        gossip_debug(GOSSIP_ACL_DEBUG,
+./src/kernel/linux-2.6/acl.c:        gossip_debug(GOSSIP_ACL_DEBUG,
+./src/kernel/linux-2.6/acl.c:    gossip_debug(GOSSIP_ACL_DEBUG, "pvfs2_permission: inode: %s mask = %o"
+./src/kernel/linux-2.6/acl.c:        gossip_debug(GOSSIP_ACL_DEBUG, "pvfs2_permission: cannot write to a "
+./src/kernel/linux-2.6/acl.c:                gossip_debug(GOSSIP_ACL_DEBUG,
+./src/kernel/linux-2.6/acl.c:            gossip_debug(GOSSIP_ACL_DEBUG,
+./src/kernel/linux-2.6/acl.c:    gossip_debug(GOSSIP_ACL_DEBUG,
+./src/kernel/linux-2.6/acl.c:    gossip_debug(GOSSIP_ACL_DEBUG, "pvfs2_permission: disallowing access\n");
+./src/kernel/linux-2.6/symlink.c:    gossip_debug(GOSSIP_INODE_DEBUG, "pvfs2: pvfs2_follow_link called on %s (target is %p)\n",
+./src/kernel/linux-2.6/symlink.c:    gossip_debug(GOSSIP_INODE_DEBUG, "pvfs2: pvfs2_follow_link called on %s (target is %p)\n",
+./src/kernel/linux-2.6/symlink.c:    gossip_debug(GOSSIP_INODE_DEBUG,
+./src/kernel/linux-2.6/file.c:    gossip_debug(GOSSIP_FILE_DEBUG,
+./src/kernel/linux-2.6/file.c:            gossip_debug(GOSSIP_FILE_DEBUG,
+./src/kernel/linux-2.6/file.c:            gossip_debug(GOSSIP_FILE_DEBUG,
+./src/kernel/linux-2.6/file.c:            gossip_debug(GOSSIP_FILE_DEBUG,
+./src/kernel/linux-2.6/file.c:    gossip_debug(GOSSIP_FILE_DEBUG,
+./src/kernel/linux-2.6/file.c:    gossip_debug(GOSSIP_FILE_DEBUG, "copy_from_pagecache: "
+./src/kernel/linux-2.6/file.c:        gossip_debug(GOSSIP_FILE_DEBUG, "copy_from_pagecache: copying to "
+./src/kernel/linux-2.6/file.c:        gossip_debug(GOSSIP_FILE_DEBUG, "copy_from_pagecache: copying to user %p from "
+./src/kernel/linux-2.6/file.c:        gossip_debug(GOSSIP_FILE_DEBUG, "%s: pvfs_bufmap_get failure (%ld)\n",
+./src/kernel/linux-2.6/file.c:    gossip_debug(GOSSIP_FILE_DEBUG,
+./src/kernel/linux-2.6/file.c:    gossip_debug(GOSSIP_FILE_DEBUG,
+./src/kernel/linux-2.6/file.c:    gossip_debug(GOSSIP_FILE_DEBUG,
+./src/kernel/linux-2.6/file.c:       gossip_debug(GOSSIP_WAIT_DEBUG,"%s:going to repopulate_shared_memory.\n",__func__);
+./src/kernel/linux-2.6/file.c:    gossip_debug(GOSSIP_FILE_DEBUG,"%s:service_operation return code(%d)\n",__func__,(int)ret);
+./src/kernel/linux-2.6/file.c:              gossip_debug(GOSSIP_FILE_DEBUG, "%s: returning error %ld\n", 
+./src/kernel/linux-2.6/file.c:    gossip_debug(GOSSIP_FILE_DEBUG,
+./src/kernel/linux-2.6/file.c:        gossip_debug(GOSSIP_FILE_DEBUG,
+./src/kernel/linux-2.6/file.c:    gossip_debug(GOSSIP_FILE_DEBUG, "cleaning up %ld memory pages\n", page_idx);
+./src/kernel/linux-2.6/file.c:                    gossip_debug(GOSSIP_FILE_DEBUG, "Marking page %ld uptodate\n", j);
+./src/kernel/linux-2.6/file.c:            gossip_debug(GOSSIP_FILE_DEBUG, "Releasing page %p (refcount %d)\n",
+./src/kernel/linux-2.6/file.c:    gossip_debug(GOSSIP_FILE_DEBUG, "nr_issue: %ld page %p\n",
+./src/kernel/linux-2.6/file.c:            gossip_debug(GOSSIP_FILE_DEBUG, "check:(%ld) HIT page %p (refcount %d)"
+./src/kernel/linux-2.6/file.c:            gossip_debug(GOSSIP_FILE_DEBUG, "check: (%ld) MISS (page_offset %ld)\n",
+./src/kernel/linux-2.6/file.c:    gossip_debug(GOSSIP_FILE_DEBUG, "filp: %p, inode: %p, mapping: %p\n",
+./src/kernel/linux-2.6/file.c:    gossip_debug(GOSSIP_FILE_DEBUG, "isize: %ld, offset (%ld) + total_size (%ld): %ld\n",
+./src/kernel/linux-2.6/file.c:    gossip_debug(GOSSIP_FILE_DEBUG, "offset %lld, begin_index: %ld "
+./src/kernel/linux-2.6/file.c:    gossip_debug(GOSSIP_FILE_DEBUG, "read %ld pages\n",
+./src/kernel/linux-2.6/file.c:            gossip_debug(GOSSIP_FILE_DEBUG, "(%ld) HIT page %p (refcount %d)"
+./src/kernel/linux-2.6/file.c:        gossip_debug(GOSSIP_FILE_DEBUG, "(%ld) MISS page %p (refcount %d)"
+./src/kernel/linux-2.6/file.c:        gossip_debug(GOSSIP_FILE_DEBUG, "issue %d I/O\n", ret);
+./src/kernel/linux-2.6/file.c:            gossip_debug(GOSSIP_FILE_DEBUG, "offset at index %d is non-contiguous\n", i);
+./src/kernel/linux-2.6/file.c:        gossip_debug(GOSSIP_FILE_DEBUG, "Number of pages for I/O issue %ld,"
+./src/kernel/linux-2.6/file.c:                gossip_debug(GOSSIP_FILE_DEBUG, "ISSUE: (%d) "
+./src/kernel/linux-2.6/file.c:                    gossip_debug(GOSSIP_FILE_DEBUG, 
+./src/kernel/linux-2.6/file.c:            gossip_debug(GOSSIP_FILE_DEBUG, "wait_for_missing_io: "
+./src/kernel/linux-2.6/file.c:    gossip_debug(GOSSIP_FILE_DEBUG, "total_size %zd, total # of pages %ld\n",
+./src/kernel/linux-2.6/file.c:    gossip_debug(GOSSIP_FILE_DEBUG, "total_actual_io to be staged from "
+./src/kernel/linux-2.6/file.c:    gossip_debug(GOSSIP_FILE_DEBUG,
+./src/kernel/linux-2.6/file.c:        gossip_debug(GOSSIP_FILE_DEBUG,
+./src/kernel/linux-2.6/file.c:    gossip_debug(GOSSIP_FILE_DEBUG,"%s: pvfs_bufmap_size:%d\n"
+./src/kernel/linux-2.6/file.c:        gossip_debug(GOSSIP_FILE_DEBUG, "%s: Splitting iovecs from %lu to %lu"
+./src/kernel/linux-2.6/file.c:    gossip_debug(GOSSIP_FILE_DEBUG,
+./src/kernel/linux-2.6/file.c:    gossip_debug(GOSSIP_FILE_DEBUG,
+./src/kernel/linux-2.6/file.c:        gossip_debug(GOSSIP_FILE_DEBUG, "%s: %d) %p to %p [%d bytes]\n", 
+./src/kernel/linux-2.6/file.c:        gossip_debug(GOSSIP_FILE_DEBUG, "%s: %zd) %lu\n",
+./src/kernel/linux-2.6/file.c:        gossip_debug(GOSSIP_FILE_DEBUG,
+./src/kernel/linux-2.6/file.c:        gossip_debug(GOSSIP_FILE_DEBUG,
+./src/kernel/linux-2.6/file.c:        gossip_debug(GOSSIP_FILE_DEBUG,
+./src/kernel/linux-2.6/file.c:        gossip_debug(GOSSIP_FILE_DEBUG,
+./src/kernel/linux-2.6/file.c:    gossip_debug(GOSSIP_FILE_DEBUG,
+./src/kernel/linux-2.6/file.c:    gossip_debug(GOSSIP_IO_DEBUG,"pvfs2_file_read: count=%zd \toffset=%lld\n"
+./src/kernel/linux-2.6/file.c:        gossip_debug(GOSSIP_FILE_DEBUG, "%s: pvfs_bufmap_get() "
+./src/kernel/linux-2.6/file.c:    gossip_debug(GOSSIP_FILE_DEBUG, "%s: copy_to_user %d nr_segs %lu, "
+./src/kernel/linux-2.6/file.c:              gossip_debug(GOSSIP_FILE_DEBUG, "%s: returning error %ld\n", 
+./src/kernel/linux-2.6/file.c:    gossip_debug(GOSSIP_FILE_DEBUG, "downcall returned %lld\n",
+./src/kernel/linux-2.6/file.c:    gossip_debug(GOSSIP_FILE_DEBUG, "wait_for_iox returning %ld\n", (long) ret);
+./src/kernel/linux-2.6/file.c:        gossip_debug(GOSSIP_FILE_DEBUG, "PUT buffer_index %d\n", buffer_index);
+./src/kernel/linux-2.6/file.c:        gossip_debug(GOSSIP_FILE_DEBUG, "%s: Splitting iovecs from %lu to %lu [max_new %lu]\n", 
+./src/kernel/linux-2.6/file.c:        gossip_debug(GOSSIP_FILE_DEBUG, "%s: Splitting xtvecs from %lu to %lu [max_new %lu]\n", 
+./src/kernel/linux-2.6/file.c:        gossip_debug(GOSSIP_FILE_DEBUG, "%s: %d) %p to %p [%ld bytes]\n",
+./src/kernel/linux-2.6/file.c:        gossip_debug(GOSSIP_FILE_DEBUG, "%s: %d) %ld to %ld [%ld bytes]\n",
+./src/kernel/linux-2.6/file.c:        gossip_debug(GOSSIP_FILE_DEBUG, "pvfs2_aio_retry: iov %p,"
+./src/kernel/linux-2.6/file.c:            gossip_debug(GOSSIP_FILE_DEBUG, "pvfs2_aio_retry: put bufmap_index "
+./src/kernel/linux-2.6/file.c:        gossip_debug(GOSSIP_WAIT_DEBUG, "*** %s: operation aio_cancel "
+./src/kernel/linux-2.6/file.c:                        gossip_debug(GOSSIP_FILE_DEBUG, "Timed out on I/O cancellation - aborting\n");
+./src/kernel/linux-2.6/file.c:                gossip_debug(GOSSIP_FILE_DEBUG, "signal on Async I/O cancellation - aborting\n");
+./src/kernel/linux-2.6/file.c:            gossip_debug(GOSSIP_FILE_DEBUG, "Trying to cancel operation in "
+./src/kernel/linux-2.6/file.c:            gossip_debug(GOSSIP_FILE_DEBUG, "pvfs2_aio_cancel: put bufmap_index "
+./src/kernel/linux-2.6/file.c:            gossip_debug(GOSSIP_FILE_DEBUG, "pvfs2_aio_dtor: put bufmap_index "
+./src/kernel/linux-2.6/file.c:    gossip_debug(GOSSIP_FILE_DEBUG, "pvfs2_aio_dtor: kiocb_release %p\n", x);
+./src/kernel/linux-2.6/file.c:    gossip_debug(GOSSIP_FILE_DEBUG, "Posting asynchronous I/O operation\n");
+./src/kernel/linux-2.6/file.c:            gossip_debug(GOSSIP_FILE_DEBUG, "%s: pvfs_bufmap_get()"
+./src/kernel/linux-2.6/file.c:        gossip_debug(GOSSIP_FILE_DEBUG, "%s: pvfs_bufmap_get %d\n",
+./src/kernel/linux-2.6/file.c:                gossip_debug(GOSSIP_FILE_DEBUG, "%s: pvfs_bufmap_put %d\n",
+./src/kernel/linux-2.6/file.c:            gossip_debug(GOSSIP_FILE_DEBUG, "%s: pvfs_bufmap_put %d\n",
+./src/kernel/linux-2.6/file.c:        gossip_debug(GOSSIP_FILE_DEBUG, "kiocb_alloc: %p\n", x);
+./src/kernel/linux-2.6/file.c:            gossip_debug(GOSSIP_FILE_DEBUG, "%s: pvfs_bufmap_put %d\n",
+./src/kernel/linux-2.6/file.c:        gossip_debug(GOSSIP_FILE_DEBUG, "%s: queued "
+./src/kernel/linux-2.6/file.c:    gossip_debug(GOSSIP_FILE_DEBUG, "pvfs2_ioctl: called with cmd %d\n", cmd);
+./src/kernel/linux-2.6/file.c:        gossip_debug(GOSSIP_FILE_DEBUG, "pvfs2_ioctl: FS_IOC_GETFLAGS: %llu\n",
+./src/kernel/linux-2.6/file.c:        gossip_debug(GOSSIP_FILE_DEBUG, "pvfs2_ioctl: FS_IOC_SETFLAGS: %llu\n",
+./src/kernel/linux-2.6/file.c:    gossip_debug(GOSSIP_FILE_DEBUG, "pvfs2_file_mmap: called on %s\n",
+./src/kernel/linux-2.6/file.c:    gossip_debug(GOSSIP_FILE_DEBUG, "pvfs2_file_release: called on %s\n",
+./src/kernel/linux-2.6/file.c:    gossip_debug(GOSSIP_FILE_DEBUG, "pvfs2_fsync got return value of %d\n",ret);
+./src/kernel/linux-2.6/file.c:            gossip_debug(GOSSIP_FILE_DEBUG,
+./src/kernel/linux-2.6/file.c:    gossip_debug(GOSSIP_FILE_DEBUG,
+./src/kernel/linux-2.6/file.c:            gossip_debug(GOSSIP_FILE_DEBUG, "begin_index = %lu offset = %lu file_offset = %ld\n",
+./src/kernel/linux-2.6/file.c:        gossip_debug(GOSSIP_FILE_DEBUG, "actor with offset %lu nr %lu return %lu desc->count %lu\n", 
+./src/kernel/linux-2.6/xattr-default.c:    gossip_debug(GOSSIP_XATTR_DEBUG, "pvfs2_setxattr_default %s\n", name);
+./src/kernel/linux-2.6/xattr-default.c:    gossip_debug(GOSSIP_XATTR_DEBUG, "pvfs2_getxattr_default %s\n", name);
+./src/kernel/linux-2.6/pvfs2-cache.c:        gossip_debug(GOSSIP_CACHE_DEBUG, "Alloced OP (%p: %llu %s)\n", new_op,
+./src/kernel/linux-2.6/pvfs2-cache.c:        gossip_debug(GOSSIP_CACHE_DEBUG, "OP %llu user: (%u, %u)\n",
+./src/kernel/linux-2.6/pvfs2-cache.c:        gossip_debug(GOSSIP_CACHE_DEBUG, "Releasing OP (%p: %llu)\n", pvfs2_op,
+./src/kernel/linux-2.6/dcache.c:    gossip_debug(GOSSIP_DCACHE_DEBUG, "%s: called on dentry %p.\n",
+./src/kernel/linux-2.6/dcache.c:        gossip_debug(GOSSIP_DCACHE_DEBUG, "%s: inode not valid.\n", __func__);
+./src/kernel/linux-2.6/dcache.c:    gossip_debug(GOSSIP_DCACHE_DEBUG, "%s: inode valid.\n", __func__);
+./src/kernel/linux-2.6/dcache.c:        gossip_debug(GOSSIP_DCACHE_DEBUG, "%s: parent not found.\n", __func__);
+./src/kernel/linux-2.6/dcache.c:    gossip_debug(GOSSIP_DCACHE_DEBUG, "%s: parent found.\n", __func__);
+./src/kernel/linux-2.6/dcache.c:        gossip_debug(GOSSIP_DCACHE_DEBUG, "%s: attempting lookup.\n", __func__);
+./src/kernel/linux-2.6/dcache.c:        gossip_debug(GOSSIP_DCACHE_DEBUG, "%s:%s:%d interrupt flag [%d]\n", 
+./src/kernel/linux-2.6/dcache.c:            gossip_debug(
+./src/kernel/linux-2.6/dcache.c:            gossip_debug(GOSSIP_DCACHE_DEBUG,
+./src/kernel/linux-2.6/dcache.c:        gossip_debug(GOSSIP_DCACHE_DEBUG,
+./src/kernel/linux-2.6/dcache.c:    gossip_debug(GOSSIP_DCACHE_DEBUG,
+./src/kernel/linux-2.6/dcache.c:    gossip_debug(GOSSIP_DCACHE_DEBUG,
+./src/kernel/linux-2.6/dcache.c:    gossip_debug(GOSSIP_DCACHE_DEBUG,
+./src/kernel/linux-2.6/dcache.c:        gossip_debug(GOSSIP_DCACHE_DEBUG,
+./src/kernel/linux-2.6/dcache.c:        gossip_debug(GOSSIP_DCACHE_DEBUG,
+./src/kernel/linux-2.6/dcache.c:/*     gossip_debug(GOSSIP_DCACHE_DEBUG, "pvfs2: pvfs2_d_hash called " */
+./src/kernel/linux-2.6/dcache.c:    gossip_debug(GOSSIP_DCACHE_DEBUG, "pvfs2_d_compare: "
+./src/kernel/linux-2.6/dcache.c:    gossip_debug(GOSSIP_DCACHE_DEBUG, "pvfs2_d_compare: called on parent %p\n  (name1: %s| "

@@ -1,0 +1,172 @@
+./mgmtd/source/nodes/MgmtdTargetStateStore.cpp:                  LogContext(logContext).log(Log_ERR, "Failed to get state for mirror "
+./mgmtd/source/nodes/MgmtdTargetStateStore.cpp:         LogContext(logContext).log(Log_ERR,
+./mgmtd/source/nodes/MirrorBuddyGroupMapperEx.cpp:      LogContext(logContext).log(Log_ERR, "Unknown mirror group ID: "
+./mgmtd/source/components/quota/QuotaManager.cpp:      log.log(Log_ERR, "Could not update user quota data.");
+./mgmtd/source/components/quota/QuotaManager.cpp:      log.log(Log_ERR, "Could not update group quota data.");
+./mgmtd/source/components/quota/QuotaManager.cpp:         log.log(Log_ERR, "Error during read file with UIDs or GIDs: " + path + ". " +
+./mgmtd/source/components/quota/QuotaManager.cpp:      log.log(Log_ERR, "Unable to open file with UIDs or GIDs: " + path + ". " +
+./mgmtd/source/components/quota/QuotaStoreLimits.cpp:      LogContext(this->logContext).log(Log_ERR, "Given QuotaDataType doesn't match to the "
+./mgmtd/source/components/quota/QuotaStoreLimits.cpp:      LogContext(this->logContext).log(Log_ERR, "Given QuotaDataType doesn't match to the "
+./mgmtd/source/components/quota/QuotaStoreLimits.cpp:      LogContext(this->logContext).log(Log_ERR, "Given QuotaDataType doesn't match to the "
+./mgmtd/source/components/quota/QuotaStoreLimits.cpp:         LogContext(this->logContext).log(Log_ERR, "Given QuotaDataType doesn't match to the "
+./meta/source/net/message/storage/creating/MkDirMsgEx.cpp:            LogContext(logContext).log(Log_ERR,
+./meta/source/net/message/storage/creating/MkDirMsgEx.cpp:               LogContext(logContext).log(Log_ERR, "Error generating access ACL for new directory "
+./meta/source/net/message/storage/creating/MkDirMsgEx.cpp:         LogContext(logContext).log(Log_ERR,
+./meta/source/net/message/storage/attribs/ListXAttrMsgEx.cpp:      LogContext(logContext).log(Log_ERR,
+./meta/source/net/message/storage/attribs/GetXAttrMsgEx.cpp:      LogContext(logContext).log(Log_ERR,
+./meta/source/net/message/storage/quota/SetExceededQuotaMsgEx.cpp:      log.log(Log_ERR, "Unable to set exceeded quota IDs. Configuration problem detected. "
+./meta/source/storage/MetaStore.cpp:            LogContext(logContext).log(Log_ERR, "Error deserializing directory default ACL.");
+./meta/source/storage/MetaStore.cpp:         LogContext(logContext).log(Log_ERR, "Error loading directory default ACL.");
+./meta/source/storage/MetaStore.cpp:         LogContext(logContext).log(Log_ERR, "Error setting file ACL.");
+./meta/source/storage/InodeFileStore.cpp:      LogContext(logContext).log(Log_ERR, "Error: Buffer too small!");
+./admon/source/components/requestor/DataRequestorStats.cpp:            log.log(Log_ERR, "Only meta and storage nodetypes supported.");
+./admon/source/components/requestor/DataRequestorStats.cpp:            log.log(Log_ERR, "Could not get client stats from Nodes.");
+./admon/source/components/ExternalJobRunner.cpp:            log.log(Log_ERR, "Job complete with return code: " + StringTk::intToStr(job->returnCode) +
+./admon/source/components/worker/GetClientNodesWork.cpp:      log.log(Log_ERR, "Couldn't download client list from management daemon.");
+./admon/source/components/worker/GetMetaNodesWork.cpp:      log.log(Log_ERR, "Couldn't download metadata server list from management daemon.");
+./admon/source/components/worker/GetStorageNodesWork.cpp:      log.log(Log_ERR, "Couldn't download storage server list from management daemon.");
+./admon/source/components/StatsOperator.cpp:         log.log(Log_ERR, "Too many ClientStats connections.");
+./admon/source/components/Mailer.cpp:      log.log(Log_ERR, "Unable to deliver mail due to missing sender address.");
+./admon/source/components/Mailer.cpp:      log.log(Log_ERR, "Unable to deliver mail due to missing recipient address.");
+./admon/source/components/Mailer.cpp:      log.log(Log_ERR, "Won't send due to empty subject.");
+./admon/source/components/Mailer.cpp:      log.log(Log_ERR, "Won't send due to empty message body.");
+./admon/source/components/Mailer.cpp:         log.log(Log_ERR, "Unable to deliver mail due to missing SMTP server.");
+./admon/source/components/Mailer.cpp:      log.log(Log_ERR, "Unable to deliver mail. Subject: " + subject + " ; Sender: " + sender +
+./admon/source/toolkit/install/setuphelper.cpp:      log->log(Log_ERR, __func__, "Failed to get installation information of the metadata nodes.");
+./admon/source/toolkit/install/setuphelper.cpp:      log->log(Log_ERR, __func__, "Failed to get installation information of the metadata nodes.");
+./admon/source/toolkit/install/setuphelper.cpp:      log->log(Log_ERR, __func__, "Failed to get installation information of the metadata nodes.");
+./admon/source/toolkit/install/setuphelper.cpp:      log->log(Log_ERR, __func__, "Failed to get installation information of the management node.");
+./admon/source/toolkit/install/setuphelper.cpp:      Logger::getLogger()->log(Log_ERR, __func__, "Failed to move file " + SETUP_LOG_PATH
+./admon/source/toolkit/management/managementhelper.cpp:            log->log(Log_ERR, __FUNCTION__, "Could not reference management server. nodeNumID: " +
+./admon/source/toolkit/management/managementhelper.cpp:            log->log(Log_ERR, __FUNCTION__, "Could not reference metadata server. nodeNumID: " +
+./admon/source/toolkit/management/managementhelper.cpp:            log->log(Log_ERR, __FUNCTION__, "Could not reference storage server. nodeNumID: " +
+./admon/source/toolkit/management/managementhelper.cpp:         log->log(Log_ERR, __FUNCTION__, "Destination hostname is empty. nodeID: " + nodeID +
+./admon/source/toolkit/xml/xmlhelper.cpp:   Logger::getLogger()->log(Log_ERR, __func__, "Requested URI: " +
+./admon/source/toolkit/xml/xmlhelper.cpp:      Logger::getLogger()->log(Log_ERR, __func__, "Authentication failed. Missing nonce "
+./admon/source/toolkit/xml/xmlhelper.cpp:      Logger::getLogger()->log(Log_ERR, __func__, "Failed to check distri "
+./admon/source/toolkit/xml/xmlhelper.cpp:         Logger::getLogger()->log(Log_ERR, __func__, "SSH connection to some nodes "
+./admon/source/toolkit/xml/xmlhelper.cpp:            log->log(Log_ERR, __func__, "Could not write the configuration file. File: " +
+./admon/source/toolkit/xml/xmlhelper.cpp:            log->log(Log_ERR, __func__, "Could not read the configuration file. File: " +
+./admon/source/toolkit/xml/xmlhelper.cpp:            log->log(Log_ERR, __func__, "Could not write the configuration file. File: " +
+./admon/source/toolkit/xml/xmlhelper.cpp:            log->log(Log_ERR, __func__, "Could not read the configuration file. File: " +
+./admon/source/toolkit/xml/xmlhelper.cpp:            log->log(Log_ERR, __func__, "Failed to save management nodes. File: " +
+./admon/source/toolkit/xml/xmlhelper.cpp:            log->log(Log_ERR, __func__, "Failed to save meta nodes. File: " +
+./admon/source/toolkit/xml/xmlhelper.cpp:            log->log(Log_ERR, __func__, "Failed to save storage nodes. File: " +
+./admon/source/toolkit/xml/xmlhelper.cpp:            log->log(Log_ERR, __func__, "Failed to save client nodes. File: " +
+./admon/source/toolkit/xml/xmlhelper.cpp:            log->log(Log_ERR, __func__, "Could not read the configuration file. File: " +
+./admon/source/toolkit/xml/xmlhelper.cpp:            log->log(Log_ERR, __func__, "Could not read the configuration file. File: " +
+./admon/source/toolkit/xml/xmlhelper.cpp:            log->log(Log_ERR, __func__, "Could not read the configuration file. File: " +
+./admon/source/toolkit/xml/xmlhelper.cpp:            log->log(Log_ERR, __func__, "Could not read the configuration file. File: " +
+./admon/source/toolkit/xml/xmlhelper.cpp:         log->log(Log_ERR, __func__, "Could not list file of directory: " + pathStr +
+./admon/source/toolkit/xml/xmlhelper.cpp:         log->log(Log_ERR, __func__, "Could not read client warnings file: " +
+./admon/source/toolkit/xml/xmlhelper.cpp:                        log->log(Log_ERR, __func__, "An error occurred on the server side while "
+./admon/source/toolkit/xml/xmlhelper.cpp:                        log->log(Log_ERR, __func__, "An error occurred on the server side while "
+./admon/source/toolkit/xml/xmlhelper.cpp:               log->log(Log_ERR, __func__, "Either the source or the target group does not exist. "
+./admon/source/toolkit/xml/xmlhelper.cpp:               log->log(Log_ERR, __func__, "An error occurred on the server side while adding the "
+./admon/source/toolkit/xml/xmlhelper.cpp:               log->log(Log_ERR, __func__, "An error occurred on the server side while removing "
+./admon/source/toolkit/xml/xmlhelper.cpp:            log->log(Log_ERR, __func__, logFile);
+./admon/source/toolkit/xml/xmlhelper.cpp:            log->log(Log_ERR, __func__, logFile);
+./admon/source/toolkit/xml/xmlhelper.cpp:         log->log(Log_ERR, __func__, logFile);
+./admon/source/toolkit/xml/xmlhelper.cpp:            log->log(Log_ERR, __func__, "Failed to update admon configuration.");
+./admon/source/toolkit/xml/xmlhelper.cpp:         log->log(Log_ERR, __func__, "Authentication error.");
+./admon/source/toolkit/xml/xmlhelper.cpp:         log->log(Log_ERR, __func__, "Authentication error.");
+./admon/source/toolkit/xml/xmlhelper.cpp:         log->log(Log_ERR, __func__, "Failed to load logfile: " + SETUP_LOG_PATH);
+./admon/source/toolkit/xml/xmlhelper.cpp:            log->log(Log_ERR, __func__, "Authentication for admin user failed.");
+./admon/source/toolkit/xml/xmlhelper.cpp:               log->log(Log_ERR, __func__, "Failed to write runtime configuration to database.");
+./admon/source/toolkit/xml/xmlhelper.cpp:         log->log(Log_ERR, __func__, "Failed to get general node info of metadata node: " + node);
+./admon/source/toolkit/xml/xmlhelper.cpp:            log->log(Log_ERR, __func__, "Authentication for admin user failed.");
+./admon/source/toolkit/xml/xmlhelper.cpp:               log->log(Log_ERR, __func__, "New config not written (path does not exist or is not "
+./admon/source/toolkit/xml/xmlhelper.cpp:               log->log(Log_ERR, __func__, "New config not written (script is not executable). "
+./admon/source/toolkit/xml/xmlhelper.cpp:                  log->log(Log_ERR, __func__, "Could not store runtime configuration to database.");
+./admon/source/toolkit/xml/xmlhelper.cpp:         log->log(Log_ERR, __func__, "Authentication for admin user failed.");
+./admon/source/toolkit/xml/xmlhelper.cpp:            log->log(Log_ERR, __func__, "Authentication for admin user failed.");
+./admon/source/toolkit/xml/xmlhelper.cpp:               log->log(Log_ERR, __func__, "Failed to execute start all services script. "
+./admon/source/toolkit/xml/xmlhelper.cpp:            log->log(Log_ERR, __func__, "Authentication for admin user failed.");
+./admon/source/toolkit/xml/xmlhelper.cpp:               log->log(Log_ERR, __func__, "Failed to execute stop all services script. Service: " +
+./admon/source/toolkit/xml/xmlhelper.cpp:            log->log(Log_ERR, __func__, "Authentication for admin user failed.");
+./admon/source/toolkit/xml/xmlhelper.cpp:            log->log(Log_ERR, __func__, "Authentication for admin user failed.");
+./admon/source/toolkit/xml/xmlhelper.cpp:            log->log(Log_ERR, __func__, "Authentication for admin user failed.");
+./admon/source/toolkit/xml/xmlhelper.cpp:            log->log(Log_ERR, __func__, "Failed to execute status of all services script. "
+./admon/source/toolkit/xml/xmlhelper.cpp:         log->log(Log_ERR, __func__, "Failed to get general node info of storage node: " + node);
+./admon/source/toolkit/xml/xmlhelper.cpp:            log->log(Log_ERR, __func__, "Authentication for admin user failed.");
+./admon/source/toolkit/xml/xmlhelper.cpp:               log->log(Log_ERR, __func__, "Failed to download target mappings from mgmtd.");
+./admon/source/toolkit/xml/xmlhelper.cpp:                  log->log(Log_ERR, __func__, "Failed to download target mappings from mgmtd.");
+./admon/source/toolkit/xml/xmlhelper.cpp:      log->log(Log_ERR, __func__, "Failed to send eMail to " + runtimeCfg->getMailRecipient() +
+./admon/source/toolkit/webtk.cpp:      log->log(Log_ERR, __func__, "Couldn't load file: " + filename);
+./fsck/source/net/message/nodes/HeartbeatMsgEx.cpp:      log.log(Log_CRITICAL, "Root (by Heartbeat): " + getRootNumID().str() );
+./fsck/source/net/msghelpers/MsgHelperRepair.cpp:            LogContext(logContext).log(Log_CRITICAL,
+./fsck/source/net/msghelpers/MsgHelperRepair.cpp:            LogContext(logContext).log(Log_CRITICAL, "Failed to delete chunk entry. targetID: " +
+./fsck/source/net/msghelpers/MsgHelperRepair.cpp:      LogContext(logContext).log(Log_CRITICAL, "Unable to reference metadata node for root "
+./fsck/source/net/msghelpers/MsgHelperRepair.cpp:      LogContext(logContext).log(Log_CRITICAL,
+./fsck/source/net/msghelpers/MsgHelperRepair.cpp:         LogContext(logContext).log(Log_CRITICAL, "Failed to link directory inode to lost+found. "
+./fsck/source/net/msghelpers/MsgHelperRepair.cpp:         LogContext(logContext).log(Log_CRITICAL, "Failed to link file inode to lost+found. "
+./fsck/source/net/msghelpers/MsgHelperRepair.cpp:         LogContext(logContext).log(Log_CRITICAL, "Failed to recreate dentry-by-ID file link."
+./fsck/source/net/msghelpers/MsgHelperRepair.cpp:         LogContext(logContext).log(Log_CRITICAL, "Failed to recreate dentry."
+./fsck/source/app/App.cpp:   log->log(Log_CRITICAL, "Waiting for beegfs-mgmtd@" +
+./fsck/source/components/InternodeSyncer.cpp:         LogContext(logContext).log(Log_CRITICAL,
+./mgmtd/source/app/App.cpp:   log->log(Log_CRITICAL, "All components stopped. Exiting now!");
+./mgmtd/source/app/App.cpp:         log->log(Log_CRITICAL, std::string("Unable to increase process resource limit for "
+./mgmtd/source/app/App.cpp:   log->log(Log_CRITICAL, std::string("Version: ") + BEEGFS_VERSION);
+./mgmtd/source/components/HeartbeatManager.cpp:         log.log(Log_CRITICAL, "New root directory metadata node: " +
+./meta/source/net/message/fsck/LinkToLostAndFoundMsgEx.cpp:            LogContext(logContext).log(Log_CRITICAL,
+./meta/source/net/message/fsck/RetrieveFsIDsMsgEx.cpp:            log.log(Log_CRITICAL,
+./meta/source/net/message/fsck/RetrieveDirEntriesMsgEx.cpp:               log.log(Log_CRITICAL, "Could not stat dir entry file; entryID: " + dentryID
+./meta/source/net/message/nodes/HeartbeatMsgEx.cpp:      log.log(Log_CRITICAL, "Root (by Heartbeat): " + getRootNumID().str() );
+./meta/source/net/message/storage/moving/RenameV2MsgEx.cpp:         LogContext(logContext).log(Log_CRITICAL,
+./meta/source/app/App.cpp:      log->log(Log_CRITICAL, "A hard error occurred. Shutting down...");
+./meta/source/app/App.cpp:   log->log(Log_CRITICAL, "All components stopped. Exiting now!");
+./meta/source/app/App.cpp:         log->log(Log_CRITICAL, std::string("Unable to increase process resource limit for "
+./meta/source/app/App.cpp:            log->log(Log_CRITICAL, "I got root (by possession of root directory)");
+./meta/source/app/App.cpp:               log->log(Log_CRITICAL, "Root directory is mirrored");
+./meta/source/app/App.cpp:            log->log(Log_CRITICAL,
+./meta/source/app/App.cpp:      this->log->log(Log_CRITICAL,
+./meta/source/app/App.cpp:   log->log(Log_CRITICAL, std::string("Version: ") + BEEGFS_VERSION);
+./meta/source/app/App.cpp:         log->log(Log_CRITICAL, logContext, "Received a SIGINT. Shutting down...");
+./meta/source/app/App.cpp:         log->log(Log_CRITICAL, logContext, "Received a SIGTERM. Shutting down...");
+./meta/source/app/App.cpp:         log->log(Log_CRITICAL, logContext, "Received an unknown signal. Shutting down...");
+./meta/source/app/App.cpp:   log->log(Log_CRITICAL, "Waiting for beegfs-mgmtd@" +
+./meta/source/app/App.cpp:         log->log(Log_CRITICAL, "Node ID reservation failed. Management node offline? "
+./meta/source/components/InternodeSyncer.cpp:      LogContext(logContext).log(Log_CRITICAL,
+./meta/source/components/InternodeSyncer.cpp:         LogContext(logContext).log(Log_CRITICAL, "Pushing node state to management node failed.");
+./meta/source/components/InternodeSyncer.cpp:         LogContext(logContext).log(Log_CRITICAL, "Management node did not accept node state change.");
+./meta/source/components/InternodeSyncer.cpp:         log.log(Log_CRITICAL, "Pushing node free space to management node failed.");
+./meta/source/components/InternodeSyncer.cpp:         log.log(Log_CRITICAL, "Management node did not accept free space info message.");
+./meta/source/components/worker/LockRangeNotificationWork.cpp:            logger->log(Log_CRITICAL, logContext, "BUG(?): Buffer too small for message "
+./meta/source/components/worker/LockEntryNotificationWork.cpp:            logger->log(Log_CRITICAL, logContext, "BUG(?): Buffer too small for message "
+./meta/source/components/ModificationEventFlusher.cpp:      log.log(Log_CRITICAL,
+./helperd/source/app/App.cpp:   log->log(Log_CRITICAL, std::string("BeeGFS Helper Daemon Version: ") + BEEGFS_VERSION);
+./helperd/source/app/App.cpp:   log->log(Log_CRITICAL, "Client log messages will be prefixed with an asterisk (*) symbol.");
+./storage/source/net/message/fsck/MoveChunkFileMsgEx.cpp:      LogContext(logContext).log(Log_CRITICAL, "Could not open path for target ID; targetID: "
+./storage/source/net/message/fsck/MoveChunkFileMsgEx.cpp:         LogContext(logContext).log(Log_CRITICAL,
+./storage/source/net/message/fsck/MoveChunkFileMsgEx.cpp:         LogContext(logContext).log(Log_CRITICAL,
+./storage/source/net/message/fsck/MoveChunkFileMsgEx.cpp:      LogContext(logContext).log(Log_CRITICAL,
+./storage/source/net/message/session/rw/WriteLocalFileMsgEx.cpp:         LogContext(logContext).log(Log_CRITICAL, "Unable to connect to mirror node: " +
+./storage/source/net/message/session/rw/WriteLocalFileMsgEx.cpp:         LogContext(logContext).log(Log_CRITICAL, "Communication with mirror node failed: " +
+./storage/source/net/message/session/rw/WriteLocalFileMsgEx.cpp:         LogContext(logContext).log(Log_CRITICAL, "Unable to connect to mirror node: " +
+./storage/source/net/message/session/rw/WriteLocalFileMsgEx.cpp:         LogContext(logContext).log(Log_CRITICAL, "Communication with mirror node failed: " +
+./storage/source/app/App.cpp:   log->log(Log_CRITICAL, "All components stopped. Exiting now!");
+./storage/source/app/App.cpp:         log->log(Log_CRITICAL, std::string("Unable to increase process resource limit for "
+./storage/source/app/App.cpp:   log->log(Log_CRITICAL, std::string("Version: ") + BEEGFS_VERSION);
+./storage/source/app/App.cpp:   log->log(Log_CRITICAL, "Waiting for beegfs-mgmtd@" +
+./storage/source/app/App.cpp:         log->log(Log_CRITICAL, "Node ID reservation failed. Management node offline? "
+./storage/source/app/App.cpp:         log->log(Log_CRITICAL, "Target ID reservation failed. Management node offline? "
+./storage/source/components/benchmarker/StorageBenchSlave.cpp:   LogContext(logContext).log(Log_CRITICAL, std::string("Benchmark started..."));
+./storage/source/components/benchmarker/StorageBenchSlave.cpp:         LogContext(logContext).log(Log_CRITICAL, std::string("Benchmark finished."));
+./storage/source/components/benchmarker/StorageBenchSlave.cpp:            LogContext(logContext).log(Log_CRITICAL, std::string("Benchmark stopped with errors."));
+./storage/source/components/benchmarker/StorageBenchSlave.cpp:            LogContext(logContext).log(Log_CRITICAL, std::string("Benchmark stopped."));
+./storage/source/components/InternodeSyncer.cpp:      log.log(Log_CRITICAL, "Pushing target state to management node failed.");
+./storage/source/components/InternodeSyncer.cpp:         log.log(Log_CRITICAL, "Management node did not accept target state.");
+./storage/source/components/InternodeSyncer.cpp:      LogContext(logContext).log(Log_CRITICAL, "Node registration not successful. "
+./storage/source/components/InternodeSyncer.cpp:      log.log(Log_CRITICAL, "Pushing target state changes to management node failed.");
+./storage/source/components/InternodeSyncer.cpp:         log.log(Log_CRITICAL, "Management node did not accept target state changes.");
+./common/source/common/nodes/NodeConnPool.cpp:         log.log(Log_CRITICAL,
+./common/source/common/nodes/NodeStoreServers.cpp:      LogContext(__func__).log(Log_CRITICAL, "BUG?: Attempt to reference numeric node ID '0'");
+./common/source/common/storage/StorageErrors.cpp:   log.log(Log_CRITICAL, "Unknown errCode given: " +
+./common/source/common/storage/StorageErrors.cpp:   log.log(Log_CRITICAL, "Unknown errCode given: " +
+./admon/source/app/App.cpp:      log->log(Log_CRITICAL, "A hard error occurred. Shutting down...");
+./admon/source/app/App.cpp:      log->log(Log_CRITICAL, "A hard error occurred. Shutting down...");
+./admon/source/app/App.cpp:   log->log(Log_CRITICAL, "All components stopped. Exiting now!");
+./admon/source/app/App.cpp:   this->log->log(Log_CRITICAL, std::string("Version: ") + BEEGFS_VERSION);
+./admon/source/app/App.cpp:         log->log(Log_CRITICAL, logContext, "Received a SIGINT. Shutting down...");
+./admon/source/app/App.cpp:         log->log(Log_CRITICAL, logContext, "Received a SIGTERM. Shutting down...");
+./admon/source/app/App.cpp:         log->log(Log_CRITICAL, logContext, "Received an unknown signal. Shutting down...");

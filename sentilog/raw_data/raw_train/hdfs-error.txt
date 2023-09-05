@@ -1,0 +1,79 @@
+./src/test/hdfs-with-mr/org/apache/hadoop/fs/JHLogAnalyzer.java:        LOG.error("FileCreateDaemon failed.", ex);
+./src/test/hdfs-with-mr/org/apache/hadoop/fs/JHLogAnalyzer.java:            LOG.error("Incorrect JOBID: "
+./src/test/hdfs-with-mr/org/apache/hadoop/fs/JHLogAnalyzer.java:        LOG.error("TASKID = NULL for job " + JOBID);
+./src/test/hdfs-with-mr/org/apache/hadoop/fs/JHLogAnalyzer.java:            LOG.error("Incorrect TASKID: "
+./src/test/hdfs-with-mr/org/apache/hadoop/fs/JHLogAnalyzer.java:        LOG.error(
+./src/test/hdfs-with-mr/org/apache/hadoop/fs/JHLogAnalyzer.java:        LOG.error("Unexpected TASK_ATTEMPT_ID = null for task " + TASKID);
+./src/test/hdfs-with-mr/org/apache/hadoop/fs/JHLogAnalyzer.java:            LOG.error("Incorrect TASKID: " + keyVal[1] + " expect " + taskID);
+./src/test/hdfs-with-mr/org/apache/hadoop/fs/JHLogAnalyzer.java:            LOG.error("Incorrect TASKID: " + keyVal[1] + " expect " + taskID);
+./src/test/hdfs-with-mr/org/apache/hadoop/fs/JHLogAnalyzer.java:          LOG.error("JOBID = NULL in " + filePath + " at " + processed);
+./src/test/hdfs-with-mr/org/apache/hadoop/fs/JHLogAnalyzer.java:        LOG.error("JHLAMapper.parseLogFile", ie);
+./src/test/hdfs-with-mr/org/apache/hadoop/fs/JHLogAnalyzer.java:            LOG.error("Start time 0 for task attempt " + tah.TASK_ATTEMPT_ID);
+./src/test/hdfs-with-mr/org/apache/hadoop/fs/JHLogAnalyzer.java:            LOG.error("Finish time " + tah.FINISH_TIME + " is less than " +
+./src/test/hdfs-with-mr/org/apache/hadoop/fs/JHLogAnalyzer.java:            LOG.error("Unexpected TASK_TYPE = " + th.TASK_TYPE
+./src/test/hdfs-with-mr/org/apache/hadoop/fs/TestJHLA.java:        LOG.error("Cannot create dirs for history log file: " + historyLog);
+./src/test/hdfs-with-mr/org/apache/hadoop/fs/TestJHLA.java:      LOG.error("Cannot create history log file: " + historyLog);
+./src/test/hdfs-with-mr/org/apache/hadoop/fs/TestJHLA.java:      LOG.error("Cannot delete history log file: " + historyLog);
+./src/test/hdfs-with-mr/org/apache/hadoop/fs/TestJHLA.java:      LOG.error("Cannot delete history log dir: " + historyLog);
+./src/test/hdfs/org/apache/hadoop/security/TestPermission.java:        LOG.error(StringUtils.stringifyException(e));
+./src/test/hdfs/org/apache/hadoop/security/TestPermission.java:        LOG.error(StringUtils.stringifyException(e));
+./src/test/hdfs/org/apache/hadoop/hdfs/server/datanode/SimulatedFSDataset.java:        DataNode.LOG.error("Null oStream on unfinalized block - bug");
+./src/test/hdfs/org/apache/hadoop/hdfs/server/namenode/NNThroughputBenchmark.java:        LOG.error("StatsDaemon " + daemonId + " failed: \n" 
+./src/test/hdfs/org/apache/hadoop/hdfs/server/namenode/NNThroughputBenchmark.java:      LOG.error(StringUtils.stringifyException(e));
+./src/test/hdfs/org/apache/hadoop/hdfs/server/namenode/TestBackupNode.java:      LOG.error("Error in TestBackupNode:", e);
+./src/test/hdfs/org/apache/hadoop/hdfs/server/namenode/TestBackupNode.java:      LOG.error("Error in TestBackupNode:", e);
+./src/test/hdfs/org/apache/hadoop/hdfs/server/namenode/TestBackupNode.java:      LOG.error("Error in TestBackupNode:", e);
+./src/test/hdfs/org/apache/hadoop/hdfs/server/namenode/TestBackupNode.java:      LOG.error("Error in TestBackupNode:", e);
+./src/test/hdfs/org/apache/hadoop/hdfs/TestFileCreationEmpty.java:          FSNamesystem.LOG.error("t=" + t, e);
+./src/java/org/apache/hadoop/hdfs/DistributedFileSystem.java:      LOG.error("Error: Current block in data stream is null! ");
+./src/java/org/apache/hadoop/hdfs/DistributedFileSystem.java:      LOG.error("Error: Current block in checksum stream is null! ");
+./src/java/org/apache/hadoop/hdfs/DFSClient.java:            LOG.error("Exception closing file " + src+ " : " + ie, ie);
+./src/java/org/apache/hadoop/hdfs/DFSClient.java:            LOG.error("Exception aborting file " + src+ ": ", ie);
+./src/java/org/apache/hadoop/hdfs/server/datanode/DataXceiver.java:      LOG.error(datanode.dnRegistration + ":DataXceiver",t);
+./src/java/org/apache/hadoop/hdfs/server/datanode/UpgradeObjectDatanode.java:        DataNode.LOG.error(StringUtils.stringifyException(e));
+./src/java/org/apache/hadoop/hdfs/server/datanode/UpgradeObjectDatanode.java:      DataNode.LOG.error(StringUtils.stringifyException(e));
+./src/java/org/apache/hadoop/hdfs/server/datanode/DataNode.java:        LOG.error("Exception: " + StringUtils.stringifyException(ex));
+./src/java/org/apache/hadoop/hdfs/server/datanode/DataNode.java:      LOG.error("This configuration for rack identification is not supported" +
+./src/java/org/apache/hadoop/hdfs/server/datanode/DataNode.java:    LOG.error("All directories in dfs.data.dir are invalid.");
+./src/java/org/apache/hadoop/hdfs/server/datanode/DataNode.java:        LOG.error("-r, --rack arguments are not supported anymore. RackID " +
+./src/java/org/apache/hadoop/hdfs/server/datanode/DataNode.java:      LOG.error(StringUtils.stringifyException(e));
+./src/java/org/apache/hadoop/hdfs/server/datanode/DataStorage.java:            LOG.error("Finalize upgrade for " + dataDirPath + " failed.", ex);
+./src/java/org/apache/hadoop/hdfs/server/datanode/DataXceiverServer.java:        LOG.error(datanode.dnRegistration + ":DataXceiveServer: Exiting due to:" 
+./src/java/org/apache/hadoop/hdfs/server/namenode/SecondaryNameNode.java:        LOG.error("Exception in doCheckpoint: ");
+./src/java/org/apache/hadoop/hdfs/server/namenode/SecondaryNameNode.java:        LOG.error(StringUtils.stringifyException(e));
+./src/java/org/apache/hadoop/hdfs/server/namenode/SecondaryNameNode.java:        LOG.error("Throwable Exception in doCheckpoint: ");
+./src/java/org/apache/hadoop/hdfs/server/namenode/SecondaryNameNode.java:        LOG.error(StringUtils.stringifyException(e));
+./src/java/org/apache/hadoop/hdfs/server/namenode/SecondaryNameNode.java:        LOG.error(cmd.substring(1) + ": Unknown command");
+./src/java/org/apache/hadoop/hdfs/server/namenode/SecondaryNameNode.java:        LOG.error(cmd.substring(1) + ": "
+./src/java/org/apache/hadoop/hdfs/server/namenode/SecondaryNameNode.java:        LOG.error(cmd.substring(1) + ": "
+./src/java/org/apache/hadoop/hdfs/server/namenode/SecondaryNameNode.java:      LOG.error(cmd.substring(1) + ": "
+./src/java/org/apache/hadoop/hdfs/server/namenode/FSNamesystem.java:      LOG.error(getClass().getSimpleName() + " initialization failed.", e);
+./src/java/org/apache/hadoop/hdfs/server/namenode/FSNamesystem.java:        LOG.error("Error while processing URI: " + name + 
+./src/java/org/apache/hadoop/hdfs/server/namenode/FSNamesystem.java:      LOG.error(getClass().getSimpleName() + " initialization failed.", e);
+./src/java/org/apache/hadoop/hdfs/server/namenode/FSNamesystem.java:        LOG.error("Error closing FSDirectory", ie);
+./src/java/org/apache/hadoop/hdfs/server/namenode/FSNamesystem.java:      LOG.error("The resolve call returned null! Using " + 
+./src/java/org/apache/hadoop/hdfs/server/namenode/FSNamesystem.java:          FSNamesystem.LOG.error(StringUtils.stringifyException(e));
+./src/java/org/apache/hadoop/hdfs/server/namenode/FSNamesystem.java:          FSNamesystem.LOG.error(StringUtils.stringifyException(e));
+./src/java/org/apache/hadoop/hdfs/server/namenode/FSImage.java:        LOG.error("Cannot delete chekpoint time file: "
+./src/java/org/apache/hadoop/hdfs/server/namenode/FSImage.java:        LOG.error("Cannot write file " + sd.getRoot(), e);
+./src/java/org/apache/hadoop/hdfs/server/namenode/FSImage.java:      LOG.error(msg);
+./src/java/org/apache/hadoop/hdfs/server/namenode/FSImage.java:        LOG.error("Error while processing URI: " + name + 
+./src/java/org/apache/hadoop/hdfs/server/namenode/FSImage.java:        LOG.error("Error while processing URI: " + name + 
+./src/java/org/apache/hadoop/hdfs/server/namenode/NameNode.java:      LOG.error(StringUtils.stringifyException(e));
+./src/java/org/apache/hadoop/hdfs/server/namenode/NameNode.java:      LOG.error(StringUtils.stringifyException(e));
+./src/java/org/apache/hadoop/hdfs/server/namenode/EditLogBackupOutputStream.java:      Storage.LOG.error("Error connecting to: " + bnAddress, e);
+./src/java/org/apache/hadoop/hdfs/server/namenode/FSEditLog.java:      FSNamesystem.LOG.error("Unable to log edits to " + eStream.getName()
+./src/java/org/apache/hadoop/hdfs/server/namenode/FSEditLog.java:          FSNamesystem.LOG.error("Unable to sync edit log. " +
+./src/java/org/apache/hadoop/hdfs/server/namenode/Checkpointer.java:        LOG.error("Exception in doCheckpoint: ", e);
+./src/java/org/apache/hadoop/hdfs/server/namenode/Checkpointer.java:        LOG.error("Throwable Exception in doCheckpoint: ", e);
+./src/java/org/apache/hadoop/hdfs/server/namenode/LeaseManager.java:      LOG.error(src + " not found in lease.paths (=" + lease.paths + ")");
+./src/java/org/apache/hadoop/hdfs/server/namenode/LeaseManager.java:        LOG.error(lease + " not found in sortedLeases");
+./src/java/org/apache/hadoop/hdfs/server/namenode/LeaseManager.java:          LOG.error("Cannot release the path "+p+" in the lease "+oldest, e);
+./src/java/org/apache/hadoop/hdfs/server/namenode/BackupNode.java:        LOG.error("Failed to report to name-node.", e);
+./src/java/org/apache/hadoop/hdfs/server/namenode/BackupNode.java:      LOG.error(msg);
+./src/java/org/apache/hadoop/hdfs/server/common/Storage.java:      LOG.error(msg);
+./src/java/org/apache/hadoop/hdfs/server/balancer/Balancer.java:      LOG.error(StringUtils.stringifyException(e));
+./src/java/org/apache/hadoop/hdfs/server/balancer/Balancer.java:          LOG.error(StringUtils.stringifyException(e));
+./src/contrib/hdfsproxy/src/java/org/apache/hadoop/hdfsproxy/HdfsProxy.java:      LOG.error(StringUtils.stringifyException(e));
+./src/contrib/thriftfs/src/java/org/apache/hadoop/thriftfs/HadoopThriftServer.java:            LOG.error(StringUtils.stringifyException(e));
+./src/contrib/thriftfs/src/java/org/apache/hadoop/thriftfs/HadoopThriftServer.java:        LOG.error(s);

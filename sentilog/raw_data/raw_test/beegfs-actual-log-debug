@@ -1,0 +1,140 @@
+BeeGFS Helper Daemon Version: 7.2
+Client log messages will be prefixed with an asterisk (*) symbol.
+Listening for UDP datagrams: Port 8004
+BeeGFS Client Version: 7.2
+ClientID: 455-5FD8362C-osboxes
+Usable NICs: enp0s3(TCP)
+Waiting for beegfs-mgmtd@10.0.0.203:8008...
+Connected: beegfs-helperd@127.0.0.1:8006 (protocol: TCP)
+New node: beegfs-mgmtd osboxes [ID: 1];
+Management node found. Downloading node groups...
+Connected: beegfs-mgmtd@10.0.0.203:8008 (protocol: TCP)
+Node registration...
+Node registration successful.
+Init complete.
+Stopping components...
+Node deregistration successful.
+Still waiting for this component to stop: beegfs_AckMgr
+Component stopped: beegfs_AckMgr
+All components stopped.
+Received a SIGTERM. Shutting down...
+All components stopped. Exiting now!
+BeeGFS Helper Daemon Version: 7.2
+Client log messages will be prefixed with an asterisk (*) symbol.
+Listening for UDP datagrams: Port 8004
+BeeGFS Client Version: 7.2
+ClientID: 7CD-5FD832E6-osboxes
+Usable NICs: virbr0(TCP) docker0(TCP) tunl0(TCP) enp0s3(TCP)
+Waiting for beegfs-mgmtd@10.0.0.203:8008...
+Connected: beegfs-helperd@127.0.0.1:8006 (protocol: TCP)
+New node: beegfs-mgmtd osboxes [ID: 1];
+Management node found. Downloading node groups...
+Connected: beegfs-mgmtd@192.168.122.1:8008 (protocol: TCP)
+Nodes added (sync results): 2 (Type: beegfs-storage)
+Node registration...
+Node registration successful.
+Init complete.
+Stopping components...
+Node deregistration successful.
+Still waiting for this component to stop: beegfs_AckMgr
+Component stopped: beegfs_AckMgr
+All components stopped.
+Listening for UDP datagrams: Port 8004
+BeeGFS Client Version: 7.2
+ClientID: 4D5D-5FD835BB-osboxes
+Usable NICs: virbr0(TCP) docker0(TCP) tunl0(TCP) enp0s3(TCP)
+Connected: beegfs-helperd@127.0.0.1:8006 (protocol: TCP)
+New node: beegfs-mgmtd osboxes [ID: 1];
+Connected: beegfs-mgmtd@192.168.122.1:8008 (protocol: TCP)
+Nodes added (sync results): 1 (Type: beegfs-storage)
+Node registration...
+Node registration successful.
+Init complete.
+Stopping components...
+Node deregistration successful.
+Still waiting for this component to stop: beegfs_AckMgr
+Component stopped: beegfs_AckMgr
+All components stopped.
+Version: 7.2
+LocalNode: beegfs-mgmtd osboxes [ID: 1]
+Usable NICs: virbr0(TCP) docker0(TCP) tunl0(TCP) enp0s3(TCP)
+Received a signal SIGTERM. Clean shutdown initiated. Send another one to shutdown immediately.
+Still waiting for this component to stop: StreamLis
+Component stopped: StreamLis
+All components stopped. Exiting now!
+Version: 7.2
+LocalNode: beegfs-mgmtd osboxes [ID: 1]
+Usable NICs: virbr0(TCP) docker0(TCP) tunl0(TCP) enp0s3(TCP)
+New node: beegfs-client 34D4-5FD926E2-osboxes [ID: 1]; Source: 10.0.0.121:50614
+Node removed. node: beegfs-client 34D4-5FD926E2-osboxes [ID: 1]
+New root directory metadata node: beegfs-meta osboxes [ID: 2]
+New node: beegfs-meta osboxes [ID: 2]; Source: 10.0.0.121
+Metadata node is coming online. ID: 2
+Metadata node capacity pool assignment updated. NodeID: 2; Pool: Normal; Reason: Free capacity threshold
+No state report received from metadata node for 117 seconds. Setting metadata node to probably-offline. Metadata node ID: 2
+Metadata node capacity pool assignment updated. NodeID: 2; Pool: Emergency; Reason: No capacity report received.
+No state report received from metadata node for 207 seconds. Setting metadata node to offline. Metadata node ID: 2
+New node: beegfs-meta worker0 [ID: 3]; Source: 10.0.0.108
+Metadata node capacity pool assignment updated. NodeID: 3; Pool: Emergency; Reason: No capacity report received.
+Metadata node is coming online. ID: 3
+No state report received from metadata node for 115 seconds. Setting metadata node to probably-offline. Metadata node ID: 3
+Metadata node is coming online. ID: 3
+Metadata node capacity pool assignment updated. NodeID: 3; Pool: Normal; Reason: Free capacity threshold
+Received a signal SIGTERM. Clean shutdown initiated. Send another one to shutdown immediately.
+All components stopped. Exiting now!
+Version: 7.2
+LocalNode: beegfs-mgmtd osboxes [ID: 1]
+Usable NICs: enp0s3(TCP)
+New node: beegfs-client 435-5FD9237D-osboxes [ID: 2]; Source: 10.0.0.121:59206
+Metadata node is coming online. ID: 2
+Storage target is coming online. ID: 301
+Metadata node capacity pool assignment updated. NodeID: 2; Pool: Normal; Reason: Free capacity threshold
+Metadata node capacity pool assignment updated. NodeID: 2; Pool: Emergency; Reason: Free capacity threshold
+Received a signal SIGTERM. Clean shutdown initiated. Send another one to shutdown immediately.
+All components stopped. Exiting now!
+Version: 7.2
+LocalNode: beegfs-mgmtd osboxes [ID: 1]
+Usable NICs: virbr0(TCP) docker0(TCP) tunl0(TCP) enp0s3(TCP)
+New root directory metadata node: beegfs-meta osboxes [ID: 2]
+New node: beegfs-meta osboxes [ID: 2]; Source: 10.0.0.121
+Metadata node is coming online. ID: 2
+Metadata node capacity pool assignment updated. NodeID: 2; Pool: Normal; Reason: Free capacity threshold
+New node: beegfs-storage worker0 [ID: 3]; Source: 10.0.0.108
+Storage target capacity pool assignment updated. NodeID: 3; TargetID: 301; Pool: Emergency; Reason: No capacity report received.
+Storage target is coming online. ID: 301
+New node: beegfs-client 39D7-5FD83D22-osboxes [ID: 1]; Source: 10.0.0.121:60362
+Storage target capacity pool assignment updated. NodeID: 3; TargetID: 301; Pool: Low; Reason: Free capacity threshold
+Received a signal SIGTERM. Clean shutdown initiated. Send another one to shutdown immediately.
+All components stopped. Exiting now!
+Version: 7.2
+LocalNode: beegfs-mgmtd osboxes [ID: 1]
+Usable NICs: enp0s3(TCP)
+New node: beegfs-client 455-5FD8362C-osboxes [ID: 1]; Source: 10.0.0.203:53704
+Node removed. node: beegfs-client 455-5FD8362C-osboxes [ID: 1]
+No state report received from storage target for 186 seconds. Setting storage target to offline. Storage target ID: 301
+Received a signal SIGTERM. Clean shutdown initiated. Send another one to shutdown immediately.
+All components stopped. Exiting now!
+Version: 7.2
+LocalNode: beegfs-mgmtd osboxes [ID: 1]
+Usable NICs: virbr0(TCP) docker0(TCP) tunl0(TCP) enp0s3(TCP)
+New node: beegfs-storage worker0 [ID: 3]; Source: 10.0.0.108
+Storage target capacity pool assignment updated. NodeID: 3; TargetID: 301; Pool: Emergency; Reason: No capacity report received.
+New node: beegfs-client 4D5D-5FD835BB-osboxes [ID: 1]; Source: 192.168.122.1:55490
+Node removed. node: beegfs-client 4D5D-5FD835BB-osboxes [ID: 1]
+Storage target is coming online. ID: 301
+Listening for UDP datagrams: Port 8003
+Waiting for beegfs-mgmtd@10.0.0.137:8008...
+New node: beegfs-mgmtd mgs [ID: 1];
+Connected: beegfs-mgmtd@10.0.0.137:8008 (protocol: TCP; fallback route)
+Version: 7.2
+LocalNode: beegfs-storage worker [ID: 4]
+Usable NICs: virbr0(TCP) docker0(TCP) enp0s3(TCP)
+Storage targets: 1
+Listening for UDP datagrams: Port 8003
+Node registration successful.
+Storage targets registration successful.
+Nodes added: 1 (Type: beegfs-meta)
+Registration and management info download complete.
+Listening for UDP datagrams: Port 8003
+Listening for TCP connections: Port 8003
+0 sessions restored.

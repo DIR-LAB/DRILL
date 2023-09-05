@@ -1,0 +1,429 @@
+./fsck/source/net/message/nodes/HeartbeatMsgEx.cpp:      log.log(Log_DEBUG, std::string("Number of nodes in the system: ") +
+./fsck/source/net/msghelpers/MsgHelperRepair.cpp:      LogContext(logContext).log(Log_DEBUG, "No owner node found for lost+found. Directory does not"
+./fsck/source/app/App.cpp:   this->log->log(Log_DEBUG, "Initializing components...");
+./fsck/source/app/App.cpp:   this->log->log(Log_DEBUG, "Components initialized.");
+./fsck/source/app/App.cpp:   log->log(Log_DEBUG, "Components running.");
+./fsck/source/components/InternodeSyncer.cpp:      log.log(Log_DEBUG, "Component stopped.");
+./fsck/source/components/worker/RetrieveChunksWork.cpp:   log.log(Log_DEBUG, "Processing RetrieveChunksWork");
+./fsck/source/components/worker/RetrieveChunksWork.cpp:   log.log(Log_DEBUG, "Processed RetrieveChunksWork");
+./fsck/tests/TestConfig.cpp:   log.log(Log_DEBUG, "testDefaultConfigFile started");
+./fsck/tests/TestConfig.cpp:   log.log(Log_DEBUG, "testDefaultConfigFile finished");
+./mgmtd/source/net/message/nodes/RegisterNodeMsgEx.cpp:   log.log(Log_DEBUG, std::string("Number of nodes: ") +
+./mgmtd/source/net/message/storage/quota/RequestExceededQuotaMsgEx.cpp:      log.log(Log_DEBUG, "Unable to provide exceeded quota IDs. "
+./mgmtd/source/app/App.cpp:      log->log(Log_DEBUG, "Allowed interfaces: " + interfacesList);
+./mgmtd/source/app/App.cpp:      log->log(Log_DEBUG, "Loaded target numeric ID mappings: " +
+./mgmtd/source/app/App.cpp:   log->log(Log_DEBUG, "Initializing components...");
+./mgmtd/source/app/App.cpp:   log->log(Log_DEBUG, "Components initialized.");
+./mgmtd/source/app/App.cpp:   log->log(Log_DEBUG, "Starting up components...");
+./mgmtd/source/app/App.cpp:   log->log(Log_DEBUG, "Components running.");
+./mgmtd/source/app/App.cpp:   this->log->log(Log_DEBUG, std::string("Extended list of usable NICs: ") + extendedNicListStr);
+./mgmtd/source/components/InternodeSyncer.cpp:      log.log(Log_DEBUG, "Component stopped.");
+./mgmtd/source/components/InternodeSyncer.cpp:      log.log(Log_DEBUG, "Dropped idle connections: " + StringTk::uintToStr(numDroppedConns) );
+./mgmtd/source/components/HeartbeatManager.cpp:      log.log(Log_DEBUG, "Component stopped.");
+./mgmtd/source/components/HeartbeatManager.cpp:   log.log(Log_DEBUG, "Asking nodes to publish capacity info...");
+./mgmtd/source/components/quota/QuotaManager.cpp:      log.log(Log_DEBUG, "Component stopped.");
+./mgmtd/source/components/quota/QuotaStoreLimits.cpp:      log.log(Log_DEBUG, "Unable to open limits file: " + this->storePath + ". " +
+./meta/source/net/message/nodes/HeartbeatMsgEx.cpp:      log.log(Log_DEBUG, "Number of nodes: "
+./meta/source/net/message/storage/creating/RmDirMsgEx.cpp:         LogContext(logContext).log(Log_DEBUG,
+./meta/source/net/message/storage/attribs/SetDirPatternMsgEx.cpp:         LogContext(logContext).log(Log_DEBUG, "This node does not own the root directory.");
+./meta/source/net/msghelpers/MsgHelperStat.cpp:      LogContext(logContext).log(Log_DEBUG, "Missing metadata for entryID: " +
+./meta/source/net/msghelpers/MsgHelperStat.cpp:      LogContext(logContext).log(Log_DEBUG, std::string("File not exists") );
+./meta/source/net/msghelpers/MsgHelperClose.cpp:      LogContext(logContext).log(Log_DEBUG, std::string("File not open ") +
+./meta/source/app/App.cpp:      log->log(Log_DEBUG, "Allowed interfaces: " + interfacesList);
+./meta/source/app/App.cpp:      this->log->log(Log_DEBUG, "Disposal directory loaded.");
+./meta/source/app/App.cpp:      this->log->log(Log_DEBUG, "Creating a new disposal directory.");
+./meta/source/app/App.cpp:      log->log(Log_DEBUG, "Mirrored disposal directory loaded.");
+./meta/source/app/App.cpp:      log->log(Log_DEBUG, "Creating a new mirrored disposal directory.");
+./meta/source/app/App.cpp:   this->log->log(Log_DEBUG, "Initializing components...");
+./meta/source/app/App.cpp:   this->log->log(Log_DEBUG, "Components initialized.");
+./meta/source/app/App.cpp:   log->log(Log_DEBUG, "Starting up components...");
+./meta/source/app/App.cpp:   log->log(Log_DEBUG, "Components running.");
+./meta/source/app/App.cpp:   log->log(Log_DEBUG, "Joining component threads...");
+./meta/source/app/App.cpp:   log->log(Log_DEBUG, std::string("Extended list of usable NICs:") + extendedNicListStr);
+./meta/source/app/App.cpp:   log->log(Log_DEBUG, std::string("Detaching process...") );
+./meta/source/storage/DirInode.cpp:         LogContext(logContext).log(Log_DEBUG, "No space left to create update file. Trying update "
+./meta/source/storage/DirInode.cpp:         LogContext(logContext).log(Log_DEBUG, "No space left to write update file. Trying update "
+./meta/source/storage/DirInode.cpp:   LogContext(logContext).log(Log_DEBUG, "DirInode" + this->getID()   + " "
+./meta/source/storage/FileInode.cpp:         LogContext(logContext).log(Log_DEBUG, "No space left to create update file. Trying update "
+./meta/source/storage/FileInode.cpp:         LogContext(logContext).log(Log_DEBUG, "No space left to write update inode. Trying update "
+./meta/source/components/InternodeSyncer.cpp:      log.log(Log_DEBUG, "Component stopped.");
+./meta/source/components/InternodeSyncer.cpp:         LogContext(logContext).log(Log_DEBUG, logMsgStream.str() ); // no unremovable sessions
+./meta/source/components/InternodeSyncer.cpp:      log.log(Log_DEBUG, "Dropped idle connections: " + StringTk::uintToStr(numDroppedConns) );
+./meta/source/components/InternodeSyncer.cpp:      log.log(Log_DEBUG, "Management node not defined.");
+./meta/source/components/InternodeSyncer.cpp:      log.log(Log_DEBUG, "Management node did not accept pools refresh request.");
+./meta/source/components/InternodeSyncer.cpp:            LogContext(logContext).log(Log_DEBUG,
+./meta/source/components/InternodeSyncer.cpp:            LogContext(logContext).log(Log_DEBUG, "Quota enforcement disabled by management daemon.");
+./meta/source/components/InternodeSyncer.cpp:            LogContext(logContext).log(Log_DEBUG,
+./meta/source/components/InternodeSyncer.cpp:            LogContext(logContext).log(Log_DEBUG, "Quota enforcement enabled by management daemon.");
+./meta/source/components/worker/LockRangeNotificationWork.cpp:            logger->log(Log_DEBUG, logContext, "Cannot grant lock to unknown client: " +
+./meta/source/components/worker/LockRangeNotificationWork.cpp:   logger->log(Log_DEBUG, logContext, "Some replies to lock grants missing. Received: " +
+./meta/source/components/worker/LockRangeNotificationWork.cpp:      logger->log(Log_DEBUG, logContext, "FileID cannot be referenced (file unlinked?): "
+./meta/source/components/worker/LockEntryNotificationWork.cpp:            logger->log(Log_DEBUG, logContext, "Cannot grant lock to unknown client: " +
+./meta/source/components/worker/LockEntryNotificationWork.cpp:   logger->log(Log_DEBUG, logContext, "Some replies to lock grants missing. Received: " +
+./meta/source/components/worker/LockEntryNotificationWork.cpp:      logger->log(Log_DEBUG, logContext, "FileID cannot be referenced (file unlinked?): " +
+./meta/source/components/ModificationEventFlusher.cpp:      log.log(Log_DEBUG, "Component stopped.");
+./meta/source/session/SessionStore.cpp:         log.log(Log_DEBUG, std::string("Creating a new session. SessionID: ") + sessionID.str());
+./meta/source/session/SessionStore.cpp:   log.log(Log_DEBUG,"load sessions from file: " + filePath);
+./meta/source/session/SessionStore.cpp:      log.log(Log_DEBUG, "Unable to open session file: " + filePath + ". " +
+./meta/source/session/SessionStore.cpp:   log.log(Log_DEBUG,"save sessions to file: " + filePath);
+./meta/tests/TestBuddyMirroring.cpp:         LogContext(logContext).log(Log_DEBUG, "Trying to lock '" + parentID + "/" + name + "'");
+./meta/tests/TestBuddyMirroring.cpp:         LogContext(logContext).log(Log_DEBUG, "Locked '" + parentID + "/" + name + "'");
+./meta/tests/TestBuddyMirroring.cpp:         LogContext(logContext).log(Log_DEBUG, "Sleeping for " + StringTk::intToStr(sleepSec) +
+./meta/tests/TestBuddyMirroring.cpp:         LogContext(logContext).log(Log_DEBUG, "Trying to unlock '" + parentID + "/" + name + "'");
+./meta/tests/TestBuddyMirroring.cpp:         LogContext(logContext).log(Log_DEBUG, "Unlocked '" + parentID + "/" + name + "'");
+./meta/tests/TestBuddyMirroring.cpp:         LogContext(logContext).log(Log_DEBUG, "Trying to lock '" + fileID + "'");
+./meta/tests/TestBuddyMirroring.cpp:         LogContext(logContext).log(Log_DEBUG, "Locked '" + fileID + "'");
+./meta/tests/TestBuddyMirroring.cpp:         LogContext(logContext).log(Log_DEBUG, "Sleeping for " + StringTk::intToStr(sleepSec) +
+./meta/tests/TestBuddyMirroring.cpp:         LogContext(logContext).log(Log_DEBUG, "Trying to unlock '" + fileID + "'");
+./meta/tests/TestBuddyMirroring.cpp:         LogContext(logContext).log(Log_DEBUG, "Unlocked '" + fileID + "'");
+./meta/tests/TestBuddyMirroring.cpp:         LogContext(logContext).log(Log_DEBUG, "Trying to lock '" + logInfo + "'");
+./meta/tests/TestBuddyMirroring.cpp:         LogContext(logContext).log(Log_DEBUG, "Locked '" + logInfo + "'");
+./meta/tests/TestBuddyMirroring.cpp:         LogContext(logContext).log(Log_DEBUG, "Sleeping for " + StringTk::intToStr(sleepSec) +
+./meta/tests/TestBuddyMirroring.cpp:         LogContext(logContext).log(Log_DEBUG, "Trying to unlock '" + logInfo + "'");
+./meta/tests/TestBuddyMirroring.cpp:         LogContext(logContext).log(Log_DEBUG, "Unlocked '" + logInfo + "'");
+./meta/tests/TestConfig.cpp:   log.log(Log_DEBUG, "testMissingConfigFile started");
+./meta/tests/TestConfig.cpp:   log.log(Log_DEBUG, "testMissingConfigFile finished");
+./meta/tests/TestConfig.cpp:   log.log(Log_DEBUG, "testDefaultConfigFile started");
+./meta/tests/TestConfig.cpp:   log.log(Log_DEBUG, "testDefaultConfigFile finished");
+./helperd/source/app/App.cpp:   log->log(Log_DEBUG, "Initializing components...");
+./helperd/source/app/App.cpp:   log->log(Log_DEBUG, "Components initialized.");
+./helperd/source/app/App.cpp:   log->log(Log_DEBUG, "Starting up components...");
+./helperd/source/app/App.cpp:   log->log(Log_DEBUG, "Components running.");
+./helperd/source/app/App.cpp:   //log->log(Log_DEBUG, std::string("LocalNode: ") + localNode->getTypedNodeID() );
+./helperd/tests/TestConfig.cpp:   log.log(Log_DEBUG, "testMissingConfigFile started");
+./helperd/tests/TestConfig.cpp:   log.log(Log_DEBUG, "testMissingConfigFile finished");
+./storage/source/net/message/storage/creating/UnlinkLocalFileMsgEx.cpp:         LogContext(logContext).log(Log_DEBUG, "File unlinked: " + chunkFilePathStr);
+./storage/source/net/message/storage/creating/UnlinkLocalFileMsgEx.cpp:      LogContext(logContext).log(Log_DEBUG, "Forwarding failed. "
+./storage/source/net/message/storage/creating/UnlinkLocalFileMsgEx.cpp:         LogContext(logContext).log(Log_DEBUG,
+./storage/source/net/message/storage/attribs/SetLocalAttrMsgEx.cpp:      LogContext(logContext).log(Log_DEBUG, "Forwarding failed: "
+./storage/source/net/message/storage/attribs/SetLocalAttrMsgEx.cpp:         LogContext(logContext).log(Log_DEBUG,
+./storage/source/net/message/storage/TruncLocalFileMsgEx.cpp:      LogContext(logContext).log(Log_DEBUG, "Forwarding failed. "
+./storage/source/net/message/storage/TruncLocalFileMsgEx.cpp:         LogContext(logContext).log(Log_DEBUG,
+./storage/source/net/message/session/opening/CloseChunkFileMsgEx.cpp:      LogContext(logContext).log(Log_DEBUG,
+./storage/source/net/message/session/opening/CloseChunkFileMsgEx.cpp:         // LogContext(logContext).log(Log_DEBUG, "Chunk file virtually closed. "
+./storage/source/net/message/session/opening/CloseChunkFileMsgEx.cpp:      LogContext(logContext).log(Log_DEBUG, "Forwarding failed. "
+./storage/source/net/message/session/rw/WriteLocalFileMsgEx.cpp:         LogContext(logContext).log(Log_DEBUG,
+./storage/source/app/App.cpp:      log->log(Log_DEBUG, "Allowed interfaces: " + interfacesList);
+./storage/source/app/App.cpp:   this->log->log(Log_DEBUG, "Initializing components...");
+./storage/source/app/App.cpp:   this->log->log(Log_DEBUG, "Components initialized.");
+./storage/source/app/App.cpp:   log->log(Log_DEBUG, "Starting up components...");
+./storage/source/app/App.cpp:   log->log(Log_DEBUG, "Components running.");
+./storage/source/app/App.cpp:   log->log(Log_DEBUG, "Joining component threads...");
+./storage/source/app/App.cpp:   log->log(Log_DEBUG, std::string("Extended list of usable NICs: ") + extendedNicListStr);
+./storage/source/app/App.cpp:   this->log->log(Log_DEBUG, std::string("Detaching process...") );
+./storage/source/app/App.cpp:         log->log(Log_DEBUG, "Retrieved new numeric target ID: " +
+./storage/source/app/App.cpp:            log->log(Log_DEBUG, "Target ID reservation successful.");
+./storage/source/components/buddyresyncer/BuddyResyncerGatherSlave.cpp:      LogContext(__func__).log(Log_DEBUG, "Component started.");
+./storage/source/components/buddyresyncer/BuddyResyncerGatherSlave.cpp:      LogContext(__func__).log(Log_DEBUG, "Component stopped.");
+./storage/source/components/buddyresyncer/BuddyResyncerFileSyncSlave.cpp:      LogContext(__func__).log(Log_DEBUG, "Component started.");
+./storage/source/components/buddyresyncer/BuddyResyncerFileSyncSlave.cpp:      LogContext(__func__).log(Log_DEBUG, "Component stopped.");
+./storage/source/components/buddyresyncer/BuddyResyncerFileSyncSlave.cpp:   LogContext(__func__).log(Log_DEBUG,
+./storage/source/components/buddyresyncer/BuddyResyncerFileSyncSlave.cpp:   LogContext(__func__).log(Log_DEBUG, "File sync finished. chunkPath: " + chunkPathStr);
+./storage/source/components/buddyresyncer/BuddyResyncerDirSyncSlave.cpp:      LogContext(__func__).log(Log_DEBUG, "Component started.");
+./storage/source/components/buddyresyncer/BuddyResyncerDirSyncSlave.cpp:      LogContext(__func__).log(Log_DEBUG, "Component stopped.");
+./storage/source/components/benchmarker/StorageBenchSlave.cpp:   LogContext(logContext).log(Log_DEBUG, "Initializing benchmark ...");
+./storage/source/components/benchmarker/StorageBenchSlave.cpp:   LogContext(logContext).log(Log_DEBUG, std::string("Benchmark initialized."));
+./storage/source/components/benchmarker/StorageBenchSlave.cpp:   LogContext(logContext).log(Log_DEBUG, std::string("Initializing random data..."));
+./storage/source/components/benchmarker/StorageBenchSlave.cpp:   LogContext(logContext).log(Log_DEBUG, std::string("Random data initialized."));
+./storage/source/components/benchmarker/StorageBenchSlave.cpp:   LogContext(logContext).log(Log_DEBUG, std::string("Initializing thread data..."));
+./storage/source/components/benchmarker/StorageBenchSlave.cpp:   LogContext(logContext).log(Log_DEBUG, "Thread data initialized.");
+./storage/source/components/chunkfetcher/ChunkFetcherSlave.cpp:   log.log(Log_DEBUG, "Starting chunks walk...");
+./storage/source/components/chunkfetcher/ChunkFetcherSlave.cpp:   log.log(Log_DEBUG, "End of chunks walk.");
+./storage/source/components/InternodeSyncer.cpp:      log.log(Log_DEBUG, "Component stopped.");
+./storage/source/components/InternodeSyncer.cpp:      log.log(Log_DEBUG, "Dropped idle connections: " + StringTk::uintToStr(numDroppedConns) );
+./storage/source/components/InternodeSyncer.cpp:   log.log(Log_DEBUG, "Publishing state for target: " + StringTk::uintToStr(targetID) );
+./storage/source/components/InternodeSyncer.cpp:   log.log(Log_DEBUG, "Publishing target state change");
+./storage/source/components/InternodeSyncer.cpp:            LogContext(logContext).log(Log_DEBUG,
+./storage/source/components/InternodeSyncer.cpp:            LogContext(logContext).log(Log_DEBUG, "Quota enforcement disabled by management daemon.");
+./storage/source/components/InternodeSyncer.cpp:            LogContext(logContext).log(Log_DEBUG,
+./storage/source/components/InternodeSyncer.cpp:            LogContext(logContext).log(Log_DEBUG, "Quota enforcement enabled by management daemon.");
+./storage/source/components/InternodeSyncer.cpp:      log.log(Log_DEBUG, "Management node not defined.");
+./storage/source/components/InternodeSyncer.cpp:      log.log(Log_DEBUG, "Management node did not accept pools refresh request.");
+./storage/source/session/SessionStore.cpp:   log.log(Log_DEBUG, std::string("Creating a new session. SessionID: ") + sessionID.str());
+./storage/source/session/SessionStore.cpp:   log.log(Log_DEBUG,"load sessions of target: " + StringTk::uintToStr(targetID));
+./storage/source/session/SessionStore.cpp:      log.log(Log_DEBUG, "Unable to open session file: " + filePath + ". " +
+./storage/source/session/SessionStore.cpp:   log.log(Log_DEBUG,"save sessions of target: " + StringTk::uintToStr(targetID));
+./storage/source/session/SessionLocalFile.cpp:      log->log(Log_DEBUG, logContext, "File created. ID: " + getFileID() );
+./common/source/common/nodes/NodeConnPool.cpp:      LogContext(logContext).log(Log_DEBUG,
+./common/source/common/nodes/NodeConnPool.cpp:               log.log(Log_DEBUG, "Establishing new RDMA connection to: " + endpointStr);
+./common/source/common/nodes/NodeConnPool.cpp:               log.log(Log_DEBUG, "Establishing new SDP connection to: " + endpointStr);
+./common/source/common/nodes/NodeConnPool.cpp:               log.log(Log_DEBUG, "Establishing new TCP connection to: " + endpointStr);
+./common/source/common/nodes/NodeConnPool.cpp:   log.log(Log_DEBUG, std::string("Disconnected: ") +
+./common/source/common/nodes/LocalNodeConnPool.cpp:      log.log(Log_DEBUG, "Establishing new stream connection to: internal");
+./common/source/common/nodes/LocalNodeConnPool.cpp:         log.log(Log_DEBUG, "Connected: internal");
+./common/source/common/storage/quota/QuotaData.cpp:      log.log(Log_DEBUG, "Unable to open quota data file: " + path + ". " +
+./common/source/common/storage/quota/QuotaData.cpp:      log.log(Log_DEBUG, StringTk::intToStr(dataCounter) + " quota data of " +
+./common/source/common/storage/quota/QuotaData.cpp:      log.log(Log_DEBUG, StringTk::intToStr(dataCounter) + " quota data of " +
+./common/source/common/components/StatsCollector.cpp:      log.log(Log_DEBUG, "Component stopped.");
+./common/source/common/components/AbstractDatagramListener.cpp:      log.log(Log_DEBUG, "Component stopped.");
+./common/source/common/components/worker/Worker.cpp:      log.log(Log_DEBUG, "Component stopped.");
+./common/source/common/components/worker/IncomingDataWork.cpp:      LogContext(logContextStr).log(Log_DEBUG, std::string(e.what() ) );
+./common/source/common/components/worker/IncomingDataWork.cpp:      LogContext(logContextStr).log(Log_DEBUG, std::string(e.what() ) );
+./common/source/common/components/StreamListener.cpp:      log.log(Log_DEBUG, std::string("Accepted new connection from " +
+./common/source/common/components/StreamListener.cpp:         log.log(Log_DEBUG, std::string("Accepted new RDMA connection from " +
+./common/source/common/components/StreamListener.cpp:         log.log(Log_DEBUG,
+./common/source/common/components/StreamListener.cpp:      LogContext(logContext).log(Log_DEBUG,
+./common/source/common/components/streamlistenerv2/ConnAcceptor.cpp:      log.log(Log_DEBUG, "Component stopped.");
+./common/source/common/components/streamlistenerv2/ConnAcceptor.cpp:      //log.log(Log_DEBUG, std::string("Before poll(). pollArrayLen: ") +
+./common/source/common/components/streamlistenerv2/ConnAcceptor.cpp:         //log.log(Log_DEBUG, std::string("Incoming data on FD: ") +
+./common/source/common/components/streamlistenerv2/ConnAcceptor.cpp:      log.log(Log_DEBUG, std::string("Accepted new connection from " +
+./common/source/common/components/streamlistenerv2/ConnAcceptor.cpp:            log.log(Log_DEBUG, "Ignoring an internal event on the listening RDMA socket");
+./common/source/common/components/streamlistenerv2/ConnAcceptor.cpp:         log.log(Log_DEBUG, std::string("Accepted new RDMA connection from " +
+./common/source/common/components/streamlistenerv2/IncomingPreprocessedMsgWork.cpp:      LogContext(logContextStr).log(Log_DEBUG, std::string(e.what() ) );
+./common/source/common/components/streamlistenerv2/IncomingPreprocessedMsgWork.cpp:      LogContext(logContextStr).log(Log_DEBUG, std::string(e.what() ) );
+./common/source/common/components/streamlistenerv2/StreamListenerV2.cpp:      log.log(Log_DEBUG, "Component stopped.");
+./common/source/common/components/streamlistenerv2/StreamListenerV2.cpp:      //log.log(Log_DEBUG, std::string("Before poll(). pollArrayLen: ") +
+./common/source/common/components/streamlistenerv2/StreamListenerV2.cpp:      //log.log(Log_DEBUG, "Creating new work for to the queue");
+./common/source/common/components/streamlistenerv2/StreamListenerV2.cpp:      log.log(Log_DEBUG, std::string(e.what() ) );
+./common/source/common/components/streamlistenerv2/StreamListenerV2.cpp:         log.log(Log_DEBUG,
+./common/source/common/components/streamlistenerv2/StreamListenerV2.cpp:      LogContext(logContext).log(Log_DEBUG,
+./ctl/source/net/message/nodes/HeartbeatMsgEx.cpp:   log.log(Log_DEBUG, std::string("Number of nodes in the system: ") +
+./ctl/source/app/App.cpp:   log->log(Log_DEBUG, "Initializing components...");
+./ctl/source/app/App.cpp:   log->log(Log_DEBUG, "Components initialized.");
+./ctl/source/app/App.cpp:   log->log(Log_DEBUG, "Starting up components...");
+./ctl/source/app/App.cpp:   log->log(Log_DEBUG, "Components running.");
+./ctl/source/app/App.cpp:   log->log(Log_DEBUG, std::string("Extended list of usable NICs: ") + extendedNicListStr);
+./ctl/source/app/App.cpp:   log->log(Log_DEBUG, std::string("Detaching process...") );
+./admon/source/app/App.cpp:   log->log(Log_DEBUG, "Initializing components...");
+./admon/source/app/App.cpp:   log->log(Log_DEBUG, "Components initialized.");
+./admon/source/app/App.cpp:   log->log(Log_DEBUG, "Starting up components...");
+./admon/source/app/App.cpp:   log->log(Log_DEBUG, "Components running.");
+./admon/source/app/App.cpp:   log->log(Log_DEBUG, "Joining component threads...");
+./admon/source/app/App.cpp:   this->log->log(Log_DEBUG, std::string("Extended List of usable NICs: ") + extendedNicListStr);
+./admon/source/app/App.cpp:   this->log->log(Log_DEBUG, std::string("Detaching process...") );
+./admon/source/components/requestor/DataRequestorIOStats.cpp:      log.log(Log_DEBUG, std::string("Component started."));
+./admon/source/components/requestor/DataRequestorIOStats.cpp:      log.log(Log_DEBUG, std::string("Component stopped."));
+./admon/source/components/requestor/NodeListRequestor.cpp:      log.log(Log_DEBUG, "Component started.");
+./admon/source/components/requestor/NodeListRequestor.cpp:      log.log(Log_DEBUG, "Component stopped.");
+./admon/source/components/requestor/NodeListRequestor.cpp:            log.log(Log_DEBUG, "Did not receive a heartbeat from management node!");
+./admon/source/components/requestor/DataRequestorStats.cpp:            log.log(Log_DEBUG, "Stop requestor " + StringTk::uintToStr(id) + ". No client request "
+./admon/source/components/requestor/DataRequestorStats.cpp:      log.log(Log_DEBUG, "Component started.");
+./admon/source/components/requestor/DataRequestorStats.cpp:      log.log(Log_DEBUG, "Component stopped.");
+./admon/source/components/WebServer.cpp:   Logger::getLogger()->log(Log_DEBUG, "WebSrv", "Requested URI: " +
+./admon/source/components/WebServer.cpp:      log.log(Log_DEBUG, "Component started.");
+./admon/source/components/WebServer.cpp:      log.log(Log_DEBUG, std::string("Component stopped."));
+./admon/source/components/InternodeSyncer.cpp:      log.log(Log_DEBUG, "Component stopped.");
+./admon/source/components/InternodeSyncer.cpp:      log.log(Log_DEBUG, "Dropped idle connections: " + StringTk::uintToStr(numDroppedConns) );
+./admon/source/components/Database.cpp:            log.log(Log_DEBUG, "Could not delete database file. Permission denied.");
+./admon/source/components/Database.cpp:            log.log(Log_DEBUG, "Could not delete database file. File not found.");
+./admon/source/components/Database.cpp:   log.log(Log_DEBUG, "create table " + tableNames[TableNames_users]);
+./admon/source/components/Database.cpp:   log.log(Log_DEBUG, "create table " + tableNames[TableNames_groups]);
+./admon/source/components/Database.cpp:   log.log(Log_DEBUG, "create table " + tableNames[TableNames_groupmembersMeta]);
+./admon/source/components/Database.cpp:   log.log(Log_DEBUG, "create table " + tableNames[TableNames_groupmembersStorage]);
+./admon/source/components/Database.cpp:   log.log(Log_DEBUG, "create table " + tableNames[TableNames_storageTargets]);
+./admon/source/components/Database.cpp:   log.log(Log_DEBUG, "create table " + tableNames[TableNames_runtimeConfig]);
+./admon/source/components/Database.cpp:      log.log(Log_DEBUG, "check " + tableNames[TableNames_runtimeConfig] + " table for parameter "
+./admon/source/components/Database.cpp:            log.log(Log_DEBUG, "parameter " + param + " doesn't exists in table " +
+./admon/source/components/Database.cpp:      log.log(Log_DEBUG, "create table " + type);
+./admon/source/components/Database.cpp:      log.log(Log_DEBUG, "create index idx_" + type + "_nodeID");
+./admon/source/components/Database.cpp:         log.log(Log_DEBUG, "create index idx_" + type + "_nodeNumID");
+./admon/source/components/Database.cpp:      log.log(Log_DEBUG, "create index idx_" + type + "_time");
+./admon/source/components/Database.cpp:         log.log(Log_DEBUG, "delete rows " + table);
+./admon/source/components/Database.cpp:         log.log(Log_DEBUG, "create index idx_" + table + "_nodeNumID");
+./admon/source/components/ExternalJobRunner.cpp:      log.log(Log_DEBUG, "Component started.");
+./admon/source/components/ExternalJobRunner.cpp:      log.log(Log_DEBUG, "Component stopped.");
+./admon/source/components/ExternalJobRunner.cpp:         log.log(Log_DEBUG, "Executing job: " + cmd);
+./admon/source/components/Mailer.cpp:      log.log(Log_DEBUG, "Component started.");
+./admon/source/components/Mailer.cpp:      log.log(Log_DEBUG, "Component stopped.");
+./admon/source/components/Mailer.cpp:      log.log(Log_DEBUG, "Unable to deliver mail (error while getting address "
+./admon/source/components/Mailer.cpp:         log.log(Log_DEBUG, "Unable to deliver mail (Error in communication "
+./admon/source/components/Mailer.cpp:         log.log(Log_DEBUG,"Unable to deliver mail (Error in communication "
+./admon/source/components/Mailer.cpp:         log.log(Log_DEBUG, "Unable to deliver mail (Error in communication "
+./admon/source/components/Mailer.cpp:         log.log(Log_DEBUG, "Unable to deliver mail (Error in communication "
+./admon/source/components/Mailer.cpp:         log.log(Log_DEBUG, "Unable to deliver mail (Error in communication "
+./admon/source/components/Mailer.cpp:      log.log(Log_DEBUG, "Unable to deliver mail. Command: " + cmd);
+./admon/source/toolkit/webtk.cpp:   Logger::getLogger()->log(Log_DEBUG, __func__, logMessage);
+./admon/source/toolkit/webtk.cpp:   Logger::getLogger()->log(Log_DEBUG, __func__, "Requested URI: " +
+./admon/source/toolkit/webtk.cpp:   Logger::getLogger()->log(Log_DEBUG, __func__, "XML content: " + outStr);
+./admon/source/toolkit/webtk.cpp:   log->log(Log_DEBUG, __func__, "Requested URI: " + std::string(request_info->uri) +
+./fsck/source/net/message/nodes/HeartbeatMsgEx.cpp:      log.log(Log_WARNING, std::string("New node: ") +
+./fsck/source/app/App.cpp:      this->log->log(Log_WARNING, std::string("TCP-only filters: ") +
+./fsck/source/components/InternodeSyncer.cpp:      LogContext(logContext).log(Log_WARNING, std::string("Nodes added: ") +
+./fsck/source/components/InternodeSyncer.cpp:      LogContext(logContext).log(Log_WARNING, std::string("Nodes removed: ") +
+./fsck/source/components/InternodeSyncer.cpp:      LogContext(logContext).log(Log_WARNING,
+./fsck/source/components/InternodeSyncer.cpp:      LogContext(logContext).log(Log_WARNING,
+./fsck/source/components/InternodeSyncer.cpp:         LogContext(logContext).log(Log_WARNING,
+./fsck/source/components/InternodeSyncer.cpp:            LogContext(logContext).log(Log_WARNING,
+./fsck/source/components/InternodeSyncer.cpp:         LogContext(logContext).log(Log_WARNING,
+./fsck/source/components/InternodeSyncer.cpp:            LogContext(logContext).log(Log_WARNING,
+./mgmtd/source/net/message/nodes/RegisterNodeMsgEx.cpp:      log.log(Log_WARNING, "Rejecting registration of node with empty string ID "
+./mgmtd/source/net/message/nodes/RegisterNodeMsgEx.cpp:   log.log(Log_WARNING, std::string("New node: ") +
+./mgmtd/source/app/App.cpp:   log->log(Log_WARNING, "LocalNode: " + localNode->getNodeIDWithTypeStr() );
+./mgmtd/source/app/App.cpp:   this->log->log(Log_WARNING, std::string("Usable NICs: ") + nicListStr);
+./mgmtd/source/app/App.cpp:      this->log->log(Log_WARNING, std::string("Net filters: ") +
+./mgmtd/source/app/App.cpp:      this->log->log(Log_WARNING, std::string("TCP-only filters: ") +
+./mgmtd/source/nodes/MgmtdTargetStateStore.cpp:               LogContext(logContext).log(Log_WARNING,
+./mgmtd/source/nodes/MirrorBuddyGroupMapperEx.cpp:   LogContext(logContext).log(Log_WARNING, "Switching primary and secondary target. "
+./mgmtd/source/nodes/TargetMapperEx.cpp:               LogContext(logContext).log(Log_WARNING,
+./mgmtd/source/nodes/TargetMapperEx.cpp:               LogContext(logContext).log(Log_WARNING, "Adding default state for storage target "
+./mgmtd/source/components/quota/QuotaStoreLimits.cpp:      log.log(Log_WARNING, "Unable to stat limits file: " + this->storePath + ". " +
+./mgmtd/source/components/quota/QuotaStoreLimits.cpp:      log.log(Log_WARNING, "Unable to read limits file: " + this->storePath + ". " +
+./meta/source/net/message/fsck/FixInodeOwnersInDentryMsgEx.cpp:         log.log(Log_WARNING, "Failed to update directory entry. parentID: " + parentID +
+./meta/source/net/message/fsck/FixInodeOwnersMsgEx.cpp:         LogContext(logContext).log(Log_WARNING, "Failed to update directory inode. Inode could"
+./meta/source/net/message/fsck/FixInodeOwnersMsgEx.cpp:         LogContext(logContext).log(Log_WARNING, "Failed to update directory inode. entryID: "
+./meta/source/net/message/fsck/UpdateFileAttribsMsgEx.cpp:            LogContext(logContext).log(Log_WARNING, "Failed to update dynamic attributes of file. "
+./meta/source/net/message/fsck/UpdateFileAttribsMsgEx.cpp:         LogContext(logContext).log(Log_WARNING, "Could not reference inode to update attributes. "
+./meta/source/net/message/fsck/RetrieveDirEntriesMsgEx.cpp:         log.log(Log_WARNING, "Could not list contents of directory. EntryID: " + parentID);
+./meta/source/net/message/fsck/RetrieveDirEntriesMsgEx.cpp:            log.log(Log_WARNING, "Unable to create dir entry from entry with name " + *namesIter
+./meta/source/net/message/fsck/UpdateDirAttribsMsgEx.cpp:         LogContext(logContext).log(Log_WARNING, "Failed to update attributes of directory. "
+./meta/source/net/message/fsck/AdjustChunkPermissionsMsgEx.cpp:         log.log(Log_WARNING, "Could not list contents of directory. EntryID: " + parentID);
+./meta/source/net/message/fsck/AdjustChunkPermissionsMsgEx.cpp:            log.log(Log_WARNING, "Unable to create dir entry from entry with name " + *namesIter
+./meta/source/net/message/fsck/AdjustChunkPermissionsMsgEx.cpp:         LogContext(logContext).log(Log_WARNING,
+./meta/source/net/message/nodes/HeartbeatMsgEx.cpp:      log.log(Log_WARNING, std::string("New node: ") + nodeIDWithTypeStr + supports);
+./meta/source/net/message/storage/moving/RenameV2MsgEx.cpp:      log.log(Log_WARNING,
+./meta/source/net/message/storage/moving/RenameV2MsgEx.cpp:      log.log(Log_WARNING, "Communication with metadata server failed. nodeID: " + toNodeID.str() );
+./meta/source/net/message/storage/moving/RenameV2MsgEx.cpp:      log.log(Log_WARNING,
+./meta/source/net/message/storage/creating/MkDirMsgEx.cpp:         LogContext(logContext).log(Log_WARNING,
+./meta/source/net/message/storage/creating/MkDirMsgEx.cpp:         LogContext(logContext).log(Log_WARNING,
+./meta/source/net/message/storage/creating/MkDirMsgEx.cpp:      log.log(Log_WARNING, std::string("Compensation not completely successful. ") +
+./meta/source/net/message/storage/creating/RmDirMsgEx.cpp:         LogContext(logContext).log(Log_WARNING,
+./meta/source/net/message/storage/attribs/SetAttrMsgEx.cpp:         LogContext(logContext).log(Log_WARNING,
+./meta/source/net/message/storage/attribs/SetAttrMsgEx.cpp:         LogContext(logContext).log(Log_WARNING,
+./meta/source/net/message/storage/attribs/SetAttrMsgEx.cpp:      LogContext(logContext).log(Log_WARNING,
+./meta/source/net/message/storage/attribs/SetAttrMsgEx.cpp:         LogContext(logContext).log(Log_WARNING,
+./meta/source/net/msghelpers/MsgHelperStat.cpp:         LogContext(logContext).log(Log_WARNING,
+./meta/source/net/msghelpers/MsgHelperStat.cpp:         LogContext(logContext).log(Log_WARNING,
+./meta/source/net/msghelpers/MsgHelperStat.cpp:      LogContext(logContext).log(Log_WARNING,
+./meta/source/net/msghelpers/MsgHelperStat.cpp:         LogContext(logContext).log(Log_WARNING,
+./meta/source/net/msghelpers/MsgHelperClose.cpp:         LogContext(logContext).log(Log_WARNING, "Unable to remove file session "
+./meta/source/net/msghelpers/MsgHelperClose.cpp:         LogContext(logContext).log(Log_WARNING,
+./meta/source/net/msghelpers/MsgHelperClose.cpp:      LogContext(logContext).log(Log_WARNING,
+./meta/source/net/msghelpers/MsgHelperClose.cpp:         LogContext(logContext).log(Log_WARNING,
+./meta/source/net/msghelpers/MsgHelperUnlink.cpp:            LogContext(logContext).log(Log_WARNING,
+./meta/source/net/msghelpers/MsgHelperUnlink.cpp:         LogContext(logContext).log(Log_WARNING,
+./meta/source/net/msghelpers/MsgHelperUnlink.cpp:         LogContext(logContext).log(Log_WARNING,
+./meta/source/net/msghelpers/MsgHelperUnlink.cpp:      LogContext(logContext).log(Log_WARNING,
+./meta/source/net/msghelpers/MsgHelperUnlink.cpp:         LogContext(logContext).log(Log_WARNING,
+./meta/source/net/msghelpers/MsgHelperTrunc.cpp:         LogContext(logContext).log(Log_WARNING,
+./meta/source/net/msghelpers/MsgHelperTrunc.cpp:         LogContext(logContext).log(Log_WARNING,
+./meta/source/net/msghelpers/MsgHelperTrunc.cpp:      LogContext(logContext).log(Log_WARNING,
+./meta/source/net/msghelpers/MsgHelperTrunc.cpp:         LogContext(logContext).log(Log_WARNING,
+./meta/source/net/msghelpers/MsgHelperLocking.cpp:   LogContext(logContext).log(Log_WARNING, std::string("Attempting recovery of file session ") +
+./meta/source/net/msghelpers/MsgHelperLocking.cpp:      LogContext(logContext).log(Log_WARNING, std::string("Recovery of file session failed: ") +
+./meta/source/net/msghelpers/MsgHelperLocking.cpp:         LogContext(logContext).log(Log_WARNING,
+./meta/source/app/App.cpp:   log.log(Log_WARNING, "Shutting down...");
+./meta/source/app/App.cpp:   log->log(Log_WARNING, "LocalNode: " + localNode->getNodeIDWithTypeStr() );
+./meta/source/app/App.cpp:   log->log(Log_WARNING, std::string("Usable NICs:") + nicListStr);
+./meta/source/app/App.cpp:      log->log(Log_WARNING, std::string("Net filters: ") +
+./meta/source/app/App.cpp:      this->log->log(Log_WARNING, std::string("TCP-only filters: ") +
+./meta/source/app/App.cpp:            log->log(Log_WARNING, "Node ID reservation successful.");
+./meta/source/app/App.cpp:      log->log(Log_WARNING, "Overwriting existing session file");
+./meta/source/app/App.cpp:      log->log(Log_WARNING, "Overwriting existing mirror session file");
+./meta/source/storage/DirInode.cpp:         LogContext(logContext).log(Log_WARNING, "Unexpected error: fstat() failed with SysErr: "
+./meta/source/storage/DirInode.cpp:         LogContext(logContext).log(Log_WARNING, "File space allocation ("
+./meta/source/storage/DirInode.cpp:      LogContext(logContext).log(Log_WARNING, "File space allocation ("
+./meta/source/storage/DirInode.cpp:      LogContext(logContext).log(Log_WARNING, "Unable to truncate metadata file (strange, but "
+./meta/source/storage/MetaStore.cpp:      log.log(Log_WARNING,
+./meta/source/storage/MetaStoreRename.cpp:            LogContext(logContext).log(Log_WARNING, "Unexpectedly failed to unlink file: " +
+./meta/source/storage/DirEntry.cpp:         LogContext(logContext).log(Log_WARNING, "Unexpected error: fstat() failed with SysErr: "
+./meta/source/storage/DirEntry.cpp:         LogContext(logContext).log(Log_WARNING, "File space allocation ("
+./meta/source/storage/DirEntry.cpp:      LogContext(logContext).log(Log_WARNING, "File space allocation ("
+./meta/source/storage/DirEntry.cpp:      LogContext(logContext).log(Log_WARNING, "Unable to truncate metadata file (strange, but "
+./meta/source/storage/FileInode.cpp:         LogContext(logContext).log(Log_WARNING, "Unexpected error: fstat() failed with SysErr: "
+./meta/source/storage/FileInode.cpp:         LogContext(logContext).log(Log_WARNING, "File space allocation ("
+./meta/source/storage/FileInode.cpp:      LogContext(logContext).log(Log_WARNING, "File space allocation ("
+./meta/source/storage/FileInode.cpp:      LogContext(logContext).log(Log_WARNING, "Unable to truncate inode file (strange, but "
+./meta/source/storage/FileInode.cpp:         LogContext(logContext).log(Log_WARNING, std::string("Inode unexpectedly not inlined: ") +
+./meta/source/storage/FileInode.cpp:         LogContext(logContext).log(Log_WARNING, std::string("Failed to write inlined inode: ") +
+./meta/source/storage/FileInode.cpp:         LogContext(logContext).log(Log_WARNING, "Could not set requested new stripe pattern");
+./meta/source/storage/FileInode.cpp:      LogContext(logContext).log(Log_WARNING, std::string("Trying to write as non-inlined inode "
+./meta/source/storage/FileInode.cpp:         LogContext(logContext).log(Log_WARNING, "Could not set new stripe target IDs.");
+./meta/source/components/InternodeSyncer.cpp:      LogContext(logContext).log(Log_WARNING, "Node registration successful.");
+./meta/source/components/InternodeSyncer.cpp:         LogContext(logContext).log(Log_WARNING, logMsgStream.str() );
+./meta/source/components/worker/UnlinkChunkFileWork.cpp:      LogContext(logContext).log(Log_WARNING,
+./meta/source/components/worker/UnlinkChunkFileWork.cpp:      LogContext(logContext).log(Log_WARNING,
+./meta/source/components/worker/CloseChunkFileWork.cpp:      LogContext(logContext).log(Log_WARNING,
+./meta/source/components/worker/SetChunkFileAttribsWork.cpp:      LogContext(logContext).log(Log_WARNING,
+./meta/source/components/worker/SetChunkFileAttribsWork.cpp:      LogContext(logContext).log(Log_WARNING,
+./meta/source/components/worker/GetChunkFileAttribsWork.cpp:      LogContext(logContext).log(Log_WARNING,
+./meta/source/components/worker/GetChunkFileAttribsWork.cpp:      LogContext(logContext).log(Log_WARNING,
+./meta/source/components/worker/TruncChunkFileWork.cpp:      LogContext(logContext).log(Log_WARNING,
+./meta/source/components/worker/TruncChunkFileWork.cpp:      LogContext(logContext).log(Log_WARNING,
+./meta/source/session/SessionStore.cpp:      log.log(Log_WARNING, "Unable to stat session file: " + filePath + ". " +
+./meta/source/session/SessionStore.cpp:      log.log(Log_WARNING, "Unable to read session file: " + filePath + ". " +
+./meta/source/session/SessionFileStore.cpp:            log->log(Log_WARNING, "SessionFileStore merge", "found SessionFile with same "
+./meta/source/session/SessionFileStore.cpp:            log->log(Log_WARNING, "SessionFileStore merge", "could not merge: " +
+./storage/source/net/message/nodes/HeartbeatMsgEx.cpp:      log.log(Log_WARNING, std::string("New node: ") +
+./storage/source/net/message/session/FSyncLocalFileMsgEx.cpp:               log.log(Log_WARNING, std::string("fsync of chunk file failed. ") +
+./storage/source/net/message/session/FSyncLocalFileMsgEx.cpp:      log.log(Log_WARNING, "Potential cache loss for open file handle. (Server crash detected.) "
+./storage/source/net/message/session/rw/WriteLocalFileMsgEx.cpp:         log.log(Log_WARNING, "Potential cache loss for open file handle. (Server crash detected.) "
+./storage/source/net/message/session/rw/WriteLocalFileMsgEx.cpp:      LogContext(logContext).log(Log_WARNING, std::string("Details: ") +
+./storage/source/net/message/session/rw/WriteLocalFileMsgEx.cpp:            LogContext(logContext).log(Log_WARNING, "Write error occurred. "
+./storage/source/net/message/session/rw/WriteLocalFileMsgEx.cpp:            LogContext(logContext).log(Log_WARNING,
+./storage/source/net/message/session/rw/WriteLocalFileMsgEx.cpp:          LogContext(logContext).log(Log_WARNING,
+./storage/source/net/message/session/rw/WriteLocalFileMsgEx.cpp:         LogContext(logContext).log(Log_WARNING,
+./storage/source/net/message/session/rw/WriteLocalFileMsgEx.cpp:      LogContext(logContext).log(Log_WARNING, "Additional info: "
+./storage/source/net/message/session/rw/ReadLocalFileV2MsgEx.cpp:         log.log(Log_WARNING, "Potential cache loss for open file handle. (Server crash detected.) "
+./storage/source/net/message/session/rw/ReadLocalFileV2MsgEx.cpp:      LogContext(logContext).log(Log_WARNING, "Details: "
+./storage/source/net/message/session/rw/ReadLocalFileV2MsgEx.cpp:            LogContext(logContext).log(Log_WARNING, "Unable to read file data. "
+./storage/source/app/App.cpp:   log.log(Log_WARNING, "Shutting down...");
+./storage/source/app/App.cpp:   log->log(Log_WARNING, "LocalNode: " + localNode->getNodeIDWithTypeStr() );
+./storage/source/app/App.cpp:   log->log(Log_WARNING, std::string("Usable NICs: ") + nicListStr);
+./storage/source/app/App.cpp:      log->log(Log_WARNING, std::string("Net filters: ") +
+./storage/source/app/App.cpp:      this->log->log(Log_WARNING, std::string("TCP-only filters: ") +
+./storage/source/app/App.cpp:   log->log(Log_WARNING, std::string("Storage targets: ") +
+./storage/source/app/App.cpp:            log->log(Log_WARNING, "Node ID reservation successful.");
+./storage/source/app/App.cpp:         this->log->log(Log_WARNING, "Overwriting existing session file: " + path);
+./storage/source/storage/StorageTargets.cpp:            LogContext(logContext).log(Log_WARNING, "Target: " + StringTk::uintToStr(targetID)
+./storage/source/components/buddyresyncer/BuddyResyncJob.cpp:      LogContext(__func__).log(Log_WARNING,
+./storage/source/components/buddyresyncer/BuddyResyncJob.cpp:         LogContext(__func__).log(Log_WARNING,
+./storage/source/components/buddyresyncer/BuddyResyncerFileSyncSlave.cpp:      LogContext(__func__).log(Log_WARNING,
+./storage/source/components/buddyresyncer/BuddyResyncerFileSyncSlave.cpp:               LogContext(__func__).log(Log_WARNING,
+./storage/source/components/buddyresyncer/BuddyResyncerFileSyncSlave.cpp:            LogContext(__func__).log(Log_WARNING,
+./storage/source/components/buddyresyncer/BuddyResyncerFileSyncSlave.cpp:            LogContext(__func__).log(Log_WARNING,
+./storage/source/components/buddyresyncer/BuddyResyncerFileSyncSlave.cpp:               LogContext(__func__).log(Log_WARNING, "Error during resync; "
+./storage/source/components/buddyresyncer/BuddyResyncerFileSyncSlave.cpp:         LogContext(__func__).log(Log_WARNING, "Error closing file descriptor; "
+./storage/source/components/buddyresyncer/BuddyResyncerFileSyncSlave.cpp:      LogContext(__func__).log(Log_WARNING,
+./storage/source/components/buddyresyncer/BuddyResyncerDirSyncSlave.cpp:         LogContext(__func__).log(Log_WARNING, "Error listing chunks dir; "
+./storage/source/components/InternodeSyncer.cpp:      LogContext(logContext).log(Log_WARNING, "Node registration successful.");
+./storage/source/session/SessionStore.cpp:      log.log(Log_WARNING, "Unable to stat session file: " + filePath + ". " +
+./storage/source/session/SessionStore.cpp:      log.log(Log_WARNING, "Unable to read session file: " + filePath + ". " +
+./common/source/common/net/message/AbstractNetMessageFactory.cpp:      LogContext(logContext).log(Log_WARNING,
+./common/source/common/net/message/control/AuthenticateChannelMsgEx.cpp:      LogContext(logContext).log(Log_WARNING,
+./common/source/common/net/sock/StandardSocket.cpp:         LogContext(logContext).log(Log_WARNING,
+./common/source/common/app/AbstractApp.cpp:         logger->log(Log_WARNING, logContext,
+./common/source/common/app/AbstractApp.cpp:         logger->log(Log_WARNING, logContext, "Component stopped: " + component->getName() );
+./common/source/common/nodes/NodeConnPool.cpp:               log.log(Log_WARNING, "Skipping unknown connection type to: " + endpointStr);
+./common/source/common/nodes/LocalNodeConnPool.cpp:         log.log(Log_WARNING, "Internal connect failed. Exception: " + std::string(e.what() ) );
+./common/source/common/storage/quota/QuotaData.cpp:      log.log(Log_WARNING, "Unable to stat quota data file: " + path + ". " +
+./common/source/common/storage/quota/QuotaData.cpp:      log.log(Log_WARNING, "Unable to read quota data file: " + path + ". " +
+./common/source/common/system/System.cpp:         LogContext(logContext).log(Log_WARNING,
+./common/source/common/system/System.cpp:         LogContext(logContext).log(Log_WARNING,
+./common/source/common/system/System.cpp:         LogContext(logContext).log(Log_WARNING, "NUMA core check path not found: " + path);
+./common/source/common/system/System.cpp:         LogContext(logContext).log(Log_WARNING, "No cores found in path: " + path);
+./common/source/common/system/System.cpp:         LogContext(logContext).log(Log_WARNING,
+./common/source/common/system/System.cpp:         LogContext(logContext).log(Log_WARNING,
+./common/source/common/system/System.cpp:      LogContext(logContext).log(Log_WARNING,
+./common/source/common/components/RegistrationDatagramListener.cpp:            log.log(Log_WARNING, "Problem encountered during handling of incoming message");
+./common/source/common/components/worker/WriteLocalFileWork.cpp:         log.log(Log_WARNING, "Did not receive a response from: " + sock->getPeername() );
+./common/source/common/components/worker/WriteLocalFileWork.cpp:      LogContext(logContext).log(Log_WARNING, std::string("Unable to connect to storage node: ") +
+./common/source/common/components/worker/WriteLocalFileWork.cpp:      LogContext(logContext).log(Log_WARNING, "Values for sessionID/handleID/offset/size: " +
+./common/source/common/components/worker/GetQuotaInfoWork.cpp:      LogContext("GetQuotaInfo").log(Log_WARNING, "Invalid QuotaData from target: " +
+./common/source/common/components/streamlistenerv2/ConnAcceptor.cpp:            log.log(Log_WARNING, "Should never happen: Ignoring event for unknown connection. "
+./common/source/common/threading/PThread.cpp:         LogContext(logContext).log(Log_WARNING,
+./common/source/common/toolkit/MessagingTk.cpp:         LogContext(logContext).log(Log_WARNING, "Unknown nodeID: " + nodeID.str() + "; "
+./common/source/common/toolkit/MessagingTk.cpp:         LogContext(logContext).log(Log_WARNING,
+./common/source/common/toolkit/MessagingTk.cpp:         LogContext(logContext).log(Log_WARNING,
+./ctl/source/net/message/nodes/HeartbeatMsgEx.cpp:   log.log(Log_WARNING, std::string("New node: ") +
+./ctl/source/app/App.cpp:      log->log(Log_WARNING, std::string("Net filters: ") +
+./ctl/source/app/App.cpp:      this->log->log(Log_WARNING, std::string("TCP-only filters: ") +
+./admon/source/net/message/nodes/HeartbeatMsgEx.cpp:         log.log(Log_WARNING, std::string("New node: ") +
+./admon/source/net/message/nodes/HeartbeatMsgEx.cpp:         log.log(Log_WARNING,
+./admon/source/app/App.cpp:   log.log(Log_WARNING, "Shutting down...");
+./admon/source/app/App.cpp:   this->log->log(Log_WARNING, std::string("Usable NICs: ") + nicListStr);
+./admon/source/app/App.cpp:      this->log->log(Log_WARNING, std::string("Net filters: ") +
+./admon/source/app/App.cpp:      this->log->log(Log_WARNING, std::string("TCP-only filters: ") +
+./admon/source/components/worker/GetClientNodesWork.cpp:         log.log(Log_WARNING, std::string("Client nodes added (sync results): ")
+./admon/source/components/worker/GetClientNodesWork.cpp:         log.log(Log_WARNING, std::string("Client nodes removed (sync results): ")
+./admon/source/components/worker/GetMetaNodesWork.cpp:         log.log(Log_WARNING, "Meta nodes added (sync results): "
+./admon/source/components/worker/GetMetaNodesWork.cpp:         log.log(Log_WARNING, "Meta nodes removed (sync results): "
+./admon/source/components/worker/GetStorageNodesWork.cpp:         log.log(Log_WARNING, "Storage nodes added (sync results): "
+./admon/source/components/worker/GetStorageNodesWork.cpp:         log.log(Log_WARNING, "Storage nodes removed (sync results): "
+./admon/source/toolkit/xml/xmlhelper.cpp:            log->log(Log_WARNING, __func__, "Enable passwordless login for information user.");
+./admon/source/toolkit/xml/xmlhelper.cpp:            log->log(Log_WARNING, __func__, "Failed to enable passwordless login for information "
+./admon/source/toolkit/xml/xmlhelper.cpp:            log->log(Log_WARNING, __func__, "Disable passwordless login for information user.");
+./admon/source/toolkit/xml/xmlhelper.cpp:            log->log(Log_WARNING, __func__, "Failed to disable passwordless login for information "
+./admon/source/toolkit/xml/xmlhelper.cpp:                  log->log(Log_WARNING, __func__, "New password set successful for user: " + user);
+./admon/source/toolkit/xml/xmlhelper.cpp:                  log->log(Log_WARNING, __func__, "Failed to set new password because the old "
+./admon/source/toolkit/xml/xmlhelper.cpp:               log->log(Log_WARNING, __func__, "Failed to set new password because the new "
+./admon/source/toolkit/xml/xmlhelper.cpp:            log->log(Log_WARNING, __func__, "Failed to set new password because the user is "

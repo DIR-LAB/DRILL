@@ -1,0 +1,1277 @@
+./test/common/gossip/test-gossip.c:	gossip_err("Critical error message.\n");
+./test/client/sysint/ncache-torture.c:	gossip_err("ncache_initialize() failure.\n");
+./test/client/sysint/ncache-torture.c:        gossip_err("[1] Cannot properly resolve inserted entry!\n");
+./test/client/sysint/ncache-torture.c:        gossip_err("[2] Cannot properly resolve inserted entry!\n");
+./test/client/sysint/ncache-torture.c:	    gossip_err("Error: failed to insert entry.\n");
+./test/client/sysint/ncache-torture.c:	    gossip_err("ncache_get_cached_entry() failure.\n");
+./test/client/sysint/ncache-torture.c:            gossip_err("ncache_lookup() failure.\n");
+./test/client/sysint/initialize-dyn.c:        gossip_err(
+./test/client/sysint/find.c:                    gossip_err("Failed to get attributes.  Skipping "
+./src/proto/PINT-le-bytefield.c:        gossip_err("%s: dist %s does not exist?!?\n",
+./src/proto/PINT-le-bytefield.c:            gossip_err("%s: op %d reqsize %d exceeded prealloced %d\n",
+./src/proto/PINT-le-bytefield.c:            gossip_err("%s: op %d respsize %d exceeded prealloced %d\n",
+./src/proto/PINT-le-bytefield.c:        gossip_err("Error: failed to BMI_malloc memory for response.\n");
+./src/proto/PINT-le-bytefield.c:        gossip_err("Error: is BMI address %llu still valid?\n", llu(target_msg->dest));
+./src/proto/PINT-le-bytefield.c:            gossip_err("%s: invalid operation %d\n", __func__, req->op);
+./src/proto/PINT-le-bytefield.c:        gossip_err("%s: op %d needed %lld bytes but alloced only %d\n",
+./src/proto/PINT-le-bytefield.c:            gossip_err("%s: invalid operation %d\n", __func__, resp->op);
+./src/proto/PINT-le-bytefield.c:        gossip_err("%s: op %d needed %lld bytes but alloced only %d\n",
+./src/proto/PINT-reqproto-encode.c:        gossip_err("Error: poorly formatted protocol message received.\n");
+./src/proto/PINT-reqproto-encode.c:	gossip_err("   Too small: message only %lld bytes.\n",
+./src/proto/PINT-reqproto-encode.c:        gossip_err("Error: poorly formatted protocol message received.\n");
+./src/proto/PINT-reqproto-encode.c:	gossip_err("   Encoding type mismatch: received type %d when "
+./src/proto/PINT-reqproto-encode.c:        gossip_err("Error: poorly formatted protocol message received.\n");
+./src/proto/PINT-reqproto-encode.c:	gossip_err("   Protocol version mismatch: received major version %d when "
+./src/proto/PINT-reqproto-encode.c:	gossip_err("   Please verify your OrangeFS installation\n");
+./src/proto/PINT-reqproto-encode.c:        gossip_err("   and make sure that the version is consistent.\n");
+./src/proto/PINT-reqproto-encode.c:        gossip_err("Error: poorly formatted protocol message received.\n");
+./src/proto/PINT-reqproto-encode.c:	gossip_err("   Protocol version mismatch: request has minor version %d when "
+./src/proto/PINT-reqproto-encode.c:        gossip_err("   Client is too new for server.\n");
+./src/proto/PINT-reqproto-encode.c:	gossip_err("   Please verify your OrangeFS installation\n");
+./src/proto/PINT-reqproto-encode.c:        gossip_err("   and make sure that the version is consistent.\n");
+./src/proto/PINT-reqproto-encode.c:        gossip_err("Error: poorly formatted protocol message received.\n");
+./src/proto/PINT-reqproto-encode.c:	gossip_err("   Protocol version mismatch: request has minor version %d when "
+./src/proto/PINT-reqproto-encode.c:        gossip_err("   Server is too old for client.\n");
+./src/proto/PINT-reqproto-encode.c:	gossip_err("   Please verify your OrangeFS installation\n");
+./src/proto/PINT-reqproto-encode.c:        gossip_err("   and make sure that the version is consistent.\n");
+./src/proto/PINT-reqproto-encode.c:    gossip_err("Error: poorly formatted protocol message received.\n");
+./src/proto/PINT-reqproto-encode.c:        gossip_err("PINT_encode_release: Encoder type %d is not "
+./src/proto/PINT-reqproto-encode.c:        gossip_err("PINT_decode_release: Encoder type %d is not "
+./src/io/bmi/bmi_tcp/socket-collection-epoll.c:        gossip_err("Error: epoll_create() failure: %s.\n", strerror(errno));
+./src/io/bmi/bmi_tcp/socket-collection-epoll.c:            gossip_err("Error: epoll_ctl() failure: %s.\n", strerror(errno));
+./src/io/bmi/bmi_tcp/socket-collection.c:	    gossip_err("HELLO: updating addr: %p, index: %d, ref: %d.\n",
+./src/io/bmi/bmi_tcp/bmi-tcp.c:            gossip_err("Error: tcp_server_init() failure.\n");
+./src/io/bmi/bmi_tcp/bmi-tcp.c:        gossip_err("Error: failed to retrieve peer name for client.\n");
+./src/io/bmi/bmi_tcp/bmi-tcp.c:            gossip_err("Invalid network specification: %s\n", tcp_wildcard);
+./src/io/bmi/bmi_tcp/bmi-tcp.c:	gossip_err("Error: BMI_sockio_new_sock: %s\n", strerror(tmp_errno));
+./src/io/bmi/bmi_tcp/bmi-tcp.c:	gossip_err("Error: BMI_sockio_bind_sock: %s\n", strerror(tmp_errno));
+./src/io/bmi/bmi_tcp/bmi-tcp.c:	gossip_err("Error: listen: %s\n", strerror(tmp_errno));
+./src/io/bmi/bmi_tcp/bmi-tcp.c:        gossip_err("Warning: BMI communication attempted on an "
+./src/io/bmi/bmi_tcp/bmi-tcp.c:            gossip_err("Error: message ordering violation;\n");
+./src/io/bmi/bmi_tcp/bmi-tcp.c:            gossip_err("Error: message too large for next buffer.\n");
+./src/io/bmi/bmi_tcp/bmi-tcp.c:            gossip_err("Error: message ordering violation;\n");
+./src/io/bmi/bmi_tcp/bmi-tcp.c:            gossip_err("Error: message too large for next buffer.\n");
+./src/io/bmi/bmi_tcp/bmi-tcp.c:	    gossip_err("Error: incomplete BMI TCP header after %d seconds, "
+./src/io/bmi/bmi_tcp/bmi-tcp.c:	gossip_err("Error: BMI_sockio_nbrecv: %s\n", strerror(tmp_errno));
+./src/io/bmi/bmi_tcp/bmi-tcp.c:	gossip_err("Error: bad magic in BMI TCP message.\n");
+./src/io/bmi/bmi_tcp/bmi-tcp.c:	    gossip_err("Error: message ordering violation;\n");
+./src/io/bmi/bmi_tcp/bmi-tcp.c:	    gossip_err("Error: message too large for next buffer.\n");
+./src/io/bmi/bmi_tcp/bmi-tcp.c:	    gossip_err("Error: incoming size: %ld, expected size: %ld\n",
+./src/io/bmi/bmi_tcp/bmi-tcp.c:    gossip_err("Rejecting client %s on port %d: %s\n",
+./src/io/bmi/bmi_tcp/bmi-tcp.c:	        gossip_err("Error: accept: %s (continuing)\n",
+./src/io/bmi/bmi_tcp/bmi-tcp.c:	    gossip_err("Error: accept: %s\n", strerror(errno));
+./src/io/bmi/bmi_tcp/bmi-tcp.c:	    gossip_err("Error: enqueue_operation() or tcp_do_work() "
+./src/io/bmi/bmi_tcp/bmi-tcp.c:	    gossip_err("Error: enqueue_operation() returned: %d\n", ret);
+./src/io/bmi/bmi_tcp/bmi-tcp.c:        gossip_err("Error: enqueue_operation() returned: %d\n", ret);
+./src/io/bmi/bmi.c:                gossip_err("%s: Invalid method name: %s.  Method names "
+./src/io/bmi/bmi.c:                gossip_err("%s: Failed to find an appropriate listening "
+./src/io/bmi/bmi.c:        gossip_err("%s: target_op->op_id (%llu) != id (%llu)\n", 
+./src/io/bmi/bmi.c:                    gossip_err("%s: null query_op\n", __func__);
+./src/io/bmi/bmi.c:                    gossip_err("%s: query_op->op_id (%llu) != "
+./src/io/bmi/bmi.c:        gossip_err("unimplemented unexpected_free callback\n");
+./src/io/bmi/bmi.c:            gossip_err("%s: tmp_ref->ref_count < 0", __func__);
+./src/io/bmi/bmi.c:        gossip_err("%s: target_op->op_id (%llu) != id (%llu)\n",
+./src/io/bmi/bmi.c:        gossip_err("Error: BMI_cancel() unimplemented for this module.\n");
+./src/io/bmi/bmi.c:            gossip_err("Error: failed to lookup listen "
+./src/io/bmi/op-list.c:    gossip_err("op_list_dump():\n");
+./src/io/bmi/op-list.c:    gossip_err("Operation:\n------------\n");
+./src/io/bmi/op-list.c:    gossip_err("  op_id: %ld\n", (long) print_op->op_id);
+./src/io/bmi/op-list.c:    gossip_err("  send_recv: %d\n", (int) print_op->send_recv);
+./src/io/bmi/op-list.c:    gossip_err("  msg_tag: %d\n", (int) print_op->msg_tag);
+./src/io/bmi/op-list.c:    gossip_err("  error_code: %d\n", (int) print_op->error_code);
+./src/io/bmi/op-list.c:    gossip_err("  amt_complete: %ld\n", (long) print_op->amt_complete);
+./src/io/bmi/op-list.c:    gossip_err("  buffer: %p\n", print_op->buffer);
+./src/io/bmi/op-list.c:    gossip_err("  actual size: %ld\n", (long) print_op->actual_size);
+./src/io/bmi/op-list.c:    gossip_err("  expected size: %ld\n", (long) print_op->expected_size);
+./src/io/bmi/op-list.c:    gossip_err("  addr: %p\n", print_op->addr);
+./src/io/bmi/op-list.c:    gossip_err("  mode: %d\n", (int) print_op->mode);
+./src/io/bmi/bmi_portals/portals.c:	gossip_err("%s: ni err %d\n", __func__, ev->ni_fail_type);
+./src/io/bmi/bmi_portals/portals.c:		    gossip_err("%s: PtlMEUnlink sq %p: %s\n", __func__,
+./src/io/bmi/bmi_portals/portals.c:	    gossip_err("%s: mlen %llu and rlen %llu do not agree\n", __func__,
+./src/io/bmi/bmi_portals/portals.c:			gossip_err("%s: PtlMEUnlink sq %p: %s\n", __func__,
+./src/io/bmi/bmi_portals/portals.c:		    gossip_err("%s: alloc unexpected rq\n", __func__);
+./src/io/bmi/bmi_portals/portals.c:		    gossip_err("%s: alloc unexpected rq data\n", __func__);
+./src/io/bmi/bmi_portals/portals.c:		gossip_err("%s: which %d but zero md\n", __func__, which);
+./src/io/bmi/bmi_portals/portals.c:		    gossip_err("%s: alloc nonprepost rq\n", __func__);
+./src/io/bmi/bmi_portals/portals.c:	gossip_err("%s: unknown event %s\n", __func__,
+./src/io/bmi/bmi_portals/portals.c:		gossip_err("%s: PtlEQPoll: dropped some completions\n",
+./src/io/bmi/bmi_portals/portals.c:	    gossip_err("%s: PtlEQPoll: %s\n", __func__, PtlErrorStr(ret));
+./src/io/bmi/bmi_portals/portals.c:    gossip_err("%s: unimplemented\n", __func__);
+./src/io/bmi/bmi_portals/portals.c:	gossip_err("%s: PtlNIInit failed: %s\n", __func__, PtlErrorStr(ret));
+./src/io/bmi/bmi_portals/portals.c:	gossip_err("%s: PtlGetId failed: %d\n", __func__, ret);
+./src/io/bmi/bmi_portals/portals.c:	gossip_err("%s: PtlACEntry: %s\n", __func__, PtlErrorStr(ret));
+./src/io/bmi/bmi_portals/portals.c:	gossip_err("%s: PtlEQAlloc: %s\n", __func__, PtlErrorStr(ret));
+./src/io/bmi/bmi_portals/portals.c:	gossip_err("%s: PtlMEAttach mark: %s\n", __func__, PtlErrorStr(ret));
+./src/io/bmi/bmi_portals/portals.c:	gossip_err("%s: PtlMEAttach zero: %s\n", __func__, PtlErrorStr(ret));
+./src/io/bmi/bmi_portals/portals.c:	gossip_err("%s: PtlMDAttach zero: %s\n", __func__, PtlErrorStr(ret));
+./src/io/bmi/bmi_portals/portals.c:	    gossip_err("%s: PtlMDBind: %s\n", __func__, PtlErrorStr(ret));
+./src/io/bmi/bmi_portals/portals.c:	    gossip_err("%s: PtlMEInsert: %s\n", __func__, PtlErrorStr(ret));
+./src/io/bmi/bmi_portals/portals.c:	    gossip_err("%s: PtlMDBind: %s\n", __func__, PtlErrorStr(ret));
+./src/io/bmi/bmi_portals/portals.c:	gossip_err("%s: PtlPut: %s\n", __func__, PtlErrorStr(ret));
+./src/io/bmi/bmi_portals/portals.c:	gossip_err("%s: send len %llu longer than posted %lld\n", __func__,
+./src/io/bmi/bmi_portals/portals.c:	gossip_err("%s: PtlMDBind: %s\n", __func__, PtlErrorStr(ret));
+./src/io/bmi/bmi_portals/portals.c:	gossip_err("%s: PtlGet: %s\n", __func__, PtlErrorStr(ret));
+./src/io/bmi/bmi_portals/portals.c:	    gossip_err("%s: PtlMEInsert: %s\n", __func__, PtlErrorStr(ret));
+./src/io/bmi/bmi_portals/portals.c:	    gossip_err("%s: PtlMDAttach: %s\n", __func__, PtlErrorStr(ret));
+./src/io/bmi/bmi_portals/portals.c:	gossip_err("%s: PtlMDUpdate: %s\n", __func__, PtlErrorStr(ret));
+./src/io/bmi/bmi_portals/portals.c:	gossip_err("%s: PtlMEInsert: %s\n", __func__, PtlErrorStr(ret));
+./src/io/bmi/bmi_portals/portals.c:	gossip_err("%s: PtlMDAttach: %s\n", __func__, PtlErrorStr(ret));
+./src/io/bmi/bmi_portals/portals.c:	    gossip_err("%s: PtlMEUnlink: %s\n", __func__, PtlErrorStr(ret));
+./src/io/bmi/bmi_portals/portals.c:	    gossip_err("%s: PtlMEUnlink: %s\n", __func__, PtlErrorStr(ret));
+./src/io/bmi/bmi_portals/portals.c:	    gossip_err("%s: PtlMDUnlink: %s\n", __func__, PtlErrorStr(ret));
+./src/io/bmi/bmi_portals/portals.c:	    gossip_err("%s: bmi_method_addr_reg_callback failed\n", __func__);
+./src/io/bmi/bmi_portals/portals.c:	gossip_err("%s: gethostbyname cannot resolve %s\n", __func__, hostname);
+./src/io/bmi/bmi_portals/portals.c:	gossip_err("%s: gethostbyname returns %d-byte addresses, hoped for 4\n",
+./src/io/bmi/bmi_portals/portals.c:	    gossip_err("%s: convert nid<num> hostname %s failed\n", __func__,
+./src/io/bmi/bmi_portals/portals.c:	gossip_err("%s: no ':' found\n", __func__);
+./src/io/bmi/bmi_portals/portals.c:	gossip_err("%s: invalid pid number\n", __func__);
+./src/io/bmi/bmi_portals/portals.c:	gossip_err("%s: extra characters after pid number\n", __func__);
+./src/io/bmi/bmi_portals/portals.c:	    gossip_err("%s: PtlMEUnlink %d: %s\n", __func__, which,
+./src/io/bmi/bmi_portals/portals.c:	gossip_err("%s: PtlMEInsert: %s\n", __func__, PtlErrorStr(ret));
+./src/io/bmi/bmi_portals/portals.c:	gossip_err("%s: PtlMDAttach: %s\n", __func__, PtlErrorStr(ret));
+./src/io/bmi/bmi_portals/portals.c:	    gossip_err("%s: PtlMEUnlink %d: %s\n", __func__, i,
+./src/io/bmi/bmi_portals/portals.c:	    gossip_err("%s: PtlMEUnlink %d: %s\n", __func__, which,
+./src/io/bmi/bmi_portals/portals.c:	gossip_err("%s: PtlMEInsert: %s\n", __func__, PtlErrorStr(ret));
+./src/io/bmi/bmi_portals/portals.c:	gossip_err("%s: PtlMDAttach: %s\n", __func__, PtlErrorStr(ret));
+./src/io/bmi/bmi_portals/portals.c:	    gossip_err("%s: refcnt %d, should be zero\n", __func__,
+./src/io/bmi/bmi_portals/portals.c:	    gossip_err("%s: PtlMEUnlink %d: %s\n", __func__, i,
+./src/io/bmi/bmi_portals/portals.c:	gossip_err("%s: server but no listen address\n", __func__);
+./src/io/bmi/bmi_portals/portals.c:	gossip_err("%s: PtlInit failed\n", __func__);
+./src/io/bmi/bmi_portals/portals.c:	gossip_err("%s: PtlMEUnlink zero: %s\n", __func__, PtlErrorStr(ret));
+./src/io/bmi/bmi_portals/portals.c:	gossip_err("%s: PtlEQFree: %s\n", __func__, PtlErrorStr(ret));
+./src/io/bmi/bmi_portals/portals.c:	gossip_err("%s: PtlMEUnlink mark: %s\n", __func__, PtlErrorStr(ret));
+./src/io/bmi/bmi_portals/portals.c:	gossip_err("%s: PtlMEUnlink zero: %s\n", __func__, PtlErrorStr(ret));
+./src/io/bmi/bmi_portals/portals.c:	gossip_err("%s: PtlEQFree: %s\n", __func__, PtlErrorStr(ret));
+./src/io/bmi/bmi_portals/portals.c:	gossip_err("%s: PtlNIFini: %s\n", __func__, PtlErrorStr(ret));
+./src/io/bmi/bmi_gm/bmi-gm.c:	gossip_err("Error: %s (%d)\n", gm_strerror(status), (int)status);
+./src/io/bmi/bmi_gm/bmi-gm.c:	gossip_err("Sending from %s to %s\n", gm_host_name,
+./src/io/bmi/bmi_gm/bmi-gm.c:	gossip_err("Error: %s (%d)\n", gm_strerror(status), (int)status);
+./src/io/bmi/bmi_gm/bmi-gm.c:	gossip_err("Sending from %s to %s\n", gm_host_name,
+./src/io/bmi/bmi_gm/bmi-gm.c:	gossip_err("Error: %s (%d)\n", gm_strerror(status), (int)status);
+./src/io/bmi/bmi_gm/bmi-gm.c:	gossip_err("Sending from %s to %s\n", gm_host_name,
+./src/io/bmi/bmi_gm/bmi-gm.c:	gossip_err("Error: bad magic in bmi_gm message.\n");
+./src/io/bmi/bmi_gm/bmi-gm.c:	gossip_err("Error: %s (%d)\n", gm_strerror(status), (int)status);
+./src/io/bmi/bmi_gm/bmi-gm.c:	gossip_err("Sending from %s to %s\n", gm_host_name,
+./src/io/bmi/bmi_gm/bmi-gm.c:	gossip_err("Error: GM return value: %d.\n", (int) status);
+./src/io/bmi/bmi_gm/bmi-gm.c:	gossip_err("Sending from %s to %s\n", gm_host_name,
+./src/io/bmi/bmi_wintcp/socket-collection-epoll.c:        gossip_err("Error: epoll_create() failure: %s.\n", strerror(errno));
+./src/io/bmi/bmi_wintcp/socket-collection-epoll.c:            gossip_err("Error: epoll_ctl() failure: %s.\n", strerror(errno));
+./src/io/bmi/bmi_wintcp/socket-collection.c:            gossip_err("HELLO: updating addr: %p, index: %d, ref: %d.\n",
+./src/io/bmi/bmi_wintcp/bmi-wintcp.c:            gossip_err("Error: tcp_server_init() failure.\n");
+./src/io/bmi/bmi_wintcp/bmi-wintcp.c:        gossip_err("Error: failed to retrieve peer name for client.\n");
+./src/io/bmi/bmi_wintcp/bmi-wintcp.c:            gossip_err("Invalid network specification: %s\n", tcp_wildcard);
+./src/io/bmi/bmi_wintcp/bmi-wintcp.c:        gossip_err("Error: BMI_sockio_new_sock: %d\n", tmp_errno);
+./src/io/bmi/bmi_wintcp/bmi-wintcp.c:        gossip_err("Error: BMI_sockio_bind_sock: %d\n", tmp_errno);
+./src/io/bmi/bmi_wintcp/bmi-wintcp.c:        gossip_err("Error: listen: %s\n", tmp_errno);
+./src/io/bmi/bmi_wintcp/bmi-wintcp.c:        gossip_err("Warning: BMI communication attempted on an "
+./src/io/bmi/bmi_wintcp/bmi-wintcp.c:            gossip_err("Error: message ordering violation;\n");
+./src/io/bmi/bmi_wintcp/bmi-wintcp.c:            gossip_err("Error: message too large for next buffer.\n");
+./src/io/bmi/bmi_wintcp/bmi-wintcp.c:            gossip_err("Error: message ordering violation;\n");
+./src/io/bmi/bmi_wintcp/bmi-wintcp.c:            gossip_err("Error: message too large for next buffer.\n");
+./src/io/bmi/bmi_wintcp/bmi-wintcp.c:            gossip_err("Error: incomplete BMI TCP header after %d seconds, closing connection.\n",
+./src/io/bmi/bmi_wintcp/bmi-wintcp.c:        gossip_err("Error: BMI_sockio_nbrecv: %d\n", tmp_errno);
+./src/io/bmi/bmi_wintcp/bmi-wintcp.c:        gossip_err("Error: bad magic in BMI TCP message.\n");
+./src/io/bmi/bmi_wintcp/bmi-wintcp.c:            gossip_err("Error: message ordering violation;\n");
+./src/io/bmi/bmi_wintcp/bmi-wintcp.c:            gossip_err("Error: message too large for next buffer.\n");
+./src/io/bmi/bmi_wintcp/bmi-wintcp.c:            gossip_err("Error: incoming size: %ld, expected size: %ld\n",
+./src/io/bmi/bmi_wintcp/bmi-wintcp.c:    gossip_err("Rejecting client %s on port %d: %s\n",
+./src/io/bmi/bmi_wintcp/bmi-wintcp.c:                gossip_err("Error: accept: %d (continuing)\n", tmp_errno);
+./src/io/bmi/bmi_wintcp/bmi-wintcp.c:            gossip_err("Error: accept: %d\n", tmp_errno);
+./src/io/bmi/bmi_wintcp/bmi-wintcp.c:            gossip_err("Error: enqueue_operation() or tcp_do_work() returned: %d\n", ret);
+./src/io/bmi/bmi_wintcp/bmi-wintcp.c:            gossip_err("Error: enqueue_operation() returned: %d\n", ret);
+./src/io/bmi/bmi_wintcp/bmi-wintcp.c:        gossip_err("Error: enqueue_operation() returned: %d\n", ret);
+./src/io/bmi/bmi_ib/vapi.c:    gossip_err("Error: %s: %s\n", s, VAPI_strerror(ecode));  /* adds a dot */
+./src/io/bmi/bmi_ib/util.c:    gossip_err("Error: %s.\n", s);
+./src/io/bmi/bmi_ib/util.c:    gossip_err("Error: %s: %s.\n", s, strerror(errno));
+./src/io/bmi/bmi_ib/util.c:    gossip_err("Error: %s: %s.\n", s, strerror(errnum));
+./src/io/bmi/bmi_ib/util.c:    gossip_err("Warning: %s.\n", s);
+./src/io/bmi/bmi_ib/util.c:    gossip_err("Warning: %s: %s.\n", s, strerror(errno));
+./src/io/bmi/bmi_ib/util.c:    gossip_err("Warning: %s: %s.\n", s, strerror(errnum));
+./src/io/trove/trove-mgmt.c:        gossip_err("Error: invalid collection ID requested.\n");
+./src/io/trove/trove-handle-mgmt/trove-extentlist.c:            gossip_err("error removing key %llu\n", llu((*lesser)->first));
+./src/io/trove/trove-handle-mgmt/trove-extentlist.c:            gossip_err("error removing key %llu\n", llu((*greater)->first));
+./src/io/trove/trove-handle-mgmt/trove-handle-mgmt.c:                        gossip_err(
+./src/io/trove/trove-handle-mgmt/trove-handle-mgmt.c:			gossip_err(
+./src/io/trove/trove-dbpf/dbpf-db-bdb.c:            gossip_err("Error: DB_RUNRECOVERY encountered.\n");
+./src/io/trove/trove-dbpf/dbpf-db-bdb.c:        gossip_err("DBPF dspace collection corrupt\n");
+./src/io/trove/trove-dbpf/dbpf-db-bdb.c:        gossip_err("DBPF keyval collection corrupt\n");
+./src/io/trove/trove-dbpf/dbpf-db-bdb.c:        gossip_err("TROVE:DBPF:Berkeley DB %s failed to set_flags", name);
+./src/io/trove/trove-dbpf/dbpf-db-bdb.c:        gossip_err("TROVE:DBPF:Berkeley DB %s failed to open", name);
+./src/io/trove/trove-dbpf/dbpf-keyval.c:                    gossip_err("TROVE:DBPF: keyval dbpf_db_get");
+./src/io/trove/trove-dbpf/dbpf-keyval.c:            gossip_err("TROVE:DBPF: keyval dbpf_db_get");
+./src/io/trove/trove-dbpf/dbpf-keyval.c:            gossip_err("TROVE:DBPF: dbpf_db_put keyval handle info ops");
+./src/io/trove/trove-dbpf/dbpf-keyval.c:            gossip_err("TROVE:DBPF: keyval dbpf_db_get");
+./src/io/trove/trove-dbpf/dbpf-keyval.c:            gossip_err("TROVE:DBPF: dbpf_db_put keyval write list (ret %d)\n", ret);
+./src/io/trove/trove-dbpf/dbpf-keyval.c:            gossip_err("TROVE:DBPF: keyval dbpf_db_get (handle info)");
+./src/io/trove/trove-dbpf/dbpf-keyval.c:            gossip_err("TROVE:DBPF: keyval dbpf_db_get");
+./src/io/trove/trove-dbpf/dbpf-keyval.c:                    gossip_err("TROVE:DBPF: keyval dbpf_db_del");
+./src/io/trove/trove-dbpf/dbpf-keyval.c:            gossip_err("TROVE:DBPF: dbpf_db_put keyval handle info ops");
+./src/io/trove/trove-dbpf/dbpf-bstream.c:        gossip_err("Invalid operation to test against\n");
+./src/io/trove/trove-dbpf/dbpf-bstream.c:            gossip_err("Invalid dbpf_op state found (%d)\n", state);
+./src/io/trove/trove-dbpf/dbpf-bstream.c:                gossip_err("%s: aio_error on block %d, skipping: %s\n",
+./src/io/trove/trove-dbpf/dbpf-db-lmdb.c:        gossip_err("XXX lmdb map full\n");
+./src/io/trove/trove-dbpf/dbpf-db-lmdb.c:        gossip_err("DBPF dspace collection corrupt\n");
+./src/io/trove/trove-dbpf/dbpf-db-lmdb.c:        gossip_err("DBPF keyval collection corrupt\n");
+./src/io/trove/trove-dbpf/dbpf-alt-aio.c:                gossip_err("pthread_join failed: %d (%s), i: %d, tid: %p\n",
+./src/io/trove/trove-dbpf/dbpf-dspace.c:        gossip_err("Error: handle allocator returned a zero handle.\n");
+./src/io/trove/trove-dbpf/dbpf-dspace.c:        gossip_err("Error: dbpf_dspace_create_list() does not support forced handles or empty extent specifier.\n");
+./src/io/trove/trove-dbpf/dbpf-dspace.c:            gossip_err("Error: handle allocator returned a zero handle.\n");
+./src/io/trove/trove-dbpf/dbpf-dspace.c:        gossip_err("tried to remove non-existant dataspace\n");
+./src/io/trove/trove-dbpf/dbpf-dspace.c:        gossip_err("TROVE:DBPF: dbpf_dspace_remove");
+./src/io/trove/trove-dbpf/dbpf-dspace.c:        gossip_err("failed to get a cursor\n");
+./src/io/trove/trove-dbpf/dbpf-dspace.c:            gossip_err("failed to set cursor position at handle: %llu\n",
+./src/io/trove/trove-dbpf/dbpf-dspace.c:            gossip_err("failed to set cursor position at handle: %llu\n",
+./src/io/trove/trove-dbpf/dbpf-dspace.c:            gossip_err("c_get failed on iteration %d\n", i);
+./src/io/trove/trove-dbpf/dbpf-dspace.c:        gossip_err("TROVE:DBPF: dspace dbpf_db_put setattr");
+./src/io/trove/trove-dbpf/dbpf-dspace.c:            gossip_err("TROVE:DBPF: dspace dbpf_db_get");
+./src/io/trove/trove-dbpf/dbpf-dspace.c:        gossip_err("Invalid operation to test against\n");
+./src/io/trove/trove-dbpf/dbpf-dspace.c:            gossip_err("Invalid dbpf_op state found (%d)\n", state);
+./src/io/trove/trove-dbpf/dbpf-dspace.c:            gossip_err("   from op type: %d\n", cur_op->op.type);
+./src/io/trove/trove-dbpf/dbpf-dspace.c:        gossip_err("Invalid operation to test against\n");
+./src/io/trove/trove-dbpf/dbpf-dspace.c:            gossip_err("Invalid operation to testsome against\n");
+./src/io/trove/trove-dbpf/dbpf-dspace.c:        gossip_err("error in dspace create (db_p->get failed).\n");
+./src/io/trove/trove-dbpf/dbpf-dspace.c:        gossip_err("Warning: found old bstream file %s; "
+./src/io/trove/trove-dbpf/dbpf-dspace.c:            gossip_err("Error: trove failed to rename stranded bstream: %s\n",
+./src/io/trove/trove-dbpf/dbpf-dspace.c:        gossip_err("error in dspace create (db_p->put failed).\n");
+./src/io/trove/trove-dbpf/dbpf-open-cache.c:        gossip_err("dbpf_open_cache_initialize: failed [%d]\n", ret);
+./src/io/trove/trove-dbpf/dbpf-open-cache.c:       gossip_err("DBPF_OPEN_CACHE_GET:  pulled EXISTING entry from the used-list with the "
+./src/io/trove/trove-dbpf/dbpf-open-cache.c:       gossip_err("\t\thandle:%llu\n",llu(tmp_entry->handle));
+./src/io/trove/trove-dbpf/dbpf-open-cache.c:       gossip_err("\t\tref-ct:%d \tfd:%d\n",tmp_entry->ref_ct,tmp_entry->fd);
+./src/io/trove/trove-dbpf/dbpf-open-cache.c:           gossip_err("DBPF_OPEN_CACHE_GET:  pulled EXISTING entry from the UNused-list with the "
+./src/io/trove/trove-dbpf/dbpf-open-cache.c:           gossip_err("\t\thandle:%llu\n",llu(tmp_entry->handle));
+./src/io/trove/trove-dbpf/dbpf-open-cache.c:           gossip_err("\t\tref-ct:%d \tfd:%d\n",tmp_entry->ref_ct,tmp_entry->fd);
+./src/io/trove/trove-dbpf/dbpf-open-cache.c:           gossip_err("DBPF_OPEN_CACHE_GET:  pulled FIRST entry from the free-list with the "
+./src/io/trove/trove-dbpf/dbpf-open-cache.c:           gossip_err("\t\t\tSetting remove-flag to zero.\n");
+./src/io/trove/trove-dbpf/dbpf-open-cache.c:           gossip_err("DBPF_OPEN_CACHE_GET:  pulled FIRST entry from the UNused-list with the "
+./src/io/trove/trove-dbpf/dbpf-open-cache.c:           gossip_err("\t\t\tSetting remove-flag to zero.\n");
+./src/io/trove/trove-dbpf/dbpf-open-cache.c:            gossip_err("DBPF_OPEN_CACHE_REMOVE:  BINGO! Entry found in the USED_list when trying to "
+./src/io/trove/trove-dbpf/dbpf-open-cache.c:            gossip_err("\t\tused_list entry:\n");
+./src/io/trove/trove-dbpf/dbpf-open-cache.c:            gossip_err("\t\t\t     handle:%llu\n",llu(tmp_entry->handle));
+./src/io/trove/trove-dbpf/dbpf-open-cache.c:            gossip_err("\t\t\t     ref-ct:%d \tfd:%d\n",tmp_entry->ref_ct,tmp_entry->fd);
+./src/io/trove/trove-dbpf/dbpf-open-cache.c:            gossip_err("\t\t\tremove-flag:%d\n",tmp_entry->remove_flag);
+./src/io/trove/trove-dbpf/dbpf-open-cache.c:            gossip_err("\t\t\t  type:%s\n",open_type);
+./src/io/trove/trove-dbpf/dbpf-open-cache.c:           gossip_err("DBPF_OPEN_CACHE_REMOVE: handle:%llu found in the UNused list with"
+./src/io/trove/trove-dbpf/dbpf-open-cache.c:        gossip_err("Unable to allocate memory for file_struct [%d].\n", errno);
+./src/io/trove/trove-dbpf/dbpf-open-cache.c:        gossip_err("Unable to allocate memory for pathname[%d].\n", errno);
+./src/io/trove/trove-dbpf/dbpf-open-cache.c:                gossip_err("Unable to allocate memory for file_struct [%d].\n", errno);
+./src/io/trove/trove-dbpf/dbpf-open-cache.c:                gossip_err("Unable to allocate memory for pathname[%d].\n", errno);
+./src/io/trove/trove-dbpf/dbpf-open-cache.c:                gossip_err("error doing stat on bstream entry\n");
+./src/io/trove/trove-dbpf/dbpf-open-cache.c:        gossip_err("Unable to open stranded bstream directory [%s] to "
+./src/io/trove/trove-dbpf/dbpf-null-aio.c:                gossip_err("pthread_join failed: %d (%s), i: %d, tid: %p\n",
+./src/io/trove/trove-dbpf/dbpf-mgmt.c:        gossip_err("dbpf_initialize failure: invalid data storage path\n");
+./src/io/trove/trove-dbpf/dbpf-mgmt.c:	gossip_err("dbpf_initialize failure: invalid metadata storage path\n");
+./src/io/trove/trove-dbpf/dbpf-mgmt.c:                gossip_err("dbpf_finalize attr sync: %s\n", strerror(ret));
+./src/io/trove/trove-dbpf/dbpf-mgmt.c:                gossip_err("dbpf_finalize attr close: %s\n", strerror(ret));
+./src/io/trove/trove-dbpf/dbpf-mgmt.c:            gossip_err("dbpf_finalize: attribute database not defined\n");
+./src/io/trove/trove-dbpf/dbpf-mgmt.c:                gossip_err("dbpf_finalize collection sync: %s\n", 
+./src/io/trove/trove-dbpf/dbpf-mgmt.c:                gossip_err("dbpf_finalize collection close: %s\n", 
+./src/io/trove/trove-dbpf/dbpf-mgmt.c:            gossip_err("dbpf_finalize: collections database not defined\n");
+./src/io/trove/trove-dbpf/dbpf-mgmt.c:        gossip_err("Invalid storage name specified\n");
+./src/io/trove/trove-dbpf/dbpf-mgmt.c:        gossip_err("dbpf_collection_create: %s\n", strerror(ret));
+./src/io/trove/trove-dbpf/dbpf-mgmt.c:        gossip_err("dbpf_collection_create: %s\n", strerror(ret));
+./src/io/trove/trove-dbpf/dbpf-mgmt.c:        gossip_err("stat failed on data directory %s\n", path_name);
+./src/io/trove/trove-dbpf/dbpf-mgmt.c:            gossip_err("mkdir failed on data directory %s\n", path_name);
+./src/io/trove/trove-dbpf/dbpf-mgmt.c:		gossip_err("stat failed on metadata directory %s\n", path_name);
+./src/io/trove/trove-dbpf/dbpf-mgmt.c:	    	gossip_err("mkdir failed on metadata directory %s\n", path_name);
+./src/io/trove/trove-dbpf/dbpf-mgmt.c:        gossip_err("mkdir failed on data collection directory %s\n", 
+./src/io/trove/trove-dbpf/dbpf-mgmt.c:	gossip_err("mkdir failed on metadata collection directory %s\n",
+./src/io/trove/trove-dbpf/dbpf-mgmt.c:        gossip_err("failed to stat db file: %s\n", path_name);
+./src/io/trove/trove-dbpf/dbpf-mgmt.c:            gossip_err("dbpf_db_create failed on attrib db %s\n", path_name);
+./src/io/trove/trove-dbpf/dbpf-mgmt.c:        gossip_err("dbpf_db_open failed on attrib db %s\n", path_name);
+./src/io/trove/trove-dbpf/dbpf-mgmt.c:        gossip_err("db_p->put failed writing trove-dbpf version "
+./src/io/trove/trove-dbpf/dbpf-mgmt.c:        gossip_err("db_p->put failed writing initial handle value: %s\n",
+./src/io/trove/trove-dbpf/dbpf-mgmt.c:        gossip_err("failed to stat ds attrib db: %s\n", path_name);
+./src/io/trove/trove-dbpf/dbpf-mgmt.c:            gossip_err("dbpf_db_create failed on %s\n", path_name);
+./src/io/trove/trove-dbpf/dbpf-mgmt.c:        gossip_err("failed to stat keyval db: %s\n", path_name);
+./src/io/trove/trove-dbpf/dbpf-mgmt.c:            gossip_err("dbpf_db_create failed on %s\n", path_name);
+./src/io/trove/trove-dbpf/dbpf-mgmt.c:        gossip_err("mkdir failed on bstream directory %s\n", path_name);
+./src/io/trove/trove-dbpf/dbpf-mgmt.c:            gossip_err("mkdir failed on bstream bucket directory %s\n",
+./src/io/trove/trove-dbpf/dbpf-mgmt.c:        gossip_err("mkdir failed on bstream directory %s\n", path_name);
+./src/io/trove/trove-dbpf/dbpf-mgmt.c:        gossip_err("TROVE:DBPF: dbpf_db_get collection\n");
+./src/io/trove/trove-dbpf/dbpf-mgmt.c:        gossip_err("TROVE:DBPF: dbpf_db_del");
+./src/io/trove/trove-dbpf/dbpf-mgmt.c:        gossip_err("TROVE:DBPF: dbpf_db_sync");
+./src/io/trove/trove-dbpf/dbpf-mgmt.c:        gossip_err("failure removing dataspace attrib db\n");
+./src/io/trove/trove-dbpf/dbpf-mgmt.c:        gossip_err("failure removing keyval db\n");
+./src/io/trove/trove-dbpf/dbpf-mgmt.c:        gossip_err("failure removing collection attrib db\n");
+./src/io/trove/trove-dbpf/dbpf-mgmt.c:                    gossip_err("error doing stat on bstream entry\n");
+./src/io/trove/trove-dbpf/dbpf-mgmt.c:                    gossip_err("failure removing bstream entry\n");
+./src/io/trove/trove-dbpf/dbpf-mgmt.c:        gossip_err("failure removing bstream directory %s\n", path_name);
+./src/io/trove/trove-dbpf/dbpf-mgmt.c:                gossip_err("error doing stat on bstream entry\n");
+./src/io/trove/trove-dbpf/dbpf-mgmt.c:                gossip_err("failure removing bstream entry\n");
+./src/io/trove/trove-dbpf/dbpf-mgmt.c:        gossip_err("failure removing bstream directory %s\n", 
+./src/io/trove/trove-dbpf/dbpf-mgmt.c:		gossip_err("failure removing metadata collection directory\n");
+./src/io/trove/trove-dbpf/dbpf-mgmt.c:        gossip_err("failure removing data collection directory\n");
+./src/io/trove/trove-dbpf/dbpf-mgmt.c:       gossip_err("Trove collection not defined.\n");
+./src/io/trove/trove-dbpf/dbpf-mgmt.c:        gossip_err("db_sync(coll_attr_db): %s\n", strerror(ret));
+./src/io/trove/trove-dbpf/dbpf-mgmt.c:        gossip_err("db_sync(coll_ds_db): %s\n", strerror(ret));
+./src/io/trove/trove-dbpf/dbpf-mgmt.c:        gossip_err("db_sync(coll_keyval_db): %s\n", strerror(ret));
+./src/io/trove/trove-dbpf/dbpf-mgmt.c:            gossip_err("TROVE:DBPF: dbpf_db_get collection\n");
+./src/io/trove/trove-dbpf/dbpf-mgmt.c:        gossip_err("Failed to retrieve collection version: %s\n",
+./src/io/trove/trove-dbpf/dbpf-mgmt.c:        gossip_err("Failed to get the version "
+./src/io/trove/trove-dbpf/dbpf-mgmt.c:        gossip_err("Failed to get the version "
+./src/io/trove/trove-dbpf/dbpf-mgmt.c:        gossip_err("Trove-dbpf metadata format version mismatch!\n");
+./src/io/trove/trove-dbpf/dbpf-mgmt.c:        gossip_err("This collection has version %s\n",
+./src/io/trove/trove-dbpf/dbpf-mgmt.c:        gossip_err("This code understands version %s\n",
+./src/io/trove/trove-dbpf/dbpf-mgmt.c:        gossip_err("%s is not a directory\n", data_path);
+./src/io/trove/trove-dbpf/dbpf-mgmt.c:	gossip_err("%s is not a directory\n", meta_path);
+./src/io/trove/trove-dbpf/dbpf-mgmt.c:        gossip_err("Failure opening attribute database\n");
+./src/io/trove/trove-dbpf/dbpf-mgmt.c:        gossip_err("Failure opening collection database\n");
+./src/io/trove/trove-dbpf/dbpf-thread.c:                gossip_err("INVALID OP STATE FOUND %d (op is %p)\n",
+./src/io/trove/trove-dbpf/dbpf-sync.c:        gossip_err("db SYNC failed: %s\n",
+./src/io/trove/trove-dbpf/dbpf-bstream-direct.c:        gossip_err(
+./src/io/trove/trove-dbpf/dbpf-bstream-direct.c:        gossip_err("%s: failed to lock flock before writing\n", __func__);
+./src/io/trove/trove-dbpf/dbpf-bstream-direct.c:        gossip_err("%s: failed to unlock flock after writing\n", __func__);
+./src/io/trove/trove-dbpf/dbpf-bstream-direct.c:		gossip_err("failed ftruncate of O_DIRECT fd to size: %d\n",
+./src/io/trove/trove-dbpf/dbpf-bstream-direct.c:                gossip_err(
+./src/io/trove/trove-dbpf/dbpf-bstream-direct.c:                gossip_err(
+./src/io/trove/trove-dbpf/dbpf-bstream-direct.c:                gossip_err(
+./src/io/trove/trove-dbpf/dbpf-bstream-direct.c:                gossip_err(
+./src/io/trove/trove-dbpf/dbpf-bstream-direct.c:        gossip_err("dbpf_direct_read: trying to do direct IO but file wasn't "
+./src/io/trove/trove-dbpf/dbpf-bstream-direct.c:        gossip_err("dbpf_direct_read: failed to perform aligned read\n");
+./src/io/trove/trove-dbpf/dbpf-bstream-direct.c:        gossip_err("%s: failed to get size in dspace attr: (error=%d)\n", 
+./src/io/trove/trove-dbpf/dbpf-bstream-direct.c:        gossip_err("%s: failed to get bstream extents from offset/sizes: "
+./src/io/trove/trove-dbpf/dbpf-bstream-direct.c:        gossip_err("%s: failed to get bstream extents from offset/sizes: "
+./src/io/trove/trove-dbpf/dbpf-bstream-direct.c:            gossip_err("%s: direct_locked_read failed: (error=%d)\n", __func__,
+./src/io/trove/trove-dbpf/dbpf-bstream-direct.c:        gossip_err("%s: failed to count extents from stream offset/sizes: "
+./src/io/trove/trove-dbpf/dbpf-bstream-direct.c:        gossip_err("%s: failed to get stream extents from stream offset/sizes: "
+./src/io/trove/trove-dbpf/dbpf-bstream-direct.c:            gossip_err("%s: failed to create grow_bstream_handle_table\n",
+./src/io/trove/trove-dbpf/dbpf-bstream-direct.c:        gossip_err("%s: failed to get dspace attr for bstream: (error=%d)\n",
+./src/io/trove/trove-dbpf/dbpf-bstream-direct.c:            gossip_err("%s: failed to perform direct locked write: "
+./src/io/trove/trove-dbpf/dbpf-bstream-direct.c:            gossip_err("%s: failed to get size from dspace attr: (error=%d)\n",
+./src/io/trove/trove-dbpf/dbpf-bstream-direct.c:                gossip_err("%s: failed to update size in dspace attr: "
+./src/io/trove/trove-dbpf/dbpf-bstream-direct.c:                gossip_err("%s: failed to coalesce size update in dspace "
+./src/io/trove/trove-dbpf/dbpf-bstream-direct.c:        gossip_err("%s: failed to find collection with fsid %d\n", 
+./src/io/trove/trove-dbpf/dbpf-bstream-direct.c:        gossip_err("%s: failed to post direct read op: (error=%d)\n", 
+./src/io/trove/trove-dbpf/dbpf-bstream-direct.c:            gossip_err( "%s: failed to alloc memory\n", __func__);
+./src/io/trove/trove-dbpf/dbpf-attr-cache.c:                gossip_err("****************************************\n");
+./src/io/trove/trove-dbpf/dbpf-attr-cache.c:                gossip_err(
+./src/io/trove/trove-dbpf/dbpf-attr-cache.c:                gossip_err(
+./src/io/trove/trove-dbpf/dbpf-attr-cache.c:                gossip_err("****************************************\n");
+./src/io/description/dist-varstrip.c:    gossip_err("logical_to_physical: todo\n");
+./src/io/description/dist-varstrip.c:    gossip_err("ERROR in varstrip distribution in "
+./src/io/description/dist-varstrip.c:    gossip_err("ERROR in varstrip distribution in "
+./src/io/description/dist-varstrip.c:    gossip_err("ERROR in varstrip distribution in "
+./src/io/description/dist-varstrip.c:            gossip_err("ERROR in varstrip distribution: The strip "
+./src/io/description/dist-varstrip.c:        gossip_err("ERROR in varstrip distribution: There are more "
+./src/io/description/dist-varstrip.c:            gossip_err("ERROR: Parameter 'strips' empty!\n");
+./src/io/description/dist-varstrip.c:                gossip_err("ERROR: Parameter 'strips' too long!\n");
+./src/io/description/dist-twod-stripe.c:        gossip_err("%s: Invalid num_groups/server_ct options: "
+./src/io/description/dist-twod-stripe.c:        gossip_err(
+./src/io/description/dist-twod-stripe.c:        gossip_err("%s: Invalid num_groups/server_ct options: "
+./src/io/description/dist-twod-stripe.c:            gossip_err("ERROR: strip_size param <= 0!\n");
+./src/io/description/dist-twod-stripe.c:            gossip_err("ERROR: num_groups param <= 0!\n");
+./src/io/description/dist-twod-stripe.c:            gossip_err("ERROR: group_strip_factor param <= 0!\n");
+./src/io/description/dist-varstrip-parser.c:        gossip_err("Error: missing manditory parameters to varstrip_dist distribution.\n");
+./src/io/description/dist-varstrip-parser.c:        gossip_err("Error: varstrip_dist distribution parameters too long.\n");
+./src/io/description/dist-varstrip-parser.c:        gossip_err("Error: unable to parse varstrip_dist distribution parameters.\n");
+./src/io/job/job-desc-queue.c:    gossip_err("job_desc_q_dump():\n");
+./src/io/job/job-desc-queue.c:    gossip_err("------------------\n");
+./src/io/job/job-desc-queue.c:	gossip_err("  job id: %ld.\n", (long) tmp_entry->job_id);
+./src/io/job/job-desc-queue.c:	    gossip_err("    type: JOB_BMI.\n");
+./src/io/job/job-desc-queue.c:	    gossip_err("    bmi_id: %ld.\n", (long) tmp_entry->u.bmi.id);
+./src/io/job/job-desc-queue.c:	    gossip_err("    type: JOB_BMI_UNEXP.\n");
+./src/io/job/job-desc-queue.c:	    gossip_err("    type: JOB_TROVE.\n");
+./src/io/job/job-desc-queue.c:	    gossip_err("    type: JOB_FLOW.\n");
+./src/io/job/job-desc-queue.c:	    gossip_err("    type: JOB_REQ_SCHED.\n");
+./src/io/job/job-desc-queue.c:	    gossip_err("    type: JOB_DEV_UNEXP.\n");
+./src/io/job/job-desc-queue.c:	    gossip_err("    type: JOB_REQ_SCHED_TIMER.\n");
+./src/io/job/job-desc-queue.c:	    gossip_err("    type: JOB_NULL.\n");
+./src/io/job/job-desc-queue.c:	    gossip_err("    type: JOB_PRECREATE_POOL.\n");
+./src/io/job/job-time-mgr.c:		gossip_err("%s: job time out: cancelling bmi operation, job_id: %llu.\n", __func__, llu(jd->job_id));
+./src/io/job/job-time-mgr.c:		    gossip_err("%s: job time out: cancelling flow operation, job_id: %llu.\n", __func__, llu(jd->job_id));
+./src/io/job/job-time-mgr.c:		gossip_err("%s: job time out: cancelling trove operation, job_id: %llu.\n", __func__, llu(jd->job_id));
+./src/io/job/thread-mgr.c:            gossip_err("trove_thread_function thread terminating\n");
+./src/io/job/thread-mgr.c:                gossip_err("critical Trove failure (null callback)\n");
+./src/io/job/thread-mgr.c:                gossip_err("trove_thread_function thread terminating\n");
+./src/io/job/thread-mgr.c:            gossip_err("bmi_thread_function thread terminating\n");
+./src/io/job/thread-mgr.c:                gossip_err("critical BMI failure (null callback)\n");
+./src/io/job/thread-mgr.c:                gossip_err("bmi_thread_function thread terminating\n");
+./src/io/job/thread-mgr.c:            gossip_err("Exiting...\n");
+./src/io/job/thread-mgr.c:	gossip_err("THREAD MGR bmi cancel scanning op: %llu.\n", 
+./src/io/job/thread-mgr.c:	    gossip_err("THREAD MGR bmi cancel SKIPPING op: %llu.\n", 
+./src/io/job/thread-mgr.c:	gossip_err("WARNING: BMI cancel failed, proceeding anyway.\n");
+./src/io/job/thread-mgr.c:	gossip_err("THREAD MGR trove cancel scanning op: %llu.\n", 
+./src/io/job/thread-mgr.c:	    gossip_err("THREAD MGR trove cancel SKIPPING op: %llu.\n", 
+./src/io/job/job.c:        gossip_err("Error: job_req_sched_release() failed to locate descriptor.\n");
+./src/io/job/job.c:    gossip_err("Error: Trove support not enabled.\n");
+./src/io/job/job.c:    gossip_err("Error: Trove support not enabled.\n");
+./src/io/job/job.c:    gossip_err("Error: Trove support not enabled.\n");
+./src/io/job/job.c:    gossip_err("Error: Trove support not enabled.\n");
+./src/io/job/job.c:    gossip_err("Error: Trove support not enabled.\n");
+./src/io/job/job.c:    gossip_err("Error: Trove support not enabled.\n");
+./src/io/job/job.c:    gossip_err("Error: Trove support not enabled.\n");
+./src/io/job/job.c:    gossip_err("Error: Trove support not enabled.\n");
+./src/io/job/job.c:    gossip_err("Error: Trove support not enabled.\n");
+./src/io/job/job.c:    gossip_err("Error: Trove support not enabled.\n");
+./src/io/job/job.c:    gossip_err("Error: Trove support not enabled.\n");
+./src/io/job/job.c:    gossip_err("Error: Trove support not enabled.\n");
+./src/io/job/job.c:    gossip_err("Error: Trove support not enabled.\n");
+./src/io/job/job.c:    gossip_err("Error: Trove support not enabled.\n");
+./src/io/job/job.c:    gossip_err("Error: Trove support not enabled.\n");
+./src/io/job/job.c:    gossip_err("Error: Trove support not enabled.\n");
+./src/io/job/job.c:    gossip_err("Error: Trove support not enabled.\n");
+./src/io/job/job.c:    gossip_err("Error: Trove support not enabled.\n");
+./src/io/job/job.c:    gossip_err("Error: Trove support not enabled.\n");
+./src/io/job/job.c:    gossip_err("Error: Trove support not enabled.\n");
+./src/io/job/job.c:    gossip_err("Error: Trove support not enabled.\n");
+./src/io/job/job.c:    gossip_err("Error: Trove support not enabled.\n");
+./src/io/job/job.c:    gossip_err("Error: Trove support not enabled.\n");
+./src/io/job/job.c:    gossip_err("Error: Trove support not enabled.\n");
+./src/io/job/job.c:    gossip_err("Error: Trove support not enabled.\n");
+./src/io/job/job.c:    gossip_err("Error: Trove support not enabled.\n");
+./src/io/job/job.c:    gossip_err("Error: Trove support not enabled.\n");
+./src/io/job/job.c:    gossip_err("%s: error: Trove support not enabled.\n", __func__);
+./src/io/job/job.c:        gossip_err("Error: unable to write all precreated handles to pool.\n");
+./src/io/job/job.c:        gossip_err("Warning: fsck may be needed to recover stranded handles.\n");
+./src/io/job/job.c:        gossip_err("Error: unable to write all precreated handles to pool.\n");
+./src/io/job/job.c:        gossip_err("Warning: fsck may be needed to recover stranded handles.\n");
+./src/io/job/job.c:                gossip_err("Error: get_handles(): unknown server: %s\n",
+./src/io/job/job.c:                gossip_err("Error %s : could not find pool of "
+./src/io/job/job.c:            gossip_err("Error: invalid position given to job_precreate_pool_iterate_handles().\n");
+./src/io/job/job.c:    gossip_err("Error: Trove support not enabled.\n");
+./src/io/dev/pint-dev.c:        gossip_err("Error: must be root to open pvfs2 device.\n");
+./src/io/dev/pint-dev.c:        gossip_err("Error: ioctl() PVFS_DEV_GET_MAGIC failure.\n");
+./src/io/dev/pint-dev.c:        gossip_err("Error: ioctl() PVFS_DEV_GET_MAX_UPSIZE failure.\n");
+./src/io/dev/pint-dev.c:        gossip_err("Error: ioctl() PVFS_DEV_GET_MAX_DOWNSIZE failure.\n");
+./src/io/dev/pint-dev.c:        gossip_err("Error: ioctl() PVFS_DEV_DEBUG failure (kernel debug mask to"
+./src/io/dev/pint-dev.c:      gossip_err("%s: ioctl() PVFS_DEV_UPSTREAM failure :%d:\n", __func__, ret);
+./src/io/dev/pint-dev.c:        gossip_err("%s: ioctl() PVFS_DEV_DEBUG failure.\n", __func__);
+./src/io/dev/pint-dev.c:        gossip_err("%s: ioctl() PVFS_DEV_CLIENT_MASK failure.\n", __func__);
+./src/io/dev/pint-dev.c:          gossip_err("%s: overflow!\n", __func__);
+./src/io/dev/pint-dev.c:        gossip_err("%s: ioctl() PVFS_DEV_CLIENT_STRING failure.\n", __func__);
+./src/io/dev/pint-dev.c:            gossip_err("Error: total device buffer size must be a multiple of system page size.\n");
+./src/io/dev/pint-dev.c:            gossip_err(
+./src/io/dev/pint-dev.c:            gossip_err("Error: descriptor size must be a power of 2 (%llu)\n",
+./src/io/dev/pint-dev.c:           gossip_err("Error: FAILED to mlock shared buffer\n");
+./src/io/dev/pint-dev.c:           gossip_err("Error: FAILED to munlock shared buffer\n");
+./src/io/dev/pint-dev.c:            gossip_err("Error: short message from device "
+./src/io/dev/pint-dev.c:            gossip_err("Error: magic numbers do not match.\n");
+./src/io/dev/pint-dev.c:            gossip_err("Error: protocol versions do not match.\n");
+./src/io/dev/pint-dev.c:            gossip_err("Please check that your pvfs2 module "
+./src/io/dev/pint-dev.c:        gossip_err("%s: list_count:%d:\n", __func__, list_count);
+./src/io/dev/pint-dev.c:        gossip_err("%s: downcall iovec size should be :%d: was :%d:\n",
+./src/io/dev/pint-dev.c:      gossip_err("%s: tried to write :%d: bytes, writev returned :%d:\n",
+./src/io/dev/pint-dev.c:            gossip_err("Error: ioctl PVFS_DEV_REMOUNT_ALL failure\n");
+./src/io/dev/pint-dev.c:        gossip_err("Error: unable to parse device file.\n");
+./src/io/dev/pint-dev.c:        gossip_err("Error: could not setup device %s.\n", dev_name);
+./src/io/dev/pint-dev.c:        gossip_err("Error: did you remember to load the kernel module?\n");
+./src/io/dev/pint-dev.c:            gossip_err("Error: could not stat %s.\n", dev_name);
+./src/io/dev/pint-dev.c:                gossip_err("Error: could not unlink old %s\n", dev_name);
+./src/io/dev/pint-dev.c:        gossip_err("Error: could not create new %s device entry.\n",
+./src/io/dev/pint-dev.c:        gossip_err("Error: could not open %s.\n", targetfile);
+./src/io/flow/flow.c:	gossip_err("Error: requested flow protocol %d, which doesn't appear to be loaded.\n", (int)type);
+./src/io/flow/flowproto-bmi-trove/flowproto-multiqueue.c:    gossip_err("%s: flow proto cancel called on %p\n", __func__, flow_d);
+./src/io/flow/flowproto-bmi-trove/flowproto-multiqueue.c:        gossip_err("%s: I/O error occurred\n", __func__);
+./src/io/flow/flowproto-bmi-trove/flowproto-multiqueue.c:        gossip_err("%s: I/O error occurred\n", __func__);
+./src/io/flow/flowproto-bmi-trove/flowproto-multiqueue.c:            gossip_err("%s: I/O error occurred\n", __func__);
+./src/io/flow/flowproto-bmi-trove/flowproto-multiqueue.c:            gossip_err("%s: I/O error occurred\n", __func__);
+./src/io/flow/flowproto-bmi-trove/flowproto-multiqueue.c:        gossip_err("%s: I/O error occurred\n", __func__);
+./src/io/flow/flowproto-bmi-trove/flowproto-multiqueue.c:            gossip_err("%s: I/O error occurred\n", __func__);
+./src/io/flow/flowproto-bmi-trove/flowproto-multiqueue.c:        gossip_err("%s: I/O error occurred\n", __func__);
+./src/io/flow/flowproto-bmi-trove/flowproto-multiqueue.c:    gossip_err(
+./src/io/flow/flowproto-bmi-trove/flowproto-multiqueue.c:            gossip_err("%s: I/O error occurred\n", __func__);
+./src/io/flow/flowproto-bmi-trove/flowproto-multiqueue.c:        gossip_err("%s: I/O error occurred\n", __func__);
+./src/io/flow/flowproto-bmi-trove/flowproto-multiqueue.c:            gossip_err("%s: I/O error occurred\n", __func__);
+./src/io/flow/flowproto-bmi-trove/flowproto-multiqueue.c:        gossip_err("%s: I/O error occurred\n", __func__);
+./src/io/flow/flowproto-bmi-trove/flowproto-multiqueue.c:        gossip_err("%s: I/O error occurred\n", __func__);
+./src/io/flow/flowproto-bmi-trove/flowproto-multiqueue.c:        gossip_err("%s: I/O error occurred\n", __func__);
+./src/io/flow/flowproto-bmi-trove/flowproto-multiqueue.c:        gossip_err("%s: I/O error occurred\n", __func__);
+./src/io/flow/flowproto-bmi-trove/flowproto-multiqueue.c:        gossip_err("%s: flow proto error cleanup started on %p: %s\n",
+./src/io/flow/flowproto-bmi-trove/flowproto-multiqueue.c:        gossip_err("%s: flow proto %p canceled %d operations, will clean up.\n",
+./src/io/flow/flowproto-bmi-trove/flowproto-multiqueue.c:        gossip_err("%s: flow proto %p error cleanup finished: %s\n",
+./src/io/flow/flowproto-bmi-trove/flowproto-multiqueue.c:                gossip_err("WARNING: BMI thread mgr cancel failed, "
+./src/io/flow/flowproto-bmi-trove/flowproto-multiqueue.c:                    gossip_err("WARNING: Trove thread mgr cancel "
+./src/io/flow/flowproto-dump-offsets/flowproto-dump-offsets.c:    gossip_err("DUMP OFFSETS %p: MEMORY to BMI.\n", flow_d);
+./src/io/flow/flowproto-dump-offsets/flowproto-dump-offsets.c:    gossip_err("*********************************************\n");
+./src/io/flow/flowproto-dump-offsets/flowproto-dump-offsets.c:	gossip_err("DUMP OFFSETS %p: PINT_Process_request().\n",
+./src/io/flow/flowproto-dump-offsets/flowproto-dump-offsets.c:	gossip_err("DUMP OFFSETS %p: bytes: %ld, segs: %ld\n",
+./src/io/flow/flowproto-dump-offsets/flowproto-dump-offsets.c:	    gossip_err(
+./src/io/flow/flowproto-dump-offsets/flowproto-dump-offsets.c:    gossip_err("DUMP OFFSETS %p: BMI to MEMORY.\n", flow_d);
+./src/io/flow/flowproto-dump-offsets/flowproto-dump-offsets.c:    gossip_err("*********************************************\n");
+./src/io/flow/flowproto-dump-offsets/flowproto-dump-offsets.c:	gossip_err("DUMP OFFSETS %p: PINT_Process_request().\n",
+./src/io/flow/flowproto-dump-offsets/flowproto-dump-offsets.c:	gossip_err("DUMP OFFSETS %p: bytes: %ld, segs: %ld\n",
+./src/io/flow/flowproto-dump-offsets/flowproto-dump-offsets.c:	    gossip_err(
+./src/io/flow/flowproto-dump-offsets/flowproto-dump-offsets.c:    gossip_err("DUMP OFFSETS %p: BMI to TROVE.\n", flow_d);
+./src/io/flow/flowproto-dump-offsets/flowproto-dump-offsets.c:    gossip_err("*********************************************\n");
+./src/io/flow/flowproto-dump-offsets/flowproto-dump-offsets.c:	gossip_err("DUMP OFFSETS %p: PINT_Process_request().\n",
+./src/io/flow/flowproto-dump-offsets/flowproto-dump-offsets.c:	gossip_err("DUMP OFFSETS %p: bytes: %ld, segs: %ld\n",
+./src/io/flow/flowproto-dump-offsets/flowproto-dump-offsets.c:	    gossip_err(
+./src/io/flow/flowproto-dump-offsets/flowproto-dump-offsets.c:    gossip_err("DUMP OFFSETS %p: TROVE to BMI.\n", flow_d);
+./src/io/flow/flowproto-dump-offsets/flowproto-dump-offsets.c:    gossip_err("*********************************************\n");
+./src/io/flow/flowproto-dump-offsets/flowproto-dump-offsets.c:	gossip_err("DUMP OFFSETS %p: PINT_Process_request().\n",
+./src/io/flow/flowproto-dump-offsets/flowproto-dump-offsets.c:	gossip_err("DUMP OFFSETS %p: bytes: %ld, segs: %ld\n",
+./src/io/flow/flowproto-dump-offsets/flowproto-dump-offsets.c:	    gossip_err(
+./src/server/check.c:            gossip_err("%s: null ACL buffer\n", __func__);
+./src/server/check.c:            gossip_err("%s: no groups or PVFS_ATTR_COMMON_GID not set\n", 
+./src/server/check.c:        gossip_err("%s: permission check for operation with no permission "
+./src/server/check.c:                    gossip_err("%s: could not retrieve parent/metafile handle "
+./src/server/check.c:                        gossip_err("%s: could not retrieve parent handle from "
+./src/server/check.c:                 gossip_err("%s: attempted to perform a %s operation on target "
+./src/server/check.c:        gossip_err("%s: invalid mask\n", __func__);
+./src/server/check.c:        gossip_err("%s: invalid argument\n", __func__);
+./src/server/check.c:        gossip_err("Warning: seteattr operation with no keys\n");
+./src/server/pvfs2-server.c:        gossip_err("Error: Please check your config files.\n");
+./src/server/pvfs2-server.c:        gossip_err("Error: Server aborting.\n");
+./src/server/pvfs2-server.c:        gossip_err("Error: Invalid configuration; aborting.\n");
+./src/server/pvfs2-server.c:        gossip_err("Error: failed to allocate arrays for "
+./src/server/pvfs2-server.c:        gossip_err("Error: Could not initialize server; aborting.\n");
+./src/server/pvfs2-server.c:        gossip_err("Error: failed to write pid file.\n");
+./src/server/pvfs2-server.c:            gossip_err("error opening log file %s\n",
+./src/server/pvfs2-server.c:            gossip_err("Error: failed to reopen stdin.\n");
+./src/server/pvfs2-server.c:            gossip_err("Error: failed to reopen stdout.\n");
+./src/server/pvfs2-server.c:            gossip_err("Error: failed to reopen stderr.\n");
+./src/server/pvfs2-server.c:            gossip_err("error opening log file %s\n",
+./src/server/pvfs2-server.c:        gossip_err("Error: Could not start server; aborting.\n");
+./src/server/pvfs2-server.c:        gossip_err("Error: Could not initialize security module; "
+./src/server/pvfs2-server.c:        gossip_err("Error: Could not initialize capability cache;"
+./src/server/pvfs2-server.c:        gossip_err("Error: Could not initialize credential cache;"
+./src/server/pvfs2-server.c:        gossip_err("Error: Could not initialize certificate cache;"
+./src/server/pvfs2-server.c:        gossip_err("Warning: could not cache CA certificate: %d.\n", ret);
+./src/server/pvfs2-server.c:        gossip_err("Error: Could not initialize server subsystems\n");
+./src/server/pvfs2-server.c:            gossip_err("Error posting unexpected recv\n");
+./src/server/pvfs2-server.c:            gossip_err("Failed to create pid file %s: %s\n",
+./src/server/pvfs2-server.c:        gossip_err("cannot change working directory to \"/\" "
+./src/server/pvfs2-server.c:            gossip_err("error in fork() system call (errno = %x). "
+./src/server/pvfs2-server.c:            gossip_err("error in setsid() system call.  aborting.\n");
+./src/server/pvfs2-server.c:            gossip_err("Error initializing event interface.\n");
+./src/server/pvfs2-server.c:        gossip_err("Error initializing distribution interface.\n");
+./src/server/pvfs2-server.c:        gossip_err("PINT_encode_initialize() failed.\n");
+./src/server/pvfs2-server.c:        gossip_err("Error initializing cached_config interface.\n");
+./src/server/pvfs2-server.c:        gossip_err("\n***********************************************\n");
+./src/server/pvfs2-server.c:        gossip_err("Invalid Storage Space: %s or %s\n\n",
+./src/server/pvfs2-server.c:        gossip_err("Storage initialization failed.  The most "
+./src/server/pvfs2-server.c:        gossip_err("\n***********************************************\n");
+./src/server/pvfs2-server.c:            gossip_err("Error setting filesystem configuration in Trove\n");
+./src/server/pvfs2-server.c:            gossip_err("Error setting directio threads num\n");
+./src/server/pvfs2-server.c:            gossip_err("Error setting directio ops per queue\n");
+./src/server/pvfs2-server.c:            gossip_err("Error setting directio threads num\n");
+./src/server/pvfs2-server.c:            gossip_err("Error initializing trove for filesystem %s\n",
+./src/server/pvfs2-server.c:            gossip_err("Error: configuration file does not match storage collection.\n");
+./src/server/pvfs2-server.c:            gossip_err("   storage file fs_id: %d\n", (int)orig_fsid);
+./src/server/pvfs2-server.c:            gossip_err("   config  file fs_id: %d\n", (int)cur_fs->coll_id);
+./src/server/pvfs2-server.c:            gossip_err("Warning: This most likely means that the configuration\n");
+./src/server/pvfs2-server.c:            gossip_err("   files have been regenerated without destroying and\n");
+./src/server/pvfs2-server.c:            gossip_err("   recreating the corresponding storage collection.\n");
+./src/server/pvfs2-server.c:            gossip_err("Error: Invalid handle range for host %s "
+./src/server/pvfs2-server.c:                gossip_err("Error initializing trove context\n");
+./src/server/pvfs2-server.c:                gossip_err("Error setting handle timeout\n");
+./src/server/pvfs2-server.c:                    gossip_err("Error setting attr cache keywords\n");
+./src/server/pvfs2-server.c:                    gossip_err("Error setting attr cache size\n");
+./src/server/pvfs2-server.c:                    gossip_err("Error setting attr cache max num elems\n");
+./src/server/pvfs2-server.c:                    gossip_err("Error initializing the attr cache\n");
+./src/server/pvfs2-server.c:                gossip_err("Error adding handle range %s to "
+./src/server/pvfs2-server.c:                gossip_err("Error setting coalescing high watermark\n");
+./src/server/pvfs2-server.c:                gossip_err("Error setting coalescing low watermark\n");
+./src/server/pvfs2-server.c:                gossip_err("Error setting coalescing low watermark\n");
+./src/server/pvfs2-server.c:                gossip_err("Error setting trove immediate completion\n");
+./src/server/pvfs2-server.c:        gossip_err("Error opening job context.\n");
+./src/server/pvfs2-server.c:        gossip_err("Error initializing performance counters.\n");
+./src/server/pvfs2-server.c:            gossip_err("Error PINT_perf_set_info (update interval)\n");
+./src/server/pvfs2-server.c:            gossip_err("Error PINT_perf_set_info (update interval)\n");
+./src/server/pvfs2-server.c:            gossip_err("Error PINT_perf_set_info (update history)\n");
+./src/server/pvfs2-server.c:            gossip_err("Error PINT_perf_set_info (update history)\n");
+./src/server/pvfs2-server.c:        gossip_err("Error initializing the uid management interface\n");
+./src/server/pvfs2-server.c:        gossip_err("Error initializing precreate pool.\n");
+./src/server/pvfs2-server.c:        gossip_err("PVFS2 server: signal %d, faulty address is %p, " 
+./src/server/pvfs2-server.c:        gossip_err("PVFS2 server: signal %d\n", sig);
+./src/server/pvfs2-server.c:        gossip_err("[bt] %s\n", messages[i]);
+./src/server/pvfs2-server.c:        gossip_err("Error: Please check your config files.\n");
+./src/server/pvfs2-server.c:        gossip_err("Error: SIGHUP unable to update configuration.\n");
+./src/server/pvfs2-server.c:        gossip_err("%s:Changing original bypass_timeout_check(%d) to (%d)\n"
+./src/server/pvfs2-server.c:                gossip_err("Error: SIGHUP unable to update configuration. "
+./src/server/pvfs2-server.c:        gossip_err("SIGSEGV: skipping cleanup; exit now!\n");
+./src/server/pvfs2-server.c:            gossip_err("PVFS2 server got signal %d "
+./src/server/pvfs2-server.c:    gossip_err("Usage: %s: [OPTIONS] <global_config_file> "
+./src/server/pvfs2-server.c:    gossip_err("  -d, --foreground\t"
+./src/server/pvfs2-server.c:    gossip_err("  -f, --mkfs\t\twill cause server to "
+./src/server/pvfs2-server.c:    gossip_err("  -h, --help\t\twill show this message\n");
+./src/server/pvfs2-server.c:    gossip_err("  -r, --rmfs\t\twill cause server to "
+./src/server/pvfs2-server.c:    gossip_err("  -v, --version\t\toutput version information "
+./src/server/pvfs2-server.c:    gossip_err("  -p, --pidfile <file>\twrite process id to file\n");
+./src/server/pvfs2-server.c:    gossip_err("  -a, --alias <alias>\tuse the specified alias for this node\n");
+./src/server/pvfs2-server.c:                    gossip_err("Error: pidfile must be specified with an "
+./src/server/pvfs2-server.c:        gossip_err("Missing config file in command line arguments\n");
+./src/server/pvfs2-server.c:            gossip_err("Failed to get current working directory to create "
+./src/server/pvfs2-server.c:            gossip_err("Config file path greater than %d characters\n",
+./src/server/pvfs2-server.c:            gossip_err("Failure creating absolute path from relative "
+./src/server/pvfs2-server.c:            gossip_err("Failure creating absolute path from relative "
+./src/server/pvfs2-server.c:            gossip_err("Failure copying created full path into configuration "
+./src/server/pvfs2-server.c:            gossip_err("Config file path greater than %d characters\n",
+./src/server/pvfs2-server.c:            gossip_err("Failure copying configuration file path\n");
+./src/server/pvfs2-server.c:        gossip_err("The two config file format is no longer supported.  "
+./src/server/pvfs2-server.c:        gossip_err("WARNING: Found empty posted operation list!\n");
+./src/server/pvfs2-server.c:        gossip_err("Error: server does not implement request type: %d\n",
+./src/server/pvfs2-server.c:        gossip_err("server_perf_start_rollover called with NULL pc\n");
+./src/server/pvfs2-server.c:        gossip_err("server_perf_start_rollover failed to alloc SM\n");
+./src/server/pvfs2-server.c:            gossip_err("Error: %s not found in configuration file.\n", 
+./src/server/pvfs2-server.c:            gossip_err("Error: configuration file is inconsistent.\n");
+./src/server/pvfs2-server.c:            gossip_err("Error: unable to count servers for fsid: %d\n", 
+./src/server/pvfs2-server.c:            gossip_err("Error: unable to allocate book keeping information for "
+./src/server/pvfs2-server.c:            gossip_err("Error: unable retrieve servers for fsid: %d\n", 
+./src/server/pvfs2-server.c:                        gossip_err("Error: precreate_pool_initialize failed to "
+./src/server/pvfs2-server.c:                        gossip_err("Error: precreate_pool_initialize failed to "
+./src/server/pvfs2-server.c:                        gossip_err("Error: precreate_pool_initialize failed to "
+./src/server/pvfs2-server.c:        gossip_err("Error: precreate_pool failed to read fs eattrs.\n");
+./src/server/pvfs2-server.c:        gossip_err("Error: precreate_pool failed to read fs eattrs.\n");
+./src/server/pvfs2-server.c:            gossip_err("Error: PINT_cached_config_get_meta() failure.\n");
+./src/server/pvfs2-server.c:            gossip_err("Error: precreate_pool failed to create pool.\n");
+./src/server/pvfs2-server.c:            gossip_err("Error: failed to record precreate pool handle.\n");
+./src/server/pvfs2-server.c:            gossip_err("Warning: fsck may be needed to recover lost handle.\n");
+./src/common/misc/fsck-utils.c:            gossip_err("Error: failed to retrieve configuration on server %d of %d.\n", 
+./src/common/misc/fsck-utils.c:                gossip_err("Error opening temp file [%s]\n",
+./src/common/misc/fsck-utils.c:                gossip_err("Error: could not write reference configuration.\n"); 
+./src/common/misc/fsck-utils.c:                gossip_err("Error: failed popen() for command: %s\n", cmd);
+./src/common/misc/fsck-utils.c:                gossip_err("Error: failed popen() for command: %s\n", cmd);
+./src/common/misc/fsck-utils.c:                gossip_err("Error: File system config on [%s] doesn't\n",
+./src/common/misc/fsck-utils.c:                gossip_err("   match reference config from [%s]:\n\n%s\n",
+./src/common/misc/fsck-utils.c:            gossip_err("WARNING: unable to remove handle [%llu] from handle list while verifying stranded objects\n",
+./src/common/misc/fsck-utils.c:        gossip_err("Error: unable to get dfile attributes\n");
+./src/common/misc/fsck-utils.c:        gossip_err("Error: dfile has invalid attributes\n");
+./src/common/misc/fsck-utils.c:        gossip_err(
+./src/common/misc/fsck-utils.c:        gossip_err("Error: dfile size [%lld] is invalid.\n",
+./src/common/misc/fsck-utils.c:            gossip_err("WARNING: unable to remove handle [%llu] from \
+./src/common/misc/fsck-utils.c:        gossip_err("Error: metafile has invalid attributes\n");
+./src/common/misc/fsck-utils.c:            gossip_err("Error: metafile dfile [%d] is invalid\n", i);
+./src/common/misc/fsck-utils.c:        gossip_err(
+./src/common/misc/fsck-utils.c:        gossip_err(
+./src/common/misc/fsck-utils.c:        gossip_err("Error: metafile has an invalid number of dfiles [%d]\n",
+./src/common/misc/fsck-utils.c:            gossip_err("WARNING: unable to remove handle [%llu] from handle \
+./src/common/misc/fsck-utils.c:        gossip_err(
+./src/common/misc/fsck-utils.c:                gossip_err("Error: symlink target [%s] is invalid\n",
+./src/common/misc/fsck-utils.c:        gossip_err("Error: symlink missing target attribute\n");
+./src/common/misc/fsck-utils.c:        gossip_err("WARNING: symlink target [%s] uses absolute path\n",
+./src/common/misc/fsck-utils.c:            gossip_err("WARNING: unable to remove handle [%llu] from handle \
+./src/common/misc/fsck-utils.c:        gossip_err("Error: failed to get attributes for dirdata object\n");
+./src/common/misc/fsck-utils.c:        gossip_err("Error: dirdata entry has invalid attributes\n");
+./src/common/misc/fsck-utils.c:        gossip_err(
+./src/common/misc/fsck-utils.c:            gossip_err("WARNING: unable to remove handle [%llu] from \
+./src/common/misc/fsck-utils.c:        gossip_err("Error: directory has invalid attributes\n");
+./src/common/misc/fsck-utils.c:        gossip_err("Error: no memory for dirdata array\n");
+./src/common/misc/fsck-utils.c:        gossip_err("Error: unable to get dirdata array\n");
+./src/common/misc/fsck-utils.c:            gossip_err("Error: directory dirdata is invalid\n");
+./src/common/misc/fsck-utils.c:            gossip_err("Error: could not read directory entries\n");
+./src/common/misc/fsck-utils.c:                    gossip_err("Error: directory entry [%s] is invalid\n",
+./src/common/misc/fsck-utils.c:        gossip_err("Error: directory type [%d] does not \
+./src/common/misc/fsck-utils.c:        gossip_err("Error: directory entry count [%lld] is invalid\n",
+./src/common/misc/fsck-utils.c:        gossip_err(
+./src/common/misc/fsck-utils.c:        gossip_err("Error: directory entry [%s] contains invalid / character \n",
+./src/common/misc/fsck-utils.c:            gossip_err("WARNING: directory entry [%s] contains odd character\n",
+./src/common/misc/fsck-utils.c:        gossip_err("Error: unable to retrieve attributes\n");
+./src/common/misc/fsck-utils.c:        gossip_err("Error: could not resolve handle [%llu] to server\n", 
+./src/common/misc/fsck-utils.c:        gossip_err("Error: could not find matching server for handle [%llu]\n",
+./src/common/misc/fsck-utils.c:        gossip_err("Error: could not find handle [%llu]\n",
+./src/common/misc/pint-perf-counter.c:            gossip_err("Error: PINT_perf_initialize(): key out of order.\n");
+./src/common/misc/pint-perf-counter.c:        gossip_err("Error: PINT_perf_initialize(): no keys specified.\n");
+./src/common/misc/pint-perf-counter.c:        gossip_err("Error: PINT_perf_count(): invalid key.\n");
+./src/common/misc/pint-perf-counter.c:                gossip_err("Error: PINT_perf_count(): invalid op for timer.\n");
+./src/common/misc/pint-perf-counter.c:                gossip_err("Error: PINT_perf_count(): invalid op for timer.\n");
+./src/common/misc/pint-perf-counter.c:                gossip_err("Error: PINT_perf_count(): invalid op for timer.\n");
+./src/common/misc/pint-perf-counter.c:                gossip_err("Error: PINT_perf_count(): invalid op for non-timer.\n");
+./src/common/misc/pint-perf-counter.c:                gossip_err("Error: PINT_perf_count(): sample rolled over.\n");
+./src/common/misc/pint-perf-counter.c:            gossip_err("Error: PINT_perf_count(): invalid op.\n");
+./src/common/misc/pint-perf-counter.c:    gossip_err("COUNT %d %lld was %lld is now %lld\n",
+./src/common/misc/pint-perf-counter.c:        gossip_err("Perf Timer start_time not clean\n");
+./src/common/misc/pint-perf-counter.c:        gossip_err("start time address mismatch key %d\n", key);
+./src/common/misc/pint-perf-counter.c:gossip_err("sample value[%d] = %lld\n",k,pc->sample->value.c[k]);}
+./src/common/misc/pint-util.c:        gossip_err("Error: layout too large to encode in request protocol.\n");
+./src/common/misc/pint-util.c:        gossip_err("Failed to get hostname while attempting to guess "
+./src/common/misc/pint-util.c:        gossip_err("Get user info for (uid=%d) failed."
+./src/common/misc/pint-util.c:      gossip_err("Get members for group (gid=%d) failed."
+./src/common/misc/mkspace.c:            gossip_err("error: storage space %s or %s already "
+./src/common/misc/mkspace.c:            gossip_err("error: storage create failed; aborting!\n");
+./src/common/misc/mkspace.c:	gossip_err("error: trove initialize failed; aborting!\n");
+./src/common/misc/mkspace.c:        gossip_err("Failed to merge the handle range!  Format invalid\n");
+./src/common/misc/mkspace.c:            gossip_err("error: collection seteattr (for root handle) "
+./src/common/misc/mkspace.c:            gossip_err("error: dspace setattr for root handle "
+./src/common/misc/mkspace.c:            gossip_err("error: storage space %s or %s does not "
+./src/common/misc/server-config.c:        gossip_err("Invalid server_configuration_s object\n");
+./src/common/misc/server-config.c:        gossip_err("Server alias not provided for server config\n");
+./src/common/misc/server-config.c:        gossip_err("Error opening config file %s\n",
+./src/common/misc/server-config.c:                gossip_err("Configuration file error. "
+./src/common/misc/server-config.c:        gossip_err("Configuration file error. "
+./src/common/misc/server-config.c:        gossip_err("Configuration file error. "
+./src/common/misc/server-config.c:        gossip_err("Configuration file error. "
+./src/common/misc/server-config.c:        gossip_err("Configuration file error. No flow module specified\n");
+./src/common/misc/server-config.c:        gossip_err("Configuration file error.  "
+./src/common/misc/server-config.c:        gossip_err("Configuration file error.  "
+./src/common/misc/server-config.c:        gossip_err("Configuration file error. No keystore path specified.\n");
+./src/common/misc/server-config.c:        gossip_err("Configuration file error. No server key path "
+./src/common/misc/server-config.c:        gossip_err("Configuration file error. No CA certificate path "
+./src/common/misc/server-config.c:    gossip_err("Error: %s line %ld: %s", configfile->filename,
+./src/common/misc/server-config.c:        gossip_err("Error: File system configuration is invalid!\n");
+./src/common/misc/server-config.c:        gossip_err("WARNING: Forcing TroveSyncMeta to be yes instead of %s\n",
+./src/common/misc/server-config.c:        gossip_err("WARNING: Non-sync mode is NOT supported without "
+./src/common/misc/server-config.c:            gossip_err("WARNING: Overwriting %s with %s\n",
+./src/common/misc/server-config.c:        gossip_err("WARNING: Overwriting %d with %d\n",
+./src/common/misc/server-config.c:        gossip_err("Warning: CredentialTimeoutSecs value invalid (%ld) - "
+./src/common/misc/server-config.c:        gossip_err("Warning: CapabilityTimeoutSecs value invalid (%ld) - "
+./src/common/misc/server-config.c:    gossip_err("%s:When using enhanced security, timeout checks "
+./src/common/misc/server-config.c:        gossip_err("Warning: CredentialCacheTimeoutSecs value invalid (%ld) - "
+./src/common/misc/server-config.c:        gossip_err("Warning: CapabilityCacheTimeoutSecs value invalid (%ld) - "
+./src/common/misc/server-config.c:        gossip_err("Warning: CertificateCacheTimeoutSecs value invalid (%ld) - "
+./src/common/misc/server-config.c:                gossip_err("Invalid host ID for alias %s.\n",
+./src/common/misc/server-config.c:                gossip_err("Failed to create extent list.\n");
+./src/common/misc/server-config.c:        gossip_err("RootHandle (%llu) is NOT within the meta handle "
+./src/common/misc/server-config.c:                gossip_err("Error: failed to alloc %d extents\n",
+./src/common/misc/server-config.c:                gossip_err("Invalid config file %s.  This "
+./src/common/misc/server-config.c:	    gossip_err("Failed to find global config file %s.  This "
+./src/common/misc/server-config.c:        gossip_err("Failed to stat fs config file.  Please make sure that ");
+./src/common/misc/server-config.c:        gossip_err("the file %s\nexists, is not a zero file size, and has\n",
+./src/common/misc/server-config.c:        gossip_err("permissions suitable for opening and reading it.\n");
+./src/common/misc/server-config.c:        gossip_err("Failed to open fs config file %s.\n",
+./src/common/misc/server-config.c:        gossip_err("Failed to allocate %d bytes for caching the fs "
+./src/common/misc/server-config.c:        gossip_err("Failed to read fs config file %s "
+./src/common/misc/server-config.c:        gossip_err("Could not locate fs_conf for fs_id %d\n", fs_id);
+./src/common/misc/server-config.c:                gossip_err("Invalid host ID for alias %s.\n",
+./src/common/misc/server-config.c:                    gossip_err("Failed to create extent list.\n");
+./src/common/misc/server-config.c:                gossip_err("Could not find handle range for host %s\n",
+./src/common/misc/server-config.c:                gossip_err("Please make sure that the host names in "
+./src/common/misc/pvfs2-hint.c:            gossip_err("PINT_hint_encode too many hints !\n");
+./src/common/misc/pvfs2-hint.c:            gossip_err("PINT_hint_decode error ! %d - %s", -ret,
+./src/common/misc/pvfs2-hint.c:            gossip_err("Environment variable PVFS2_HINTS is malformed starting with: %s\n",
+./src/common/misc/pvfs2-hint.c:            gossip_err("Environment variable PVFS2_HINTS is malformed, unknown "
+./src/common/misc/state-machine-fns.c:        gossip_err("SM invoke called on invalid smcb or state\n");
+./src/common/misc/state-machine-fns.c:            gossip_err("SM Action %s:%s returned invalid return code %d (%p)\n",
+./src/common/misc/state-machine-fns.c:        gossip_err("SM next called on invald smcb\n");
+./src/common/misc/state-machine-fns.c:                gossip_err("SM current state or trtbl is invalid "
+./src/common/misc/state-machine-fns.c:	gossip_err("State machine requested not valid\n");
+./src/common/misc/state-machine-fns.c:    gossip_err("State machine not found for operation %d\n",smcb->op);
+./src/common/misc/state-machine-fns.c:        gossip_err("FRAME GET smcb %p index %d target %d -> List empty\n",
+./src/common/misc/state-machine-fns.c:            gossip_err("FRAME GET smcb %p index %d target %d -> Out of range\n",
+./src/common/misc/state-machine-fns.c:            gossip_err("PJMP child state machine failed to start.\n");
+./src/common/misc/pint-malloc.c:        gossip_err("PINT_realloc: realloc fails magic number test\n");
+./src/common/misc/pint-malloc.c:        gossip_err("mem = %p size = %d, emem = %p, esize = %d\n",
+./src/common/misc/tcache.c:        gossip_err("PINT_tcache_finalize called with NULL pointer\n");
+./src/common/misc/pint-hint.c:            gossip_err("Environment variable PVFS2_HINTS is "
+./src/common/misc/errno-mapping.c:        gossip_err("%s", buf);
+./src/common/misc/errno-mapping.c:        gossip_err("%s: %s (error class: %d)\n", text, buf, 
+./src/common/misc/errno-mapping.c:        gossip_err("Warning: non PVFS2 error code (%d):\n", retcode);
+./src/common/misc/errno-mapping.c:        gossip_err("%s: %s\n", text, buf);
+./src/common/misc/pint-event.c:            gossip_err("Unknown event or event group: %s\n", event_strings[i]);
+./src/common/misc/pint-event.c:            gossip_err("Unknown event or event group: %s\n", event_strings[i]);
+./src/common/misc/pvfs2-util.c:                    gossip_err("%s\n", line);
+./src/common/misc/pvfs2-util.c:            gossip_err("%s error: buffer too small (%lu)\n", #func, \
+./src/common/misc/pvfs2-util.c:               gossip_err("Warning: uid %u lookup error: %d (0 = not "
+./src/common/misc/pvfs2-util.c:            gossip_err("Error: uid %s is not a number\n", user);
+./src/common/misc/pvfs2-util.c:            gossip_err("Warning: uid %u lookup error: %d (0 = not found)\n",
+./src/common/misc/pvfs2-util.c:            gossip_err("Error: gid %s is not a number\n", group);
+./src/common/misc/pvfs2-util.c:        gossip_err("Warning: unable to get group list for user %s - using "
+./src/common/misc/pvfs2-util.c:        gossip_err("Warning: unable to get group list for user %s - using "
+./src/common/misc/pvfs2-util.c:        gossip_err("Error: could not find any pvfs2 tabfile entries.\n");
+./src/common/misc/pvfs2-util.c:        gossip_err("Error: tried the following tabfiles:\n");
+./src/common/misc/pvfs2-util.c:            gossip_err("       %s\n", file_list[i]);
+./src/common/misc/pvfs2-util.c:                        gossip_err("Error: could not find any pvfs2 tabfile entries.\n");
+./src/common/misc/pvfs2-util.c:                        gossip_err("Error: tried the following tabfiles:\n");
+./src/common/misc/pvfs2-util.c:                            gossip_err("       %s\n", file_list[j]);
+./src/common/misc/pvfs2-util.c:                        gossip_err("Error: invalid tab file entry: %s\n",
+./src/common/misc/pvfs2-util.c:                        gossip_err("Error: offending tab file: %s\n",
+./src/common/misc/pvfs2-util.c:                gossip_err("Error: FS with id %d is already mounted using"
+./src/common/misc/pvfs2-util.c:                gossip_err("Error: This could indicate that a duplicate fsid"
+./src/common/misc/pvfs2-util.c:                gossip_err("Error: Please check your server configuration.\n");
+./src/common/misc/pvfs2-util.c:        gossip_err("Error: PVFS_util_resolve() input path too long.\n");
+./src/common/misc/pvfs2-util.c:        gossip_err(
+./src/common/misc/pvfs2-util.c:                gossip_err("*** Failed to initialize %d file systems "
+./src/common/misc/pvfs2-util.c:                gossip_err("Continuing execution without remaining "
+./src/common/misc/pvfs2-util.c:    gossip_err("ERROR: could not initialize any file systems "
+./src/common/misc/pvfs2-util.c:        gossip_err("Error: malformed flowproto option in tab file.\n");
+./src/common/misc/pvfs2-util.c:        gossip_err("Error: unrecognized flowproto option: %s\n", flow);
+./src/common/misc/pvfs2-util.c:        gossip_err("Error: %s: malformed encoding option in tab file.\n",
+./src/common/misc/pvfs2-util.c:    gossip_err("Error: %s: unknown encoding type in tab file.\n",
+./src/common/misc/pvfs2-util.c:        gossip_err("Error: %s: malformed num_dfiles option in tab file.\n",
+./src/common/misc/pvfs2-util.c:        gossip_err("Error: %s: malformed num_dfiles option in tab file.\n",
+./src/common/misc/pvfs2-util.c:        gossip_err("Error: PVFS_util_resolve_absolute only"
+./src/common/misc/pvfs2-util.c:                    gossip_err("Error: %s resides on a PVFS2 file system "
+./src/common/misc/pvfs2-util.c:                gossip_err("Error: %s resides on a PVFS2 file system "
+./src/common/misc/pint-cached-config.c:            gossip_err("Error: failed to load handle lookup table.\n");
+./src/common/misc/pint-cached-config.c:        gossip_err("PINT_cached_config_get_next_meta called with "
+./src/common/misc/pint-cached-config.c:        gossip_err("Hash search failed to return configuration.\n");
+./src/common/misc/pint-cached-config.c:            gossip_err("Found end of list of metaservers "
+./src/common/misc/pint-cached-config.c:        gossip_err("Failed to find a file system matching fsid: %d\n",
+./src/common/misc/pint-cached-config.c:        gossip_err("Failed to find a file system matching fsid: %d\n", fsid);
+./src/common/misc/pint-cached-config.c:            gossip_err("The specified datafile layout is larger"
+./src/common/misc/pint-cached-config.c:                    gossip_err("The address specified in the datafile "
+./src/common/misc/pint-cached-config.c:        gossip_err("Unknown datafile mapping algorithm\n");
+./src/common/misc/pint-cached-config.c:        gossip_err("Error: failed to find handle %llu in fs configuration.\n",
+./src/common/misc/pint-cached-config.c:        gossip_err("Error: distribution failure for %d servers "
+./src/common/misc/pint-cached-config.c:        gossip_err("%s: Distribution requires more datafiles(%d) "
+./src/common/misc/pint-cached-config.c:        gossip_err("Error: failed to find handle %llu in fs configuration.\n",
+./src/common/misc/pint-cached-config.c:        gossip_err("Failed to get number of data servers\n");
+./src/common/misc/pint-cached-config.c:        gossip_err("Warning: reducing number of data "
+./src/common/misc/pint-cached-config.c:        gossip_err("Failed to allocate server address list\n");
+./src/common/misc/pint-cached-config.c:        gossip_err("Failed to get IO server addrs from layout\n");
+./src/common/misc/pint-cached-config.c:        gossip_err("Failed to allocate server address list\n");
+./src/common/misc/pint-cached-config.c:                    gossip_err("Error: failed to resolve address of server: %s\n",
+./src/common/misc/pvfs2-win-util.c:                gossip_err(gbuf);
+./src/common/misc/pvfs2-win-util.c:        gossip_err("Error: could not find any pvfs2 tabfile entries.\n");
+./src/common/misc/pvfs2-win-util.c:            gossip_err("Error: tabfile: %s\n", file_list[0]);
+./src/common/misc/pvfs2-win-util.c:            gossip_err("Error: no tabfile specified\n");
+./src/common/misc/pvfs2-win-util.c:                        gossip_err("Error: could not find any pvfs2 tabfile entries.\n");
+./src/common/misc/pvfs2-win-util.c:                        gossip_err("Error: tried the following tabfiles:\n");
+./src/common/misc/pvfs2-win-util.c:                            gossip_err("       %s\n", file_list[j]);
+./src/common/misc/pvfs2-win-util.c:                    gossip_err("Error: invalid tab file entry: %s\n",
+./src/common/misc/pvfs2-win-util.c:                    gossip_err("Error: offending tab file: %s\n",
+./src/common/misc/pvfs2-win-util.c:                gossip_err("Error: FS with id %d is already mounted using"
+./src/common/misc/pvfs2-win-util.c:                gossip_err("Error: This could indicate that a duplicate fsid"
+./src/common/misc/pvfs2-win-util.c:                gossip_err("Error: Please check your server configuration.\n");
+./src/common/misc/pvfs2-win-util.c:        gossip_err("Error: PVFS_util_resolve() input path too long.\n");
+./src/common/misc/pvfs2-win-util.c:        gossip_err(
+./src/common/misc/pvfs2-win-util.c:                gossip_err("*** Failed to initialize %d file systems "
+./src/common/misc/pvfs2-win-util.c:                gossip_err("Continuing execution without remaining "
+./src/common/misc/pvfs2-win-util.c:    gossip_err("ERROR: could not initialize any file systems "
+./src/common/misc/pvfs2-win-util.c:        gossip_err("Error: malformed flowproto option in tab file.\n");
+./src/common/misc/pvfs2-win-util.c:        gossip_err("Error: unrecognized flowproto option: %s\n", flow);
+./src/common/misc/pvfs2-win-util.c:        gossip_err("Error: %s: malformed encoding option in tab file.\n",
+./src/common/misc/pvfs2-win-util.c:        gossip_err("Error: %s: unknown encoding type in tab file.\n",
+./src/common/misc/pvfs2-win-util.c:        gossip_err("Error: %s: malformed num_dfiles option in tab file.\n",
+./src/common/misc/pvfs2-win-util.c:        gossip_err("Error: %s: malformed num_dfiles option in tab file.\n",
+./src/common/misc/pvfs2-win-util.c:                    gossip_err("Error: %s resides on a PVFS2 file system "
+./src/common/misc/pvfs2-win-util.c:                gossip_err("Error: %s resides on a PVFS2 file system "
+./src/common/mgmt/pint-mgmt.c:            gossip_err("%s: worker_impl->destroy (type: %s) "
+./src/common/mgmt/pint-mgmt.c:        gossip_err("%s: can't add queue to worker type %s\n",
+./src/common/mgmt/pint-mgmt.c:        gossip_err("%s: operation posted with a queue id (%llu) that isn't "
+./src/common/mgmt/pint-mgmt.c:        gossip_err("%s: failed to get the managed op %llu out of the "
+./src/common/mgmt/pint-worker-queues.c:        gossip_err("%s: cannot post an operation without first adding queues "
+./src/common/mgmt/pint-worker-queues.c:            gossip_err("%s: no queue id was specified and there's more than "
+./src/common/mgmt/pint-worker-queues.c:            gossip_err("%s: failed to find a valid queue matching the "
+./src/common/mgmt/pint-worker-queues.c:        gossip_err("%s: failed to push op onto queue: %llu\n",
+./src/common/mgmt/pint-worker-threaded-queues.c:            gossip_err("%s: no queue id was specified and there's more than "
+./src/common/mgmt/pint-worker-threaded-queues.c:        gossip_err("%s: failed to push op onto queue: %llu\n",
+./src/common/mgmt/pint-worker-threaded-queues.c:            gossip_err("%s: no queue id was specified and there's more than "
+./src/common/mgmt/pint-queue.c:        gossip_err("%s: can't destroy non-empty queue\n", __func__);
+./src/common/mgmt/pint-worker-per-op.c:        gossip_err("%s: failed to service operation: %llu\n",
+./src/common/mgmt/pint-worker-per-op.c:        gossip_err("%s: failed to complete operation: %llu\n",
+./src/common/mgmt/pint-worker-none.c:        gossip_err("%s: failed to push op onto queue: %p\n",
+./src/common/security/capcache.c:        gossip_err("Warning: capability cache: signature size mismatch "
+./src/common/security/pint-cert.c:        gossip_err("Certificate %s has a verification error:\n", buf);
+./src/common/security/pint-cert.c:        gossip_err("Error %d at depth %d: %s\n", err,
+./src/common/security/pint-ldap-map.c:    gossip_err("LDAP error: %s (%d): %s\n", msg, ret, 
+./src/common/security/pint-ldap-map.c:        gossip_err("Could not stat LDAP password file %s: %s\n", path,
+./src/common/security/pint-ldap-map.c:        gossip_err("Warning: LDAP password file %s has Group or Other "
+./src/common/security/pint-ldap-map.c:        gossip_err("Error loading LDAP password file %s: %s\n", path,
+./src/common/security/pint-ldap-map.c:        gossip_err("No LDAP hosts specified\n");
+./src/common/security/pint-ldap-map.c:                gossip_err("%s: LDAP warning: multiple entries for user %s\n",
+./src/common/security/pint-ldap-map.c:                                gossip_err("LDAP error: user %s: attribute %s:"
+./src/common/security/pint-ldap-map.c:                                gossip_err("LDAP error: user %s: attribute %s:"
+./src/common/security/pint-ldap-map.c:                        gossip_err("LDAP error: user %s: no values for "
+./src/common/security/pint-ldap-map.c:                gossip_err("LDAP error: user %s: no LDAP entries (%d)\n", name, ret);
+./src/common/security/pint-ldap-map.c:            gossip_err("LDAP error: user %s: no LDAP results\n", name);
+./src/common/security/pint-ldap-map.c:            gossip_err("LDAP search error: retrying...\n");
+./src/common/security/pint-ldap-map.c:        gossip_err("LDAP error: user %s: no value for %s or %s\n",
+./src/common/security/pint-ldap-map.c:        gossip_err("%s: userid and/or password is NULL or blank\n", __func__);
+./src/common/security/pint-ldap-map.c:                gossip_err("%s: LDAP warning: multiple entries for user %s\n",
+./src/common/security/pint-ldap-map.c:            gossip_err("%s: LDAP result buffer is null\n", __func__);
+./src/common/security/credcache.c:        gossip_err("Warning: credential cache: signature size mismatch "
+./src/common/security/pint-security.c:                gossip_err("Could not find public key for alias '%s'\n", buf);
+./src/common/security/pint-security.c:        gossip_err("Error loading private key: %s: %s\n", path, 
+./src/common/security/pint-security.c:        gossip_err("Error loading private key: %s: %s\n", path, buf);
+./src/common/security/pint-security.c:        gossip_err("Error loading keystore: %s: %s\n", path, 
+./src/common/security/pint-security.c:            gossip_err("Error loading keystore: Issuer must start with "
+./src/common/security/pint-security.c:            gossip_err("Error loading public key: %s %s\n", path, buf);
+./src/common/security/pint-security.c:            gossip_err("Error inserting public key: %s\n", buf);
+./src/common/security/pint-security.c:        gossip_err("%s: parameter error\n", prefix);
+./src/common/security/pint-security.c:            gossip_err("%s: OpenSSL error: %s\n", 
+./src/common/security/pint-security.c:        gossip_err("%s: %s\n", prefix, errstr);
+./src/common/security/pint-uid-map.c:                gossip_err("Warning: could not cache certificate\n");
+./src/common/security/client-capcache.c:        gossip_err("%s: Error initializing"
+./src/common/security/client-capcache.c:        gossip_err("%s: Error: PINT_perf_initialize failure.\n", __func__);
+./src/common/security/client-capcache.c:        gossip_err("client_capcache update: not caching cap because it is "
+./src/common/security/client-capcache.c:                gossip_err("client_capcache update: out of memory\n");
+./src/common/security/client-capcache.c:                gossip_err("client_capcache update: could not copy capability\n");
+./src/common/security/client-capcache.c:                gossip_err("%s: error inserting client_capcache entry: %d\n",
+./src/common/security/client-capcache.c:            gossip_err("%s: out of memory\n", __func__);
+./src/common/security/client-capcache.c:            gossip_err("%s: error inserting client_capcache entry: %d\n",
+./src/common/security/seccache.c:         gossip_err("%s: warning: could not unlock cache lock\n", \
+./src/common/security/seccache.c:        gossip_err("%s: NULL parameter\n", __func__);
+./src/common/security/seccache.c:        gossip_err("%s: no memory (cache struct)\n", __func__);
+./src/common/security/seccache.c:        gossip_err("%s: no memory (hash table)\n", __func__);        
+./src/common/security/seccache.c:    gossip_err("%s: no memory (hash table lists/entries)\n", __func__);
+./src/common/security/seccache.c:        gossip_err("%s: warning: cannot set hash limit after cache "
+./src/common/security/seccache.c:        gossip_err("%s: invalid parameter\n", __func__);
+./src/common/security/seccache.c:        gossip_err("%s: invalid parameter\n", __func__);
+./src/common/gossip/gossip.c:int gossip_err(
+./src/common/gossip/gossip.c:        gossip_err("\t[bt] %s\n", messages[i]);
+./src/apps/admin/pvfs2-get-user-cert.c:    gossip_err("%s\n", msg);
+./src/apps/admin/pvfs2-get-user-cert.c:            gossip_err("OpenSSL error: %s\n", errstr);
+./src/apps/admin/pvfs2-get-user-cert.c:        gossip_err("Error: User cert. path: %s\n", certpath);
+./src/apps/admin/pvfs2-get-user-cert.c:        gossip_err("User private key path: %s\n", keypath);
+./src/apps/admin/pvfs2-get-user-cert.c:            gossip_err("Error: could not retrieve current user: %d\n", 
+./src/apps/kernel/linux/pvfs2-client-core.c:        gossip_err("write_device_response failed (tag=%lld)\n",              \
+./src/apps/kernel/linux/pvfs2-client-core.c:        gossip_err("PVFS2 client: signal %d, faulty address is %p, " 
+./src/apps/kernel/linux/pvfs2-client-core.c:        gossip_err("PVFS2 client: signal %d\n", signum);
+./src/apps/kernel/linux/pvfs2-client-core.c:        gossip_err("[bt] %s\n", messages[i]);
+./src/apps/kernel/linux/pvfs2-client-core.c:    gossip_err("pvfs2-client-core: caught signal %d\n", signum);
+./src/apps/kernel/linux/pvfs2-client-core.c:        gossip_err("*** Failed to remount filesystems!\n");
+./src/apps/kernel/linux/pvfs2-client-core.c:        gossip_err("Configuration server MUST be of the form "
+./src/apps/kernel/linux/pvfs2-client-core.c:    gossip_err(
+./src/apps/kernel/linux/pvfs2-client-core.c:        gossip_err("PINT_get_server_config_struct failed:\n");
+./src/apps/kernel/linux/pvfs2-client-core.c:        gossip_err("PINT_config_get_fs_key failed:\n");
+./src/apps/kernel/linux/pvfs2-client-core.c:        gossip_err("post_iox_request: did not receive any offset-length trailers\n");
+./src/apps/kernel/linux/pvfs2-client-core.c:        gossip_err("post_iox_request: invalid buffer index %d\n",
+./src/apps/kernel/linux/pvfs2-client-core.c:        gossip_err("post_iox_request: PINT_dev_get_mapped_buffer failed\n");
+./src/apps/kernel/linux/pvfs2-client-core.c:        gossip_err("post_iox_request: trailer size (%Ld) "
+./src/apps/kernel/linux/pvfs2-client-core.c:        gossip_err("post_iox_request: mem_sizes allocation failed\n");
+./src/apps/kernel/linux/pvfs2-client-core.c:        gossip_err("post_iox_request: iox_sizes allocation failed\n");
+./src/apps/kernel/linux/pvfs2-client-core.c:        gossip_err("post_iox_request: iox_offsets allocation failed\n");
+./src/apps/kernel/linux/pvfs2-client-core.c:        gossip_err("post_iox_request: op_ids allocation failed\n");
+./src/apps/kernel/linux/pvfs2-client-core.c:        gossip_err("post_iox_request: file_req_a allocation failed\n");
+./src/apps/kernel/linux/pvfs2-client-core.c:        gossip_err("post_iox_request: mem_req_a allocation failed\n");
+./src/apps/kernel/linux/pvfs2-client-core.c:        gossip_err("post_iox_request: iox response allocation failed\n");
+./src/apps/kernel/linux/pvfs2-client-core.c:            gossip_err("post_iox_request: request_contiguous failed mem_sizes"
+./src/apps/kernel/linux/pvfs2-client-core.c:            gossip_err("post_iox_request: request_hindexed failed\n");
+./src/apps/kernel/linux/pvfs2-client-core.c:        gossip_err("*** Lookup failed in %s create failure path: %s\n",
+./src/apps/kernel/linux/pvfs2-client-core.c:        gossip_err("copy_dirents_to_downcall: invalid trailer size %ld\n",
+./src/apps/kernel/linux/pvfs2-client-core.c:        gossip_err("copy_direntplus_to_downcall: invalid trailer size %ld\n",
+./src/apps/kernel/linux/pvfs2-client-core.c:                gossip_err(
+./src/apps/kernel/linux/pvfs2-client-core.c:                    gossip_err("Failed to retrieve root handle for "
+./src/apps/kernel/linux/pvfs2-client-core.c:                    gossip_err(
+./src/apps/kernel/linux/pvfs2-client-core.c:            gossip_err("Completed upcall of unknown type %x!\n",
+./src/apps/kernel/linux/pvfs2-client-core.c:        gossip_err("Error! Short read from device; aborting!\n");
+./src/apps/kernel/linux/pvfs2-client-core.c:            gossip_err(
+./src/apps/kernel/linux/pvfs2-client-core.c:        gossip_err(
+./src/apps/kernel/linux/pvfs2-client-core.c:        gossip_err(
+./src/apps/kernel/linux/pvfs2-client-core.c:                gossip_err("op_id %Ld != completed op id %Ld\n",
+./src/apps/kernel/linux/pvfs2-client-core.c:                    gossip_err("completed op id (%Ld) is weird\n",
+./src/apps/kernel/linux/pvfs2-client-core.c:                    gossip_err(
+./src/apps/kernel/linux/pvfs2-client-core.c:        gossip_err("Error: failed to reopen stdin.\n");
+./src/apps/kernel/linux/pvfs2-client-core.c:        gossip_err("Error: failed to reopen stdout.\n");
+./src/apps/kernel/linux/pvfs2-client-core.c:        gossip_err("Error: failed to reopen stderr.\n");
+./src/apps/kernel/linux/pvfs2-client-core.c:    gossip_err("PVFS Client Daemon Started.  Version %s\n", PVFS2_VERSION);
+./src/apps/kernel/linux/pvfs2-client-core.c:            gossip_err("%s: acache PINT_perf_set_info (history_size).\n",
+./src/apps/kernel/linux/pvfs2-client-core.c:        gossip_err("%s: PINT_acache_get_pc() returned NULL.\n",
+./src/apps/kernel/linux/pvfs2-client-core.c:            gossip_err("%s: ncache PINT_perf_set_info (history_size).\n",
+./src/apps/kernel/linux/pvfs2-client-core.c:        gossip_err("%s: PINT_ncache_get_pc() returned NULL.\n",
+./src/apps/kernel/linux/pvfs2-client-core.c:            gossip_err("%s: client_capcache PINT_perf_set_info (history_size).\n",
+./src/apps/kernel/linux/pvfs2-client-core.c:        gossip_err("%s: PINT_client_capcache_get_pc() returned NULL.\n",
+./src/apps/kernel/linux/pvfs2-client-core.c:        gossip_err("Cannot create remount thread!");
+./src/apps/kernel/linux/pvfs2-client-core.c:	gossip_err("Failed to process vfs requests!\n");
+./src/apps/kernel/linux/pvfs2-client-core.c:    gossip_err("pvfs2-client-core shutting down.\n");
+./src/apps/kernel/linux/pvfs2-client-core.c:                        gossip_err(
+./src/apps/kernel/linux/pvfs2-client-core.c:                        gossip_err(
+./src/apps/kernel/linux/pvfs2-client-core.c:                        gossip_err(
+./src/apps/kernel/linux/pvfs2-client-core.c:                        gossip_err(
+./src/apps/kernel/linux/pvfs2-client-core.c:                        gossip_err(
+./src/apps/kernel/linux/pvfs2-client-core.c:                        gossip_err(
+./src/apps/kernel/linux/pvfs2-client-core.c:                        gossip_err(
+./src/apps/kernel/linux/pvfs2-client-core.c:                        gossip_err(
+./src/apps/kernel/linux/pvfs2-client-core.c:                        gossip_err(
+./src/apps/kernel/linux/pvfs2-client-core.c:                        gossip_err(
+./src/apps/kernel/linux/pvfs2-client-core.c:                        gossip_err(
+./src/apps/kernel/linux/pvfs2-client-core.c:                        gossip_err(
+./src/apps/kernel/linux/pvfs2-client-core.c:                        gossip_err(
+./src/apps/kernel/linux/pvfs2-client-core.c:                        gossip_err(
+./src/apps/kernel/linux/pvfs2-client-core.c:                        gossip_err(
+./src/apps/kernel/linux/pvfs2-client-core.c:                        gossip_err(
+./src/apps/kernel/linux/pvfs2-client-core.c:                        gossip_err(
+./src/apps/kernel/linux/pvfs2-client-core.c:                    gossip_err("Invalid acache timeout value of %d ms,"
+./src/apps/kernel/linux/pvfs2-client-core.c:                    gossip_err("Invalid ncache timeout value of %d ms,"
+./src/apps/kernel/linux/pvfs2-client-core.c:                    gossip_err("Invalid ccache timeout value of %d s,"
+./src/apps/kernel/linux/pvfs2-client-core.c:                  gossip_err("Invalid ccache timeout value of %d s,"
+./src/apps/kernel/linux/pvfs2-client-core.c:                gossip_err("Unrecognized option.  "
+./src/apps/kernel/linux/pvfs2-client-core.c:    gossip_err("%s: n = %d\n", __func__, n);
+./src/apps/kernel/linux/pvfs2-client-core.c:        gossip_err("generate_credential: unable to generate credential\n");
+./src/apps/kernel/linux/pvfs2-client-core.c:        gossip_err("unable to generate client credential for uid, gid "
+./src/apps/kernel/linux/pvfs2-client.c:                gossip_err("Error: failed to reopen stdin.\n");
+./src/apps/kernel/linux/pvfs2-client.c:                gossip_err("Error: failed to reopen stdout.\n");
+./src/apps/kernel/linux/pvfs2-client.c:                gossip_err("Error: failed to reopen stderr.\n");
+./src/apps/kernel/linux/pvfs2-client.c:                gossip_err("pvfs2-client-core with pid %d exited with "
+./src/apps/kernel/linux/pvfs2-client.c:                gossip_err("Child process with pid %d was killed by "
+./src/apps/kernel/linux/pvfs2-client.c:                        gossip_err("Chld process is restarting too quickly "
+./src/client/sysint/acache.c:        gossip_err("%s: Error initializing"
+./src/client/sysint/acache.c:        gossip_err("%s:acache payload not found or attr status invalid.\n",
+./src/client/sysint/acache.c:        gossip_err("%s:acache payload found and attr status okay.\n",
+./src/client/sysint/acache.c:        gossip_err("%s: Error: PINT_perf_initialize failure.\n", __func__);
+./src/client/sysint/finalize.c:            gossip_err("%s: DISPLAYING PERF COUNTERS FOR NCACHE:\n%s",
+./src/client/sysint/finalize.c:            gossip_err("%s: DISPLAYING PERF COUNTERS FOR ACACHE:\n%s",
+./src/client/sysint/finalize.c:            gossip_err("%s: DISPLAYING PERF COUNTERS FOR CAPCACHE\n%s",
+./src/client/sysint/initialize.c:        gossip_err("%s: Detected environment variable --> "
+./src/client/sysint/initialize.c:        gossip_err("Error initializing event interface.\n");
+./src/client/sysint/client-state-machine.c:            gossip_err("Invalid sm control block op %d\n", PINT_smcb_op(tmp_smcb));
+./src/client/sysint/getparent.c:            gossip_err("Invalid dirname (no leading '/')\n");
+./src/client/sysint/getparent.c:        gossip_err("Lookup failed on %s\n",parent_buf);
+./src/client/sysint/getparent.c:	gossip_err("invalid filename: %s\n", entry_name);
+./src/client/sysint/pint-sysint-utils.c:            gossip_err("Invalid dirname (no leading '/')\n");
+./src/client/sysint/pint-sysint-utils.c:        gossip_err("cannot get parent directory of %s\n", filename);
+./src/client/sysint/pint-sysint-utils.c:        gossip_err("Lookup failed on %s\n", buf);
+./src/client/sysint/sys-dist.c:                gossip_err("Error: Distribution does not have parameter: %s\n",
+./src/client/sysint/sys-dist.c:        gossip_err("Error: There was a problem parsing your distribution "
+./src/client/sysint/sys-dist.c:        gossip_err("Error: There was a problem parsing your supplied "
+./src/client/sysint/sys-dist.c:                gossip_err("Error: There was a problem setting the parsed "
+./src/client/sysint/ncache.c:        gossip_err("%s: Error initializing"
+./src/client/sysint/ncache.c:        gossip_err("Error: PINT_perf_initialize failure.\n");
+./src/kernel/linux-2.6/super.c:            gossip_err("*******************************************\n");
+./src/kernel/linux-2.6/super.c:            gossip_err("Please pass the device name in the options "
+./src/kernel/linux-2.6/super.c:            gossip_err("e.g. mount -t pvfs2 pvfs2 /mnt/pvfs2 "
+./src/kernel/linux-2.6/super.c:            gossip_err("*******************************************\n");
+./src/kernel/linux-2.6/super.c:                gossip_err("Cannot parse mount time options (length "
+./src/kernel/linux-2.6/super.c:                    gossip_err("Cannot parse mount time options (option "
+./src/kernel/linux-2.6/super.c:                        gossip_err("Cannot parse mount time option %s "
+./src/kernel/linux-2.6/super.c:                    gossip_err("Error: mount option [%s] is not supported.\n", options[i]);
+./src/kernel/linux-2.6/super.c:        gossip_err("ERROR! Found an initialized inode in pvfs2_read_inode! "
+./src/kernel/linux-2.6/super.c:            gossip_err("Warning! We don't have the reference to the pvfs2 object handle.. using iget4/iget(locked) interface\n");
+./src/kernel/linux-2.6/super.c:        gossip_err("%s:%s:%d "
+./src/kernel/linux-2.6/super.c:        gossip_err("Failed to initialize fsid/fskey hashtable");
+./src/kernel/linux-2.6/super.c:        gossip_err("fskey_table not initialized?\n");
+./src/kernel/linux-2.6/super.c:            gossip_err("pvfs2_sb_get_fs_key: fsid did not match!?\n");
+./src/kernel/linux-2.6/super.c:            gossip_err("Failed to parse mount time options\n");
+./src/kernel/linux-2.6/super.c:        gossip_err("ERROR: retrieved null fs_id or root_handle\n");
+./src/kernel/linux-2.6/super.c:    gossip_err("pvfs2_get_sb: mount request failed with %d\n", ret);
+./src/kernel/linux-2.6/super.c:        gossip_err("Ensure that all pvfs2-servers have the same FS configuration files\n");
+./src/kernel/linux-2.6/super.c:        gossip_err("Look at pvfs2-client-core log file (typically /tmp/pvfs2-client.log) for more details\n");
+./src/kernel/linux-2.6/super.c:            gossip_err("ERROR: Retrieved null fs_id or root_handle\n");
+./src/kernel/linux-2.6/super.c:            gossip_err("Invalid superblock obtained from get_sb_nodev (%p)\n",
+./src/kernel/linux-2.6/super.c:        gossip_err("ERROR: device name not specified.\n");
+./src/kernel/linux-2.6/super.c:    gossip_err("pvfs2_get_sb: mount request failed with %d\n", ret);
+./src/kernel/linux-2.6/super.c:        gossip_err("Ensure that all pvfs2-servers have the "
+./src/kernel/linux-2.6/super.c:        gossip_err("Look at pvfs2-client-core log file "
+./src/kernel/linux-2.6/super.c:                gossip_err("pvfs2_kill_sb: (WARNING) number of inode allocs "
+./src/kernel/linux-2.6/xattr-trusted.c:        gossip_err("pvfs2_xattr_set_trusted: operation not permitted\n");
+./src/kernel/linux-2.6/xattr-trusted.c:        gossip_err("pvfs2_xattr_get_trusted: operation not permitted\n");
+./src/kernel/linux-2.6/waitqueue.c:            gossip_err("pvfs2: %s -- wait timed out; aborting attempt.\n",
+./src/kernel/linux-2.6/waitqueue.c:               gossip_err("%s:The shared memory system has not started in %d seconds after the "
+./src/kernel/linux-2.6/waitqueue.c:        gossip_err("interrupted operation is in a weird state (%d)\n",
+./src/kernel/linux-2.6/devpvfs2-req.c:gossip_err("*****************************************************\n");\
+./src/kernel/linux-2.6/devpvfs2-req.c:gossip_err("PVFS2 Device Error:  You cannot open the device file ");  \
+./src/kernel/linux-2.6/devpvfs2-req.c:gossip_err("\n/dev/%s more than once.  Please make sure that\nthere " \
+./src/kernel/linux-2.6/devpvfs2-req.c:gossip_err("instances of a program using this device\ncurrently "     \
+./src/kernel/linux-2.6/devpvfs2-req.c:gossip_err("For example, you can use the lsof program as follows:\n");\
+./src/kernel/linux-2.6/devpvfs2-req.c:gossip_err("'lsof | grep %s' (run this as root)\n",                   \
+./src/kernel/linux-2.6/devpvfs2-req.c:gossip_err("  open_access_count = %d\n", open_access_count);          \
+./src/kernel/linux-2.6/devpvfs2-req.c:gossip_err("*****************************************************\n")
+./src/kernel/linux-2.6/devpvfs2-req.c:        gossip_err("pvfs2: device cannot be opened in blocking mode\n");
+./src/kernel/linux-2.6/devpvfs2-req.c:                gossip_err("PVFS2 Device Error: Cannot obtain reference "
+./src/kernel/linux-2.6/devpvfs2-req.c:        gossip_err("pvfs2: blocking reads are not supported! (pvfs2-client-core bug)\n");
+./src/kernel/linux-2.6/devpvfs2-req.c:                       gossip_err("BUG:trailer_size is %ld and trailer buf is %p\n",
+./src/kernel/linux-2.6/devpvfs2-req.c:           gossip_err("%s : WARNING : Op is not in WAITING state but in state(%d); tag (%llu) should be (%llu)\n"
+./src/kernel/linux-2.6/devpvfs2-req.c:                    gossip_err("Failed to copy data to user space\n");
+./src/kernel/linux-2.6/devpvfs2-req.c:                gossip_err("Failed to copy data to user space\n");
+./src/kernel/linux-2.6/devpvfs2-req.c:                    gossip_err("Failed to copy trailer to user space\n");
+./src/kernel/linux-2.6/devpvfs2-req.c:                gossip_err("Read buffer for trailer is too small (%ld as opposed to %ld)\n",
+./src/kernel/linux-2.6/devpvfs2-req.c:            gossip_err("cur_op: %p (op_linger %d), (op_linger_tmp %d),"
+./src/kernel/linux-2.6/devpvfs2-req.c:        gossip_err("Error: Number of iov vectors is (%ld) and notrailer count is %d\n",
+./src/kernel/linux-2.6/devpvfs2-req.c:            gossip_err("writev error: Freeing buffer and returning\n");
+./src/kernel/linux-2.6/devpvfs2-req.c:            gossip_err("Failed to copy data from user space\n");
+./src/kernel/linux-2.6/devpvfs2-req.c:        gossip_err("Error: Device magic number does not match.\n");
+./src/kernel/linux-2.6/devpvfs2-req.c:        gossip_err("Error: Device protocol version numbers do not match.\n");
+./src/kernel/linux-2.6/devpvfs2-req.c:        gossip_err("Please check that your pvfs2 module and pvfs2-client versions are consistent.\n");
+./src/kernel/linux-2.6/devpvfs2-req.c:                    gossip_err("Error: trailer size (%ld) is non-zero, no trailer elements though? (%ld)\n",
+./src/kernel/linux-2.6/devpvfs2-req.c:                    gossip_err("writev error: trailer size (%ld) != iov_len (%ld)\n",
+./src/kernel/linux-2.6/devpvfs2-req.c:                        gossip_err("Failed to copy trailer data from user space\n");
+./src/kernel/linux-2.6/devpvfs2-req.c:                    gossip_err("writev: could not vmalloc for trailer!\n");
+./src/kernel/linux-2.6/devpvfs2-req.c:		gossip_err("%s: total:%d: must be at least:%lu:\n",
+./src/kernel/linux-2.6/devpvfs2-req.c:		gossip_err("%s: failed to copy head.\n", __func__);
+./src/kernel/linux-2.6/devpvfs2-req.c:		gossip_err("Error: Device magic number does not match.\n");
+./src/kernel/linux-2.6/devpvfs2-req.c:		gossip_err("WARNING: No one's waiting for tag %llu\n",
+./src/kernel/linux-2.6/devpvfs2-req.c:		gossip_err("%s: got hash link, but no op.\n", __func__);
+./src/kernel/linux-2.6/devpvfs2-req.c:		gossip_err("%s: failed to copy downcall.\n", __func__);
+./src/kernel/linux-2.6/devpvfs2-req.c:		gossip_err("%s: funky write, head_size:%d"
+./src/kernel/linux-2.6/devpvfs2-req.c:		gossip_err("%s: %x operation with trailer.",
+./src/kernel/linux-2.6/devpvfs2-req.c:		gossip_err("%s: %x operation with no trailer.",
+./src/kernel/linux-2.6/devpvfs2-req.c:		gossip_err("%s: failed trailer vmalloc.\n",
+./src/kernel/linux-2.6/devpvfs2-req.c:		gossip_err("%s: failed to copy trailer.\n", __func__);
+./src/kernel/linux-2.6/devpvfs2-req.c:        gossip_err("device ioctl magic numbers don't match! "
+./src/kernel/linux-2.6/devpvfs2-req.c:        gossip_err("Invalid ioctl command number [%d >= %d]\n",
+./src/kernel/linux-2.6/devpvfs2-req.c:            gossip_err("Could not translate dev map\n");
+./src/kernel/linux-2.6/devpvfs2-req.c:        gossip_err("Could not translate dev map structure\n");
+./src/kernel/linux-2.6/dir.c:        gossip_err("Invalid NULL buffer specified in readdir_handle_ctor\n");
+./src/kernel/linux-2.6/dir.c:        gossip_err("Invalid buffer index specified in readdir_handle_ctor\n");
+./src/kernel/linux-2.6/dir.c:        gossip_err("Could not decode readdir from buffer %ld\n", ret);
+./src/kernel/linux-2.6/dir.c:        gossip_err("%s: Client is down.  Aborting readdir call. \n", __func__);
+./src/kernel/linux-2.6/dir.c:       gossip_err("%s: could not decode trailer buffer.\n", __func__);
+./src/kernel/linux-2.6/dir.c:        gossip_err("%s: # bytes decoded (%ld) != trailer size (%ld)\n",
+./src/kernel/linux-2.6/dir.c:        gossip_err("Invalid NULL buffer specified in readdirplus_handle_ctor\n");
+./src/kernel/linux-2.6/dir.c:        gossip_err("Invalid buffer index specified in readdirplus_handle_ctor\n");
+./src/kernel/linux-2.6/dir.c:        gossip_err("Could not decode readdirplus from buffer %ld\n", ret);
+./src/kernel/linux-2.6/dir.c:        gossip_err("pvfs2_readdirplus: invalid pos value! \n\t no re-entrance allowed because of distributed directory structure!! \n");
+./src/kernel/linux-2.6/dir.c:                    gossip_err("pvfs2_readdirplus: readdir_index_get() "
+./src/kernel/linux-2.6/dir.c:                        gossip_err("pvfs2_readdirplus: Could not decode trailer buffer "
+./src/kernel/linux-2.6/dir.c:                        gossip_err("pvfs2_readdirplus: # bytes decoded (%ld) != trailer size (%ld)\n",
+./src/kernel/linux-2.6/dir.c:                                gossip_err("Could not allocate inode\n");
+./src/kernel/linux-2.6/dir.c:                                gossip_err("bad inode obtained from iget_locked\n");
+./src/kernel/linux-2.6/dir.c:                                    gossip_err("copy attributes to inode failed with err %d\n", ret);
+./src/kernel/linux-2.6/dir.c:                            gossip_err("WARNING: filldirplus failed with err %d, will probably causing readdirplus to fail with -EINVAL error!!!\n", ret);
+./src/kernel/linux-2.6/pvfs2-bufmap.c:        gossip_err("pvfs2: ndescs (%d) cannot be < 0.\n", ndescs);
+./src/kernel/linux-2.6/pvfs2-bufmap.c:        gossip_err("pvfs2: could not allocate %d bytes\n",
+./src/kernel/linux-2.6/pvfs2-bufmap.c:        gossip_err("pvfs2: could not allocate %d bytes\n",
+./src/kernel/linux-2.6/pvfs2-bufmap.c:        gossip_err("pvfs2: error: bufmap already initialized.\n");
+./src/kernel/linux-2.6/pvfs2-bufmap.c:        gossip_err("pvfs2 error: memory alignment (front). %p\n",
+./src/kernel/linux-2.6/pvfs2-bufmap.c:        gossip_err("pvfs2 error: memory alignment (back).(%p + %d)\n",
+./src/kernel/linux-2.6/pvfs2-bufmap.c:        gossip_err("pvfs2 error: user provided an oddly "
+./src/kernel/linux-2.6/pvfs2-bufmap.c:        gossip_err("pvfs2 error: bufmap size not page size "
+./src/kernel/linux-2.6/pvfs2-bufmap.c:        gossip_err("pvfs2 error: asked for %d pages, only got %d.\n",
+./src/kernel/linux-2.6/pvfs2-bufmap.c:        gossip_err("pvfs_bufmap_get: not yet "
+./src/kernel/linux-2.6/pvfs2-bufmap.c:        gossip_err("pvfs2: please confirm that pvfs2-client daemon is running.\n");
+./src/kernel/linux-2.6/pvfs2-bufmap.c:        gossip_err("pvfs_bufmap_put: not yet "
+./src/kernel/linux-2.6/pvfs2-bufmap.c:        gossip_err("pvfs2: please confirm that pvfs2-client daemon is running.\n");
+./src/kernel/linux-2.6/pvfs2-bufmap.c:        gossip_err("pvfs_bufmap_copy_to_user: not yet "
+./src/kernel/linux-2.6/pvfs2-bufmap.c:        gossip_err("pvfs2: please confirm that pvfs2-client daemon is running.\n");
+./src/kernel/linux-2.6/pvfs2-bufmap.c:        gossip_err("pvfs_bufmap_copy_to_kernel: not yet "
+./src/kernel/linux-2.6/pvfs2-bufmap.c:        gossip_err("pvfs2: please confirm that pvfs2-client daemon is running.\n");
+./src/kernel/linux-2.6/pvfs2-bufmap.c:        gossip_err("pvfs_bufmap_copy_from_user: not yet "
+./src/kernel/linux-2.6/pvfs2-bufmap.c:        gossip_err("pvfs2: please confirm that pvfs2-client daemon is running.\n");
+./src/kernel/linux-2.6/pvfs2-bufmap.c:        gossip_err("pvfs_bufmap_copy_to_pages: not yet "
+./src/kernel/linux-2.6/pvfs2-bufmap.c:        gossip_err("pvfs2: please confirm that pvfs2-client is running.\n");
+./src/kernel/linux-2.6/pvfs2-bufmap.c:            gossip_err("pvfs_bufmap_copy_to_pages: count cannot exceed "
+./src/kernel/linux-2.6/pvfs2-bufmap.c:            gossip_err("pvfs_bufmap_copy_to_pages: invalid page pointer %d\n",
+./src/kernel/linux-2.6/pvfs2-bufmap.c:        gossip_err("pvfs_bufmap_copy_from_pages: not yet "
+./src/kernel/linux-2.6/pvfs2-bufmap.c:        gossip_err("pvfs2: please confirm that pvfs2-client is running.\n");
+./src/kernel/linux-2.6/pvfs2-bufmap.c:            gossip_err("pvfs_bufmap_copy_from_pages: count cannot exceed number of"
+./src/kernel/linux-2.6/pvfs2-bufmap.c:            gossip_err("pvfs_bufmap_copy_from_pages: invalid page pointer\n");
+./src/kernel/linux-2.6/pvfs2-bufmap.c:        gossip_err("pvfs2_bufmap_copy_iovec_from_user: failed allocating memory\n");
+./src/kernel/linux-2.6/pvfs2-bufmap.c:        gossip_err("pvfs2_bufmap_copy_iovec_from_user: computed total (%zd) is not equal to (%zd)\n",
+./src/kernel/linux-2.6/pvfs2-bufmap.c:            gossip_err("Failed to copy data from user space\n");
+./src/kernel/linux-2.6/pvfs2-bufmap.c:        gossip_err("pvfs2_bufmap_copy_iovec_from_kernel: failed allocating memory\n");
+./src/kernel/linux-2.6/pvfs2-bufmap.c:        gossip_err("pvfs2_bufmap_copy_iovec_from_kernel: computed total (%zd) is not equal to (%zd)\n",
+./src/kernel/linux-2.6/pvfs2-bufmap.c:        gossip_err("pvfs2_bufmap_copy_to_user_iovec: failed allocating memory\n");
+./src/kernel/linux-2.6/pvfs2-bufmap.c:        gossip_err("pvfs2_bufmap_copy_to_user_iovec: computed total (%zd) is less than (%zd)\n",
+./src/kernel/linux-2.6/pvfs2-bufmap.c:            gossip_err("Failed to copy data to user space\n");
+./src/kernel/linux-2.6/pvfs2-bufmap.c:        gossip_err("pvfs2_bufmap_copy_to_kernel_iovec: failed allocating memory\n");
+./src/kernel/linux-2.6/pvfs2-bufmap.c:        gossip_err("pvfs2_bufmap_copy_to_kernel_iovec: computed total (%zd) is less than (%zd)\n",
+./src/kernel/linux-2.6/pvfs2-bufmap.c:        gossip_err("pvfs2_bufmap_copy_to_user: not yet "
+./src/kernel/linux-2.6/pvfs2-bufmap.c:        gossip_err("pvfs2: please confirm that pvfs2-client "
+./src/kernel/linux-2.6/pvfs2-bufmap.c:        gossip_err("pvfs_bufmap_copy_to_user_iovec: failed allocating memory\n");
+./src/kernel/linux-2.6/pvfs2-bufmap.c:        gossip_err("pvfs_bufmap_copy_to_user_task_iovec: computed total (%zd) "
+./src/kernel/linux-2.6/pvfs2-bufmap.c:            gossip_err("%s: failure in copy_to_user, %lu could not be copied\n",
+./src/kernel/linux-2.6/inode.c:            gossip_err("pvfs2_get_custom_inode: PRIVATE "
+./src/kernel/linux-2.6/pvfs2-mod.c:        gossip_err("pvfs2: could not initialize device subsystem %d!\n",
+./src/kernel/linux-2.6/pvfs2-mod.c:	gossip_err("Failed to initialize op hashtable");
+./src/kernel/linux-2.6/namei.c:        gossip_err("pvfs2_rename: directory %s surpassed "
+./src/kernel/linux-2.6/pvfs2-utils.c:                gossip_err("pvfs2:copy_attributes_to_inode: got invalid "
+./src/kernel/linux-2.6/pvfs2-utils.c:        gossip_err("NULL iattr (%p), inode (%p), attrs (%p) in copy_attributes_from_inode!\n",
+./src/kernel/linux-2.6/pvfs2-utils.c:                gossip_err("pvfs2_inode_getattr: failed to copy "
+./src/kernel/linux-2.6/pvfs2-utils.c:        gossip_err("pvfs2_inode_getxattr: bogus NULL pointers\n");
+./src/kernel/linux-2.6/pvfs2-utils.c:        gossip_err("Invalid size (%d) or key length (%d)\n", 
+./src/kernel/linux-2.6/pvfs2-utils.c:        gossip_err("pvfs2_inode_setxattr: bogus values of size(%d), flags(%d)\n", 
+./src/kernel/linux-2.6/pvfs2-utils.c:        gossip_err("pvfs2_inode_setxattr: bogus NULL pointers!\n");
+./src/kernel/linux-2.6/pvfs2-utils.c:		gossip_err("pvfs2_inode_setxattr: bogus key size (%d)\n", 
+./src/kernel/linux-2.6/pvfs2-utils.c:		gossip_err("pvfs2_inode_setxattr: bogus key size (%d)\n",
+./src/kernel/linux-2.6/pvfs2-utils.c:            gossip_err("pvfs2_inode_setxattr: Read-only file system\n");
+./src/kernel/linux-2.6/pvfs2-utils.c:            gossip_err("pvfs2_inode_setxattr: Immutable inode or append-only "
+./src/kernel/linux-2.6/pvfs2-utils.c:	gossip_err("pvfs2_inode_removexattr: xattr key is NULL\n");
+./src/kernel/linux-2.6/pvfs2-utils.c:		gossip_err("pvfs2_inode_removexattr: Invalid key length(%d)\n", 
+./src/kernel/linux-2.6/pvfs2-utils.c:		gossip_err("pvfs2_inode_removexattr: Invalid key length(%d)\n",
+./src/kernel/linux-2.6/pvfs2-utils.c:        gossip_err("pvfs2_inode_listxattr: bogus NULL pointers\n");
+./src/kernel/linux-2.6/pvfs2-utils.c:        gossip_err("Invalid size (%d)\n", (int) size);
+./src/kernel/linux-2.6/pvfs2-utils.c:            gossip_err("*** Failed to allocate pvfs2 file inode\n");
+./src/kernel/linux-2.6/pvfs2-utils.c:            gossip_err("*** Failed to allocate pvfs2 dir inode\n");
+./src/kernel/linux-2.6/pvfs2-utils.c:            gossip_err("*** Failed to allocate pvfs2 symlink inode\n");
+./src/kernel/linux-2.6/pvfs2-utils.c:        gossip_err("pvfs2_create_entry: invalid op_type %d\n", op_type);
+./src/kernel/linux-2.6/pvfs2-utils.c:            gossip_err("perform_handle_checks: length mismatch (%ld) "
+./src/kernel/linux-2.6/pvfs2-utils.c:            gossip_err("perform_handle_checks: mismatched magic number "
+./src/kernel/linux-2.6/pvfs2-utils.c:            gossip_err("perform_handle_checks: FSID did not match "
+./src/kernel/linux-2.6/pvfs2-utils.c:        gossip_err("get_handle: got invalid handle buffer!? "
+./src/kernel/linux-2.6/pvfs2-utils.c:        gossip_err("get_handle: invalid fsid in private buffer "
+./src/kernel/linux-2.6/pvfs2-utils.c:        gossip_err("Could not allocate inode\n");
+./src/kernel/linux-2.6/pvfs2-utils.c:            gossip_err("bad inode obtained from iget_locked\n");
+./src/kernel/linux-2.6/pvfs2-utils.c:            gossip_err("copy_attributes_to_inode failed with err %d\n", err);
+./src/kernel/linux-2.6/pvfs2-utils.c:        gossip_err("pvfs2: error status receieved.\n");
+./src/kernel/linux-2.6/pvfs2-utils.c:        gossip_err("pvfs2: assuming error code is inverted.\n");
+./src/kernel/linux-2.6/pvfs2-utils.c:            gossip_err("pvfs2: warning: "
+./src/kernel/linux-2.6/acl.c:        gossip_err("pvfs2_acl_decode: NULL buffers\n");
+./src/kernel/linux-2.6/acl.c:        gossip_err("pvfs2_acl_decode: Invalid value of size %d "
+./src/kernel/linux-2.6/acl.c:        gossip_err("pvfs2_acl_decode: Could not allocate acl!\n");
+./src/kernel/linux-2.6/acl.c:                gossip_err("pvfs2_acl_decode: bogus value of e_tag obtained %d\n",
+./src/kernel/linux-2.6/acl.c:    gossip_err("pvfs2_acl_decode: returning EINVAL\n");
+./src/kernel/linux-2.6/acl.c:        gossip_err("pvfs2_acl_encode: Could not allocate %d bytes "
+./src/kernel/linux-2.6/acl.c:                gossip_err("pvfs2_acl_encode: bogus value of e_tag %d\n",
+./src/kernel/linux-2.6/acl.c:    gossip_err("pvfs2_acl_encode: returning EINVAL\n");
+./src/kernel/linux-2.6/acl.c:            gossip_err("pvfs2_get_acl: bogus value of type %d\n", type);
+./src/kernel/linux-2.6/acl.c:        gossip_err("pvfs2_get_acl: Could not allocate value ptr\n");
+./src/kernel/linux-2.6/acl.c:        gossip_err("inode %s retrieving acl's failed with error %d\n",
+./src/kernel/linux-2.6/acl.c:        gossip_err("pvfs2_set_acl: disallow on symbolic links\n");
+./src/kernel/linux-2.6/acl.c:                    gossip_err("pvfs2_set_acl: posix_acl_equiv_mode error %d\n", 
+./src/kernel/linux-2.6/acl.c:            gossip_err("pvfs2_set_acl: invalid type %d!\n", type);
+./src/kernel/linux-2.6/acl.c:        gossip_err("pvfs2_get_acl failed with error %d\n", error);
+./src/kernel/linux-2.6/acl.c:        gossip_err("%s invalid name %s\n", __func__, name);
+./src/kernel/linux-2.6/acl.c:        gossip_err("%s: invalid name %s\n", __func__, name);
+./src/kernel/linux-2.6/acl.c:        gossip_err("pvfs2_xattr_set_acl: operation not permitted "
+./src/kernel/linux-2.6/acl.c:            gossip_err("pvfs2_xattr_set_acl: posix_acl_from_xattr returned "
+./src/kernel/linux-2.6/acl.c:                gossip_err("pvfs2_xattr_set_acl: posix_acl_valid returned "
+./src/kernel/linux-2.6/acl.c:        gossip_err("set_acl_access invalid name %s\n", name);
+./src/kernel/linux-2.6/acl.c:        gossip_err("set_acl_default invalid name %s\n", name);
+./src/kernel/linux-2.6/acl.c:                gossip_err("pvfs2_get_acl (default) failed with error %d\n", error);
+./src/kernel/linux-2.6/acl.c:                gossip_err("pvfs2_set_acl (default) directory failed with "
+./src/kernel/linux-2.6/acl.c:            gossip_err("posix_acl_clone failed with ENOMEM\n");
+./src/kernel/linux-2.6/acl.c:        gossip_err("pvfs2_acl_chmod: operation not permitted on symlink!\n");
+./src/kernel/linux-2.6/acl.c:        gossip_err("pvfs2_acl_chmod: get acl (access) failed with %d\n", error);
+./src/kernel/linux-2.6/acl.c:        gossip_err("pvfs2_acl_chmod failed with ENOMEM\n");
+./src/kernel/linux-2.6/acl.c:        gossip_err("pvfs2_permission: cannot write to an immutable file!\n");
+./src/kernel/linux-2.6/file.c:            gossip_err("%s: Failed to copy-in buffers. Please make sure "
+./src/kernel/linux-2.6/file.c:                gossip_err("%s: Failed to copy-out buffers.  Please make sure "
+./src/kernel/linux-2.6/file.c:        gossip_err("copy_from_pagecache: failed allocating memory\n");
+./src/kernel/linux-2.6/file.c:        gossip_err("copy_from_pagecache: user buffer size (%zd) "
+./src/kernel/linux-2.6/file.c:            gossip_err("index cannot exceed number of allocated pages %ld\n", 
+./src/kernel/linux-2.6/file.c:            gossip_err("Failed to copy data to user space\n");
+./src/kernel/linux-2.6/file.c:              gossip_err(
+./src/kernel/linux-2.6/file.c:        gossip_err("Invalid parameters to split_iovecs\n");
+./src/kernel/linux-2.6/file.c:        gossip_err("split_iovecs: Could not allocate memory for %lu bytes!\n", 
+./src/kernel/linux-2.6/file.c:        gossip_err("split_iovecs: Could not allocate memory for %lu bytes!\n", 
+./src/kernel/linux-2.6/file.c:        gossip_err("split_iovecs: Could not allocate memory for %lu bytes!\n", 
+./src/kernel/linux-2.6/file.c:            gossip_err("split_iovecs: exceeded the index limit (%lu)\n", 
+./src/kernel/linux-2.6/file.c:        gossip_err("could not allocate memory\n");
+./src/kernel/linux-2.6/file.c:        gossip_err("could not allocate memory\n");
+./src/kernel/linux-2.6/file.c:            gossip_err("could not allocate page cache\n");
+./src/kernel/linux-2.6/file.c:        gossip_err("could not page_cache_alloc_cold\n");
+./src/kernel/linux-2.6/file.c:            gossip_err("could not allocate memory for issue_pages\n");
+./src/kernel/linux-2.6/file.c:            gossip_err("read_cache_pages failed (%ld != %d)\n",
+./src/kernel/linux-2.6/file.c:        gossip_err("Bogus parameters %d, page_array: %p\n", nr_pages, page_array);
+./src/kernel/linux-2.6/file.c:        gossip_err("Bogus parameters %p\n", page_array[0]);
+./src/kernel/linux-2.6/file.c:            gossip_err("2 pages have the same file offset (index 0 and %d)\n",
+./src/kernel/linux-2.6/file.c:                gossip_err("out of memory allocating uncached_vec\n");
+./src/kernel/linux-2.6/file.c:                    gossip_err("out of memory allocating uncached_xtvec\n");
+./src/kernel/linux-2.6/file.c:                gossip_err("failed with error %zd\n",
+./src/kernel/linux-2.6/file.c:        gossip_err("writes are not handled yet!\n");
+./src/kernel/linux-2.6/file.c:        gossip_err("error in locating pages %ld\n", (long) err);
+./src/kernel/linux-2.6/file.c:       gossip_err("wait_for_missing_io: error in waiting for missing I/O %ld\n"
+./src/kernel/linux-2.6/file.c:        gossip_err("%s: Invalid offset\n", rw->fnstr);
+./src/kernel/linux-2.6/file.c:        gossip_err("%s: Invalid inode\n", rw->fnstr);
+./src/kernel/linux-2.6/file.c:        gossip_err("%s: Invalid pvfs2 inode\n", rw->fnstr);
+./src/kernel/linux-2.6/file.c:        gossip_err("%s: Invalid iovec %p or nr_segs %lu\n",
+./src/kernel/linux-2.6/file.c:            gossip_err("%s: Invalid file pointer\n", rw->fnstr);
+./src/kernel/linux-2.6/file.c:            gossip_err("%s: failed generic argument checks 1.\n", rw->fnstr);
+./src/kernel/linux-2.6/file.c:            gossip_err("%s: failed generic argument checks 2.\n", rw->fnstr);
+./src/kernel/linux-2.6/file.c:            gossip_err("%s: Failed to split iovecs to satisfy larger "
+./src/kernel/linux-2.6/file.c:        gossip_err("Invalid parameters to split_xtvecs\n");
+./src/kernel/linux-2.6/file.c:        gossip_err("split_xtvecs: Could not allocate memory for %lu bytes!\n", 
+./src/kernel/linux-2.6/file.c:        gossip_err("split_xtvecs: Could not allocate memory for %lu bytes!\n", 
+./src/kernel/linux-2.6/file.c:        gossip_err("split_xtvecs: Could not allocate memory for %lu bytes!\n", 
+./src/kernel/linux-2.6/file.c:            gossip_err("split_xtvecs: exceeded the index limit (%lu)\n", 
+./src/kernel/linux-2.6/file.c:        gossip_err("%s: construct_file_offset_trailer "
+./src/kernel/linux-2.6/file.c:              gossip_err("%s: error in %s handle %s, FILE: %s\n  -- returning %ld\n",
+./src/kernel/linux-2.6/file.c:        gossip_err("%s: invalid inode\n", rw->fnstr);
+./src/kernel/linux-2.6/file.c:        gossip_err("%s: Invalid pvfs2 inode\n", rw->fnstr);
+./src/kernel/linux-2.6/file.c:        gossip_err("%s: Invalid iovec %p or nr_segs %lu\n",
+./src/kernel/linux-2.6/file.c:        gossip_err("%s: Invalid xtvec %p or xtnr_segs %lu\n",
+./src/kernel/linux-2.6/file.c:        gossip_err("%s: mem count %ld != stream count %ld\n",
+./src/kernel/linux-2.6/file.c:            gossip_err("%s: Failed to split iovecs to satisfy larger "
+./src/kernel/linux-2.6/file.c:            gossip_err("Failed to split iovecs to satisfy larger "
+./src/kernel/linux-2.6/file.c:        gossip_err("pvfs2_aio_retry: could not "
+./src/kernel/linux-2.6/file.c:        gossip_err("pvfs2_aio_retry: critical error "
+./src/kernel/linux-2.6/file.c:        gossip_err("pvfs2_aio_cancel: Invalid parameters "
+./src/kernel/linux-2.6/file.c:        gossip_err("pvfs2_aio_cancel: cannot retrieve "
+./src/kernel/linux-2.6/file.c:            gossip_err("pvfs2_aio_cancel: kiocb structures "
+./src/kernel/linux-2.6/file.c:            gossip_err("pvfs2_aio_cancel: cannot retreive "
+./src/kernel/linux-2.6/file.c:            gossip_err("%s: failed generic "
+./src/kernel/linux-2.6/file.c:                gossip_err("%s: Failed to copy user buffer %ld. Make sure that pvfs2-client-core"
+./src/kernel/linux-2.6/file.c:            gossip_err("pvfs2_ioctl: the FS_IOC_SETFLAGS only supports setting "
+./src/kernel/linux-2.6/file.c:        gossip_err("pvfs2_file_llseek: invalid inode (NULL)\n");
+./src/kernel/linux-2.6/file.c:            gossip_err("Operation not permitted on read only file system\n");
+./src/kernel/linux-2.6/file.c:    gossip_err("Wrapper called.\n");
+./src/kernel/linux-2.6/xattr-default.c:        gossip_err("pvfs2_xattr_set_default: Returning EPERM for inode %p.\n",
+./src/kernel/linux-2.6/xattr-default.c:        gossip_err("pvfs2_xattr_set_default: Returning EPERM for inode %p.\n",
+./src/kernel/linux-2.6/pvfs2-cache.c:        gossip_err("Cannot create pvfs2_op_cache\n");
+./src/kernel/linux-2.6/pvfs2-cache.c:        gossip_err("Failed to destroy pvfs2_op_cache\n");
+./src/kernel/linux-2.6/pvfs2-cache.c:        gossip_err("op_alloc: kmem_cache_alloc failed!\n");
+./src/kernel/linux-2.6/pvfs2-cache.c:        gossip_err("NULL pointer in op_release\n");
+./src/kernel/linux-2.6/pvfs2-cache.c:        gossip_err("Cannot create pvfs2_dev_req_cache\n");
+./src/kernel/linux-2.6/pvfs2-cache.c:        gossip_err("Failed to destroy pvfs2_devreqcache\n");
+./src/kernel/linux-2.6/pvfs2-cache.c:        gossip_err("Failed to allocate from dev_req_cache\n"); 
+./src/kernel/linux-2.6/pvfs2-cache.c:        gossip_err("NULL pointer passed to dev_req_release\n");
+./src/kernel/linux-2.6/pvfs2-cache.c:        gossip_err("Cannot create pvfs2_inode_cache\n");
+./src/kernel/linux-2.6/pvfs2-cache.c:        gossip_err("pvfs2_inode_cache_finalize: WARNING: releasing unreleased pvfs2 inode objects!\n");
+./src/kernel/linux-2.6/pvfs2-cache.c:        gossip_err("Failed to destroy pvfs2_inode_cache\n");
+./src/kernel/linux-2.6/pvfs2-cache.c:        gossip_err("Failed to allocate pvfs2_inode\n");
+./src/kernel/linux-2.6/pvfs2-cache.c:        gossip_err("NULL pointer in pvfs2_inode_release\n");
+./src/kernel/linux-2.6/pvfs2-cache.c:        gossip_err("Cannot create pvfs2_kiocb_cache!\n");
+./src/kernel/linux-2.6/pvfs2-cache.c:        gossip_err("Failed to destroy pvfs2_devreqcache\n");
+./src/kernel/linux-2.6/pvfs2-cache.c:        gossip_err("kiocb_alloc: kmem_cache_alloc failed!\n");
+./src/kernel/linux-2.6/pvfs2-cache.c:        gossip_err("kiocb_release: kmem_cache_free NULL pointer!\n");

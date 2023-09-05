@@ -1,0 +1,1299 @@
+./druid-handler/src/java/org/apache/hadoop/hive/druid/security/ResponseCookieHandler.java:      LOG.error("Error while processing Cookies from header", e);
+./druid-handler/src/java/org/apache/hadoop/hive/druid/io/DruidRecordWriter.java:      LOG.error(String.format("got interrupted, failed to push  [%,d] segments.", segmentsToPush.size()), e);
+./druid-handler/src/java/org/apache/hadoop/hive/druid/io/DruidRecordWriter.java:      LOG.error(String.format("Failed to push  [%,d] segments.", segmentsToPush.size()), e);
+./druid-handler/src/java/org/apache/hadoop/hive/druid/io/DruidRecordWriter.java:        LOG.error("error cleaning of base persist directory", e);
+./druid-handler/src/java/org/apache/hadoop/hive/druid/DruidStorageHandler.java:      LOG.error("Issues with lifecycle start", e);
+./druid-handler/src/java/org/apache/hadoop/hive/druid/DruidStorageHandler.java:      LOG.error("Exception while trying to create druid segments table", e);
+./druid-handler/src/java/org/apache/hadoop/hive/druid/DruidStorageHandler.java:        LOG.error("Unable to fetch Kafka Supervisor status [%d] full response [%s]",
+./druid-handler/src/java/org/apache/hadoop/hive/druid/DruidStorageHandler.java:      LOG.error("Exception while fetching kafka ingestion spec from druid", e);
+./druid-handler/src/java/org/apache/hadoop/hive/druid/DruidStorageHandler.java:          LOG.error(String.format("Error while checking URL [%s]", input), e);
+./druid-handler/src/java/org/apache/hadoop/hive/druid/DruidStorageHandler.java:          LOG.error(String.format("Error while deleting segment [%s]", dataSegment.getId().toString()), e);
+./druid-handler/src/java/org/apache/hadoop/hive/druid/DruidStorageHandler.java:      LOG.error("Error while committing transaction to druid metadata storage", c);
+./druid-handler/src/java/org/apache/hadoop/hive/druid/DruidStorageHandler.java:      LOG.error("Got Exception while cleaning working directory", e);
+./druid-handler/src/java/org/apache/hadoop/hive/druid/DruidStorageHandler.java:          LOG.error("Exception while deserializing druid query. Explain plan may not have final druid query", e);
+./druid-handler/src/java/org/apache/hadoop/hive/druid/DruidStorageHandlerUtils.java:      LOG.error("URL Malformed  address {}", address);
+./druid-handler/src/java/org/apache/hadoop/hive/druid/DruidStorageHandlerUtils.java:      LOG.error("can not Serialize the Query [{}]", query.toString());
+./druid-handler/src/java/org/apache/hadoop/hive/druid/DruidStorageHandlerUtils.java:      LOG.error(String.format("Error removing dataSource %s", dataSource), e);
+./druid-handler/src/java/org/apache/hadoop/hive/druid/serde/DruidQueryRecordReader.java:        LOG.error("Failure getting results for query[{}] from host[{}] because of [{}]",
+./accumulo-handler/src/test/org/apache/hadoop/hive/accumulo/TestAccumuloDefaultIndexScanner.java:      LOG.error(e.getLocalizedMessage(), e);
+./accumulo-handler/src/java/org/apache/hadoop/hive/accumulo/predicate/AccumuloRangeGenerator.java:      LOG.error(e.getLocalizedMessage(), e);
+./accumulo-handler/src/java/org/apache/hadoop/hive/accumulo/predicate/AccumuloRangeGenerator.java:        LOG.error("Expected Range from {} but got {}", nd, nodeOutput);
+./accumulo-handler/src/java/org/apache/hadoop/hive/accumulo/predicate/AccumuloRangeGenerator.java:        LOG.error("Expected Range from {} but got {}", nd, nodeOutput);
+./accumulo-handler/src/java/org/apache/hadoop/hive/accumulo/mr/AccumuloIndexedOutputFormat.java:              LOG.error("Could not add table", var5);
+./accumulo-handler/src/java/org/apache/hadoop/hive/accumulo/mr/AccumuloIndexedOutputFormat.java:              LOG.error("Could not add index table", var6);
+./accumulo-handler/src/java/org/apache/hadoop/hive/accumulo/mr/AccumuloIndexedOutputFormat.java:            LOG.error("Accumulo security violation creating {}", table, var8);
+./accumulo-handler/src/java/org/apache/hadoop/hive/accumulo/mr/AccumuloIndexedOutputFormat.java:          LOG.error("Accumulo table {} doesn't exist and cannot be created.", table, var5);
+./accumulo-handler/src/java/org/apache/hadoop/hive/accumulo/mr/AccumuloIndexedOutputFormat.java:            LOG.error("Not authorized to write to tables {}", tables);
+./accumulo-handler/src/java/org/apache/hadoop/hive/accumulo/mr/AccumuloIndexedOutputFormat.java:            LOG.error("Constraint violations : {}", var7.getConstraintViolationSummaries().size());
+./accumulo-handler/src/java/org/apache/hadoop/hive/accumulo/AccumuloStorageHandler.java:      LOG.error("Could not instantiate AccumuloSerDeParameters", e);
+./accumulo-handler/src/java/org/apache/hadoop/hive/accumulo/AccumuloStorageHandler.java:      LOG.error("Could not add necessary dependencies for "
+./accumulo-handler/src/java/org/apache/hadoop/hive/accumulo/AccumuloDefaultIndexScanner.java:        LOG.error("Failed to scan index table: " + indexTable, e);
+./kafka-handler/src/java/org/apache/hadoop/hive/kafka/KafkaOutputFormat.java:        LOG.error("Can not construct file system instance", e);
+./kafka-handler/src/java/org/apache/hadoop/hive/kafka/KafkaStorageHandler.java:      LOG.error("Can not fetch Transaction states due [{}]", e.getMessage());
+./kafka-handler/src/java/org/apache/hadoop/hive/kafka/KafkaStorageHandler.java:      LOG.error("Can not fetch build produces due [{}]", e);
+./kafka-handler/src/java/org/apache/hadoop/hive/kafka/KafkaStorageHandler.java:      LOG.error("Commit transaction failed", e);
+./kafka-handler/src/java/org/apache/hadoop/hive/kafka/KafkaStorageHandler.java:        LOG.error("Partial Data Got Commited Some actions need to be Done");
+./kafka-handler/src/java/org/apache/hadoop/hive/kafka/KafkaStorageHandler.java:        committedTx.stream().forEach(key -> LOG.error("Transaction [{}] is an orphen commit", key));
+./kafka-handler/src/java/org/apache/hadoop/hive/kafka/KafkaStorageHandler.java:      LOG.error("Faild to clean Query Working Directory [{}] due to [{}]", queryWorkingDir, e.getMessage());
+./kafka-handler/src/java/org/apache/hadoop/hive/kafka/KafkaInputFormat.java:        LOG.error("can not generate full scan split", e);
+./kafka-handler/src/java/org/apache/hadoop/hive/kafka/KafkaInputFormat.java:          LOG.error("Had issue with trimmer will return full scan ", e);
+./kafka-handler/src/java/org/apache/hadoop/hive/kafka/TransactionalKafkaWriter.java:        LOG.error("Aborting Transaction [{}] cause by ERROR [{}]",
+./kafka-handler/src/java/org/apache/hadoop/hive/kafka/TransactionalKafkaWriter.java:      LOG.error("Closing writer [{}] caused by ERROR [{}]", producer.getTransactionalId(), exception.getMessage());
+./kafka-handler/src/java/org/apache/hadoop/hive/kafka/TransactionalKafkaWriter.java:      LOG.error("Maybe Try to increase [`retry.backoff.ms`] to avoid this error [{}].", e.getMessage());
+./kafka-handler/src/java/org/apache/hadoop/hive/kafka/TransactionalKafkaWriter.java:        LOG.error("Aborting Transaction {} failed due to [{}]", writerIdTopicId, e.getMessage());
+./kafka-handler/src/java/org/apache/hadoop/hive/kafka/TransactionalKafkaWriter.java:        LOG.error("Aborting Transaction [{}] cause by ERROR [{}]", writerIdTopicId, exception.getMessage());
+./kafka-handler/src/java/org/apache/hadoop/hive/kafka/TransactionalKafkaWriter.java:      LOG.error("Closing writer [{}] caused by ERROR [{}]", writerIdTopicId, exception.getMessage());
+./kafka-handler/src/java/org/apache/hadoop/hive/kafka/SimpleKafkaWriter.java:        LOG.error(ACTION_ABORT, getWriterId(), topic, writeSemantic, exception.getMessage());
+./kafka-handler/src/java/org/apache/hadoop/hive/kafka/SimpleKafkaWriter.java:      LOG.error(TIMEOUT_CONFIG_HINT, kafkaException.getMessage());
+./kafka-handler/src/java/org/apache/hadoop/hive/kafka/SimpleKafkaWriter.java:      LOG.error(String.format(ABORT_MSG, writerId, kafkaException.getMessage(), topic, -1L));
+./kafka-handler/src/java/org/apache/hadoop/hive/kafka/SimpleKafkaWriter.java:      LOG.error(ACTION_ABORT, writerId, topic, writeSemantic, kafkaException.getMessage());
+./kafka-handler/src/java/org/apache/hadoop/hive/kafka/SimpleKafkaWriter.java:      LOG.error("Send Exception Aborting write from writerId [{}]", writerId);
+./kafka-handler/src/java/org/apache/hadoop/hive/kafka/KafkaScanTrimmer.java:        LOG.error("Error while looking up offsets for time", e);
+./itests/hive-unit/src/test/java/org/apache/hadoop/hive/hooks/TestHs2Hooks.java:        LOG.error("Error in PostExecHook: " + t, t);
+./itests/hive-unit/src/test/java/org/apache/hadoop/hive/hooks/TestHs2Hooks.java:        LOG.error("Error in PreExecHook: " + t, t);
+./itests/hive-unit/src/test/java/org/apache/hadoop/hive/hooks/TestHs2Hooks.java:        LOG.error("Error in semantic analysis hook preAnalyze: " + t, t);
+./itests/hive-unit/src/test/java/org/apache/hadoop/hive/hooks/TestHs2Hooks.java:        LOG.error("Error in semantic analysis hook postAnalyze: " + t, t);
+./itests/hive-unit/src/test/java/org/apache/hadoop/hive/ql/parse/TestReplicationScenarios.java:                LOG.error("Encountered INSERT event when it was not expected to");
+./itests/hive-unit/src/test/java/org/apache/hadoop/hive/ql/parse/TestReplicationScenarios.java:      LOG.error("Failed to list files in: " + warehouse, e);
+./itests/hive-unit/src/test/java/org/apache/hadoop/hive/metastore/MetastoreTaskThreadAlwaysTestImpl.java:      LOG.error("Task " + TASK_NAME + " interrupted: " + ie.getMessage(), ie);
+./itests/hive-unit/src/test/java/org/apache/hadoop/hive/metastore/RemoteMetastoreTaskThreadTestImpl1.java:      LOG.error("Task " + TASK_NAME + " interrupted: " + ie.getMessage(), ie);
+./itests/hive-unit/src/test/java/org/apache/hadoop/hive/metastore/TestHiveMetastoreTransformer.java:        LOG.error("Creation of a new catalog failed, aborting test");
+./itests/hive-unit/src/test/java/org/apache/hadoop/hive/metastore/TestTenantBasedStorageHierarchy.java:      LOG.error("Creation of a new catalog failed, aborting test");
+./itests/hive-unit/src/test/java/org/apache/hadoop/hive/metastore/RemoteMetastoreTaskThreadTestImpl2.java:      LOG.error("Task " + TASK_NAME + " interrupted: " + ie.getMessage(), ie);
+./itests/hive-unit/src/test/java/org/apache/hive/jdbc/cbo_rp_TestJdbcDriver2.java:            LOG.error("Failed getQueryLog. Error message: " + e.getMessage());
+./itests/hive-unit/src/test/java/org/apache/hive/jdbc/cbo_rp_TestJdbcDriver2.java:            LOG.error("Getting log thread is interrupted. Error message: " + e.getMessage());
+./itests/hive-unit/src/test/java/org/apache/hive/beeline/TestBeelinePasswordOption.java:      LOG.error("Failed due to exception ", ex);
+./itests/hive-unit/src/test/java/org/apache/hive/service/server/TestKillQueryZookeeperManager.java:          LOG.error("Confirmation error", e);
+./itests/util/src/main/java/org/apache/hadoop/hive/ql/QTestUtil.java:      LOG.error("Fail to clean the keys created in test due to the error", e);
+./itests/util/src/main/java/org/apache/hadoop/hive/ql/QTestUtil.java:        LOG.error("Failed during cleanup processLine with code={}. Ignoring", e.getResponseCode());
+./itests/util/src/main/java/org/apache/hadoop/hive/ql/QTestUtil.java:    LOG.error(message);
+./itests/util/src/main/java/org/apache/hadoop/hive/ql/QTestUtil.java:    LOG.error(message);
+./itests/util/src/main/java/org/apache/hadoop/hive/ql/QTestUtil.java:    LOG.error(message);
+./itests/util/src/main/java/org/apache/hadoop/hive/ql/QTestMiniClusters.java:        LOG.error("Error closing spark session.", ex);
+./itests/util/src/main/java/org/apache/hadoop/hive/ql/QTestMiniClusters.java:        LOG.error("Failed to create path={}. Continuing. Exception message={}", warehousePath,
+./itests/util/src/main/java/org/apache/hadoop/hive/ql/QTestMiniClusters.java:        LOG.error("Failed to create path={}. Continuing. Exception message={}", warehousePath,
+./itests/util/src/main/java/org/apache/hadoop/hive/ql/QTestMiniClusters.java:        LOG.error("Failed to create path={}. Continuing. Exception message={}", warehousePath,
+./itests/util/src/main/java/org/apache/hadoop/hive/ql/scheduled/QTestScheduledQueryCleaner.java:        LOG.error("Can't remove scheduled query: " + name + " " + e.getMessage());
+./llap-common/src/java/org/apache/hadoop/hive/llap/LlapUtil.java:      LOG.error("Failed to run RPC Server on port: " + srvPort, e);
+./llap-common/src/java/org/apache/hadoop/hive/llap/security/SecretManager.java:      LOG.error("Failed to check for tokenRenewInterval bug, hoping for the best", t);
+./llap-common/src/java/org/apache/hadoop/hive/llap/security/LlapSignerImpl.java:      LOG.error("Error closing the signer", ex);
+./spark-client/src/main/java/org/apache/hive/spark/counter/SparkCounters.java:      LOG.error(
+./spark-client/src/main/java/org/apache/hive/spark/counter/SparkCounters.java:      LOG.error(
+./spark-client/src/main/java/org/apache/hive/spark/client/RemoteDriver.java:      LOG.error("Failed to start SparkContext: " + e, e);
+./spark-client/src/main/java/org/apache/hive/spark/client/RemoteDriver.java:        LOG.error("Shutting down Spark Remote Driver due to error: " + error, error);
+./spark-client/src/main/java/org/apache/hive/spark/client/RemoteDriver.java:        LOG.error("Failed to run client job " + req.id, t);
+./spark-client/src/main/java/org/apache/hive/spark/client/rpc/RpcDispatcher.java:      LOG.error(String.format("[%s] Error in RPC handler.", name()), ite.getCause());
+./spark-client/src/main/java/org/apache/hive/spark/client/rpc/RpcDispatcher.java:      LOG.error("[{}] Received error message: {}.", name(), msg);
+./spark-client/src/main/java/org/apache/hive/spark/client/rpc/RpcDispatcher.java:      LOG.error(String.format("[%s] %s", name(), error));
+./spark-client/src/main/java/org/apache/hive/spark/client/rpc/RpcDispatcher.java:    LOG.error(String.format("[%s] Closing channel due to exception in pipeline.", name()), cause);
+./spark-client/src/main/java/org/apache/hive/spark/client/rpc/Rpc.java:          LOG.error("Failed to send test message to HiveServer2", future.cause());
+./spark-client/src/main/java/org/apache/hive/spark/client/rpc/RpcServer.java:      LOG.error("Failed getting application status for: " + applicationId + ": " + ex, ex);
+./spark-client/src/main/java/org/apache/hive/spark/client/rpc/RpcServer.java:          LOG.error("Failed to stop yarn client: " + ex, ex);
+./spark-client/src/main/java/org/apache/hive/spark/client/rpc/RpcServer.java:        LOG.error("Failed getting application status for: " + applicationId + ": " + ex, ex);
+./spark-client/src/main/java/org/apache/hive/spark/client/rpc/RpcServer.java:            LOG.error("Failed to stop yarn client: " + ex, ex);
+./spark-client/src/main/java/org/apache/hive/spark/client/SparkClientUtilities.java:      LOG.error("Bad URL " + path + ", ignoring path", err);
+./spark-client/src/main/java/org/apache/hive/spark/client/AbstractSparkClient.java:          LOG.error("Driver thread failed", ee);
+./spark-client/src/main/java/org/apache/hive/spark/client/AbstractSparkClient.java:      LOG.error("Exception while waiting for driver future to complete", e);
+./hbase-handler/src/java/org/apache/hadoop/hive/hbase/HiveHFileOutputFormat.java:            LOG.error("Failed while writing row: " + s);
+./llap-tez/src/java/org/apache/hadoop/hive/llap/tezplugins/metrics/LlapMetricsCollector.java:        LOG.error(ex.getMessage(), ex);
+./llap-tez/src/java/org/apache/hadoop/hive/llap/tezplugins/metrics/LlapMetricsCollector.java:      LOG.error(ex.getMessage(), ex);
+./llap-tez/src/java/org/apache/hadoop/hive/llap/tezplugins/helpers/SourceStateTracker.java:      LOG.error("Failed to get vertex completed task count for sourceName={}",
+./llap-tez/src/java/org/apache/hadoop/hive/llap/tezplugins/helpers/SourceStateTracker.java:      LOG.error("Failed to get total task count for sourceName={}", vname);
+./llap-tez/src/java/org/apache/hadoop/hive/llap/tezplugins/LlapTaskSchedulerService.java:          LOG.error(error);
+./llap-tez/src/java/org/apache/hadoop/hive/llap/tezplugins/LlapTaskSchedulerService.java:        LOG.error("Failed to update guaranteed count in registry; ignoring", ex);
+./llap-tez/src/java/org/apache/hadoop/hive/llap/tezplugins/LlapTaskSchedulerService.java:        LOG.error("Could not determine ContainerId for task: "
+./llap-tez/src/java/org/apache/hadoop/hive/llap/tezplugins/LlapTaskSchedulerService.java:          WM_LOG.error("Task appears to have been deallocated twice: " + task
+./llap-tez/src/java/org/apache/hadoop/hive/llap/tezplugins/LlapTaskSchedulerService.java:          LOG.error("Task: "
+./llap-tez/src/java/org/apache/hadoop/hive/llap/tezplugins/LlapTaskSchedulerService.java:        WM_LOG.error("The task had guaranteed flag set before scheduling: " + taskInfo);
+./llap-tez/src/java/org/apache/hadoop/hive/llap/tezplugins/LlapTaskSchedulerService.java:        LOG.error("Exception when reporting SERVICE_UNAVAILABLE error for dag: {}",
+./llap-tez/src/java/org/apache/hadoop/hive/llap/tezplugins/LlapTaskSchedulerService.java:          LOG.error("Scheduler thread was interrupte without shutdown and will now exit", ie);
+./llap-tez/src/java/org/apache/hadoop/hive/llap/tezplugins/LlapTaskSchedulerService.java:          LOG.error("Fatal error: scheduler thread has failed and will now exit", t);
+./llap-tez/src/java/org/apache/hadoop/hive/llap/tezplugins/LlapTaskCommunicator.java:    LOG.error("Reporting fatal error - LLAP token appears to be invalid.", t);
+./llap-tez/src/java/org/apache/hadoop/hive/llap/tezplugins/LlapTaskCommunicator.java:      LOG.error(
+./llap-tez/src/java/org/apache/hadoop/hive/llap/tezplugins/LlapTaskCommunicator.java:            LOG.error("Failed to send state update to node: {}, Killing all attempts running on "
+./llap-client/src/java/org/apache/hadoop/hive/registry/impl/TezAmInstance.java:      LOG.error("Couldn't read the plugin token from [" + tokenString + "]", e);
+./llap-client/src/java/org/apache/hadoop/hive/registry/impl/ZkRegistryBase.java:      LOG.error("Unable to create a znode for this server instance", e);
+./llap-client/src/java/org/apache/hadoop/hive/registry/impl/ZkRegistryBase.java:      LOG.error("Unable to update znode with new service record", e);
+./llap-client/src/java/org/apache/hadoop/hive/registry/impl/ZkRegistryBase.java:      LOG.error("Unable to create a parent znode for the registry", e);
+./llap-client/src/java/org/apache/hadoop/hive/registry/impl/ZkRegistryBase.java:        LOG.error("Unable to decode data for zkpath: {}." +
+./llap-client/src/java/org/apache/hadoop/hive/registry/impl/ZkRegistryBase.java:      LOG.error("Unable to decode data for zknode: {}." +
+./llap-client/src/java/org/apache/hadoop/hive/registry/impl/ZkRegistryBase.java:          LOG.error("Unable to start curator PathChildrenCache", e);
+./llap-client/src/java/org/apache/hadoop/hive/registry/impl/ZkRegistryBase.java:          LOG.error("Interrupted while retrying the PathChildrenCache startup");
+./llap-client/src/java/org/apache/hadoop/hive/registry/impl/ZkRegistryBase.java:        LOG.error("Unable to start curator PathChildrenCache", e);
+./llap-client/src/java/org/apache/hadoop/hive/registry/impl/ZkRegistryBase.java:      LOG.error("Cannot parse " + ephSeqVersionStr + " from " + nodeName, e);
+./llap-client/src/java/org/apache/hadoop/hive/llap/coordinator/LlapCoordinator.java:      LOG.error("Error closing the coordinator; ignoring", ex);
+./llap-client/src/java/org/apache/hadoop/hive/llap/security/LlapTokenClient.java:        LOG.error("Cannot get a token, trying a different instance", ex);
+./llap-client/src/java/org/apache/hadoop/hive/llap/LlapBaseRecordReader.java:        LOG.error("Error closing input stream:" + err.getMessage(), err);
+./llap-client/src/java/org/apache/hadoop/hive/llap/LlapBaseRecordReader.java:          LOG.error("Error closing client:" + err.getMessage(), err);
+./llap-client/src/java/org/apache/hadoop/hive/llap/LlapBaseRecordReader.java:        LOG.error("Closing RecordReader due to error and hit another error during close()", err);
+./llap-client/src/java/org/apache/hadoop/hive/llap/LlapBaseRecordReader.java:          LOG.error("Cannot close the socket on error", e);
+./llap-client/src/java/org/apache/hadoop/hive/llap/ext/LlapTaskUmbilicalExternalClient.java:        LOG.error(msg, t);
+./llap-client/src/java/org/apache/hadoop/hive/llap/ext/LlapTaskUmbilicalExternalClient.java:      LOG.error(msg, t);
+./llap-client/src/java/org/apache/hadoop/hive/llap/ext/LlapTaskUmbilicalExternalClient.java:        LOG.error("Error during responder execution", err);
+./llap-client/src/java/org/apache/hadoop/hive/llap/ext/LlapTaskUmbilicalExternalClient.java:            LOG.error("Task killed - " + taskAttemptIdString);
+./llap-client/src/java/org/apache/hadoop/hive/llap/ext/LlapTaskUmbilicalExternalClient.java:            LOG.error("Error during responder execution", err);
+./llap-client/src/java/org/apache/hadoop/hive/llap/registry/impl/LlapZookeeperRegistryImpl.java:      LOG.error("Unable to create a znode for this server instance", e);
+./llap-client/src/java/org/apache/hadoop/hive/llap/registry/impl/LlapZookeeperRegistryImpl.java:          LOG.error("Unable to decode data for zkpath: {}." +
+./llap-client/src/java/org/apache/hadoop/hive/llap/registry/impl/SlotZnode.java:        LOG.error("Cannot list nodes to get slots; failing", e);
+./llap-client/src/java/org/apache/hadoop/hive/llap/registry/impl/SlotZnode.java:      LOG.error("Deleting node: " + localNodePath, e);
+./llap-client/src/java/org/apache/hadoop/hive/llap/registry/impl/SlotZnode.java:      LOG.error("Creating node. Path: " + createPath, e);
+./llap-client/src/java/org/apache/hadoop/hive/llap/registry/impl/SlotZnode.java:      LOG.error("Watching node: " + localNodePath, e);
+./llap-client/src/java/org/apache/hadoop/hive/llap/registry/impl/SlotZnode.java:      LOG.error("Error getting data for the node; will retry creating", ex);
+./llap-ext-client/src/java/org/apache/hadoop/hive/llap/LlapArrowRowRecordReader.java:          LOG.error("Failed to fetch Arrow batch", e);
+./llap-ext-client/src/java/org/apache/hadoop/hive/llap/LlapBaseInputFormat.java:        LOG.error("Closing connection due to error", e);
+./llap-ext-client/src/java/org/apache/hadoop/hive/llap/LlapBaseInputFormat.java:          LOG.error("Error while closing connection for " + handleId, err);
+./llap-ext-client/src/java/org/apache/hadoop/hive/llap/LlapBaseInputFormat.java:        LOG.error("Error during heartbeat responder:", err);
+./llap-ext-client/src/java/org/apache/hadoop/hive/llap/LlapBaseInputFormat.java:          LOG.error("Error during heartbeat responder:", err);
+./llap-ext-client/src/java/org/apache/hadoop/hive/llap/LlapBaseInputFormat.java:        LOG.error("Error during heartbeat responder:", err);
+./llap-ext-client/src/java/org/apache/hadoop/hive/llap/LlapBaseInputFormat.java:        LOG.error("Error during heartbeat responder:", err);
+./hcatalog/core/src/test/java/org/apache/hive/hcatalog/rcfile/TestRCFileMapReduceInputFormat.java:      LOG.error(usage);
+./hcatalog/core/src/test/java/org/apache/hive/hcatalog/rcfile/TestRCFileMapReduceInputFormat.java:        LOG.error(usage);
+./hcatalog/core/src/test/java/org/apache/hive/hcatalog/cli/TestPermsGrp.java:      LOG.error("testCustomPerms failed.", e);
+./hcatalog/core/src/test/java/org/apache/hive/hcatalog/cli/TestSemanticAnalysis.java:      LOG.error("Error in drop table.", e);
+./hcatalog/core/src/test/java/org/apache/hive/hcatalog/common/TestHiveClientCache.java:        LOG.error("Exiting. Got exception from metastore: ", t);
+./hcatalog/core/src/test/java/org/apache/hive/hcatalog/mapreduce/TestHCatMultiOutputFormat.java:        LOG.error("Error in setting up schema fields for the table", e);
+./hcatalog/core/src/test/java/org/apache/hive/hcatalog/mapreduce/TestHCatMultiOutputFormat.java:      LOG.error("Exception encountered while setting up testcase", e);
+./hcatalog/core/src/test/java/org/apache/hive/hcatalog/mapreduce/TestHCatOutputFormat.java:      LOG.error("Unable to open the metastore", e);
+./hcatalog/core/src/test/java/org/apache/hive/hcatalog/mapreduce/TestHCatOutputFormat.java:      LOG.error("Unable to close metastore", e);
+./hcatalog/core/src/main/java/org/apache/hive/hcatalog/mapreduce/FileOutputCommitterContainer.java:              LOG.error(msg);
+./hcatalog/core/src/main/java/org/apache/hive/hcatalog/mapreduce/Security.java:        LOG.error(msg, e);
+./hcatalog/core/src/main/java/org/apache/hive/hcatalog/mapreduce/HCatRecordReader.java:        LOG.error(numErrors + " out of " + numRecords
+./hcatalog/webhcat/svr/src/test/java/org/apache/hive/hcatalog/templeton/TestWebHCatE2e.java:      LOG.error("doHttpCall() failed", ex);
+./hcatalog/webhcat/svr/src/main/java/org/apache/hive/hcatalog/templeton/SecureProxySupport.java:        LOG.error("open(" + user + ") token=null");
+./hcatalog/webhcat/svr/src/main/java/org/apache/hive/hcatalog/templeton/SecureProxySupport.java:        LOG.error("Failed to delete token crc file.", e);
+./hcatalog/webhcat/svr/src/main/java/org/apache/hive/hcatalog/templeton/ExecServiceImpl.java:      LOG.error("Command: " + cmd + " failed. res=" + res, ex);
+./hcatalog/webhcat/svr/src/main/java/org/apache/hive/hcatalog/templeton/Main.java:      LOG.error("Bug: configuration not yet loaded");
+./hcatalog/webhcat/svr/src/main/java/org/apache/hive/hcatalog/templeton/Main.java:      LOG.error("Unable to parse options: " + e);
+./hcatalog/webhcat/svr/src/main/java/org/apache/hive/hcatalog/templeton/Main.java:      LOG.error("Server failed to start: " , e);
+./hcatalog/webhcat/svr/src/main/java/org/apache/hive/hcatalog/templeton/Main.java:      LOG.error(msg);
+./hcatalog/webhcat/svr/src/main/java/org/apache/hive/hcatalog/templeton/CatchallExceptionMapper.java:    LOG.error(e.getMessage(), e);
+./hcatalog/webhcat/svr/src/main/java/org/apache/hive/hcatalog/templeton/tool/LaunchMapper.java:      LOG.error("Exception encountered in tryReconnectToRunningJob", ex);
+./hcatalog/webhcat/svr/src/main/java/org/apache/hive/hcatalog/templeton/tool/LaunchMapper.java:        LOG.error(msg, e);
+./hcatalog/webhcat/svr/src/main/java/org/apache/hive/hcatalog/templeton/tool/LaunchMapper.java:      LOG.error("templeton: state error: ", e);
+./hcatalog/webhcat/svr/src/main/java/org/apache/hive/hcatalog/templeton/tool/LaunchMapper.java:        LOG.error("templeton: execute error: ", e);
+./hcatalog/webhcat/svr/src/main/java/org/apache/hive/hcatalog/templeton/tool/HDFSCleanup.java:          LOG.error("Cleanup cycle failed: " + e.getMessage());
+./hcatalog/webhcat/svr/src/main/java/org/apache/hive/hcatalog/templeton/tool/HDFSCleanup.java:              LOG.error("Closing file system failed: " + e.getMessage());
+./hcatalog/webhcat/svr/src/main/java/org/apache/hive/hcatalog/templeton/tool/HDFSCleanup.java:        LOG.error("Cleanup failed: " + e.getMessage(), e);
+./hcatalog/webhcat/svr/src/main/java/org/apache/hive/hcatalog/templeton/tool/ZooKeeperCleanup.java:          LOG.error("Cleanup cycle failed: " + e.getMessage());
+./hcatalog/webhcat/svr/src/main/java/org/apache/hive/hcatalog/templeton/tool/ZooKeeperCleanup.java:        LOG.error("Cleanup failed: " + e.getMessage(), e);
+./hcatalog/webhcat/svr/src/main/java/org/apache/hive/hcatalog/templeton/tool/ZooKeeperStorage.java:        LOG.error("Error tracking (jobId=" + id + "): " + e.getMessage());
+./hcatalog/webhcat/svr/src/main/java/org/apache/hive/hcatalog/templeton/tool/HDFSStorage.java:      LOG.error(errMsg, e);
+./hcatalog/webhcat/svr/src/main/java/org/apache/hive/hcatalog/templeton/tool/HDFSStorage.java:      LOG.error("Couldn't find " + p + ": " + e.getMessage(), e);
+./hcatalog/webhcat/svr/src/main/java/org/apache/hive/hcatalog/templeton/tool/JobState.java:        LOG.error("Couldn't create storage.");
+./hcatalog/webhcat/svr/src/main/java/org/apache/hive/hcatalog/templeton/tool/JobState.java:        LOG.error("templeton: bug " + name + " " + s + " : " + e);
+./hcatalog/webhcat/svr/src/main/java/org/apache/hive/hcatalog/templeton/CompleteDelegator.java:      LOG.error(msg, e);
+./hcatalog/webhcat/svr/src/main/java/org/apache/hive/hcatalog/templeton/CompleteDelegator.java:      LOG.error(msg);
+./hcatalog/webhcat/svr/src/main/java/org/apache/hive/hcatalog/templeton/CompleteDelegator.java:    LOG.error(msg);
+./hcatalog/webhcat/java-client/src/test/java/org/apache/hive/hcatalog/api/repl/CommandTestUtils.java:      LOG.error("Serialization error",e);
+./hcatalog/webhcat/java-client/src/test/java/org/apache/hive/hcatalog/api/repl/CommandTestUtils.java:      LOG.error("Serialization error",e);
+./hcatalog/webhcat/java-client/src/test/java/org/apache/hive/hcatalog/api/TestHCatClient.java:      LOG.error("Unexpected exception.", exception);
+./hcatalog/webhcat/java-client/src/test/java/org/apache/hive/hcatalog/api/TestHCatClient.java:      LOG.error("Unexpected exception!", t);
+./hcatalog/webhcat/java-client/src/test/java/org/apache/hive/hcatalog/api/TestHCatClient.java:      LOG.error("Unexpected exception.", exception);
+./hcatalog/webhcat/java-client/src/test/java/org/apache/hive/hcatalog/api/TestHCatClient.java:      LOG.error("Unexpected exception!", unexpected);
+./hcatalog/webhcat/java-client/src/test/java/org/apache/hive/hcatalog/api/TestHCatClient.java:      LOG.error("Unexpected exception!", unexpected);
+./hcatalog/webhcat/java-client/src/test/java/org/apache/hive/hcatalog/api/TestHCatClient.java:      LOG.error("Unexpected exception!", unexpected);
+./hcatalog/webhcat/java-client/src/test/java/org/apache/hive/hcatalog/api/TestHCatClient.java:      LOG.error("Unexpected exception!", unexpected);
+./hcatalog/webhcat/java-client/src/test/java/org/apache/hive/hcatalog/api/TestHCatClient.java:      LOG.error( "Unexpected exception! ",  unexpected);
+./hcatalog/webhcat/java-client/src/test/java/org/apache/hive/hcatalog/api/TestHCatClient.java:      LOG.error( "Unexpected exception! ",  unexpected);
+./hcatalog/webhcat/java-client/src/main/java/org/apache/hive/hcatalog/api/HCatAddPartitionDesc.java:    LOG.error("Unsupported! HCatAddPartitionDesc requires HCatTable to be specified explicitly.");
+./hcatalog/hcatalog-pig-adapter/src/test/java/org/apache/hive/hcatalog/pig/TestHCatLoaderEncryption.java:        LOG.error("error when read record.", e);
+./hcatalog/hcatalog-pig-adapter/src/main/java/org/apache/hive/hcatalog/pig/HCatStorer.java:      LOG.error("Failed to build option list: ", t);
+./hcatalog/server-extensions/src/main/java/org/apache/hive/hcatalog/listener/NotificationListener.java:        LOG.error("Couldn't create JMS Session", e);
+./hcatalog/server-extensions/src/main/java/org/apache/hive/hcatalog/listener/NotificationListener.java:          LOG.error("Unable to close bad JMS session, ignored error", e);
+./hcatalog/server-extensions/src/main/java/org/apache/hive/hcatalog/listener/NotificationListener.java:        LOG.error("Seems like connection is lost. Will retry. Retries left : " + retries + ". error was:", e);
+./hcatalog/server-extensions/src/main/java/org/apache/hive/hcatalog/listener/NotificationListener.java:        LOG.error("Failed to send message on topic: " + topicName +
+./hcatalog/server-extensions/src/main/java/org/apache/hive/hcatalog/listener/NotificationListener.java:          LOG.error("Unable to close bad JMS connection, ignored error", e);
+./hcatalog/server-extensions/src/main/java/org/apache/hive/hcatalog/listener/NotificationListener.java:      LOG.error("Couldn't create JMS session, ignored the error", e);
+./hcatalog/server-extensions/src/main/java/org/apache/hive/hcatalog/listener/NotificationListener.java:          LOG.error("JMS Exception listener received exception. Ignored the error", jmse);
+./hcatalog/server-extensions/src/main/java/org/apache/hive/hcatalog/listener/NotificationListener.java:      LOG.error("JNDI error while setting up Message Bus connection. "
+./hcatalog/server-extensions/src/main/java/org/apache/hive/hcatalog/listener/NotificationListener.java:      LOG.error("Failed to initialize connection to message bus", e);
+./hcatalog/server-extensions/src/main/java/org/apache/hive/hcatalog/listener/NotificationListener.java:      LOG.error("Unable to connect to JMS provider", t);
+./hcatalog/server-extensions/src/main/java/org/apache/hive/hcatalog/listener/NotificationListener.java:        LOG.error("Couldn't close jms connection, ignored the error", e);
+./hcatalog/server-extensions/src/main/java/org/apache/hive/hcatalog/listener/DbNotificationListener.java:        LOG.error("Encoding file URI failed with error " + e.getMessage());
+./contrib/src/java/org/apache/hadoop/hive/contrib/genericudf/example/GenericUDFDBOutput.java:      LOG.error("Driver loading or connection issue", ex);
+./contrib/src/java/org/apache/hadoop/hive/contrib/genericudf/example/GenericUDFDBOutput.java:        LOG.error("Underlying SQL exception", e);
+./contrib/src/java/org/apache/hadoop/hive/contrib/genericudf/example/GenericUDFDBOutput.java:          LOG.error("Underlying SQL exception during close", ex);
+./streaming/src/test/org/apache/hive/streaming/TestStreamingDynamicPartitioning.java:        LOG.error(s);
+./streaming/src/test/org/apache/hive/streaming/TestStreamingDynamicPartitioning.java:      LOG.error("Statement: " + sql + " failed: " + e);
+./streaming/src/test/org/apache/hive/streaming/TestStreaming.java:        LOG.error(re);
+./streaming/src/test/org/apache/hive/streaming/TestStreaming.java:        LOG.error(s);
+./streaming/src/test/org/apache/hive/streaming/TestStreaming.java:        LOG.error(connection.toTransactionString());
+./streaming/src/test/org/apache/hive/streaming/TestStreaming.java:        LOG.error("Thread " + thread.getName() + " died: " + throwable.getMessage(), throwable);
+./streaming/src/test/org/apache/hive/streaming/TestStreaming.java:            LOG.error("txnBatch.close() failed: " + e.getMessage(), e);
+./streaming/src/test/org/apache/hive/streaming/TestStreaming.java:      LOG.error("Statement: " + sql + " failed: " + e);
+./streaming/src/java/org/apache/hive/streaming/HiveStreamingConnection.java:      LOG.error("HiveEndPoint " + this + " must use an acid table");
+./streaming/src/java/org/apache/hive/streaming/HiveStreamingConnection.java:      LOG.error(errMsg);
+./streaming/src/java/org/apache/hive/streaming/TransactionBatch.java:            LOG.error("Heartbeat failure: {}", resp.toString());
+./streaming/src/java/org/apache/hive/streaming/TransactionBatch.java:      LOG.error("Fatal error on " + toString() + "; cause " + ex.getMessage(), ex);
+./streaming/src/java/org/apache/hive/streaming/TransactionBatch.java:      LOG.error("Fatal error on " + toString() + "; cause " + ex.getMessage(), ex);
+./streaming/src/java/org/apache/hive/streaming/AbstractRecordWriter.java:            LOG.error("Unable to close " + updater + " due to: " + ex.getMessage(), ex);
+./streaming/src/java/org/apache/hive/streaming/AbstractRecordWriter.java:        LOG.error(errMsg, e);
+./streaming/src/java/org/apache/hive/streaming/UnManagedSingleTransaction.java:      LOG.error("Fatal error on " + toString() + "; cause " + ex.getMessage(), ex);
+./jdbc/src/java/org/apache/hive/jdbc/HiveConnection.java:        LOG.error("Failed to execute initial SQL");
+./jdbc/src/java/org/apache/hive/jdbc/HiveConnection.java:      LOG.error("Failed to read initial SQL file", e);
+./jdbc/src/java/org/apache/hive/jdbc/HiveConnection.java:      LOG.error("Error sending client info", e);
+./jdbc/src/java/org/apache/hive/jdbc/Utils.java:      LOG.error(e.getMessage());
+./storage-api/src/java/org/apache/hadoop/hive/common/io/DiskRangeList.java:    LOG.error(error);
+./common/src/test/org/apache/hadoop/hive/common/TestFileUtils.java:      LOG.error("failed to copy file to reloading folder", e);
+./common/src/java/org/apache/hadoop/hive/common/HeapMemoryMonitor.java:          LOG.error("{} vendor does not support isCollectionUsageThresholdSupported() and isUsageThresholdSupported()" +
+./common/src/java/org/apache/hadoop/hive/common/FileUtils.java:      LOG.error("Failed to delete " + f);
+./common/src/java/org/apache/hadoop/hive/common/FileUtils.java:      LOG.error("Error creating a file in " + targetDir, ex);
+./common/src/java/org/apache/hadoop/hive/common/FileUtils.java:        LOG.error("The jar file path {} does not exist", path);
+./common/src/java/org/apache/hadoop/hive/common/FileUtils.java:        LOG.error("Invalid file path {}", path, e);
+./common/src/java/org/apache/hadoop/hive/common/ServerUtils.java:      LOG.error("Unable to resolve my host name " + e.getMessage());
+./common/src/java/org/apache/hadoop/hive/ql/log/PerfLogger.java:          LOG.error("Performance Logger Class not found:" + e.getMessage());
+./common/src/java/org/apache/hive/common/HiveCompat.java:    LOG.error("Could not find CompatLevel for " + compatStr
+./common/src/java/org/apache/hive/common/util/HiveTestUtils.java:          LOG.error("Failed to execute the command due the exception " + e);
+./common/src/java/org/apache/hive/http/JMXJsonServlet.java:      LOG.error("Caught an exception while processing JMX request", e);
+./common/src/java/org/apache/hive/http/JMXJsonServlet.java:      LOG.error("Caught an exception while processing JMX request", e);
+./common/src/java/org/apache/hive/http/JMXJsonServlet.java:          LOG.error("getting attribute " + prs + " of " + oname
+./common/src/java/org/apache/hive/http/JMXJsonServlet.java:          LOG.error("getting attribute " + prs + " of " + oname
+./common/src/java/org/apache/hive/http/JMXJsonServlet.java:          LOG.error("getting attribute " + prs + " of " + oname
+./common/src/java/org/apache/hive/http/JMXJsonServlet.java:          LOG.error("getting attribute " + prs + " of " + oname
+./common/src/java/org/apache/hive/http/JMXJsonServlet.java:        LOG.error("Problem while trying to process JMX query: " + qry
+./common/src/java/org/apache/hive/http/JMXJsonServlet.java:        LOG.error("Problem while trying to process JMX query: " + qry
+./common/src/java/org/apache/hive/http/JMXJsonServlet.java:        LOG.error("getting attribute "+attName+" of "+oname+" threw an exception", e);
+./common/src/java/org/apache/hive/http/JMXJsonServlet.java:      LOG.error("getting attribute "+attName+" of "+oname+" threw an exception", e);
+./common/src/java/org/apache/hive/http/JMXJsonServlet.java:      LOG.error("getting attribute "+attName+" of "+oname+" threw an exception", e);
+./common/src/java/org/apache/hive/http/JMXJsonServlet.java:      LOG.error("getting attribute "+attName+" of "+oname+" threw an exception", e);
+./common/src/java/org/apache/hive/http/Log4j2ConfiguratorServlet.java:      LOG.error("Error configuring log4j2 via /conflog endpoint.", e);
+./common/src/java/org/apache/hive/http/Log4j2ConfiguratorServlet.java:      LOG.error("Caught an exception while processing Log4j2 configuration request", e);
+./shims/0.23/src/main/java/org/apache/hadoop/hive/shims/Hadoop23Shims.java:      LOG.error("Cannot create UGI reflection methods", t);
+./shims/common/src/main/java/org/apache/hadoop/hive/shims/ShimLoader.java:            LOG.error("Error loading shims", t);
+./upgrade-acid/pre-upgrade/src/main/java/org/apache/hadoop/hive/upgrade/acid/PreUpgradeTool.java:      LOG.error("PreUpgradeTool failed", ex);
+./upgrade-acid/pre-upgrade/src/main/java/org/apache/hadoop/hive/upgrade/acid/PreUpgradeTool.java:      LOG.error("init()", ex);
+./upgrade-acid/pre-upgrade/src/main/java/org/apache/hadoop/hive/upgrade/acid/PreUpgradeTool.java:            LOG.error("Unexpected state for : " + e.toString());
+./upgrade-acid/pre-upgrade/src/main/java/org/apache/hadoop/hive/upgrade/acid/PreUpgradeTool.java:    return (t, e) -> LOG.error(String.format("Thread %s exited with error", t.getName()), e);
+./beeline/src/test/org/apache/hive/beeline/cli/TestHiveCli.java:      LOG.error("Failed to execute command due to the error: " + e);
+./beeline/src/test/org/apache/hive/beeline/cli/TestHiveCli.java:        LOG.error("Failed due to the error:" + err.toString());
+./beeline/src/test/org/apache/hive/beeline/cli/TestHiveCli.java:      LOG.error("Failed to write tmp file due to the exception: " + e);
+./standalone-metastore/metastore-server/src/test/java/org/apache/hadoop/hive/metastore/HiveMetaStoreClientPreCatalog.java:      LOG.error("NOT getting uris from conf");
+./standalone-metastore/metastore-server/src/test/java/org/apache/hadoop/hive/metastore/HiveMetaStoreClientPreCatalog.java:        LOG.error("Error while setting delegation token for " + proxyUser, e);
+./standalone-metastore/metastore-server/src/test/java/org/apache/hadoop/hive/metastore/HiveMetaStoreClientPreCatalog.java:        LOG.error("Exception loading uri resolver hook" + e);
+./standalone-metastore/metastore-server/src/test/java/org/apache/hadoop/hive/metastore/HiveMetaStoreClientPreCatalog.java:              LOG.error("Couldn't create client transport", ioe);
+./standalone-metastore/metastore-server/src/test/java/org/apache/hadoop/hive/metastore/HiveMetaStoreClientPreCatalog.java:          LOG.error("Unable to connect to metastore with URI " + store
+./standalone-metastore/metastore-server/src/test/java/org/apache/hadoop/hive/metastore/HiveMetaStoreClientPreCatalog.java:          LOG.error("Create rollback failed with", e);
+./standalone-metastore/metastore-server/src/test/java/org/apache/hadoop/hive/metastore/HiveMetaStoreClientPreCatalog.java:      LOG.error("Unable to resolve my host name " + e.getMessage());
+./standalone-metastore/metastore-server/src/test/java/org/apache/hadoop/hive/metastore/HiveMetaStoreClientPreCatalog.java:      LOG.error("Unable to resolve current user name " + e.getMessage());
+./standalone-metastore/metastore-server/src/test/java/org/apache/hadoop/hive/metastore/HiveMetaStoreClientPreCatalog.java:      LOG.error("Unable to resolve my host name " + e.getMessage());
+./standalone-metastore/metastore-server/src/test/java/org/apache/hadoop/hive/metastore/HiveMetaStoreClientPreCatalog.java:          LOG.error("Requested events are found missing in NOTIFICATION_LOG table. Expected: {}, Actual: {}. "
+./standalone-metastore/metastore-server/src/test/java/org/apache/hadoop/hive/metastore/TestDeadline.java:      LOG.error(msg, e);
+./standalone-metastore/metastore-server/src/test/java/org/apache/hadoop/hive/metastore/TestDeadline.java:      LOG.error(msg);
+./standalone-metastore/metastore-server/src/test/java/org/apache/hadoop/hive/metastore/MetaStoreTestUtils.java:        LOG.error("Metastore Thrift Server threw an exception...", e);
+./standalone-metastore/metastore-server/src/test/java/org/apache/hadoop/hive/metastore/MetaStoreTestUtils.java:    LOG.error("Unable to connect to metastore server: " + exc.getMessage());
+./standalone-metastore/metastore-server/src/test/java/org/apache/hadoop/hive/metastore/MetaStoreTestUtils.java:          LOG.error("Unable to get metastore URI from the ZooKeeper: " + e.getMessage());
+./standalone-metastore/metastore-server/src/test/java/org/apache/hadoop/hive/metastore/utils/TestTxnDbUtil.java:        LOG.error("Error rolling back: " + re.getMessage());
+./standalone-metastore/metastore-server/src/test/java/org/apache/hadoop/hive/metastore/utils/TestTxnDbUtil.java:            LOG.error("Error initializing sequence values", e);
+./standalone-metastore/metastore-server/src/test/java/org/apache/hadoop/hive/metastore/utils/TestTxnDbUtil.java:        LOG.error("Unable determine database product ", e);
+./standalone-metastore/metastore-server/src/test/java/org/apache/hadoop/hive/metastore/utils/TestTxnDbUtil.java:        LOG.error("Unable to truncate table " + name, e);
+./standalone-metastore/metastore-server/src/test/java/org/apache/hadoop/hive/metastore/utils/TestTxnDbUtil.java:      LOG.error("Unable determine database product ", e);
+./standalone-metastore/metastore-server/src/test/java/org/apache/hadoop/hive/metastore/utils/TestTxnDbUtil.java:        LOG.error("Error closing ResultSet: " + e.getMessage());
+./standalone-metastore/metastore-server/src/test/java/org/apache/hadoop/hive/metastore/TestHiveMetaStorePartitionSpecs.java:      LOG.error("Unexpected Exception!", t);
+./standalone-metastore/metastore-server/src/test/java/org/apache/hadoop/hive/metastore/TestHiveMetaStorePartitionSpecs.java:      LOG.error("Unexpected Exception!", t);
+./standalone-metastore/metastore-server/src/test/java/org/apache/hadoop/hive/metastore/TestHiveMetaStorePartitionSpecs.java:      LOG.error("Unexpected Exception!", t);
+./standalone-metastore/metastore-server/src/test/java/org/apache/hadoop/hive/metastore/TestHiveMetaStore.java:      LOG.error("Exception while retriveing partitions", ex);
+./standalone-metastore/metastore-server/src/test/java/org/apache/hadoop/hive/metastore/VerifyingObjectStore.java:      LOG.error(msg);
+./standalone-metastore/metastore-server/src/test/java/org/apache/hadoop/hive/metastore/VerifyingObjectStore.java:    LOG.error("Different results: \n" + errorStr.toString());
+./standalone-metastore/metastore-server/src/test/java/org/apache/hadoop/hive/metastore/VerifyingObjectStore.java:      LOG.error(msg);
+./standalone-metastore/metastore-server/src/test/java/org/apache/hadoop/hive/metastore/VerifyingObjectStore.java:        LOG.error(msg, t);
+./standalone-metastore/metastore-server/src/test/java/org/apache/hadoop/hive/metastore/VerifyingObjectStore.java:      LOG.error("Different results: \n" + errorStr.toString());
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/metrics/JsonReporter.java:      LOG.error("Unable to convert json to string ", e);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/metrics/JsonReporter.java:      LOG.error("failed to create temp file for JSON metrics", e);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/metrics/JsonReporter.java:      LOG.error("failed to create temp file for JSON metrics: no permissions", e);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/metrics/JsonReporter.java:      LOG.error("failed to create temp file for JSON metrics: operartion not supported", e);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/metrics/JsonReporter.java:        LOG.error("Unable to write to temp file {}" + tmpFile, e);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/metrics/JsonReporter.java:        LOG.error("Unable to rename temp file {} to {}", tmpFile, path);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/metrics/JsonReporter.java:        LOG.error("Exception during rename", e);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/metrics/JsonReporter.java:          LOG.error("failed to delete temporary metrics file " + tmpFile, e);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/ReplicationMetricsMaintTask.java:      LOG.error("Exception while trying to delete: " + e.getMessage(), e);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/RuntimeStatsCleanerTask.java:      LOG.error("Exception while trying to delete: " + e.getMessage(), e);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/HiveAlterHandler.java:      LOG.error(errMsg);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/HiveAlterHandler.java:              LOG.error("Alter Table operation for " + dbname + "." + name + " failed.", e);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/HiveAlterHandler.java:              LOG.error("Alter Table operation for " + TableName.getQualified(catName, dbname, name) +
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/HiveAlterHandler.java:        LOG.error("Failed to alter table " + TableName.getQualified(catName, dbname, name));
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/HiveAlterHandler.java:                LOG.error("Failed to restore data from " + destPath + " to " + srcPath
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/HiveAlterHandler.java:            LOG.error("Failed to restore data from " + destPath + " to " + srcPath
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/HiveAlterHandler.java:            LOG.error("Cannot rename partition directory from " + srcPath + " to " + destPath, e);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/HiveAlterHandler.java:            LOG.error("Cannot rename partition directory from " + srcPath + " to " + destPath, me);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/HiveAlterHandler.java:        LOG.error("Failed to rename a partition. Rollback transaction");
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/HiveAlterHandler.java:          LOG.error("Revert the data move in renaming a partition.");
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/HiveAlterHandler.java:            LOG.error("Failed to restore partition data from " + destPath + " to " + srcPath
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/HiveAlterHandler.java:            LOG.error("Failed to restore partition data from " + destPath + " to " + srcPath
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/tools/schematool/HiveSchemaHelper.java:      LOG.error("Unable to find driver class", e);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/tools/schematool/MetastoreSchemaTool.java:    LOG.error(errmsg);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/tools/schematool/SchemaToolTaskMoveDatabase.java:        LOG.error("Failed to rollback, everything will probably go bad from here.");
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/tools/schematool/SchemaToolTaskMergeCatalog.java:        LOG.error("Failed to rollback, everything will probably go bad from here.", e);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/tools/schematool/SchemaToolTaskAlterCatalog.java:        LOG.error("Failed to rollback, everything will probably go bad from here.", e);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/tools/schematool/SchemaToolTaskCreateUser.java:                  LOG.error("statement <" + s.substring(0, s.length() - 2) + "> failed", e);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/tools/schematool/SchemaToolTaskCreateUser.java:      LOG.error("Caught IOException trying to read modified create user script " +
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/tools/schematool/SchemaToolTaskCreateUser.java:      LOG.error("Failed to connect to RDBMS", e);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/tools/schematool/SchemaToolTaskCreateUser.java:      LOG.error("Got SQLException", e);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/tools/schematool/SchemaToolTaskMoveTable.java:        LOG.error("Failed to rollback, everything will probably go bad from here.");
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/tools/schematool/SchemaToolTaskCreateCatalog.java:        LOG.error("Failed to rollback, everything will probably go bad from here.", e);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/tools/metatool/MetaToolTaskListExtTblLocs.java:      LOG.error("MetaToolTask failed on ListExtTblLocs test: ", e);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/DatabaseProduct.java:      LOG.error(msg);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/DatabaseProduct.java:      LOG.error(msg);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/DatabaseProduct.java:      LOG.error(msg);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/DatabaseProduct.java:      LOG.error(msg);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/DatabaseProduct.java:      LOG.error(msg);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/DatabaseProduct.java:      LOG.error(msg);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/DatabaseProduct.java:      LOG.error(msg);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/DatabaseProduct.java:      LOG.error(msg);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/txn/CompactionTxnHandler.java:        LOG.error("Unable to connect to transaction database " + e.getMessage());
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/txn/CompactionTxnHandler.java:          LOG.error("Unable to set to cq_state=" + WORKING_STATE + " for compaction record: " +
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/txn/CompactionTxnHandler.java:        LOG.error("Unable to select next element for compaction, " + e.getMessage());
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/txn/CompactionTxnHandler.java:          LOG.error("Unable to set cq_state=" + READY_FOR_CLEANING + " for compaction record: " + info + ". updCnt=" + updCnt);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/txn/CompactionTxnHandler.java:        LOG.error("Unable to update compaction queue " + e.getMessage());
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/txn/CompactionTxnHandler.java:        LOG.error("Unable to select next element for cleaning, " + e.getMessage());
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/txn/CompactionTxnHandler.java:          LOG.error("Unable to delete compaction record: " + info +  ".  Update count=" + updCount);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/txn/CompactionTxnHandler.java:        LOG.error("Unable to delete from compaction queue " + e.getMessage());
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/txn/CompactionTxnHandler.java:        LOG.error("Unable to delete from txns table " + e.getMessage());
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/txn/CompactionTxnHandler.java:        LOG.error("Unable to delete from txns table " + e.getMessage());
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/txn/CompactionTxnHandler.java:        LOG.error("Unable to change dead worker's records back to initiated state " +
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/txn/CompactionTxnHandler.java:        LOG.error("Unable to change dead worker's records back to initiated state " +
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/txn/CompactionTxnHandler.java:        LOG.error("Unable to check for failed compactions " + e.getMessage());
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/txn/CompactionTxnHandler.java:        LOG.error("Unable to connect to transaction database " + StringUtils.stringifyException(e));
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/txn/CompactionTxnHandler.java:        LOG.error("markFailed(" + ci + ") failed: " + e.getMessage(), e);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/txn/CompactionTxnHandler.java:        LOG.error("setHadoopJobId(" + hadoopJobId + "," + id + ") failed: " + e.getMessage(), e);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/txn/CompactionTxnHandler.java:        LOG.error("Unable to getMinOpenTxnIdForCleaner", e);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/txn/CompactionTxnHandler.java:          LOG.error("Unable to execute findMinTxnIdSeenOpen", e);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/txn/CompactionTxnHandler.java:        LOG.error("Unable to getCompactionByTxnId", e);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/txn/AcidHouseKeeperService.java:      LOG.error("Unexpected error in thread: {}, message: {}", Thread.currentThread().getName(), t.getMessage(), t);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/txn/TxnUtils.java:      LOG.error("Unable to instantiate raw store directly in fastpath mode", e);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/txn/AcidOpenTxnsCounterService.java:      LOG.error("Unexpected error in thread: {}, message: {}", Thread.currentThread().getName(), t.getMessage(), t);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/txn/AcidTxnCleanerService.java:      LOG.error("Unexpected error in thread: {}, message: {}", Thread.currentThread().getName(), t.getMessage(), t);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/txn/TxnHandler.java:          LOG.error(msg);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/txn/TxnHandler.java:      LOG.error(msg);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/txn/TxnHandler.java:      LOG.error(msg);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/txn/TxnHandler.java:          LOG.error("OpenTxnTimeOut exceeded commit duration {}, deleting transactionIds: {}", elapsedMillis, txnIds);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/txn/TxnHandler.java:            LOG.error(errorMsg);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/txn/TxnHandler.java:        LOG.error("Exception during write ids allocation for request={}. Will retry if possible.", rqst, e);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/txn/TxnHandler.java:        LOG.error(
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/txn/TxnHandler.java:        LOG.error("enqueueLock failed for request: {}. Exception msg: {}", rqst, getMessage(e));
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/txn/TxnHandler.java:        LOG.error("Failure to get next lock ID for update! SELECT query returned empty ResultSet.");
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/txn/TxnHandler.java:        LOG.error("checkLock failed for extLockId={}/txnId={}. Exception msg: {}", extLockId, txnId, getMessage(e));
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/txn/TxnHandler.java:        LOG.error("checkLock failed for request={}. Exception msg: {}", rqst, getMessage(e));
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/txn/TxnHandler.java:            LOG.error(msg);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/txn/TxnHandler.java:            LOG.error(msg);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/txn/TxnHandler.java:        LOG.error("Unlock failed for request={}. Exception msg: {}", rqst, getMessage(e));
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/txn/TxnHandler.java:      LOG.error("Fatal error in " + caller + ". Retry limit (" + retryLimit + ") reached. Last error: " + errMsg);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/txn/TxnHandler.java:          LOG.error("Too many repeated deadlocks in " + caller + ", giving up.");
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/txn/TxnHandler.java:      LOG.error(msg);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/txn/TxnHandler.java:        LOG.error(msg);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/txn/TxnHandler.java:      LOG.error(msg, e);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/txn/TxnHandler.java:          LOG.error("Failure to update lock (extLockId={}, intLockId={}) with the blocking lock's IDs " +
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/txn/TxnHandler.java:      LOG.error("Failure to acquire all locks (acquired: {}, total needed: {}).", rc, locksBeingChecked.size());
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/txn/TxnHandler.java:        LOG.error("Failure to update last heartbeat for extLockId={}.", extLockId);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/txn/TxnHandler.java:        LOG.error("Can neither heartbeat txn (txnId={}) nor confirm it as invalid.", txnid);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/txn/TxnHandler.java:      LOG.error("Failed to purge timed-out locks: " + getMessage(ex), ex);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/txn/TxnHandler.java:      LOG.error("Failed to purge timed-out locks: " + ex.getMessage(), ex);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/txn/TxnHandler.java:          LOG.error("Transaction database not properly configured, " +
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/txn/TxnHandler.java:            LOG.error("Open transaction count above " + Integer.MAX_VALUE +
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/txn/TxnHandler.java:          LOG.error(msg);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/cache/CachedStore.java:      LOG.error("cache update should be done only after prewarm");
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/cache/CachedStore.java:      LOG.error(" cache update failed for start event id " + lastEventId + " with error ", e);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/cache/CachedStore.java:        LOG.error("Event id is not valid " + lastEventId + " : " + eventId);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/cache/CachedStore.java:        LOG.error("catalog Events are not supported for cache invalidation : " + event.getEventType());
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/cache/CachedStore.java:        LOG.error("Event is not supported for cache invalidation : " + event.getEventType());
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/cache/CachedStore.java:            LOG.error("failed to update cache using events ", e);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/cache/CachedStore.java:            LOG.error("periodical refresh fail ", e);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/cache/CachedStore.java:          LOG.error("Prewarm failure", e);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/cache/CachedStore.java:        LOG.error("Updating CachedStore: error happen when refresh; skipping this iteration", e);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/cache/CachedStore.java:        LOG.error("Failed to update cache", e);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/cache/SharedCache.java:      LOG.error("Error while getting object size.", e);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/cache/SharedCache.java:          LOG.error("Not able to estimate size.", ex);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/cache/SharedCache.java:            LOG.error("Should not reach here");
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/security/DelegationTokenTool.java:      LOG.error("Unexpected exception: ", exception);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/ScheduledQueryExecutionsMaintTask.java:      LOG.error("Exception while trying to delete: " + e.getMessage(), e);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/HiveMetaStore.java:        LOG.error("Failed to notify meta listeners on shutdown: ", e);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/HiveMetaStore.java:          LOG.error("Unable to load class " + className, e);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/HiveMetaStore.java:          LOG.error("Unable to create instance of class " + className, e);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/HiveMetaStore.java:        LOG.error(errorMsg, e);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/HiveMetaStore.java:        LOG.error("Failed to retrieve just added admin role",e);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/HiveMetaStore.java:          LOG.error("Failed to add "+ userName + " in admin role",e);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/HiveMetaStore.java:        LOG.error("No such catalog " + db.getCatalogName());
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/HiveMetaStore.java:                LOG.error(
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/HiveMetaStore.java:                LOG.error("Couldn't delete external directory " + dbExtPath + " after " + "it was created for database "
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/HiveMetaStore.java:            LOG.error("Failed to delete database directory: " + db.getManagedLocationUri() +
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/HiveMetaStore.java:            LOG.error("Failed to delete database directory: " + db.getLocationUri() +
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/HiveMetaStore.java:          LOG.error("Failed to delete table directory: " + tablePath +
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/HiveMetaStore.java:            LOG.error("Failed to delete partition directory: " + partPath +
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/HiveMetaStore.java:        LOG.error("Failed to delete directory: " + path +
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/HiveMetaStore.java:        LOG.error(String.format("Unable to get partition for %s.%s.%s", catName, dbName, tblName), e);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/HiveMetaStore.java:          LOG.error("Unable to instantiate class " + className, e);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/HiveMetaStore.java:          LOG.error(threadLocalId.get().toString() + ": "
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/HiveMetaStore.java:        LOG.error("Exception caught in mark partition event ", e);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/HiveMetaStore.java:        LOG.error("Exception caught in mark partition event ", original);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/HiveMetaStore.java:        LOG.error("Exception caught for isPartitionMarkedForEvent ", e);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/HiveMetaStore.java:        LOG.error("Exception caught for isPartitionMarkedForEvent ", original);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/HiveMetaStore.java:              LOG.error("failed to get checksum for the file " + newPath + " with error: " + e.getMessage());
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/HiveMetaStore.java:        LOG.error("Not authorized to make the get_next_notification call. You can try to disable " +
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/HiveMetaStore.java:        LOG.error("Not authorized to make the get_current_notificationEventId call. You can try to disable " +
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/HiveMetaStore.java:        LOG.error("Not authorized to make the get_notification_events_count call. You can try to disable " +
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/HiveMetaStore.java:        LOG.error("Cannot obtain username", ex);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/HiveMetaStore.java:        LOG.error("Exception thrown while querying metastore db uuid", e);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/HiveMetaStore.java:        LOG.error("Exception while trying to persist resource plan", e);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/HiveMetaStore.java:        LOG.error("Exception while trying to retrieve resource plan", e);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/HiveMetaStore.java:        LOG.error("Exception while trying to retrieve resource plans", e);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/HiveMetaStore.java:        LOG.error("Exception while trying to alter resource plan", e);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/HiveMetaStore.java:        LOG.error("Exception while trying to get active resource plan", e);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/HiveMetaStore.java:        LOG.error("Exception while trying to validate resource plan", e);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/HiveMetaStore.java:        LOG.error("Exception while trying to drop resource plan", e);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/HiveMetaStore.java:        LOG.error("Exception while trying to create trigger", e);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/HiveMetaStore.java:        LOG.error("Exception while trying to alter trigger", e);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/HiveMetaStore.java:        LOG.error("Exception while trying to drop trigger.", e);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/HiveMetaStore.java:        LOG.error("Exception while trying to retrieve triggers plans", e);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/HiveMetaStore.java:        LOG.error("Exception while trying to alter WMPool", e);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/HiveMetaStore.java:        LOG.error("Exception while trying to create WMPool", e);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/HiveMetaStore.java:        LOG.error("Exception while trying to drop WMPool", e);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/HiveMetaStore.java:        LOG.error("Exception while trying to create or update WMMapping", e);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/HiveMetaStore.java:        LOG.error("Exception while trying to drop WMMapping", e);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/HiveMetaStore.java:        LOG.error("Exception while trying to create or drop pool mappings", e);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/HiveMetaStore.java:        LOG.error("Caught exception creating schema", e);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/HiveMetaStore.java:        LOG.error("Caught exception altering schema", e);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/HiveMetaStore.java:        LOG.error("Caught exception getting schema", e);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/HiveMetaStore.java:        LOG.error("Caught exception dropping schema", e);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/HiveMetaStore.java:        LOG.error("Caught exception adding schema version", e);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/HiveMetaStore.java:        LOG.error("Caught exception getting schema version", e);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/HiveMetaStore.java:        LOG.error("Caught exception getting latest schema version", e);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/HiveMetaStore.java:        LOG.error("Caught exception getting all schema versions", e);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/HiveMetaStore.java:        LOG.error("Caught exception dropping schema version", e);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/HiveMetaStore.java:        LOG.error("Caught exception doing schema version query", e);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/HiveMetaStore.java:        LOG.error("Caught exception mapping schema version to serde", e);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/HiveMetaStore.java:        LOG.error("Caught exception changing schema version state", e);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/HiveMetaStore.java:        LOG.error("Caught exception creating serde", e);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/HiveMetaStore.java:        LOG.error("Caught exception getting serde", e);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/HiveMetaStore.java:        LOG.error("Caught exception", e);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/HiveMetaStore.java:        LOG.error("Caught exception", e);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/HiveMetaStore.java:        LOG.error("Caught exception", e);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/HiveMetaStore.java:        LOG.error("Caught exception", e);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/HiveMetaStore.java:        LOG.error("Caught exception", e);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/HiveMetaStore.java:        LOG.error("Caught exception", e);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/HiveMetaStore.java:        LOG.error("Caught exception", e);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/HiveMetaStore.java:        LOG.error("Caught exception", e);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/HiveMetaStore.java:        LOG.error("Caught exception", e);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/HiveMetaStore.java:        LOG.error("Caught exception", e);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/HiveMetaStore.java:        LOG.error("Caught exception", e);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/HiveMetaStore.java:        LOG.error("Caught exception", e);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/HiveMetaStore.java:            LOG.error("error in Metrics deinit: " + e.getClass().getName() + " "
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/HiveMetaStore.java:          LOG.error("Error removing znode for this metastore instance from ZooKeeper.", e);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/HiveMetaStore.java:          LOG.error("error in Metrics init: " + e.getClass().getName() + " "
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/HiveMetaStore.java:        LOG.error("Error adding this metastore instance to ZooKeeper: ", e);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/HiveMetaStore.java:          LOG.error("Failure when starting the compactor, compactions may not happen, " +
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/HiveMetaStore.java:      LOG.error(s);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/FileMetadataManager.java:        LOG.error("Failed to cache file metadata in background for " + type + ", " + location, ex);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/FileMetadataManager.java:        LOG.error("Cannot cache file metadata for " + location + "; "
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/RetryingHMSHandler.java:      LOG.error("HMSHandler Fatal error: " + ExceptionUtils.getStackTrace(e));
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/RetryingHMSHandler.java:            LOG.error(ExceptionUtils.getStackTrace(e.getCause()));
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/RetryingHMSHandler.java:          LOG.error(ExceptionUtils.getStackTrace(e));
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/RetryingHMSHandler.java:            LOG.error(ExceptionUtils.getStackTrace(e.getCause()));
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/RetryingHMSHandler.java:            LOG.error("Error happens in method " + method.getName() + ": " +
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/RetryingHMSHandler.java:            LOG.error(ExceptionUtils.getStackTrace(e.getCause()));
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/RetryingHMSHandler.java:          LOG.error(ExceptionUtils.getStackTrace(e.getCause()));
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/RetryingHMSHandler.java:        LOG.error("HMSHandler Fatal error: " + ExceptionUtils.getStackTrace(caughtException));
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/RetryingHMSHandler.java:      LOG.error(
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/TUGIBasedProcessor.java:           LOG.error("Could not clean up file-system handles for UGI: " + clientUgi, e);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/MetaStoreSchemaInfoFactory.java:      LOG.error("Unable to load class " + className, e);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/MetaStoreSchemaInfoFactory.java:      LOG.error("Unable to create instance of class " + className, e);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/ObjectStore.java:      LOG.error("Error loading PartitionExpressionProxy", e);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/ObjectStore.java:      LOG.error("Unbalanced calls to open/commit Transaction", e);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/ObjectStore.java:      LOG.error("Unbalanced calls to open/commit Transaction", e);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/ObjectStore.java:          LOG.error("DirectSQL failed", ex);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/ObjectStore.java:      LOG.error("Could not convert to MTable", e);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/ObjectStore.java:      LOG.error("Exception in ORM", t);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/ObjectStore.java:        LOG.error("", ex);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/ObjectStore.java:      LOG.error("alterPartition failed", exception);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/ObjectStore.java:      LOG.error("Alter failed", e);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/ObjectStore.java:      LOG.error("Error retrieving statistics via jdo", ex);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/ObjectStore.java:        LOG.error("Error retrieving statistics via jdo", ex);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/ObjectStore.java:            LOG.error("error updating parts", e);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/ObjectStore.java:      LOG.error("Couldn't clear stats for table", e);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/ObjectStore.java:          LOG.error("Version information found in metastore differs {} " +
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/ObjectStore.java:      LOG.error("Database does not exist", e);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/ObjectStore.java:            LOG.error(message, e);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/ObjectStore.java:            LOG.error(msg, e1);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/ObjectStore.java:      LOG.error("Couldn't get lock for update", e);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/ObjectStore.java:      LOG.error("Unable to delete batch of notification events", e);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/ObjectStore.java:      LOG.error(msg, e);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/ObjectStore.java:      LOG.error(message, iae);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/ObjectStore.java:        LOG.error("Scheduled query: {} stuck with an activeExecution - clearing",
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/PartitionProjectionEvaluator.java:      LOG.error("Exception received while getting partitions using projected fields", e);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/utils/MetaStoreServerUtils.java:        LOG.error("Got InvocationTargetException", ie);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/utils/MetaStoreServerUtils.java:        LOG.error("Got Exception", e);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/utils/MetaStoreServerUtils.java:          LOG.error("Metastore Thrift Server threw an exception...",e);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/utils/MetaStoreServerUtils.java:    LOG.error("Unable to connect to metastore server: " + exc.getMessage());
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/utils/MetaStoreServerUtils.java:      LOG.error(org.apache.hadoop.util.StringUtils.stringifyException(e));
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/Batchable.java:        LOG.error("Failed to close a query", t);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/MetaStoreInit.java:      LOG.error("Exception while getting connection URL from the hook: " +
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/MetaStoreInit.java:      LOG.error(
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/Msck.java:        LOG.error("Error while committing txnId: {} for table: {}", txnId, qualifiedTableName, e);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/Msck.java:        LOG.error("Error while aborting txnId: {} for table: {}", txnId, qualifiedTableName, e);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/Msck.java:      LOG.error("Failed to save metacheck output: ", e);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/MaterializationsRebuildLockCleanerTask.java:      LOG.error("Unexpected error in thread: {}, message: {}", Thread.currentThread().getName(), t.getMessage(), t);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/PartitionManagementTask.java:        LOG.error("Exception while running partition discovery task for table: " + qualifiedTableName, e);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/PartitionManagementTask.java:        LOG.error("Exception while running partition discovery task for table: " + qualifiedTableName, e);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/HiveMetaStoreChecker.java:      LOG.error("Exception received while listing partition directories", e);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/PartFilterExprUtil.java:      LOG.error("Error loading PartitionExpressionProxy", e);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/events/EventCleanerTask.java:      LOG.error("Exception while trying to delete events ", e);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/messaging/MessageFactory.java:        LOG.error(message, e);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/messaging/MessageFactory.java:    LOG.error(message);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/messaging/MessageFactory.java:      LOG.error("received incorrect MessageFormat " + messageFormat);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/messaging/MessageFactory.java:      LOG.error(message, e);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/messaging/MessageBuilder.java:      LOG.error("Regex pattern compilation failed. Verify that "
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/messaging/json/gzip/DeSerializer.java:      LOG.error("cannot decode the stream", e);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/messaging/json/gzip/Serializer.java:      LOG.error("could not use gzip output stream", e);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/TransactionalValidationListener.java:      LOG.error(msg, err);
+./standalone-metastore/metastore-server/src/main/java/org/apache/hadoop/hive/metastore/TransactionalValidationListener.java:      LOG.error(msg, e);
+./standalone-metastore/metastore-tools/metastore-benchmarks/src/main/java/org/apache/hadoop/hive/metastore/tools/ACIDBenchmarks.java:          LOG.error("Something went wrong with the cleanup of txns");
+./standalone-metastore/metastore-tools/metastore-benchmarks/src/main/java/org/apache/hadoop/hive/metastore/tools/ACIDBenchmarks.java:          LOG.error("Something went wrong with the cleanup of txns");
+./standalone-metastore/metastore-tools/metastore-benchmarks/src/main/java/org/apache/hadoop/hive/metastore/tools/ACIDBenchmarks.java:        LOG.error(e.getMessage());
+./standalone-metastore/metastore-tools/metastore-benchmarks/src/main/java/org/apache/hadoop/hive/metastore/tools/ACIDBenchmarks.java:        LOG.error(e.getMessage());
+./standalone-metastore/metastore-tools/metastore-benchmarks/src/main/java/org/apache/hadoop/hive/metastore/tools/BenchmarkTool.java:      LOG.error("{} should be a directory", location);
+./standalone-metastore/metastore-tools/metastore-benchmarks/src/main/java/org/apache/hadoop/hive/metastore/tools/BenchmarkTool.java:      LOG.error("failed to write to {}", dst);
+./standalone-metastore/metastore-tools/metastore-benchmarks/src/main/java/org/apache/hadoop/hive/metastore/tools/BenchmarkTool.java:      LOG.error(e.getMessage(), e);
+./standalone-metastore/metastore-tools/metastore-benchmarks/src/main/java/org/apache/hadoop/hive/metastore/tools/BenchmarkTool.java:      LOG.error(e.getMessage(), e);
+./standalone-metastore/metastore-tools/tools-common/src/main/java/org/apache/hadoop/hive/metastore/tools/HMSClient.java:      LOG.error("Unable to resolve my host name " + e.getMessage());
+./standalone-metastore/metastore-common/src/main/java/org/apache/hadoop/hive/common/ZooKeeperHiveHelper.java:      LOG.error("Unable to create znode with path prefix " + znodePathPrefix + " and data " +
+./standalone-metastore/metastore-common/src/main/java/org/apache/hadoop/hive/common/ZooKeeperHiveHelper.java:          LOG.error("Unable to create namespace: " + rootNamespace + " on ZooKeeper", e);
+./standalone-metastore/metastore-common/src/main/java/org/apache/hadoop/hive/common/ZooKeeperHiveHelper.java:        LOG.error("Failed to close the persistent ephemeral znode", e);
+./standalone-metastore/metastore-common/src/main/java/org/apache/hadoop/hive/metastore/security/HadoopThriftAuthBridge.java:             LOG.error("Could not clean up file-system handles for UGI: "
+./standalone-metastore/metastore-common/src/main/java/org/apache/hadoop/hive/metastore/utils/FileUtils.java:      LOG.error("Failed to delete " + f);
+./standalone-metastore/metastore-common/src/main/java/org/apache/hadoop/hive/metastore/utils/SecurityUtils.java:      LOG.error(msg, e);
+./standalone-metastore/metastore-common/src/main/java/org/apache/hadoop/hive/metastore/utils/JavaUtils.java:      LOG.error("Unable to resolve my host name " + e.getMessage());
+./standalone-metastore/metastore-common/src/main/java/org/apache/hadoop/hive/metastore/utils/MetaStoreUtils.java:    LOG.error(exInfo, e);
+./standalone-metastore/metastore-common/src/main/java/org/apache/hadoop/hive/metastore/utils/MetaStoreUtils.java:    LOG.error("Converting exception to MetaException");
+./standalone-metastore/metastore-common/src/main/java/org/apache/hadoop/hive/metastore/utils/MetaStoreUtils.java:      LOG.error("Bad URL " + onestr + ", ignoring path");
+./standalone-metastore/metastore-common/src/main/java/org/apache/hadoop/hive/metastore/HiveMetaStoreClient.java:      LOG.error("NOT getting uris from conf");
+./standalone-metastore/metastore-common/src/main/java/org/apache/hadoop/hive/metastore/HiveMetaStoreClient.java:        LOG.error("Error while setting delegation token for " + proxyUser, e);
+./standalone-metastore/metastore-common/src/main/java/org/apache/hadoop/hive/metastore/HiveMetaStoreClient.java:        LOG.error("Exception loading uri resolver hook", e);
+./standalone-metastore/metastore-common/src/main/java/org/apache/hadoop/hive/metastore/HiveMetaStoreClient.java:              LOG.error("Could not create client transport", sasle);
+./standalone-metastore/metastore-common/src/main/java/org/apache/hadoop/hive/metastore/HiveMetaStoreClient.java:              LOG.error("Failed to create client transport", ioe);
+./standalone-metastore/metastore-common/src/main/java/org/apache/hadoop/hive/metastore/HiveMetaStoreClient.java:          LOG.error("Failed to connect to metastore with URI (" + store
+./standalone-metastore/metastore-common/src/main/java/org/apache/hadoop/hive/metastore/HiveMetaStoreClient.java:          LOG.error("Create rollback failed with", e);
+./standalone-metastore/metastore-common/src/main/java/org/apache/hadoop/hive/metastore/HiveMetaStoreClient.java:          LOG.error("Create rollback failed with", e);
+./standalone-metastore/metastore-common/src/main/java/org/apache/hadoop/hive/metastore/HiveMetaStoreClient.java:      LOG.error("Unable to resolve my host name " + e.getMessage());
+./standalone-metastore/metastore-common/src/main/java/org/apache/hadoop/hive/metastore/HiveMetaStoreClient.java:      LOG.error("Unable to resolve current user name " + e.getMessage());
+./standalone-metastore/metastore-common/src/main/java/org/apache/hadoop/hive/metastore/HiveMetaStoreClient.java:      LOG.error("Unable to resolve my host name " + e.getMessage());
+./standalone-metastore/metastore-common/src/main/java/org/apache/hadoop/hive/metastore/HiveMetaStoreClient.java:            LOG.error("NOTIFICATION_LOG table has multiple events with the same event Id {}. " +
+./standalone-metastore/metastore-common/src/main/java/org/apache/hadoop/hive/metastore/HiveMetaStoreClient.java:            LOG.error("Requested events are found missing in NOTIFICATION_LOG table. Expected: {}, Actual: {}. "
+./standalone-metastore/metastore-common/src/main/java/org/apache/hadoop/hive/metastore/ReplChangeManager.java:        LOG.error("Exception when clearing cmroot:" + StringUtils.stringifyException(e));
+./standalone-metastore/metastore-common/src/main/java/org/apache/hadoop/hive/metastore/ReplChangeManager.java:      LOG.error("Unable to set permissions corresponding to hive-warehouse on CMRoot: ", e);
+./llap-server/src/test/org/apache/hadoop/hive/llap/cache/TestBuddyAllocator.java:      LOG.error("failed on starting the thread race", t);
+./llap-server/src/test/org/apache/hadoop/hive/llap/cache/TestBuddyAllocator.java:      LOG.error("failed on up task", e);
+./llap-server/src/test/org/apache/hadoop/hive/llap/cache/TestBuddyAllocator.java:      LOG.error("failed on downTask", e);
+./llap-server/src/test/org/apache/hadoop/hive/llap/cache/TestBuddyAllocator.java:      LOG.error("failed on sameTask", e);
+./llap-server/src/test/org/apache/hadoop/hive/llap/cache/TestBuddyAllocator.java:      LOG.error("Failed to allocate " + allocCount + " of " + size + "; " + a.testDump());
+./llap-server/src/test/org/apache/hadoop/hive/llap/cache/TestBuddyAllocatorForceEvict.java:            LOG.error("Failed", ex);
+./llap-server/src/test/org/apache/hadoop/hive/llap/cache/TestBuddyAllocatorForceEvict.java:            LOG.error("Failed", ex);
+./llap-server/src/test/org/apache/hadoop/hive/llap/cache/TestBuddyAllocatorForceEvict.java:        LOG.error("Test callable failed", tt);
+./llap-server/src/test/org/apache/hadoop/hive/llap/cache/TestBuddyAllocatorForceEvict.java:        LOG.error("Defragmentation thread failed", t);
+./llap-server/src/test/org/apache/hadoop/hive/llap/cache/TestBuddyAllocatorForceEvict.java:      LOG.error("Failed to allocate " + allocs.length + " of " + size + "; " + a.testDump());
+./llap-server/src/java/org/apache/hadoop/hive/llap/shufflehandler/DirWatcher.java:          LOG.error("Watcher interrupted before being shutdown");
+./llap-server/src/java/org/apache/hadoop/hive/llap/shufflehandler/DirWatcher.java:            LOG.error("WatchExpirer interrupted before being shutdown");
+./llap-server/src/java/org/apache/hadoop/hive/llap/shufflehandler/ShuffleHandler.java:        LOG.error("Shuffle error in populating headers (fatal: DiskErrorException):", e);
+./llap-server/src/java/org/apache/hadoop/hive/llap/shufflehandler/ShuffleHandler.java:        LOG.error("Shuffle error in populating headers :", e);
+./llap-server/src/java/org/apache/hadoop/hive/llap/shufflehandler/ShuffleHandler.java:          LOG.error("Shuffle error :", e);
+./llap-server/src/java/org/apache/hadoop/hive/llap/shufflehandler/ShuffleHandler.java:      LOG.error("Shuffle error: ", cause);
+./llap-server/src/java/org/apache/hadoop/hive/llap/shufflehandler/ShuffleHandler.java:        LOG.error("Shuffle error " + e);
+./llap-server/src/java/org/apache/hadoop/hive/llap/cache/LowLevelLrfuCachePolicy.java:      LlapIoImpl.LOG.error("Error dumping the lists on error", t);
+./llap-server/src/java/org/apache/hadoop/hive/llap/cache/LowLevelLrfuCachePolicy.java:    LlapIoImpl.LOG.error(listDump.toString());
+./llap-server/src/java/org/apache/hadoop/hive/llap/cache/LowLevelCacheImpl.java:      LlapIoImpl.LOG.error(s);
+./llap-server/src/java/org/apache/hadoop/hive/llap/cache/FileCacheCleanupThread.java:        LlapIoImpl.LOG.error("Cleanup has failed; the thread will now exit", t);
+./llap-server/src/java/org/apache/hadoop/hive/llap/cache/BuddyAllocator.java:        LlapIoImpl.LOG.error(msg + debugDumpForOomInternal());
+./llap-server/src/java/org/apache/hadoop/hive/llap/cache/BuddyAllocator.java:        LlapIoImpl.LOG.error(msg);
+./llap-server/src/java/org/apache/hadoop/hive/llap/cache/BuddyAllocator.java:        LlapIoImpl.LOG.error(prefix(ix) + " failed");
+./llap-server/src/java/org/apache/hadoop/hive/llap/io/decode/EncodedDataConsumer.java:      LlapIoImpl.LOG.error("decodeBatch threw", ex);
+./llap-server/src/java/org/apache/hadoop/hive/llap/io/api/impl/LlapRecordReader.java:      LlapIoImpl.LOG.error("Unhandled error from reader thread. threadName: {} threadId: {}" +
+./llap-server/src/java/org/apache/hadoop/hive/llap/io/encoded/VectorDeserializeOrcWriter.java:          LlapIoImpl.LOG.error("ORC encoder timed out waiting for input");
+./llap-server/src/java/org/apache/hadoop/hive/llap/io/encoded/VectorDeserializeOrcWriter.java:          LlapIoImpl.LOG.error("ORC encoder interrupted waiting for input");
+./llap-server/src/java/org/apache/hadoop/hive/llap/io/encoded/VectorDeserializeOrcWriter.java:        LlapIoImpl.LOG.error("ORC encoder failed", e);
+./llap-server/src/java/org/apache/hadoop/hive/llap/io/encoded/VectorDeserializeOrcWriter.java:      LlapIoImpl.LOG.error("Failed to close an async cache writer", ex);
+./llap-server/src/java/org/apache/hadoop/hive/llap/io/encoded/OrcEncodedDataReader.java:    // LOG.error("Got " + RecordReaderUtils.stringifyDiskRanges(footerRange));
+./llap-server/src/java/org/apache/hadoop/hive/llap/io/encoded/OrcEncodedDataReader.java:        LOG.error("Ignoring codec cleanup error", ex);
+./llap-server/src/java/org/apache/hadoop/hive/llap/io/encoded/LineRrOffsetReader.java:      LlapIoImpl.LOG.error("Cannot check the reader for compression; offsets not supported", e);
+./llap-server/src/java/org/apache/hadoop/hive/llap/io/encoded/SerDeEncodedDataReader.java:      LlapIoImpl.LOG.error("Encode allocation size " + allocSize + " is being capped to the maximum "
+./llap-server/src/java/org/apache/hadoop/hive/llap/io/encoded/SerDeEncodedDataReader.java:      LlapIoImpl.LOG.error(s);
+./llap-server/src/java/org/apache/hadoop/hive/llap/io/encoded/SerDeEncodedDataReader.java:        LlapIoImpl.LOG.error("Exception while processing", e);
+./llap-server/src/java/org/apache/hadoop/hive/llap/io/encoded/SerDeEncodedDataReader.java:        LlapIoImpl.LOG.error("Failed to close source reader", ex);
+./llap-server/src/java/org/apache/hadoop/hive/llap/io/encoded/SerDeEncodedDataReader.java:          LlapIoImpl.LOG.error("Failed to close source reader", ex);
+./llap-server/src/java/org/apache/hadoop/hive/llap/io/encoded/SerDeEncodedDataReader.java:        LlapIoImpl.LOG.error("Failed to close source reader", ex);
+./llap-server/src/java/org/apache/hadoop/hive/llap/io/encoded/SerDeEncodedDataReader.java:        LlapIoImpl.LOG.error("Failed to cache async data", e);
+./llap-server/src/java/org/apache/hadoop/hive/llap/io/encoded/SerDeEncodedDataReader.java:          LlapIoImpl.LOG.error("Failed to close ORC writer", ex);
+./llap-server/src/java/org/apache/hadoop/hive/llap/io/encoded/SerDeEncodedDataReader.java:          LlapIoImpl.LOG.error("Failed to close cache writer", ex);
+./llap-server/src/java/org/apache/hadoop/hive/llap/io/encoded/SerDeEncodedDataReader.java:      LlapIoImpl.LOG.error("Failed to close current file reader", ex);
+./llap-server/src/java/org/apache/hadoop/hive/llap/cli/status/LlapStatusServiceDriver.java:          LOG.error("Invalid app name. This must be setup via config or passed in as a parameter." +
+./llap-server/src/java/org/apache/hadoop/hive/llap/cli/status/LlapStatusServiceDriver.java:        LOG.error("LLAP did not start. Check the application log for more info:\n" +
+./llap-server/src/java/org/apache/hadoop/hive/llap/cli/status/LlapStatusServiceDriver.java:    LOG.error("FAILED: " + t.getMessage(), t);
+./llap-server/src/java/org/apache/hadoop/hive/llap/cli/service/AsyncTaskCopyAuxJars.java:        LOG.error(err);
+./llap-server/src/java/org/apache/hadoop/hive/llap/cli/service/AsyncTaskCopyAuxJars.java:        LOG.error(err);
+./llap-server/src/java/org/apache/hadoop/hive/llap/cli/service/AsyncTaskCopyAuxJars.java:        LOG.error(err);
+./llap-server/src/java/org/apache/hadoop/hive/llap/cli/service/LlapServiceCommandLine.java:      LOG.error("Parsing the command line arguments failed", e);
+./llap-server/src/java/org/apache/hadoop/hive/llap/daemon/impl/ContainerRunnerImpl.java:        LOG.error("Cannot verify JWT provided with the request, fragmentId: {}, {}", fragmentIdString, e);
+./llap-server/src/java/org/apache/hadoop/hive/llap/daemon/impl/AMReporter.java:          LOG.error("AMReporter QueueDrainer exited with error", t);
+./llap-server/src/java/org/apache/hadoop/hive/llap/daemon/impl/TaskRunnerCallable.java:              LOG.error("Unregistering task from AMReporter failed", thr);
+./llap-server/src/java/org/apache/hadoop/hive/llap/daemon/impl/TaskRunnerCallable.java:      LOG.error("TezTaskRunner execution failed for : "
+./llap-server/src/java/org/apache/hadoop/hive/llap/daemon/impl/FunctionLocalizer.java:        LOG.error("Failed to run " + lw, ex);
+./llap-server/src/java/org/apache/hadoop/hive/llap/daemon/impl/FunctionLocalizer.java:      LOG.error("Cannot download " + srcUri + " for " + fqfn);
+./llap-server/src/java/org/apache/hadoop/hive/llap/daemon/impl/QueryTracker.java:        LOG.error(QUERY_COMPLETE_MARKER, "Ignore this. Log line to interact with logger." +
+./llap-server/src/java/org/apache/hadoop/hive/llap/daemon/impl/QueryTracker.java:        LOG.error("Failed to process query complete for external submission: {}",
+./llap-server/src/java/org/apache/hadoop/hive/llap/daemon/impl/EvictingPriorityBlockingQueue.java:      LOG.error(
+./llap-server/src/java/org/apache/hadoop/hive/llap/daemon/impl/LlapDaemon.java:        LOG.error("Cannot find " + ApplicationConstants.Environment.CONTAINER_ID.toString()
+./llap-server/src/java/org/apache/hadoop/hive/llap/daemon/impl/LlapDaemon.java:      LOG.error("Failed to start LLAP Daemon with exception", t);
+./llap-server/src/java/org/apache/hadoop/hive/llap/daemon/impl/LlapDaemon.java:          LOG.error("Thread {} threw an Error.  Shutting down now...", t, e);
+./llap-server/src/java/org/apache/hadoop/hive/llap/daemon/impl/LlapDaemon.java:        LOG.error("Thread {} threw an Exception. Shutting down now...", t, e);
+./llap-server/src/java/org/apache/hadoop/hive/llap/daemon/impl/TaskExecutorService.java:        LOG.error("Wait queue scheduler worker exited with success!");
+./llap-server/src/java/org/apache/hadoop/hive/llap/daemon/impl/TaskExecutorService.java:      LOG.error("Wait queue scheduler worker exited with failure!", t);
+./llap-server/src/java/org/apache/hadoop/hive/llap/daemon/impl/TaskExecutorService.java:        LOG.error(sb.toString());
+./llap-server/src/java/org/apache/hadoop/hive/llap/daemon/impl/TaskExecutorService.java:      LOG.error("Failed notification received: Stacktrace: " + ExceptionUtils.getStackTrace(t));
+./llap-server/src/java/org/apache/hadoop/hive/llap/daemon/services/impl/LlapLockingServlet.java:      LOG.error("Exception while processing locking stats request", e);
+./llap-server/src/java/org/apache/hadoop/hive/llap/daemon/services/impl/LlapWebServices.java:        LOG.error("Caught an exception while processing /status request", e);
+./llap-server/src/java/org/apache/hadoop/hive/llap/daemon/services/impl/LlapWebServices.java:        LOG.error("Caught an exception while processing /status request", e);
+./llap-server/src/java/org/apache/hadoop/hive/llap/daemon/services/impl/LlapIoMemoryServlet.java:      LOG.error("Caught exception while processing llap status request", e);
+./llap-server/src/java/org/apache/hadoop/hive/llap/daemon/services/impl/SystemConfigurationServlet.java:      LOG.error("Caught exception while processing llap /system web service request", e);
+./service/src/java/org/apache/hive/http/JdbcJarDownloadServlet.java:      LOG.error("Exception during downloading standalone jdbc jar", e);
+./service/src/java/org/apache/hive/http/JdbcJarDownloadServlet.java:      LOG.error("No jdbc standalone jar found in the directory " + JDBC_JAR_DIR);
+./service/src/java/org/apache/hive/http/JdbcJarDownloadServlet.java:      LOG.error("Multiple jdbc standalone jars exist in the directory " + JDBC_JAR_DIR + ":\n" + fileNames);
+./service/src/java/org/apache/hive/http/LlapServlet.java:      LOG.error("Caught exception while processing llap status request", e);
+./service/src/java/org/apache/hive/service/servlet/QueriesRESTfulAPIServlet.java:      LOG.error("Caught an exception while writing an HTTP error status", e);
+./service/src/java/org/apache/hive/service/servlet/QueriesRESTfulAPIServlet.java:      LOG.error("Caught an exception while writing an HTTP response", e);
+./service/src/java/org/apache/hive/service/servlet/HS2LeadershipStatus.java:      LOG.error(errMsg, e);
+./service/src/java/org/apache/hive/service/auth/HttpAuthUtils.java:      LOG.error("Invalid token with missing attributes " + tokenStr);
+./service/src/java/org/apache/hive/service/auth/HttpAuthUtils.java:        LOG.error("Invalid token string " + tokenStr);
+./service/src/java/org/apache/hive/service/auth/HiveAuthFactory.java:      LOG.error(msg, e);
+./service/src/java/org/apache/hive/service/auth/PlainSaslHelper.java:        LOG.error("Login attempt is failed for user : " + username + ". Error Messsage : " + e.getMessage());
+./service/src/java/org/apache/hive/service/server/KillQueryZookeeperManager.java:          LOG.error("Unable to create namespace: " + zkNameSpace + " on ZooKeeper", e);
+./service/src/java/org/apache/hive/service/server/KillQueryZookeeperManager.java:            LOG.error("Unable to kill local query", e);
+./service/src/java/org/apache/hive/service/server/KillQueryZookeeperManager.java:        LOG.error("Unable the get available server hosts", e);
+./service/src/java/org/apache/hive/service/server/KillQueryZookeeperManager.java:      LOG.error("Unable to determine the server host", e);
+./service/src/java/org/apache/hive/service/server/KillQueryZookeeperManager.java:      LOG.error("Unable to create Barrier on Zookeeper for KillQuery", e);
+./service/src/java/org/apache/hive/service/server/HiveServer2.java:        LOG.error("Error adding this HiveServer2 instance to ZooKeeper: ", e);
+./service/src/java/org/apache/hive/service/server/HiveServer2.java:      LOG.error("Error starting priviledge synchronizer: ", e);
+./service/src/java/org/apache/hive/service/server/HiveServer2.java:        LOG.error("Error starting Web UI: ", e);
+./service/src/java/org/apache/hive/service/server/HiveServer2.java:          LOG.error("Error starting  Tez sessions: ", e);
+./service/src/java/org/apache/hive/service/server/HiveServer2.java:      LOG.error("Unable to close all open sessions.", e);
+./service/src/java/org/apache/hive/service/server/HiveServer2.java:        LOG.error("Error while stopping tez session pool manager.", e);
+./service/src/java/org/apache/hive/service/server/HiveServer2.java:        LOG.error("Error while stopping workload manager.", e);
+./service/src/java/org/apache/hive/service/server/HiveServer2.java:        LOG.error("Error stopping schq", e);
+./service/src/java/org/apache/hive/service/server/HiveServer2.java:        LOG.error("Error stopping Web UI: ", e);
+./service/src/java/org/apache/hive/service/server/HiveServer2.java:        LOG.error("error in Metrics deinit: " + e.getClass().getName() + " "
+./service/src/java/org/apache/hive/service/server/HiveServer2.java:        LOG.error("Error removing znode for this HiveServer2 instance from ZooKeeper.", e);
+./service/src/java/org/apache/hive/service/server/HiveServer2.java:        LOG.error("Spark session pool manager failed to stop during HiveServer2 shutdown.", ex);
+./service/src/java/org/apache/hive/service/server/HiveServer2.java:      LOG.error("Error initializing log: " + e.getMessage(), e);
+./service/src/java/org/apache/hive/service/server/HiveServer2.java:        LOG.error("Error starting HiveServer2", t);
+./service/src/java/org/apache/hive/service/server/HiveServer2.java:        LOG.error("Error deregistering HiveServer2 instances for version: " + versionNumber
+./service/src/java/org/apache/hive/service/server/HiveServer2.java:          LOG.error("No HiveServer2 instances are running in HA mode");
+./service/src/java/org/apache/hive/service/server/HiveServer2.java:          LOG.error("Cannot find any HiveServer2 instance with workerIdentity: " + workerIdentity);
+./service/src/java/org/apache/hive/service/server/HiveServer2.java:          LOG.error("Only one HiveServer2 instance running in thefail cluster. Cannot failover: " + workerIdentity);
+./service/src/java/org/apache/hive/service/server/HiveServer2.java:          LOG.error("HiveServer2 instance (workerIdentity: " + workerIdentity + ") is not a leader. Cannot failover");
+./service/src/java/org/apache/hive/service/server/HiveServer2.java:          LOG.error("Unable to determine web port for instance: " + workerIdentity);
+./service/src/java/org/apache/hive/service/server/HiveServer2.java:            LOG.error("Unable to failover HiveServer2 instance: " + workerIdentity +
+./service/src/java/org/apache/hive/service/server/HiveServer2.java:        LOG.error("Error listing HiveServer2 HA instances from ZooKeeper", e);
+./service/src/java/org/apache/hive/service/server/HiveServer2.java:        LOG.error("Error listing HiveServer2 HA instances from ZooKeeper", e);
+./service/src/java/org/apache/hive/service/server/KillQueryImpl.java:          LOG.error("Kill query failed for queryId: " + queryIdOrTag, e);
+./service/src/java/org/apache/hive/service/server/KillQueryImpl.java:      LOG.error("Kill query failed for query " + queryIdOrTag, e);
+./service/src/java/org/apache/hive/service/cli/thrift/ThriftBinaryCLIService.java:        LOG.error("Exception caught by " + this.getClass().getSimpleName() +
+./service/src/java/org/apache/hive/service/cli/thrift/ThreadPoolExecutorWithOomHook.java:      LOG.error("Stopping HiveServer2 due to OOM", t);
+./service/src/java/org/apache/hive/service/cli/thrift/ThriftHttpServlet.java:        LOG.error("Error: ", e);
+./service/src/java/org/apache/hive/service/cli/thrift/ThriftHttpServlet.java:          LOG.error("Login attempt is failed for user : " +
+./service/src/java/org/apache/hive/service/cli/thrift/ThriftHttpServlet.java:      LOG.error("Failed to authenticate with hive/_HOST kerberos principal");
+./service/src/java/org/apache/hive/service/cli/thrift/ThriftHttpServlet.java:            LOG.error("Login attempt is failed for user : " +
+./service/src/java/org/apache/hive/service/cli/thrift/ThriftCLIService.java:        LOG.error("Error obtaining delegation token", e);
+./service/src/java/org/apache/hive/service/cli/thrift/ThriftCLIService.java:        LOG.error("Error canceling delegation token", e);
+./service/src/java/org/apache/hive/service/cli/thrift/ThriftCLIService.java:        LOG.error("Error obtaining renewing token", e);
+./service/src/java/org/apache/hive/service/cli/thrift/ThriftCLIService.java:      LOG.error("Login attempt is failed for user : " + userName + ". Error Messsage :" + e.getMessage());
+./service/src/java/org/apache/hive/service/cli/thrift/ThriftHttpCLIService.java:        LOG.error("Exception caught by " + ThriftHttpCLIService.class.getSimpleName() +
+./service/src/java/org/apache/hive/service/cli/thrift/ThriftHttpCLIService.java:        LOG.error("Error stopping HTTP server: ", e);
+./service/src/java/org/apache/hive/service/cli/thrift/RetryingThriftCLIServiceClient.java:      LOG.error("Error setting keep alive to " + conf.getBoolVar(HiveConf.ConfVars.SERVER_TCP_KEEP_ALIVE), e);
+./service/src/java/org/apache/hive/service/cli/thrift/RetryingThriftCLIServiceClient.java:      LOG.error("Error creating plain SASL transport", e);
+./service/src/java/org/apache/hive/service/cli/thrift/RetryingThriftCLIServiceClient.java:        LOG.error(method.getName() + " failed after " + attempts + " retries.",  invokeResult.exception);
+./service/src/java/org/apache/hive/service/cli/ColumnBasedSet.java:          LOG.error(e.getMessage(), e);
+./service/src/java/org/apache/hive/service/cli/session/HiveSessionImpl.java:      LOG.error(msg, e);
+./service/src/java/org/apache/hive/service/cli/session/HiveSessionImpl.java:            LOG.error("Failed on initializing global .hiverc file");
+./service/src/java/org/apache/hive/service/cli/session/HiveSessionImpl.java:        LOG.error("Failed to cleanup session log dir: " + sessionHandle, e);
+./service/src/java/org/apache/hive/service/cli/session/SessionManager.java:      LOG.error(violation);
+./service/src/java/org/apache/hive/service/CompositeService.java:      LOG.error("Error starting services " + getName(), e);
+./ql/src/test/org/apache/hadoop/hive/ql/txn/compactor/CompactorTestUtilities.java:      LOG.error(formatFile + " is unreadable due to: " + ex.getMessage(), ex);
+./ql/src/test/org/apache/hadoop/hive/ql/exec/TestExecDriver.java:      LOG.error(diTest.toString() + " does not match " + datafile);
+./ql/src/test/org/apache/hadoop/hive/ql/exec/TestExecDriver.java:      LOG.error(testName + " execution failed with exit status: "
+./ql/src/test/org/apache/hadoop/hive/ql/exec/tez/TestTezSessionPool.java:      LOG.error("Initialization error", e);
+./ql/src/test/org/apache/hadoop/hive/ql/exec/vector/UDFHelloTest.java:      LOG.error("UDFHelloTest expects exactly 1 argument");
+./ql/src/test/org/apache/hadoop/hive/ql/exec/spark/session/TestSparkSessionManagerImpl.java:        LOG.error(msg, e);
+./ql/src/test/org/apache/hadoop/hive/ql/exec/spark/session/TestSparkSessionManagerImpl.java:        LOG.error(msg, e);
+./ql/src/test/org/apache/hadoop/hive/ql/TestTxnExIm.java:    LOG.error(sb.toString());
+./ql/src/test/org/apache/hadoop/hive/ql/TestTxnExIm.java:    LOG.error(sb.toString());
+./ql/src/test/org/apache/hadoop/hive/ql/TestTxnExIm.java:    LOG.error(sb.toString());
+./ql/src/test/org/apache/hadoop/hive/ql/session/TestSessionState.java:      LOG.error("Reload auxiliary jar test fail with message: ", e);
+./ql/src/test/org/apache/hadoop/hive/ql/session/TestSessionState.java:        LOG.error("Fail to close the created session: ", ioException);
+./ql/src/test/org/apache/hadoop/hive/ql/session/TestSessionState.java:      LOG.error("refresh existing jar file case failed with message: ", e);
+./ql/src/test/org/apache/hadoop/hive/ql/session/TestSessionState.java:        LOG.error("Fail to close the created session: ", ioException);
+./ql/src/test/org/apache/hadoop/hive/metastore/txn/TestTxnHandler.java:      LOG.error("Uncaught exception from " + t.getName() + ": " + e.getMessage());
+./ql/src/java/org/apache/hadoop/hive/llap/LlapOutputFormatService.java:      LOG.error(error);
+./ql/src/java/org/apache/hadoop/hive/llap/ChannelOutputStream.java:        LOG.error("Write cancelled on ID " + id);
+./ql/src/java/org/apache/hadoop/hive/llap/ChannelOutputStream.java:        LOG.error("Write error on ID " + id, future.cause());
+./ql/src/java/org/apache/hadoop/hive/llap/ChannelOutputStream.java:        LOG.error("Close cancelled on ID " + id);
+./ql/src/java/org/apache/hadoop/hive/llap/ChannelOutputStream.java:        LOG.error("Close failed on ID " + id, future.cause());
+./ql/src/java/org/apache/hadoop/hive/llap/ChannelOutputStream.java:      LOG.error("Error flushing stream before close on " + id, err);
+./ql/src/java/org/apache/hadoop/hive/llap/LlapArrowRecordWriter.java:        LOG.error("Arrow memory leaked bytes: {}", bytesLeaked);
+./ql/src/java/org/apache/hadoop/hive/llap/WritableByteChannelAdapter.java:        LOG.error("Write cancelled on ID " + id);
+./ql/src/java/org/apache/hadoop/hive/llap/WritableByteChannelAdapter.java:        LOG.error("Write error on ID " + id, future.cause());
+./ql/src/java/org/apache/hadoop/hive/llap/WritableByteChannelAdapter.java:        LOG.error("Close cancelled on ID " + id);
+./ql/src/java/org/apache/hadoop/hive/llap/WritableByteChannelAdapter.java:        LOG.error("Close failed on ID " + id, future.cause());
+./ql/src/java/org/apache/hadoop/hive/ql/txn/compactor/CompactorMR.java:        LOG.error(msg);
+./ql/src/java/org/apache/hadoop/hive/ql/txn/compactor/CompactorMR.java:        LOG.error(s);
+./ql/src/java/org/apache/hadoop/hive/ql/txn/compactor/CompactorMR.java:      LOG.error("Unable to instantiate class, " + StringUtils.stringifyException(e));
+./ql/src/java/org/apache/hadoop/hive/ql/txn/compactor/CompactorMR.java:      LOG.error("Unable to instantiate class, " + StringUtils.stringifyException(e));
+./ql/src/java/org/apache/hadoop/hive/ql/txn/compactor/CompactorMR.java:      LOG.error("Unable to instantiate class, " + StringUtils.stringifyException(e));
+./ql/src/java/org/apache/hadoop/hive/ql/txn/compactor/Cleaner.java:          LOG.error("Caught an exception in the main loop of compactor cleaner, " +
+./ql/src/java/org/apache/hadoop/hive/ql/txn/compactor/Cleaner.java:      LOG.error("Compactor cleaner thread interrupted, exiting " +
+./ql/src/java/org/apache/hadoop/hive/ql/txn/compactor/Cleaner.java:          LOG.error("Could not clean up file-system handles for UGI: " + ugi + " for " +
+./ql/src/java/org/apache/hadoop/hive/ql/txn/compactor/Cleaner.java:      LOG.error("Caught exception when cleaning, unable to complete cleaning of " + ci + " " +
+./ql/src/java/org/apache/hadoop/hive/ql/txn/compactor/QueryCompactor.java:      LOG.error("Error doing query based {} compaction", compactionInfo.isMajorCompaction() ? "major" : "minor", e);
+./ql/src/java/org/apache/hadoop/hive/ql/txn/compactor/QueryCompactor.java:        LOG.error("Unable to drop temp table {} which was created for running {} compaction", tmpTableName,
+./ql/src/java/org/apache/hadoop/hive/ql/txn/compactor/QueryCompactor.java:        LOG.error(ExceptionUtils.getStackTrace(e));
+./ql/src/java/org/apache/hadoop/hive/ql/txn/compactor/CompactionQueryBuilder.java:      LOG.error(message);
+./ql/src/java/org/apache/hadoop/hive/ql/txn/compactor/CompactorThread.java:        LOG.error("Unable to find partition " + ci.getFullPartitionName(), e);
+./ql/src/java/org/apache/hadoop/hive/ql/txn/compactor/CompactorThread.java:        LOG.error(ci.getFullPartitionName() + " does not refer to a single partition. " +
+./ql/src/java/org/apache/hadoop/hive/ql/txn/compactor/CompactorThread.java:        LOG.error("Could not clean up file-system handles for UGI: " + ugi, exception);
+./ql/src/java/org/apache/hadoop/hive/ql/txn/compactor/CompactorThread.java:    LOG.error("Unable to stat file " + p + " as either current user(" + UserGroupInformation.getLoginUser() +
+./ql/src/java/org/apache/hadoop/hive/ql/txn/compactor/Worker.java:      LOG.error("Unable to resolve my host name " + e.getMessage());
+./ql/src/java/org/apache/hadoop/hive/ql/txn/compactor/Worker.java:        LOG.error(ci + ": gatherStats(" + ci.dbname + "," + ci.tableName + "," + ci.partName +
+./ql/src/java/org/apache/hadoop/hive/ql/txn/compactor/Worker.java:        LOG.error("Error while heartbeating txn {} in {}, error: ", compactionTxn, Thread.currentThread().getName(), e.getMessage());
+./ql/src/java/org/apache/hadoop/hive/ql/txn/compactor/Worker.java:          LOG.error("Failed to connect to HMS", e);
+./ql/src/java/org/apache/hadoop/hive/ql/txn/compactor/Worker.java:        LOG.error("Attempt to compact sorted table " + ci.getFullTableName() + ", which is not yet supported!");
+./ql/src/java/org/apache/hadoop/hive/ql/txn/compactor/Worker.java:        LOG.error("Caught exception while trying to compact " + ci +
+./ql/src/java/org/apache/hadoop/hive/ql/txn/compactor/Worker.java:      LOG.error("Caught an exception in the main loop of compactor worker " + workerName, t);
+./ql/src/java/org/apache/hadoop/hive/ql/txn/compactor/Worker.java:      LOG.error("Caught an exception in the main loop of compactor worker " + workerName, t);
+./ql/src/java/org/apache/hadoop/hive/ql/txn/compactor/Worker.java:        LOG.error("Could not clean up file-system handles for UGI: " + ugi + " for " + ci.getFullPartitionName(),
+./ql/src/java/org/apache/hadoop/hive/ql/txn/compactor/Worker.java:      LOG.error("Caught an exception while trying to mark compaction {} as failed: {}", ci, e);
+./ql/src/java/org/apache/hadoop/hive/ql/txn/compactor/Worker.java:        LOG.error("Metastore client was null. Could not open a new transaction.");
+./ql/src/java/org/apache/hadoop/hive/ql/txn/compactor/Worker.java:        LOG.error("Metastore client was null. Could not commit txn " + this);
+./ql/src/java/org/apache/hadoop/hive/ql/txn/compactor/Worker.java:          LOG.error("Caught an exception while committing compaction txn in worker " + workerName, e);
+./ql/src/java/org/apache/hadoop/hive/ql/txn/compactor/Worker.java:        LOG.error("Metastore client was null. Could not abort txn " + this);
+./ql/src/java/org/apache/hadoop/hive/ql/txn/compactor/Worker.java:          LOG.error("Caught an exception while aborting compaction txn in worker " + workerName, e);
+./ql/src/java/org/apache/hadoop/hive/ql/txn/compactor/RemoteCompactorThread.java:      LOG.error("Unable to find table " + ci.getFullTableName(), e);
+./ql/src/java/org/apache/hadoop/hive/ql/txn/compactor/RemoteCompactorThread.java:      LOG.error("Unable to get partitions by name for CompactionInfo=" + ci);
+./ql/src/java/org/apache/hadoop/hive/ql/txn/compactor/Initiator.java:              LOG.error("Caught exception while trying to determine if we should compact {}. " +
+./ql/src/java/org/apache/hadoop/hive/ql/txn/compactor/Initiator.java:          LOG.error("Initiator loop caught unexpected exception this time through the loop: " +
+./ql/src/java/org/apache/hadoop/hive/ql/txn/compactor/Initiator.java:      LOG.error("Caught an exception in the main loop of compactor initiator, exiting " +
+./ql/src/java/org/apache/hadoop/hive/ql/txn/compactor/Initiator.java:      LOG.error("Caught exception while trying to determine if we should compact {}. " +
+./ql/src/java/org/apache/hadoop/hive/ql/txn/compactor/Initiator.java:          LOG.error("Could not clean up file-system handles for UGI: " + ugi + " for " +
+./ql/src/java/org/apache/hadoop/hive/ql/txn/compactor/Initiator.java:        LOG.error("Was assuming base " + base.toString() + " is directory, but it's a file!");
+./ql/src/java/org/apache/hadoop/hive/ql/txn/compactor/Initiator.java:        LOG.error("Was assuming delta " + delta.getPath().toString() + " is a directory, " +
+./ql/src/java/org/apache/hadoop/hive/ql/txn/compactor/Initiator.java:      LOG.error("Caught exception while checking compaction eligibility.", e);
+./ql/src/java/org/apache/hadoop/hive/ql/txn/compactor/Initiator.java:        LOG.error("Caught exception while marking compaction as failed.", e);
+./ql/src/java/org/apache/hadoop/hive/ql/txn/compactor/MetaStoreCompactorThread.java:      LOG.error("Unable to find table " + ci.getFullTableName() + ", " + e.getMessage());
+./ql/src/java/org/apache/hadoop/hive/ql/txn/compactor/MetaStoreCompactorThread.java:      LOG.error("Unable to get partitions by name for CompactionInfo=" + ci);
+./ql/src/java/org/apache/hadoop/hive/ql/txn/compactor/MetaStoreCompactorThread.java:      LOG.error("Unable to get partitions by name for CompactionInfo=" + ci);
+./ql/src/java/org/apache/hadoop/hive/ql/cache/results/QueryResultsCache.java:      LOG.error("Failed to create cache entry for query results for query: " + queryText, err);
+./ql/src/java/org/apache/hadoop/hive/ql/cache/results/QueryResultsCache.java:          LOG.error("Error removing cache entry " + entry, err);
+./ql/src/java/org/apache/hadoop/hive/ql/cache/results/QueryResultsCache.java:            LOG.error("Error while trying to delete " + path, err);
+./ql/src/java/org/apache/hadoop/hive/ql/util/HiveStrictManagedMigration.java:      LOG.error("Failed with error", err);
+./ql/src/java/org/apache/hadoop/hive/ql/util/HiveStrictManagedMigration.java:    return (t, e) -> LOG.error(String.format("Thread %s exited with error", t.getName()), e);
+./ql/src/java/org/apache/hadoop/hive/ql/util/HiveStrictManagedMigration.java:          LOG.error("Not updating database location for {} since an error was encountered. " +
+./ql/src/java/org/apache/hadoop/hive/ql/util/HiveStrictManagedMigration.java:      LOG.error("Error processing database " + dbName, ex);
+./ql/src/java/org/apache/hadoop/hive/ql/util/HiveStrictManagedMigration.java:      LOG.error("Error processing table " + getQualifiedName(dbObj.getName(), tableName), ex);
+./ql/src/java/org/apache/hadoop/hive/ql/util/HiveStrictManagedMigration.java:      LOG.error("Error encountered", err);
+./ql/src/java/org/apache/hadoop/hive/ql/util/UpgradeTool.java:      LOG.error("UpgradeTool failed", ex);
+./ql/src/java/org/apache/hadoop/hive/ql/util/UpgradeTool.java:      LOG.error("init()", ex);
+./ql/src/java/org/apache/hadoop/hive/ql/util/UpgradeTool.java:          LOG.error(msg);
+./ql/src/java/org/apache/hadoop/hive/ql/util/UpgradeTool.java:          LOG.error(msg);
+./ql/src/java/org/apache/hadoop/hive/ql/util/UpgradeTool.java:            LOG.error(msg);
+./ql/src/java/org/apache/hadoop/hive/ql/util/UpgradeTool.java:            LOG.error(msg);
+./ql/src/java/org/apache/hadoop/hive/ql/util/UpgradeTool.java:            LOG.error(msg);
+./ql/src/java/org/apache/hadoop/hive/ql/util/UpgradeTool.java:              LOG.error(msg);
+./ql/src/java/org/apache/hadoop/hive/ql/util/UpgradeTool.java:          LOG.error(msg);
+./ql/src/java/org/apache/hadoop/hive/ql/util/UpgradeTool.java:        LOG.error(msg);
+./ql/src/java/org/apache/hadoop/hive/ql/util/UpgradeTool.java:          LOG.error(msg);
+./ql/src/java/org/apache/hadoop/hive/ql/util/UpgradeTool.java:      LOG.error("Could not determine if " + fullTableName +
+./ql/src/java/org/apache/hadoop/hive/ql/optimizer/calcite/translator/opconventer/HiveOpConverter.java:    LOG.error(rn.getClass().getCanonicalName() + "operator translation not supported yet in return path.");
+./ql/src/java/org/apache/hadoop/hive/ql/optimizer/calcite/translator/PlanModifierUtil.java:      LOG.error(generateInvalidSchemaMessage(obChild, resultSchema, inputRefToCallMap.size()));
+./ql/src/java/org/apache/hadoop/hive/ql/optimizer/calcite/translator/PlanModifierForASTConv.java:      LOG.error(PlanModifierUtil.generateInvalidSchemaMessage(originalProjRel, resultSchema, 0));
+./ql/src/java/org/apache/hadoop/hive/ql/optimizer/calcite/translator/ExprNodeConverter.java:        LOG.error("Failed to instantiate udf: ", e);
+./ql/src/java/org/apache/hadoop/hive/ql/optimizer/calcite/RelOptHiveTable.java:          LOG.error("Column for primary key definition " + pkColName + " not found");
+./ql/src/java/org/apache/hadoop/hive/ql/optimizer/calcite/RelOptHiveTable.java:            LOG.error("Column for unique constraint definition " + ukCol.colName + " not found");
+./ql/src/java/org/apache/hadoop/hive/ql/optimizer/calcite/RelOptHiveTable.java:          LOG.error("Table for primary key not found: "
+./ql/src/java/org/apache/hadoop/hive/ql/optimizer/calcite/RelOptHiveTable.java:            LOG.error("Column for foreign key definition " + fkCol + " not found");
+./ql/src/java/org/apache/hadoop/hive/ql/optimizer/calcite/RelOptHiveTable.java:          LOG.error(logMsg);
+./ql/src/java/org/apache/hadoop/hive/ql/optimizer/calcite/RelOptHiveTable.java:          LOG.error(logMsg, e);
+./ql/src/java/org/apache/hadoop/hive/ql/optimizer/calcite/RelOptHiveTable.java:          LOG.error(logMsg, e);
+./ql/src/java/org/apache/hadoop/hive/ql/optimizer/calcite/RelOptHiveTable.java:        LOG.error(logMsg);
+./ql/src/java/org/apache/hadoop/hive/ql/optimizer/calcite/rules/HivePointLookupOptimizerRule.java:            LOG.error("Exception in HivePointLookupOptimizerRule", e);
+./ql/src/java/org/apache/hadoop/hive/ql/optimizer/physical/AnnotateRunTimeStatsOptimizer.java:          LOG.error("StatsPublishing error: StatsPublisher is not initialized.");
+./ql/src/java/org/apache/hadoop/hive/ql/optimizer/physical/NullScanTaskDispatcher.java:      LOG.error("NullScanOptimizer could not complete. It may miss eliminating some null scans", e);
+./ql/src/java/org/apache/hadoop/hive/ql/optimizer/physical/Vectorizer.java:        LOG.error("Unable to instantiate {} input format class. Cannot determine vectorization support.", e);
+./ql/src/java/org/apache/hadoop/hive/ql/optimizer/correlation/CorrelationOptimizer.java:        LOG.error("ReduceSinkOperator " + current.getIdentifier() + " does not have ColumnExprMap");
+./ql/src/java/org/apache/hadoop/hive/ql/optimizer/SimpleFetchOptimizer.java:        LOG.error(org.apache.hadoop.util.StringUtils.stringifyException(e));
+./ql/src/java/org/apache/hadoop/hive/ql/optimizer/DynamicPartitionPruningOptimization.java:      LOG.error("Error creating min/max aggregations on key", e);
+./ql/src/java/org/apache/hadoop/hive/ql/optimizer/DynamicPartitionPruningOptimization.java:      LOG.error("Error creating min/max aggregations on key", e);
+./ql/src/java/org/apache/hadoop/hive/ql/optimizer/ppr/PartitionExpressionForMetastore.java:        LOG.error("Failed to replace \"is null\" and \"is not null\" expression with default partition", ex);
+./ql/src/java/org/apache/hadoop/hive/ql/optimizer/ppr/PartitionExpressionForMetastore.java:      LOG.error("Failed to replace default partition", ex);
+./ql/src/java/org/apache/hadoop/hive/ql/optimizer/ppr/PartitionExpressionForMetastore.java:      LOG.error("Failed to apply the expression", ex);
+./ql/src/java/org/apache/hadoop/hive/ql/optimizer/ppr/PartitionExpressionForMetastore.java:      LOG.error("Failed to deserialize the expression", ex);
+./ql/src/java/org/apache/hadoop/hive/ql/optimizer/TablePropertyEnrichmentOptimizer.java:        LOG.error("SerDe init failed for SerDe class==" + deserializerClassName
+./ql/src/java/org/apache/hadoop/hive/ql/optimizer/ConstantPropagateProcFactory.java:        LOG.error("The UDF implementation class '" + udfClassName
+./ql/src/java/org/apache/hadoop/hive/ql/optimizer/ConstantPropagateProcFactory.java:        LOG.error("Reverse look up of column " + desc + " error!");
+./ql/src/java/org/apache/hadoop/hive/ql/optimizer/ConstantPropagateProcFactory.java:        LOG.error("Can't resolve " + desc.getTabAlias() + "." + desc.getColumn());
+./ql/src/java/org/apache/hadoop/hive/ql/optimizer/ConstantPropagateProcFactory.java:          LOG.error("Unable to evaluate {}({}). Return value unrecoginizable.",
+./ql/src/java/org/apache/hadoop/hive/ql/optimizer/ConstantPropagateProcFactory.java:      LOG.error("Evaluation function {}({}) failed in Constant Propagation Optimizer.",
+./ql/src/java/org/apache/hadoop/hive/ql/optimizer/stats/annotation/StatsRulesProcFactory.java:        LOG.error("Invalid column stats: No of nulls > cardinality");
+./ql/src/java/org/apache/hadoop/hive/ql/optimizer/spark/SetSparkReducerParallelism.java:          LOG.error("Failed to return the session to SessionManager: " + ex, ex);
+./ql/src/java/org/apache/hadoop/hive/ql/optimizer/GenMapRedUtils.java:      LOG.error(org.apache.hadoop.util.StringUtils.stringifyException(e));
+./ql/src/java/org/apache/hadoop/hive/ql/optimizer/GenMapRedUtils.java:          LOG.error(org.apache.hadoop.util.StringUtils.stringifyException(e));
+./ql/src/java/org/apache/hadoop/hive/ql/security/authorization/plugin/metastore/HiveMetaStoreAuthorizer.java:      LOG.error("HiveMetaStoreAuthorizer.onEvent(): failed", e);
+./ql/src/java/org/apache/hadoop/hive/ql/security/authorization/plugin/AuthorizationMetaStoreFilterHook.java:      LOG.error("Authorization error", e);
+./ql/src/java/org/apache/hadoop/hive/ql/security/authorization/plugin/AuthorizationMetaStoreFilterHook.java:      LOG.error("AccessControlException", e);
+./ql/src/java/org/apache/hadoop/hive/ql/security/authorization/PrivilegeSynchronizer.java:        LOG.error("Error initializing PrivilegeSynchronizer: " + e.getMessage(), e);
+./ql/src/java/org/apache/hadoop/hive/ql/security/authorization/AuthorizationPreEventListener.java:              LOG.error("Could not construct partition-object for: " + partition, exception);
+./ql/src/java/org/apache/hadoop/hive/ql/ddl/misc/msck/MsckOperation.java:      LOG.error("Unable to create msck instance.", e);
+./ql/src/java/org/apache/hadoop/hive/ql/ddl/misc/msck/MsckOperation.java:      LOG.error("Msck failed.", e);
+./ql/src/java/org/apache/hadoop/hive/ql/ddl/DDLTask.java:        LOG.error("DDLTask failed, DDL Operation: " + ddlOperation.getClass().toString(), e);
+./ql/src/java/org/apache/hadoop/hive/ql/ddl/DDLTask.java:    LOG.error("Failed", e);
+./ql/src/java/org/apache/hadoop/hive/ql/ddl/function/reload/ReloadFunctionsOperation.java:      LOG.error("Failed to reload functions", e);
+./ql/src/java/org/apache/hadoop/hive/ql/ddl/function/drop/DropFunctionOperation.java:        LOG.error("Failed to drop function", e);
+./ql/src/java/org/apache/hadoop/hive/ql/ddl/function/create/CreateFunctionOperation.java:        LOG.error("Exception caught in checkLocalFunctionResources", e);
+./ql/src/java/org/apache/hadoop/hive/ql/ddl/function/create/CreateFunctionOperation.java:      LOG.error("Failed to add function " + desc.getName() + " to the metastore.", e);
+./ql/src/java/org/apache/hadoop/hive/ql/ddl/function/create/CreateFunctionOperation.java:    LOG.error("Failed to create function", e);
+./ql/src/java/org/apache/hadoop/hive/ql/ddl/function/AbstractFunctionAnalyzer.java:        LOG.error("Failed to get database ", e);
+./ql/src/java/org/apache/hadoop/hive/ql/ddl/table/misc/rename/AlterTableRenameOperation.java:      LOG.error("DDLTask: Rename Table not allowed as bootstrap dump in progress");
+./ql/src/java/org/apache/hadoop/hive/ql/ddl/table/column/update/AlterTableUpdateColumnsOperation.java:      LOG.error("alter table update columns: {}", e);
+./ql/src/java/org/apache/hadoop/hive/ql/ddl/table/AbstractAlterTableOperation.java:      LOG.error("alter table: ", e);
+./ql/src/java/org/apache/hadoop/hive/ql/ddl/table/partition/PartitionUtils.java:          LOG.error("Got HiveException during obtaining list of partitions" + StringUtils.stringifyException(e));
+./ql/src/java/org/apache/hadoop/hive/ql/ddl/table/partition/rename/AlterTableRenamePartitionOperation.java:      LOG.error("DDLTask: Rename Partition not allowed as bootstrap dump in progress");
+./ql/src/java/org/apache/hadoop/hive/ql/ddl/table/create/CreateTableOperation.java:          LOG.error("Error listing files", e);
+./ql/src/java/org/apache/hadoop/hive/ql/ddl/table/create/CreateTableDesc.java:          LOG.error("Failed to get type info", err);
+./ql/src/java/org/apache/hadoop/hive/ql/ddl/workloadmanagement/resourceplan/alter/AbstractAlterResourcePlanStatusOperation.java:            LOG.error("Failed to activate resource plan " + name);
+./ql/src/java/org/apache/hadoop/hive/ql/ddl/workloadmanagement/resourceplan/alter/AbstractAlterResourcePlanStatusOperation.java:            LOG.error("Failed to disable workload management");
+./ql/src/java/org/apache/hadoop/hive/ql/parse/CalcitePlanner.java:          LOG.error("CBO failed, skipping CBO. ", e);
+./ql/src/java/org/apache/hadoop/hive/ql/parse/CalcitePlanner.java:            LOG.error("CBO failed due to missing column stats (see previous errors), skipping CBO");
+./ql/src/java/org/apache/hadoop/hive/ql/parse/CalcitePlanner.java:        LOG.error("Cannot find destination after CBO; new ast is " + newAst.dump());
+./ql/src/java/org/apache/hadoop/hive/ql/parse/CalcitePlanner.java:      LOG.error("analyzeCreateTable failed to initialize CTAS after CBO;" + " new ast is "
+./ql/src/java/org/apache/hadoop/hive/ql/parse/CalcitePlanner.java:      LOG.error("analyzeCreateTable failed to initialize materialized view after CBO;" + " new ast is "
+./ql/src/java/org/apache/hadoop/hive/ql/parse/CalcitePlanner.java:            LOG.error("Column for not null constraint definition " + nnCol + " not found");
+./ql/src/java/org/apache/hadoop/hive/ql/parse/CalcitePlanner.java:            LOG.error("Column for not null constraint definition " + pkCol + " not found");
+./ql/src/java/org/apache/hadoop/hive/ql/parse/ReplicationSemanticAnalyzer.java:      LOG.error("DB name {} cannot be replaced to {} in the replication policy.",
+./ql/src/java/org/apache/hadoop/hive/ql/parse/ReplicationSemanticAnalyzer.java:          LOG.error("Cannot dump database " + dbNameOrPattern +
+./ql/src/java/org/apache/hadoop/hive/ql/parse/ReplicationSemanticAnalyzer.java:          LOG.error("Cannot dump database " + dbNameOrPattern + " as it is a target of replication (repl.target.for)");
+./ql/src/java/org/apache/hadoop/hive/ql/parse/repl/CopyUtils.java:      LOG.error("Failed to copy ", e);
+./ql/src/java/org/apache/hadoop/hive/ql/parse/repl/CopyUtils.java:      LOG.error("Failed to create destination directory: " + destination);
+./ql/src/java/org/apache/hadoop/hive/ql/parse/repl/CopyUtils.java:      LOG.error("File copy failed even after several attempts. Files list: " + pathList);
+./ql/src/java/org/apache/hadoop/hive/ql/parse/repl/CopyUtils.java:        LOG.error("File copy failed and likely source file is deleted or modified."
+./ql/src/java/org/apache/hadoop/hive/ql/parse/repl/CopyUtils.java:        LOG.error("File Copy Failed. Both source and CM files are missing from source. "
+./ql/src/java/org/apache/hadoop/hive/ql/parse/repl/CopyUtils.java:      LOG.error("Distcp failed to copy files: " + srcList + " to destination: " + destination);
+./ql/src/java/org/apache/hadoop/hive/ql/parse/repl/dump/PartitionExport.java:        LOG.error("failed", e.getCause());
+./ql/src/java/org/apache/hadoop/hive/ql/parse/repl/dump/events/AbstractEventHandler.java:      LOG.error(message, e);
+./ql/src/java/org/apache/hadoop/hive/ql/parse/repl/ReplState.java:      REPL_LOG.error("Could not serialize REPL log: {}", exception.getMessage());
+./ql/src/java/org/apache/hadoop/hive/ql/parse/repl/load/message/InsertHandler.java:      LOG.error("failed to load insert event", e);
+./ql/src/java/org/apache/hadoop/hive/ql/parse/repl/load/message/TableHandler.java:      LOG.error("failed to determine if the table associated with the event is external or not", e);
+./ql/src/java/org/apache/hadoop/hive/ql/parse/repl/metric/MetricSink.java:        LOG.error("Metrics are not getting persisted", e);
+./ql/src/java/org/apache/hadoop/hive/ql/parse/RewriteSemanticAnalyzer.java:      LOG.error("Failed to find table " + tableName.getNotEmptyDbTable() + " got exception " + e.getMessage());
+./ql/src/java/org/apache/hadoop/hive/ql/parse/RewriteSemanticAnalyzer.java:      LOG.error("Failed to find table " + tableName.getNotEmptyDbTable() + " got exception " + e.getMessage());
+./ql/src/java/org/apache/hadoop/hive/ql/parse/RewriteSemanticAnalyzer.java:      LOG.error("Table " + mTable.getFullyQualifiedName() + " is a view or materialized view");
+./ql/src/java/org/apache/hadoop/hive/ql/parse/SemanticAnalyzer.java:        LOG.error("Error processing HiveParser.TOK_DESTINATION: " + ex.getMessage(), ex);
+./ql/src/java/org/apache/hadoop/hive/ql/parse/SemanticAnalyzer.java:      LOG.error(org.apache.hadoop.util.StringUtils.stringifyException(e));
+./ql/src/java/org/apache/hadoop/hive/ql/parse/SemanticAnalyzer.java:      LOG.error(org.apache.hadoop.util.StringUtils.stringifyException(e));
+./ql/src/java/org/apache/hadoop/hive/ql/parse/SemanticAnalyzer.java:            LOG.error("Cannot find colInfo for {}.{}, derived from [{}], in [{}]", tabAlias, tmp[1], colSrcRR, input);
+./ql/src/java/org/apache/hadoop/hive/ql/parse/SemanticAnalyzer.java:        LOG.error("Failed to group clauses by common spray keys.", e);
+./ql/src/java/org/apache/hadoop/hive/ql/parse/SemanticAnalyzer.java:      LOG.error("Unexpected error while reparsing the query string [" + queryString + "]", err);
+./ql/src/java/org/apache/hadoop/hive/ql/Driver.java:        LOG.error("Error removing failed cache entry " + driverContext.getCacheUsage().getCacheEntry(), err);
+./ql/src/java/org/apache/hadoop/hive/ql/io/rcfile/truncate/ColumnTruncateTask.java:      LOG.error(org.apache.hadoop.util.StringUtils.stringifyException(e));
+./ql/src/java/org/apache/hadoop/hive/ql/io/rcfile/truncate/ColumnTruncateTask.java:      LOG.error("Can't make path " + outputPath, e);
+./ql/src/java/org/apache/hadoop/hive/ql/io/rcfile/truncate/ColumnTruncateTask.java:      LOG.error(mesg, org.apache.hadoop.util.StringUtils.stringifyException(e));
+./ql/src/java/org/apache/hadoop/hive/ql/io/TeradataBinaryRecordReader.java:      LOG.error(
+./ql/src/java/org/apache/hadoop/hive/ql/io/TeradataBinaryRecordReader.java:      LOG.error(format("The current position in the file : %s", getFilePosition()));
+./ql/src/java/org/apache/hadoop/hive/ql/io/TeradataBinaryRecordReader.java:      LOG.error(format("The current consumed bytes: %s", pos));
+./ql/src/java/org/apache/hadoop/hive/ql/io/TeradataBinaryRecordReader.java:      LOG.error(format("The bytes for the current record is: %s", Hex.encodeHexString(recordLengthBytes)));
+./ql/src/java/org/apache/hadoop/hive/ql/io/TeradataBinaryRecordReader.java:      LOG.error(format("We expect %s bytes for the record content but read %d byte and reach the End of File.",
+./ql/src/java/org/apache/hadoop/hive/ql/io/TeradataBinaryRecordReader.java:      LOG.error(format("The current position in the file : %s", getFilePosition()));
+./ql/src/java/org/apache/hadoop/hive/ql/io/TeradataBinaryRecordReader.java:      LOG.error(format("The current consumed bytes: %s", pos));
+./ql/src/java/org/apache/hadoop/hive/ql/io/TeradataBinaryRecordReader.java:      LOG.error(format("The bytes for the current record is: %s",
+./ql/src/java/org/apache/hadoop/hive/ql/io/TeradataBinaryRecordReader.java:      LOG.error(format("We expect %s bytes for the record end symbol but read %d byte and reach the End of File.",
+./ql/src/java/org/apache/hadoop/hive/ql/io/TeradataBinaryRecordReader.java:      LOG.error(format("The current position in the file : %s", getFilePosition()));
+./ql/src/java/org/apache/hadoop/hive/ql/io/TeradataBinaryRecordReader.java:      LOG.error(format("The current consumed bytes: %s", pos));
+./ql/src/java/org/apache/hadoop/hive/ql/io/TeradataBinaryRecordReader.java:      LOG.error(format("The bytes for the current record is: %s",
+./ql/src/java/org/apache/hadoop/hive/ql/io/BatchToRowReader.java:        LOG.error("Error at row " + rowInBatch + "/" + batch.size + ", column " + i
+./ql/src/java/org/apache/hadoop/hive/ql/io/CombineHiveInputFormat.java:        LOG.error("Error checking non-combinable path", e);
+./ql/src/java/org/apache/hadoop/hive/ql/io/AcidUtils.java:        LOG.error("setValidWriteIdList on table: " + AcidUtils.getFullTableName(dbName, tableName)
+./ql/src/java/org/apache/hadoop/hive/ql/io/AcidUtils.java:        LOG.error(msg, e);
+./ql/src/java/org/apache/hadoop/hive/ql/io/AcidUtils.java:          LOG.error("Failed to create " + formatFile + " due to: " + ioe.getMessage(), ioe);
+./ql/src/java/org/apache/hadoop/hive/ql/io/IOContextMap.java:      LOG.error("Thread is clearing context for "
+./ql/src/java/org/apache/hadoop/hive/ql/io/RecordReaderWrapper.java:        LOG.error("Cannot check the reader for compression; offsets not supported", e);
+./ql/src/java/org/apache/hadoop/hive/ql/io/orc/OrcRawRecordMerger.java:    LOG.error(error);
+./ql/src/java/org/apache/hadoop/hive/ql/io/orc/ExternalCache.java:      LOG.error(msg, ex);
+./ql/src/java/org/apache/hadoop/hive/ql/io/orc/encoded/EncodedReaderImpl.java:          LOG.error("IO thread interrupted while queueing data");
+./ql/src/java/org/apache/hadoop/hive/ql/io/orc/encoded/EncodedReaderImpl.java:                LOG.error("Error getting stream [" + sctx.kind + ", " + ctx.encoding + "] for"
+./ql/src/java/org/apache/hadoop/hive/ql/io/orc/encoded/EncodedReaderImpl.java:          LOG.error("IO thread interrupted while queueing data");
+./ql/src/java/org/apache/hadoop/hive/ql/io/orc/encoded/EncodedReaderImpl.java:        LOG.error("Error during the cleanup after another error; ignoring", t);
+./ql/src/java/org/apache/hadoop/hive/ql/io/orc/encoded/EncodedReaderImpl.java:      LOG.error("Error during the cleanup of an error; ignoring", t);
+./ql/src/java/org/apache/hadoop/hive/ql/io/orc/encoded/EncodedReaderImpl.java:      LOG.error("Ignoring error from codec", ex);
+./ql/src/java/org/apache/hadoop/hive/ql/io/orc/encoded/EncodedReaderImpl.java:      LOG.error("Failed " + (isCompressed ? "" : "un") + "compressed read; cOffset " + cOffset
+./ql/src/java/org/apache/hadoop/hive/ql/io/orc/encoded/EncodedReaderImpl.java:          LOG.error("Ignoring the cleanup error after another error", t);
+./ql/src/java/org/apache/hadoop/hive/ql/io/orc/encoded/EncodedReaderImpl.java:          LOG.error(msg);
+./ql/src/java/org/apache/hadoop/hive/ql/io/orc/encoded/EncodedReaderImpl.java:      LOG.error("BUG: releasing initial refcount; stream start " + streamStartOffset + ", "
+./ql/src/java/org/apache/hadoop/hive/ql/io/orc/encoded/EncodedReaderImpl.java:        LOG.error("BUG: releasing initial refcount; stream start " + streamStartOffset + ", "
+./ql/src/java/org/apache/hadoop/hive/ql/io/orc/encoded/EncodedReaderImpl.java:    LOG.error(error);
+./ql/src/java/org/apache/hadoop/hive/ql/io/orc/encoded/EncodedReaderImpl.java:            LOG.error("Error getting stream " + sctx.kind + " for column " + ctx.colIx
+./ql/src/java/org/apache/hadoop/hive/ql/io/orc/encoded/EncodedReaderImpl.java:        LOG.error("Error during the cleanup after another error; ignoring", t);
+./ql/src/java/org/apache/hadoop/hive/ql/io/orc/encoded/EncodedReaderImpl.java:          LOG.error("Error during the cleanup after another error; ignoring", t);
+./ql/src/java/org/apache/hadoop/hive/ql/io/parquet/write/DataWritableWriter.java:          LOG.error(errorMessage, e);
+./ql/src/java/org/apache/hadoop/hive/ql/io/parquet/read/ParquetFilterPredicateConverter.java:      LOG.error("fail to build predicate filter leaf with errors" + e, e);
+./ql/src/java/org/apache/hadoop/hive/ql/io/parquet/vector/VectorizedParquetRecordReader.java:      LOG.error("Failed to create the vectorized reader due to exception " + e);
+./ql/src/java/org/apache/hadoop/hive/ql/lockmgr/DbTxnManager.java:      LOG.error(msg, e);
+./ql/src/java/org/apache/hadoop/hive/ql/lockmgr/DbTxnManager.java:      LOG.error("Metastore could not find " + JavaUtils.txnIdToString(rqst.getTxnid()));
+./ql/src/java/org/apache/hadoop/hive/ql/lockmgr/DbTxnManager.java:      LOG.error(le.getMessage());
+./ql/src/java/org/apache/hadoop/hive/ql/lockmgr/DbTxnManager.java:      LOG.error("Metastore could not find " + JavaUtils.txnIdToString(txnId));
+./ql/src/java/org/apache/hadoop/hive/ql/lockmgr/DbTxnManager.java:      LOG.error(le.getMessage());
+./ql/src/java/org/apache/hadoop/hive/ql/lockmgr/DbTxnManager.java:      LOG.error("Metastore could not find " + JavaUtils.txnIdToString(srcTxnId));
+./ql/src/java/org/apache/hadoop/hive/ql/lockmgr/DbTxnManager.java:      LOG.error(le.getMessage());
+./ql/src/java/org/apache/hadoop/hive/ql/lockmgr/DbTxnManager.java:      LOG.error("Metastore could not find " + JavaUtils.txnIdToString(txnId));
+./ql/src/java/org/apache/hadoop/hive/ql/lockmgr/DbTxnManager.java:        LOG.error("Unable to find lock " + JavaUtils.lockIdToString(lockId));
+./ql/src/java/org/apache/hadoop/hive/ql/lockmgr/DbTxnManager.java:        LOG.error("Unable to find transaction " + JavaUtils.txnIdToString(txnId));
+./ql/src/java/org/apache/hadoop/hive/ql/lockmgr/DbTxnManager.java:        LOG.error(le.getMessage());
+./ql/src/java/org/apache/hadoop/hive/ql/lockmgr/DbTxnManager.java:      LOG.error("Caught exception " + e.getClass().getName() + " with message <" + e.getMessage()
+./ql/src/java/org/apache/hadoop/hive/ql/lockmgr/DbTxnManager.java:        LOG.error("Failed trying to heartbeat queryId=" + queryId + ", currentUser: "
+./ql/src/java/org/apache/hadoop/hive/ql/lockmgr/DbTxnManager.java:        LOG.error(errorMsg, t);
+./ql/src/java/org/apache/hadoop/hive/ql/lockmgr/DbTxnManager.java:        LOG.error("Failed trying to acquire lock", e);
+./ql/src/java/org/apache/hadoop/hive/ql/lockmgr/DbLockManager.java:        LOG.error("Unable to acquire locks for lockId={} after {} retries (retries took {} ms). QueryId={}\n{}",
+./ql/src/java/org/apache/hadoop/hive/ql/lockmgr/DbLockManager.java:      LOG.error("Metastore could not find " + JavaUtils.txnIdToString(lock.getTxnid()));
+./ql/src/java/org/apache/hadoop/hive/ql/lockmgr/DbLockManager.java:      LOG.error(le.getMessage());
+./ql/src/java/org/apache/hadoop/hive/ql/lockmgr/DbLockManager.java:      LOG.error("Dumping lock info for " + preamble + " failed: " + ex.getMessage(), ex);
+./ql/src/java/org/apache/hadoop/hive/ql/lockmgr/DbLockManager.java:      LOG.error("Metastore could find no record of lock " + JavaUtils.lockIdToString(lockId));
+./ql/src/java/org/apache/hadoop/hive/ql/lockmgr/zookeeper/ZooKeeperHiveLockManager.java:      LOG.error("Failed to create curatorFramework object: ", e);
+./ql/src/java/org/apache/hadoop/hive/ql/lockmgr/zookeeper/ZooKeeperHiveLockManager.java:          LOG.error("Error in acquireLocks...", e);
+./ql/src/java/org/apache/hadoop/hive/ql/lockmgr/zookeeper/ZooKeeperHiveLockManager.java:            LOG.error("Serious Zookeeper exception: ", e);
+./ql/src/java/org/apache/hadoop/hive/ql/lockmgr/zookeeper/ZooKeeperHiveLockManager.java:          LOG.error("Other unexpected exception: ", e1);
+./ql/src/java/org/apache/hadoop/hive/ql/lockmgr/zookeeper/ZooKeeperHiveLockManager.java:        LOG.error("Exceeds maximum retries with errors: ", lastException);
+./ql/src/java/org/apache/hadoop/hive/ql/lockmgr/zookeeper/ZooKeeperHiveLockManager.java:      LOG.error("Failed to release ZooKeeper lock: ", e);
+./ql/src/java/org/apache/hadoop/hive/ql/lockmgr/zookeeper/ZooKeeperHiveLockManager.java:      LOG.error("Failed to release all locks: ", e);
+./ql/src/java/org/apache/hadoop/hive/ql/lockmgr/zookeeper/ZooKeeperHiveLockManager.java:            LOG.error("Error in getting data for " + curChild, e);
+./ql/src/java/org/apache/hadoop/hive/ql/lockmgr/zookeeper/ZooKeeperHiveLockManager.java:      LOG.error("Failed to close zooKeeper client: " + e);
+./ql/src/java/org/apache/hadoop/hive/ql/lockmgr/zookeeper/ZooKeeperHiveLockManager.java:      LOG.error("Failed to create ZooKeeper object: " + e);
+./ql/src/java/org/apache/hadoop/hive/ql/lock/CompileLock.java:          LOG.error(ErrorMsg.COMPILE_LOCK_TIMED_OUT.getErrorCodedMsg() + ": " + command);
+./ql/src/java/org/apache/hadoop/hive/ql/DriverUtils.java:          LOG.error("Failed to run " + query, e);
+./ql/src/java/org/apache/hadoop/hive/ql/Compiler.java:        LOG.error("Exception while acquiring valid txn list", e);
+./ql/src/java/org/apache/hadoop/hive/ql/processors/ReloadProcessor.java:      LOG.error("fail to reload auxiliary jar files", e);
+./ql/src/java/org/apache/hadoop/hive/ql/processors/LlapClusterResourceProcessor.java:        LOG.error("Unable to list LLAP instances. err: ", e);
+./ql/src/java/org/apache/hadoop/hive/ql/processors/LlapCacheResourceProcessor.java:        LOG.error("Error while purging LLAP IO Cache. err: ", e);
+./ql/src/java/org/apache/hadoop/hive/ql/processors/CommandUtil.java:        LOG.error(errMsg, e);
+./ql/src/java/org/apache/hadoop/hive/ql/processors/CommandUtil.java:        LOG.error(errMsg, e);
+./ql/src/java/org/apache/hadoop/hive/ql/hooks/HiveHookEventProtoPartialBuilder.java:          LOG.error("Unexpected exception while serializing json.", e);
+./ql/src/java/org/apache/hadoop/hive/ql/hooks/HiveHookEventProtoPartialBuilder.java:      LOG.error("Unexpected exception while serializing json.", e);
+./ql/src/java/org/apache/hadoop/hive/ql/hooks/HiveHooks.java:      LOG.error(message);
+./ql/src/java/org/apache/hadoop/hive/ql/hooks/HiveProtoLoggingHook.java:        LOG.error(ConfVars.HIVE_PROTO_EVENTS_BASE_PATH.varname + " is not set, logging disabled.");
+./ql/src/java/org/apache/hadoop/hive/ql/hooks/HiveProtoLoggingHook.java:        LOG.error("Unable to intialize logger, logging disabled.", e);
+./ql/src/java/org/apache/hadoop/hive/ql/hooks/HiveProtoLoggingHook.java:        LOG.error("Got IOException while trying to rollover: ", e);
+./ql/src/java/org/apache/hadoop/hive/ql/hooks/HiveProtoLoggingHook.java:            LOG.error("Error writing proto message for query {}, eventType: {}: ",
+./ql/src/java/org/apache/hadoop/hive/ql/hooks/HiveProtoLoggingHook.java:          LOG.error("Error tyring to get localhost address: ", e);
+./ql/src/java/org/apache/hadoop/hive/ql/hooks/HiveProtoLoggingHook.java:            LOG.error("Error trying to get llap instance", e);
+./ql/src/java/org/apache/hadoop/hive/ql/hooks/HiveProtoLoggingHook.java:      LOG.error("Got exceptoin while processing event: ", e);
+./ql/src/java/org/apache/hadoop/hive/ql/reexec/ReExecDriver.java:        LOG.error("Recompilation of the query failed; this is unexpected.");
+./ql/src/java/org/apache/hadoop/hive/ql/history/HiveHistoryViewer.java:      LOG.error("Error parsing hive history log file", e);
+./ql/src/java/org/apache/hadoop/hive/ql/exec/SkewJoinHandler.java:        LOG.error("Skewjoin will be disabled due to " + e.getMessage(), e);
+./ql/src/java/org/apache/hadoop/hive/ql/exec/SkewJoinHandler.java:      LOG.error("Failed to delete path ", e);
+./ql/src/java/org/apache/hadoop/hive/ql/exec/CopyTask.java:      LOG.error("CopyTask failed", e);
+./ql/src/java/org/apache/hadoop/hive/ql/exec/JoinOperator.java:        LOG.error(e.getMessage(), e);
+./ql/src/java/org/apache/hadoop/hive/ql/exec/FunctionRegistry.java:          LOG.error("Unable to add settable data to UDF " + genericUDF.getClass());
+./ql/src/java/org/apache/hadoop/hive/ql/exec/mr/HadoopJobExecHelper.java:            LOG.error("Exception " + runtimeException.getClass().getCanonicalName()
+./ql/src/java/org/apache/hadoop/hive/ql/exec/mr/ExecDriver.java:          LOG.error("Sampling error", e);
+./ql/src/java/org/apache/hadoop/hive/ql/exec/mr/ExecReducer.java:        LOG.error(StringUtils.stringifyException(e));
+./ql/src/java/org/apache/hadoop/hive/ql/exec/mr/ExecReducer.java:        LOG.error("Hit error while closing operators - failing tree");
+./ql/src/java/org/apache/hadoop/hive/ql/exec/mr/MapRedTask.java:        LOG.error("Execution failed with exit status: " + exitVal);
+./ql/src/java/org/apache/hadoop/hive/ql/exec/mr/MapRedTask.java:      LOG.error("Got exception", e);
+./ql/src/java/org/apache/hadoop/hive/ql/exec/mr/MapRedTask.java:        LOG.error("Exception: ", e);
+./ql/src/java/org/apache/hadoop/hive/ql/exec/mr/MapRedTask.java:        LOG.error(org.apache.hadoop.util.StringUtils.stringifyException(e), e);
+./ql/src/java/org/apache/hadoop/hive/ql/exec/mr/MapredLocalTask.java:        LOG.error("Execution failed with exit status: " + exitVal);
+./ql/src/java/org/apache/hadoop/hive/ql/exec/mr/MapredLocalTask.java:      LOG.error("Exception: ", e);
+./ql/src/java/org/apache/hadoop/hive/ql/exec/FileSinkOperator.java:            LOG.error("Error closing " + outWriters[idx].toString(), e);
+./ql/src/java/org/apache/hadoop/hive/ql/exec/FileSinkOperator.java:            LOG.error("Error closing " + updaters[i].toString(), e);
+./ql/src/java/org/apache/hadoop/hive/ql/exec/FileSinkOperator.java:    LOG.error(errorWriter.toString(), ex);
+./ql/src/java/org/apache/hadoop/hive/ql/exec/FileSinkOperator.java:      LOG.error("Trying to close the writers as an IOException occurred: " + e.getMessage());
+./ql/src/java/org/apache/hadoop/hive/ql/exec/FileSinkOperator.java:          LOG.error("Error closing rowOutWriter" + writer, e);
+./ql/src/java/org/apache/hadoop/hive/ql/exec/FileSinkOperator.java:      LOG.error("StatsPublishing error: StatsPublisher is not initialized.");
+./ql/src/java/org/apache/hadoop/hive/ql/exec/FileSinkOperator.java:      LOG.error("StatsPublishing error: cannot connect to database");
+./ql/src/java/org/apache/hadoop/hive/ql/exec/FileSinkOperator.java:        LOG.error("Failed to publish stats");
+./ql/src/java/org/apache/hadoop/hive/ql/exec/FileSinkOperator.java:      LOG.error("Failed to close stats");
+./ql/src/java/org/apache/hadoop/hive/ql/exec/TaskRunner.java:      LOG.error("Error in executeTask", t);
+./ql/src/java/org/apache/hadoop/hive/ql/exec/FilterOperator.java:        LOG.error("Attempted to use the fact data is sorted when the conditionEvaluator is not " +
+./ql/src/java/org/apache/hadoop/hive/ql/exec/AppMasterEventOperator.java:      LOG.error("Initialization failed for serializer", e);
+./ql/src/java/org/apache/hadoop/hive/ql/exec/Utilities.java:      LOG.error("Failed to cache plan", e);
+./ql/src/java/org/apache/hadoop/hive/ql/exec/Utilities.java:      LOG.error(msg, e);
+./ql/src/java/org/apache/hadoop/hive/ql/exec/Utilities.java:      LOG.error(msg, e);
+./ql/src/java/org/apache/hadoop/hive/ql/exec/Utilities.java:        LOG.error("Error in moving files to destination", e);
+./ql/src/java/org/apache/hadoop/hive/ql/exec/Utilities.java:        LOG.error("Exception in getting dir status", e);
+./ql/src/java/org/apache/hadoop/hive/ql/exec/Utilities.java:      LOG.error("Bad URL {}, ignoring path", onestr);
+./ql/src/java/org/apache/hadoop/hive/ql/exec/Utilities.java:          LOG.error("Error during JDBC connection.", e);
+./ql/src/java/org/apache/hadoop/hive/ql/exec/Utilities.java:          LOG.error("Error preparing JDBC Statement {}", stmt, e);
+./ql/src/java/org/apache/hadoop/hive/ql/exec/Utilities.java:      LOG.error("Failed to delete {}", path, ex);
+./ql/src/java/org/apache/hadoop/hive/ql/exec/Operator.java:      LOG.error("StatsPublishing error: cannot connect to database");
+./ql/src/java/org/apache/hadoop/hive/ql/exec/ReduceSinkOperator.java:      LOG.error(msg, e);
+./ql/src/java/org/apache/hadoop/hive/ql/exec/ExportTask.java:      LOG.error("failed", e);
+./ql/src/java/org/apache/hadoop/hive/ql/exec/StatsTask.java:      LOG.error("Failed to run stats task", e);
+./ql/src/java/org/apache/hadoop/hive/ql/exec/repl/AtlasLoadTask.java:      LOG.error("RuntimeException while loading atlas metadata", e);
+./ql/src/java/org/apache/hadoop/hive/ql/exec/repl/AtlasLoadTask.java:        LOG.error("Failed to collect replication metrics: ", ex);
+./ql/src/java/org/apache/hadoop/hive/ql/exec/repl/AtlasLoadTask.java:      LOG.error("Exception while loading atlas metadata", e);
+./ql/src/java/org/apache/hadoop/hive/ql/exec/repl/AtlasLoadTask.java:        LOG.error("Failed to collect replication metrics: ", ex);
+./ql/src/java/org/apache/hadoop/hive/ql/exec/repl/ranger/RangerRestClientImpl.java:        LOG.error("Exception occurred while closing resources: {}", e);
+./ql/src/java/org/apache/hadoop/hive/ql/exec/repl/RangerDumpTask.java:      LOG.error("RuntimeException during Ranger dump", e);
+./ql/src/java/org/apache/hadoop/hive/ql/exec/repl/RangerDumpTask.java:        LOG.error("Failed to collect replication metrics: ", ex);
+./ql/src/java/org/apache/hadoop/hive/ql/exec/repl/RangerDumpTask.java:      LOG.error("Ranger Dump Failed: ", e);
+./ql/src/java/org/apache/hadoop/hive/ql/exec/repl/RangerDumpTask.java:        LOG.error("Failed to collect replication metrics: ", ex);
+./ql/src/java/org/apache/hadoop/hive/ql/exec/repl/bootstrap/events/filesystem/DatabaseEventsIterator.java:      LOG.error("could not traverse the file via remote iterator " + dbLevelPath, e);
+./ql/src/java/org/apache/hadoop/hive/ql/exec/repl/AckTask.java:        LOG.error("Failed to collect replication metrics: ", ex);
+./ql/src/java/org/apache/hadoop/hive/ql/exec/repl/util/FileList.java:      LOG.error("Unable to read list from backing file " + backingFile, e);
+./ql/src/java/org/apache/hadoop/hive/ql/exec/repl/util/FileListStreamer.java:          LOG.error("Exception while saving the list to file " + backingFile, iEx);
+./ql/src/java/org/apache/hadoop/hive/ql/exec/repl/util/FileListStreamer.java:      LOG.error("Exception while closing the file list backing file", e);
+./ql/src/java/org/apache/hadoop/hive/ql/exec/repl/util/ReplUtils.java:        LOG.error("Failed to collect Metrics ", ex);
+./ql/src/java/org/apache/hadoop/hive/ql/exec/repl/AtlasDumpTask.java:      LOG.error("RuntimeException while dumping atlas metadata", e);
+./ql/src/java/org/apache/hadoop/hive/ql/exec/repl/AtlasDumpTask.java:        LOG.error("Failed to collect replication metrics: ", ex);
+./ql/src/java/org/apache/hadoop/hive/ql/exec/repl/AtlasDumpTask.java:      LOG.error("Exception while dumping atlas metadata", e);
+./ql/src/java/org/apache/hadoop/hive/ql/exec/repl/AtlasDumpTask.java:        LOG.error("Failed to collect replication metrics: ", ex);
+./ql/src/java/org/apache/hadoop/hive/ql/exec/repl/RangerLoadTask.java:      LOG.error("Runtime Excepton during RangerLoad", e);
+./ql/src/java/org/apache/hadoop/hive/ql/exec/repl/RangerLoadTask.java:        LOG.error("Failed to collect replication metrics: ", ex);
+./ql/src/java/org/apache/hadoop/hive/ql/exec/repl/RangerLoadTask.java:      LOG.error("RangerLoad Failed", e);
+./ql/src/java/org/apache/hadoop/hive/ql/exec/repl/RangerLoadTask.java:        LOG.error("Failed to collect replication metrics: ", ex);
+./ql/src/java/org/apache/hadoop/hive/ql/exec/repl/DirCopyTask.java:      LOG.error("Replication failed ", e);
+./ql/src/java/org/apache/hadoop/hive/ql/exec/repl/ReplDumpTask.java:          LOG.error("Previous dump failed with non recoverable error. Needs manual intervention. ");
+./ql/src/java/org/apache/hadoop/hive/ql/exec/repl/ReplDumpTask.java:      LOG.error("replication failed with run time exception", e);
+./ql/src/java/org/apache/hadoop/hive/ql/exec/repl/ReplDumpTask.java:        LOG.error("Failed to collect replication metrics: ", ex);
+./ql/src/java/org/apache/hadoop/hive/ql/exec/repl/ReplDumpTask.java:        LOG.error("Failed to collect replication metrics: ", ex);
+./ql/src/java/org/apache/hadoop/hive/ql/exec/repl/ReplDumpTask.java:              LOG.error("failed to reset the db state for " + uniqueKey
+./ql/src/java/org/apache/hadoop/hive/ql/exec/repl/ReplExternalTables.java:        LOG.error(message, writePath.toString(), e1);
+./ql/src/java/org/apache/hadoop/hive/ql/exec/repl/ReplLoadTask.java:      LOG.error("replication failed with run time exception", e);
+./ql/src/java/org/apache/hadoop/hive/ql/exec/repl/ReplLoadTask.java:        LOG.error("Failed to collect replication metrics: ", ex);
+./ql/src/java/org/apache/hadoop/hive/ql/exec/repl/ReplLoadTask.java:        LOG.error("Failed to collect replication metrics: ", ex);
+./ql/src/java/org/apache/hadoop/hive/ql/exec/repl/atlas/RetryingClientTimeBased.java:        LOG.error(func.getClass().getName(), e);
+./ql/src/java/org/apache/hadoop/hive/ql/exec/repl/atlas/RetryingClientTimeBased.java:        LOG.error("Pause wait interrupted!", intEx);
+./ql/src/java/org/apache/hadoop/hive/ql/exec/repl/ReplStateLogTask.java:      LOG.error("Exception while logging metrics ", e);
+./ql/src/java/org/apache/hadoop/hive/ql/exec/MoveTask.java:      LOG.error("Failed to get dest fs", e);
+./ql/src/java/org/apache/hadoop/hive/ql/exec/MoveTask.java:      LOG.error("Failed to get src fs", e);
+./ql/src/java/org/apache/hadoop/hive/ql/exec/MoveTask.java:      LOG.error("MoveTask failed", e);
+./ql/src/java/org/apache/hadoop/hive/ql/exec/FetchTask.java:      LOG.error("Initialize failed", e);
+./ql/src/java/org/apache/hadoop/hive/ql/exec/OrcFileMergeOperator.java:      LOG.error("Closing operator..Exception: " + ExceptionUtils.getStackTrace(e));
+./ql/src/java/org/apache/hadoop/hive/ql/exec/TemporaryHashSinkOperator.java:      LOG.error("Hash table memory usage not set in map join operator; non-staged load may fail");
+./ql/src/java/org/apache/hadoop/hive/ql/exec/tez/TezTask.java:          LOG.error("Failed to return session: {} to pool", session, e);
+./ql/src/java/org/apache/hadoop/hive/ql/exec/tez/TezTask.java:      LOG.error("Failed to execute tez graph.", e);
+./ql/src/java/org/apache/hadoop/hive/ql/exec/tez/YarnQueueHelper.java:      LOG.error("Couldn't parse " + jsonStr, ex);
+./ql/src/java/org/apache/hadoop/hive/ql/exec/tez/GuaranteedTasksAllocator.java:      LOG.error("No cluster information available to allocate; no guaranteed tasks will be used");
+./ql/src/java/org/apache/hadoop/hive/ql/exec/tez/GuaranteedTasksAllocator.java:      LOG.error("There are " + unknownNodes + " nodes with unknown executor count; only " +
+./ql/src/java/org/apache/hadoop/hive/ql/exec/tez/GuaranteedTasksAllocator.java:      LOG.error("Failed to update guaranteed tasks count for the session " + session, t);
+./ql/src/java/org/apache/hadoop/hive/ql/exec/tez/GuaranteedTasksAllocator.java:        LOG.error("Failed to kill the session " + session);
+./ql/src/java/org/apache/hadoop/hive/ql/exec/tez/SplitGrouper.java:              LOG.error(errorMessage);
+./ql/src/java/org/apache/hadoop/hive/ql/exec/tez/TezSessionPool.java:      LOG.error("Failed to close " + session, ex);
+./ql/src/java/org/apache/hadoop/hive/ql/exec/tez/TezSessionPool.java:          LOG.error("Failed to close an unneeded session", ex);
+./ql/src/java/org/apache/hadoop/hive/ql/exec/tez/TezSessionPool.java:          LOG.error("Failed to close an unneeded session", ex);
+./ql/src/java/org/apache/hadoop/hive/ql/exec/tez/KillMoveTriggerActionHandler.java:        LOG.error("Exception while moving session {}", wmTezSession.getSessionId(), e);
+./ql/src/java/org/apache/hadoop/hive/ql/exec/tez/KillMoveTriggerActionHandler.java:        LOG.error("Exception while killing session {}", wmTezSession.getSessionId(), e);
+./ql/src/java/org/apache/hadoop/hive/ql/exec/tez/ReduceRecordProcessor.java:        LOG.error("Hit error while closing operators - failing tree");
+./ql/src/java/org/apache/hadoop/hive/ql/exec/tez/TezJobExecHelper.java:      LOG.error("Error getting tez method", e);
+./ql/src/java/org/apache/hadoop/hive/ql/exec/tez/TezJobExecHelper.java:      LOG.error("Could not stop tez dags: ", e);
+./ql/src/java/org/apache/hadoop/hive/ql/exec/tez/MapRecordProcessor.java:        LOG.error("Hit error while closing operators - failing tree");
+./ql/src/java/org/apache/hadoop/hive/ql/exec/tez/TezProcessor.java:        LOG.error("Cannot recover from this FATAL error", StringUtils.stringifyException(originalThrowable));
+./ql/src/java/org/apache/hadoop/hive/ql/exec/tez/TezProcessor.java:        LOG.error(StringUtils.stringifyException(originalThrowable));
+./ql/src/java/org/apache/hadoop/hive/ql/exec/tez/MergeFileRecordProcessor.java:        LOG.error("Hit error while closing operators - failing tree");
+./ql/src/java/org/apache/hadoop/hive/ql/exec/tez/MergeFileRecordProcessor.java:        LOG.error(StringUtils.stringifyException(e));
+./ql/src/java/org/apache/hadoop/hive/ql/exec/tez/DagUtils.java:          LOG.error("Could not find the jar that was being uploaded");
+./ql/src/java/org/apache/hadoop/hive/ql/exec/tez/WorkloadManager.java:      LOG.error("Workload management fatal error", t);
+./ql/src/java/org/apache/hadoop/hive/ql/exec/tez/WorkloadManager.java:        LOG.error("WM thread encountered an error but will attempt to continue", ex);
+./ql/src/java/org/apache/hadoop/hive/ql/exec/tez/WorkloadManager.java:              LOG.error("Failed to kill " + queryId + "; will try to restart AM instead" , ex);
+./ql/src/java/org/apache/hadoop/hive/ql/exec/tez/WorkloadManager.java:          LOG.error("Failed to restart an old session; ignoring", ex);
+./ql/src/java/org/apache/hadoop/hive/ql/exec/tez/WorkloadManager.java:          LOG.error("Failed to close an old session; ignoring " + ex.getMessage());
+./ql/src/java/org/apache/hadoop/hive/ql/exec/tez/WorkloadManager.java:          LOG.error("Failed to delete an old path; ignoring " + ex.getMessage());
+./ql/src/java/org/apache/hadoop/hive/ql/exec/tez/WorkloadManager.java:        LOG.error("Internal error - cannot find the context for killing {}", killQuerySession);
+./ql/src/java/org/apache/hadoop/hive/ql/exec/tez/WorkloadManager.java:        LOG.error("One query killed several times - internal error {}", killCtx.session);
+./ql/src/java/org/apache/hadoop/hive/ql/exec/tez/WorkloadManager.java:            LOG.error("Failed to move session: {}. Session is not added to destination.", moveSession);
+./ql/src/java/org/apache/hadoop/hive/ql/exec/tez/WorkloadManager.java:        LOG.error("Failed to move session: {}. Session is not removed from its pool.", moveSession);
+./ql/src/java/org/apache/hadoop/hive/ql/exec/tez/WorkloadManager.java:      LOG.error("Validation failed for move session: {}. Invalid move or session/pool got removed.", moveSession);
+./ql/src/java/org/apache/hadoop/hive/ql/exec/tez/WorkloadManager.java:      LOG.error("Cannot remove initializing session from the pool "
+./ql/src/java/org/apache/hadoop/hive/ql/exec/tez/WorkloadManager.java:        LOG.error("Cannot add new session to the pool "
+./ql/src/java/org/apache/hadoop/hive/ql/exec/tez/WorkloadManager.java:    LOG.error("Session was not in the pool (internal error) " + poolName + ": " + session);
+./ql/src/java/org/apache/hadoop/hive/ql/exec/tez/WorkloadManager.java:      LOG.error("Unexpected during add session to another pool. If remove failed this should not have been called.");
+./ql/src/java/org/apache/hadoop/hive/ql/exec/tez/WorkloadManager.java:    LOG.error("Session {} was not added to pool {}", session, destPoolName);
+./ql/src/java/org/apache/hadoop/hive/ql/exec/tez/WorkloadManager.java:      LOG.error("Error getting description", e);
+./ql/src/java/org/apache/hadoop/hive/ql/exec/tez/WorkloadManager.java:        LOG.error("Unknown scheduling policy " + schedulingPolicy + "; using FAIR");
+./ql/src/java/org/apache/hadoop/hive/ql/exec/tez/WorkloadManager.java:          LOG.error("Failed to retry; propagating original error. The new error is ", e);
+./ql/src/java/org/apache/hadoop/hive/ql/exec/tez/WorkloadManager.java:        LOG.error("Failed to restart a failed session", e);
+./ql/src/java/org/apache/hadoop/hive/ql/exec/tez/DynamicPartitionPruner.java:      LOG.error("Expecting: " + expectedEvents + ", received: " + totalEventCount);
+./ql/src/java/org/apache/hadoop/hive/ql/exec/tez/DynamicPartitionPruner.java:        LOG.error("expecting single field in input");
+./ql/src/java/org/apache/hadoop/hive/ql/exec/tez/MapRecordSource.java:        LOG.error(StringUtils.stringifyException(e));
+./ql/src/java/org/apache/hadoop/hive/ql/exec/tez/MapRecordSource.java:      LOG.error("Failed to close the reader; ignoring", ex);
+./ql/src/java/org/apache/hadoop/hive/ql/exec/tez/SessionExpirationTracker.java:          LOG.error("Failed to close or restart a session, ignoring", e);
+./ql/src/java/org/apache/hadoop/hive/ql/exec/tez/SessionExpirationTracker.java:            LOG.error("Failed to expire session " + nextToExpire + "; ignoring", e);
+./ql/src/java/org/apache/hadoop/hive/ql/exec/tez/HashTableLoader.java:              LOG.error(msg);
+./ql/src/java/org/apache/hadoop/hive/ql/exec/tez/TezSessionState.java:            LOG.error("Failed to start Tez session", t);
+./ql/src/java/org/apache/hadoop/hive/ql/exec/tez/TezSessionState.java:          LOG.error("Failed to delete the old resources directory "
+./ql/src/java/org/apache/hadoop/hive/ql/exec/ExplainSQRewriteTask.java:      LOG.error(org.apache.hadoop.util.StringUtils.stringifyException(e));
+./ql/src/java/org/apache/hadoop/hive/ql/exec/HashTableDummyOperator.java:      LOG.error("Generating output obj inspector from dummy object error", e);
+./ql/src/java/org/apache/hadoop/hive/ql/exec/ReplTxnTask.java:          LOG.error("Get database failed with exception " + e1.getMessage());
+./ql/src/java/org/apache/hadoop/hive/ql/exec/ReplTxnTask.java:        LOG.error("Get table failed with exception " + e.getMessage());
+./ql/src/java/org/apache/hadoop/hive/ql/exec/ReplTxnTask.java:        LOG.error("Operation Type " + work.getOperationType() + " is not supported ");
+./ql/src/java/org/apache/hadoop/hive/ql/exec/ReplTxnTask.java:      LOG.error("ReplTxnTask failed", e);
+./ql/src/java/org/apache/hadoop/hive/ql/exec/MapJoinOperator.java:      LOG.error(msg, e);
+./ql/src/java/org/apache/hadoop/hive/ql/exec/MapJoinOperator.java:                LOG.error("Processing the spilled data failed due to Kryo error!");
+./ql/src/java/org/apache/hadoop/hive/ql/exec/MapJoinOperator.java:                LOG.error("Cleaning up all spilled data!");
+./ql/src/java/org/apache/hadoop/hive/ql/exec/persistence/MapJoinBytesTableContainer.java:        LOG.error("Tag found in keys and will be removed. This should not happen.");
+./ql/src/java/org/apache/hadoop/hive/ql/exec/persistence/HybridHashTableContainer.java:      LOG.error("There is not enough memory to allocate " +
+./ql/src/java/org/apache/hadoop/hive/ql/exec/persistence/RowContainer.java:      LOG.error(e.toString(), e);
+./ql/src/java/org/apache/hadoop/hive/ql/exec/persistence/RowContainer.java:      LOG.error(e.getMessage(), e);
+./ql/src/java/org/apache/hadoop/hive/ql/exec/persistence/RowContainer.java:        LOG.error(e.getMessage(), e);
+./ql/src/java/org/apache/hadoop/hive/ql/exec/persistence/RowContainer.java:      LOG.error(e.toString());
+./ql/src/java/org/apache/hadoop/hive/ql/exec/persistence/RowContainer.java:          LOG.error("Error deleting tmp file:" + file.getAbsolutePath());
+./ql/src/java/org/apache/hadoop/hive/ql/exec/persistence/RowContainer.java:      LOG.error("Error deleting tmp file:" + file.getAbsolutePath(), e);
+./ql/src/java/org/apache/hadoop/hive/ql/exec/persistence/RowContainer.java:      LOG.error(e.toString(), e);
+./ql/src/java/org/apache/hadoop/hive/ql/exec/persistence/PTFRowContainer.java:        LOG.error(e.toString(), e);
+./ql/src/java/org/apache/hadoop/hive/ql/exec/persistence/PTFRowContainer.java:      LOG.error(e.toString(), e);
+./ql/src/java/org/apache/hadoop/hive/ql/exec/ScriptOperator.java:      LOG.error("Error in serializing the row: " + e.getMessage());
+./ql/src/java/org/apache/hadoop/hive/ql/exec/ScriptOperator.java:        LOG.error("Error in writing to script: " + e.getMessage());
+./ql/src/java/org/apache/hadoop/hive/ql/exec/ScriptOperator.java:          LOG.error("Script failed with code " + exitVal);
+./ql/src/java/org/apache/hadoop/hive/ql/exec/ScriptOperator.java:        LOG.error("Got exception", e);
+./ql/src/java/org/apache/hadoop/hive/ql/exec/ScriptOperator.java:        LOG.error("Script exited with code " + exitVal);
+./ql/src/java/org/apache/hadoop/hive/ql/exec/ScriptOperator.java:        LOG.error("Script has not exited yet. It will be killed.");
+./ql/src/java/org/apache/hadoop/hive/ql/exec/Task.java:      LOG.error(StringUtils.stringifyException(e));
+./ql/src/java/org/apache/hadoop/hive/ql/exec/ReplCopyTask.java:      LOG.error(StringUtils.stringifyException(e));
+./ql/src/java/org/apache/hadoop/hive/ql/exec/errors/TaskLogProcessor.java:        LOG.error("Bad task log URL", e);
+./ql/src/java/org/apache/hadoop/hive/ql/exec/errors/TaskLogProcessor.java:        LOG.error("Error while reading from task log URL", e);
+./ql/src/java/org/apache/hadoop/hive/ql/exec/PTFPartition.java:      LOG.error(e.toString(), e);
+./ql/src/java/org/apache/hadoop/hive/ql/exec/AbstractFileMergeOperator.java:      LOG.error(msg);
+./ql/src/java/org/apache/hadoop/hive/ql/exec/AbstractFileMergeOperator.java:              LOG.error("Unable to move " + incompatFile + " to " + destPath);
+./ql/src/java/org/apache/hadoop/hive/ql/exec/Registry.java:        LOG.error("Unable to load resources for " + qualifiedName + ":" + e, e);
+./ql/src/java/org/apache/hadoop/hive/ql/exec/Registry.java:        LOG.error(function.getClassName() + " is not a valid UDF class and was not registered.");
+./ql/src/java/org/apache/hadoop/hive/ql/exec/Registry.java:      LOG.error("Unable to load UDF class: " + e);
+./ql/src/java/org/apache/hadoop/hive/ql/exec/Registry.java:          LOG.error("Error in close loader: " + ie);
+./ql/src/java/org/apache/hadoop/hive/ql/exec/Registry.java:        LOG.error(func.getClassName() + " is not a valid UDF class and was not registered");
+./ql/src/java/org/apache/hadoop/hive/ql/exec/vector/mapjoin/fast/VectorMapJoinFastHashTableLoader.java:                LOG.error(msg);
+./ql/src/java/org/apache/hadoop/hive/ql/exec/vector/filesink/VectorFileSinkArrowOperator.java:      LOG.error("Unable to initialize VectorFileSinkArrowOperator");
+./ql/src/java/org/apache/hadoop/hive/ql/exec/vector/filesink/VectorFileSinkArrowOperator.java:      LOG.error("Failed to convert VectorizedRowBatch to Arrow batch");
+./ql/src/java/org/apache/hadoop/hive/ql/exec/vector/filesink/VectorFileSinkArrowOperator.java:      LOG.error("Failed to write Arrow stream schema");
+./ql/src/java/org/apache/hadoop/hive/ql/exec/vector/filesink/VectorFileSinkArrowOperator.java:        LOG.error("Failed to close Arrow stream");
+./ql/src/java/org/apache/hadoop/hive/ql/exec/schq/ScheduledQueryMaintenanceTask.java:      LOG.error("Failed", e);
+./ql/src/java/org/apache/hadoop/hive/ql/exec/ExplainTask.java:            LOG.error("Running explain user level has problem." +
+./ql/src/java/org/apache/hadoop/hive/ql/exec/ExplainTask.java:      LOG.error(org.apache.hadoop.util.StringUtils.stringifyException(e));
+./ql/src/java/org/apache/hadoop/hive/ql/exec/spark/SparkRecordHandler.java:            .setUncaughtExceptionHandler((Thread t, Throwable e) -> LOG.error(t + " throws exception: " + e))
+./ql/src/java/org/apache/hadoop/hive/ql/exec/spark/SparkPlanGenerator.java:      LOG.error(message, e);
+./ql/src/java/org/apache/hadoop/hive/ql/exec/spark/status/impl/RemoteSparkJobStatus.java:              LOG.error("Failed to run job " + sparkJobId, e);
+./ql/src/java/org/apache/hadoop/hive/ql/exec/spark/status/impl/RemoteSparkJobStatus.java:              LOG.error("Failed to run job " + sparkJobId, e);
+./ql/src/java/org/apache/hadoop/hive/ql/exec/spark/status/impl/LocalSparkJobStatus.java:        LOG.error("Failed to run job " + jobId, e);
+./ql/src/java/org/apache/hadoop/hive/ql/exec/spark/status/RemoteSparkJobMonitor.java:          LOG.error("Spark job[" + sparkJobStatus.getJobId() + "] failed", sparkJobStatus.getSparkJobException());
+./ql/src/java/org/apache/hadoop/hive/ql/exec/spark/status/LocalSparkJobMonitor.java:        LOG.error(msg, e);
+./ql/src/java/org/apache/hadoop/hive/ql/exec/spark/KryoSerializer.java:      LOG.error("Error serializing job configuration: " + e, e);
+./ql/src/java/org/apache/hadoop/hive/ql/exec/spark/KryoSerializer.java:        LOG.error("Error closing output stream: " + e, e);
+./ql/src/java/org/apache/hadoop/hive/ql/exec/spark/SparkReduceRecordHandler.java:        LOG.error(msg, e);
+./ql/src/java/org/apache/hadoop/hive/ql/exec/spark/SparkReduceRecordHandler.java:        LOG.error("Hit error while closing operators - failing tree");
+./ql/src/java/org/apache/hadoop/hive/ql/exec/spark/SparkMapRecordHandler.java:        LOG.error(msg, e);
+./ql/src/java/org/apache/hadoop/hive/ql/exec/spark/SparkMapRecordHandler.java:        LOG.error(msg, e);
+./ql/src/java/org/apache/hadoop/hive/ql/exec/spark/SparkTask.java:      LOG.error("Failed to execute Spark task \"" + getId() + "\"", e);
+./ql/src/java/org/apache/hadoop/hive/ql/exec/spark/SparkTask.java:          LOG.error("Failed to return the session to SessionManager", ex);
+./ql/src/java/org/apache/hadoop/hive/ql/exec/spark/SparkTask.java:      LOG.error("Failed to get Spark job information", e);
+./ql/src/java/org/apache/hadoop/hive/ql/exec/spark/SparkPlan.java:        LOG.error("Error while generating explain plan for " + tran.getName(), e);
+./ql/src/java/org/apache/hadoop/hive/ql/exec/spark/session/SparkSessionImpl.java:              LOG.error("Failed to close Hive on Spark session (" + sessionId + ")", e);
+./ql/src/java/org/apache/hadoop/hive/ql/udf/generic/GenericUDTFGetSQLSchema.java:      LOG.error("Got " + arguments[0].getTypeName() + " instead of string.");
+./ql/src/java/org/apache/hadoop/hive/ql/udf/generic/GenericUDTFJSONTuple.java:      LOG.error("JSON parsing/evaluation exception" + e);
+./ql/src/java/org/apache/hadoop/hive/ql/udf/generic/GenericUDTFJSONTuple.java:      LOG.error("The input is not a valid JSON string: " + jsonStr +
+./ql/src/java/org/apache/hadoop/hive/ql/udf/generic/GenericUDTFParseUrlTuple.java:        LOG.error("The input is not a valid url string: " + urlStr + ". Skipping such error messages in the future.");
+./ql/src/java/org/apache/hadoop/hive/ql/udf/generic/GenericUDTFGetSplits.java:      LOG.error("Got " + arguments[0].getTypeName() + " instead of string.");
+./ql/src/java/org/apache/hadoop/hive/ql/udf/generic/GenericUDTFGetSplits.java:      LOG.error("Got " + arguments[1].getTypeName() + " instead of int.");
+./ql/src/java/org/apache/hadoop/hive/ql/udf/generic/GenericUDTFGetSplits.java:        LOG.error("Error closing driver resources", err);
+./ql/src/java/org/apache/hadoop/hive/ql/DriverTxnHandler.java:      LOG.error("rollback() FAILED: " + cpe); //make sure not to loose
+./ql/src/java/org/apache/hadoop/hive/ql/scheduled/MetastoreBasedScheduledQueryService.java:      LOG.error("Exception while polling scheduled queries", e);
+./ql/src/java/org/apache/hadoop/hive/ql/scheduled/MetastoreBasedScheduledQueryService.java:      LOG.error("Exception while updating scheduled execution status of: " + info.getScheduledExecutionId(), e);
+./ql/src/java/org/apache/hadoop/hive/ql/scheduled/ScheduledQueryExecutionService.java:              LOG.error("Unexpected exception during scheduled query submission", t);
+./ql/src/java/org/apache/hadoop/hive/ql/scheduled/ScheduledQueryExecutionService.java:            LOG.error("ProgressReporter encountered exception ", e);
+./ql/src/java/org/apache/hadoop/hive/ql/metadata/PartitionTree.java:      LOG.error("JavaScript script engine is not found, therefore partition filtering "
+./ql/src/java/org/apache/hadoop/hive/ql/metadata/Table.java:      LOG.error("Unable to get field from serde: " + serializationLib, e);
+./ql/src/java/org/apache/hadoop/hive/ql/metadata/Hive.java:        LOG.error(StringUtils.stringifyException(e));
+./ql/src/java/org/apache/hadoop/hive/ql/metadata/Hive.java:      LOG.error(StringUtils.stringifyException(e));
+./ql/src/java/org/apache/hadoop/hive/ql/metadata/Hive.java:        LOG.error(StringUtils.stringifyException(e));
+./ql/src/java/org/apache/hadoop/hive/ql/metadata/Hive.java:        LOG.error("Could not delete partition directory contents after failed partition creation: ", io);
+./ql/src/java/org/apache/hadoop/hive/ql/metadata/Hive.java:      LOG.error(StringUtils.stringifyException(e));
+./ql/src/java/org/apache/hadoop/hive/ql/metadata/Hive.java:        LOG.error("Could not delete partition directory contents after failed partition creation: ", io);
+./ql/src/java/org/apache/hadoop/hive/ql/metadata/Hive.java:      LOG.error(StringUtils.stringifyException(e));
+./ql/src/java/org/apache/hadoop/hive/ql/metadata/Hive.java:      LOG.error("Error listing files", e);
+./ql/src/java/org/apache/hadoop/hive/ql/metadata/Hive.java:          LOG.error("Exception when loading partition with parameters "
+./ql/src/java/org/apache/hadoop/hive/ql/metadata/Hive.java:      LOG.error(StringUtils.stringifyException(e));
+./ql/src/java/org/apache/hadoop/hive/ql/metadata/Hive.java:      LOG.error(logMsg.toString(), e);
+./ql/src/java/org/apache/hadoop/hive/ql/metadata/Hive.java:      LOG.error(StringUtils.stringifyException(te));
+./ql/src/java/org/apache/hadoop/hive/ql/metadata/Hive.java:      LOG.error(StringUtils.stringifyException(e));
+./ql/src/java/org/apache/hadoop/hive/ql/metadata/Hive.java:      LOG.error(StringUtils.stringifyException(e));
+./ql/src/java/org/apache/hadoop/hive/ql/metadata/Hive.java:      LOG.error(StringUtils.stringifyException(e));
+./ql/src/java/org/apache/hadoop/hive/ql/metadata/Hive.java:      LOG.error(StringUtils.stringifyException(e));
+./ql/src/java/org/apache/hadoop/hive/ql/metadata/Hive.java:      LOG.error(StringUtils.stringifyException(e));
+./ql/src/java/org/apache/hadoop/hive/ql/metadata/Hive.java:      LOG.error(StringUtils.stringifyException(e));
+./ql/src/java/org/apache/hadoop/hive/ql/metadata/Hive.java:      LOG.error(StringUtils.stringifyException(e));
+./ql/src/java/org/apache/hadoop/hive/ql/metadata/Hive.java:      LOG.error(StringUtils.stringifyException(e));
+./ql/src/java/org/apache/hadoop/hive/ql/metadata/Hive.java:      LOG.error(StringUtils.stringifyException(e));
+./ql/src/java/org/apache/hadoop/hive/ql/metadata/Hive.java:      LOG.error(StringUtils.stringifyException(e));
+./ql/src/java/org/apache/hadoop/hive/ql/metadata/Hive.java:      LOG.error(StringUtils.stringifyException(e));
+./ql/src/java/org/apache/hadoop/hive/ql/metadata/Hive.java:          LOG.error(StringUtils.stringifyException(e));
+./ql/src/java/org/apache/hadoop/hive/ql/metadata/Hive.java:      LOG.error(StringUtils.stringifyException(e));
+./ql/src/java/org/apache/hadoop/hive/ql/metadata/Hive.java:      LOG.error(StringUtils.stringifyException(e));
+./ql/src/java/org/apache/hadoop/hive/ql/metadata/Hive.java:        LOG.error("Copy failed for source: " + sourcePath + " to destination: " + destFilePath);
+./ql/src/java/org/apache/hadoop/hive/ql/metadata/Hive.java:      LOG.error("Failed to get source file statuses", e);
+./ql/src/java/org/apache/hadoop/hive/ql/metadata/Hive.java:      LOG.error("Failed to get dest fs", e);
+./ql/src/java/org/apache/hadoop/hive/ql/metadata/Hive.java:      LOG.error("Failed to get src fs", e);
+./ql/src/java/org/apache/hadoop/hive/ql/metadata/Hive.java:          LOG.error("Failed to move: {}", he.getMessage());
+./ql/src/java/org/apache/hadoop/hive/ql/metadata/Hive.java:          LOG.error("Failed to move: {}", he.getRemoteErrorMsg());
+./ql/src/java/org/apache/hadoop/hive/ql/metadata/Hive.java:      LOG.error("Failed to move: {}", e.getMessage());
+./ql/src/java/org/apache/hadoop/hive/ql/metadata/Hive.java:      LOG.error(StringUtils.stringifyException(e));
+./ql/src/java/org/apache/hadoop/hive/ql/metadata/Hive.java:        LOG.error(msg);
+./ql/src/java/org/apache/hadoop/hive/ql/metadata/Hive.java:          LOG.error("Failed to delete: ",e);
+./ql/src/java/org/apache/hadoop/hive/ql/metadata/Hive.java:      LOG.error(StringUtils.stringifyException(ex));
+./ql/src/java/org/apache/hadoop/hive/ql/metadata/Hive.java:      LOG.error(StringUtils.stringifyException(ex));
+./ql/src/java/org/apache/hadoop/hive/ql/metadata/Hive.java:        LOG.error(msg, e);
+./ql/src/java/org/apache/hadoop/hive/ql/metadata/Hive.java:            LOG.error("Cannot initialize metastore due to autoCreate error", t);
+./ql/src/java/org/apache/hadoop/hive/ql/metadata/Hive.java:      LOG.error(StringUtils.stringifyException(e));
+./ql/src/java/org/apache/hadoop/hive/ql/metadata/Hive.java:      LOG.error(StringUtils.stringifyException(e));
+./ql/src/java/org/apache/hadoop/hive/ql/metadata/Hive.java:      LOG.error(StringUtils.stringifyException(e));
+./ql/src/java/org/apache/hadoop/hive/ql/metadata/Hive.java:      LOG.error(StringUtils.stringifyException(e));
+./ql/src/java/org/apache/hadoop/hive/ql/metadata/Hive.java:      LOG.error(StringUtils.stringifyException(e));
+./ql/src/java/org/apache/hadoop/hive/ql/metadata/Hive.java:      LOG.error(StringUtils.stringifyException(e));
+./ql/src/java/org/apache/hadoop/hive/ql/metadata/HiveMaterializedViewsRegistry.java:      LOG.error("Problem connecting to the metastore when initializing the view registry", e);
+./ql/src/java/org/apache/hadoop/hive/ql/metadata/HiveMaterializedViewsRegistry.java:          LOG.error("Problem connecting to the metastore when refreshing the view registry", e);
+./ql/src/java/org/apache/hadoop/hive/ql/metadata/HiveMaterializedViewsRegistry.java:          LOG.error("Problem connecting to the metastore when initializing the view registry", e);
+./ql/src/java/org/apache/hadoop/hive/ql/metadata/Partition.java:      LOG.error("Unable to get cols from serde: " +
+./ql/src/java/org/apache/hadoop/hive/ql/metadata/events/NotificationEventPoll.java:              LOG.error("Error processing notification event " + event, err);
+./ql/src/java/org/apache/hadoop/hive/ql/metadata/events/NotificationEventPoll.java:        LOG.error("Error polling for notification events", err);
+./ql/src/java/org/apache/hadoop/hive/ql/metadata/SessionHiveMetaStoreClient.java:        LOG.error("Failed to delete temp table directory: " + tablePath, err);
+./ql/src/java/org/apache/hadoop/hive/ql/metadata/SessionHiveMetaStoreClient.java:      LOG.error("Error getting query id. Query level HMS caching will be disabled", e);
+./ql/src/java/org/apache/hadoop/hive/ql/stats/StatsUtils.java:        LOG.error("Failed to retrieve table statistics: ", e);
+./ql/src/java/org/apache/hadoop/hive/ql/stats/StatsUpdaterThread.java:      LOG.error("Stats updater thread cannot retrieve tables and will now exit", t);
+./ql/src/java/org/apache/hadoop/hive/ql/stats/StatsUpdaterThread.java:        LOG.error("Failed to process " + fullTableName + "; skipping for now", e);
+./ql/src/java/org/apache/hadoop/hive/ql/stats/StatsUpdaterThread.java:        LOG.error("Cannot get writeIds for transactional table " + fullTableName + "; skipping");
+./ql/src/java/org/apache/hadoop/hive/ql/stats/StatsUpdaterThread.java:          LOG.error("Failed to get partitions for " + fullTableName + ", skipping some partitions", e);
+./ql/src/java/org/apache/hadoop/hive/ql/stats/StatsUpdaterThread.java:      LOG.error("Cannot retrieve existing stats, skipping " + fullTableName, e);
+./ql/src/java/org/apache/hadoop/hive/ql/stats/StatsUpdaterThread.java:        LOG.error("Error from getTablesWithStats, getting all the tables", ex);
+./ql/src/java/org/apache/hadoop/hive/ql/stats/StatsUpdaterThread.java:      LOG.error("Analyze command failed: " + cmd, e);
+./ql/src/java/org/apache/hadoop/hive/ql/stats/StatsUpdaterThread.java:      LOG.error("Failed to close the session", e1);
+./ql/src/java/org/apache/hadoop/hive/ql/stats/StatsFactory.java:      LOG.error(type + " Publisher/Aggregator classes cannot be loaded.", e);
+./ql/src/java/org/apache/hadoop/hive/ql/stats/fs/FSStatsPublisher.java:      LOG.error("Failed to create dir", e);
+./ql/src/java/org/apache/hadoop/hive/ql/stats/fs/FSStatsPublisher.java:      LOG.error("Failed to check if dir exists", e);
+./ql/src/java/org/apache/hadoop/hive/ql/stats/fs/FSStatsAggregator.java:      LOG.error("Failed to delete stats dir", e);
+./ql/src/java/org/apache/hadoop/hive/ql/stats/ColStatsProcessor.java:      LOG.error(StringUtils.stringifyException(e));
+./ql/src/java/org/apache/hadoop/hive/ql/debug/Utils.java:      LOG.error("com.sun.management.HotSpotDiagnosticMXBean is not supported.", ce);
+./ql/src/java/org/apache/hadoop/hive/ql/debug/Utils.java:      LOG.error("Failed to inject operation dumpHeap.", ne);
+./ql/src/java/org/apache/hadoop/hive/ql/debug/Utils.java:      LOG.error(e.getMessage());
+./ql/src/java/org/apache/hadoop/hive/ql/debug/Utils.java:        LOG.error(e.getMessage());
+./ql/src/java/org/apache/hadoop/hive/ql/debug/Utils.java:        LOG.error(re.getMessage());
+./ql/src/java/org/apache/hadoop/hive/ql/debug/Utils.java:        LOG.error(exp.getMessage());
+./ql/src/java/org/apache/hadoop/hive/ql/debug/Utils.java:      LOG.error("Cannot find method dumpHeap() in com.sun.management.HotSpotDiagnosticMXBean.");
+./ql/src/java/org/apache/hadoop/hive/ql/session/OperationLog.java:        LOG.error("Failed to remove corresponding log file of operation: {}", operationName, e);
+./ql/src/java/org/apache/hadoop/hive/ql/session/SessionState.java:          LOG.error("Failed while closing remoteFsSessionLockFile", e);
+./ql/src/java/org/apache/hadoop/hive/ql/session/SessionState.java:      LOG.error("Failed to delete path at {} on fs with scheme {}", path,
+./ql/src/java/org/apache/hadoop/hive/ql/session/SessionState.java:      LOG.error("Error setting up authorization: " + e.getMessage(), e);
+./ql/src/java/org/apache/hadoop/hive/ql/session/SessionState.java:      LOG.error(error + StringUtils.defaultString(detail));
+./ql/src/java/org/apache/hadoop/hive/ql/session/SessionState.java:        LOG.error("Error processing SessionState cleanup item " + cleanupItem.toString(), err);
+./ql/src/java/org/apache/hadoop/hive/ql/session/SessionState.java:        LOG.error("Error closing spark session.", ex);
+./serde/src/test/org/apache/hadoop/hive/serde2/io/TestDateWritableV2.java:    LOG.error(errors.toString());
+./serde/src/java/org/apache/hadoop/hive/serde2/DelimitedJSONSerDe.java:    LOG.error("DelimitedJSONSerDe cannot deserialize.");
+./testutils/ptest2/src/main/java/org/apache/hive/ptest/execution/context/CloudExecutionContextProvider.java:            LOG.error("Unexpected error in background worker", e);
+./testutils/ptest2/src/main/java/org/apache/hive/ptest/execution/context/CloudExecutionContextProvider.java:                LOG.error("Node " + node + " is bad on startup", command.getException());
+./testutils/ptest2/src/main/java/org/apache/hive/ptest/execution/context/CloudExecutionContextProvider.java:          LOG.error("Verify command still executing on a host after 10 minutes");
+./testutils/ptest2/src/main/java/org/apache/hive/ptest/execution/context/CloudExecutionContextProvider.java:          LOG.error("Error attempting to terminate host " + node, e);
+./testutils/ptest2/src/main/java/org/apache/hive/ptest/execution/context/CloudExecutionContextProvider.java:      LOG.error("Requested termination of " + hosts.size() + " but found only "
+./testutils/ptest2/src/main/java/org/apache/hive/ptest/execution/LogDirectoryCleaner.java:      LOG.error("Unexpected error cleaning " + mLogDir, t);
+./testutils/ptest2/src/main/java/org/apache/hive/ptest/api/server/TestExecutor.java:        LOG.error("Unxpected Error", e);
+./testutils/ptest2/src/main/java/org/apache/hive/ptest/api/server/ExecutionController.java:          LOG.error("Error shutting down TestExecutor", e);
+./testutils/ptest2/src/main/java/org/apache/hive/ptest/api/server/ExecutionController.java:          LOG.error("Error shutting down ExecutionContextProvider", e);
+./metastore/src/java/org/apache/hadoop/hive/metastore/HiveMetaStoreUtils.java:        LOG.error("error in initSerDe: " + e.getClass().getName() + " " + e.getMessage(), e);
+./metastore/src/java/org/apache/hadoop/hive/metastore/HiveMetaStoreUtils.java:      LOG.error("error in initSerDe: " + e.getClass().getName() + " "
+./metastore/src/java/org/apache/hadoop/hive/metastore/HiveProtoEventsCleanerTask.java:          LOG.error("Error deleting expired proto events dir " + dir.getPath(), ioe);
+./metastore/src/java/org/apache/hadoop/hive/metastore/HiveProtoEventsCleanerTask.java:      LOG.error("Error while trying to delete expired proto events from " + eventsBasePath, e);
+./metastore/src/java/org/apache/hadoop/hive/metastore/HiveProtoEventsCleanerTask.java:        LOG.error("Could not delete " + eventsDir.getPath() + " for UGI: " + ugi, ie);
+./metastore/src/java/org/apache/hadoop/hive/metastore/filemeta/OrcFileMetadataHandler.java:        LOG.error("Failed to apply SARG to metadata", ex);
